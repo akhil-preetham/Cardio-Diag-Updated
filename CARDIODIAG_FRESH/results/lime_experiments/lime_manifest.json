@@ -1,0 +1,112 @@
+[
+  {
+    "dataset": "five_states",
+    "track": "author_faithful",
+    "method": "osec",
+    "model": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\ensemble_experiments\\five_states\\author_faithful\\osec\\model.joblib",
+    "n_features": 20,
+    "representative_indices": [
+      187,
+      95
+    ]
+  },
+  {
+    "dataset": "five_states",
+    "track": "compatibility_adapted",
+    "method": "ovec",
+    "model": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\ensemble_experiments\\five_states\\compatibility_adapted\\ovec\\model.joblib",
+    "n_features": 20,
+    "representative_indices": [
+      100,
+      229
+    ]
+  },
+  {
+    "dataset": "five_states",
+    "track": "compatibility_adapted",
+    "method": "osec",
+    "model": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\ensemble_experiments\\five_states\\compatibility_adapted\\osec\\model.joblib",
+    "n_features": 20,
+    "representative_indices": [
+      187,
+      95
+    ]
+  },
+  {
+    "dataset": "five_states",
+    "track": "corrected",
+    "method": "ovec",
+    "model": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\ensemble_experiments\\five_states\\corrected\\ovec\\model.joblib",
+    "n_features": 20,
+    "representative_indices": [
+      208,
+      63
+    ]
+  },
+  {
+    "dataset": "five_states",
+    "track": "corrected",
+    "method": "osec",
+    "model": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\ensemble_experiments\\five_states\\corrected\\osec\\model.joblib",
+    "n_features": 20,
+    "representative_indices": [
+      187,
+      51
+    ]
+  },
+  {
+    "dataset": "mendeley",
+    "track": "author_faithful",
+    "method": "osec",
+    "model": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\ensemble_experiments\\mendeley\\author_faithful\\osec\\model.joblib",
+    "n_features": 12,
+    "representative_indices": [
+      104,
+      87
+    ]
+  },
+  {
+    "dataset": "mendeley",
+    "track": "compatibility_adapted",
+    "method": "ovec",
+    "model": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\ensemble_experiments\\mendeley\\compatibility_adapted\\ovec\\model.joblib",
+    "n_features": 12,
+    "representative_indices": [
+      69,
+      91
+    ]
+  },
+  {
+    "dataset": "mendeley",
+    "track": "compatibility_adapted",
+    "method": "osec",
+    "model": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\ensemble_experiments\\mendeley\\compatibility_adapted\\osec\\model.joblib",
+    "n_features": 12,
+    "representative_indices": [
+      104,
+      87
+    ]
+  },
+  {
+    "dataset": "mendeley",
+    "track": "corrected",
+    "method": "ovec",
+    "model": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\ensemble_experiments\\mendeley\\corrected\\ovec\\model.joblib",
+    "n_features": 12,
+    "representative_indices": [
+      106,
+      229
+    ]
+  },
+  {
+    "dataset": "mendeley",
+    "track": "corrected",
+    "method": "osec",
+    "model": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\ensemble_experiments\\mendeley\\corrected\\osec\\model.joblib",
+    "n_features": 12,
+    "representative_indices": [
+      247,
+      4
+    ]
+  }
+]

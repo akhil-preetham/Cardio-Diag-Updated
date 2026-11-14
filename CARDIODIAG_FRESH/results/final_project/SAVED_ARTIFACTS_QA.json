@@ -1,0 +1,451 @@
+{
+  "python": "3.11.16",
+  "model_fitting_performed": false,
+  "zas": {
+    "benchmark_rows": 36,
+    "selection_rows": 288,
+    "unique_prediction_keys": 21816,
+    "prediction_rows": 21816,
+    "candidate_count_checks": [
+      {
+        "group": "basic_risk",
+        "model": "elastic_net",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "basic_risk",
+        "model": "hist_gradient_boosting",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "basic_risk",
+        "model": "logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "basic_risk",
+        "model": "random_forest",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "basic_risk",
+        "model": "ridge",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "basic_risk",
+        "model": "spline_logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "eligible_combined",
+        "model": "elastic_net",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "eligible_combined",
+        "model": "hist_gradient_boosting",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "eligible_combined",
+        "model": "logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0,
+        "recomputed_metrics": {
+          "n": 303,
+          "events": 216,
+          "roc_auc": 0.9282141336739038,
+          "pr_auc": 0.9668302656792486,
+          "sensitivity": 0.9259259259259259,
+          "specificity": 0.7126436781609196,
+          "precision": 0.8888888888888888,
+          "npv": 0.7948717948717948,
+          "f1": 0.9070294784580499,
+          "balanced_accuracy": 0.8192848020434227,
+          "brier": 0.09642426066691591,
+          "log_loss": 0.3141080938282456,
+          "calibration_intercept": -0.16719117993962565,
+          "calibration_slope": 1.307456804330107
+        },
+        "benchmark_matches": true
+      },
+      {
+        "group": "eligible_combined",
+        "model": "random_forest",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "eligible_combined",
+        "model": "ridge",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0,
+        "recomputed_metrics": {
+          "n": 303,
+          "events": 216,
+          "roc_auc": 0.9282141336739038,
+          "pr_auc": 0.9668302656792486,
+          "sensitivity": 0.9259259259259259,
+          "specificity": 0.7126436781609196,
+          "precision": 0.8888888888888888,
+          "npv": 0.7948717948717948,
+          "f1": 0.9070294784580499,
+          "balanced_accuracy": 0.8192848020434227,
+          "brier": 0.09642426066691591,
+          "log_loss": 0.3141080938282456,
+          "calibration_intercept": -0.16719117993962565,
+          "calibration_slope": 1.307456804330107
+        },
+        "benchmark_matches": true
+      },
+      {
+        "group": "eligible_combined",
+        "model": "spline_logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "laboratory",
+        "model": "elastic_net",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "laboratory",
+        "model": "hist_gradient_boosting",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "laboratory",
+        "model": "logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "laboratory",
+        "model": "random_forest",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "laboratory",
+        "model": "ridge",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "laboratory",
+        "model": "spline_logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "resting_ecg",
+        "model": "elastic_net",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "resting_ecg",
+        "model": "hist_gradient_boosting",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "resting_ecg",
+        "model": "logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "resting_ecg",
+        "model": "random_forest",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "resting_ecg",
+        "model": "ridge",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "resting_ecg",
+        "model": "spline_logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "symptoms_examination",
+        "model": "elastic_net",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "symptoms_examination",
+        "model": "hist_gradient_boosting",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "symptoms_examination",
+        "model": "logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "symptoms_examination",
+        "model": "random_forest",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "symptoms_examination",
+        "model": "ridge",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "symptoms_examination",
+        "model": "spline_logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "v3_five_predictor",
+        "model": "elastic_net",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "v3_five_predictor",
+        "model": "hist_gradient_boosting",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "v3_five_predictor",
+        "model": "logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "v3_five_predictor",
+        "model": "random_forest",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "v3_five_predictor",
+        "model": "ridge",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      },
+      {
+        "group": "v3_five_predictor",
+        "model": "spline_logistic",
+        "prediction_rows": 606,
+        "source_rows": 303,
+        "repeats_per_row": [
+          2
+        ],
+        "label_conflicts": 0
+      }
+    ],
+    "logistic_ridge_max_probability_difference": 0.0
+  },
+  "uci_duplicate_sensitivity": {
+    "duplicate_groups": 2,
+    "later_duplicate_keys": [
+      [
+        "Hungary",
+        102
+      ],
+      [
+        "VA Long Beach",
+        187
+      ]
+    ],
+    "corrected_pooled_rows_after_exclusion": 918,
+    "corrected_metrics_path": "results\\final_project\\UCI_DUPLICATE_SENSITIVITY_CORRECTED.csv"
+  },
+  "integrity": {
+    "python_source_files_parsed": 115,
+    "required_csv_data_rows": {
+      "results\\phase5\\zas_track\\ZAS_NESTED_VALIDATION_PREDICTIONS.csv": 21816,
+      "results\\phase5\\zas_track\\ZAS_MODEL_BENCHMARK.csv": 36,
+      "results\\phase4_improvement\\IECV_FINAL_PREDICTIONS.csv": 3680,
+      "results\\phase4_validation_audit\\PAIRED_STAGE_COMPARISONS.csv": 20
+    },
+    "manifests": [
+      {
+        "manifest": "results\\phase5\\manifests\\PHASE5_MANIFEST.json",
+        "declared_outputs": 40,
+        "present_and_hash_matched": 40,
+        "mismatches": []
+      },
+      {
+        "manifest": "results\\phase4_uci_multicentre\\PHASE4_REPRODUCIBILITY_MANIFEST.json",
+        "declared_outputs": 34,
+        "present_and_hash_matched": 34,
+        "mismatches": []
+      },
+      {
+        "manifest": "results\\phase4_validation_audit\\PHASE4_3_MANIFEST.json",
+        "declared_outputs": 43,
+        "present_and_hash_matched": 43,
+        "mismatches": []
+      }
+    ]
+  }
+}

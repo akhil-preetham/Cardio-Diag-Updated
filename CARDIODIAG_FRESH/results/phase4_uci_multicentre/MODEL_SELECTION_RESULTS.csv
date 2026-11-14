@@ -1,0 +1,25 @@
+feature_set,model,held_out_centre,n_train,n_test,best_params,inner_best_roc_auc
+strict,logistic,Cleveland,617,303,"{""model__C"": 10.0, ""model__class_weight"": null}",0.7664124328250572
+strict,random_forest,Cleveland,617,303,"{""model__class_weight"": null, ""model__max_depth"": null, ""model__min_samples_leaf"": 8}",0.7931445262233521
+strict,hist_gradient_boosting,Cleveland,617,303,"{""model__l2_regularization"": 1.0, ""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",0.7667321141036414
+strict,logistic,Hungary,626,294,"{""model__C"": 1.0, ""model__class_weight"": null}",0.7510725135013501
+strict,random_forest,Hungary,626,294,"{""model__class_weight"": ""balanced"", ""model__max_depth"": 5, ""model__min_samples_leaf"": 2}",0.7758099604603318
+strict,hist_gradient_boosting,Hungary,626,294,"{""model__l2_regularization"": 1.0, ""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",0.7644813030410185
+strict,logistic,Switzerland,797,123,"{""model__C"": 10.0, ""model__class_weight"": null}",0.738168449498011
+strict,random_forest,Switzerland,797,123,"{""model__class_weight"": ""balanced"", ""model__max_depth"": null, ""model__min_samples_leaf"": 8}",0.742721869125688
+strict,hist_gradient_boosting,Switzerland,797,123,"{""model__l2_regularization"": 1.0, ""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",0.7202878655212459
+strict,logistic,VA Long Beach,720,200,"{""model__C"": 0.1, ""model__class_weight"": null}",0.7528703703703704
+strict,random_forest,VA Long Beach,720,200,"{""model__class_weight"": ""balanced"", ""model__max_depth"": 5, ""model__min_samples_leaf"": 2}",0.7847222222222222
+strict,hist_gradient_boosting,VA Long Beach,720,200,"{""model__l2_regularization"": 1.0, ""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",0.7705246913580248
+exploratory,logistic,Cleveland,617,303,"{""model__C"": 10.0, ""model__class_weight"": null}",0.860412233559275
+exploratory,random_forest,Cleveland,617,303,"{""model__class_weight"": null, ""model__max_depth"": 5, ""model__min_samples_leaf"": 8}",0.8612805756160489
+exploratory,hist_gradient_boosting,Cleveland,617,303,"{""model__l2_regularization"": 0.0, ""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",0.8425876536120385
+exploratory,logistic,Hungary,626,294,"{""model__C"": 0.1, ""model__class_weight"": null}",0.8337952857785779
+exploratory,random_forest,Hungary,626,294,"{""model__class_weight"": ""balanced"", ""model__max_depth"": 5, ""model__min_samples_leaf"": 2}",0.848411260768934
+exploratory,hist_gradient_boosting,Hungary,626,294,"{""model__l2_regularization"": 1.0, ""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",0.830119703934679
+exploratory,logistic,Switzerland,797,123,"{""model__C"": 0.1, ""model__class_weight"": ""balanced""}",0.8600747115527879
+exploratory,random_forest,Switzerland,797,123,"{""model__class_weight"": null, ""model__max_depth"": 5, ""model__min_samples_leaf"": 8}",0.8547728905543615
+exploratory,hist_gradient_boosting,Switzerland,797,123,"{""model__l2_regularization"": 1.0, ""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",0.8385710254698939
+exploratory,logistic,VA Long Beach,720,200,"{""model__C"": 0.1, ""model__class_weight"": null}",0.865030864197531
+exploratory,random_forest,VA Long Beach,720,200,"{""model__class_weight"": null, ""model__max_depth"": 5, ""model__min_samples_leaf"": 2}",0.8815740740740741
+exploratory,hist_gradient_boosting,VA Long Beach,720,200,"{""model__l2_regularization"": 1.0, ""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",0.8822376543209878

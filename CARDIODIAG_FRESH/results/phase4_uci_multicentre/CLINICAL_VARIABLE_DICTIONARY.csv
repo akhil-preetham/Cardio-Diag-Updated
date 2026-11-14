@@ -1,0 +1,15 @@
+original_variable,clinical_meaning,type,units,source_missingness,prediagnostic_plausibility,baseline_role,decision
+age,age,Integer,years,?,yes,strict,include
+sex,recorded sex,Categorical,source coding,?,yes,strict,include
+cp,chest pain type,Categorical,source coding,?,yes,exploratory,include only in expanded presentation model
+trestbps,resting blood pressure on admission,Integer,mm Hg,?,yes,strict,include
+chol,serum cholesterol,Integer,mg/dL,?,yes,strict,include
+fbs,fasting blood sugar >120,Categorical,source binary,?,yes,strict,include
+restecg,resting ECG result,Categorical,source coding,?,yes,strict,include
+thalach,maximum heart rate achieved,Integer,bpm,?,exercise-test timing,exploratory,exclude strict
+exang,exercise-induced angina,Categorical,source binary,?,exercise-test timing,exploratory,exclude strict
+oldpeak,ST depression induced by exercise,Integer,source units,?,exercise-test timing,exploratory,exclude strict
+slope,peak exercise ST slope,Categorical,source coding,?,exercise-test timing and high missingness,excluded,exclude
+ca,major vessels colored by fluoroscopy,Integer,count,?,post-diagnostic,excluded,exclude
+thal,thalassemia test/result,Categorical,source coding,?,diagnostic-context uncertain,excluded,exclude
+num,angiographic disease status,Target,0-4,not missing,post-diagnostic outcome,target,not predictor

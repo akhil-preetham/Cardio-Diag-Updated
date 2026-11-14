@@ -1,0 +1,13 @@
+dataset,endpoint,evidence,decision,class
+z_alizadeh_sani,angiographic CAD >=50%,303 patients; Cath target,direct development cohort,A
+uci_heart_disease_cleveland,angiographic num 0 versus 1-4,303 records; source target,related centre benchmark; not ZAS external validation,B
+statlog_heart,heart disease classification,270 records; potential Cleveland provenance relationship,possible related benchmark; independence unresolved,B
+mendeley,supplied cardiovascular target,1000 records; patientid,separate benchmark; endpoint compatibility unresolved,B
+kaggle_cvd_70000,cardio disease presence,70000 records; no angiographic endpoint,proxy endpoint only,D
+AngioCAD,angiographic image labels,413 labels; 377 clinical rows; image archive not acquired,separate image/clinical task,C
+MultiD4CAD,CT/multimodal CAD,restricted DUA,conditional separate CT study,B
+CADICA,invasive angiography imaging,small imaging cohort,modality-specific research,C
+PTB-XL,ECG diagnoses,patient metadata and ECG records,ECG task; not angiographic validation,C
+MIMIC-IV,EHR phenotype,phenotype must be newly ascertained,proxy endpoint only,D
+eICU,ICU EHR phenotype,endpoint not fixed,proxy endpoint only,D
+NHANES,survey risk factors,no angiographic endpoint,proxy endpoint only,D

@@ -1,0 +1,57 @@
+centre,variable,n,missing,missing_fraction,events
+Cleveland,age,303,0,0.0,0
+Cleveland,sex,303,0,0.0,0
+Cleveland,cp,303,0,0.0,0
+Cleveland,trestbps,303,0,0.0,0
+Cleveland,chol,303,0,0.0,0
+Cleveland,fbs,303,0,0.0,0
+Cleveland,restecg,303,0,0.0,0
+Cleveland,thalach,303,0,0.0,0
+Cleveland,exang,303,0,0.0,0
+Cleveland,oldpeak,303,0,0.0,0
+Cleveland,slope,303,0,0.0,0
+Cleveland,ca,303,4,0.013201320132013201,1
+Cleveland,thal,303,2,0.006600660066006601,1
+Cleveland,num,303,0,0.0,0
+Hungary,age,294,0,0.0,0
+Hungary,sex,294,0,0.0,0
+Hungary,cp,294,0,0.0,0
+Hungary,trestbps,294,1,0.003401360544217687,0
+Hungary,chol,294,23,0.0782312925170068,5
+Hungary,fbs,294,8,0.027210884353741496,2
+Hungary,restecg,294,1,0.003401360544217687,1
+Hungary,thalach,294,1,0.003401360544217687,0
+Hungary,exang,294,1,0.003401360544217687,0
+Hungary,oldpeak,294,0,0.0,0
+Hungary,slope,294,190,0.6462585034013606,33
+Hungary,ca,294,291,0.9897959183673469,105
+Hungary,thal,294,266,0.9047619047619048,93
+Hungary,num,294,0,0.0,0
+Switzerland,age,123,0,0.0,0
+Switzerland,sex,123,0,0.0,0
+Switzerland,cp,123,0,0.0,0
+Switzerland,trestbps,123,2,0.016260162601626018,2
+Switzerland,chol,123,0,0.0,0
+Switzerland,fbs,123,75,0.6097560975609756,68
+Switzerland,restecg,123,1,0.008130081300813009,1
+Switzerland,thalach,123,1,0.008130081300813009,1
+Switzerland,exang,123,1,0.008130081300813009,1
+Switzerland,oldpeak,123,6,0.04878048780487805,6
+Switzerland,slope,123,17,0.13821138211382114,17
+Switzerland,ca,123,118,0.959349593495935,111
+Switzerland,thal,123,52,0.42276422764227645,45
+Switzerland,num,123,0,0.0,0
+VA Long Beach,age,200,0,0.0,0
+VA Long Beach,sex,200,0,0.0,0
+VA Long Beach,cp,200,0,0.0,0
+VA Long Beach,trestbps,200,56,0.28,37
+VA Long Beach,chol,200,7,0.035,6
+VA Long Beach,fbs,200,7,0.035,6
+VA Long Beach,restecg,200,0,0.0,0
+VA Long Beach,thalach,200,53,0.265,34
+VA Long Beach,exang,200,53,0.265,34
+VA Long Beach,oldpeak,200,56,0.28,35
+VA Long Beach,slope,200,102,0.51,66
+VA Long Beach,ca,200,198,0.99,148
+VA Long Beach,thal,200,166,0.83,123
+VA Long Beach,num,200,0,0.0,0

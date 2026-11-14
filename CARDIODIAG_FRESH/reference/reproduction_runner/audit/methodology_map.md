@@ -1,0 +1,22 @@
+# Methodology map
+
+This map records source-level keyword evidence only; it does not establish execution.
+
+- `base_reproduction\Daza_Base_Paper_Reproduced\Daza_Paper_Exact_Accuracy.ipynb`: CalibratedClassifierCV, GridSearchCV, SMOTE, StackingClassifier, train_test_split
+- `five_states_results\Five States Results\Fairness_OSEC_FiveStates_dataset.ipynb`: CalibratedClassifierCV, GridSearchCV, LoRAS, SMOTE, StackingClassifier, VotingClassifier, bootstrap, train_test_split
+- `five_states_results\Five States Results\Fairness_OVEC_FiveStates_dataset.ipynb`: CalibratedClassifierCV, GridSearchCV, LoRAS, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, bootstrap, train_test_split
+- `five_states_results\Five States Results\FiveStates_PAIRED_BOOTSTRAP_95_CI.ipynb`: CalibratedClassifierCV, GridSearchCV, LoRAS, OSEC, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, bootstrap, train_test_split, wilcoxon
+- `five_states_results\Five States Results\OSEC_5state_dataset_Clinical_Utility_Analysis.ipynb`: CalibratedClassifierCV, GridSearchCV, LoRAS, SMOTE, StackingClassifier, bootstrap, train_test_split
+- `five_states_results\Five States Results\OVEC_Accuracy_Proof_Five_States.ipynb`: CalibratedClassifierCV, GridSearchCV, LIME, LoRAS, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, train_test_split
+- `five_states_results\Five States Results\OVEC_Reviewer1_Five_States_Full_Methodology.ipynb`: CalibratedClassifierCV, GridSearchCV, LIME, LoRAS, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, XAIH, bootstrap, train_test_split
+- `five_states_results\Five States Results\Reviewer1_Comment_15_LIME__All.ipynb`: CalibratedClassifierCV, GridSearchCV, LIME, LoRAS, OVEC, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, train_test_split
+- `five_states_results\Five States Results\Reviewer1_Five_States_Full_Methodology.ipynb`: CalibratedClassifierCV, GridSearchCV, LIME, LoRAS, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, XAIH, bootstrap, train_test_split
+- `five_states_results\Five States Results\Reviewer1_XAIH_DRC.ipynb`: CalibratedClassifierCV, GridSearchCV, LIME, LoRAS, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, XAIH, bootstrap, train_test_split
+- `five_states_results\Five States Results\Reviewer2_NOSEC_5state_dataset_Concern_22_and_18+Ablation_Results.ipynb`: CalibratedClassifierCV, GridSearchCV, LoRAS, SMOTE, StackingClassifier, bootstrap, train_test_split
+- `five_states_results\Five States Results\Updated_27_11_2025_Reviewer2_NOSEC_5state_dataset_Concern_13_18_and_19.ipynb`: CalibratedClassifierCV, GridSearchCV, LoRAS, OSEC, OVEC, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, bootstrap, train_test_split, wilcoxon
+- `five_states_results\Five States Results\Wilcoxon,_Delong,_Bootstrapped.ipynb`: CalibratedClassifierCV, GridSearchCV, LoRAS, OSEC, OVEC, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, bootstrap, delong, train_test_split, wilcoxon
+- `lime_materials\Paper 1 Code LIME with Diagrams\Reviewer 1 Concern 15\base_paper_dataset_all_reviewers.ipynb`: CalibratedClassifierCV, GridSearchCV, LIME, LoRAS, OVEC, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, train_test_split
+- `mendeley_results\MENDELEY Results\Fairness_OSEC_MENDELEY_dataset.ipynb`: CalibratedClassifierCV, GridSearchCV, LoRAS, SMOTE, StackingClassifier, VotingClassifier, bootstrap, train_test_split
+- `mendeley_results\MENDELEY Results\Fairness_OVEC_MENDELEY_dataset.ipynb`: CalibratedClassifierCV, GridSearchCV, LoRAS, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, bootstrap, train_test_split
+- `mendeley_results\MENDELEY Results\Mendeley_Clinical_Utility+Dispersion+Statistical_Tests.ipynb`: CalibratedClassifierCV, GridSearchCV, LoRAS, OSEC, OVEC, RandomizedSearchCV, SMOTE, StackingClassifier, VotingClassifier, bootstrap, train_test_split, wilcoxon
+- `mendeley_results\MENDELEY Results\Reviewer2_NOSEC_Mendeley_dataset_Ablation_Results.ipynb`: CalibratedClassifierCV, GridSearchCV, LoRAS, SMOTE, StackingClassifier, bootstrap, train_test_split

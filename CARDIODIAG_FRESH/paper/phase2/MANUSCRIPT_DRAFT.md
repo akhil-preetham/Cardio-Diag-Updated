@@ -1,0 +1,3 @@
+# CARDIODIAG Phase 2 Manuscript Draft
+
+CARDIODIAG developed a leakage-controlled internal-validation framework for angiographic CAD prediction in the Z-Alizadeh Sani cohort. The five-feature baseline was retained as the only verified primary feature set. Symptom, ECG and laboratory groups showed exploratory performance gains, but source documentation did not establish prediction-time timing or units sufficiently for confirmatory interpretation. No compatible independent cohort was available. The work supports a reproducible methodological case study and motivates collection of a timing-documented external cohort; it does not establish clinical readiness.

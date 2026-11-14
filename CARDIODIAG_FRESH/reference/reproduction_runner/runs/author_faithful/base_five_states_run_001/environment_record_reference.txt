@@ -1,0 +1,16 @@
+Authoritative environment references
+====================================
+
+Primary package record:
+reference/reproduction_runner/dependency_versions.json
+
+Corrected notebook preparation record:
+reference/reproduction_runner/work/author_faithful/base_reproduction/base_notebook_environment_corrected.txt
+
+Original record preserved for provenance:
+reference/reproduction_runner/work/author_faithful/base_reproduction/base_notebook_environment.txt
+
+Authoritative notebook hash record:
+reference/reproduction_runner/work/author_faithful/base_reproduction/SHA256SUMS.txt
+
+This package is preparation-only. No environment was changed and no execution occurred.

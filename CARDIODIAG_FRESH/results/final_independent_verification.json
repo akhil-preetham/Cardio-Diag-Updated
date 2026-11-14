@@ -1,0 +1,259 @@
+{
+  "status": "implementation_complete_external_data_or_validation_still_required",
+  "hashes": {
+    "original_notebook": {
+      "path": "reference\\extracted_author_archives\\base_reproduction\\Daza_Base_Paper_Reproduced\\Daza_Paper_Exact_Accuracy.ipynb",
+      "sha256": "990f24622ca3aefe2f62e37f7d9e1097fe14b118a49ee398ff3ee67568bfbe4d"
+    },
+    "prepared_notebook": {
+      "path": "reference\\reproduction_runner\\work\\author_faithful\\base_reproduction\\Daza_Paper_Exact_Accuracy.ipynb",
+      "sha256": "666ab88c049dba064057e79d55fb413bca37a1c7de3f3bb8c24cad070844b646"
+    },
+    "five_states_dataset": {
+      "path": "reference\\author_release\\heart5.csv",
+      "sha256": "e4068802a044e8a1e3ae9fa81deae7025711bf4f13e3057f96e4f1cf3b0180c2"
+    },
+    "mendeley_dataset": {
+      "path": "reference\\author_release\\MendeleyCardiovascular_Disease_Dataset.csv",
+      "sha256": "9376367dde41e79e432d6402ea5d9e44223fc318ff54ed09966d721923947d1e"
+    }
+  },
+  "verification": [
+    {
+      "component": "five_states/author_faithful/osec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments\\five_states\\author_faithful\\osec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "five_states/compatibility_adapted/osec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments\\five_states\\compatibility_adapted\\osec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "five_states/compatibility_adapted/ovec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments\\five_states\\compatibility_adapted\\ovec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "five_states/corrected/osec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments\\five_states\\corrected\\osec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "five_states/corrected/ovec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments\\five_states\\corrected\\ovec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "mendeley/author_faithful/osec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments\\mendeley\\author_faithful\\osec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "mendeley/compatibility_adapted/osec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments\\mendeley\\compatibility_adapted\\osec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "mendeley/compatibility_adapted/ovec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments\\mendeley\\compatibility_adapted\\ovec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "mendeley/corrected/osec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments\\mendeley\\corrected\\osec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "mendeley/corrected/ovec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments\\mendeley\\corrected\\ovec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "five_states/compatibility_adapted/ovec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments_compat_v2\\five_states\\compatibility_adapted\\ovec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "mendeley/compatibility_adapted/ovec",
+      "implementation_status": "implemented",
+      "test_status": "reloaded_in_runner",
+      "execution_status": "completed",
+      "recalculation_status": "passed",
+      "artifact_path": "results\\ensemble_experiments_compat_v2\\mendeley\\compatibility_adapted\\ovec",
+      "source_to_paper_consistency": "source-shaped ensemble; protocol differs by track",
+      "remaining_limitation": "single holdout for this controlled comparison; required_artifacts=present"
+    },
+    {
+      "component": "delong_wilcoxon_bootstrap_holm",
+      "implementation_status": "present",
+      "test_status": "artifact_validation",
+      "execution_status": "completed",
+      "recalculation_status": "independent_metric_recalculation_in_comparison",
+      "artifact_path": "results\\ensemble_postprocessing\\paired_model_comparisons.csv",
+      "source_to_paper_consistency": "documented in final execution verification",
+      "remaining_limitation": "subgroup results are descriptive; LIME is local explanation, not causal evidence"
+    },
+    {
+      "component": "subgroup_analysis",
+      "implementation_status": "present",
+      "test_status": "artifact_validation",
+      "execution_status": "completed",
+      "recalculation_status": "present",
+      "artifact_path": "results\\ensemble_postprocessing\\ensemble_subgroup_performance.csv",
+      "source_to_paper_consistency": "documented in final execution verification",
+      "remaining_limitation": "subgroup results are descriptive; LIME is local explanation, not causal evidence"
+    },
+    {
+      "component": "decision_curve",
+      "implementation_status": "present",
+      "test_status": "artifact_validation",
+      "execution_status": "completed",
+      "recalculation_status": "present",
+      "artifact_path": "results\\ensemble_postprocessing\\decision_curve_net_benefit.csv",
+      "source_to_paper_consistency": "documented in final execution verification",
+      "remaining_limitation": "subgroup results are descriptive; LIME is local explanation, not causal evidence"
+    },
+    {
+      "component": "calibration",
+      "implementation_status": "present",
+      "test_status": "artifact_validation",
+      "execution_status": "completed",
+      "recalculation_status": "present",
+      "artifact_path": "results\\ensemble_postprocessing\\calibration_summary.csv",
+      "source_to_paper_consistency": "documented in final execution verification",
+      "remaining_limitation": "subgroup results are descriptive; LIME is local explanation, not causal evidence"
+    },
+    {
+      "component": "xaih_drc",
+      "implementation_status": "present",
+      "test_status": "artifact_validation",
+      "execution_status": "completed",
+      "recalculation_status": "present",
+      "artifact_path": "results\\xaih_drc_experiments\\xaih_drc_manifest.json",
+      "source_to_paper_consistency": "documented in final execution verification",
+      "remaining_limitation": "subgroup results are descriptive; LIME is local explanation, not causal evidence"
+    },
+    {
+      "component": "loras_smote",
+      "implementation_status": "present",
+      "test_status": "artifact_validation",
+      "execution_status": "completed",
+      "recalculation_status": "present",
+      "artifact_path": "results\\data_integrity_and_loras\\dataset_integrity_loras_report.json",
+      "source_to_paper_consistency": "documented in final execution verification",
+      "remaining_limitation": "subgroup results are descriptive; LIME is local explanation, not causal evidence"
+    },
+    {
+      "component": "lime_manifest",
+      "implementation_status": "present",
+      "test_status": "artifact_validation",
+      "execution_status": "completed",
+      "recalculation_status": "present",
+      "artifact_path": "results\\lime_experiments\\lime_manifest.json",
+      "source_to_paper_consistency": "documented in final execution verification",
+      "remaining_limitation": "subgroup results are descriptive; LIME is local explanation, not causal evidence"
+    },
+    {
+      "component": "five_states/author_faithful/ovec",
+      "implementation_status": "source_preserved",
+      "test_status": "expected_failure_preserved",
+      "execution_status": "failed_on_source_invalid_candidate",
+      "recalculation_status": "not_applicable",
+      "artifact_path": "results\\ensemble_experiments\\five_states\\author_faithful\\ovec\\failure.json",
+      "source_to_paper_consistency": "exact recovered source candidate retained",
+      "remaining_limitation": "The 'n_estimators' parameter of RandomForestClassifier must be an int in the range [1, inf). Got None instead."
+    },
+    {
+      "component": "mendeley/author_faithful/ovec",
+      "implementation_status": "source_preserved",
+      "test_status": "expected_failure_preserved",
+      "execution_status": "failed_on_source_invalid_candidate",
+      "recalculation_status": "not_applicable",
+      "artifact_path": "results\\ensemble_experiments\\mendeley\\author_faithful\\ovec\\failure.json",
+      "source_to_paper_consistency": "exact recovered source candidate retained",
+      "remaining_limitation": "The 'n_estimators' parameter of RandomForestClassifier must be an int in the range [1, inf). Got None instead."
+    },
+    {
+      "component": "18_notebook_inventory",
+      "implementation_status": "audited",
+      "test_status": "unique_path_check",
+      "execution_status": "notebook_runner_disabled",
+      "recalculation_status": "passed",
+      "artifact_path": "reference/reproduction_runner/final_experiment_inventory.csv",
+      "source_to_paper_consistency": "inventory evidence",
+      "remaining_limitation": "blocked notebooks remain blocked"
+    },
+    {
+      "component": "notebook_execution_gate",
+      "implementation_status": "runner_control",
+      "test_status": "config_validation",
+      "execution_status": "disabled",
+      "recalculation_status": "passed",
+      "artifact_path": "config/runner_config.json",
+      "source_to_paper_consistency": "safety control",
+      "remaining_limitation": "controlled Python experiments are separate from notebook execution"
+    }
+  ],
+  "known_blockers": [
+    "Author-faithful OVEC contains source-invalid RandomForest n_estimators=None.",
+    "The approximately 70,000-row benchmark dataset is unavailable.",
+    "Historical environment equivalence is unverified.",
+    "Full project Ruff still contains unrelated pre-existing findings."
+  ]
+}

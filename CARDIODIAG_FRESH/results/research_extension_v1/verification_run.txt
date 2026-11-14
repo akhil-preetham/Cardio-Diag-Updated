@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "manifests": [
+    {
+      "manifest": "results\\research_extension_v1\\zas\\MANIFEST.json",
+      "hash_entries_checked": 129,
+      "all_match": true
+    },
+    {
+      "manifest": "results\\research_extension_v1\\transport\\TRANSPORT_MANIFEST.json",
+      "hash_entries_checked": 28,
+      "all_match": true
+    }
+  ],
+  "source_repeat_procedure_groups": 24,
+  "source_prediction_rows_including_historical": 7272,
+  "target_cases": 377,
+  "target_endpoint_procedure_groups": 6,
+  "new_predictive_fits": 0
+}

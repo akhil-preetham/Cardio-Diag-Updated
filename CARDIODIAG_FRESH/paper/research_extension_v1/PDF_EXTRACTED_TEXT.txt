@@ -1,0 +1,736 @@
+CARDIODIAG: Selection-Aware Evaluation,
+Calibration and Cross-Cohort Robustness for
+Retrospective Coronary Artery Disease
+Discrimination
+Erukudinnela Akhil Preetham, Chunduri Hari Krishna, G V ennela
+Department of Computer Science and Engineering
+Prasad V . Potluri Siddhartha Institute of Technology (PVPSIT)
+Vijayawada, Andhra Pradesh, India
+Project guide: K. Naga Gopi
+Abstract—High cardiovascular classiﬁcation scores do not
+establish that model selection is evaluated fairly, that probabil-
+ities are calibrated, or that performance transports to another
+clinical setting. We extend an existing CardioDiag-derived re-
+search project through information-matched controls, selection-
+independent calibration and a new public-cohort transport ex-
+periment. The source Z-Alizadeh Sani (ZAS) resource contains
+303 source rows with 216 CAD labels. Fifteen paired outer
+partitions evaluate the historical selection procedure, a 38-feature
+logistic control, information-group ablations and a corrected
+three-component calibration ensemble. Historical selection and
+equal-feature logistic mean AUCs were 0.9103 and 0.9174; cor-
+rected raw/calibrated ensemble Brier scores were 0.1055/0.1037.
+A separately frozen model using Age, Sex, diabetes, hypertension
+and current smoking averaged source ROC-AUC 0.8059 and
+achieved 0.7125 on 377 matched AngioCAD cases; its record-
+bootstrap interval was 0.6474-0.7730. Target probability accuracy
+deteriorated, and simulated source-feature deletion reduced mean
+AUC from 0.8059 to 0.6875 at a 50% cell-mask rate. Endpoint,
+timing, coding and patient-independence limitations preclude a
+clinical-generalization claim. The contribution is a reproducible
+empirical assessment of what drives discrimination and where
+reliability fails, with preserved historical evidence and indepen-
+dently checked outputs.
+Index Terms—Coronary artery disease, nested validation, cali-
+bration, external transport, information availability, reproducibil-
+ity.
+I. I NTRODUCTION
+Cardiovascular classiﬁcation projects often begin with a
+public table, a collection of classiﬁers and a search for a high
+accuracy or area under the receiver-operating-characteristic
+curve (ROC-AUC). A useful research question requires more:
+the outcome must be deﬁned, the predictors must correspond
+to a stated information set, selection must be evaluated as part
+of the training procedure, and the interpretation must match
+the population studied. A model can rank cases reasonably
+while providing inaccurate probabilities or losing performance
+in another setting.
+The original CardioDiag paper by Khan, Raza and Nadeem
+integrates percentile-based preprocessing, localized random
+afﬁne shadow sampling, explanation-guided hybrid dimension-
+ality reduction and optimized voting/stacking ensembles [1].
+It already reports tuning, explainability, calibration, decision
+curves, subgroup analyses and ablations. Adding another clas-
+siﬁer or explanation ﬁgure is therefore a weak basis for a
+subsequent novelty claim. This project instead examines the
+evaluation and reliability of a CardioDiag-derived research
+workﬂow, attributing the original architectures to their authors.
+Earlier local work evaluated a feature-group/model-selection
+procedure on ZAS against a ﬁve-feature V3-style reference.
+Mean repeat AUC was approximately 0.910 versus 0.736.
+However, the procedures differed in both available information
+and model selection, while calibration inputs were selected
+using labels from their later held-out calibration blocks. These
+observations motivate two distinct controls: a simple model
+with the same rich feature set, and a comparison in which
+calibration is separated from the entire selection process.
+The present extension also asks whether a compact shared-
+feature model transports to AngioCAD, a separately released
+clinical/angiographic resource [4]. The experiment deliberately
+reports endpoint and spectrum discrepancies rather than treat-
+ing all public heart-disease labels as equivalent. A further
+stress test deletes held-out predictor values without reﬁtting the
+model. These studies evaluate a reusable research procedure;
+they do not demonstrate a universal cardiovascular diagnostic
+system.
+The contributions are: (i) a paired information-matched
+logistic control and ﬁxed information-group ablations; (ii) a
+fully rerun selection procedure within independent calibration-
+training blocks, with an identical-component raw ensemble
+control; (iii) source-only development followed by frozen,
+compatibility-constrained AngioCAD evaluation and endpoint
+sensitivities; and (iv) versioned predictions, input/output
+hashes, split traces, tests and a reproducible compiled report.
+These are applied methodological and empirical contributions,
+not inventions of nested validation, sigmoid calibration or
+logistic regression.
+1
+II. R ELATED WORK AND RESEARCH QUESTIONS
+Cawley and Talbot describe overﬁtting of ﬁnite-sample se-
+lection criteria and the resulting bias in performance evaluation
+[2]. Evaluating the winning conﬁguration after comparing
+many alternatives on the same data can underestimate selection
+uncertainty. Nested validation evaluates choices made within
+training, but it cannot erase earlier researcher adaptation after
+exploring a dataset. Accordingly, all new ZAS analyses here
+are explicitly retrospectively motivated follow-ups on previ-
+ously studied source rows and outer assignments.
+Calibration concerns the agreement between predicted prob-
+abilities and observed event frequencies, while discrimination
+concerns ordering [5]. A high AUC is therefore insufﬁcient
+for reliable individual risk estimates. Model updating may
+be needed when populations change, but updating with tar-
+get labels must be distinguished from untouched transport
+evaluation. We perform no AngioCAD label-based adaptation.
+External-evaluation guidance also requires attention to the
+target population, predictor deﬁnitions and outcome ascertain-
+ment [8]. V alidation sample size should reﬂect the desired
+precision of performance measures rather than a universal
+case-count rule [9]. TRIPOD+AI and PROBAST+AI provide
+reporting and appraisal frameworks [6], [7]; completing an
+artifact or checklist does not imply low bias or clinical
+applicability.
+Four research questions structure the extension. RQ1 asks
+whether rich-feature automated selection improves on a ﬁxed
+38-feature regularized logistic procedure. RQ2 asks how the
+calibration operation changes probability accuracy when ap-
+plied to the same selected base components. RQ3 asks how
+removing symptom/examination information, or restricting the
+information set to risk plus symptoms, changes discrimination.
+RQ4 asks how a new shared-core source model behaves under
+cohort change and simulated missing inputs. No acceptance
+criterion requires an AUC increase, and the full locked com-
+parisons are retained regardless of direction.
+III. D ATA, P ROVENANCE AND CLINICAL SCOPE
+A. ZAS Source Data
+The validated ZAS CSV contains 303 source rows and 56
+columns, comprising 55 non-target ﬁelds and Cath. Cath is
+mapped as Cad = 1 and Normal = 0, producing 216 positive
+and 87 negative rows, with prevalence 0.7129. UCI describes
+CAD using coronary diameter narrowing of at least 50%
+[3]. The current provider workbook has the same 303-by-
+56 schema. A fresh ofﬁcial archive download matches the
+project’s raw archive byte for byte; its workbook is also byte-
+identical, and the ﬁrst worksheet equals the validated CSV in
+column order, inferred dtypes and values.
+This resolves the question of an unexplained local extra
+ﬁeld. The remaining discrepancy is between provider prose de-
+scribing 54 features and the provider workbook containing 55
+non-target ﬁelds. An empty second worksheet with 100 header
+columns is a template, not additional clinical observations. No
+full-record or all-predictor exact duplicate rows were found.
+These checks do not establish unique-patient independence:
+veriﬁed identiﬁers and visit linkage are unavailable. The
+evaluation unit remains a source row.
+B. AngioCAD Acquisition and Cohort Flow
+Only the two small clinical-feature and label workbooks
+from the ofﬁcial open CC BY 4.0 release were acquired; image
+archives were unnecessary [4]. Provider byte sizes and MD5
+checksums matched, and local SHA-256 hashes were retained.
+The label table contains 413 unique case IDs, whereas the
+clinical table contains 377. All 377 clinical IDs match labels;
+the remaining 36 label cases lack clinical records. The release
+does not explain that absence in the inspected metadata, so
+selection associated with missing clinical records cannot be
+excluded.
+The operational positive target is any of 15 coronary seg-
+ments labelled 51-75, 76-90, 91-99 or 100 percent steno-
+sis. This yields 298 positive and 79 nonpositive matched
+cases. The available 26-50 category cannot identify exact
+50% narrowing, preventing reconstruction of the exact source
+>=50% boundary. Ten of the 79 nonpositive cases contain
+that ambiguous category. They are handled by prespeciﬁed
+exclusion and upper-assignment sensitivity analyses; neither
+assignment is asserted to recover their true source-equivalent
+labels.
+Matched clinical diagnoses comprise 186 STEMI, 20
+NSTEMI, 55 unstable-angina and 116 stable-angina records.
+Nonpositive stenosis cases are therefore not necessarily nor-
+mal or healthy controls. They represent a different coronary-
+referral spectrum from a population-screening sample. Case
+IDs are release keys, not independent veriﬁcation that no
+individual has multiple visits. Independent review used a
+separate spreadsheet parser and conﬁrmed the joins, severity
+vocabulary and agreement between vessel labels embedded in
+the feature workbook and the separate label workbook.
+Table I. Source and target evaluation records; counts do not establish
+veriﬁed independent patients.
+Resource / role Rows Positive Endpoint
+ZAS development 303 216 >=50% cata-
+logue Cath
+AngioCAD matched target 377 298 >50%
+segment
+rule
+Target boundary exclusion 367 298 >50%,
+omit 10
+ambiguous
+C. Predictor Eligibility and Harmonization
+The historical 38-ﬁeld group contains seven risk ﬁelds, ten
+symptom/examination ﬁelds, seven resting-ECG ﬁelds and
+fourteen laboratory ﬁelds. The original V3-style comparator
+uses Age, Sex, Current Smoker, EX-Smoker and FH. EF-
+TTE, Region RWMA and VHD remain excluded as potentially
+downstream or diagnostic; Cath and direct angiographic out-
+come ﬁelds are not predictors. None of the retained source
+ﬁelds has source-conﬁrmed collection time before the diag-
+nostic decision. The task is retrospective discrimination rather
+than prospective early prediction.
+2
+AngioCAD lacks the complete V3 and rich symptom/ECG
+ﬁelds. Its new allowlisted core is Age, Sex, DM, HTN and
+Current Smoker, which replaces V3’s former-smoking and
+family-history ﬁelds with diabetes and hypertension. It is
+a new model, not a transported historical V3 or 38-ﬁeld
+ﬁtted model. Age is used as numeric years; Male/Female are
+explicitly mapped, including the literal ZAS spelling Fmale.
+Binary 0/1 codes are retained directly without outcome-guided
+inversion. Accessible target materials lack a complete ascer-
+tainment/timing and binary-direction dictionary, so semantic
+equivalence remains an assumption.
+No laboratory units were inferred merely from similar col-
+umn names. Diagnostic labels, vessel severity, Gensini score,
+L VEF, procedure-series and medication ﬁelds are excluded
+from the shared model. Age has six missing target entries,
+and current smoking has 46; the corresponding source ﬁelds
+have none missing. Source-training medians/modes are applied
+unchanged at evaluation. Three target ages fall outside the
+observed source age range of 30-86 years. No outcome-
+dependent complete-case exclusion or target-based imputation
+is performed.
+IV. E XPERIMENTAL DESIGN
+A. Frozen Source Evaluation
+The extension retains the ﬁrst three repeats of the historical
+ﬁve-fold outer assignments, giving 15 paired partitions and 303
+out-of-fold predictions per procedure per repeat. Each outer-
+training set has approximately 242 rows. Historical three-fold
+inner partitions use seed 61051 + 100 times repeat + fold. All
+transformations and hyperparameter selection are conﬁned to
+their relevant training subsets. Outer labels are excluded from
+training-function arguments; the new runners drop Cath from
+input frames before ﬁtting.
+The historical pool consists of six feature groups and ﬁve
+unique model families: L2 logistic, elastic-net logistic, spline
+logistic, random forest and histogram gradient boosting. There
+are 30 group-family candidates and 120 parameter settings,
+with deterministic tie order. The installed scikit-learn API and
+package versions are recorded; an interior l1_ratio with saga
+is interpreted as elastic net in that API. The original dtype-
+based preprocessing is retained for comparability. Numeric-
+coded categories can enter numeric/spline branches, an ac-
+knowledged limitation rather than a silently revised algorithm.
+B. Equal-Feature and Information Controls
+The information-matched control uses ordinary L2 logistic
+regression with all 38 ﬁelds and C in {0.1, 1, 10}. The exact
+historical pipeline, inner partitions, post-selection cross-ﬁtted
+sigmoid and Y ouden-J threshold construction are retained.
+This preserves the same calibration limitations deliberately,
+allowing a more interpretable comparison with saved historical
+selection results. It is not the independently calibrated arm.
+Three additional ﬁxed-family controls use 28 ﬁelds after
+dropping all ten symptom/examination ﬁelds; 17 ﬁelds com-
+prising risk plus symptoms/examination, excluding ECG and
+laboratory information; and the ﬁve V3 ﬁelds with ordinary
+unweighted L2. Full38 is reused rather than ﬁtted twice. The
+ordinary ﬁve-ﬁeld ablation is distinguished from historical
+class-balanced V3. These comparisons address information
+content under common modeling rules, and do not identify
+causal effects of individual clinical measurements.
+C. Selection-Independent Calibration Ensemble
+For each outer-training set T, the three inner blocks are
+reused as calibration sets C_k, and D_k is the remaining
+development subset. The entire 30-candidate search is rerun
+using new three-fold validation only within D_k. Neither the
+base estimator nor its group/family/parameter choice uses C_k
+labels. The selected pipeline reﬁtted on D_k scores C_k, and a
+ﬁxed weakly regularized sigmoid with C = 1,000,000 is ﬁtted
+to raw base probabilities there.
+The exact ﬁtted D_k base model is retained with its C_k
+calibrator; it is never swapped for a model subsequently
+reﬁtted on all of T. Each pair predicts the outer-test rows, and
+the three calibrated probabilities are averaged. A paired raw
+ensemble averages the probabilities from those identical base
+components. Only this latter contrast isolates the calibration
+operation. Comparing the new ensemble with the historical
+single-reﬁt procedure also changes development sample size,
+averaging and repeated selection, so it cannot be described as
+a pure calibration-effect experiment.
+Calibration blocks contain roughly 80 rows. Independence
+of their labels from component selection does not guaran-
+tee precise sigmoid estimation or good probability accuracy.
+The ﬁxed C is large and supplies weak regularization; it is
+not evidence of adequate small-sample regularization. New
+corrected arms use a ﬁxed 0.5 threshold for descriptive sen-
+sitivity/speciﬁcity, without a screening or clinical-cost inter-
+pretation. No calibrator, threshold or family was added after
+observing outer performance.
+D. Source-Only Shared-Core Development and Transport
+The ﬁve-core transport study has its own frozen protocol
+and preprocessing dictionary. Unbalanced L2 logistic C in
+{0.1, 1, 10} is selected by three-fold source-training AUC.
+The same 15 outer source partitions estimate its within-ZAS
+performance. A second source arm wraps the entire search
+inside each training block of a three-fold sigmoid calibration
+ensemble. Each ﬁtted search and its held-block calibrator
+remain paired. The two transport arms differ in calibration,
+ensemble averaging and training size, so their contrast is not
+solely attributable to calibration.
+After source evaluation, both procedures are ﬁtted using
+source rows only. Model ﬁles and target probabilities are
+hashed before target outcomes are scored. Target labels do not
+select predictors, C, preprocessing, calibration or thresholds,
+and are not used to update either model. The principal target
+deﬁnition is the recorded >50% rule. Prespeciﬁed sensitivities
+exclude ten boundary-ambiguous cases or assign those ten
+positive as an upper assignment. All scenarios use the same
+frozen probabilities.
+3
+Outer-training rows T
+Three calibration blocks
+Selection on D only
+6 groups x 5 families
+Inner CV for all tuning
+Fit base model on D
+Fit sigmoid on held C
+Keep each base + sigmoid
+Average on outer test
+Identical raw
+component ensemble
+Calibration contrast
+Separate five-core model
+Frozen AngioCAD scoring
+Separate study track
+Fig. 1. Training and evaluation separation. The full selection procedure is rerun within each development subset. The shared-core transport experiment is a
+separate model and study track.
+E. Missingness Stress and Statistical Summaries
+The raw shared-core source pipeline is also evaluated af-
+ter independent per-cell deletion at rates 0, 0.10, 0.25 and
+0.50 in held-out inputs. Masks have deterministic seeds, are
+independent of outcomes and are saved. The ﬁtted pipeline is
+not reﬁtted, and training-derived imputers handle the removed
+values. One ﬁxed mask realization per rate/fold is used; this
+is a simulated MCAR stress test, not evidence of robustness
+to actual clinical missing-not-at-random processes.
+ROC-AUC, average precision (AP), Brier score, log loss and
+calibration diagnostics are reported. AP is interpreted relative
+to event prevalence. Calibration intercept/slope are jointly
+estimated logistic-regression coefﬁcients on logit probabilities,
+not an intercept with unit slope ﬁxed. Source metrics are
+calculated from complete-repeat out-of-fold predictions rather
+than averages of fold AUCs. All three repeat results and their
+descriptive means/ranges are retained; overlapping repeats do
+not provide independent population replicates.
+For the ﬁxed transported models, 2,000 record-resampling
+percentile bootstrap draws summarize target metric uncertainty.
+They condition on the source model and available target
+records, excluding source-reﬁtting, patient-cluster and hospital-
+sampling uncertainty. Bootstrap convergence and usable draw
+counts are saved. No population-level signiﬁcance test or
+independent-patient inference is based on repeated folds. A
+separately labelled post hoc diagnostic compares target proba-
+bility loss with a constant equal to source prevalence; it does
+not select or update any ﬁtted model.
+V. R ESULTS
+A. Information-Matched Source Comparisons
+Historical selection mean AUC was 0.910316, compared
+with 0.917447 for equal-feature L2. The paired mean selection-
+minus-L2 difference was -0.007131. The three paired dif-
+ferences were -0.012505, -0.007822, -0.001064. These are
+descriptive split comparisons, not independent-patient signif-
+icance results.
+Table II. Mean complete-repeat source metrics; all rows use 303 OOF
+predictions per repeat. Historical-calibration controls remain explicitly
+limited.
+Procedure AUC AP Brier Log loss
+Historical balanced V3 (5) 0.7363 0.8469 0.1746 0.5286
+Ordinary L2, V3 ﬁelds (5) 0.7377 0.8510 0.1744 0.5260
+L2 risk + symptoms (17) 0.9036 0.9457 0.1025 0.3407
+L2 without symptoms (28) 0.8466 0.9280 0.1385 0.4322
+Equal-feature L2 (38) 0.9174 0.9601 0.1011 0.3288
+Historical selection (30 candi-
+dates)
+0.9103 0.9573 0.1076 0.3467
+Corrected raw-component en-
+semble
+0.9164 0.9627 0.1055 0.3412
+Corrected calibrated ensemble 0.9096 0.9544 0.1037 0.3390
+The historical rich-feature selection versus sparse-reference
+improvement cannot by itself establish a beneﬁt from algo-
+rithmic selection. The new rich-feature logistic comparison
+holds information substantially closer, while the ﬁxed-family
+ablations isolate larger information-group restrictions. Every
+reported mean is calculated from three complete 303-row OOF
+sets. The same rows recur across repeats and cannot be counted
+as 909 independent participants.
+B. Calibration Construction and Selection Behavior
+The corrected calibrated ensemble averaged AUC 0.9096,
+Brier 0.1037 and log loss 0.3390; the identical-component
+raw ensemble averaged 0.9164, 0.1055 and 0.3412. Calibrated-
+minus-raw mean Brier was -0.001728, i.e., lower probability
+loss on average. Brier improved in two repeats and worsened
+in one; AUC decreased in all three. This is the matched
+calibration-operation comparison; no improvement was as-
+sumed in the protocol.
+Across 45 corrected component searches, selected model-
+family counts were elastic_net: 12/45; hist_gradient_boosting:
+1/45; logistic_l2: 23/45; random_forest: 2/45; spline_logistic:
+7/45. Selected group counts were eligible_combined: 45/45.
+The ﬁts used smaller development subsets than the historical
+full-outer-training search; selection frequencies are therefore
+descriptive of the new procedure, not direct evidence of feature
+necessity.
+The corrected design removes the identiﬁed calibration-label
+dependence on component selection and avoids applying a
+4
+0.0 0.2 0.4 0.6 0.8 1.0
+Complete-repeat OOF ROC-AUC
+Hist. balanced V3 (5)
+Ordinary L2, V3 fields (5)
+L2 risk + symptoms (17)
+L2 without symptoms (28)
+Equal-feature L2 (38)
+Hist. selection (30 candidates)
+raw-component ensemble
+calibrated ensemble
+Fig. 2. ZAS complete-repeat ROC-AUC. Black points are means; crosses are the three repeat values and lines show their observed range, not conﬁdence
+intervals. The horizontal axis spans 0-1.
+small-ﬁt map to a larger reﬁt model. Any remaining calibration
+error is an empirical outcome, not a contradiction of those
+implementation checks. The new raw/calibrated comparison
+retains identical selected components, making a negative prob-
+ability result scientiﬁcally informative. No result was substi-
+tuted into the historical Phase 6 ﬁles.
+C. Cross-Cohort Performance and Endpoint Sensitivity
+The raw ﬁve-core source procedure averaged AUC 0.8059
+and Brier 0.1528; the source calibration ensemble averaged
+AUC 0.8039 and Brier 0.1537. On the principal AngioCAD
+target, raw-model AUC was 0.7125 with a 0.6474-0.7730
+record-bootstrap interval. The calibration ensemble gave AUC
+0.7072 with a 0.6453-0.7680 interval. These are different
+source/target case mixes and partly mismatched endpoints, not
+paired randomized estimates of a causal setting effect.
+Table III. Frozen shared-core transport results. Exclusion and upper
+assignment are sensitivity deﬁnitions, not recovered true >=50% labels.
+Target scenario / arm n / positive AUC Brier
+Base >50% / raw 377 / 298 0.7125 0.1982
+Base >50% / ensemble 377 / 298 0.7072 0.1937
+Exclude boundary / raw 367 / 298 0.7293 0.1925
+Exclude boundary / ensemble 367 / 298 0.7227 0.1881
+Upper assignment / raw 377 / 308 0.7259 0.1945
+Upper assignment / ensemble 377 / 308 0.7195 0.1895
+Target raw Brier/log loss were 0.1982/0.5787; ensemble values
+were 0.1937/0.5629. Joint target calibration intercept/slope
+were 1.105/0.553 for raw and 1.076/0.627 for the ensem-
+ble, indicating substantial calibration departure. As post hoc
+descriptive context, a constant probability of 216/303, ﬁxed
+by source prevalence, yielded target Brier 0.1717 and log
+loss 0.5290. Both transported procedures therefore had worse
+probabilistic loss than that source-constant reference on these
+cases, despite nontrivial discrimination. This observation must
+not be hidden by reporting AUC alone.
+Excluding the ten ambiguous records raised raw/ensemble
+AUC to 0.7293/0.7227 on 367 records; assigning all ten
+positive yielded 0.7259/0.7195 on 377. Those changes concern
+altered endpoint assignments and sample composition. They
+neither validate true >=50% labels nor eliminate spectrum,
+missingness and coding differences. Target AP near 0.894-
+0.897 must be read against the high target prevalence of
+0.7905.
+D. Missing-Input Stress
+Table IV . Prespeciﬁed held-out source input deletion; mean complete-repeat
+metrics, one mask realization per rate/fold.
+Masked cells AUC Brier Log loss
+0% 0.8059 0.1528 0.4702
+10% 0.7758 0.1626 0.4988
+25% 0.7522 0.1698 0.5186
+50% 0.6875 0.1867 0.5594
+Mean AUC declined from 0.8059 without deletion to 0.7758,
+0.7522 and 0.6875 at 10%, 25% and 50% masking. Mean
+Brier increased from 0.1528 to 0.1626, 0.1698 and 0.1867.
+Imputation enabled a numerical output but did not preserve
+information or establish reliability. These outcomes apply to
+the frozen random masks and source cohort; different clinical
+missingness mechanisms can behave differently.
+VI. D ISCUSSION
+A. What the Extension Establishes
+The project advances beyond selecting a visually impres-
+sive classiﬁer score by measuring three separate issues: the
+contribution of richer information, the effect of a properly
+separated calibration operation, and performance under a new
+clinical source. The distinction matters because a procedure
+5
+0.0 0.2 0.4 0.6 0.8 1.0
+Mean predicted probability
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Observed event fraction
+ZAS: corrected pool, repeat 1 only
+Same-component raw
+Independent calibration
+0.0 0.2 0.4 0.6 0.8 1.0
+Mean predicted probability
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Observed event fraction
+AngioCAD: five-core transport, 377 cases
+Raw source fit
+Source calibrated ensemble
+Fig. 3. Descriptive reliability diagrams using ﬁve ﬁxed probability bins. Left: corrected-pool OOF predictions from ZAS repeat 1 only, avoiding treatment of
+repeated rows as independent. Right: shared-core target predictions under the >50% rule. Bin estimates are sparse and do not supply individual risk guarantees.
+0 10 25 50
+Independently masked input cells (%)
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Complete-repeat ROC-AUC
+Fig. 4. Shared-core source AUC under held-out MCAR input deletion. Error
+bars show the observed range over three overlapping split repeats, not patient-
+level uncertainty. No model is reﬁtted after masking.
+that performs well on rich retrospective features may not be
+useful when only a compact set is available. Likewise, a well-
+separated calibration implementation may still estimate a weak
+map from a small block, and source calibration need not
+transport.
+The equal-feature result gives a selection-minus-simple-
+model AUC difference of -0.0071; the simple rich-feature
+logistic control had higher AUC in all three observed repeats.
+Thus these results do not establish an automated-selection
+advantage. They change the interpretation of the much larger
+historical gain over the sparse ﬁve-ﬁeld reference: additional
+clinical information is a substantial competing explanation.
+Removing the ten symptom/examination ﬁelds lowered mean
+AUC by 0.0709, while retaining only 17 risk-plus-symptom
+ﬁelds yielded AUC 0.9036 versus 0.9174 for all 38. The
+latter compact procedure had Brier 0.1025, close descriptively
+to the 38-ﬁeld control’s 0.1011, without an equivalence or
+noninferiority claim. These restrictions concern recorded in-
+formation, not measurement timing or causal necessity. The
+corrected calibrated-versus-raw Brier difference of -0.0017
+similarly separates implementation independence from em-
+pirical probability accuracy; a proper separation design is
+necessary evidence hygiene, not a guarantee of improvement.
+The new cross-cohort experiment is stronger evidence than
+treating another random seed as external validation. It uses
+a genuinely separate public resource and source-only ﬁts,
+while retaining compatibility constraints explicitly. However,
+it validates neither the historical V3 weights nor the rich-
+feature ZAS model. Its particular value is empirical evidence
+of degradation: AUC falls, calibration changes and probability
+loss is poor relative to a simple post hoc source-prevalence
+diagnostic. A reliable scientiﬁc report includes this failure
+boundary rather than modifying models until the target score
+improves.
+B. Relationship to the Base Project
+The supplied base paper explicitly states training-fold-only
+preprocessing and a 75:25 ﬁnal holdout. Static review of
+a traceable released notebook identiﬁes speciﬁc paths with
+full-data LoRAS and PCA before a later split, and target-
+conditioned imputation. Local archive Git-blob hashes match
+the public release and the inspected notebook matches its
+archive member. These are concrete source/report discrepan-
+cies, but the notebook’s execution state and provenance of
+every published table were not reconstructed; they do not
+justify declaring every original published result invalid.
+The present analysis does not claim to beat the original
+paper’s approximately 0.997 AUC on its different Five States
+or Mendeley tasks. Nor does it claim to have invented the
+original OVEC, OSEC or XAIH-DRC components. Corrected
+6
+architecture-speciﬁc head-to-head experiments on identical
+admissible records would be needed for an original-ensemble
+superiority claim. The contribution reported here is selection-
+aware information and reliability evaluation with new clinical-
+cohort evidence.
+The historical four-centre UCI study is also retained as a
+separate task. Reconstructing a heart-disease cohort or using
+a new ﬁle name does not make it an independent ZAS
+validator. Existing Heart5/Statlog/UCI amalgams can overlap
+in provenance. By keeping these tracks separate and acquiring
+provider-released AngioCAD tables, the extension avoids a
+misleading combined leaderboard across incompatible labels
+and reused records.
+C. Research Interface and Reproducibility
+A small research scoring interface accompanies the frozen
+ﬁve-core source model. It requires exactly the ﬁve declared
+ﬁelds, checks adult age bounds and categorical/binary codes,
+rejects empty or entirely missing records, and preserves
+missing values for the source-trained imputers. It reports
+missing-ﬁeld counts and age-range ﬂags alongside probabili-
+ties, without a diagnosis label. The trusted local model bundle
+is checked against its prediction-freeze hash before loading.
+These controls prevent schema mistakes; they do not certify a
+patient-speciﬁc prediction or detect every form of distribution
+shift.
+The full candidate experiment uses one BLAS/OpenMP
+thread and one search job to control local resources. The
+ﬁrst outer partition took 85.07 seconds, projecting roughly
+21.3 minutes for the locked 15-partition design. The complete
+procedure makes 45 corrected component selections, 1,350
+group-family searches and approximately 17,550 search/reﬁt
+ﬁts before logistic controls. Actual checkpoint computation
+summed to 18.65 minutes, with 1 recorded warning oc-
+currence(s). Warnings remain in the evidence package and
+were not addressed by outcome-driven parameter changes.
+Immutable component checkpoints retain scores, parameters,
+calibration labels/scores, model probabilities, traces, warnings
+and runtimes so that audit reproduction need not reﬁt the entire
+benchmark.
+The complete test suite passed 116 tests with one op-
+tional historical LoRAS-dependency test skipped; all 27 new
+extension tests passed. Independent saved-artifact checks re-
+constructed source coverage, labels, candidate ranking, all
+parameter grids, component averaging and primary metrics,
+and matched stored target probabilities to the trusted saved
+bundle. Read-only release veriﬁcation checked 157 listed
+source/transport manifest entries with no mismatch. The his-
+torical Phase 7 package also retained all 65 artifact and 74
+preservation hashes. Dependency consistency passed. Targeted
+syntax/undeﬁned-name checks passed with intentional import-
+order/name-style exclusions; full legacy style-cleanup is not
+claimed.
+The report and its tables/ﬁgures are generated from saved
+metrics, not manually chosen favorable runs. Input/output man-
+ifests and protocol hashes link data, implementation and pre-
+dictions. A pinned environment snapshot and recorded pack-
+age versions support computational reproducibility; matching
+hashes do not establish scientiﬁc validity, patient identity or
+clinical permissions. Historical results and manuscript ﬁles
+remain preserved under their original namespaces.
+VII. L IMITATIONS AND RESPONSIBLE INTERPRETATION
+First, ZAS is small relative to searching many groups
+and families. The follow-up reuses previously explored rows
+and outer assignments, so it is not prospectively independent
+conﬁrmation. Second, source-row independence is unveriﬁed
+in both resources. Unique release IDs and zero exact duplicates
+cannot establish independent patients or support patient-cluster
+uncertainty. Third, predictor acquisition timing is unresolved;
+retrospective symptoms and measurements may encode diag-
+nostic work-up or referral rather than information available at
+an earlier clinical decision.
+Fourth, the historical information controls retain selection-
+dependent calibration and training-size mismatch for compara-
+bility, while the corrected sigmoid maps use small calibration
+samples and weak regularization. Fifth, the target endpoint
+is >50% by coarse categories, whereas source documentation
+states >=50%. Sensitivity assignments expose but do not ﬁx
+that discrepancy. Sixth, absence of 36 target clinical records,
+acute/stable case mix, missing smoking/age and incompletely
+documented binary ascertainment constrain cross-cohort inter-
+pretation. No target recalibration was undertaken to conceal
+these limitations.
+Seventh, three overlapping source repeats and ﬁxed-model
+target record bootstraps cover limited uncertainty components.
+They do not estimate arbitrary-hospital transport or full de-
+velopment uncertainty. Eighth, simulated MCAR deletion is
+not a model of every clinical missingness mechanism. Ninth,
+thresholds have no clinician-deﬁned decision cost, and no
+clinical-utility, fairness certiﬁcation or prospective beneﬁt is
+established. Finally, no novel-classiﬁer priority or superiority
+to original ensembles is claimed without the relevant matched
+experiments.
+The appropriate intended use is methodological research
+and retrospective cohort analysis. A deployed clinical system
+would require a well-deﬁned decision point, source-conﬁrmed
+predictor timing, independent patient-level evaluation, compat-
+ible outcome adjudication, local calibration and a separately
+justiﬁed clinical-use study. The completed computational work
+provides evidence and failure boundaries, rather than a guar-
+antee of reliable answers for arbitrary datasets.
+VIII. C ONCLUSION AND PROJECT DISPOSITION
+The computational extension completed information-
+matched controls, 45 selection-independent calibration
+components, three information-group ablations and a
+separate frozen shared-core transport study. The observed
+selection-minus-equal-feature AUC difference was -0.0071;
+the corrected calibration-operation Brier difference was
+-0.0017. These results reﬁne the historical high-score claim by
+7
+identifying the roles of available information and probability
+construction.
+The new public-cohort experiment demonstrates the limits
+of source-only transport, and the missingness stress test shows
+that generating an output after imputation does not preserve
+predictive information. This makes information-matched con-
+trols, probability loss and explicit data compatibility central to
+the contribution. The computational extension, audit artifacts
+and compiled report are complete within the stated retrospec-
+tive scope. Clinical deployment, prospective validation and
+universal reliability remain unestablished.
+AUTHOR , D ATA-U SE AND SUBMISSION STATEMENTS
+The project authors, in order, are Erukudinnela Akhil
+Preetham; Chunduri Hari Krishna; G V ennela, Department
+of Computer Science and Engineering, Prasad V . Potluri
+Siddhartha Institute of Technology (PVPSIT), Vijayawada,
+Andhra Pradesh, India. The project guide is K. Naga Gopi.
+Corresponding-author designation, contributions and fund-
+ing/conﬂict declarations remain to be ﬁnalized by the authors.
+No institutional ethics approval or exemption is asserted with-
+out a documented determination.
+The base CardioDiag methods and provider datasets are at-
+tributed to their original authors. Source data were used accord-
+ing to the inspected provider records, including AngioCAD
+CC BY 4.0; institutional ethics determination and any broader
+release permissions must be conﬁrmed by the project authors.
+Funding, conﬂicts and contribution statements must not be
+inferred from the base paper. AI-assisted coding and drafting
+were used in preparing this extension; authors must verify the
+content and complete the chosen venue’s current disclosure
+requirements. This research report is not a claim of acceptance
+or submission readiness.
+REFERENCES
+[1] M. J. Khan, B. Raza, and A. Nadeem, "CardioDiag: a machine learning
+approach for cardiovascular disease diagnosis using XAI-guided hybrid
+dimensionality reduction and optimized-based ensemble classiﬁers," PeerJ
+Computer Science, vol. 12, e4059, 2026, doi: 10.7717/peerj-cs.4059.
+[2] G. C. Cawley and N. L. C. Talbot, "On over-ﬁtting in model selection and
+subsequent selection bias in performance evaluation," Journal of Machine
+Learning Research, vol. 11, pp. 2079-2107, 2010.
+[3] R. Alizadehsani, M. Roshanzamir, and Z. Sani, "Z-Alizadeh Sani," UCI
+Machine Learning Repository, dataset, doi: 10.24432/C5Q31T.
+[4] M. S. Hosseini et al., "AngioCAD: A Publicly Available X-ray Angiogra-
+phy Dataset for Coronary Artery Stenosis and CAD Detection," Zenodo,
+dataset, 2025, doi: 10.5281/zenodo.15826856.
+[5] B. V an Calster et al., "Calibration: the Achilles heel of predictive
+analytics," BMC Medicine, vol. 17, art. 230, 2019, doi: 10.1186/s12916-
+019-1466-7.
+[6] G. S. Collins et al., "TRIPOD+AI statement: updated guidance for re-
+porting clinical prediction models that use regression or machine learning
+methods," BMJ, vol. 385, e078378, 2024, doi: 10.1136/bmj-2023-078378.
+[7] K. G. M. Moons et al., "PROBAST+AI: an updated quality, risk of bias,
+and applicability assessment tool for prediction models using regression
+or artiﬁcial intelligence methods," BMJ, vol. 388, e082505, 2025, doi:
+10.1136/bmj-2024-082505.
+[8] R. D. Riley et al., "Evaluation of clinical prediction models (part 2): how
+to undertake an external validation study," BMJ, vol. 384, e074820, 2024,
+doi: 10.1136/bmj-2023-074820.
+[9] R. D. Riley et al., "Evaluation of clinical prediction models (part 3):
+calculating the sample size required for an external validation study,"
+BMJ, vol. 384, e074821, 2024, doi: 10.1136/bmj-2023-074821.
+8

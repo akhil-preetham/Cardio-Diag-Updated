@@ -1,0 +1,20 @@
+[
+  {
+    "accuracy":0.9173913043,
+    "balanced_accuracy":0.9151058788,
+    "precision":0.9153846154,
+    "recall_sensitivity":0.937007874,
+    "specificity":0.8932038835,
+    "f1":0.9260700389,
+    "roc_auc":0.9423591469,
+    "pr_auc_average_precision":0.9406881991,
+    "brier_score":0.0886343408,
+    "confusion_matrix_tn_fp_fn_tp":[
+      92,
+      11,
+      8,
+      119
+    ],
+    "recall":0.937007874
+  }
+]

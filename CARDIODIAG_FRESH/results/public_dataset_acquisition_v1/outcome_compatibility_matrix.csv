@@ -1,0 +1,6 @@
+dataset,definition,angiography,binary_negative_class,independence_or_size,compatibility
+UCI four-centre,num=0 <50%; num=1-4 >50% diameter narrowing,yes,yes,site-aware analyses possible,conditional: predictor subset and provenance
+AngioCAD,artery-level categories; patient-level >=50% can be derived only as an audit rule,yes,yes,patient ID in tables; images grouped by case,conditional clinical/imaging; not frozen V3 validation without five predictors and timing
+Mendeley stenosis,all 100 described as significant one-vessel disease,yes,no,patient count but image series,not binary validation
+CADICA,lesion severity annotations,yes,yes,42 patients,related imaging task
+MIMIC-IV/eICU,not fixed angiographic endpoint,not established,credentialed patient keys,large,requires new phenotype validation

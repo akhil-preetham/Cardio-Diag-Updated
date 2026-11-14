@@ -1,0 +1,14 @@
+feature_set,variable,timing_assessment,eligibility
+strict,age,prediagnostic or admission measurement,include
+strict,sex,prediagnostic or admission measurement,include
+strict,trestbps,prediagnostic or admission measurement,include
+strict,chol,prediagnostic or admission measurement,include
+strict,fbs,prediagnostic or admission measurement,include
+strict,restecg,prediagnostic or admission measurement,include
+exploratory,thalach,timing may follow initial decision or exercise testing,separate only
+exploratory,exang,timing may follow initial decision or exercise testing,separate only
+exploratory,oldpeak,timing may follow initial decision or exercise testing,separate only
+excluded,slope,post-diagnostic or target-derived,exclude
+excluded,ca,post-diagnostic or target-derived,exclude
+excluded,thal,post-diagnostic or target-derived,exclude
+excluded,num,post-diagnostic or target-derived,exclude

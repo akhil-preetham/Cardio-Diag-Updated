@@ -1,0 +1,3 @@
+# Phase 4 protocol
+
+Phase 4 is a separate UCI four-centre transportability study. The primary estimand is centre-held-out performance under internal-external cross-validation, not external validation of CARDIODIAG V3. The primary feature set is age, sex, trestbps, chol, fbs and restecg. Median/mode imputation, indicators, encoding, scaling and hyperparameter selection occur only in the development centres. Logistic regression is primary; random forest and histogram gradient boosting are bounded secondary analyses. Metrics are ROC-AUC, average precision, threshold metrics, Brier score and log loss, with record-level bootstrap intervals. No model updating or threshold optimization uses held-out-centre labels.

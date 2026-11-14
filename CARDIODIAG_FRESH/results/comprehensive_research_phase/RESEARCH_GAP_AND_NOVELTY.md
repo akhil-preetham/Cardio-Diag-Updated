@@ -1,0 +1,3 @@
+# Research Gap and Novelty
+
+The present work does not establish novelty from applying standard classifiers. Its defensible contribution is an auditable correction of calibration-selection bias, preservation of exact nested splits, explicit separation of compatible cardiovascular research tracks, and an evidence-based demonstration that apparent gains from expanded feature groups cannot be promoted without timing and unit documentation. A journal-level clinical contribution would still require an independent compatible cohort, stronger provenance and governance documentation, and prospective or well-designed external validation.

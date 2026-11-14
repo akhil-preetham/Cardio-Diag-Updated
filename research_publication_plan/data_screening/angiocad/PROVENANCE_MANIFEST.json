@@ -1,0 +1,29 @@
+{
+  "retrieved_utc": "2026-11-14T06:51:28.881034+00:00",
+  "record_url": "https://zenodo.org/records/15826856",
+  "api_url": "https://zenodo.org/api/records/15826856",
+  "doi": "10.5281/zenodo.15826856",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "access_right": "open",
+  "scope": "Only two clinical/label workbooks and provider metadata; no image archive",
+  "files": [
+    {
+      "file": "AngioCAD_Features.xlsx",
+      "url": "https://zenodo.org/api/records/15826856/files/AngioCAD_Features.xlsx/content",
+      "bytes": 129493,
+      "sha256": "978f2415ab52f11724e1ef00bb63597b8497487afd84b97f7112fc7975a33295",
+      "provider_checksum": "md5:1617d242df42367787f445392729f35e"
+    },
+    {
+      "file": "AngioCAD_Labels.xlsx",
+      "url": "https://zenodo.org/api/records/15826856/files/AngioCAD_Labels.xlsx/content",
+      "bytes": 43267,
+      "sha256": "5bba3f4ba8bed0df0d2f412d5e2ca6deacca0eff20d531a599fe1b8f4d897425",
+      "provider_checksum": "md5:fc97ffc2978f6cee93a1059e8b1c282f"
+    }
+  ],
+  "metadata_sha256": "d04bc15229833f93e361fd22dc5add5c32131a1331d576c6bf24fb3514c7b53b",
+  "screening_script_sha256": "04a526f0e024517679c2b7467a5b414b547c9884d52febaa091ebdc0de01d496"
+}

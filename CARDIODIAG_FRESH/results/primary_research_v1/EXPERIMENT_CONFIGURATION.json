@@ -1,0 +1,161 @@
+{
+  "protocol_version": "PRIMARY_RESEARCH_PROTOCOL_V1",
+  "dataset": "data\\interim\\validated\\z_alizadeh_sani.csv",
+  "target_encoding": {
+    "Cad": 1,
+    "Normal": 0
+  },
+  "strict_features": [
+    "Age",
+    "Sex",
+    "Current Smoker",
+    "EX-Smoker",
+    "FH"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "threshold": 0.5,
+  "bootstrap_replicates": 500,
+  "calibration": "sigmoid CalibratedClassifierCV fitted on outer training partitions with inner folds",
+  "resampling": "none; class-weighted model variants evaluated where supported",
+  "models": {
+    "logistic_regression_none": {
+      "name": "Logistic Regression",
+      "imbalance_strategy": "none",
+      "estimator": "LogisticRegression(max_iter=3000, random_state=1, solver='liblinear')",
+      "grid": {
+        "model__C": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      }
+    },
+    "logistic_regression_balanced": {
+      "name": "Logistic Regression",
+      "imbalance_strategy": "balanced",
+      "estimator": "LogisticRegression(class_weight='balanced', max_iter=3000, random_state=1,\n                   solver='liblinear')",
+      "grid": {
+        "model__C": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      }
+    },
+    "svm_none": {
+      "name": "Support Vector Classifier",
+      "imbalance_strategy": "none",
+      "estimator": "SVC(probability=False, random_state=1)",
+      "grid": {
+        "model__C": [
+          0.1,
+          1.0,
+          10.0
+        ],
+        "model__gamma": [
+          "scale",
+          "auto"
+        ]
+      }
+    },
+    "svm_balanced": {
+      "name": "Support Vector Classifier",
+      "imbalance_strategy": "balanced",
+      "estimator": "SVC(class_weight='balanced', probability=False, random_state=1)",
+      "grid": {
+        "model__C": [
+          0.1,
+          1.0,
+          10.0
+        ],
+        "model__gamma": [
+          "scale",
+          "auto"
+        ]
+      }
+    },
+    "random_forest_none": {
+      "name": "Random Forest",
+      "imbalance_strategy": "none",
+      "estimator": "RandomForestClassifier(n_estimators=200, n_jobs=1, random_state=1)",
+      "grid": {
+        "model__max_depth": [
+          null,
+          4
+        ],
+        "model__min_samples_leaf": [
+          1,
+          3
+        ]
+      }
+    },
+    "random_forest_balanced": {
+      "name": "Random Forest",
+      "imbalance_strategy": "balanced",
+      "estimator": "RandomForestClassifier(class_weight='balanced', n_estimators=200, n_jobs=1,\n                       random_state=1)",
+      "grid": {
+        "model__max_depth": [
+          null,
+          4
+        ],
+        "model__min_samples_leaf": [
+          1,
+          3
+        ]
+      }
+    },
+    "hist_gradient_boosting_none": {
+      "name": "HistGradientBoosting",
+      "imbalance_strategy": "none",
+      "estimator": "HistGradientBoostingClassifier(max_iter=150, random_state=1)",
+      "grid": {
+        "model__learning_rate": [
+          0.05,
+          0.1
+        ],
+        "model__max_leaf_nodes": [
+          7,
+          15
+        ]
+      }
+    },
+    "extra_trees_none": {
+      "name": "Extra Trees",
+      "imbalance_strategy": "none",
+      "estimator": "ExtraTreesClassifier(n_estimators=200, n_jobs=1, random_state=1)",
+      "grid": {
+        "model__max_depth": [
+          null,
+          4
+        ],
+        "model__min_samples_leaf": [
+          1,
+          3
+        ]
+      }
+    },
+    "extra_trees_balanced": {
+      "name": "Extra Trees",
+      "imbalance_strategy": "balanced",
+      "estimator": "ExtraTreesClassifier(class_weight='balanced', n_estimators=200, n_jobs=1,\n                     random_state=1)",
+      "grid": {
+        "model__max_depth": [
+          null,
+          4
+        ],
+        "model__min_samples_leaf": [
+          1,
+          3
+        ]
+      }
+    }
+  }
+}

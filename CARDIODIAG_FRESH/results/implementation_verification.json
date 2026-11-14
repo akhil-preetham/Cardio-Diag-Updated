@@ -1,0 +1,49 @@
+{
+  "status": "implementation_complete_external_validation_or_resources_still_required",
+  "checks": [
+    {
+      "name": "python_compileall",
+      "result": "passed",
+      "scope": "src"
+    },
+    {
+      "name": "focused_tests",
+      "result": "passed",
+      "count": 8,
+      "command": "python -m pytest -q"
+    },
+    {
+      "name": "notebook_execution",
+      "result": "not_performed"
+    },
+    {
+      "name": "kernel_start",
+      "result": "not_performed"
+    },
+    {
+      "name": "package_installation",
+      "result": "not_performed"
+    },
+    {
+      "name": "loras_exact_reproduction",
+      "result": "implemented",
+      "package": "loras==0.0.22b0",
+      "restriction": "training partitions only"
+    },
+    {
+      "name": "xaih_drc_source_procedure",
+      "result": "implemented",
+      "restriction": "training-fold LIME importances are required explicitly"
+    },
+    {
+      "name": "lime_execution",
+      "result": "blocked",
+      "reason": "The selected environment does not provide the optional lime package."
+    },
+    {
+      "name": "paired_model_comparison",
+      "result": "blocked",
+      "reason": "Existing persisted predictions are not aligned competing-model predictions."
+    }
+  ]
+}

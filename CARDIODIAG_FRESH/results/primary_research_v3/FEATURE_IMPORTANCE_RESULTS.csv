@@ -1,0 +1,1396 @@
+level,repeat,fold,model_id,feature,importance_mean,importance_std,importance_positive
+outer_fold,1.0,1.0,logistic_regression_none,Age,0.3216577540106952,0.037312161218799655,True
+outer_fold,1.0,1.0,logistic_regression_none,Sex,0.005748663101604201,0.008312455377919659,True
+outer_fold,1.0,1.0,logistic_regression_none,Current Smoker,0.00868983957219247,0.013751220182485327,True
+outer_fold,1.0,1.0,logistic_regression_none,EX-Smoker,0.0012032085561496596,0.007788508911031814,True
+outer_fold,1.0,1.0,logistic_regression_none,FH,-0.005347593582887789,0.025235174564254486,False
+outer_fold,1.0,1.0,logistic_regression_balanced,Age,0.31951871657754016,0.041047352947786185,True
+outer_fold,1.0,1.0,logistic_regression_balanced,Sex,0.011631016042780763,0.013439652793435501,True
+outer_fold,1.0,1.0,logistic_regression_balanced,Current Smoker,0.008422459893048195,0.014896671954207599,True
+outer_fold,1.0,1.0,logistic_regression_balanced,EX-Smoker,-0.00013368983957220414,0.0015475717784479107,False
+outer_fold,1.0,1.0,logistic_regression_balanced,FH,-0.005614973262032063,0.02667974945264478,False
+outer_fold,1.0,1.0,svm_none,Age,0.31122994652406416,0.03766306402000797,True
+outer_fold,1.0,1.0,svm_none,Sex,0.02687165775401068,0.01611725139591503,True
+outer_fold,1.0,1.0,svm_none,Current Smoker,0.06590909090909089,0.048209230896835445,True
+outer_fold,1.0,1.0,svm_none,EX-Smoker,-0.0036096256684492456,0.00869086789472994,False
+outer_fold,1.0,1.0,svm_none,FH,0.00882352941176472,0.03997169707021881,True
+outer_fold,1.0,1.0,svm_balanced,Age,0.26871657754010686,0.06177425441852847,True
+outer_fold,1.0,1.0,svm_balanced,Sex,0.0062834224598929955,0.007640231049320658,True
+outer_fold,1.0,1.0,svm_balanced,Current Smoker,0.010828877005347515,0.02290119048702019,True
+outer_fold,1.0,1.0,svm_balanced,EX-Smoker,-0.0282085561497327,0.013550901324506457,False
+outer_fold,1.0,1.0,svm_balanced,FH,-0.006149732620320947,0.04080366338851859,False
+outer_fold,1.0,1.0,random_forest_none,Age,0.3018716577540107,0.06405208433203304,True
+outer_fold,1.0,1.0,random_forest_none,Sex,0.00882352941176463,0.024434172728668945,True
+outer_fold,1.0,1.0,random_forest_none,Current Smoker,0.027406417112299363,0.040778688392077794,True
+outer_fold,1.0,1.0,random_forest_none,EX-Smoker,-0.02152406417112305,0.005201892101161399,False
+outer_fold,1.0,1.0,random_forest_none,FH,0.0010695187165775221,0.01585563751790697,True
+outer_fold,1.0,1.0,random_forest_balanced,Age,0.3052139037433154,0.06650931796601682,True
+outer_fold,1.0,1.0,random_forest_balanced,Sex,0.013903743315507987,0.0231573031253205,True
+outer_fold,1.0,1.0,random_forest_balanced,Current Smoker,0.021524064171122913,0.0320532368366588,True
+outer_fold,1.0,1.0,random_forest_balanced,EX-Smoker,-0.005748663101604312,0.0021804152981684303,False
+outer_fold,1.0,1.0,random_forest_balanced,FH,-0.001336898395721975,0.013335519614478628,False
+outer_fold,1.0,1.0,hist_gradient_boosting_none,Age,0.2513368983957218,0.0868685674845332,True
+outer_fold,1.0,1.0,hist_gradient_boosting_none,Sex,-0.007352941176470606,0.028899896848641263,False
+outer_fold,1.0,1.0,hist_gradient_boosting_none,Current Smoker,0.008957219251336834,0.020264486974862498,True
+outer_fold,1.0,1.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,1.0,hist_gradient_boosting_none,FH,-0.018181818181818344,0.023980096744852315,False
+outer_fold,1.0,1.0,extra_trees_none,Age,0.28475935828877,0.06014408571860806,True
+outer_fold,1.0,1.0,extra_trees_none,Sex,0.04986631016042779,0.02746537287355513,True
+outer_fold,1.0,1.0,extra_trees_none,Current Smoker,0.04986631016042773,0.061551940408640725,True
+outer_fold,1.0,1.0,extra_trees_none,EX-Smoker,-0.03516042780748667,0.005456773163625247,False
+outer_fold,1.0,1.0,extra_trees_none,FH,0.003208556149732522,0.0375270975523295,True
+outer_fold,1.0,1.0,extra_trees_balanced,Age,0.27433155080213906,0.059785821223287114,True
+outer_fold,1.0,1.0,extra_trees_balanced,Sex,0.047994652406417135,0.029856266772959366,True
+outer_fold,1.0,1.0,extra_trees_balanced,Current Smoker,0.056550802139037445,0.06302678424776724,True
+outer_fold,1.0,1.0,extra_trees_balanced,EX-Smoker,-0.030614973262032018,0.013708261752522538,False
+outer_fold,1.0,1.0,extra_trees_balanced,FH,0.002673796791443905,0.03724407940099366,True
+outer_fold,1.0,2.0,logistic_regression_none,Age,0.21201550387596907,0.03983730240726425,True
+outer_fold,1.0,2.0,logistic_regression_none,Sex,-0.04018087855297157,0.013285524124635932,False
+outer_fold,1.0,2.0,logistic_regression_none,Current Smoker,-0.03733850129198961,0.022694194722515576,False
+outer_fold,1.0,2.0,logistic_regression_none,EX-Smoker,0.0016795865633075558,0.01624314151846163,True
+outer_fold,1.0,2.0,logistic_regression_none,FH,0.026098191214470344,0.007949674451118972,True
+outer_fold,1.0,2.0,logistic_regression_balanced,Age,0.21459948320413447,0.03930155258852469,True
+outer_fold,1.0,2.0,logistic_regression_balanced,Sex,-0.035788113695090364,0.01390675492925288,False
+outer_fold,1.0,2.0,logistic_regression_balanced,Current Smoker,-0.03604651162790691,0.023145734305168416,False
+outer_fold,1.0,2.0,logistic_regression_balanced,EX-Smoker,0.0024547803617571695,0.017899536470115694,True
+outer_fold,1.0,2.0,logistic_regression_balanced,FH,0.028423772609819188,0.007228217431885963,True
+outer_fold,1.0,2.0,svm_none,Age,0.25775193798449614,0.034467320475851826,True
+outer_fold,1.0,2.0,svm_none,Sex,-0.029844961240310088,0.01687221763118699,False
+outer_fold,1.0,2.0,svm_none,Current Smoker,-0.005813953488372081,0.032595544732668874,False
+outer_fold,1.0,2.0,svm_none,EX-Smoker,0.016925064599483196,0.014196609124989355,True
+outer_fold,1.0,2.0,svm_none,FH,0.07855297157622743,0.04195406958834947,True
+outer_fold,1.0,2.0,svm_balanced,Age,0.21072351421188626,0.046542840517584526,True
+outer_fold,1.0,2.0,svm_balanced,Sex,-0.02855297157622738,0.013435450151271977,False
+outer_fold,1.0,2.0,svm_balanced,Current Smoker,-0.04457364341085277,0.03251350453403496,False
+outer_fold,1.0,2.0,svm_balanced,EX-Smoker,0.03242894056847545,0.0298485964876673,True
+outer_fold,1.0,2.0,svm_balanced,FH,0.03385012919896637,0.010421160118902232,True
+outer_fold,1.0,2.0,random_forest_none,Age,0.23617571059431527,0.03851039553855626,True
+outer_fold,1.0,2.0,random_forest_none,Sex,-0.01640826873385006,0.01701604832759532,False
+outer_fold,1.0,2.0,random_forest_none,Current Smoker,-0.023901808785529655,0.017425104402337237,False
+outer_fold,1.0,2.0,random_forest_none,EX-Smoker,-0.006459948320413411,0.004381350118297986,False
+outer_fold,1.0,2.0,random_forest_none,FH,0.031524547803617596,0.008737900991685206,True
+outer_fold,1.0,2.0,random_forest_balanced,Age,0.2242894056847545,0.039526016130705506,True
+outer_fold,1.0,2.0,random_forest_balanced,Sex,-0.02105943152454781,0.01781166021840351,False
+outer_fold,1.0,2.0,random_forest_balanced,Current Smoker,-0.02726098191214472,0.020474673465946037,False
+outer_fold,1.0,2.0,random_forest_balanced,EX-Smoker,-0.003100775193798433,0.004575176023159119,False
+outer_fold,1.0,2.0,random_forest_balanced,FH,0.03875968992248062,0.009625106218185606,True
+outer_fold,1.0,2.0,hist_gradient_boosting_none,Age,0.24754521963824283,0.0406687481796636,True
+outer_fold,1.0,2.0,hist_gradient_boosting_none,Sex,-0.022609819121447106,0.0035617697033824775,False
+outer_fold,1.0,2.0,hist_gradient_boosting_none,Current Smoker,-0.018475452196382514,0.022170331820492283,False
+outer_fold,1.0,2.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,2.0,hist_gradient_boosting_none,FH,0.06291989664082678,0.011710872551549999,True
+outer_fold,1.0,2.0,extra_trees_none,Age,0.17997416020671841,0.03599669624233347,True
+outer_fold,1.0,2.0,extra_trees_none,Sex,0.018475452196382514,0.04858396531019231,True
+outer_fold,1.0,2.0,extra_trees_none,Current Smoker,-0.04302325581395341,0.031890429796142795,False
+outer_fold,1.0,2.0,extra_trees_none,EX-Smoker,0.0011627906976744873,0.002871590538875064,True
+outer_fold,1.0,2.0,extra_trees_none,FH,0.023772609819121503,0.010151783607526207,True
+outer_fold,1.0,2.0,extra_trees_balanced,Age,0.1768733850129199,0.03647303068793959,True
+outer_fold,1.0,2.0,extra_trees_balanced,Sex,0.012532299741602082,0.04635452940785976,True
+outer_fold,1.0,2.0,extra_trees_balanced,Current Smoker,-0.04173126614987077,0.034601692735025676,False
+outer_fold,1.0,2.0,extra_trees_balanced,EX-Smoker,-0.00012919896640828377,0.007482393920191358,False
+outer_fold,1.0,2.0,extra_trees_balanced,FH,0.02454780361757103,0.01436957386397855,True
+outer_fold,1.0,3.0,logistic_regression_none,Age,0.12054263565891477,0.10309607988635039,True
+outer_fold,1.0,3.0,logistic_regression_none,Sex,0.00439276485788116,0.009834409423248095,True
+outer_fold,1.0,3.0,logistic_regression_none,Current Smoker,0.020025839793281652,0.00885743488423907,True
+outer_fold,1.0,3.0,logistic_regression_none,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,3.0,logistic_regression_none,FH,0.01563307493540056,0.00940937542947451,True
+outer_fold,1.0,3.0,logistic_regression_balanced,Age,0.12700258397932815,0.10043057088357799,True
+outer_fold,1.0,3.0,logistic_regression_balanced,Sex,0.0025839793281653865,0.011834230385069254,True
+outer_fold,1.0,3.0,logistic_regression_balanced,Current Smoker,0.02441860465116281,0.010060941774641717,True
+outer_fold,1.0,3.0,logistic_regression_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,3.0,logistic_regression_balanced,FH,0.017700258397932832,0.009366702305112077,True
+outer_fold,1.0,3.0,svm_none,Age,0.15387596899224812,0.06752719659745753,True
+outer_fold,1.0,3.0,svm_none,Sex,-0.013436692506459912,0.036257290811886,False
+outer_fold,1.0,3.0,svm_none,Current Smoker,0.08152454780361762,0.038527296422457245,True
+outer_fold,1.0,3.0,svm_none,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,3.0,svm_none,FH,0.07248062015503884,0.013089328312055752,True
+outer_fold,1.0,3.0,svm_balanced,Age,0.1497416020671835,0.09278914698603602,True
+outer_fold,1.0,3.0,svm_balanced,Sex,-0.0015503875968991166,0.01410933164453327,False
+outer_fold,1.0,3.0,svm_balanced,Current Smoker,0.03940568475452204,0.014832581538569669,True
+outer_fold,1.0,3.0,svm_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,3.0,svm_balanced,FH,0.018992248062015625,0.009003230692601725,True
+outer_fold,1.0,3.0,random_forest_none,Age,0.08527131782945738,0.09899372856115736,True
+outer_fold,1.0,3.0,random_forest_none,Sex,-0.03772609819121442,0.04584033221442217,False
+outer_fold,1.0,3.0,random_forest_none,Current Smoker,-0.0012919896640826377,0.02190675059148989,False
+outer_fold,1.0,3.0,random_forest_none,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,3.0,random_forest_none,FH,0.01976744186046515,0.025572258436667696,True
+outer_fold,1.0,3.0,random_forest_balanced,Age,0.08462532299741604,0.09711517710468541,True
+outer_fold,1.0,3.0,random_forest_balanced,Sex,-0.04302325581395346,0.04692715621014366,False
+outer_fold,1.0,3.0,random_forest_balanced,Current Smoker,-0.0027131782945736703,0.028885144418567675,False
+outer_fold,1.0,3.0,random_forest_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,3.0,random_forest_balanced,FH,0.01563307493540058,0.025489878845840738,True
+outer_fold,1.0,3.0,hist_gradient_boosting_none,Age,0.03992248062015502,0.09293834051372445,True
+outer_fold,1.0,3.0,hist_gradient_boosting_none,Sex,-0.02777777777777779,0.038326607168453035,False
+outer_fold,1.0,3.0,hist_gradient_boosting_none,Current Smoker,-0.010465116279069741,0.021005860748676487,False
+outer_fold,1.0,3.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,3.0,hist_gradient_boosting_none,FH,0.007881136950904376,0.013366942797289484,True
+outer_fold,1.0,3.0,extra_trees_none,Age,0.09987080103359178,0.0906002627722063,True
+outer_fold,1.0,3.0,extra_trees_none,Sex,-0.029715762273901734,0.04756733279717085,False
+outer_fold,1.0,3.0,extra_trees_none,Current Smoker,-0.0011627906976743763,0.026206697454280305,False
+outer_fold,1.0,3.0,extra_trees_none,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,3.0,extra_trees_none,FH,0.020542635658914742,0.02185869352202229,True
+outer_fold,1.0,3.0,extra_trees_balanced,Age,0.09832041343669248,0.09333621630007337,True
+outer_fold,1.0,3.0,extra_trees_balanced,Sex,-0.03100775193798453,0.04664243735901204,False
+outer_fold,1.0,3.0,extra_trees_balanced,Current Smoker,0.007105943152454763,0.03278193052051271,True
+outer_fold,1.0,3.0,extra_trees_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,3.0,extra_trees_balanced,FH,0.021576227390180815,0.024375842682760107,True
+outer_fold,1.0,4.0,logistic_regression_none,Age,0.29904240766073864,0.04904846497878769,True
+outer_fold,1.0,4.0,logistic_regression_none,Sex,0.02503419972640213,0.014187570082040125,True
+outer_fold,1.0,4.0,logistic_regression_none,Current Smoker,0.020383036935704424,0.015539777642859553,True
+outer_fold,1.0,4.0,logistic_regression_none,EX-Smoker,0.0005471956224349483,0.0002735978112174742,True
+outer_fold,1.0,4.0,logistic_regression_none,FH,-0.0005471956224350816,0.021247472848540512,False
+outer_fold,1.0,4.0,logistic_regression_balanced,Age,0.293844049247606,0.049551804075959306,True
+outer_fold,1.0,4.0,logistic_regression_balanced,Sex,0.029958960328317352,0.015087623178070867,True
+outer_fold,1.0,4.0,logistic_regression_balanced,Current Smoker,0.021751025991792038,0.01723014664167853,True
+outer_fold,1.0,4.0,logistic_regression_balanced,EX-Smoker,-0.0002735978112175186,0.0027901611565486683,False
+outer_fold,1.0,4.0,logistic_regression_balanced,FH,-0.0076607387140902984,0.02164018597349949,False
+outer_fold,1.0,4.0,svm_none,Age,0.2632010943912448,0.032692935047859535,True
+outer_fold,1.0,4.0,svm_none,Sex,0.03324213406292744,0.019276514313333597,True
+outer_fold,1.0,4.0,svm_none,Current Smoker,0.008618331053351524,0.023044018264564307,True
+outer_fold,1.0,4.0,svm_none,EX-Smoker,0.010943912448700344,0.008023462817299694,True
+outer_fold,1.0,4.0,svm_none,FH,-0.03611491108071145,0.03770392263275146,False
+outer_fold,1.0,4.0,svm_balanced,Age,0.25882352941176484,0.050849093537540066,True
+outer_fold,1.0,4.0,svm_balanced,Sex,0.026402188782489833,0.007023528127492986,True
+outer_fold,1.0,4.0,svm_balanced,Current Smoker,0.03515731874145016,0.02240163008531734,True
+outer_fold,1.0,4.0,svm_balanced,EX-Smoker,0.01067031463748298,0.011244171046804112,True
+outer_fold,1.0,4.0,svm_balanced,FH,-0.04924760601915179,0.028544788888136687,False
+outer_fold,1.0,4.0,random_forest_none,Age,0.2369357045143638,0.0315931437902018,True
+outer_fold,1.0,4.0,random_forest_none,Sex,0.025307797537619626,0.01693214604297216,True
+outer_fold,1.0,4.0,random_forest_none,Current Smoker,-0.009986320109439206,0.01628768926526648,False
+outer_fold,1.0,4.0,random_forest_none,EX-Smoker,0.0010943912448700076,0.0010237092713472078,True
+outer_fold,1.0,4.0,random_forest_none,FH,-0.02352941176470602,0.017792274131752803,False
+outer_fold,1.0,4.0,random_forest_balanced,Age,0.23023255813953494,0.03412193615346372,True
+outer_fold,1.0,4.0,random_forest_balanced,Sex,0.03187414500683992,0.018366749653069385,True
+outer_fold,1.0,4.0,random_forest_balanced,Current Smoker,-0.009028727770177802,0.014033727609556422,False
+outer_fold,1.0,4.0,random_forest_balanced,EX-Smoker,0.001778385772913804,0.00776988882142977,True
+outer_fold,1.0,4.0,random_forest_balanced,FH,-0.03324213406292751,0.018488613754327442,False
+outer_fold,1.0,4.0,hist_gradient_boosting_none,Age,0.23994528043775643,0.05180399535098908,True
+outer_fold,1.0,4.0,hist_gradient_boosting_none,Sex,0.03283173734610121,0.016782276534042784,True
+outer_fold,1.0,4.0,hist_gradient_boosting_none,Current Smoker,-0.00779753761969908,0.012778804539706397,False
+outer_fold,1.0,4.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,4.0,hist_gradient_boosting_none,FH,-0.01641586867305058,0.024252405082711224,False
+outer_fold,1.0,4.0,extra_trees_none,Age,0.21655266757865926,0.04076882811874885,True
+outer_fold,1.0,4.0,extra_trees_none,Sex,0.06634746922024626,0.03663555401646072,True
+outer_fold,1.0,4.0,extra_trees_none,Current Smoker,0.033515731874144986,0.05138251391696638,True
+outer_fold,1.0,4.0,extra_trees_none,EX-Smoker,0.009575923392612817,0.0008651922462841247,True
+outer_fold,1.0,4.0,extra_trees_none,FH,-0.05280437756497951,0.030870515218888877,False
+outer_fold,1.0,4.0,extra_trees_balanced,Age,0.22038303693570455,0.04277761056042563,True
+outer_fold,1.0,4.0,extra_trees_balanced,Sex,0.08057455540355678,0.035187912189473966,True
+outer_fold,1.0,4.0,extra_trees_balanced,Current Smoker,0.05759233926128591,0.05528842473254068,True
+outer_fold,1.0,4.0,extra_trees_balanced,EX-Smoker,0.0068399452804377425,0.0013679890560875374,True
+outer_fold,1.0,4.0,extra_trees_balanced,FH,-0.050615595075239384,0.0354464944706252,False
+outer_fold,1.0,5.0,logistic_regression_none,Age,0.17264021887824904,0.057664592646989726,True
+outer_fold,1.0,5.0,logistic_regression_none,Sex,0.007523939808481539,0.01262706512636317,True
+outer_fold,1.0,5.0,logistic_regression_none,Current Smoker,0.0075239398084816275,0.028932240873348107,True
+outer_fold,1.0,5.0,logistic_regression_none,EX-Smoker,-0.004651162790697638,0.00294673860855509,False
+outer_fold,1.0,5.0,logistic_regression_none,FH,0.009712722298221598,0.02288838247840229,True
+outer_fold,1.0,5.0,logistic_regression_balanced,Age,0.1718194254445965,0.057271871110297655,True
+outer_fold,1.0,5.0,logistic_regression_balanced,Sex,0.011627906976744273,0.018096794193328228,True
+outer_fold,1.0,5.0,logistic_regression_balanced,Current Smoker,0.008344733242134162,0.0236760929210482,True
+outer_fold,1.0,5.0,logistic_regression_balanced,EX-Smoker,-0.010396716826265352,0.0068454150496288875,False
+outer_fold,1.0,5.0,logistic_regression_balanced,FH,0.013269493844049296,0.023250180375025124,True
+outer_fold,1.0,5.0,svm_none,Age,0.12257181942544455,0.07173977734493021,True
+outer_fold,1.0,5.0,svm_none,Sex,0.003967168262653908,0.013265967630534236,True
+outer_fold,1.0,5.0,svm_none,Current Smoker,-0.0001367989056087593,0.039481121644613634,False
+outer_fold,1.0,5.0,svm_none,EX-Smoker,0.007113543091655239,0.021567422352959057,True
+outer_fold,1.0,5.0,svm_none,FH,0.0121751025991792,0.021409793564219598,True
+outer_fold,1.0,5.0,svm_balanced,Age,0.14801641586867303,0.05226470176017821,True
+outer_fold,1.0,5.0,svm_balanced,Sex,0.0028727770177838117,0.009521046588949564,True
+outer_fold,1.0,5.0,svm_balanced,Current Smoker,0.00013679890560869268,0.04060739045902738,True
+outer_fold,1.0,5.0,svm_balanced,EX-Smoker,0.020246238030095752,0.023173589250735645,True
+outer_fold,1.0,5.0,svm_balanced,FH,0.005882352941176472,0.02315339158164573,True
+outer_fold,1.0,5.0,random_forest_none,Age,0.14870041039671678,0.05397683347952801,True
+outer_fold,1.0,5.0,random_forest_none,Sex,-0.0004103967168263001,0.02576980588345929,False
+outer_fold,1.0,5.0,random_forest_none,Current Smoker,0.004787961696306397,0.019384940721114442,True
+outer_fold,1.0,5.0,random_forest_none,EX-Smoker,-0.0008207934336525336,0.001855630638337951,False
+outer_fold,1.0,5.0,random_forest_none,FH,-0.006839945280437809,0.03228280270769086,False
+outer_fold,1.0,5.0,random_forest_balanced,Age,0.1647058823529411,0.05162486932821526,True
+outer_fold,1.0,5.0,random_forest_balanced,Sex,0.0028727770177837896,0.020083831187544404,True
+outer_fold,1.0,5.0,random_forest_balanced,Current Smoker,0.007250341997263954,0.019755959724799717,True
+outer_fold,1.0,5.0,random_forest_balanced,EX-Smoker,-0.0008207934336526002,0.0022227191257553893,False
+outer_fold,1.0,5.0,random_forest_balanced,FH,0.006019151846785209,0.03283572707176497,True
+outer_fold,1.0,5.0,hist_gradient_boosting_none,Age,0.14774281805745557,0.06401691844101971,True
+outer_fold,1.0,5.0,hist_gradient_boosting_none,Sex,0.017099863201094422,0.02151268812673984,True
+outer_fold,1.0,5.0,hist_gradient_boosting_none,Current Smoker,0.006703146374829027,0.025707277131041064,True
+outer_fold,1.0,5.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,1.0,5.0,hist_gradient_boosting_none,FH,0.015321477428180597,0.03630870774069909,True
+outer_fold,1.0,5.0,extra_trees_none,Age,0.14637482900136806,0.04932544388298663,True
+outer_fold,1.0,5.0,extra_trees_none,Sex,-0.009439124487004059,0.014608688453310523,False
+outer_fold,1.0,5.0,extra_trees_none,Current Smoker,0.010807113543091718,0.02847060979498278,True
+outer_fold,1.0,5.0,extra_trees_none,EX-Smoker,0.007113543091655327,0.004528849618945786,True
+outer_fold,1.0,5.0,extra_trees_none,FH,-0.0138166894664842,0.031675372295024824,False
+outer_fold,1.0,5.0,extra_trees_balanced,Age,0.14363885088919295,0.04671036642681209,True
+outer_fold,1.0,5.0,extra_trees_balanced,Sex,-0.005061559507523872,0.025407795931587172,False
+outer_fold,1.0,5.0,extra_trees_balanced,Current Smoker,0.012175102599179222,0.027872756036348704,True
+outer_fold,1.0,5.0,extra_trees_balanced,EX-Smoker,0.005745554035567757,0.004273734432780683,True
+outer_fold,1.0,5.0,extra_trees_balanced,FH,-0.019562243502051914,0.03230482332636175,False
+outer_fold,2.0,1.0,logistic_regression_none,Age,0.11056149732620324,0.047702363217635546,True
+outer_fold,2.0,1.0,logistic_regression_none,Sex,0.016978609625668484,0.008016932807788715,True
+outer_fold,2.0,1.0,logistic_regression_none,Current Smoker,0.04451871657754012,0.02507388492941217,True
+outer_fold,2.0,1.0,logistic_regression_none,EX-Smoker,8.881784197001253e-17,0.00042276439307064066,True
+outer_fold,2.0,1.0,logistic_regression_none,FH,0.016176470588235327,0.008972172051102954,True
+outer_fold,2.0,1.0,logistic_regression_balanced,Age,0.1094919786096257,0.04851744081224875,True
+outer_fold,2.0,1.0,logistic_regression_balanced,Sex,0.013235294117647078,0.008709356938450454,True
+outer_fold,2.0,1.0,logistic_regression_balanced,Current Smoker,0.04451871657754014,0.025595931430533306,True
+outer_fold,2.0,1.0,logistic_regression_balanced,EX-Smoker,0.0005347593582888166,0.0030309583018060366,True
+outer_fold,2.0,1.0,logistic_regression_balanced,FH,0.015374331550802168,0.009204232341207793,True
+outer_fold,2.0,1.0,svm_none,Age,0.13729946524064174,0.03791138368933929,True
+outer_fold,2.0,1.0,svm_none,Sex,0.07419786096256686,0.024946681682991013,True
+outer_fold,2.0,1.0,svm_none,Current Smoker,0.006818181818181857,0.02366121325436131,True
+outer_fold,2.0,1.0,svm_none,EX-Smoker,0.0013368983957219526,0.006227708395108053,True
+outer_fold,2.0,1.0,svm_none,FH,0.04505347593582891,0.025560993886703225,True
+outer_fold,2.0,1.0,svm_balanced,Age,0.10441176470588229,0.03149637288262506,True
+outer_fold,2.0,1.0,svm_balanced,Sex,0.0164438502673796,0.010741876698716915,True
+outer_fold,2.0,1.0,svm_balanced,Current Smoker,0.03783422459893042,0.026996080371055706,True
+outer_fold,2.0,1.0,svm_balanced,EX-Smoker,-0.0010695187165776332,0.0057127969570110885,False
+outer_fold,2.0,1.0,svm_balanced,FH,0.01377005347593574,0.011773817570216057,True
+outer_fold,2.0,1.0,random_forest_none,Age,0.09692513368983963,0.027899246998274327,True
+outer_fold,2.0,1.0,random_forest_none,Sex,0.002005347593582907,0.022715473502079787,True
+outer_fold,2.0,1.0,random_forest_none,Current Smoker,0.018850267379679188,0.01485341648377666,True
+outer_fold,2.0,1.0,random_forest_none,EX-Smoker,0.002139037433155111,0.008637232783536402,True
+outer_fold,2.0,1.0,random_forest_none,FH,0.012700534759358329,0.014091441810750109,True
+outer_fold,2.0,1.0,random_forest_balanced,Age,0.11390374331550808,0.024537093865781876,True
+outer_fold,2.0,1.0,random_forest_balanced,Sex,0.01617647058823537,0.026561583994329074,True
+outer_fold,2.0,1.0,random_forest_balanced,Current Smoker,0.019385026737967957,0.01201722195414131,True
+outer_fold,2.0,1.0,random_forest_balanced,EX-Smoker,-0.005213903743315473,0.002330962001893462,False
+outer_fold,2.0,1.0,random_forest_balanced,FH,0.019786096256684548,0.014095246366948855,True
+outer_fold,2.0,1.0,hist_gradient_boosting_none,Age,0.1300802139037433,0.0263630126511245,True
+outer_fold,2.0,1.0,hist_gradient_boosting_none,Sex,0.033823529411764676,0.023601463575422546,True
+outer_fold,2.0,1.0,hist_gradient_boosting_none,Current Smoker,0.0241978609625668,0.016430258284210953,True
+outer_fold,2.0,1.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,2.0,1.0,hist_gradient_boosting_none,FH,0.02486631016042775,0.009051503144283811,True
+outer_fold,2.0,1.0,extra_trees_none,Age,0.09478609625668458,0.03238607045556388,True
+outer_fold,2.0,1.0,extra_trees_none,Sex,0.03141711229946531,0.026327056441684482,True
+outer_fold,2.0,1.0,extra_trees_none,Current Smoker,0.012834224598930532,0.01999724737270252,True
+outer_fold,2.0,1.0,extra_trees_none,EX-Smoker,-0.0013368983957218195,0.01063653704861824,False
+outer_fold,2.0,1.0,extra_trees_none,FH,-0.001470588235294068,0.005614973262032065,False
+outer_fold,2.0,1.0,extra_trees_balanced,Age,0.09665775401069528,0.030660184257138606,True
+outer_fold,2.0,1.0,extra_trees_balanced,Sex,0.03195187165775411,0.027294999818107544,True
+outer_fold,2.0,1.0,extra_trees_balanced,Current Smoker,0.01069518716577551,0.022366593839997898,True
+outer_fold,2.0,1.0,extra_trees_balanced,EX-Smoker,0.0037433155080214718,0.01281331853423017,True
+outer_fold,2.0,1.0,extra_trees_balanced,FH,0.007352941176470696,0.003828294401945545,True
+outer_fold,2.0,2.0,logistic_regression_none,Age,0.3324289405684754,0.04060754549797912,True
+outer_fold,2.0,2.0,logistic_regression_none,Sex,0.003875968992247958,0.010817279425805945,True
+outer_fold,2.0,2.0,logistic_regression_none,Current Smoker,0.020284237726098088,0.02044285323650488,True
+outer_fold,2.0,2.0,logistic_regression_none,EX-Smoker,-0.006718346253230067,0.00802282930039276,False
+outer_fold,2.0,2.0,logistic_regression_none,FH,0.027260981912144634,0.012528969428837924,True
+outer_fold,2.0,2.0,logistic_regression_balanced,Age,0.3329457364341086,0.04266422971928059,True
+outer_fold,2.0,2.0,logistic_regression_balanced,Sex,0.003359173126615067,0.012320732094451815,True
+outer_fold,2.0,2.0,logistic_regression_balanced,Current Smoker,0.02028423772609822,0.01942114462440675,True
+outer_fold,2.0,2.0,logistic_regression_balanced,EX-Smoker,-0.006201550387596821,0.00889129226567715,False
+outer_fold,2.0,2.0,logistic_regression_balanced,FH,0.026485788113695154,0.012842143296939697,True
+outer_fold,2.0,2.0,svm_none,Age,0.3882428940568476,0.02804837848726871,True
+outer_fold,2.0,2.0,svm_none,Sex,0.011111111111111138,0.015841500386446564,True
+outer_fold,2.0,2.0,svm_none,Current Smoker,0.07428940568475458,0.031440774869260855,True
+outer_fold,2.0,2.0,svm_none,EX-Smoker,0.013695090439276502,0.0076914088197091324,True
+outer_fold,2.0,2.0,svm_none,FH,0.03501291989664086,0.01859926709346573,True
+outer_fold,2.0,2.0,svm_balanced,Age,0.3510335917312661,0.03512358912606792,True
+outer_fold,2.0,2.0,svm_balanced,Sex,-0.0023255813953488415,0.007177232254434719,False
+outer_fold,2.0,2.0,svm_balanced,Current Smoker,0.02777777777777777,0.03326716586455743,True
+outer_fold,2.0,2.0,svm_balanced,EX-Smoker,0.023255813953488393,0.0161576208794455,True
+outer_fold,2.0,2.0,svm_balanced,FH,0.011498708010335945,0.010981152124483608,True
+outer_fold,2.0,2.0,random_forest_none,Age,0.27571059431524564,0.03377855027439216,True
+outer_fold,2.0,2.0,random_forest_none,Sex,0.00025839793281665633,0.020414254391106484,True
+outer_fold,2.0,2.0,random_forest_none,Current Smoker,0.006072351421188759,0.023996251713165696,True
+outer_fold,2.0,2.0,random_forest_none,EX-Smoker,-0.012144702842377186,0.004369905562089863,False
+outer_fold,2.0,2.0,random_forest_none,FH,0.005555555555555647,0.009886887064449078,True
+outer_fold,2.0,2.0,random_forest_balanced,Age,0.2944444444444444,0.03391909655643246,True
+outer_fold,2.0,2.0,random_forest_balanced,Sex,-0.0005167958656331795,0.014963672355468884,False
+outer_fold,2.0,2.0,random_forest_balanced,Current Smoker,0.0024547803617570364,0.012700987831984015,True
+outer_fold,2.0,2.0,random_forest_balanced,EX-Smoker,-0.002583979328165409,0.00483418267025057,False
+outer_fold,2.0,2.0,random_forest_balanced,FH,0.01640826873385006,0.008309010434528965,True
+outer_fold,2.0,2.0,hist_gradient_boosting_none,Age,0.2916020671834625,0.04725504078799433,True
+outer_fold,2.0,2.0,hist_gradient_boosting_none,Sex,0.0019379844961239679,0.018266924609525545,True
+outer_fold,2.0,2.0,hist_gradient_boosting_none,Current Smoker,0.02881136950904393,0.02138857574201623,True
+outer_fold,2.0,2.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,2.0,2.0,hist_gradient_boosting_none,FH,0.012403100775193776,0.007691408819709188,True
+outer_fold,2.0,2.0,extra_trees_none,Age,0.3308785529715762,0.027271083277359432,True
+outer_fold,2.0,2.0,extra_trees_none,Sex,0.0421188630490956,0.028882254834972698,True
+outer_fold,2.0,2.0,extra_trees_none,Current Smoker,0.025193798449612358,0.03803807151774708,True
+outer_fold,2.0,2.0,extra_trees_none,EX-Smoker,-0.012919896640826867,0.002161912213266358,False
+outer_fold,2.0,2.0,extra_trees_none,FH,0.014082687338501265,0.0073813213731708975,True
+outer_fold,2.0,2.0,extra_trees_balanced,Age,0.32235142118863047,0.029881014499886314,True
+outer_fold,2.0,2.0,extra_trees_balanced,Sex,0.051162790697674466,0.036266497376153034,True
+outer_fold,2.0,2.0,extra_trees_balanced,Current Smoker,0.03449612403100779,0.03980418656581628,True
+outer_fold,2.0,2.0,extra_trees_balanced,EX-Smoker,-0.012661498708010343,0.0033091081330401903,False
+outer_fold,2.0,2.0,extra_trees_balanced,FH,0.010465116279069786,0.007448855454986856,True
+outer_fold,2.0,3.0,logistic_regression_none,Age,0.22170542635658902,0.07777455846780329,True
+outer_fold,2.0,3.0,logistic_regression_none,Sex,0.014470284237725983,0.01246351565179341,True
+outer_fold,2.0,3.0,logistic_regression_none,Current Smoker,0.01472868217054255,0.014054804913149758,True
+outer_fold,2.0,3.0,logistic_regression_none,EX-Smoker,-2.2204460492503132e-17,4.440892098500627e-17,False
+outer_fold,2.0,3.0,logistic_regression_none,FH,0.017958656330749268,0.02032739529023739,True
+outer_fold,2.0,3.0,logistic_regression_balanced,Age,0.22273901808785518,0.07589974695771981,True
+outer_fold,2.0,3.0,logistic_regression_balanced,Sex,0.013953488372092981,0.012530301660159527,True
+outer_fold,2.0,3.0,logistic_regression_balanced,Current Smoker,0.013953488372093004,0.013918752822028225,True
+outer_fold,2.0,3.0,logistic_regression_balanced,EX-Smoker,0.0007751937984495916,0.00155038759689922,True
+outer_fold,2.0,3.0,logistic_regression_balanced,FH,0.01718346253229972,0.021192569117770538,True
+outer_fold,2.0,3.0,svm_none,Age,0.2322997416020672,0.07047042711822173,True
+outer_fold,2.0,3.0,svm_none,Sex,0.012144702842377276,0.024491299037453198,True
+outer_fold,2.0,3.0,svm_none,Current Smoker,0.014470284237726139,0.023797173019429355,True
+outer_fold,2.0,3.0,svm_none,EX-Smoker,0.013436692506460068,0.011486362155500186,True
+outer_fold,2.0,3.0,svm_none,FH,0.038630490956072405,0.02851582463250688,True
+outer_fold,2.0,3.0,svm_balanced,Age,0.1935400516795866,0.07262613957662921,True
+outer_fold,2.0,3.0,svm_balanced,Sex,0.007235142118863091,0.0043507644032254695,True
+outer_fold,2.0,3.0,svm_balanced,Current Smoker,0.0291989664082688,0.024141199393621124,True
+outer_fold,2.0,3.0,svm_balanced,EX-Smoker,0.01782945736434107,0.014488729476874644,True
+outer_fold,2.0,3.0,svm_balanced,FH,0.00994832041343674,0.014250593284367478,True
+outer_fold,2.0,3.0,random_forest_none,Age,0.21576227390180866,0.06889467497620107,True
+outer_fold,2.0,3.0,random_forest_none,Sex,0.010077519379844802,0.011660877746301123,True
+outer_fold,2.0,3.0,random_forest_none,Current Smoker,0.012919896640826756,0.014088020231042895,True
+outer_fold,2.0,3.0,random_forest_none,EX-Smoker,-0.00025839793281661193,0.0028773976035296888,False
+outer_fold,2.0,3.0,random_forest_none,FH,0.005555555555555425,0.010161644497279425,True
+outer_fold,2.0,3.0,random_forest_balanced,Age,0.22248062015503872,0.07536475943254285,True
+outer_fold,2.0,3.0,random_forest_balanced,Sex,0.012661498708010255,0.01837443698999884,True
+outer_fold,2.0,3.0,random_forest_balanced,Current Smoker,0.022480620155038756,0.012628496778591574,True
+outer_fold,2.0,3.0,random_forest_balanced,EX-Smoker,0.005167958656330707,0.004003083561971483,True
+outer_fold,2.0,3.0,random_forest_balanced,FH,0.009431524547803605,0.014723014458719095,True
+outer_fold,2.0,3.0,hist_gradient_boosting_none,Age,0.21447028423772613,0.05586268090214072,True
+outer_fold,2.0,3.0,hist_gradient_boosting_none,Sex,0.014599483204134378,0.016253414836494826,True
+outer_fold,2.0,3.0,hist_gradient_boosting_none,Current Smoker,0.02015503875968989,0.017479622248359434,True
+outer_fold,2.0,3.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,2.0,3.0,hist_gradient_boosting_none,FH,0.010077519379844913,0.02119650701272957,True
+outer_fold,2.0,3.0,extra_trees_none,Age,0.22816537467700257,0.05459997847478346,True
+outer_fold,2.0,3.0,extra_trees_none,Sex,0.043927648578811304,0.03659547894821187,True
+outer_fold,2.0,3.0,extra_trees_none,Current Smoker,0.08320413436692502,0.03881434561613487,True
+outer_fold,2.0,3.0,extra_trees_none,EX-Smoker,0.0012919896640827045,0.005542018240187956,True
+outer_fold,2.0,3.0,extra_trees_none,FH,0.024677002583979268,0.022007101306825417,True
+outer_fold,2.0,3.0,extra_trees_balanced,Age,0.2242894056847545,0.058052475731059934,True
+outer_fold,2.0,3.0,extra_trees_balanced,Sex,0.054263565891472874,0.0389979755478296,True
+outer_fold,2.0,3.0,extra_trees_balanced,Current Smoker,0.09586563307493541,0.04306533159928916,True
+outer_fold,2.0,3.0,extra_trees_balanced,EX-Smoker,0.0015503875968992497,0.0041984694597601785,True
+outer_fold,2.0,3.0,extra_trees_balanced,FH,0.014599483204134378,0.022823281739741807,True
+outer_fold,2.0,4.0,logistic_regression_none,Age,0.2612859097127223,0.10504428009978123,True
+outer_fold,2.0,4.0,logistic_regression_none,Sex,0.010533515731874199,0.009736776825868263,True
+outer_fold,2.0,4.0,logistic_regression_none,Current Smoker,0.010807113543091652,0.023188927713537935,True
+outer_fold,2.0,4.0,logistic_regression_none,EX-Smoker,-0.0015047879616963077,0.003731376661282041,False
+outer_fold,2.0,4.0,logistic_regression_none,FH,-0.003283173734610112,0.021730797879704097,False
+outer_fold,2.0,4.0,logistic_regression_balanced,Age,0.26101231190150476,0.10152525042548156,True
+outer_fold,2.0,4.0,logistic_regression_balanced,Sex,0.015184678522571705,0.007658295486882818,True
+outer_fold,2.0,4.0,logistic_regression_balanced,Current Smoker,0.012722298221614192,0.021397552900422407,True
+outer_fold,2.0,4.0,logistic_regression_balanced,EX-Smoker,-0.00943912448700417,0.005305258393889303,False
+outer_fold,2.0,4.0,logistic_regression_balanced,FH,-0.0024623803009576227,0.02207766509928227,False
+outer_fold,2.0,4.0,svm_none,Age,0.26019151846785216,0.0820275714516145,True
+outer_fold,2.0,4.0,svm_none,Sex,0.017373461012311832,0.014403567100645576,True
+outer_fold,2.0,4.0,svm_none,Current Smoker,-0.0004103967168263223,0.03626745134838376,False
+outer_fold,2.0,4.0,svm_none,EX-Smoker,0.0036935704514363455,0.009955351791332516,True
+outer_fold,2.0,4.0,svm_none,FH,0.005471956224350172,0.028344125827357593,True
+outer_fold,2.0,4.0,svm_balanced,Age,0.227906976744186,0.10834214232279106,True
+outer_fold,2.0,4.0,svm_balanced,Sex,0.02202462380300958,0.011858184915332042,True
+outer_fold,2.0,4.0,svm_balanced,Current Smoker,-0.0012311901504788558,0.03750236645906694,False
+outer_fold,2.0,4.0,svm_balanced,EX-Smoker,0.013543091655266704,0.007371925354477395,True
+outer_fold,2.0,4.0,svm_balanced,FH,-0.01641586867305065,0.02365078611398069,False
+outer_fold,2.0,4.0,random_forest_none,Age,0.21025991792065665,0.08308278561176184,True
+outer_fold,2.0,4.0,random_forest_none,Sex,0.010943912448700476,0.010282692461267407,True
+outer_fold,2.0,4.0,random_forest_none,Current Smoker,-0.009849521203830336,0.0534542489494468,False
+outer_fold,2.0,4.0,random_forest_none,EX-Smoker,0.00150478796169633,0.004203089328519098,True
+outer_fold,2.0,4.0,random_forest_none,FH,-0.025170998632010888,0.009180827215082076,False
+outer_fold,2.0,4.0,random_forest_balanced,Age,0.2131326949384405,0.08146440873545342,True
+outer_fold,2.0,4.0,random_forest_balanced,Sex,0.03324213406292755,0.01242236507222599,True
+outer_fold,2.0,4.0,random_forest_balanced,Current Smoker,-0.012448700410396741,0.05523932355341477,False
+outer_fold,2.0,4.0,random_forest_balanced,EX-Smoker,0.00670314637482905,0.004545348215003014,True
+outer_fold,2.0,4.0,random_forest_balanced,FH,-0.006019151846785187,0.01374403565811919,False
+outer_fold,2.0,4.0,hist_gradient_boosting_none,Age,0.20533515731874147,0.0867712773191973,True
+outer_fold,2.0,4.0,hist_gradient_boosting_none,Sex,0.03433652530779756,0.024807039764814055,True
+outer_fold,2.0,4.0,hist_gradient_boosting_none,Current Smoker,-0.009849521203830402,0.03211891480388095,False
+outer_fold,2.0,4.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,2.0,4.0,hist_gradient_boosting_none,FH,0.010396716826265395,0.016252032404784945,True
+outer_fold,2.0,4.0,extra_trees_none,Age,0.2170998632010943,0.08812185838685088,True
+outer_fold,2.0,4.0,extra_trees_none,Sex,0.04555403556771533,0.014788208463781208,True
+outer_fold,2.0,4.0,extra_trees_none,Current Smoker,0.004787961696306353,0.08010974748208241,True
+outer_fold,2.0,4.0,extra_trees_none,EX-Smoker,0.00041039671682618906,0.0010237092713471275,True
+outer_fold,2.0,4.0,extra_trees_none,FH,-0.015595075239398248,0.015174199314760125,False
+outer_fold,2.0,4.0,extra_trees_balanced,Age,0.20341997264021883,0.08683832471117323,True
+outer_fold,2.0,4.0,extra_trees_balanced,Sex,0.0507523939808481,0.013730412861969495,True
+outer_fold,2.0,4.0,extra_trees_balanced,Current Smoker,0.002325581395348797,0.08489317286664441,True
+outer_fold,2.0,4.0,extra_trees_balanced,EX-Smoker,0.0012311901504787226,0.0026807001289008924,True
+outer_fold,2.0,4.0,extra_trees_balanced,FH,-0.01641586867305067,0.01863681134437907,False
+outer_fold,2.0,5.0,logistic_regression_none,Age,0.273734610123119,0.051917662860417935,True
+outer_fold,2.0,5.0,logistic_regression_none,Sex,0.0034199726402188934,0.007147661000061875,True
+outer_fold,2.0,5.0,logistic_regression_none,Current Smoker,0.025718194254445992,0.030054068873104352,True
+outer_fold,2.0,5.0,logistic_regression_none,EX-Smoker,0.0012311901504788337,0.0156298362203793,True
+outer_fold,2.0,5.0,logistic_regression_none,FH,-0.018604651162790708,0.014278293617665066,False
+outer_fold,2.0,5.0,logistic_regression_balanced,Age,0.27564979480164153,0.048414058465626214,True
+outer_fold,2.0,5.0,logistic_regression_balanced,Sex,0.005882352941176427,0.007168575926989817,True
+outer_fold,2.0,5.0,logistic_regression_balanced,Current Smoker,0.029548563611491052,0.028569035760257922,True
+outer_fold,2.0,5.0,logistic_regression_balanced,EX-Smoker,0.0036935704514363676,0.009523011920085948,True
+outer_fold,2.0,5.0,logistic_regression_balanced,FH,-0.018878248974008315,0.01488910138525399,False
+outer_fold,2.0,5.0,svm_none,Age,0.2168262653898768,0.07004451299527455,True
+outer_fold,2.0,5.0,svm_none,Sex,0.022845417236662002,0.04230294648717711,True
+outer_fold,2.0,5.0,svm_none,Current Smoker,0.11272229822161417,0.10030018888850553,True
+outer_fold,2.0,5.0,svm_none,EX-Smoker,-0.006155950752394057,0.01942833449920352,False
+outer_fold,2.0,5.0,svm_none,FH,0.013406292749657923,0.019627663658531868,True
+outer_fold,2.0,5.0,svm_balanced,Age,0.2378932968536251,0.06467767769996377,True
+outer_fold,2.0,5.0,svm_balanced,Sex,0.0012311901504787003,0.005252080388632651,True
+outer_fold,2.0,5.0,svm_balanced,Current Smoker,0.040218878248973945,0.048135723100897664,True
+outer_fold,2.0,5.0,svm_balanced,EX-Smoker,0.000957592339261204,0.04020258936642632,True
+outer_fold,2.0,5.0,svm_balanced,FH,-0.014774281805745604,0.011628711648346573,False
+outer_fold,2.0,5.0,random_forest_none,Age,0.2406292749658002,0.049771871270575516,True
+outer_fold,2.0,5.0,random_forest_none,Sex,-0.002599179206566382,0.01265223488894324,False
+outer_fold,2.0,5.0,random_forest_none,Current Smoker,0.06155950752393977,0.054164420647329126,True
+outer_fold,2.0,5.0,random_forest_none,EX-Smoker,0.0023255813953487747,0.012178944658853639,True
+outer_fold,2.0,5.0,random_forest_none,FH,-0.002188782489740193,0.010835647796614471,False
+outer_fold,2.0,5.0,random_forest_balanced,Age,0.22352941176470592,0.052117331003487755,True
+outer_fold,2.0,5.0,random_forest_balanced,Sex,-0.00793433652530775,0.018437934930439732,False
+outer_fold,2.0,5.0,random_forest_balanced,Current Smoker,0.05813953488372099,0.05407105451301931,True
+outer_fold,2.0,5.0,random_forest_balanced,EX-Smoker,0.003419972640218938,0.018811714868333763,True
+outer_fold,2.0,5.0,random_forest_balanced,FH,0.007387140902872824,0.010376898094945504,True
+outer_fold,2.0,5.0,hist_gradient_boosting_none,Age,0.16333789329685353,0.058781201963413444,True
+outer_fold,2.0,5.0,hist_gradient_boosting_none,Sex,-0.014227086183310589,0.00803977305330512,False
+outer_fold,2.0,5.0,hist_gradient_boosting_none,Current Smoker,0.0459644322845417,0.047872581073815354,True
+outer_fold,2.0,5.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,2.0,5.0,hist_gradient_boosting_none,FH,-0.012038303693570484,0.015070248266944402,False
+outer_fold,2.0,5.0,extra_trees_none,Age,0.21901504787961698,0.056838916398490244,True
+outer_fold,2.0,5.0,extra_trees_none,Sex,0.023119015047879655,0.040195140821585255,True
+outer_fold,2.0,5.0,extra_trees_none,Current Smoker,0.1192886456908345,0.10017622361611211,True
+outer_fold,2.0,5.0,extra_trees_none,EX-Smoker,-0.0012311901504787892,0.05060709064502836,False
+outer_fold,2.0,5.0,extra_trees_none,FH,-0.019425444596443152,0.018016992346865605,False
+outer_fold,2.0,5.0,extra_trees_balanced,Age,0.2179206566347469,0.05854385843696056,True
+outer_fold,2.0,5.0,extra_trees_balanced,Sex,0.02065663474692203,0.03694431677473516,True
+outer_fold,2.0,5.0,extra_trees_balanced,Current Smoker,0.11928864569083446,0.1025687141272075,True
+outer_fold,2.0,5.0,extra_trees_balanced,EX-Smoker,0.01053351573187411,0.06504582975879168,True
+outer_fold,2.0,5.0,extra_trees_balanced,FH,-0.018331053351573146,0.017137578107651857,False
+outer_fold,3.0,1.0,logistic_regression_none,Age,0.14786096256684494,0.03406704627764181,True
+outer_fold,3.0,1.0,logistic_regression_none,Sex,-0.008288770053475924,0.011872079291065958,False
+outer_fold,3.0,1.0,logistic_regression_none,Current Smoker,0.0049465240641711535,0.028568990083168128,True
+outer_fold,3.0,1.0,logistic_regression_none,EX-Smoker,-0.00026737967914434166,0.0013098875629856484,False
+outer_fold,3.0,1.0,logistic_regression_none,FH,0.017914438502673803,0.021084884052257807,True
+outer_fold,3.0,1.0,logistic_regression_balanced,Age,0.1537433155080214,0.03500785301408503,True
+outer_fold,3.0,1.0,logistic_regression_balanced,Sex,-0.01203208556149724,0.01653111491406379,False
+outer_fold,3.0,1.0,logistic_regression_balanced,Current Smoker,-0.0009358288770053181,0.023775000537880665,False
+outer_fold,3.0,1.0,logistic_regression_balanced,EX-Smoker,0.0002673796791444083,0.0017735961445750504,True
+outer_fold,3.0,1.0,logistic_regression_balanced,FH,0.020320855614973276,0.02242883643489748,True
+outer_fold,3.0,1.0,svm_none,Age,0.13796791443850265,0.06549792566535664,True
+outer_fold,3.0,1.0,svm_none,Sex,-0.02459893048128343,0.03594094135392819,False
+outer_fold,3.0,1.0,svm_none,Current Smoker,-0.018048128342246006,0.048093050042996424,False
+outer_fold,3.0,1.0,svm_none,EX-Smoker,-0.011497326203208558,0.0210975952348437,False
+outer_fold,3.0,1.0,svm_none,FH,-0.010962566844919785,0.026131490854217683,False
+outer_fold,3.0,1.0,svm_balanced,Age,0.13235294117647056,0.041458941533875734,True
+outer_fold,3.0,1.0,svm_balanced,Sex,-0.010962566844919853,0.023250504242995414,False
+outer_fold,3.0,1.0,svm_balanced,Current Smoker,-0.022058823529411752,0.04184513334759534,False
+outer_fold,3.0,1.0,svm_balanced,EX-Smoker,-0.007486631016042788,0.011764705882352946,False
+outer_fold,3.0,1.0,svm_balanced,FH,-0.01764705882352948,0.01928380357968504,False
+outer_fold,3.0,1.0,random_forest_none,Age,0.08609625668449203,0.07367074409339233,True
+outer_fold,3.0,1.0,random_forest_none,Sex,-0.022192513368983934,0.029467618332397968,False
+outer_fold,3.0,1.0,random_forest_none,Current Smoker,-0.030347593582887654,0.03145151148983137,False
+outer_fold,3.0,1.0,random_forest_none,EX-Smoker,-0.0008021390374331582,0.001813457214739384,False
+outer_fold,3.0,1.0,random_forest_none,FH,-0.020721925133689777,0.01553910769630514,False
+outer_fold,3.0,1.0,random_forest_balanced,Age,0.07620320855614979,0.07491881275919626,True
+outer_fold,3.0,1.0,random_forest_balanced,Sex,-0.030347593582887678,0.027910775877895144,False
+outer_fold,3.0,1.0,random_forest_balanced,Current Smoker,-0.03275401069518713,0.02738847723782892,False
+outer_fold,3.0,1.0,random_forest_balanced,EX-Smoker,-0.0002673796791443861,0.001309887562985662,False
+outer_fold,3.0,1.0,random_forest_balanced,FH,-0.014705882352941147,0.016115033374656803,False
+outer_fold,3.0,1.0,hist_gradient_boosting_none,Age,0.009625668449197855,0.09856631921094208,True
+outer_fold,3.0,1.0,hist_gradient_boosting_none,Sex,0.006818181818181746,0.020086425693139752,True
+outer_fold,3.0,1.0,hist_gradient_boosting_none,Current Smoker,-0.030347593582887765,0.03161870694993474,False
+outer_fold,3.0,1.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,1.0,hist_gradient_boosting_none,FH,0.009625668449197844,0.020198229783167754,True
+outer_fold,3.0,1.0,extra_trees_none,Age,0.11136363636363647,0.06070843691511869,True
+outer_fold,3.0,1.0,extra_trees_none,Sex,0.023529411764705955,0.021454616098113055,True
+outer_fold,3.0,1.0,extra_trees_none,Current Smoker,-0.014037433155080149,0.05032672285036726,False
+outer_fold,3.0,1.0,extra_trees_none,EX-Smoker,0.002406417112299519,0.005942810366548881,True
+outer_fold,3.0,1.0,extra_trees_none,FH,-0.021122994652406347,0.005649878772490756,False
+outer_fold,3.0,1.0,extra_trees_balanced,Age,0.11430481283422456,0.0613853316418191,True
+outer_fold,3.0,1.0,extra_trees_balanced,Sex,0.03288770053475931,0.019663771314615004,True
+outer_fold,3.0,1.0,extra_trees_balanced,Current Smoker,-0.012967914438502714,0.047501488136878954,False
+outer_fold,3.0,1.0,extra_trees_balanced,EX-Smoker,0.002941176470588247,0.00550568456737275,True
+outer_fold,3.0,1.0,extra_trees_balanced,FH,-0.017379679144385075,0.006170043186745598,False
+outer_fold,3.0,2.0,logistic_regression_none,Age,0.14702842377260983,0.036649263013850165,True
+outer_fold,3.0,2.0,logistic_regression_none,Sex,0.01369509043927648,0.006439243304587661,True
+outer_fold,3.0,2.0,logistic_regression_none,Current Smoker,0.0306201550387597,0.024020586220699774,True
+outer_fold,3.0,2.0,logistic_regression_none,EX-Smoker,-0.005426356589147319,0.0006587880508517445,False
+outer_fold,3.0,2.0,logistic_regression_none,FH,-0.012144702842377276,0.020413436692506497,False
+outer_fold,3.0,2.0,logistic_regression_balanced,Age,0.1490956072351421,0.03695045264536562,True
+outer_fold,3.0,2.0,logistic_regression_balanced,Sex,0.019379844961240365,0.008292923274357242,True
+outer_fold,3.0,2.0,logistic_regression_balanced,Current Smoker,0.032687338501292,0.02354329915737306,True
+outer_fold,3.0,2.0,logistic_regression_balanced,EX-Smoker,-0.008785529715762231,0.002728515772860801,False
+outer_fold,3.0,2.0,logistic_regression_balanced,FH,-0.00826873385012925,0.017393463335965274,False
+outer_fold,3.0,2.0,svm_none,Age,0.10878552971576219,0.029525850845831952,True
+outer_fold,3.0,2.0,svm_none,Sex,0.010594315245477982,0.016754072431470104,True
+outer_fold,3.0,2.0,svm_none,Current Smoker,0.05025839793281646,0.028760630169130472,True
+outer_fold,3.0,2.0,svm_none,EX-Smoker,0.022480620155038666,0.02313130609387651,True
+outer_fold,3.0,2.0,svm_none,FH,-0.058914728682170625,0.03667612546961634,False
+outer_fold,3.0,2.0,svm_balanced,Age,0.11627906976744187,0.022574723592484136,True
+outer_fold,3.0,2.0,svm_balanced,Sex,0.00981912144702839,0.010241819732613119,True
+outer_fold,3.0,2.0,svm_balanced,Current Smoker,0.03139534883720929,0.026143563292363784,True
+outer_fold,3.0,2.0,svm_balanced,EX-Smoker,0.027131782945736416,0.025202079073812837,True
+outer_fold,3.0,2.0,svm_balanced,FH,-0.048320413436692536,0.03912489445793016,False
+outer_fold,3.0,2.0,random_forest_none,Age,0.11007751937984489,0.010997860436708183,True
+outer_fold,3.0,2.0,random_forest_none,Sex,0.010077519379844867,0.01722566750645889,True
+outer_fold,3.0,2.0,random_forest_none,Current Smoker,0.03630490956072345,0.03368452696609635,True
+outer_fold,3.0,2.0,random_forest_none,EX-Smoker,0.0072351421188629585,0.00840687260206584,True
+outer_fold,3.0,2.0,random_forest_none,FH,-0.03591731266149882,0.026025174805197223,False
+outer_fold,3.0,2.0,random_forest_balanced,Age,0.1184754521963824,0.013084226254441528,True
+outer_fold,3.0,2.0,random_forest_balanced,Sex,0.011886304909560686,0.022819624572775612,True
+outer_fold,3.0,2.0,random_forest_balanced,Current Smoker,0.029844961240310042,0.025249722599334314,True
+outer_fold,3.0,2.0,random_forest_balanced,EX-Smoker,0.009819121447028368,0.010118844573230626,True
+outer_fold,3.0,2.0,random_forest_balanced,FH,-0.03875968992248067,0.02849415762705991,False
+outer_fold,3.0,2.0,hist_gradient_boosting_none,Age,0.11989664082687339,0.02647349560333193,True
+outer_fold,3.0,2.0,hist_gradient_boosting_none,Sex,0.03346253229974163,0.015261892796738672,True
+outer_fold,3.0,2.0,hist_gradient_boosting_none,Current Smoker,0.009819121447028368,0.027280263090892324,True
+outer_fold,3.0,2.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,2.0,hist_gradient_boosting_none,FH,-0.03682170542635661,0.01841708494181445,False
+outer_fold,3.0,2.0,extra_trees_none,Age,0.10077519379844961,0.023742397384025622,True
+outer_fold,3.0,2.0,extra_trees_none,Sex,0.010335917312661392,0.03714554543477541,True
+outer_fold,3.0,2.0,extra_trees_none,Current Smoker,0.06524547803617568,0.06996932223474667,True
+outer_fold,3.0,2.0,extra_trees_none,EX-Smoker,0.016537467700258324,0.010308425971740936,True
+outer_fold,3.0,2.0,extra_trees_none,FH,-0.03100775193798455,0.03751667475531063,False
+outer_fold,3.0,2.0,extra_trees_balanced,Age,0.09302325581395347,0.022795472555523767,True
+outer_fold,3.0,2.0,extra_trees_balanced,Sex,0.013695090439276459,0.03867864049664313,True
+outer_fold,3.0,2.0,extra_trees_balanced,Current Smoker,0.06576227390180879,0.07133304148141613,True
+outer_fold,3.0,2.0,extra_trees_balanced,EX-Smoker,0.01602067183462532,0.011752135701567766,True
+outer_fold,3.0,2.0,extra_trees_balanced,FH,-0.03229974160206721,0.041785430565364955,False
+outer_fold,3.0,3.0,logistic_regression_none,Age,0.31498708010335924,0.11183034448048737,True
+outer_fold,3.0,3.0,logistic_regression_none,Sex,0.017312661498708047,0.0054417156818224325,True
+outer_fold,3.0,3.0,logistic_regression_none,Current Smoker,0.02919896640826878,0.009266367481675015,True
+outer_fold,3.0,3.0,logistic_regression_none,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,3.0,logistic_regression_none,FH,0.021834625322997403,0.015256423172222745,True
+outer_fold,3.0,3.0,logistic_regression_balanced,Age,0.3155038759689922,0.11031246535918314,True
+outer_fold,3.0,3.0,logistic_regression_balanced,Sex,0.020413436692506413,0.006415870293506538,True
+outer_fold,3.0,3.0,logistic_regression_balanced,Current Smoker,0.03126614987080099,0.009366702305112062,True
+outer_fold,3.0,3.0,logistic_regression_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,3.0,logistic_regression_balanced,FH,0.024677002583979247,0.01625238779691617,True
+outer_fold,3.0,3.0,svm_none,Age,0.25012919896640823,0.08579181057381151,True
+outer_fold,3.0,3.0,svm_none,Sex,0.01705426356589148,0.03308250478630645,True
+outer_fold,3.0,3.0,svm_none,Current Smoker,0.059689922480620126,0.017206275777350438,True
+outer_fold,3.0,3.0,svm_none,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,3.0,svm_none,FH,0.057493540051679545,0.0264842124696761,True
+outer_fold,3.0,3.0,svm_balanced,Age,0.29844961240310075,0.08960206807767615,True
+outer_fold,3.0,3.0,svm_balanced,Sex,0.026614987080103347,0.01690187179484553,True
+outer_fold,3.0,3.0,svm_balanced,Current Smoker,0.03126614987080103,0.017475801983370457,True
+outer_fold,3.0,3.0,svm_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,3.0,svm_balanced,FH,0.012532299741602037,0.027841103228103712,True
+outer_fold,3.0,3.0,random_forest_none,Age,0.3090439276485788,0.09366577557485066,True
+outer_fold,3.0,3.0,random_forest_none,Sex,0.021447028423772573,0.006902175911727764,True
+outer_fold,3.0,3.0,random_forest_none,Current Smoker,0.02971576227390178,0.020231089541150816,True
+outer_fold,3.0,3.0,random_forest_none,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,3.0,random_forest_none,FH,0.024935400516795814,0.012891441533091885,True
+outer_fold,3.0,3.0,random_forest_balanced,Age,0.29031007751937987,0.07866997100809489,True
+outer_fold,3.0,3.0,random_forest_balanced,Sex,0.0179586563307494,0.0300548010847701,True
+outer_fold,3.0,3.0,random_forest_balanced,Current Smoker,0.02015503875968998,0.03335836249583011,True
+outer_fold,3.0,3.0,random_forest_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,3.0,random_forest_balanced,FH,0.03423772609819133,0.02758934948845298,True
+outer_fold,3.0,3.0,hist_gradient_boosting_none,Age,0.27919896640826875,0.05854067756838648,True
+outer_fold,3.0,3.0,hist_gradient_boosting_none,Sex,0.01227390180878556,0.012965037420467292,True
+outer_fold,3.0,3.0,hist_gradient_boosting_none,Current Smoker,0.02131782945736438,0.015287027863306496,True
+outer_fold,3.0,3.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,3.0,hist_gradient_boosting_none,FH,0.029198966408268755,0.021965344224654678,True
+outer_fold,3.0,3.0,extra_trees_none,Age,0.2656330749354006,0.08391907995871731,True
+outer_fold,3.0,3.0,extra_trees_none,Sex,0.05865633074935408,0.03849045162410187,True
+outer_fold,3.0,3.0,extra_trees_none,Current Smoker,0.03204134366925071,0.03834750689217392,True
+outer_fold,3.0,3.0,extra_trees_none,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,3.0,extra_trees_none,FH,0.013565891472868219,0.03057951489203935,True
+outer_fold,3.0,3.0,extra_trees_balanced,Age,0.24961240310077515,0.08021018966088933,True
+outer_fold,3.0,3.0,extra_trees_balanced,Sex,0.07493540051679584,0.05906950746086601,True
+outer_fold,3.0,3.0,extra_trees_balanced,Current Smoker,0.02790697674418603,0.03730786543936466,True
+outer_fold,3.0,3.0,extra_trees_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,3.0,extra_trees_balanced,FH,0.005813953488372081,0.04346157981178772,True
+outer_fold,3.0,4.0,logistic_regression_none,Age,0.34760601915184675,0.08702754590458893,True
+outer_fold,3.0,4.0,logistic_regression_none,Sex,-0.0013679890560876374,0.007941409178495206,False
+outer_fold,3.0,4.0,logistic_regression_none,Current Smoker,0.013679890560875485,0.01299229556288234,True
+outer_fold,3.0,4.0,logistic_regression_none,EX-Smoker,0.0016415868673050227,0.0058775789490946246,True
+outer_fold,3.0,4.0,logistic_regression_none,FH,0.023255813953488347,0.019068609424572138,True
+outer_fold,3.0,4.0,logistic_regression_balanced,Age,0.35116279069767453,0.08796563211223939,True
+outer_fold,3.0,4.0,logistic_regression_balanced,Sex,0.004651162790697683,0.00871012715717188,True
+outer_fold,3.0,4.0,logistic_regression_balanced,Current Smoker,0.013132694938440603,0.011150579410295378,True
+outer_fold,3.0,4.0,logistic_regression_balanced,EX-Smoker,-0.0016415868673050004,0.00807692991470613,False
+outer_fold,3.0,4.0,logistic_regression_balanced,FH,0.025170998632011044,0.017257278184074538,True
+outer_fold,3.0,4.0,svm_none,Age,0.3098495212038303,0.07476407499977307,True
+outer_fold,3.0,4.0,svm_none,Sex,0.021614227086183234,0.02246419643712543,True
+outer_fold,3.0,4.0,svm_none,Current Smoker,0.025991792065663422,0.036302006767457554,True
+outer_fold,3.0,4.0,svm_none,EX-Smoker,0.006566347469220224,0.004981434050898258,True
+outer_fold,3.0,4.0,svm_none,FH,0.05772913816689464,0.03533174380137758,True
+outer_fold,3.0,4.0,svm_balanced,Age,0.33365253077975376,0.08959169106623986,True
+outer_fold,3.0,4.0,svm_balanced,Sex,0.008755129958960328,0.006994157609392173,True
+outer_fold,3.0,4.0,svm_balanced,Current Smoker,0.023255813953488413,0.025948556451479084,True
+outer_fold,3.0,4.0,svm_balanced,EX-Smoker,0.022982216142270896,0.018829612798680145,True
+outer_fold,3.0,4.0,svm_balanced,FH,0.039671682626539015,0.017820650144439964,True
+outer_fold,3.0,4.0,random_forest_none,Age,0.34391244870041043,0.10196924722217224,True
+outer_fold,3.0,4.0,random_forest_none,Sex,-0.0002735978112175186,0.005748810229671892,False
+outer_fold,3.0,4.0,random_forest_none,Current Smoker,0.0002735978112175186,0.014526472177792894,True
+outer_fold,3.0,4.0,random_forest_none,EX-Smoker,-0.004103967168262645,0.0074552265901169455,False
+outer_fold,3.0,4.0,random_forest_none,FH,0.005471956224350194,0.03167419066473722,True
+outer_fold,3.0,4.0,random_forest_balanced,Age,0.33119015047879624,0.09719213260436871,True
+outer_fold,3.0,4.0,random_forest_balanced,Sex,0.011764705882352877,0.0074351180529144785,True
+outer_fold,3.0,4.0,random_forest_balanced,Current Smoker,0.0016415868673050448,0.021996991783575094,True
+outer_fold,3.0,4.0,random_forest_balanced,EX-Smoker,-0.0019151846785225857,0.008901394519834486,False
+outer_fold,3.0,4.0,random_forest_balanced,FH,0.009302325581395366,0.028448252567407704,True
+outer_fold,3.0,4.0,hist_gradient_boosting_none,Age,0.2870041039671682,0.12626368543697555,True
+outer_fold,3.0,4.0,hist_gradient_boosting_none,Sex,0.008481532147742766,0.015462512887490834,True
+outer_fold,3.0,4.0,hist_gradient_boosting_none,Current Smoker,-0.028454172366621133,0.029551730083162562,False
+outer_fold,3.0,4.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,4.0,hist_gradient_boosting_none,FH,0.04035567715458273,0.01728761495969811,True
+outer_fold,3.0,4.0,extra_trees_none,Age,0.27496580027359785,0.08109648658565251,True
+outer_fold,3.0,4.0,extra_trees_none,Sex,-0.009302325581395298,0.021684244762185553,False
+outer_fold,3.0,4.0,extra_trees_none,Current Smoker,-0.0046511627906976605,0.02333774895993008,False
+outer_fold,3.0,4.0,extra_trees_none,EX-Smoker,-0.03693570451436379,0.004836571690742456,False
+outer_fold,3.0,4.0,extra_trees_none,FH,-0.021067031463748286,0.027690882996952444,False
+outer_fold,3.0,4.0,extra_trees_balanced,Age,0.2774281805745554,0.08236452963718033,True
+outer_fold,3.0,4.0,extra_trees_balanced,Sex,-0.006019151846785209,0.023951140565934132,False
+outer_fold,3.0,4.0,extra_trees_balanced,Current Smoker,0.0002735978112175186,0.028556587235330052,True
+outer_fold,3.0,4.0,extra_trees_balanced,EX-Smoker,-0.02270861833105333,0.004312963822280331,False
+outer_fold,3.0,4.0,extra_trees_balanced,FH,-0.02681258549931591,0.029133349633585007,False
+outer_fold,3.0,5.0,logistic_regression_none,Age,0.12120383036935696,0.10665350137675889,True
+outer_fold,3.0,5.0,logistic_regression_none,Sex,0.007523939808481539,0.012166645797186959,True
+outer_fold,3.0,5.0,logistic_regression_none,Current Smoker,0.01764705882352935,0.02418827480744223,True
+outer_fold,3.0,5.0,logistic_regression_none,EX-Smoker,-0.025307797537619737,0.04513120087328682,False
+outer_fold,3.0,5.0,logistic_regression_none,FH,0.02749658002735973,0.024541586409399803,True
+outer_fold,3.0,5.0,logistic_regression_balanced,Age,0.1220246238030096,0.11199361381938122,True
+outer_fold,3.0,5.0,logistic_regression_balanced,Sex,0.0039671682626539525,0.011570632259256109,True
+outer_fold,3.0,5.0,logistic_regression_balanced,Current Smoker,0.014911080711354385,0.021957822410104872,True
+outer_fold,3.0,5.0,logistic_regression_balanced,EX-Smoker,-0.02229822161422703,0.0372776390265414,False
+outer_fold,3.0,5.0,logistic_regression_balanced,FH,0.029685362517099922,0.022284369569682317,True
+outer_fold,3.0,5.0,svm_none,Age,0.11983584131326941,0.11255432878622823,True
+outer_fold,3.0,5.0,svm_none,Sex,0.020109439124486907,0.02499567202661485,True
+outer_fold,3.0,5.0,svm_none,Current Smoker,0.06908344733242125,0.03984114003935348,True
+outer_fold,3.0,5.0,svm_none,EX-Smoker,0.018467852257181883,0.023053761349319708,True
+outer_fold,3.0,5.0,svm_none,FH,0.030232558139534783,0.04192925510247645,True
+outer_fold,3.0,5.0,svm_balanced,Age,0.10889192886456903,0.10998104539828815,True
+outer_fold,3.0,5.0,svm_balanced,Sex,-0.0017783857729138485,0.011466653674252219,False
+outer_fold,3.0,5.0,svm_balanced,Current Smoker,0.03214774281805739,0.0301702845462987,True
+outer_fold,3.0,5.0,svm_balanced,EX-Smoker,-0.010807113543091718,0.035373562481847295,False
+outer_fold,3.0,5.0,svm_balanced,FH,0.025307797537619626,0.03133859603453099,True
+outer_fold,3.0,5.0,random_forest_none,Age,0.07318741450068394,0.13151989360387398,True
+outer_fold,3.0,5.0,random_forest_none,Sex,0.008071135430916532,0.03386539729937406,True
+outer_fold,3.0,5.0,random_forest_none,Current Smoker,0.03666210670314636,0.050902429768690534,True
+outer_fold,3.0,5.0,random_forest_none,EX-Smoker,-0.018194254445964453,0.016628805908643206,False
+outer_fold,3.0,5.0,random_forest_none,FH,0.014363885088919347,0.028317703891223605,True
+outer_fold,3.0,5.0,random_forest_balanced,Age,0.07496580027359778,0.13027293055032924,True
+outer_fold,3.0,5.0,random_forest_balanced,Sex,-0.006429548563611509,0.027923736283479828,False
+outer_fold,3.0,5.0,random_forest_balanced,Current Smoker,0.03816689466484269,0.048285169283017126,True
+outer_fold,3.0,5.0,random_forest_balanced,EX-Smoker,-0.025854993160054705,0.026014821678834094,False
+outer_fold,3.0,5.0,random_forest_balanced,FH,0.006976744186046524,0.03127403699958097,True
+outer_fold,3.0,5.0,hist_gradient_boosting_none,Age,0.0767441860465116,0.1330965476816367,True
+outer_fold,3.0,5.0,hist_gradient_boosting_none,Sex,0.0239398084815321,0.02397691086205926,True
+outer_fold,3.0,5.0,hist_gradient_boosting_none,Current Smoker,0.04883720930232558,0.025845944029810212,True
+outer_fold,3.0,5.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,3.0,5.0,hist_gradient_boosting_none,FH,0.03201094391244867,0.037798109467475964,True
+outer_fold,3.0,5.0,extra_trees_none,Age,0.09781121751025985,0.09924569684996988,True
+outer_fold,3.0,5.0,extra_trees_none,Sex,0.004787961696306376,0.04152697465570603,True
+outer_fold,3.0,5.0,extra_trees_none,Current Smoker,0.0738714090287277,0.07489662000105206,True
+outer_fold,3.0,5.0,extra_trees_none,EX-Smoker,-0.03898768809849531,0.023263859556203883,False
+outer_fold,3.0,5.0,extra_trees_none,FH,0.023392612859097016,0.02330565191687757,True
+outer_fold,3.0,5.0,extra_trees_balanced,Age,0.0956224350205199,0.10235758148323781,True
+outer_fold,3.0,5.0,extra_trees_balanced,Sex,0.009712722298221644,0.0408966957713867,True
+outer_fold,3.0,5.0,extra_trees_balanced,Current Smoker,0.07414500683994535,0.07968063606280668,True
+outer_fold,3.0,5.0,extra_trees_balanced,EX-Smoker,-0.029958960328317307,0.036936717825690794,False
+outer_fold,3.0,5.0,extra_trees_balanced,FH,0.023119015047879655,0.023063500318147852,True
+outer_fold,4.0,1.0,logistic_regression_none,Age,0.17526737967914438,0.05157968159491723,True
+outer_fold,4.0,1.0,logistic_regression_none,Sex,0.011229946524064194,0.02073873735793082,True
+outer_fold,4.0,1.0,logistic_regression_none,Current Smoker,0.029545454545454587,0.007142091117215549,True
+outer_fold,4.0,1.0,logistic_regression_none,EX-Smoker,-0.010026737967914446,0.0029593507514944946,False
+outer_fold,4.0,1.0,logistic_regression_none,FH,0.02259358288770057,0.015098076044798294,True
+outer_fold,4.0,1.0,logistic_regression_balanced,Age,0.1803475935828876,0.054076507264582636,True
+outer_fold,4.0,1.0,logistic_regression_balanced,Sex,0.012032085561497286,0.026964282856638953,True
+outer_fold,4.0,1.0,logistic_regression_balanced,Current Smoker,0.031684491978609584,0.009248786393811756,True
+outer_fold,4.0,1.0,logistic_regression_balanced,EX-Smoker,-0.00013368983957224857,0.003202980895912029,False
+outer_fold,4.0,1.0,logistic_regression_balanced,FH,0.023663101604278,0.01630029507902019,True
+outer_fold,4.0,1.0,svm_none,Age,0.1327540106951871,0.0644443270716323,True
+outer_fold,4.0,1.0,svm_none,Sex,0.02807486631016034,0.029253340955310906,True
+outer_fold,4.0,1.0,svm_none,Current Smoker,0.0049465240641710425,0.015956765846377823,True
+outer_fold,4.0,1.0,svm_none,EX-Smoker,-0.011631016042780851,0.01584436119366012,False
+outer_fold,4.0,1.0,svm_none,FH,0.020989304812834165,0.03197563611808207,True
+outer_fold,4.0,1.0,svm_balanced,Age,0.14639037433155072,0.05036577297096447,True
+outer_fold,4.0,1.0,svm_balanced,Sex,0.007486631016042744,0.01542018273293711,True
+outer_fold,4.0,1.0,svm_balanced,Current Smoker,0.028743315508021384,0.014242831385469615,True
+outer_fold,4.0,1.0,svm_balanced,EX-Smoker,-0.017780748663101642,0.011395833594185034,False
+outer_fold,4.0,1.0,svm_balanced,FH,0.006550802139037404,0.01762172058741329,True
+outer_fold,4.0,1.0,random_forest_none,Age,0.1512032085561497,0.06305201758742589,True
+outer_fold,4.0,1.0,random_forest_none,Sex,0.011229946524064126,0.029948911287584694,True
+outer_fold,4.0,1.0,random_forest_none,Current Smoker,0.0076203208556149035,0.009132102330448161,True
+outer_fold,4.0,1.0,random_forest_none,EX-Smoker,0.00200534759358284,0.0042905899828559494,True
+outer_fold,4.0,1.0,random_forest_none,FH,0.00949197860962565,0.0178133872769528,True
+outer_fold,4.0,1.0,random_forest_balanced,Age,0.12393048128342243,0.0744780804798357,True
+outer_fold,4.0,1.0,random_forest_balanced,Sex,0.0033422459893048596,0.028407124814005067,True
+outer_fold,4.0,1.0,random_forest_balanced,Current Smoker,-0.004946524064171132,0.00844047813778855,False
+outer_fold,4.0,1.0,random_forest_balanced,EX-Smoker,0.002807486631016043,0.00755554607002399,True
+outer_fold,4.0,1.0,random_forest_balanced,FH,0.010026737967914489,0.016258575389607892,True
+outer_fold,4.0,1.0,hist_gradient_boosting_none,Age,0.09411764705882357,0.09465712698582418,True
+outer_fold,4.0,1.0,hist_gradient_boosting_none,Sex,0.03221925133689838,0.036608564882983544,True
+outer_fold,4.0,1.0,hist_gradient_boosting_none,Current Smoker,-0.0016042780748662944,0.015928739046637934,False
+outer_fold,4.0,1.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,4.0,1.0,hist_gradient_boosting_none,FH,-0.00628342245989304,0.01385867851056498,False
+outer_fold,4.0,1.0,extra_trees_none,Age,0.15173796791443847,0.05242789857673225,True
+outer_fold,4.0,1.0,extra_trees_none,Sex,0.014438502673796805,0.054922936243611685,True
+outer_fold,4.0,1.0,extra_trees_none,Current Smoker,0.011898395721925147,0.017702675282952007,True
+outer_fold,4.0,1.0,extra_trees_none,EX-Smoker,0.0009358288770053402,0.00858742612446616,True
+outer_fold,4.0,1.0,extra_trees_none,FH,0.018582887700534734,0.02132090993583211,True
+outer_fold,4.0,1.0,extra_trees_balanced,Age,0.13195187165775402,0.05291247263779255,True
+outer_fold,4.0,1.0,extra_trees_balanced,Sex,-0.0034759358288769747,0.05678026416442245,False
+outer_fold,4.0,1.0,extra_trees_balanced,Current Smoker,0.00882352941176472,0.0178734865950459,True
+outer_fold,4.0,1.0,extra_trees_balanced,EX-Smoker,-0.009759358288770014,0.00764023104932057,False
+outer_fold,4.0,1.0,extra_trees_balanced,FH,0.010294117647058875,0.021292389211028794,True
+outer_fold,4.0,2.0,logistic_regression_none,Age,0.23126614987080094,0.07853767020834633,True
+outer_fold,4.0,2.0,logistic_regression_none,Sex,0.011369509043927617,0.0148078023585472,True
+outer_fold,4.0,2.0,logistic_regression_none,Current Smoker,-0.011886304909560774,0.016134876760464233,False
+outer_fold,4.0,2.0,logistic_regression_none,EX-Smoker,-0.002067183462532274,0.001033591731266137,False
+outer_fold,4.0,2.0,logistic_regression_none,FH,0.019509043927648562,0.02414811287908416,True
+outer_fold,4.0,2.0,logistic_regression_balanced,Age,0.23488372093023252,0.0796746048145285,True
+outer_fold,4.0,2.0,logistic_regression_balanced,Sex,0.01085271317829457,0.012273221795388044,True
+outer_fold,4.0,2.0,logistic_regression_balanced,Current Smoker,-0.011369509043927684,0.016714172226145952,False
+outer_fold,4.0,2.0,logistic_regression_balanced,EX-Smoker,-0.002067183462532274,0.001033591731266137,False
+outer_fold,4.0,2.0,logistic_regression_balanced,FH,0.02028423772609822,0.02355747503724459,True
+outer_fold,4.0,2.0,svm_none,Age,0.20904392764857885,0.090270791749408,True
+outer_fold,4.0,2.0,svm_none,Sex,0.018863049095607275,0.022822550353231556,True
+outer_fold,4.0,2.0,svm_none,Current Smoker,0.006976744186046524,0.01081264907127014,True
+outer_fold,4.0,2.0,svm_none,EX-Smoker,0.02351421188630487,0.0034085028315950956,True
+outer_fold,4.0,2.0,svm_none,FH,0.016408268733850196,0.020101133772125326,True
+outer_fold,4.0,2.0,svm_balanced,Age,0.2325581395348836,0.06476464674172225,True
+outer_fold,4.0,2.0,svm_balanced,Sex,0.006201550387596799,0.011304724989264775,True
+outer_fold,4.0,2.0,svm_balanced,Current Smoker,-0.018346253229974296,0.022994512489819968,False
+outer_fold,4.0,2.0,svm_balanced,EX-Smoker,0.010594315245477914,0.0005167958656330906,True
+outer_fold,4.0,2.0,svm_balanced,FH,0.007364341085271153,0.025483984399286164,True
+outer_fold,4.0,2.0,random_forest_none,Age,0.1640826873385013,0.05640241511919058,True
+outer_fold,4.0,2.0,random_forest_none,Sex,0.03695090439276485,0.02868508028167333,True
+outer_fold,4.0,2.0,random_forest_none,Current Smoker,-0.002067183462532296,0.03438343525237726,False
+outer_fold,4.0,2.0,random_forest_none,EX-Smoker,-0.00852713178294573,0.0037087080347305576,False
+outer_fold,4.0,2.0,random_forest_none,FH,0.01317829457364339,0.016679181247915086,True
+outer_fold,4.0,2.0,random_forest_balanced,Age,0.15994832041343682,0.0622929302846241,True
+outer_fold,4.0,2.0,random_forest_balanced,Sex,0.029457364341085368,0.029585152804805948,True
+outer_fold,4.0,2.0,random_forest_balanced,Current Smoker,-0.006201550387596844,0.03354100722073432,False
+outer_fold,4.0,2.0,random_forest_balanced,EX-Smoker,-0.008785529715762208,0.0026351522034070846,False
+outer_fold,4.0,2.0,random_forest_balanced,FH,0.0179586563307494,0.012102019666508078,True
+outer_fold,4.0,2.0,hist_gradient_boosting_none,Age,0.11214470284237729,0.040611655947878564,True
+outer_fold,4.0,2.0,hist_gradient_boosting_none,Sex,0.013953488372093092,0.018109068402468363,True
+outer_fold,4.0,2.0,hist_gradient_boosting_none,Current Smoker,-0.039276485788113644,0.02398859862679238,False
+outer_fold,4.0,2.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,4.0,2.0,hist_gradient_boosting_none,FH,0.006330749354005172,0.015218080756306552,True
+outer_fold,4.0,2.0,extra_trees_none,Age,0.18307493540051695,0.069142091630733,True
+outer_fold,4.0,2.0,extra_trees_none,Sex,0.043540051679586675,0.028735081675687845,True
+outer_fold,4.0,2.0,extra_trees_none,Current Smoker,-0.006459948320413344,0.038901549185279036,False
+outer_fold,4.0,2.0,extra_trees_none,EX-Smoker,-0.0010335917312660702,0.0038673461362004552,False
+outer_fold,4.0,2.0,extra_trees_none,FH,0.017183462532299833,0.013442902560175265,True
+outer_fold,4.0,2.0,extra_trees_balanced,Age,0.20620155038759685,0.06881637136008728,True
+outer_fold,4.0,2.0,extra_trees_balanced,Sex,0.040826873385012875,0.030814427485127343,True
+outer_fold,4.0,2.0,extra_trees_balanced,Current Smoker,-0.004909560723514228,0.03715363334954091,False
+outer_fold,4.0,2.0,extra_trees_balanced,EX-Smoker,-0.003875968992248091,0.0011555906860464382,False
+outer_fold,4.0,2.0,extra_trees_balanced,FH,0.01925064599483204,0.014302039636831718,True
+outer_fold,4.0,3.0,logistic_regression_none,Age,0.266795865633075,0.057650831496981296,True
+outer_fold,4.0,3.0,logistic_regression_none,Sex,0.007751937984496138,0.014323032611799015,True
+outer_fold,4.0,3.0,logistic_regression_none,Current Smoker,0.030232558139534894,0.02249101307182321,True
+outer_fold,4.0,3.0,logistic_regression_none,EX-Smoker,0.00025839793281652313,0.0003164715429952251,True
+outer_fold,4.0,3.0,logistic_regression_none,FH,0.01614987080103365,0.015265173630741013,True
+outer_fold,4.0,3.0,logistic_regression_balanced,Age,0.2771317829457365,0.06182275169962386,True
+outer_fold,4.0,3.0,logistic_regression_balanced,Sex,0.01395348837209307,0.01741360521208204,True
+outer_fold,4.0,3.0,logistic_regression_balanced,Current Smoker,0.029974160206718392,0.020742772341487862,True
+outer_fold,4.0,3.0,logistic_regression_balanced,EX-Smoker,-0.003359173126614956,0.0023611972716405085,False
+outer_fold,4.0,3.0,logistic_regression_balanced,FH,0.03242894056847547,0.019077748797190944,True
+outer_fold,4.0,3.0,svm_none,Age,0.27403100775193795,0.03636761575935019,True
+outer_fold,4.0,3.0,svm_none,Sex,0.022739018087855258,0.003304059910218217,True
+outer_fold,4.0,3.0,svm_none,Current Smoker,0.09328165374677007,0.038482210903953096,True
+outer_fold,4.0,3.0,svm_none,EX-Smoker,-0.011111111111111117,0.015229045582829096,False
+outer_fold,4.0,3.0,svm_none,FH,0.023385012919896676,0.021620666300525986,True
+outer_fold,4.0,3.0,svm_balanced,Age,0.2835917312661499,0.05942450245000069,True
+outer_fold,4.0,3.0,svm_balanced,Sex,0.00801033591731266,0.02203439036549882,True
+outer_fold,4.0,3.0,svm_balanced,Current Smoker,0.06330749354005175,0.02743159075367485,True
+outer_fold,4.0,3.0,svm_balanced,EX-Smoker,0.003100775193798544,0.0028715905388750503,True
+outer_fold,4.0,3.0,svm_balanced,FH,0.02416020671834629,0.010461127896639347,True
+outer_fold,4.0,3.0,random_forest_none,Age,0.22286821705426357,0.06530237752271287,True
+outer_fold,4.0,3.0,random_forest_none,Sex,-0.03204134366925062,0.02941256396511415,False
+outer_fold,4.0,3.0,random_forest_none,Current Smoker,0.030490956072351395,0.024481073451838798,True
+outer_fold,4.0,3.0,random_forest_none,EX-Smoker,0.0018087855297158173,0.0012526304541127273,True
+outer_fold,4.0,3.0,random_forest_none,FH,0.018346253229974185,0.014517503246085521,True
+outer_fold,4.0,3.0,random_forest_balanced,Age,0.2401808785529716,0.06427229804700373,True
+outer_fold,4.0,3.0,random_forest_balanced,Sex,-0.028682170542635665,0.03331880780402705,False
+outer_fold,4.0,3.0,random_forest_balanced,Current Smoker,0.05012919896640831,0.024197141826582894,True
+outer_fold,4.0,3.0,random_forest_balanced,EX-Smoker,0.0010335917312661147,0.0028482438869571686,True
+outer_fold,4.0,3.0,random_forest_balanced,FH,0.025710594315245493,0.014084465193707126,True
+outer_fold,4.0,3.0,hist_gradient_boosting_none,Age,0.21304909560723514,0.08435455825407795,True
+outer_fold,4.0,3.0,hist_gradient_boosting_none,Sex,-0.006072351421188537,0.02740297590084934,False
+outer_fold,4.0,3.0,hist_gradient_boosting_none,Current Smoker,0.01782945736434114,0.02212888275556244,True
+outer_fold,4.0,3.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,4.0,3.0,hist_gradient_boosting_none,FH,0.030878552971576288,0.017234386666071112,True
+outer_fold,4.0,3.0,extra_trees_none,Age,0.2386304909560723,0.06200285185324747,True
+outer_fold,4.0,3.0,extra_trees_none,Sex,0.0018087855297156618,0.05037666349279181,True
+outer_fold,4.0,3.0,extra_trees_none,Current Smoker,0.07467700258397927,0.050310681373277384,True
+outer_fold,4.0,3.0,extra_trees_none,EX-Smoker,0.0010335917312660702,0.0018543540173652899,True
+outer_fold,4.0,3.0,extra_trees_none,FH,0.015116279069767358,0.014361440032651366,True
+outer_fold,4.0,3.0,extra_trees_balanced,Age,0.2417312661498709,0.07164825339026788,True
+outer_fold,4.0,3.0,extra_trees_balanced,Sex,0.0023255813953489968,0.05823506363747502,True
+outer_fold,4.0,3.0,extra_trees_balanced,Current Smoker,0.08165374677002593,0.051997728760458585,True
+outer_fold,4.0,3.0,extra_trees_balanced,EX-Smoker,0.0036175710594315456,0.005241721647312838,True
+outer_fold,4.0,3.0,extra_trees_balanced,FH,0.01666666666666674,0.011801743924205908,True
+outer_fold,4.0,4.0,logistic_regression_none,Age,0.313953488372093,0.07958710615844221,True
+outer_fold,4.0,4.0,logistic_regression_none,Sex,0.0017783857729138264,0.0014084309358395367,True
+outer_fold,4.0,4.0,logistic_regression_none,Current Smoker,-0.0016415868673050227,0.027320765615269436,False
+outer_fold,4.0,4.0,logistic_regression_none,EX-Smoker,-0.0015047879616962635,0.0016415868673050448,False
+outer_fold,4.0,4.0,logistic_regression_none,FH,-0.01956224350205198,0.011836070257905965,False
+outer_fold,4.0,4.0,logistic_regression_balanced,Age,0.315595075239398,0.079699422795059,True
+outer_fold,4.0,4.0,logistic_regression_balanced,Sex,-0.0001367989056088037,0.0027834459575069724,False
+outer_fold,4.0,4.0,logistic_regression_balanced,Current Smoker,-0.004651162790697727,0.0266227681762448,False
+outer_fold,4.0,4.0,logistic_regression_balanced,EX-Smoker,-0.0001367989056087815,0.0002735978112175075,False
+outer_fold,4.0,4.0,logistic_regression_balanced,FH,-0.019288645690834504,0.01195249858210824,False
+outer_fold,4.0,4.0,svm_none,Age,0.27701778385772924,0.09226272351113864,True
+outer_fold,4.0,4.0,svm_none,Sex,-0.02585499316005462,0.036654449248292045,False
+outer_fold,4.0,4.0,svm_none,Current Smoker,0.09712722298221624,0.037952760191002105,True
+outer_fold,4.0,4.0,svm_none,EX-Smoker,0.0154582763337894,0.012946121110064051,True
+outer_fold,4.0,4.0,svm_none,FH,-0.009165526675786562,0.032095600523014155,False
+outer_fold,4.0,4.0,svm_balanced,Age,0.24445964432284545,0.05884038825634798,True
+outer_fold,4.0,4.0,svm_balanced,Sex,-0.0009575923392613151,0.006127002921083068,False
+outer_fold,4.0,4.0,svm_balanced,Current Smoker,0.012311901504788003,0.03935198321106027,True
+outer_fold,4.0,4.0,svm_balanced,EX-Smoker,-0.00041039671682618906,0.008111609893501298,False
+outer_fold,4.0,4.0,svm_balanced,FH,-0.031053351573187404,0.012924420048078441,False
+outer_fold,4.0,4.0,random_forest_none,Age,0.35882352941176465,0.0844190025663416,True
+outer_fold,4.0,4.0,random_forest_none,Sex,0.027496580027359753,0.003655373246480778,True
+outer_fold,4.0,4.0,random_forest_none,Current Smoker,0.025718194254445926,0.021537031622547654,True
+outer_fold,4.0,4.0,random_forest_none,EX-Smoker,-0.0017783857729138485,0.0015953356757442843,False
+outer_fold,4.0,4.0,random_forest_none,FH,-0.004787961696306487,0.012575086395930397,False
+outer_fold,4.0,4.0,random_forest_balanced,Age,0.33406292749658,0.07248999695067704,True
+outer_fold,4.0,4.0,random_forest_balanced,Sex,0.010259917920656636,0.002631379488600742,True
+outer_fold,4.0,4.0,random_forest_balanced,Current Smoker,0.017510259917920677,0.01851895447889137,True
+outer_fold,4.0,4.0,random_forest_balanced,EX-Smoker,-0.003967168262653887,0.004824949955827215,False
+outer_fold,4.0,4.0,random_forest_balanced,FH,-0.0053351573187414795,0.019660054136537986,False
+outer_fold,4.0,4.0,hist_gradient_boosting_none,Age,0.3269493844049247,0.0502463702477587,True
+outer_fold,4.0,4.0,hist_gradient_boosting_none,Sex,0.01969904240766074,0.010573413876300768,True
+outer_fold,4.0,4.0,hist_gradient_boosting_none,Current Smoker,0.021203830369357045,0.04349904058268862,True
+outer_fold,4.0,4.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,4.0,4.0,hist_gradient_boosting_none,FH,0.002325581395348819,0.017617872130011623,True
+outer_fold,4.0,4.0,extra_trees_none,Age,0.26880984952120385,0.06783212048403332,True
+outer_fold,4.0,4.0,extra_trees_none,Sex,0.02640218878248979,0.0183871164254093,True
+outer_fold,4.0,4.0,extra_trees_none,Current Smoker,0.06593707250342004,0.03975320648526414,True
+outer_fold,4.0,4.0,extra_trees_none,EX-Smoker,-0.003967168262653864,0.003131470079961573,False
+outer_fold,4.0,4.0,extra_trees_none,FH,-0.031326949384404855,0.020480582610485687,False
+outer_fold,4.0,4.0,extra_trees_balanced,Age,0.27537619699042415,0.06821671897130656,True
+outer_fold,4.0,4.0,extra_trees_balanced,Sex,0.0389876880984952,0.015699127280924517,True
+outer_fold,4.0,4.0,extra_trees_balanced,Current Smoker,0.07496580027359787,0.04206783218192573,True
+outer_fold,4.0,4.0,extra_trees_balanced,EX-Smoker,-0.0034199726402188713,0.003406265279887488,False
+outer_fold,4.0,4.0,extra_trees_balanced,FH,-0.028043775649794767,0.019847630818805664,False
+outer_fold,4.0,5.0,logistic_regression_none,Age,0.294938440492476,0.08773855658488085,True
+outer_fold,4.0,5.0,logistic_regression_none,Sex,-0.013816689466484355,0.013933356362802983,False
+outer_fold,4.0,5.0,logistic_regression_none,Current Smoker,0.019288645690834418,0.012345295948211765,True
+outer_fold,4.0,5.0,logistic_regression_none,EX-Smoker,-0.0001367989056088481,0.0007976678378721241,False
+outer_fold,4.0,5.0,logistic_regression_none,FH,0.03529411764705879,0.02490566751412036,True
+outer_fold,4.0,5.0,logistic_regression_balanced,Age,0.30150478796169633,0.08504602135835113,True
+outer_fold,4.0,5.0,logistic_regression_balanced,Sex,-0.007797537619699124,0.013887615762747415,False
+outer_fold,4.0,5.0,logistic_regression_balanced,Current Smoker,0.016279069767441777,0.010093497535264952,True
+outer_fold,4.0,5.0,logistic_regression_balanced,EX-Smoker,0.000683994528043752,0.0024085932779286954,True
+outer_fold,4.0,5.0,logistic_regression_balanced,FH,0.04322845417236663,0.02646767181889524,True
+outer_fold,4.0,5.0,svm_none,Age,0.2927496580027359,0.07607175457579592,True
+outer_fold,4.0,5.0,svm_none,Sex,-0.026128590971272226,0.024674670062465896,False
+outer_fold,4.0,5.0,svm_none,Current Smoker,0.10519835841313263,0.048617337961676985,True
+outer_fold,4.0,5.0,svm_none,EX-Smoker,0.0036935704514363898,0.004828826975300352,True
+outer_fold,4.0,5.0,svm_none,FH,0.09274965800273598,0.04363134560163209,True
+outer_fold,4.0,5.0,svm_balanced,Age,0.32366621067031465,0.10126944964144297,True
+outer_fold,4.0,5.0,svm_balanced,Sex,-0.01600547195622435,0.008955889085271042,False
+outer_fold,4.0,5.0,svm_balanced,Current Smoker,0.03898768809849522,0.027503044887283657,True
+outer_fold,4.0,5.0,svm_balanced,EX-Smoker,0.0039671682626538415,0.013716776536366763,True
+outer_fold,4.0,5.0,svm_balanced,FH,0.04842681258549928,0.015914599327417657,True
+outer_fold,4.0,5.0,random_forest_none,Age,0.30779753761969914,0.09310670595024888,True
+outer_fold,4.0,5.0,random_forest_none,Sex,-0.0064295485636114424,0.010441619500553384,False
+outer_fold,4.0,5.0,random_forest_none,Current Smoker,0.019015047879617053,0.016622052179572123,True
+outer_fold,4.0,5.0,random_forest_none,EX-Smoker,-0.0009575923392612484,0.002469968547916259,False
+outer_fold,4.0,5.0,random_forest_none,FH,0.026949384404924826,0.018978105814884277,True
+outer_fold,4.0,5.0,random_forest_balanced,Age,0.29534883720930233,0.09642760688843723,True
+outer_fold,4.0,5.0,random_forest_balanced,Sex,-0.01682626538987688,0.020803331217736854,False
+outer_fold,4.0,5.0,random_forest_balanced,Current Smoker,0.03543091655266761,0.028994914492461117,True
+outer_fold,4.0,5.0,random_forest_balanced,EX-Smoker,0.001778385772913782,0.0012686208612168821,True
+outer_fold,4.0,5.0,random_forest_balanced,FH,0.029138166894664842,0.023007444949966788,True
+outer_fold,4.0,5.0,hist_gradient_boosting_none,Age,0.29972640218878244,0.089602134473271,True
+outer_fold,4.0,5.0,hist_gradient_boosting_none,Sex,0.003556771545827608,0.011366663790884272,True
+outer_fold,4.0,5.0,hist_gradient_boosting_none,Current Smoker,0.038440492476060115,0.011651219890488392,True
+outer_fold,4.0,5.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,4.0,5.0,hist_gradient_boosting_none,FH,0.04199726402188779,0.0245423489375241,True
+outer_fold,4.0,5.0,extra_trees_none,Age,0.24322845417236652,0.07202770918232598,True
+outer_fold,4.0,5.0,extra_trees_none,Sex,-0.02393980848153221,0.021512688126739888,False
+outer_fold,4.0,5.0,extra_trees_none,Current Smoker,0.02530779753761967,0.028557897861910625,True
+outer_fold,4.0,5.0,extra_trees_none,EX-Smoker,0.0012311901504787448,0.0020011954635195204,True
+outer_fold,4.0,5.0,extra_trees_none,FH,0.022161422708618272,0.029092209893354766,True
+outer_fold,4.0,5.0,extra_trees_balanced,Age,0.24623803009575923,0.07136000539565683,True
+outer_fold,4.0,5.0,extra_trees_balanced,Sex,-0.017099863201094377,0.026921941209706948,False
+outer_fold,4.0,5.0,extra_trees_balanced,Current Smoker,0.030232558139534915,0.028500173275788833,True
+outer_fold,4.0,5.0,extra_trees_balanced,EX-Smoker,0.0006839945280437965,0.0017836395089473676,True
+outer_fold,4.0,5.0,extra_trees_balanced,FH,0.027906976744186074,0.03014360082530153,True
+outer_fold,5.0,1.0,logistic_regression_none,Age,0.20227272727272724,0.10826533053246734,True
+outer_fold,5.0,1.0,logistic_regression_none,Sex,-0.002005347593582929,0.00826285408575537,False
+outer_fold,5.0,1.0,logistic_regression_none,Current Smoker,0.0017379679144384319,0.01715506854521059,True
+outer_fold,5.0,1.0,logistic_regression_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,1.0,logistic_regression_none,FH,0.019786096256684416,0.02375243718408565,True
+outer_fold,5.0,1.0,logistic_regression_balanced,Age,0.1987967914438502,0.10663187422886924,True
+outer_fold,5.0,1.0,logistic_regression_balanced,Sex,-0.003342245989304926,0.008219479224031774,False
+outer_fold,5.0,1.0,logistic_regression_balanced,Current Smoker,-0.0014705882352942013,0.018151319182307245,False
+outer_fold,5.0,1.0,logistic_regression_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,1.0,logistic_regression_balanced,FH,0.019786096256684437,0.02354080302770539,True
+outer_fold,5.0,1.0,svm_none,Age,0.1677807486631017,0.07921390933892053,True
+outer_fold,5.0,1.0,svm_none,Sex,0.012967914438502736,0.010857722194784456,True
+outer_fold,5.0,1.0,svm_none,Current Smoker,0.022326203208556182,0.028305015401516614,True
+outer_fold,5.0,1.0,svm_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,1.0,svm_none,FH,0.048663101604278156,0.050744760729694124,True
+outer_fold,5.0,1.0,svm_balanced,Age,0.19264705882352934,0.10126103011281638,True
+outer_fold,5.0,1.0,svm_balanced,Sex,0.004946524064171065,0.015275782734850989,True
+outer_fold,5.0,1.0,svm_balanced,Current Smoker,0.026604278074866226,0.024298473138216644,True
+outer_fold,5.0,1.0,svm_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,1.0,svm_balanced,FH,0.02165775401069512,0.02480514010340947,True
+outer_fold,5.0,1.0,random_forest_none,Age,0.1796791443850268,0.07287800909357123,True
+outer_fold,5.0,1.0,random_forest_none,Sex,-0.008155080213903654,0.014438502673796805,False
+outer_fold,5.0,1.0,random_forest_none,Current Smoker,0.006283422459893129,0.01530500528659217,True
+outer_fold,5.0,1.0,random_forest_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,1.0,random_forest_none,FH,0.038235294117647124,0.03261429329776689,True
+outer_fold,5.0,1.0,random_forest_balanced,Age,0.18596256684491977,0.07775463592713631,True
+outer_fold,5.0,1.0,random_forest_balanced,Sex,-0.009893048128342241,0.014871454886347576,False
+outer_fold,5.0,1.0,random_forest_balanced,Current Smoker,0.0038770053475936095,0.013511274858954706,True
+outer_fold,5.0,1.0,random_forest_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,1.0,random_forest_balanced,FH,0.04117647058823526,0.03227052303191139,True
+outer_fold,5.0,1.0,hist_gradient_boosting_none,Age,0.1977272727272727,0.057325355169719074,True
+outer_fold,5.0,1.0,hist_gradient_boosting_none,Sex,0.0009358288770053181,0.016157123711535812,True
+outer_fold,5.0,1.0,hist_gradient_boosting_none,Current Smoker,0.025401069518716478,0.02899251506550536,True
+outer_fold,5.0,1.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,1.0,hist_gradient_boosting_none,FH,0.02553475935828875,0.03699949337019906,True
+outer_fold,5.0,1.0,extra_trees_none,Age,0.2153743315508021,0.09025638602998766,True
+outer_fold,5.0,1.0,extra_trees_none,Sex,0.04799465240641707,0.02763340202008295,True
+outer_fold,5.0,1.0,extra_trees_none,Current Smoker,0.06296791443850258,0.03745558915222932,True
+outer_fold,5.0,1.0,extra_trees_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,1.0,extra_trees_none,FH,0.03462566844919781,0.033087627607448405,True
+outer_fold,5.0,1.0,extra_trees_balanced,Age,0.21510695187165782,0.08653192986596275,True
+outer_fold,5.0,1.0,extra_trees_balanced,Sex,0.04879679144385034,0.025330608718578115,True
+outer_fold,5.0,1.0,extra_trees_balanced,Current Smoker,0.07794117647058826,0.04250117539457251,True
+outer_fold,5.0,1.0,extra_trees_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,1.0,extra_trees_balanced,FH,0.03850267379679149,0.032159562613182195,True
+outer_fold,5.0,2.0,logistic_regression_none,Age,0.23049095607235143,0.05145039618213165,True
+outer_fold,5.0,2.0,logistic_regression_none,Sex,0.010981912144702876,0.004711778431217206,True
+outer_fold,5.0,2.0,logistic_regression_none,Current Smoker,0.007622739018087854,0.009409375429474459,True
+outer_fold,5.0,2.0,logistic_regression_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,2.0,logistic_regression_none,FH,0.03320413436692511,0.02233162182616274,True
+outer_fold,5.0,2.0,logistic_regression_balanced,Age,0.22196382428940561,0.05199772876045858,True
+outer_fold,5.0,2.0,logistic_regression_balanced,Sex,-0.005038759689922512,0.002498589096358325,False
+outer_fold,5.0,2.0,logistic_regression_balanced,Current Smoker,0.005038759689922423,0.007537959765279024,True
+outer_fold,5.0,2.0,logistic_regression_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,2.0,logistic_regression_balanced,FH,0.029844961240310042,0.023866514901740674,True
+outer_fold,5.0,2.0,svm_none,Age,0.18630490956072357,0.04708163500147868,True
+outer_fold,5.0,2.0,svm_none,Sex,0.001937984496124079,0.006725795909467879,True
+outer_fold,5.0,2.0,svm_none,Current Smoker,0.008656330749354036,0.018640505216404635,True
+outer_fold,5.0,2.0,svm_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,2.0,svm_none,FH,0.07713178294573649,0.03520665908062243,True
+outer_fold,5.0,2.0,svm_balanced,Age,0.23385012919896647,0.048078683448023275,True
+outer_fold,5.0,2.0,svm_balanced,Sex,0.006847545219638285,0.0026032870387093445,True
+outer_fold,5.0,2.0,svm_balanced,Current Smoker,0.0027131782945736703,0.012805696840686201,True
+outer_fold,5.0,2.0,svm_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,2.0,svm_balanced,FH,0.03372093023255822,0.02655470959497098,True
+outer_fold,5.0,2.0,random_forest_none,Age,0.22894056847545227,0.041508071063472894,True
+outer_fold,5.0,2.0,random_forest_none,Sex,0.016279069767441957,0.014516353390375346,True
+outer_fold,5.0,2.0,random_forest_none,Current Smoker,-0.0014211886304908994,0.0065929461613297765,False
+outer_fold,5.0,2.0,random_forest_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,2.0,random_forest_none,FH,0.03126614987080108,0.029418238670259445,True
+outer_fold,5.0,2.0,random_forest_balanced,Age,0.22519379844961235,0.046822104715057954,True
+outer_fold,5.0,2.0,random_forest_balanced,Sex,0.005943152454780387,0.017112889601858833,True
+outer_fold,5.0,2.0,random_forest_balanced,Current Smoker,-0.013307493540051719,0.007981108636424048,False
+outer_fold,5.0,2.0,random_forest_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,2.0,random_forest_balanced,FH,0.025193798449612382,0.02841202482150591,True
+outer_fold,5.0,2.0,hist_gradient_boosting_none,Age,0.20103359173126614,0.03883584250278173,True
+outer_fold,5.0,2.0,hist_gradient_boosting_none,Sex,-0.008527131782945795,0.01976955284197075,False
+outer_fold,5.0,2.0,hist_gradient_boosting_none,Current Smoker,0.006201550387596866,0.006026823663922796,True
+outer_fold,5.0,2.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,2.0,hist_gradient_boosting_none,FH,0.04237726098191212,0.022342831167387407,True
+outer_fold,5.0,2.0,extra_trees_none,Age,0.21175710594315245,0.05305250010787037,True
+outer_fold,5.0,2.0,extra_trees_none,Sex,-0.010981912144702876,0.00873407947346541,False
+outer_fold,5.0,2.0,extra_trees_none,Current Smoker,-0.019509043927648583,0.025614000571671864,False
+outer_fold,5.0,2.0,extra_trees_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,2.0,extra_trees_none,FH,0.010465116279069809,0.0316007043849312,True
+outer_fold,5.0,2.0,extra_trees_balanced,Age,0.21046511627906983,0.05291072322381085,True
+outer_fold,5.0,2.0,extra_trees_balanced,Sex,-0.012273901808785492,0.005763490445270123,False
+outer_fold,5.0,2.0,extra_trees_balanced,Current Smoker,-0.0241602067183462,0.025960956243114043,False
+outer_fold,5.0,2.0,extra_trees_balanced,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,2.0,extra_trees_balanced,FH,0.009173126614987148,0.03515636586110584,True
+outer_fold,5.0,3.0,logistic_regression_none,Age,0.22467700258397935,0.0791415120963465,True
+outer_fold,5.0,3.0,logistic_regression_none,Sex,0.022609819121447085,0.004782107370367411,True
+outer_fold,5.0,3.0,logistic_regression_none,Current Smoker,0.03126614987080105,0.02302715610333534,True
+outer_fold,5.0,3.0,logistic_regression_none,EX-Smoker,-0.013307493540051674,0.004578823035315084,False
+outer_fold,5.0,3.0,logistic_regression_none,FH,0.019638242894056867,0.013792254413521957,True
+outer_fold,5.0,3.0,logistic_regression_balanced,Age,0.22260981912144703,0.07860310517704937,True
+outer_fold,5.0,3.0,logistic_regression_balanced,Sex,0.01614987080103365,0.004567873263478971,True
+outer_fold,5.0,3.0,logistic_regression_balanced,Current Smoker,0.02816537467700264,0.023429583348383583,True
+outer_fold,5.0,3.0,logistic_regression_balanced,EX-Smoker,-0.016925064599483175,0.00815490120829947,False
+outer_fold,5.0,3.0,logistic_regression_balanced,FH,0.017571059431524573,0.01289661985888142,True
+outer_fold,5.0,3.0,svm_none,Age,0.21459948320413438,0.053511460644931126,True
+outer_fold,5.0,3.0,svm_none,Sex,0.044315245478036225,0.012884965699291467,True
+outer_fold,5.0,3.0,svm_none,Current Smoker,0.09302325581395351,0.056948758852272414,True
+outer_fold,5.0,3.0,svm_none,EX-Smoker,-0.010465116279069764,0.019604213683091124,False
+outer_fold,5.0,3.0,svm_none,FH,-0.0007751937984495471,0.02213189985050528,False
+outer_fold,5.0,3.0,svm_balanced,Age,0.2388888888888888,0.08397177465533107,True
+outer_fold,5.0,3.0,svm_balanced,Sex,0.010206718346253151,0.0023611972716405015,True
+outer_fold,5.0,3.0,svm_balanced,Current Smoker,0.04056847545219631,0.03740840001197823,True
+outer_fold,5.0,3.0,svm_balanced,EX-Smoker,-0.008656330749354058,0.020377425469914563,False
+outer_fold,5.0,3.0,svm_balanced,FH,-0.007493540051679637,0.01316054943488048,False
+outer_fold,5.0,3.0,random_forest_none,Age,0.15077519379844959,0.09900940902663447,True
+outer_fold,5.0,3.0,random_forest_none,Sex,0.024289405684754507,0.018044429228887857,True
+outer_fold,5.0,3.0,random_forest_none,Current Smoker,0.02312661498708011,0.024819656127257048,True
+outer_fold,5.0,3.0,random_forest_none,EX-Smoker,-0.007364341085271309,0.01719657171263551,False
+outer_fold,5.0,3.0,random_forest_none,FH,-0.005943152454780387,0.007669675493362211,False
+outer_fold,5.0,3.0,random_forest_balanced,Age,0.15516795865633073,0.10573291675655946,True
+outer_fold,5.0,3.0,random_forest_balanced,Sex,0.01937984496124028,0.01893988104692153,True
+outer_fold,5.0,3.0,random_forest_balanced,Current Smoker,0.02209302325581395,0.025246416926251673,True
+outer_fold,5.0,3.0,random_forest_balanced,EX-Smoker,-0.004780361757105922,0.016155554555390743,False
+outer_fold,5.0,3.0,random_forest_balanced,FH,-0.00594315245478041,0.0062551516469820274,False
+outer_fold,5.0,3.0,hist_gradient_boosting_none,Age,0.07803617571059422,0.09964197538764691,True
+outer_fold,5.0,3.0,hist_gradient_boosting_none,Sex,0.038630490956072294,0.015554396584775167,True
+outer_fold,5.0,3.0,hist_gradient_boosting_none,Current Smoker,0.012790697674418516,0.018603753926110907,True
+outer_fold,5.0,3.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,3.0,hist_gradient_boosting_none,FH,0.00025839793281647874,0.012910849545585912,True
+outer_fold,5.0,3.0,extra_trees_none,Age,0.15142118863049103,0.08219085442811037,True
+outer_fold,5.0,3.0,extra_trees_none,Sex,0.03708010335917318,0.023677627349959058,True
+outer_fold,5.0,3.0,extra_trees_none,Current Smoker,0.07002583979328174,0.04650552644447483,True
+outer_fold,5.0,3.0,extra_trees_none,EX-Smoker,-0.020025839793281607,0.016301612708617585,False
+outer_fold,5.0,3.0,extra_trees_none,FH,-0.0020671834625322514,0.014935758156711538,False
+outer_fold,5.0,3.0,extra_trees_balanced,Age,0.12687338501291998,0.0866689162557289,True
+outer_fold,5.0,3.0,extra_trees_balanced,Sex,0.027260981912144745,0.021195719492266604,True
+outer_fold,5.0,3.0,extra_trees_balanced,Current Smoker,0.07803617571059432,0.04175226070080584,True
+outer_fold,5.0,3.0,extra_trees_balanced,EX-Smoker,-0.016925064599483154,0.016107955943678243,False
+outer_fold,5.0,3.0,extra_trees_balanced,FH,0.0005167958656331128,0.010996342548296225,True
+outer_fold,5.0,4.0,logistic_regression_none,Age,0.27318741450068396,0.07107568784515736,True
+outer_fold,5.0,4.0,logistic_regression_none,Sex,0.008344733242134028,0.00677672562325625,True
+outer_fold,5.0,4.0,logistic_regression_none,Current Smoker,0.0024623803009576005,0.015456460312440981,True
+outer_fold,5.0,4.0,logistic_regression_none,EX-Smoker,0.019699042407660718,0.03814310679692139,True
+outer_fold,5.0,4.0,logistic_regression_none,FH,0.02270861833105333,0.018057455540355673,True
+outer_fold,5.0,4.0,logistic_regression_balanced,Age,0.27400820793433656,0.07154805090800835,True
+outer_fold,5.0,4.0,logistic_regression_balanced,Sex,0.008071135430916554,0.006967349700819068,True
+outer_fold,5.0,4.0,logistic_regression_balanced,Current Smoker,0.0016415868673050672,0.014622772822503762,True
+outer_fold,5.0,4.0,logistic_regression_balanced,EX-Smoker,0.018878248974008183,0.03856079436924296,True
+outer_fold,5.0,4.0,logistic_regression_balanced,FH,0.022435020519835813,0.017712156836814773,True
+outer_fold,5.0,4.0,svm_none,Age,0.24801641586867298,0.08874295891354914,True
+outer_fold,5.0,4.0,svm_none,Sex,0.015184678522571793,0.04187789664149957,True
+outer_fold,5.0,4.0,svm_none,Current Smoker,-0.003009575923392682,0.05349624357361568,False
+outer_fold,5.0,4.0,svm_none,EX-Smoker,0.021887824897400775,0.022007198415529654,True
+outer_fold,5.0,4.0,svm_none,FH,-0.015047879616963123,0.02217661737801308,False
+outer_fold,5.0,4.0,svm_balanced,Age,0.20560875512995908,0.05756064908576675,True
+outer_fold,5.0,4.0,svm_balanced,Sex,-0.006155950752393879,0.01095245904309062,False
+outer_fold,5.0,4.0,svm_balanced,Current Smoker,-0.033926128590971175,0.04709658714473602,False
+outer_fold,5.0,4.0,svm_balanced,EX-Smoker,0.009575923392612951,0.018896083884905074,True
+outer_fold,5.0,4.0,svm_balanced,FH,-0.008481532147742698,0.02214959742600174,False
+outer_fold,5.0,4.0,random_forest_none,Age,0.28358413132694943,0.0756766303335145,True
+outer_fold,5.0,4.0,random_forest_none,Sex,-0.00013679890560869268,0.023091882183258874,False
+outer_fold,5.0,4.0,random_forest_none,Current Smoker,-0.015047879616963033,0.01841965642020514,False
+outer_fold,5.0,4.0,random_forest_none,EX-Smoker,0.0032831737346101565,0.008325649277539256,True
+outer_fold,5.0,4.0,random_forest_none,FH,0.010943912448700455,0.024062612522621093,True
+outer_fold,5.0,4.0,random_forest_balanced,Age,0.2651162790697675,0.08106371184083173,True
+outer_fold,5.0,4.0,random_forest_balanced,Sex,0.0005471956224350593,0.02474283435654017,True
+outer_fold,5.0,4.0,random_forest_balanced,Current Smoker,-0.0006839945280437077,0.030210575662828365,False
+outer_fold,5.0,4.0,random_forest_balanced,EX-Smoker,0.011217510259917952,0.019551239096290893,True
+outer_fold,5.0,4.0,random_forest_balanced,FH,0.0036935704514364344,0.029863548886193834,True
+outer_fold,5.0,4.0,hist_gradient_boosting_none,Age,0.21450068399452804,0.07918470858410438,True
+outer_fold,5.0,4.0,hist_gradient_boosting_none,Sex,0.0005471956224350593,0.027986662338649274,True
+outer_fold,5.0,4.0,hist_gradient_boosting_none,Current Smoker,-0.016415868673050605,0.01424942999726373,False
+outer_fold,5.0,4.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,4.0,hist_gradient_boosting_none,FH,0.00957592339261284,0.030491122770462436,True
+outer_fold,5.0,4.0,extra_trees_none,Age,0.2376196990424077,0.05863010223935981,True
+outer_fold,5.0,4.0,extra_trees_none,Sex,0.01573187414500683,0.045983563864215045,True
+outer_fold,5.0,4.0,extra_trees_none,Current Smoker,-0.020793433652530724,0.04167901447833018,False
+outer_fold,5.0,4.0,extra_trees_none,EX-Smoker,-0.0027359781121750527,0.021990184730407814,False
+outer_fold,5.0,4.0,extra_trees_none,FH,0.015047879616963123,0.01838406284796972,True
+outer_fold,5.0,4.0,extra_trees_balanced,Age,0.2376196990424077,0.056158575030616324,True
+outer_fold,5.0,4.0,extra_trees_balanced,Sex,0.02941176470588238,0.043205503959928185,True
+outer_fold,5.0,4.0,extra_trees_balanced,Current Smoker,-0.019151846785225655,0.04352914521668215,False
+outer_fold,5.0,4.0,extra_trees_balanced,EX-Smoker,0.013406292749658055,0.028425219406342593,True
+outer_fold,5.0,4.0,extra_trees_balanced,FH,0.017510259917920722,0.01747388492676963,True
+outer_fold,5.0,5.0,logistic_regression_none,Age,0.1792065663474691,0.08339012638522676,True
+outer_fold,5.0,5.0,logistic_regression_none,Sex,-0.09411764705882364,0.02674269906054701,False
+outer_fold,5.0,5.0,logistic_regression_none,Current Smoker,-0.0020519835841314115,0.012898330578739516,False
+outer_fold,5.0,5.0,logistic_regression_none,EX-Smoker,0.00027359781121742975,0.0025075653597569467,True
+outer_fold,5.0,5.0,logistic_regression_none,FH,0.0020519835841312783,0.013788895396283625,True
+outer_fold,5.0,5.0,logistic_regression_balanced,Age,0.18467852257181944,0.08301450847304394,True
+outer_fold,5.0,5.0,logistic_regression_balanced,Sex,-0.0880984952120382,0.025805364974121184,False
+outer_fold,5.0,5.0,logistic_regression_balanced,Current Smoker,0.005882352941176494,0.011644793403573439,True
+outer_fold,5.0,5.0,logistic_regression_balanced,EX-Smoker,-0.0013679890560874598,0.0037712855682873084,False
+outer_fold,5.0,5.0,logistic_regression_balanced,FH,0.01217510259917931,0.01666702534666818,True
+outer_fold,5.0,5.0,svm_none,Age,0.12941176470588228,0.0707918145165331,True
+outer_fold,5.0,5.0,svm_none,Sex,-0.12941176470588234,0.027949861097941744,False
+outer_fold,5.0,5.0,svm_none,Current Smoker,0.0261285909712722,0.01153823960818583,True
+outer_fold,5.0,5.0,svm_none,EX-Smoker,-0.0016415868673051114,0.009453982239765204,False
+outer_fold,5.0,5.0,svm_none,FH,0.022845417236662093,0.026742699060546934,True
+outer_fold,5.0,5.0,svm_balanced,Age,0.16935704514363878,0.09323284508299234,True
+outer_fold,5.0,5.0,svm_balanced,Sex,-0.06484268125855,0.019377216098085643,False
+outer_fold,5.0,5.0,svm_balanced,Current Smoker,0.010807113543091607,0.021348520060694872,True
+outer_fold,5.0,5.0,svm_balanced,EX-Smoker,-0.00218878248974006,0.0030711278140415368,False
+outer_fold,5.0,5.0,svm_balanced,FH,0.01162790697674414,0.017972273488279067,True
+outer_fold,5.0,5.0,random_forest_none,Age,0.16730506155950742,0.07916107178048046,True
+outer_fold,5.0,5.0,random_forest_none,Sex,-0.12010943912448709,0.03549819576554434,False
+outer_fold,5.0,5.0,random_forest_none,Current Smoker,0.012175102599179177,0.005953503460188525,True
+outer_fold,5.0,5.0,random_forest_none,EX-Smoker,0.004651162790697594,0.0010943912448700742,True
+outer_fold,5.0,5.0,random_forest_none,FH,-0.0020519835841314115,0.01719535580024149,False
+outer_fold,5.0,5.0,random_forest_balanced,Age,0.15868673050615595,0.08451582087608923,True
+outer_fold,5.0,5.0,random_forest_balanced,Sex,-0.10834473324213408,0.028200489689138384,False
+outer_fold,5.0,5.0,random_forest_balanced,Current Smoker,0.0036935704514364344,0.005650308188252661,True
+outer_fold,5.0,5.0,random_forest_balanced,EX-Smoker,0.0,0.002447133217510042,False
+outer_fold,5.0,5.0,random_forest_balanced,FH,0.0028727770177838564,0.013600315755553045,True
+outer_fold,5.0,5.0,hist_gradient_boosting_none,Age,0.19753761969904246,0.0809768639433538,True
+outer_fold,5.0,5.0,hist_gradient_boosting_none,Sex,-0.04979480164158676,0.016423846670585572,False
+outer_fold,5.0,5.0,hist_gradient_boosting_none,Current Smoker,0.019015047879617032,0.008838098662223293,True
+outer_fold,5.0,5.0,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,False
+outer_fold,5.0,5.0,hist_gradient_boosting_none,FH,0.01887824897400827,0.010966119739442469,True
+outer_fold,5.0,5.0,extra_trees_none,Age,0.11545827633378931,0.07820710999733775,True
+outer_fold,5.0,5.0,extra_trees_none,Sex,-0.15403556771545826,0.022998495960238032,False
+outer_fold,5.0,5.0,extra_trees_none,Current Smoker,-0.016005471956224326,0.015113648092622837,False
+outer_fold,5.0,5.0,extra_trees_none,EX-Smoker,0.015047879616963078,0.0,True
+outer_fold,5.0,5.0,extra_trees_none,FH,0.006155950752393957,0.02830117765468838,True
+outer_fold,5.0,5.0,extra_trees_balanced,Age,0.10779753761969899,0.04467400705826337,True
+outer_fold,5.0,5.0,extra_trees_balanced,Sex,-0.07004103967168263,0.050548260014079825,False
+outer_fold,5.0,5.0,extra_trees_balanced,Current Smoker,0.004514363885088945,0.03710403956978065,True
+outer_fold,5.0,5.0,extra_trees_balanced,EX-Smoker,0.0024623803009575784,0.0005471956224349928,True
+outer_fold,5.0,5.0,extra_trees_balanced,FH,0.0009575923392612373,0.023967543051245738,True
+repeat_summary,1.0,,extra_trees_balanced,Age,0.1827094474153298,0.06799998045862486,1.0
+repeat_summary,1.0,,extra_trees_balanced,Current Smoker,0.018338584200417313,0.04115087647193692,0.8
+repeat_summary,1.0,,extra_trees_balanced,EX-Smoker,-0.0036317345824869603,0.01542029541249704,0.4
+repeat_summary,1.0,,extra_trees_balanced,FH,-0.004276002155619109,0.03133877910672906,0.6
+repeat_summary,1.0,,extra_trees_balanced,Sex,0.021006439221213515,0.04397030758372661,0.6
+repeat_summary,1.0,,extra_trees_none,Age,0.1855063632218215,0.07019679799662892,1.0
+repeat_summary,1.0,,extra_trees_none,Current Smoker,0.01000062181320733,0.035633682503336345,0.6
+repeat_summary,1.0,,extra_trees_none,EX-Smoker,-0.0034616341251088078,0.018165860947595616,0.6
+repeat_summary,1.0,,extra_trees_none,FH,-0.0038194530807389867,0.031239773441285663,0.6
+repeat_summary,1.0,,extra_trees_none,Sex,0.019106868963230154,0.039927244099481396,0.6
+repeat_summary,1.0,,hist_gradient_boosting_none,Age,0.18529853942986635,0.09187846733252748,1.0
+repeat_summary,1.0,,hist_gradient_boosting_none,Current Smoker,-0.004215548093797095,0.011704404138071377,0.4
+repeat_summary,1.0,,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,0.0
+repeat_summary,1.0,,hist_gradient_boosting_none,FH,0.010304964833008568,0.032881876235828264,0.6
+repeat_summary,1.0,,hist_gradient_boosting_none,Sex,-0.0015617875056999748,0.025956728417288626,0.4
+repeat_summary,1.0,,logistic_regression_balanced,Age,0.22535685169064107,0.08095136192649748,1.0
+repeat_summary,1.0,,logistic_regression_balanced,Current Smoker,0.005378062430046059,0.024313992943217136,0.8
+repeat_summary,1.0,,logistic_regression_balanced,EX-Smoker,-0.0016698448230595812,0.005006707687194031,0.2
+repeat_summary,1.0,,logistic_regression_balanced,FH,0.00922356257513579,0.01550914063622829,0.6
+repeat_summary,1.0,,logistic_regression_balanced,Sex,0.004002749796183482,0.024368955969469645,0.8
+repeat_summary,1.0,,logistic_regression_none,Age,0.22517970401691337,0.08462612312212091,1.0
+repeat_summary,1.0,,logistic_regression_none,Current Smoker,0.0038568309635341135,0.023813931791632513,0.8
+repeat_summary,1.0,,logistic_regression_none,EX-Smoker,-0.0002442344097610948,0.002544759712303919,0.6
+repeat_summary,1.0,,logistic_regression_none,FH,0.009109839848553927,0.01258765129889932,0.6
+repeat_summary,1.0,,logistic_regression_none,Sex,0.0005037377882794916,0.024232718477439616,0.8
+repeat_summary,1.0,,random_forest_balanced,Age,0.20181341458359242,0.08233240068885649,1.0
+repeat_summary,1.0,,random_forest_balanced,Current Smoker,-0.002045696361701865,0.01821379165576811,0.4
+repeat_summary,1.0,,random_forest_balanced,EX-Smoker,-0.0015783691912283082,0.0029172780788415827,0.2
+repeat_summary,1.0,,random_forest_balanced,FH,0.0051665768492033855,0.026250218934619676,0.6
+repeat_summary,1.0,,random_forest_balanced,Sex,-0.003086404399673914,0.02942957178703448,0.6
+repeat_summary,1.0,,random_forest_none,Age,0.20179096021777276,0.08489558833071478,1.0
+repeat_summary,1.0,,random_forest_none,Current Smoker,-0.0005971479500891478,0.019006220281841044,0.4
+repeat_summary,1.0,,random_forest_none,EX-Smoker,-0.005542082936063797,0.009398327623193961,0.2
+repeat_summary,1.0,,random_forest_none,FH,0.004398430267103288,0.021733498726471588,0.6
+repeat_summary,1.0,,random_forest_none,Sex,-0.004082687338501306,0.02412289265928841,0.4
+repeat_summary,1.0,,svm_balanced,Age,0.20720432781992287,0.05758875168720519,1.0
+repeat_summary,1.0,,svm_balanced,Current Smoker,0.008191007199215127,0.03375453686331699,0.8
+repeat_summary,1.0,,svm_balanced,EX-Smoker,0.007027387417264297,0.02304454233500251,0.6
+repeat_summary,1.0,,svm_balanced,FH,0.0006654783125371464,0.03163095956636934,0.6
+repeat_summary,1.0,,svm_balanced,Sex,0.0010910058174080283,0.019726468495241383,0.6
+repeat_summary,1.0,,svm_none,Age,0.22172615346349955,0.07978750895167529,1.0
+repeat_summary,1.0,,svm_none,Current Smoker,0.030020243474415842,0.04059643293129891,0.6
+repeat_summary,1.0,,svm_none,EX-Smoker,0.006274578894277907,0.008261465104054977,0.6
+repeat_summary,1.0,,svm_none,FH,0.027183462532299744,0.048113618296274516,0.8
+repeat_summary,1.0,,svm_none,Sex,0.004159861266564406,0.0265876290767623,0.6
+repeat_summary,2.0,,extra_trees_balanced,Age,0.2129278420318092,0.08021325630871977,1.0
+repeat_summary,2.0,,extra_trees_balanced,Current Smoker,0.052534234271580396,0.052274634560188854,1.0
+repeat_summary,2.0,,extra_trees_balanced,EX-Smoker,0.0008793820558526423,0.008445914412981844,0.8
+repeat_summary,2.0,,extra_trees_balanced,FH,-0.0004658762729897917,0.015661675918203045,0.6
+repeat_summary,2.0,,extra_trees_balanced,Sex,0.041757451394934315,0.014723842539562467,1.0
+repeat_summary,2.0,,extra_trees_none,Age,0.21798898699719493,0.08370843535894588,1.0
+repeat_summary,2.0,,extra_trees_none,Current Smoker,0.04906175296052175,0.0498492736338435,1.0
+repeat_summary,2.0,,extra_trees_none,EX-Smoker,-0.0027571197612237166,0.0057891271273266135,0.4
+repeat_summary,2.0,,extra_trees_none,FH,0.0004537163702690132,0.018900821051810242,0.4
+repeat_summary,2.0,,extra_trees_none,Sex,0.03722733490859344,0.009630142402310164,1.0
+repeat_summary,2.0,,hist_gradient_boosting_none,Age,0.2009651231881054,0.060944690055077765,1.0
+repeat_summary,2.0,,hist_gradient_boosting_none,Current Smoker,0.021855836062402385,0.020268271564238424,0.8
+repeat_summary,2.0,,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,0.0
+repeat_summary,2.0,,hist_gradient_boosting_none,FH,0.00914106868963227,0.013312996275507067,0.8
+repeat_summary,2.0,,hist_gradient_boosting_none,Sex,0.014094087247301998,0.020911254806987876,0.8
+repeat_summary,2.0,,logistic_regression_balanced,Age,0.24036776796694714,0.08318795573810289,1.0
+repeat_summary,2.0,,logistic_regression_balanced,Current Smoker,0.024205460901767322,0.013167375021216612,1.0
+repeat_summary,2.0,,logistic_regression_balanced,EX-Smoker,-0.002127430253285243,0.005464793146914471,0.6
+repeat_summary,2.0,,logistic_regression_balanced,FH,0.00754059058436622,0.01810585193040169,0.6
+repeat_summary,2.0,,logistic_regression_balanced,Sex,0.010322997416020652,0.0053271017431597446,1.0
+repeat_summary,2.0,,logistic_regression_none,Age,0.2399432768174218,0.08249730940870016,1.0
+repeat_summary,2.0,,logistic_regression_none,Current Smoker,0.02321138885434368,0.013178361624515468,1.0
+repeat_summary,2.0,,logistic_regression_none,EX-Smoker,-0.001398388812889495,0.003128055946371494,0.4
+repeat_summary,2.0,,logistic_regression_none,FH,0.00790165678674568,0.018520826436038317,0.6
+repeat_summary,2.0,,logistic_regression_none,Sex,0.009855670245547104,0.00611689122346813,1.0
+repeat_summary,2.0,,random_forest_balanced,Age,0.2134981829236275,0.06452285053993947,1.0
+repeat_summary,2.0,,random_forest_balanced,Current Smoker,0.0180022523456176,0.02646674187370862,0.8
+repeat_summary,2.0,,random_forest_balanced,EX-Smoker,0.0014986389199795626,0.005147045978188148,0.6
+repeat_summary,2.0,,random_forest_balanced,FH,0.00939877571888517,0.009984859260661574,0.8
+repeat_summary,2.0,,random_forest_balanced,Sex,0.010725794193646448,0.01592983596842656,0.6
+repeat_summary,2.0,,random_forest_none,Age,0.20785743895867018,0.06717938411451063,1.0
+repeat_summary,2.0,,random_forest_none,Current Smoker,0.017910500352360827,0.026654200801433586,0.8
+repeat_summary,2.0,,random_forest_none,EX-Smoker,-0.0012867387969987165,0.006154882000073543,0.6
+repeat_summary,2.0,,random_forest_none,FH,-0.0007096270502563361,0.014653361955565068,0.6
+repeat_summary,2.0,,random_forest_none,Sex,0.004137199629675692,0.006053664874843278,0.8
+repeat_summary,2.0,,svm_balanced,Age,0.2229571363429092,0.08883909365011508,1.0
+repeat_summary,2.0,,svm_balanced,Current Smoker,0.026759731376694417,0.016539883680163334,0.8
+repeat_summary,2.0,,svm_balanced,EX-Smoker,0.010903287319155948,0.010604129451327715,0.8
+repeat_summary,2.0,,svm_balanced,FH,0.0008053862841824338,0.0150442734081625,0.6
+repeat_summary,2.0,,svm_balanced,Sex,0.008921844988876427,0.01020733945190389,0.8
+repeat_summary,2.0,,svm_none,Age,0.24697197695145706,0.09121996291706468,1.0
+repeat_summary,2.0,,svm_none,Current Smoker,0.04157795464909009,0.04959245382121952,0.8
+repeat_summary,2.0,,svm_none,EX-Smoker,0.005201260208100163,0.00845813452478442,0.8
+repeat_summary,2.0,,svm_none,FH,0.02751502715251005,0.017119597536814378,1.0
+repeat_summary,2.0,,svm_none,Sex,0.02753451063300582,0.026501306693922883,1.0
+repeat_summary,3.0,,extra_trees_balanced,Age,0.1659982174688057,0.08994202658253861,1.0
+repeat_summary,3.0,,extra_trees_balanced,Current Smoker,0.031023988171730993,0.03859002626742016,0.8
+repeat_summary,3.0,,extra_trees_balanced,EX-Smoker,-0.006741146070831414,0.019048082867979203,0.4
+repeat_summary,3.0,,extra_trees_balanced,FH,-0.009511807541903292,0.023346090648426604,0.4
+repeat_summary,3.0,,extra_trees_balanced,Sex,0.02504235238845361,0.031142578156264474,0.8
+repeat_summary,3.0,,extra_trees_none,Age,0.17010978457626888,0.09165828009091695,1.0
+repeat_summary,3.0,,extra_trees_none,Current Smoker,0.030493926957675256,0.03971740839537007,0.6
+repeat_summary,3.0,,extra_trees_none,EX-Smoker,-0.011395901560060252,0.02507105856690381,0.4
+repeat_summary,3.0,,extra_trees_none,FH,-0.00724785474443479,0.02408356365799522,0.4
+repeat_summary,3.0,,extra_trees_none,Sex,0.0176014591883265,0.025794527289237337,0.8
+repeat_summary,3.0,,hist_gradient_boosting_none,Age,0.15449391313960395,0.12383365921480007,1.0
+repeat_summary,3.0,,hist_gradient_boosting_none,Current Smoker,0.004234478851441886,0.0338263961900647,0.6
+repeat_summary,3.0,,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,0.0
+repeat_summary,3.0,,hist_gradient_boosting_none,FH,0.014873910099628277,0.031016875742981412,0.8
+repeat_summary,3.0,,hist_gradient_boosting_none,Sex,0.016995191311196763,0.011377010987222066,1.0
+repeat_summary,3.0,,logistic_regression_balanced,Age,0.21830604264256798,0.10645054723347276,1.0
+repeat_summary,3.0,,logistic_regression_balanced,Current Smoker,0.01821228702897653,0.0139935789911481,0.8
+repeat_summary,3.0,,logistic_regression_balanced,EX-Smoker,-0.00649159170362997,0.009571555576893744,0.2
+repeat_summary,3.0,,logistic_regression_balanced,FH,0.01831709709958685,0.015227305064131185,0.8
+repeat_summary,3.0,,logistic_regression_balanced,Sex,0.007275905429120234,0.013320431782999229,0.8
+repeat_summary,3.0,,logistic_regression_none,Age,0.21573726319280354,0.10665899127298772,1.0
+repeat_summary,3.0,,logistic_regression_none,Current Smoker,0.019218518979120892,0.010798638413601033,1.0
+repeat_summary,3.0,,logistic_regression_none,EX-Smoker,-0.0058719893877212746,0.011183637204929188,0.2
+repeat_summary,3.0,,logistic_regression_none,FH,0.0156713509928284,0.015922549757572988,0.8
+repeat_summary,3.0,,logistic_regression_none,Sex,0.005774986527380501,0.010579652364920911,0.6
+repeat_summary,3.0,,random_forest_balanced,Age,0.1782289378048612,0.12308769080038112,1.0
+repeat_summary,3.0,,random_forest_balanced,Current Smoker,0.011410894167392124,0.0281874823404097,0.8
+repeat_summary,3.0,,random_forest_balanced,EX-Smoker,-0.003643687214138662,0.013250027914793683,0.2
+repeat_summary,3.0,,random_forest_balanced,FH,-0.0005897552819577181,0.027496670667723568,0.6
+repeat_summary,3.0,,random_forest_balanced,Sex,0.0009665049952327547,0.019747472987588787,0.6
+repeat_summary,3.0,,random_forest_none,Age,0.18446351338280204,0.13089691179429475,1.0
+repeat_summary,3.0,,random_forest_none,Current Smoker,0.014521756553220291,0.029205424490681895,0.8
+repeat_summary,3.0,,random_forest_none,EX-Smoker,-0.0031730437065594598,0.009361131315972325,0.2
+repeat_summary,3.0,,random_forest_none,FH,-0.002373599193024648,0.025245392466380755,0.6
+repeat_summary,3.0,,random_forest_none,Sex,0.003425914410866504,0.0162832176630371,0.6
+repeat_summary,3.0,,svm_balanced,Age,0.19792521659826717,0.10888044003381753,1.0
+repeat_summary,3.0,,svm_balanced,Current Smoker,0.019201246390028875,0.023348997238304595,0.8
+repeat_summary,3.0,,svm_balanced,EX-Smoker,0.006364050905774561,0.017568818486681244,0.4
+repeat_summary,3.0,,svm_balanced,FH,0.0023088615291077313,0.035323548758053665,0.6
+repeat_summary,3.0,,svm_balanced,Sex,0.006489657173651672,0.014090664112213103,0.6
+repeat_summary,3.0,,svm_none,Age,0.18531360112755454,0.08957643929183615,1.0
+repeat_summary,3.0,,svm_none,Current Smoker,0.03739508629385505,0.03489506376504322,0.8
+repeat_summary,3.0,,svm_none,EX-Smoker,0.007203498735646444,0.013804829845795365,0.6
+repeat_summary,3.0,,svm_none,FH,0.015115588166203711,0.05000221548166283,0.6
+repeat_summary,3.0,,svm_none,Sex,0.008954662908151233,0.019227774296313654,0.8
+repeat_summary,4.0,,extra_trees_balanced,Age,0.22029978305628103,0.055158014176951736,1.0
+repeat_summary,4.0,,extra_trees_balanced,Current Smoker,0.03815321477428184,0.0388098976216783,0.8
+repeat_summary,4.0,,extra_trees_balanced,EX-Smoker,-0.0025507468667523266,0.005074138934107313,0.4
+repeat_summary,4.0,,extra_trees_balanced,FH,0.009214926280589793,0.021765869951834306,0.8
+repeat_summary,4.0,,extra_trees_balanced,Sex,0.012312868769777144,0.02616646473619266,0.6
+repeat_summary,4.0,,extra_trees_none,Age,0.2170963395929196,0.04808863402123361,1.0
+repeat_summary,4.0,,extra_trees_none,Current Smoker,0.034272064005306156,0.03491155882581368,0.8
+repeat_summary,4.0,,extra_trees_none,EX-Smoker,-0.00036002984703395577,0.0022146413466963303,0.6
+repeat_summary,4.0,,extra_trees_none,FH,0.008343420525363068,0.02232453849854796,0.8
+repeat_summary,4.0,,extra_trees_none,Sex,0.012449944036811343,0.02550814886881653,0.8
+repeat_summary,4.0,,hist_gradient_boosting_none,Age,0.20919744642042862,0.10575731793853047,1.0
+repeat_summary,4.0,,hist_gradient_boosting_none,Current Smoker,0.007318603269355672,0.029675620081877116,0.6
+repeat_summary,4.0,,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,0.0
+repeat_summary,4.0,,hist_gradient_boosting_none,FH,0.015049745056585007,0.020431282397470104,0.8
+repeat_summary,4.0,,hist_gradient_boosting_none,Sex,0.012671240448258255,0.014727140501153986,0.8
+repeat_summary,4.0,,logistic_regression_balanced,Age,0.26189259213199023,0.05491898942755698,1.0
+repeat_summary,4.0,,logistic_regression_balanced,Current Smoker,0.012383410023628869,0.01969467095861719,0.6
+repeat_summary,4.0,,logistic_regression_balanced,EX-Smoker,-0.0010025701612569016,0.0016610232049327292,0.2
+repeat_summary,4.0,,logistic_regression_balanced,FH,0.020063217676076765,0.02372296592538399,0.8
+repeat_summary,4.0,,logistic_regression_balanced,Sex,0.0057807901173154,0.00936729602137936,0.6
+repeat_summary,4.0,,logistic_regression_none,Age,0.2564442648095179,0.05504519085993811,1.0
+repeat_summary,4.0,,logistic_regression_none,Current Smoker,0.01310775331979162,0.018999384035593373,0.6
+repeat_summary,4.0,,logistic_regression_none,EX-Smoker,-0.0026954220729870615,0.00420809016149786,0.2
+repeat_summary,4.0,,logistic_regression_none,FH,0.014796874352277917,0.020527480166211937,0.8
+repeat_summary,4.0,,logistic_regression_none,Sex,0.0036626179717834844,0.010517362895269573,0.8
+repeat_summary,4.0,,random_forest_balanced,Age,0.23069428899114267,0.0885420579717988,1.0
+repeat_summary,4.0,,random_forest_balanced,Current Smoker,0.018384460197045725,0.024738032879619395,0.6
+repeat_summary,4.0,,random_forest_balanced,EX-Smoker,-0.001426646768644031,0.004869812635151234,0.6
+repeat_summary,4.0,,random_forest_balanced,FH,0.01549979963796655,0.013787323897677176,0.8
+repeat_summary,4.0,,random_forest_balanced,Sex,-0.0004897815362931362,0.022851496242894145,0.6
+repeat_summary,4.0,,random_forest_none,Age,0.24095503599607565,0.09035040578182292,1.0
+repeat_summary,4.0,,random_forest_none,Current Smoker,0.016155467119899396,0.013323315201922727,0.8
+repeat_summary,4.0,,random_forest_none,EX-Smoker,-0.0014897953543644338,0.004271629916185566,0.4
+repeat_summary,4.0,,random_forest_none,FH,0.012635589824372313,0.011739392651820257,0.8
+repeat_summary,4.0,,random_forest_none,Sex,0.007441307742265334,0.02756204111574904,0.6
+repeat_summary,4.0,,svm_balanced,Age,0.24613322002514887,0.06623862852554582,1.0
+repeat_summary,4.0,,svm_balanced,Current Smoker,0.02500082908427641,0.030483673497951485,0.8
+repeat_summary,4.0,,svm_balanced,EX-Smoker,-0.0001057773355995063,0.01065199805915761,0.6
+repeat_summary,4.0,,svm_balanced,FH,0.011089762190993344,0.029049160103234394,0.8
+repeat_summary,4.0,,svm_balanced,Sex,0.0009470906050933079,0.010140039019240514,0.6
+repeat_summary,4.0,,svm_none,Age,0.2371192775912338,0.0665759717525179,1.0
+repeat_summary,4.0,,svm_none,Current Smoker,0.061506100678467304,0.050892042450646324,1.0
+repeat_summary,4.0,,svm_none,EX-Smoker,0.003984786303527738,0.015691268634279783,0.6
+repeat_summary,4.0,,svm_none,FH,0.028873343558706088,0.03799604297228105,0.8
+repeat_summary,4.0,,svm_none,Sex,0.0035386698724592055,0.027155334182420506,0.6
+repeat_summary,5.0,,extra_trees_balanced,Age,0.17957253796515088,0.05812781234521435,1.0
+repeat_summary,5.0,,extra_trees_balanced,Current Smoker,0.023435932512539934,0.05096357854080077,0.6
+repeat_summary,5.0,,extra_trees_balanced,EX-Smoker,-0.00021127830977350423,0.010863086820879369,0.4
+repeat_summary,5.0,,extra_trees_balanced,FH,0.013332089706918742,0.0156977094274783,1.0
+repeat_summary,5.0,,extra_trees_balanced,Sex,0.004630919316281868,0.04727184343897396,0.6
+repeat_summary,5.0,,extra_trees_none,Age,0.18632612030012852,0.050897373191377236,1.0
+repeat_summary,5.0,,extra_trees_none,Current Smoker,0.015337160939076135,0.0468016526676888,0.4
+repeat_summary,5.0,,extra_trees_none,EX-Smoker,-0.0015427876576987163,0.012480560362413193,0.2
+repeat_summary,5.0,,extra_trees_none,FH,0.01284548632701849,0.013711588506628349,0.8
+repeat_summary,5.0,,extra_trees_none,Sex,-0.01284216998991281,0.08208054649912869,0.6
+repeat_summary,5.0,,hist_gradient_boosting_none,Age,0.17776706877254073,0.056183238235819104,1.0
+repeat_summary,5.0,,hist_gradient_boosting_none,Current Smoker,0.009398499357459658,0.016098674993590852,0.8
+repeat_summary,5.0,,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,0.0
+repeat_summary,5.0,,hist_gradient_boosting_none,FH,0.019324918127927693,0.01603704495220973,1.0
+repeat_summary,5.0,,hist_gradient_boosting_none,Sex,-0.0036416835938039766,0.03154130220926691,0.6
+repeat_summary,5.0,,logistic_regression_balanced,Age,0.22041143307217176,0.033999598236176015,1.0
+repeat_summary,5.0,,logistic_regression_balanced,Current Smoker,0.007851497188022485,0.011725046937713786,0.8
+repeat_summary,5.0,,logistic_regression_balanced,EX-Smoker,0.00011703906368750972,0.012694969469899784,0.2
+repeat_summary,5.0,,logistic_regression_balanced,FH,0.020362448009506835,0.006507116688426827,1.0
+repeat_summary,5.0,,logistic_regression_balanced,Sex,-0.014451698931863089,0.04207020355916864,0.4
+repeat_summary,5.0,,logistic_regression_none,Age,0.2219669333554422,0.03507082785997829,1.0
+repeat_summary,5.0,,logistic_regression_none,Current Smoker,0.008207450704030705,0.013343177361797182,0.8
+repeat_summary,5.0,,logistic_regression_none,EX-Smoker,0.0013330293357652948,0.011793342145142542,0.4
+repeat_summary,5.0,,logistic_regression_none,FH,0.019477815086570198,0.011209709056254095,1.0
+repeat_summary,5.0,,logistic_regression_none,Sex,-0.010837306028824515,0.0473718212257807,0.6
+repeat_summary,5.0,,random_forest_balanced,Age,0.19802546670535726,0.04682176595464994,1.0
+repeat_summary,5.0,,random_forest_balanced,Current Smoker,0.0031344221973497134,0.012700487490679724,0.6
+repeat_summary,5.0,,random_forest_balanced,EX-Smoker,0.001287429700562406,0.00592446239735544,0.2
+repeat_summary,5.0,,random_forest_balanced,FH,0.013398692810457505,0.019299098015534692,0.8
+repeat_summary,5.0,,random_forest_balanced,Sex,-0.018473517666404118,0.051335412296473884,0.6
+repeat_summary,5.0,,random_forest_none,Age,0.2020568199090771,0.05410103670634135,1.0
+repeat_summary,5.0,,random_forest_none,Current Smoker,0.005023214359739696,0.014360099994787988,0.6
+repeat_summary,5.0,,random_forest_none,EX-Smoker,0.00011399908800728831,0.004652447896996976,0.4
+repeat_summary,5.0,,random_forest_none,FH,0.01449004407964737,0.01967869326372361,0.6
+repeat_summary,5.0,,random_forest_none,Sex,-0.01756656855836059,0.058747049075822864,0.4
+repeat_summary,5.0,,svm_balanced,Age,0.2080703754369965,0.028969970174778186,1.0
+repeat_summary,5.0,,svm_balanced,Current Smoker,0.009353383354751329,0.028245783544885498,0.8
+repeat_summary,5.0,,svm_balanced,EX-Smoker,-0.0002538379692962335,0.006540240268474756,0.2
+repeat_summary,5.0,,svm_balanced,FH,0.010206303804115028,0.018361740171934343,0.6
+repeat_summary,5.0,,svm_balanced,Sex,-0.009799568876176275,0.03137612693960709,0.6
+repeat_summary,5.0,,svm_none,Age,0.18922266440050298,0.04512843036924765,1.0
+repeat_summary,5.0,,svm_none,Current Smoker,0.02942496096394865,0.037380933337442884,0.8
+repeat_summary,5.0,,svm_none,EX-Smoker,0.00195622435020518,0.011959894192414063,0.2
+repeat_summary,5.0,,svm_none,FH,0.02656344567425281,0.037209806714092686,0.6
+repeat_summary,5.0,,svm_none,Sex,-0.011001188354129502,0.06802318014963629,0.8
+aggregate_summary,,,extra_trees_balanced,Age,0.1923015655874753,0.06863312993176064,1.0
+aggregate_summary,,,extra_trees_balanced,Current Smoker,0.032697190786110095,0.042654107666253514,0.8
+aggregate_summary,,,extra_trees_balanced,EX-Smoker,-0.002451104754798313,0.011976355361314986,0.48
+aggregate_summary,,,extra_trees_balanced,FH,0.0016586660033992683,0.022135821129900805,0.68
+aggregate_summary,,,extra_trees_balanced,Sex,0.020950006218132092,0.03422381472951153,0.72
+aggregate_summary,,,extra_trees_none,Age,0.1954055189376667,0.06768801200681791,1.0
+aggregate_summary,,,extra_trees_none,Current Smoker,0.027833105335157326,0.04073915140154745,0.68
+aggregate_summary,,,extra_trees_none,EX-Smoker,-0.0039034945902250897,0.014419071976284423,0.44
+aggregate_summary,,,extra_trees_none,FH,0.002115063079495359,0.022169974830633293,0.6
+aggregate_summary,,,extra_trees_none,Sex,0.014708687421409725,0.04351983355169114,0.76
+aggregate_summary,,,hist_gradient_boosting_none,Age,0.185544418190109,0.08574116225611204,1.0
+aggregate_summary,,,hist_gradient_boosting_none,Current Smoker,0.007718373889372501,0.023375873845119962,0.64
+aggregate_summary,,,hist_gradient_boosting_none,EX-Smoker,0.0,0.0,0.0
+aggregate_summary,,,hist_gradient_boosting_none,FH,0.013738921361356363,0.02228247443828479,0.8
+aggregate_summary,,,hist_gradient_boosting_none,Sex,0.007711409581450612,0.022023571197449746,0.72
+aggregate_summary,,,logistic_regression_balanced,Age,0.23326693750086364,0.07144815803273509,1.0
+aggregate_summary,,,logistic_regression_balanced,Current Smoker,0.013606143514488253,0.017226772317648242,0.8
+aggregate_summary,,,logistic_regression_balanced,EX-Smoker,-0.002234879575508837,0.007553615630157796,0.28
+aggregate_summary,,,logistic_regression_balanced,FH,0.015101383188934493,0.01632120319492626,0.76
+aggregate_summary,,,logistic_regression_balanced,Sex,0.0025861487653553363,0.022868274717879875,0.72
+aggregate_summary,,,logistic_regression_none,Age,0.23185428843841976,0.07181419543876967,1.0
+aggregate_summary,,,logistic_regression_none,Current Smoker,0.013520388564164203,0.01686518975848255,0.84
+aggregate_summary,,,logistic_regression_none,EX-Smoker,-0.0017754010695187263,0.007476039486980531,0.36
+aggregate_summary,,,logistic_regression_none,FH,0.013391507413395225,0.015372547844385931,0.76
+aggregate_summary,,,logistic_regression_none,Sex,0.001791941300833213,0.023798479879513938,0.76
+aggregate_summary,,,random_forest_balanced,Age,0.2044520582017162,0.0795899691464073,1.0
+aggregate_summary,,,random_forest_balanced,Current Smoker,0.00977726650914066,0.022399510331238912,0.64
+aggregate_summary,,,random_forest_balanced,EX-Smoker,-0.0007725269106938065,0.006985499297871286,0.36
+aggregate_summary,,,random_forest_balanced,FH,0.008574817946910977,0.019650151552957205,0.72
+aggregate_summary,,,random_forest_balanced,Sex,-0.002071480882698393,0.029507867089776797,0.6
+aggregate_summary,,,random_forest_none,Age,0.20742475369287955,0.08375037314945956,1.0
+aggregate_summary,,,random_forest_none,Current Smoker,0.010602758087026215,0.020930707636867323,0.68
+aggregate_summary,,,random_forest_none,EX-Smoker,-0.002275532341195824,0.006797181420857412,0.36
+aggregate_summary,,,random_forest_none,FH,0.005688167585568398,0.018890557020794806,0.64
+aggregate_summary,,,random_forest_none,Sex,-0.0013289668228108741,0.030537944195675442,0.56
+aggregate_summary,,,svm_balanced,Age,0.21645805524464895,0.07079135357897304,1.0
+aggregate_summary,,,svm_balanced,Current Smoker,0.017701239480993232,0.026004303254930097,0.8
+aggregate_summary,,,svm_balanced,EX-Smoker,0.004787022067459813,0.014295876870820878,0.52
+aggregate_summary,,,svm_balanced,FH,0.005015158424187137,0.025134227975549622,0.64
+aggregate_summary,,,svm_balanced,Sex,0.0015300059417706318,0.018435985591539264,0.64
+aggregate_summary,,,svm_none,Age,0.2160707347068496,0.07421917624317155,1.0
+aggregate_summary,,,svm_none,Current Smoker,0.03998486921195539,0.04116328995806002,0.8
+aggregate_summary,,,svm_none,EX-Smoker,0.0049240696983514866,0.011110083520236505,0.56
+aggregate_summary,,,svm_none,FH,0.025050173416794483,0.03672936547095725,0.76
+aggregate_summary,,,svm_none,Sex,0.006637303265210234,0.036752874321479785,0.76

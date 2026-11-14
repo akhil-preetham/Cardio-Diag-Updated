@@ -1,0 +1,15 @@
+NOVEM-CVD — LIME Clinical Plausibility Summary
+Generated: 2025-11-06 20:50:59
+
+Top features identified by LIME (ensemble) — top 10 (by |weight|):
+['f1', 'f0', 'f8', 'f7', 'f4', 'f5', 'f6', 'f3', 'f2']
+
+Short clinical notes:
+- Age: Established non-modifiable risk factor for cardiovascular disease; increases risk via cumulative vascular damage, arterial stiffness and comorbidity burden.
+- FastingBS / Glucose: Hyperglycemia and insulin resistance increase atherosclerosis and microvascular complications; elevated fasting glucose is associated with higher CVD risk.
+- MaxHR (Maximum heart rate): Lower exercise max heart rate or chronotropic incompetence is associated with poorer cardiac reserve and coronary disease.
+- Oldpeak (ST depression on exertion): A recognized marker of ischemia during exercise testing; higher values suggest greater ischemic burden.
+- ExerciseAngina: Clinical sign associated with obstructive coronary disease.
+
+Interpretation guidance:
+These LIME-derived features align with established cardiovascular literature (e.g., Framingham risk components, exercise stress test markers). The consistency of these features across perturbation and sample-count sensitivity tests increases confidence in their clinical plausibility as contributors to the model's risk predictions.

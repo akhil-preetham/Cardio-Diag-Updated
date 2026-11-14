@@ -1,0 +1,6 @@
+Repository: https://github.com/jaffarkulachi/Cardio-Diag-Approach-Code
+Branch: main
+Commit: e63b02c8a2aba6344a48025f657696fd99ac3a5f
+Retrieved: 2026-11-12 21:35:30
+Paper DOI: 10.7717/peerj-cs.4059
+Zenodo DOI: 10.5281/zenodo.19391007

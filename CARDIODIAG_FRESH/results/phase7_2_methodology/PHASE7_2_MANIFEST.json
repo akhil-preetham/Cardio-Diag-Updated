@@ -1,0 +1,82 @@
+{
+  "phase": "Phase 7.2 \u2014 Independent Statistical and Methodological Review",
+  "created_local": "2026-11-14",
+  "classification": "METHODOLOGICALLY DEFENSIBLE WITH LIMITATIONS",
+  "scope": "Read-only audit of prior methods/artifacts; no fitting, tuning, expensive benchmark or historical/Phase 7.1 modifications.",
+  "historical_namespaces_modified": false,
+  "phase7_1_modified": false,
+  "patient_identifiers_invented": false,
+  "inputs": {
+    "results/phase7_1_evidence/PHASE7_1_FINAL_DECISION.md": "2c25aa33205816473420493e909c6f1539446a5665b854ac7c4cd97f23ed48b4",
+    "results/phase7_1_evidence/MASTER_EVIDENCE_REGISTER.md": "20f028666901ba015a7e9240be34f761cc70b92f5eb45781985c9b5d80bf3d19",
+    "results/phase6_zas_selection/SELECTION_AWARE_PROTOCOL.md": "a4ec02478fdda0e418043df2b6ebff28b31427c1d33e5307b1b49acff944a399",
+    "results/phase6_zas_selection/PHASE6_FINAL_DECISION.md": "4f6bda9dd3de53bf82d499a3e66d935ec66cfb07d855527b34bb01ca34530307",
+    "results/phase6_zas_selection/PHASE6_MANIFEST.json": "e30b3684edee27253bbdc94cdb7dde26d3d2d2b2193034837eefb230b64d6943",
+    "results/phase6_zas_selection/REPEAT_LEVEL_PERFORMANCE.csv": "a99bb8ee87678544b24c368b188444e01be15b2f1783a5c3bfe34d714e81d881",
+    "results/phase6_zas_selection/PAIRED_REPEAT_DIFFERENCES.csv": "3ce4b8d577235814604022f3d52e0ada7cd00bb9595684f4dbaaa852b8ab92cf",
+    "results/phase6_zas_selection/PERFORMANCE_COMPARISON.csv": "04e889999fa1d0d1e9a5e62ccfd12140bf125d2e3f2937ee6e414a4cd9d0bfc0",
+    "results/phase6_zas_selection/ROBUSTNESS_REPORT.md": "f3037c3fc3ca341d9f80176338a57f6cbab209051d9ca9b075907bd8c6038574",
+    "runner/phase6_zas_selection/run.py": "b58292e4cbfecbe50c1234a5352b5ceed505dbe053d95e67f084166afedaba5f",
+    "results/phase6_1_audit/PHASE6_CALIBRATION_AUDIT.md": "fbfc8c1e36bdf0458f46c90055fb6ccf9879100768dad8b881ca2d9e2df22886",
+    "results/phase6_1_audit/PHASE6_IMPLEMENTATION_AUDIT.md": "27472c2843af13fc4fb2be3ccf2f3f34ac026b8630a10cc8361b0067e1ed5144",
+    "results/phase6_1_audit/PHASE6_METRIC_RECONCILIATION.md": "64db21f7fe81340806fa850722f4bc883b3196544d61ee6375cbb687b6c4cc90",
+    "results/phase6_1_audit/PHASE6_1_FINAL_DECISION.md": "392d79fcfefc7153eae52e834fe298f0793b35c6ba0556f96c9ef338deb47325",
+    "results/phase6_1_audit/RECONSTRUCTED_REPEAT_METRICS.csv": "411c354da63102f9546d43299cd3c46cb43ab23798e987c1dea71e690b1ccdd8",
+    "results/phase6_1_audit/RECONSTRUCTED_PAIRED_REPEAT_DIFFERENCES.csv": "2309ca55dfff7c716c8c156228172fdda7da5c5a56656e677610177f38821c59",
+    "results/phase6_1_audit/CALIBRATION_TRAINING_SIZE_AUDIT.csv": "ee069d79b2506149cda880fabb3f3bf235dbf99b150e160f787bf6875bb424a4",
+    "results/phase6_1_audit/OUTER_CALIBRATION_METRIC_CHECKS.csv": "dcb12b814e7a9e2024e0106b413ccbce538785746e4e81dcf911bd0348b28d08",
+    "results/phase5_1_audit/ZAS_FEATURE_TIMING_AUDIT.md": "292066e23be7c5aa0731a16909d249776d8f9ad324f91ea281e1d98e65afd43e",
+    "results/phase5_1_audit/ZAS_FEATURE_TIMING_TABLE.csv": "c3edc31c79bc41b324ff38eaac1b5d9d015b531adf30e1a98e129c55b4963ed2",
+    "results/phase5_1_audit/ZAS_LEAKAGE_AUDIT.md": "2104c70150003af605e86154a994e56f719a7f6a3eb5c047e1255cb567e9bfb5",
+    "results/phase5/zas_track/ZAS_MODEL_BENCHMARK.csv": "ca4dc6f2dcc6aadff45503b70861145a44a286adf392a4c98cb6b5ade6a08824",
+    "results/phase4_validation_audit/PHASE4_3_FINAL_REPORT.md": "556b968087af9e44d974328a92ed85bfdf8464c7341954dbbfd4e9155fb5eb8e",
+    "results/phase4_validation_audit/PHASE4_3_FINAL_DECISION.md": "29bd6a984fd03cae54e436e014328860574f066caeb6f9a3a04993fb63d0e47f",
+    "results/phase4_validation_audit/PHASE4_3_MANIFEST.json": "cf537600fad105b40f11029e1591eb1258ee3fa16c0ca84e39536c2f1efd35fb",
+    "results/phase4_validation_audit/PAIRED_STAGE_COMPARISONS.csv": "3d215ed00e84b18fa47330fdeb51c7148d706a0f954d3eb58a3ee7b94bb2caef",
+    "results/phase4_validation_audit/CENTRE_SPECTRUM_ANALYSIS.csv": "fee0fa71f82ad59f215c060678966ffb7b4fd1bd3beb22aa2120ada8d580ddff",
+    "results/phase4_validation_audit/CENTRE_CALIBRATION_REPORT.md": "7a5ea4a93d388016af289a75ab5b80d8c60cff5a9261bdc1d8fe005478536139",
+    "results/phase4_validation_audit/TRANSPORTABILITY_REPORT.md": "ce2518891119cdff5b2b7cbf47e1eb3ce5037c7123bc96b566c5bec3d704838a",
+    "runner/phase4_validation_audit/run.py": "fbb0f45756f9b6ec50bb0c7828e5ae4f6b14045ed39c234dd911d3225d19bff7",
+    "results/phase5/data_registry/DATASET_COMPATIBILITY_MATRIX.csv": "370ed352437bb2c3e6b3cc2b61658bcb4d9c4e956019479880feba7572e964f2",
+    "results/phase5/uci_track/UCI_TRACK_FINAL_DECISION.md": "bc3529a8c54f889e263fd8c7ecc655595a8aa3b6a0e67b49afe779feb2075665",
+    "results/phase3/PHASE3_FINAL_DECISION.md": "b87de8f143a434bfa9f6b036a97aae57ec347cc713f85b315db9a3815b75e846",
+    "results/primary_research_v3/EXECUTIVE_RESULTS_REPORT.md": "7276728d3093b03257f6418b2cb06cd6023dfa569b8f4eb642ee836388205058"
+  },
+  "input_directories": {
+    "results/primary_research_v3_independent_audit": "directory exists; contents reviewed as prior audit source"
+  },
+  "outputs": {
+    "results/phase7_2_methodology/CALIBRATION_AND_THRESHOLD_REVIEW.md": "a4c1445b2655cc72d2c3084186488cbd7a593b13e37ed2b2b9b672e3cface9c4",
+    "results/phase7_2_methodology/FEATURE_TIMING_AND_CLINICAL_CLAIMS_REVIEW.md": "acc0e36b26fdc0d29f165d3678bb5f26b046b7952bd47b217cd37dd862facc78",
+    "results/phase7_2_methodology/MANUSCRIPT_METHODS_RECOMMENDATIONS.md": "aeb3425d6100ba028aa4fab4f98390bd64a376aef4f38db4003fd693b02ba683",
+    "results/phase7_2_methodology/PHASE6_STATISTICAL_VALIDITY_REVIEW.md": "120198465829e9072bdc5c41eb8a21024bddc45e8d5073b327b0b66d76d696f2",
+    "results/phase7_2_methodology/PHASE7_2_FINAL_DECISION.md": "61f05ba431172b2f302fb3ca12a3a1b4d8645965cfaf5bb2ba6e1ef53d71d9c0",
+    "results/phase7_2_methodology/UNCERTAINTY_AND_INFERENCE_AUDIT.md": "267fd6d949241e9998ec3225db364bba70eb2f6a2accc494690ee6daa25417ab",
+    "results/phase7_2_methodology/ZAS_UCI_COMPARABILITY_REVIEW.md": "4ee70d20fa56b8a9c1f0bea53b2aead5f485a2a0fe2da1a7981926ed9bfb0403"
+  },
+  "validation": {
+    "all_listed_inputs_exist": true,
+    "all_local_file_references_resolve": true,
+    "review_markdown_files": 7,
+    "model_fits": 0,
+    "hyperparameter_searches": 0,
+    "benchmark_reruns": 0,
+    "historical_writes": 0,
+    "phase7_1_writes": 0,
+    "local_file_references_checked": 26
+  },
+  "environment_observed_in_prior_phase6_1_audit": {
+    "python": "3.11.16",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.9.1",
+    "pytest": "9.2.0",
+    "ruff": "0.17.4"
+  },
+  "notes": [
+    "No repository Git metadata was available in the prior project audit, so Git working-tree status cannot be asserted.",
+    "Phase 5.1.1 namespace was not found; timing/leakage evidence was under results/phase5_1_audit.",
+    "All claims are scoped to the cited saved artifacts and protocols."
+  ]
+}

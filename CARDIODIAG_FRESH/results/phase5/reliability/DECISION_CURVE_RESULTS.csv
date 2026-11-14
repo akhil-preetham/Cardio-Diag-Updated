@@ -1,0 +1,161 @@
+stage,held_out_centre,threshold,net_benefit_model,net_benefit_all,decision_curve_role
+stage1_basic_risk,Cleveland,0.05,0.4302588153552197,0.4302588153552197,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Cleveland,0.1,0.3986065273193986,0.3986065273193986,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Cleveland,0.15000000000000002,0.36439526305571734,0.3632304406911279,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Cleveland,0.2,0.32755775577557755,0.32343234323432346,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Cleveland,0.25,0.29042904290429045,0.27832783278327833,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Cleveland,0.3,0.2545968882602546,0.22677982083922676,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Cleveland,0.35000000000000003,0.2157908098502157,0.16730134551916725,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Cleveland,0.4,0.1749174917491748,0.09790979097909785,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Cleveland,0.45,0.10891089108910895,0.015901590159015933,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Cleveland,0.5,0.06930693069306931,-0.08250825082508251,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Hungary,0.05,0.32688865019692087,0.32688865019692087,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Hungary,0.1,0.29024943310657597,0.2894935752078609,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Hungary,0.15000000000000002,0.2523009203681472,0.24769907963185273,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Hungary,0.2,0.22108843537414963,0.20068027210884354,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Hungary,0.25,0.18594104308390025,0.1473922902494331,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Hungary,0.3,0.14771622934888243,0.08649173955296402,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Hungary,0.35000000000000003,0.10439560439560433,0.01622187336473041,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Hungary,0.4,0.09523809523809523,-0.06575963718820871,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Hungary,0.45,0.05163883735312305,-0.16264687693259122,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Hungary,0.5,-0.006802721088435382,-0.27891156462585037,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Switzerland,0.05,0.9315361574668378,0.9315361574668378,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Switzerland,0.1,0.9114724480578139,0.9277326106594399,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Switzerland,0.15000000000000002,0.907221425155428,0.923481587757054,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Switzerland,0.2,0.8861788617886179,0.9186991869918699,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Switzerland,0.25,0.8726287262872628,0.9132791327913279,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Switzerland,0.3,0.8420441347270615,0.9070847851335656,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Switzerland,0.35000000000000003,0.7986241400875547,0.8999374609130706,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Switzerland,0.4,0.7425474254742548,0.8915989159891599,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Switzerland,0.45,0.7080561714708056,0.8817442719881744,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,Switzerland,0.5,0.6422764227642276,0.8699186991869918,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,VA Long Beach,0.05,0.731578947368421,0.731578947368421,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,VA Long Beach,0.1,0.7166666666666667,0.7166666666666667,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,VA Long Beach,0.15000000000000002,0.7,0.7,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,VA Long Beach,0.2,0.68125,0.68125,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,VA Long Beach,0.25,0.6616666666666666,0.66,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,VA Long Beach,0.3,0.6278571428571429,0.6357142857142857,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,VA Long Beach,0.35000000000000003,0.6057692307692307,0.6076923076923076,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,VA Long Beach,0.4,0.5716666666666667,0.575,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,VA Long Beach,0.45,0.5481818181818181,0.5363636363636364,descriptive; threshold utility not clinically prespecified
+stage1_basic_risk,VA Long Beach,0.5,0.5149999999999999,0.49,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Cleveland,0.05,0.4302588153552197,0.4302588153552197,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Cleveland,0.1,0.4004400440044004,0.3986065273193986,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Cleveland,0.15000000000000002,0.3696369636963696,0.3632304406911279,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Cleveland,0.2,0.3366336633663366,0.32343234323432346,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Cleveland,0.25,0.30803080308030806,0.27832783278327833,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Cleveland,0.3,0.2805280528052805,0.22677982083922676,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Cleveland,0.35000000000000003,0.25767961411525764,0.16730134551916725,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Cleveland,0.4,0.23872387238723872,0.09790979097909785,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Cleveland,0.45,0.20042004200420044,0.015901590159015933,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Cleveland,0.5,0.18481848184818483,-0.08250825082508251,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Hungary,0.05,0.32939491586108127,0.32688865019692087,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Hungary,0.1,0.30309901738473166,0.2894935752078609,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Hungary,0.15000000000000002,0.2651060424169668,0.24769907963185273,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Hungary,0.2,0.24234693877551017,0.20068027210884354,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Hungary,0.25,0.21428571428571425,0.1473922902494331,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Hungary,0.3,0.206511175898931,0.08649173955296402,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Hungary,0.35000000000000003,0.20120355834641548,0.01622187336473041,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Hungary,0.4,0.17913832199546487,-0.06575963718820871,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Hungary,0.45,0.15831787260358687,-0.16264687693259122,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Hungary,0.5,0.14625850340136057,-0.27891156462585037,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Switzerland,0.05,0.9315361574668378,0.9315361574668378,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Switzerland,0.1,0.9277326106594399,0.9277326106594399,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Switzerland,0.15000000000000002,0.923481587757054,0.923481587757054,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Switzerland,0.2,0.9044715447154471,0.9186991869918699,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Switzerland,0.25,0.872628726287263,0.9132791327913279,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Switzerland,0.3,0.8722415795586528,0.9070847851335656,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Switzerland,0.35000000000000003,0.8442776735459663,0.8999374609130706,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Switzerland,0.4,0.8238482384823849,0.8915989159891599,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Switzerland,0.45,0.7849223946784923,0.8817442719881744,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,Switzerland,0.5,0.7560975609756098,0.8699186991869918,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,VA Long Beach,0.05,0.731578947368421,0.731578947368421,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,VA Long Beach,0.1,0.7166666666666667,0.7166666666666667,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,VA Long Beach,0.15000000000000002,0.7008823529411765,0.7,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,VA Long Beach,0.2,0.68375,0.68125,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,VA Long Beach,0.25,0.6683333333333333,0.66,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,VA Long Beach,0.3,0.6592857142857143,0.6357142857142857,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,VA Long Beach,0.35000000000000003,0.6073076923076922,0.6076923076923076,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,VA Long Beach,0.4,0.5733333333333333,0.575,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,VA Long Beach,0.45,0.4959090909090909,0.5363636363636364,descriptive; threshold utility not clinically prespecified
+stage2_symptoms,VA Long Beach,0.5,0.43499999999999994,0.49,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Cleveland,0.05,0.42921660587111343,0.4302588153552197,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Cleveland,0.1,0.3986065273193986,0.3986065273193986,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Cleveland,0.15000000000000002,0.3675014560279557,0.3632304406911279,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Cleveland,0.2,0.34570957095709576,0.32343234323432346,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Cleveland,0.25,0.33003300330033003,0.27832783278327833,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Cleveland,0.3,0.3069306930693069,0.22677982083922676,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Cleveland,0.35000000000000003,0.28306676821528304,0.16730134551916725,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Cleveland,0.4,0.25632563256325624,0.09790979097909785,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Cleveland,0.45,0.2418241824182418,0.015901590159015933,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Cleveland,0.5,0.21122112211221125,-0.08250825082508251,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Hungary,0.05,0.3292158968850698,0.32688865019692087,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Hungary,0.1,0.2932728647014361,0.2894935752078609,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Hungary,0.15000000000000002,0.26690676270508207,0.24769907963185273,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Hungary,0.2,0.24744897959183673,0.20068027210884354,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Hungary,0.25,0.2256235827664399,0.1473922902494331,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Hungary,0.3,0.22206025267249754,0.08649173955296402,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Hungary,0.35000000000000003,0.19911041339612767,0.01622187336473041,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Hungary,0.4,0.18140589569160998,-0.06575963718820871,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Hungary,0.45,0.158008658008658,-0.16264687693259122,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Hungary,0.5,0.14965986394557823,-0.27891156462585037,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Switzerland,0.05,0.9315361574668378,0.9315361574668378,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Switzerland,0.1,0.9277326106594399,0.9277326106594399,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Switzerland,0.15000000000000002,0.923481587757054,0.923481587757054,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Switzerland,0.2,0.9024390243902439,0.9186991869918699,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Switzerland,0.25,0.8834688346883469,0.9132791327913279,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Switzerland,0.3,0.8571428571428571,0.9070847851335656,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Switzerland,0.35000000000000003,0.8398999374609131,0.8999374609130706,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Switzerland,0.4,0.8373983739837398,0.8915989159891599,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Switzerland,0.45,0.8093126385809313,0.8817442719881744,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,Switzerland,0.5,0.7642276422764227,0.8699186991869918,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,VA Long Beach,0.05,0.731578947368421,0.731578947368421,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,VA Long Beach,0.1,0.7166666666666667,0.7166666666666667,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,VA Long Beach,0.15000000000000002,0.7008823529411765,0.7,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,VA Long Beach,0.2,0.68375,0.68125,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,VA Long Beach,0.25,0.66,0.66,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,VA Long Beach,0.3,0.6285714285714286,0.6357142857142857,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,VA Long Beach,0.35000000000000003,0.6015384615384615,0.6076923076923076,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,VA Long Beach,0.4,0.585,0.575,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,VA Long Beach,0.45,0.5486363636363636,0.5363636363636364,descriptive; threshold utility not clinically prespecified
+stage3_resting_measurements,VA Long Beach,0.5,0.47500000000000003,0.49,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Cleveland,0.05,0.4302588153552197,0.4302588153552197,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Cleveland,0.1,0.40117345067840116,0.3986065273193986,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Cleveland,0.15000000000000002,0.3682780042710153,0.3632304406911279,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Cleveland,0.2,0.3424092409240924,0.32343234323432346,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Cleveland,0.25,0.3256325632563256,0.27832783278327833,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Cleveland,0.3,0.3088165959453088,0.22677982083922676,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Cleveland,0.35000000000000003,0.2853516120842853,0.16730134551916725,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Cleveland,0.4,0.2618261826182618,0.09790979097909785,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Cleveland,0.45,0.24392439243924394,0.015901590159015933,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Cleveland,0.5,0.21452145214521454,-0.08250825082508251,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Hungary,0.05,0.3288578589330469,0.32688865019692087,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Hungary,0.1,0.30158730158730157,0.2894935752078609,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Hungary,0.15000000000000002,0.2733093237294918,0.24769907963185273,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Hungary,0.2,0.2636054421768707,0.20068027210884354,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Hungary,0.25,0.24489795918367346,0.1473922902494331,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Hungary,0.3,0.22254616132167152,0.08649173955296402,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Hungary,0.35000000000000003,0.2093144950287807,0.01622187336473041,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Hungary,0.4,0.2086167800453515,-0.06575963718820871,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Hungary,0.45,0.19387755102040816,-0.16264687693259122,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Hungary,0.5,0.1802721088435374,-0.27891156462585037,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Switzerland,0.05,0.9238339751818572,0.9315361574668378,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Switzerland,0.1,0.9042457091237579,0.9277326106594399,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Switzerland,0.15000000000000002,0.8790052606408417,0.923481587757054,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Switzerland,0.2,0.8516260162601627,0.9186991869918699,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Switzerland,0.25,0.8319783197831979,0.9132791327913279,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Switzerland,0.3,0.8025551684088269,0.9070847851335656,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Switzerland,0.35000000000000003,0.7673545966228893,0.8999374609130706,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Switzerland,0.4,0.7317073170731707,0.8915989159891599,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Switzerland,0.45,0.6954915003695492,0.8817442719881744,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,Switzerland,0.5,0.6504065040650406,0.8699186991869918,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,VA Long Beach,0.05,0.731578947368421,0.731578947368421,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,VA Long Beach,0.1,0.7166666666666667,0.7166666666666667,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,VA Long Beach,0.15000000000000002,0.695,0.7,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,VA Long Beach,0.2,0.67375,0.68125,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,VA Long Beach,0.25,0.655,0.66,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,VA Long Beach,0.3,0.6292857142857142,0.6357142857142857,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,VA Long Beach,0.35000000000000003,0.596153846153846,0.6076923076923076,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,VA Long Beach,0.4,0.5633333333333332,0.575,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,VA Long Beach,0.45,0.5313636363636363,0.5363636363636364,descriptive; threshold utility not clinically prespecified
+stage4_exercise_test,VA Long Beach,0.5,0.49500000000000005,0.49,descriptive; threshold utility not clinically prespecified

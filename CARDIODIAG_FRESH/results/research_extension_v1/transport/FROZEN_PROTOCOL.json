@@ -1,0 +1,83 @@
+{
+  "frozen_utc": "2026-11-14T07:46:09.427930+00:00",
+  "config": {
+    "version": "transport_v1",
+    "source": "ZAS validated local CSV; Cath Cad=1/Normal=0",
+    "target": "AngioCAD feature-label ID intersection; no image data",
+    "features": [
+      "Age",
+      "Sex",
+      "DM",
+      "HTN",
+      "Current Smoker"
+    ],
+    "not_historical_v3": true,
+    "mapping": {
+      "Age": "numeric years; adult18..110 plausibility; no clipping; source median fitted only in training",
+      "Sex": "source Male=1,Fmale=0,Female=0; target Male=1,Female=0",
+      "DM": "direct same-name numeric0/1; convention retained without outcome-guided inversion",
+      "HTN": "direct same-name numeric0/1; convention retained without outcome-guided inversion",
+      "Current Smoker": "direct0/1; missing remains missing until source-training mode imputer"
+    },
+    "semantic_limit": "Binary direction follows conventional provider same-name0/1 fields; accessible AngioCAD metadata lacks explicit 0=no/1=yes codebook. Clinical ascertainment/timing equivalence unverified; exploratory compatibility-constrained transport only.",
+    "source_documentation": [
+      "https://archive.ics.uci.edu/dataset/412/z+alizadeh+sani",
+      "https://zenodo.org/records/15826856",
+      "https://doi.org/10.1016/j.cmpb.2026.109368"
+    ],
+    "outer": "first3repeats x5folds original frozen ZAS assignments; reused/exploratory",
+    "search": {
+      "family": "unbalanced L2 logistic",
+      "C": [
+        0.1,
+        1,
+        10
+      ],
+      "inner_folds": 3,
+      "selection_metric": "roc_auc",
+      "n_jobs": 1
+    },
+    "arms": {
+      "raw_full_source_fit": "full-source training GridSearchCV-refit raw uncalibrated probability",
+      "source_calibrated_ensemble": "three source-trained search+sigmoid pairs; each search only calibration-training subset; average calibrated probabilities"
+    },
+    "source_calibration": "ensemble=True; each full search nested within calibration-training folds; no target calibration",
+    "arm_comparison_limit": "arms differ in training size, averaging and calibration; not a calibration-only causal comparison",
+    "endpoints": [
+      "base_gt50",
+      "exclude_ambiguous26_50",
+      "upper_assignment26_50_positive"
+    ],
+    "endpoint_limits": "not identical ZAS>=50; upper assignment is sensitivity bound not true >=50; nonobstructive not healthy",
+    "threshold": 0.5,
+    "target_tuning": false,
+    "target_calibration": false,
+    "bootstrap_draws": 2000,
+    "bootstrap_seed": 835041,
+    "uncertainty": "percentile record-bootstrap conditional on fixed source models and target case cohort; no model-refit/centre/patient-independence inference",
+    "seed": 826041,
+    "excluded": "all lab fields, Diagnosis, artery/angiographic fields, Gensini Score, LVEF/echo and medications",
+    "source_mcar_stress": {
+      "rates": [
+        0.0,
+        0.1,
+        0.25,
+        0.5
+      ],
+      "arm": "raw_full_source_fit",
+      "mask_unit": "independent per-test-cell MCAR",
+      "seed": "826041+10000+100*repeat+fold; same Uniform(0,1) draw per cell nested across mask rates",
+      "fit": "none; source-training imputers already fitted",
+      "interpretation": "simulated random missingness only; not MNAR or real-site generalization proof"
+    },
+    "data_selection": "ID match only; no missing-feature complete-case exclusion; target missing values use source fitted imputers"
+  },
+  "input_hashes": {
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\data\\interim\\validated\\z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\methodology_corrections_v2\\reproducibility\\split_manifest_v2.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\research_publication_plan\\data_screening\\angiocad\\AngioCAD_Features.xlsx": "978f2415ab52f11724e1ef00bb63597b8497487afd84b97f7112fc7975a33295",
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\research_publication_plan\\data_screening\\angiocad\\AngioCAD_Labels.xlsx": "5bba3f4ba8bed0df0d2f412d5e2ca6deacca0eff20d531a599fe1b8f4d897425",
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\research_publication_plan\\data_screening\\angiocad\\zenodo_record_15826856.json": "d04bc15229833f93e361fd22dc5add5c32131a1331d576c6bf24fb3514c7b53b",
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\runner\\research_extension_v1\\transport.py": "ea258e09f508799158253ab46a2bef399dd003b36a97e68c679fdefb37e014b3"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "created_utc": "2026-11-12T17:55:13+00:00",
+  "datasets": [
+    {
+      "dataset": "five_states",
+      "path": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\heart5.csv",
+      "sha256": "e4068802a044e8a1e3ae9fa81deae7025711bf4f13e3057f96e4f1cf3b0180c2",
+      "status": "validated",
+      "rows": 918,
+      "columns": 12,
+      "column_names": [
+        "Age",
+        "Sex",
+        "ChestPainType",
+        "RestingBP",
+        "Cholesterol",
+        "FastingBS",
+        "RestingECG",
+        "MaxHR",
+        "ExerciseAngina",
+        "Oldpeak",
+        "ST_Slope",
+        "HeartDisease"
+      ],
+      "dtypes": {
+        "Age": "int64",
+        "Sex": "str",
+        "ChestPainType": "str",
+        "RestingBP": "int64",
+        "Cholesterol": "int64",
+        "FastingBS": "int64",
+        "RestingECG": "str",
+        "MaxHR": "int64",
+        "ExerciseAngina": "str",
+        "Oldpeak": "float64",
+        "ST_Slope": "str",
+        "HeartDisease": "int64"
+      },
+      "target": "HeartDisease",
+      "target_exists": true,
+      "target_values": {
+        "1": 508,
+        "0": 410
+      },
+      "missing_values": {
+        "Age": 0,
+        "Sex": 0,
+        "ChestPainType": 0,
+        "RestingBP": 0,
+        "Cholesterol": 0,
+        "FastingBS": 0,
+        "RestingECG": 0,
+        "MaxHR": 0,
+        "ExerciseAngina": 0,
+        "Oldpeak": 0,
+        "ST_Slope": 0,
+        "HeartDisease": 0
+      },
+      "duplicate_rows": 0,
+      "identifier_columns": [],
+      "numeric_ranges": {
+        "Age": {
+          "min": 28.0,
+          "max": 77.0,
+          "unique": 50
+        },
+        "RestingBP": {
+          "min": 0.0,
+          "max": 200.0,
+          "unique": 67
+        },
+        "Cholesterol": {
+          "min": 0.0,
+          "max": 603.0,
+          "unique": 222
+        },
+        "FastingBS": {
+          "min": 0.0,
+          "max": 1.0,
+          "unique": 2
+        },
+        "MaxHR": {
+          "min": 60.0,
+          "max": 202.0,
+          "unique": 119
+        },
+        "Oldpeak": {
+          "min": -2.6,
+          "max": 6.2,
+          "unique": 53
+        },
+        "HeartDisease": {
+          "min": 0.0,
+          "max": 1.0,
+          "unique": 2
+        }
+      },
+      "invalid_target_values": []
+    },
+    {
+      "dataset": "mendeley",
+      "path": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\MendeleyCardiovascular_Disease_Dataset.csv",
+      "sha256": "9376367dde41e79e432d6402ea5d9e44223fc318ff54ed09966d721923947d1e",
+      "status": "validated",
+      "rows": 1000,
+      "columns": 14,
+      "column_names": [
+        "patientid",
+        "age",
+        "gender",
+        "chestpain",
+        "restingBP",
+        "serumcholestrol",
+        "fastingbloodsugar",
+        "restingrelectro",
+        "maxheartrate",
+        "exerciseangia",
+        "oldpeak",
+        "slope",
+        "noofmajorvessels",
+        "target"
+      ],
+      "dtypes": {
+        "patientid": "int64",
+        "age": "int64",
+        "gender": "int64",
+        "chestpain": "int64",
+        "restingBP": "int64",
+        "serumcholestrol": "int64",
+        "fastingbloodsugar": "int64",
+        "restingrelectro": "int64",
+        "maxheartrate": "int64",
+        "exerciseangia": "int64",
+        "oldpeak": "float64",
+        "slope": "int64",
+        "noofmajorvessels": "int64",
+        "target": "int64"
+      },
+      "target": "target",
+      "target_exists": true,
+      "target_values": {
+        "1": 580,
+        "0": 420
+      },
+      "missing_values": {
+        "patientid": 0,
+        "age": 0,
+        "gender": 0,
+        "chestpain": 0,
+        "restingBP": 0,
+        "serumcholestrol": 0,
+        "fastingbloodsugar": 0,
+        "restingrelectro": 0,
+        "maxheartrate": 0,
+        "exerciseangia": 0,
+        "oldpeak": 0,
+        "slope": 0,
+        "noofmajorvessels": 0,
+        "target": 0
+      },
+      "duplicate_rows": 0,
+      "identifier_columns": [
+        "patientid"
+      ],
+      "numeric_ranges": {
+        "patientid": {
+          "min": 103368.0,
+          "max": 9990855.0,
+          "unique": 1000
+        },
+        "age": {
+          "min": 20.0,
+          "max": 80.0,
+          "unique": 61
+        },
+        "gender": {
+          "min": 0.0,
+          "max": 1.0,
+          "unique": 2
+        },
+        "chestpain": {
+          "min": 0.0,
+          "max": 3.0,
+          "unique": 4
+        },
+        "restingBP": {
+          "min": 94.0,
+          "max": 200.0,
+          "unique": 95
+        },
+        "serumcholestrol": {
+          "min": 0.0,
+          "max": 602.0,
+          "unique": 344
+        },
+        "fastingbloodsugar": {
+          "min": 0.0,
+          "max": 1.0,
+          "unique": 2
+        },
+        "restingrelectro": {
+          "min": 0.0,
+          "max": 2.0,
+          "unique": 3
+        },
+        "maxheartrate": {
+          "min": 71.0,
+          "max": 202.0,
+          "unique": 129
+        },
+        "exerciseangia": {
+          "min": 0.0,
+          "max": 1.0,
+          "unique": 2
+        },
+        "oldpeak": {
+          "min": 0.0,
+          "max": 6.2,
+          "unique": 63
+        },
+        "slope": {
+          "min": 0.0,
+          "max": 3.0,
+          "unique": 4
+        },
+        "noofmajorvessels": {
+          "min": 0.0,
+          "max": 3.0,
+          "unique": 4
+        },
+        "target": {
+          "min": 0.0,
+          "max": 1.0,
+          "unique": 2
+        }
+      },
+      "invalid_target_values": []
+    }
+  ]
+}

@@ -1,0 +1,659 @@
+==========================================================================================
+AUTHOR REPRODUCTION NOTEBOOK - STATIC AUDIT
+==========================================================================================
+Notebook: C:\CARDIO_DIAG\Cardio-Diag-Approach-Code-main\CARDIODIAG_FRESH\reference\extracted_author_archives\base_reproduction\Daza_Base_Paper_Reproduced\Daza_Paper_Exact_Accuracy.ipynb
+Notebook format: 4.0
+Total cells: 20
+Kernel: {'display_name': 'Python 3', 'name': 'python3'}
+Language: {'name': 'python'}
+
+==========================================================================================
+CELL 1 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+import numpy as np  # Import numpy to use np.logspace
+from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import StackingClassifier, RandomForestClassifier, GradientBoostingClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.ensemble import AdaBoostClassifier
+from xgboost import XGBClassifier
+from xgboost import XGBRegressor
+from sklearn.naive_bayes import GaussianNB
+from sklearn.linear_model import LogisticRegression
+from sklearn.preprocessing import StandardScaler
+from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_auc_score, roc_curve
+from sklearn.calibration import CalibratedClassifierCV
+from imblearn.over_sampling import SMOTE
+from sklearn.preprocessing import LabelEncoder
+import matplotlib.pyplot as plt
+import pandas as pd
+
+==========================================================================================
+CELL 2 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+from google.colab import drive
+drive.mount('/content/drive')
+
+SAVED OUTPUTS: 1
+  Output 1: stream
+  Mounted at /content/drive
+  
+
+==========================================================================================
+CELL 3 | TYPE: MARKDOWN
+Execution count: None
+------------------------------------------------------------------------------------------
+# **Base paper dataset and model**
+
+==========================================================================================
+CELL 4 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+df = pd.read_csv('/content/drive/MyDrive/heart5.csv')
+
+#first 5 values of data
+df.head()
+
+
+SAVED OUTPUTS: 1
+  Output 1: execute_result
+  MIME types: ['text/plain', 'text/html', 'application/vnd.google.colaboratory.intrinsic+json']
+
+==========================================================================================
+CELL 5 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+# Preprocessing
+df = df.dropna()  # Drop rows with missing values
+
+# Convert categorical columns into binary (0 and 1)
+# Assuming the dataset has columns 'Sex', 'ChestPainType', 'RestingECG', 'ExerciseAngina'
+
+# Convert 'Sex' to 0 and 1 (e.g., Male = 1, Female = 0)
+df['Sex'] = df['Sex'].map({'M': 1, 'F': 0})
+
+# Encode 'ChestPainType' (use LabelEncoder for multi-class categorical variables)
+chest_pain_encoder = LabelEncoder()
+df['ChestPainType'] = chest_pain_encoder.fit_transform(df['ChestPainType'])
+
+# Encode 'RestingECG'
+resting_ecg_encoder = LabelEncoder()
+df['RestingECG'] = resting_ecg_encoder.fit_transform(df['RestingECG'])
+
+# Convert 'ExerciseAngina' to binary (e.g., Y = 1, N = 0)
+df['ExerciseAngina'] = df['ExerciseAngina'].map({'Y': 1, 'N': 0})
+df['ST_Slope'] = df['ST_Slope'].map({'Up': 1, 'Flat': 0, 'Down': 0})
+
+==========================================================================================
+CELL 6 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+df['RestingECG']
+
+SAVED OUTPUTS: 1
+  Output 1: execute_result
+  MIME types: ['text/plain', 'text/html']
+
+==========================================================================================
+CELL 7 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+X = df.drop('HeartDisease', axis=1)  # Assuming 'target' is the label column
+y = df['HeartDisease']
+
+==========================================================================================
+CELL 8 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+print(df)
+
+SAVED OUTPUTS: 1
+  Output 1: stream
+       Age  Sex  ChestPainType  RestingBP  Cholesterol  FastingBS  RestingECG  \
+  0     40    1              1        140          289          0           1   
+  1     49    0              2        160          180          0           1   
+  2     37    1              1        130          283          0           2   
+  3     48    0              0        138          214          0           1   
+  4     54    1              2        150          195          0           1   
+  ..   ...  ...            ...        ...          ...        ...         ...   
+  913   45    1              3        110          264          0           1   
+  914   68    1              0        144          193          1           1   
+  915   57    1              0        130          131          0           1   
+  916   57    0              1        130          236          0           0   
+  917   38    1              2        138          175          0           1   
+  
+       MaxHR  ExerciseAngina  Oldpeak  ST_Slope  HeartDisease  
+  0      172               0      0.0         1             0  
+  1      156               0      1.0         0             1  
+  2       98               0      0.0         1             0  
+  3      108               1      1.5         0             1  
+  4      122               0      0.0         1             0  
+  ..     ...             ...      ...       ...           ...  
+  913    132               0      1.2         0             1  
+  914    141               0      3.4         0          
+
+==========================================================================================
+CELL 9 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+# Apply oversampling using SMOTE to balance the dataset
+smote = SMOTE()
+X_resampled, y_resampled = smote.fit_resample(X, y)
+
+==========================================================================================
+CELL 10 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+# Count class instances before balancing
+print("Class distribution before balancing:")
+print(y.value_counts())
+
+# After SMOTE, count class instances
+print("Class distribution after balancing:")
+print(pd.Series(y_resampled).value_counts())
+
+SAVED OUTPUTS: 1
+  Output 1: stream
+  Class distribution before balancing:
+  HeartDisease
+  1    508
+  0    410
+  Name: count, dtype: int64
+  Class distribution after balancing:
+  HeartDisease
+  0    508
+  1    508
+  Name: count, dtype: int64
+  
+
+==========================================================================================
+CELL 11 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+X_train, X_test, y_train, y_test = train_test_split(X_resampled, y_resampled, test_size=0.2, random_state=42)
+
+
+==========================================================================================
+CELL 12 | TYPE: MARKDOWN
+Execution count: None
+------------------------------------------------------------------------------------------
+**Algorithms hyper parameter-tuning**
+
+==========================================================================================
+CELL 13 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+#  A Decision Tree
+param_grid_tree = {
+    'max_depth': [2, 4, 5, None],
+    'max_features': ['auto', 'sqrt', 'log2', None],
+    'min_samples_leaf': [1, 5, 10],
+    'criterion': ['gini', 'entropy'],
+    'splitter': ['best', 'random']
+}
+
+# B Gradient Descent
+param_grid_gradien = {
+    'learning_rate': [0.1, 0.05, 0.02, 0.01],
+    'max_depth': [4, 6, 8],
+    'min_samples_leaf': [20, 50, 100, 150]
+}
+
+#  C KNN
+param_grid_knn = {
+    'n_neighbors': [5, 7, 9, 11, 13, 15],
+    'weights': ['uniform', 'distance'],
+    'metric':  ['minkowskii', 'euclidean', 'manhattan'],
+}
+
+# D Random Forest
+param_grid_rf = {
+    'n_estimators': [25, 50, 100],
+    'max_depth': [5, None],
+    'max_features': ['sqrt', 'log2'],
+    'max_leaf_nodes': [5, 10, None],
+    'criterion': ['gini', 'entropy']
+}
+
+# E Logistic Regression
+param_grid_logistic = {
+    'penalty': ['l1', 'l2', 'none'],
+    'C': np.logspace(-4, 4, 20),
+    'solver': ['liblinear', 'lbfgs']
+}
+
+# F SVM
+param_grid_svm = {
+    'C': [0.1, 1, 10, 100, 1000],
+    'gamma': ['scale', 'auto'],
+    'kernel': ['rbf', 'linear', 'poly', 'rbf', 'sigmoid']
+}
+
+# G Bayesian Networks
+param_grid_bayes = {
+    'var_smoothing': np.logspace(0, -9, num=100)
+}
+
+# H AdaBoost
+param_grid_ab = {
+    'n_estimators': [10, 50, 100, 200],
+    'learning_rate': [0.1, 1.0, 1.1, 1.2]
+}
+
+# I AdaBoost-SVM
+param_grid_absvm = {
+    'n_estimators': [10, 50, 100, 200],
+    'learning_rate': [0.1, 1.0, 1.1, 1.2]
+}
+
+# J XGBoost Classifier
+param_grid_xgb = {
+    'gamma': [0.5, 1, 1.5, 2, 5],
+    'subsample': [0.6, 0.8, 1.0],
+    'colsample_bytree' : [0.6, 0.8, 1.0]
+}
+
+# K XGBoost Regressor
+param_grid_xgb_reg = {
+    'nthread': [4],
+    'objective': ['reg:linear'],
+    'max_depth' : [5, 6, 7],
+    'min_child_weight' : [4],
+    'silent': [1],
+    'subsample' : [0.7],
+    'colsample_bytree' : [0.7]
+}
+
+==========================================================================================
+CELL 14 | TYPE: MARKDOWN
+Execution count: None
+------------------------------------------------------------------------------------------
+# **Algorithms optimization commands**
+*   Perform grid search on the individual models
+
+==========================================================================================
+CELL 15 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+# Perform grid search on the individual models
+
+# A Decision Tree Grid Search (Base 1 Classifier)
+tree = DecisionTreeClassifier()
+grid_search_tree = GridSearchCV(tree, param_grid_tree, cv=5, scoring='accuracy')
+grid_search_tree.fit(X_train, y_train)
+best_tree = grid_search_tree.best_estimator_
+# Output the best parameters
+print("Best Parameters of Decision Tree Grid Search (Base 1 Classifier):", best_tree)
+
+# B Gradient Boosting Grid Search (Base 2 Classifier)
+gradien = GradientBoostingClassifier()
+grid_search_gradien = GridSearchCV(gradien, param_grid_gradien, cv=5, scoring='accuracy')
+grid_search_gradien.fit(X_train, y_train)
+best_gradien = grid_search_gradien.best_estimator_
+# Output the best parameters
+print("Best Parameters of Gradient Boosting Grid Search (Base 2 Classifier):", best_gradien)
+
+# C K-Nearest Neighbors Grid Search
+knn = KNeighborsClassifier()
+grid_search_knn = GridSearchCV(knn, param_grid_knn, cv=5, scoring='accuracy')
+grid_search_knn.fit(X_train, y_train)
+best_knn = grid_search_knn.best_estimator_
+print("Best Parameters of K-Nearest Neighbors Grid Search:", best_knn)
+
+# D Random Forest Grid Search (Base 3 Classifier)
+rf = RandomForestClassifier()
+grid_search_rf = GridSearchCV(rf, param_grid_rf, cv=5, scoring='accuracy')
+grid_search_rf.fit(X_train, y_train)
+best_rf = grid_search_rf.best_estimator_
+# Output the best parameters
+print("Best Parameters of Random Forest Grid Search (Base 3 Classifier):", best_rf)
+
+# E Logistic Regression Grid Search (Meta Classifier)
+logistic = LogisticRegression()
+grid_search_logistic = GridSearchCV(logistic, param_grid_logistic, cv=5, scoring='accuracy')
+grid_search_logistic.fit(X_train, y_train)
+best_logistic = grid_search_logistic.best_estimator_
+# Output the best parameters
+print("Best Parameters of Logistic Regression Grid Search (Meta Classifier):", best_logistic)
+
+'''# F SVM Grid Search
+svm = SVC()
+grid_search_svc = GridSearchCV(svm, param_grid_svm, cv=5, scoring='accuracy')
+grid_search_svc.fit(X_train, y_train)
+best_svc = grid_search_svc.best_estimator_
+print("Best Parameters of SVM Grid Search:", best_svc)
+'''
+
+# G Naive Bayes Grid Search (Base 4 Classifier)
+bayes = GaussianNB()
+grid_search_bayes = GridSearchCV(bayes, param_grid_bayes, cv=5, scoring='accuracy')
+grid_search_bayes.fit(X_train, y_train)
+best_bayes = grid_search_bayes.best_estimator_
+# Output the best parameters
+print("Best Parameters of Naive Bayes Grid Search (Base 4 Classifier):", best_bayes)
+
+# H AdaBoost Grid Search
+ab = AdaBoostClassifier()
+grid_search_ab = GridSearchCV(ab, param_grid_ab, cv=5, scoring='accuracy')
+grid_search_ab.fit(X_train, y_train)
+best_ab = grid_search_ab.best_estimator_
+print("Best Parameters of AdaBoost Grid Search):", best_ab)
+
+# I AdaBoost SVM Grid Search
+absvm = AdaBoostClassifier(SVC(probability=True)) # Changed: Added probability=True to SVC
+grid_search_absvm = GridSearchCV(absvm, param_grid_absvm, cv=5, scoring='accuracy')
+grid_search_absvm.fit(X_train, y_train)
+best_absvm = grid_search_absvm.best_estimator_
+# Output the best parameters
+print("Best Parameters of AdaBoost SVM Grid Search:", best_absvm)
+
+# J XGBoost Classifier Grid Search
+xgb = XGBClassifier()
+grid_search_xgb = GridSearchCV(xgb, param_grid_xgb, cv=5, scoring='accuracy')
+grid_search_xgb.fit(X_train, y_train)
+best_xgb = grid_search_xgb.best_estimator_
+print("Best Parameters of XGBoost Classifier Grid Search:", best_xgb)
+
+# K Naive Bayes Grid Search
+xgb_reg = XGBRegressor()
+grid_search_xgb_reg = GridSearchCV(xgb_reg, param_grid_xgb_reg, cv=5, scoring='accuracy')
+grid_search_xgb_reg.fit(X_train, y_train)
+best_xgb_reg = grid_search_xgb_reg.best_estimator_
+print("Best Parameters of K Naive Bayes Grid Search:", best_xgb_reg )
+
+SAVED OUTPUTS: 9
+  Output 1: stream
+  /usr/local/lib/python3.12/dist-packages/sklearn/model_selection/_validation.py:528: FitFailedWarning: 
+  240 fits failed out of a total of 960.
+  The score on these train-test partitions for these parameters will be set to nan.
+  If these failures are not expected, you can try to debug them by setting error_score='raise'.
+  
+  Below are more details about the failures:
+  --------------------------------------------------------------------------------
+  240 fits failed with the following error:
+  Traceback (most recent call last):
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/model_selection/_validation.py", line 866, in _fit_and_score
+      estimator.fit(X_train, y_train, **fit_params)
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1382, in wrapper
+      estimator._validate_params()
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 436, in _validate_params
+      validate_parameter_constraints(
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_param_validation.py", line 98, in validate_parameter_constraints
+      raise InvalidParameterError(
+  sklearn.utils._param_validation.InvalidParameterError: The 'max_features' parameter of DecisionTreeClassifier must be an int in the range [1, inf), a float in the range (0.0, 1.0], a str among {'sqrt', 'log2'} or None. Got 'auto' instead.
+  
+    warnings.warn(some_fits_failed_message, FitFailedWarning)
+  /usr/local/lib/python3.12/dist-packages/sklearn/model_selection/_search.py:1108: UserWarning: One o
+  Output 2: stream
+  Best Parameters of Decision Tree Grid Search (Base 1 Classifier): DecisionTreeClassifier(max_depth=5, splitter='random')
+  Best Parameters of Gradient Boosting Grid Search (Base 2 Classifier): GradientBoostingClassifier(max_depth=6, min_samples_leaf=20)
+  
+  Output 3: stream
+  /usr/local/lib/python3.12/dist-packages/sklearn/model_selection/_validation.py:528: FitFailedWarning: 
+  60 fits failed out of a total of 180.
+  The score on these train-test partitions for these parameters will be set to nan.
+  If these failures are not expected, you can try to debug them by setting error_score='raise'.
+  
+  Below are more details about the failures:
+  --------------------------------------------------------------------------------
+  60 fits failed with the following error:
+  Traceback (most recent call last):
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/model_selection/_validation.py", line 866, in _fit_and_score
+      estimator.fit(X_train, y_train, **fit_params)
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1382, in wrapper
+      estimator._validate_params()
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 436, in _validate_params
+      validate_parameter_constraints(
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_param_validation.py", line 98, in validate_parameter_constraints
+      raise InvalidParameterError(
+  sklearn.utils._param_validation.InvalidParameterError: The 'metric' parameter of KNeighborsClassifier must be a str among {'pyfunc', 'dice', 'manhattan', 'cosine', 'infinity', 'nan_euclidean', 'cityblock', 'seuclidean', 'rogerstanimoto', 'russellrao', 'sokalsneath', 'braycurtis', 'chebyshev', 'canberra', 'hamming', 'correlation', 'haversine', 'l1', 'sokalmichener', 'euclidean', 'jaccard', 'p', 'mah
+  Output 4: stream
+  Best Parameters of K-Nearest Neighbors Grid Search: KNeighborsClassifier(metric='manhattan', n_neighbors=7, weights='distance')
+  Best Parameters of Random Forest Grid Search (Base 3 Classifier): RandomForestClassifier(max_features='log2', n_estimators=50)
+  
+  Output 5: stream
+  /usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+  STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+  
+  Increase the number of iterations (max_iter) or scale the data as shown in:
+      https://scikit-learn.org/stable/modules/preprocessing.html
+  Please also refer to the documentation for alternative solver options:
+      https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+    n_iter_i = _check_optimize_result(
+  /usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+  STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+  
+  Increase the number of iterations (max_iter) or scale the data as shown in:
+      https://scikit-learn.org/stable/modules/preprocessing.html
+  Please also refer to the documentation for alternative solver options:
+      https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+    n_iter_i = _check_optimize_result(
+  /usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+  STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.
+  
+  Increase the number of iterations (max_iter) or scale the data as shown in:
+      https://scikit-learn.org/stable/modules/preprocessing.html
+  Please also refer to the documentation for alternative solver options:
+      https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+    n_
+  Output 6: stream
+  Best Parameters of Logistic Regression Grid Search (Meta Classifier): LogisticRegression(C=np.float64(0.615848211066026))
+  Best Parameters of Naive Bayes Grid Search (Base 4 Classifier): GaussianNB(var_smoothing=np.float64(1.232846739442066e-07))
+  Best Parameters of AdaBoost Grid Search): AdaBoostClassifier(learning_rate=0.1, n_estimators=200)
+  Best Parameters of AdaBoost SVM Grid Search: AdaBoostClassifier(estimator=SVC(probability=True), learning_rate=0.1,
+                     n_estimators=10)
+  Best Parameters of XGBoost Classifier Grid Search: XGBClassifier(base_score=None, booster=None, callbacks=None,
+                colsample_bylevel=None, colsample_bynode=None,
+                colsample_bytree=0.8, device=None, early_stopping_rounds=None,
+                enable_categorical=False, eval_metric=None, feature_types=None,
+                feature_weights=None, gamma=1, grow_policy=None,
+                importance_type=None, interaction_constraints=None,
+                learning_rate=None, max_bin=None, max_cat_threshold=None,
+                max_cat_to_onehot=None, max_delta_step=None, max_depth=None,
+                max_leaves=None, min_child_weight=None, missing=nan,
+                monotone_constraints=None, multi_strategy=None, n_estimators=None,
+                n_jobs=None, num_parallel_tree=None, ...)
+  
+  Output 7: stream
+  /usr/local/lib/python3.12/dist-packages/xgboost/training.py:183: UserWarning: [23:11:44] WARNING: /workspace/src/objective/regression_obj.cu:245: reg:linear is now deprecated in favor of reg:squarederror.
+    bst.update(dtrain, iteration=i, fobj=obj)
+  /usr/local/lib/python3.12/dist-packages/xgboost/training.py:183: UserWarning: [23:11:44] WARNING: /workspace/src/learner.cc:738: 
+  Parameters: { "silent" } are not used.
+  
+    bst.update(dtrain, iteration=i, fobj=obj)
+  /usr/local/lib/python3.12/dist-packages/sklearn/model_selection/_validation.py:960: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+  Traceback (most recent call last):
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/model_selection/_validation.py", line 949, in _score
+      scores = scorer(estimator, X_test, y_test, **score_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_scorer.py", line 288, in __call__
+      return self._score(partial(_cached_call, None), estimator, X, y_true, **_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_scorer.py", line 388, in _score
+      return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/lib/python3.12/dist-packages/
+  Output 8: stream
+  Best Parameters of K Naive Bayes Grid Search: XGBRegressor(base_score=None, booster=None, callbacks=None,
+               colsample_bylevel=None, colsample_bynode=None,
+               colsample_bytree=0.7, device=None, early_stopping_rounds=None,
+               enable_categorical=False, eval_metric=None, feature_types=None,
+               feature_weights=None, gamma=None, grow_policy=None,
+               importance_type=None, interaction_constraints=None,
+               learning_rate=None, max_bin=None, max_cat_threshold=None,
+               max_cat_to_onehot=None, max_delta_step=None, max_depth=5,
+               max_leaves=None, min_child_weight=4, missing=nan,
+               monotone_constraints=None, multi_strategy=None, n_estimators=None,
+               n_jobs=None, nthread=4, ...)
+  
+  Output 9: stream
+  /usr/local/lib/python3.12/dist-packages/sklearn/model_selection/_validation.py:960: UserWarning: Scoring failed. The score on this train-test partition for these parameters will be set to nan. Details: 
+  Traceback (most recent call last):
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/model_selection/_validation.py", line 949, in _score
+      scores = scorer(estimator, X_test, y_test, **score_params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_scorer.py", line 288, in __call__
+      return self._score(partial(_cached_call, None), estimator, X, y_true, **_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_scorer.py", line 388, in _score
+      return self._sign * self._score_func(y_true, y_pred, **scoring_kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_param_validation.py", line 216, in wrapper
+      return func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py", line 227, in accuracy_score
+      y_type, y_true, y_pred = _check_targets(y_true, y_pred)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    File "/usr/local/lib/python3.12/dist-packages/sklearn/metrics/_classification.py", line 107, in _check_t
+
+==========================================================================================
+CELL 16 | TYPE: MARKDOWN
+Execution count: None
+------------------------------------------------------------------------------------------
+**Proposed Base Paper Stacking Model**
+
+
+*   Base-----1. Decision Tree, 2. Random Forest, 3. Gradient Boosting, 4. Bayesian Network
+*   Meta-----Logistic Regression
+
+
+
+==========================================================================================
+CELL 17 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+# ============================================================
+# Full Reproducible Stacking Classifier Pipeline
+# ============================================================
+
+import numpy as np
+import random
+import os
+import matplotlib.pyplot as plt
+from sklearn.ensemble import StackingClassifier
+from sklearn.metrics import (
+    accuracy_score, precision_score, recall_score, f1_score,
+    roc_auc_score, roc_curve
+)
+from sklearn.calibration import CalibratedClassifierCV
+
+# ============================================================
+# 1️⃣ Set Global Random Seeds
+# ============================================================
+SEED = 42
+random.seed(SEED)
+np.random.seed(SEED)
+os.environ['PYTHONHASHSEED'] = str(SEED)
+
+# ============================================================
+# 2️⃣ Ensure Random States in All Estimators
+# ============================================================
+best_rf.random_state = SEED
+best_tree.random_state = SEED
+best_gradien.random_state = SEED
+best_bayes.random_state = SEED
+best_logistic.random_state = SEED
+
+# ============================================================
+# 3️⃣ Create the Stacking Classifier
+# ============================================================
+stacking_classifier = StackingClassifier(
+    estimators=[
+        ('rf', best_rf),
+        ('tree', best_tree),
+        ('gradien', best_gradien),
+        ('bayes', best_bayes)
+    ],
+    final_estimator=best_logistic,
+    cv=5
+)
+
+
+==========================================================================================
+CELL 18 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+# Calibrate the Stacking Classifier
+calibrated_stacking = CalibratedClassifierCV(stacking_classifier, method='sigmoid', cv=5)
+calibrated_stacking.fit(X_train, y_train)
+
+SAVED OUTPUTS: 1
+  Output 1: execute_result
+  MIME types: ['text/plain', 'text/html']
+
+==========================================================================================
+CELL 19 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+# Fit the model with early stopping
+n_epochs = 100
+best_accuracy = 0
+patience = 5
+stopping_counter = 0
+
+for epoch in range(n_epochs):
+    calibrated_stacking.fit(X_train, y_train)
+    y_pred = calibrated_stacking.predict(X_test)
+    accuracy = accuracy_score(y_test, y_pred)
+
+    if accuracy > best_accuracy:
+        best_accuracy = accuracy
+        stopping_counter = 0  # Reset the counter if we improve
+    else:
+        stopping_counter += 1  # Increment counter if no improvement
+
+    if stopping_counter >= patience:
+        print(f"Early stopping at epoch {epoch + 1}")
+        break
+
+==========================================================================================
+CELL 20 | TYPE: CODE
+Execution count: None
+------------------------------------------------------------------------------------------
+from sklearn.metrics import accuracy_score, precision_score, recall_score, roc_auc_score, roc_curve, f1_score
+import matplotlib.pyplot as plt
+
+# Predict on the test data
+y_pred = calibrated_stacking.predict(X_test)
+y_pred_proba = calibrated_stacking.predict_proba(X_test)[:, 1]
+
+# Evaluate the model
+accuracy = accuracy_score(y_test, y_pred)
+precision = precision_score(y_test, y_pred)
+recall = recall_score(y_test, y_pred)
+f1 = f1_score(y_test, y_pred)
+auc = roc_auc_score(y_test, y_pred_proba)
+
+# Print evaluation results
+print(f'Accuracy: {accuracy:.4f}')
+print(f'Precision: {precision:.4f}')
+print(f'Recall: {recall:.4f}')
+print(f'F1-score: {f1:.4f}')
+print(f'AUC-ROC: {auc:.4f}')
+
+# Plot ROC Curve
+fpr, tpr, thresholds = roc_curve(y_test, y_pred_proba)
+plt.figure()
+plt.plot(fpr, tpr, color='blue', label=f'ROC curve (area = {auc:.2f})')
+plt.plot([0, 1], [0, 1], color='gray', linestyle='--')
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate (Sensitivity)')
+plt.title('ROC Curve')
+plt.legend(loc="lower right")
+plt.show()
+
+
+SAVED OUTPUTS: 2
+  Output 1: stream
+  Accuracy: 0.8824
+  Precision: 0.8898
+  Recall: 0.9052
+  F1-score: 0.8974
+  AUC-ROC: 0.9578
+  
+  Output 2: display_data
+  MIME types: ['image/png', 'text/plain']

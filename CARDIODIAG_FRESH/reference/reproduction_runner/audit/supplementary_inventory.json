@@ -1,0 +1,166 @@
+{
+  "root": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\extracted_author_archives",
+  "file_count": 32,
+  "files": [
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Absolute LIME Feature Importance with PCA and with title.pdf",
+      "sha256": "891c9d55cc7def3cd0f3fda04513c5884d55a842bc596052d22e84ce829f564e",
+      "bytes": 23018
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Absolute LIME Feature Importance with PCA and without title.pdf",
+      "sha256": "abcd3d653d973998b9253e3b451fa26efadef6db82e2e63ce6ab9edbecc0b357",
+      "bytes": 21839
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Absolute LIME Feature Importance without PCA.pdf",
+      "sha256": "1825b6365055af84ec62eae5f13033b94e2d0a839fc245f3be5ccf0a0fe8a717",
+      "bytes": 17438
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Average LIME Contributions per Original Feature with PCA Features with Title.pdf",
+      "sha256": "58e1552b09b11cd61afe63476274775498b4f40f97d81f7a8375b82b0a8ac5cc",
+      "bytes": 19186
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Average LIME Contributions per Original Feature with PCA Features without Title.pdf",
+      "sha256": "51ece52ad2c064453bf405852a275bee027df7421e4ecaaa2392a00c320cfe97",
+      "bytes": 18260
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Average LIME Contributions per Original Feature with PCA with Title.pdf",
+      "sha256": "a6ac53b2a7e9301433bbfa4c60656b57b5f2214af0e629420953f3d317b269c9",
+      "bytes": 17173
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Average LIME Contributions per Original Feature with PCA without Title.pdf",
+      "sha256": "0b24d13104efb38697843e76eb3f08939b88cadb7ac13d9d5aa2bdcfe73794d2",
+      "bytes": 14428
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\LIME Report — NOVEM-CVD Ensemble.html",
+      "sha256": "a32ca57d4a68f6f308b0ecc70b33516e516b971497cf658dc3f67db82f361524",
+      "bytes": 3322
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\LIME Report — NOVEM-CVD Ensemble_files\\LIME_feature_importance.png",
+      "sha256": "08f4650aa12958f4646978cbc9b5bd54c6b7af5197fd8989e3c0ddc685c43c02",
+      "bytes": 151542
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\LIME Report — NOVEM-CVD Ensemble_files\\LIME_feature_importance_abs.png",
+      "sha256": "4722f4fb745eb6e913f095a88b909e16199cfc38a44f5393d599f1c97a9e2e3d",
+      "bytes": 166186
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\LIME Report — NOVEM-CVD Ensemble_files\\lime_instance_153.html",
+      "sha256": "408607799686e098765de2189727e82cfce836050a10d0aac3436eb140a959e2",
+      "bytes": 1237424
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\LIME Report — NOVEM-CVD Ensemble_files\\lime_instance_231.html",
+      "sha256": "be7f5814ac1552a3427f2cf9c4ac3a89833a25fbb229f38c612222d87c79f850",
+      "bytes": 1237398
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\LIME_combined_comparison_with_PCA With Title.pdf",
+      "sha256": "b81ce6e3bc2c838fec7d2d7b54ca33208347b030e36c658a11c4e4dcc606f311",
+      "bytes": 21777
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\LIME_feature_importance_Directionality with PCA With Title.pdf",
+      "sha256": "09d441fff30a3dc4c7b8ffc306269aa8554202642633993d79c71f13957188b0",
+      "bytes": 19042
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\LIME_feature_importance_Directionality with PCA Without Title.pdf",
+      "sha256": "ef456c4796bb1730f1512f0089fd622b243c29e6a5e7cfe732a1ae5a92120476",
+      "bytes": 17884
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\LIME_outputs_20251106_104637.zip",
+      "sha256": "d599e305933aae7062d415f8ad64f03c5699280309decad72ec9ad576e41a1d5",
+      "bytes": 6483118
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\LIME_stability_boxplot.pdf",
+      "sha256": "940f46fab67372853e96837ce24d2640f47c51b91549a38c58e3f6b911278b5f",
+      "bytes": 17367
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\LIME_stability_heatmap.pdf",
+      "sha256": "ae7d7a458625574caf3d6a7e442991430d0a07bddb4610a54a501c972d8fa6ce",
+      "bytes": 20696
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\NOVEM_CVD_LIME_Report_Latest(3).zip",
+      "sha256": "b107dfa203edeb8db333b02c0d7465ef1f0dfc8c8b6501212b79120c9652f9b6",
+      "bytes": 36970255
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\NOVEM_CVD_LIME_Report_Latest(5).zip",
+      "sha256": "a6e6b562deaf27e6c9ddffaf6c36ea171eee98f91b9987551052a4c6cbfb5237",
+      "bytes": 58533436
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\NOVEM_CVD_LIME_Report_Latest(6).zip",
+      "sha256": "6745f5008f1f51c40e411925d3b12a9c3ea3fd7d654570d27f6d424ddfa4ac6e",
+      "bytes": 6559591
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\pca_feature_contributions_Loadings.pdf",
+      "sha256": "73acd3dd855e2a641ae49530a7d2b7dd048a7860baa34667bf6ab2205f47f02c",
+      "bytes": 22954
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Reviewer 1 Concern 15\\LIME_base_vs_ensemble.csv",
+      "sha256": "6929cb93db87282e555ed27bf67892b2f27ab554f7134ea21d22885ed6a0c56a",
+      "bytes": 426
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Reviewer 1 Concern 15\\LIME_base_vs_ensemble_overlap.pdf",
+      "sha256": "a717175ac582f9fa06da8f10738f15cfb305d9492386f6b5250ea73a6bd17d75",
+      "bytes": 28609
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Reviewer 1 Concern 15\\LIME_baseline_global_importance.csv",
+      "sha256": "d71c2700f24c2c78e5504c65282bb7f2b8465f08bebd1b866b00e0b496446ca1",
+      "bytes": 399
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Reviewer 1 Concern 15\\LIME_clinical_plausibility.txt",
+      "sha256": "c3cf4a361692ac29e6fb229717d54600693ff0052a79f7fad2ad786f7054bb52",
+      "bytes": 1304
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Reviewer 1 Concern 15\\LIME_multirun_jaccard.csv",
+      "sha256": "2bb9e11c90896e75e4cce2526e84095a4e082f5c8fded38bcaaf6c169c6d1961",
+      "bytes": 108
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Reviewer 1 Concern 15\\LIME_multirun_stability.pdf",
+      "sha256": "8ef5aa990a274a7a888e21125a3390bb9ff599bec57022a9911eaae0f7b1c8db",
+      "bytes": 13974
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Reviewer 1 Concern 15\\LIME_perturbation_sensitivity.csv",
+      "sha256": "504aeba78042b5dd2da1bdbeb0e406615ef05626ed7b31ecaff0f6c4046a4152",
+      "bytes": 449
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Reviewer 1 Concern 15\\LIME_perturbation_sensitivity.pdf",
+      "sha256": "2f3df4ba2d867716f1b60b4ccb78718058a72f29c1c848f9911b60c2183bbd72",
+      "bytes": 17329
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Reviewer 1 Concern 15\\LIME_samplecount_sensitivity.csv",
+      "sha256": "3b5c8253f963a95a2f7edc36cbec969ba4a6235b0bd58ada00b45ad954cf666c",
+      "bytes": 477
+    },
+    {
+      "relative_path": "lime_materials\\Paper 1 Code LIME with Diagrams\\Reviewer 1 Concern 15\\LIME_samplecount_sensitivity.pdf",
+      "sha256": "0b347441dbc5395da7ec5682f4fd77ed91c5c50245107c34c82c0eb30ce3ddd3",
+      "bytes": 15229
+    }
+  ]
+}

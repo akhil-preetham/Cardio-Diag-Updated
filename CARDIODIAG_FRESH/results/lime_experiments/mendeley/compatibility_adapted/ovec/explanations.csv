@@ -1,0 +1,25 @@
+observation,test_index,feature,weight,probability
+positive_representative,69,slope > 0.46,0.35202305364791625,0.9999999828845955
+positive_representative,69,0.03 < chestpain <= 1.09,0.12821963015591986,0.9999999828845955
+positive_representative,69,restingrelectro > 0.33,0.10984929164165748,0.9999999828845955
+positive_representative,69,fastingbloodsugar <= -0.63,-0.08148351210122688,0.9999999828845955
+positive_representative,69,-0.76 < restingBP <= -0.14,-0.049172573297703075,0.9999999828845955
+positive_representative,69,oldpeak <= -0.87,0.04325745127302598,0.9999999828845955
+positive_representative,69,-0.23 < noofmajorvessels <= 0.79,0.030789258720566377,0.9999999828845955
+positive_representative,69,0.03 < maxheartrate <= 0.86,0.024994732150833268,0.9999999828845955
+positive_representative,69,0.05 < serumcholestrol <= 0.72,-0.018470555282324087,0.9999999828845955
+positive_representative,69,-0.01 < age <= 0.84,-0.003193226702878291,0.9999999828845955
+positive_representative,69,-0.97 < exerciseangia <= 1.04,0.00020826577519958208,0.9999999828845955
+positive_representative,69,gender <= 0.56,0.0,0.9999999828845955
+negative_representative,91,slope <= -0.54,-0.5743933372550817,1.48370332693783e-06
+negative_representative,91,chestpain <= -1.02,-0.1632176437360196,1.48370332693783e-06
+negative_representative,91,restingBP <= -0.76,-0.08470874997590565,1.48370332693783e-06
+negative_representative,91,fastingbloodsugar <= -0.63,-0.07569465337968175,1.48370332693783e-06
+negative_representative,91,maxheartrate <= -0.76,-0.06132150166463275,1.48370332693783e-06
+negative_representative,91,-0.58 < serumcholestrol <= 0.05,-0.05777373861182594,1.48370332693783e-06
+negative_representative,91,restingrelectro <= -0.98,-0.05605246724201869,1.48370332693783e-06
+negative_representative,91,-0.85 < age <= -0.01,0.022800896897511216,1.48370332693783e-06
+negative_representative,91,-1.25 < noofmajorvessels <= -0.23,-0.020417974832201913,1.48370332693783e-06
+negative_representative,91,-0.97 < exerciseangia <= 1.04,0.011737323929373565,1.48370332693783e-06
+negative_representative,91,-0.17 < oldpeak <= 0.81,-0.010268132898381974,1.48370332693783e-06
+negative_representative,91,gender <= 0.56,0.0,1.48370332693783e-06

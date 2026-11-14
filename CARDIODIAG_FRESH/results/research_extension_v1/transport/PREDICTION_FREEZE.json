@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-11-14T07:47:48.935195+00:00",
+  "protocol_sha256": "61818ac6869acb2f3a0b5db50e6e187e24aa4d1cdeb69eb9ea87bd0ff05459a4",
+  "models_sha256": "8249555d95d065b8da78020fa2be963a40ba42cda7848046f702ee532a8285dd",
+  "probabilities_sha256": "cc9dbf8073e269a59d28d1395f887c266abd8ebb29d1c8e646a7ceedcfc35713",
+  "source_rows": 303,
+  "target_label_fit_count": 0
+}

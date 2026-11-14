@@ -1,0 +1,3 @@
+feature_set,variables,harmonization,use
+strict,"age,sex,trestbps,chol,fbs,restecg",same columns across all centres; imputation needed,primary IECV
+exploratory,"age,sex,trestbps,chol,fbs,restecg,thalach,exang,oldpeak",same columns but exercise-test timing unresolved,secondary only

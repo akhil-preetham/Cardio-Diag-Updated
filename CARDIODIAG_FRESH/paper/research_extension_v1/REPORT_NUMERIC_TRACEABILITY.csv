@@ -1,0 +1,57 @@
+track,model,metric,value,source,aggregation
+ZAS,historical_v3_balanced,roc_auc,0.7363150986235278,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,historical_v3_balanced,average_precision,0.8468621204265089,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,historical_v3_balanced,brier,0.1746046145800837,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,historical_v3_balanced,log_loss,0.5285658968260822,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_v3_ordinary_historical_calibration,roc_auc,0.7377341421881652,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_v3_ordinary_historical_calibration,average_precision,0.8509930919435743,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_v3_ordinary_historical_calibration,brier,0.17440686801309155,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_v3_ordinary_historical_calibration,log_loss,0.5260246621624672,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_risk_symptoms17_historical_calibration,roc_auc,0.9035582517383283,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_risk_symptoms17_historical_calibration,average_precision,0.9457019808548514,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_risk_symptoms17_historical_calibration,brier,0.10254905570771512,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_risk_symptoms17_historical_calibration,log_loss,0.34068915379096404,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_no_symptoms28_historical_calibration,roc_auc,0.8465659145735774,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_no_symptoms28_historical_calibration,average_precision,0.9280283453975752,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_no_symptoms28_historical_calibration,brier,0.13847039204388692,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_no_symptoms28_historical_calibration,log_loss,0.43216404836455796,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_full38_historical_calibration,roc_auc,0.9174471406272172,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_full38_historical_calibration,average_precision,0.9600603114518397,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_full38_historical_calibration,brier,0.1011237843141124,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,l2_full38_historical_calibration,log_loss,0.3288239133295508,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,historical_selection,roc_auc,0.9103164467149142,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,historical_selection,average_precision,0.957291312643708,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,historical_selection,brier,0.10761640711668867,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,historical_selection,log_loss,0.3467403568104472,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,same_components_uncalibrated_ensemble,roc_auc,0.916418334042855,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,same_components_uncalibrated_ensemble,average_precision,0.96272316389822,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,same_components_uncalibrated_ensemble,brier,0.10545966237945563,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,same_components_uncalibrated_ensemble,log_loss,0.3411941130582304,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,selection_independent_calibrated_ensemble,roc_auc,0.9096069249325954,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,selection_independent_calibrated_ensemble,average_precision,0.9543846097047606,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,selection_independent_calibrated_ensemble,brier,0.1037312031583348,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+ZAS,selection_independent_calibrated_ensemble,log_loss,0.33899645576885823,zas/REPEAT_METRICS.csv,mean of three complete-repeat metrics
+transport,raw_full_source_fit:base_gt50,roc_auc,0.7124713278396059,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,raw_full_source_fit:base_gt50,average_precision,0.894134496207078,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,raw_full_source_fit:base_gt50,brier_score,0.19824947344160898,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,raw_full_source_fit:base_gt50,log_loss,0.5787269920557039,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:base_gt50,roc_auc,0.7072253844193357,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:base_gt50,average_precision,0.8966755676469205,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:base_gt50,brier_score,0.1936588218013804,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:base_gt50,log_loss,0.562932539378603,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,raw_full_source_fit:exclude_ambiguous26_50,roc_auc,0.7292821709950394,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,raw_full_source_fit:exclude_ambiguous26_50,average_precision,0.9134646046805199,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,raw_full_source_fit:exclude_ambiguous26_50,brier_score,0.19249339638968588,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,raw_full_source_fit:exclude_ambiguous26_50,log_loss,0.5606470911577285,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:exclude_ambiguous26_50,roc_auc,0.7227166618033264,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:exclude_ambiguous26_50,average_precision,0.9145354639539449,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:exclude_ambiguous26_50,brier_score,0.1880789523397139,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:exclude_ambiguous26_50,log_loss,0.5474962104707907,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,raw_full_source_fit:upper_assignment26_50_positive,roc_auc,0.7259081498211933,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,raw_full_source_fit:upper_assignment26_50_positive,average_precision,0.914984369305649,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,raw_full_source_fit:upper_assignment26_50_positive,brier_score,0.19447253842148085,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,raw_full_source_fit:upper_assignment26_50_positive,log_loss,0.5647466465756288,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:upper_assignment26_50_positive,roc_auc,0.7194616977225673,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:upper_assignment26_50_positive,average_precision,0.9160436989636813,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:upper_assignment26_50_positive,brier_score,0.18954251672605624,transport/TARGET_METRICS.csv,fixed-model target cohort
+transport,source_calibrated_ensemble:upper_assignment26_50_positive,log_loss,0.5506030704098794,transport/TARGET_METRICS.csv,fixed-model target cohort

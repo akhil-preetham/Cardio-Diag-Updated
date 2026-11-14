@@ -1,0 +1,1841 @@
+stage,model,validation,held_out_centre,source_row,y_true,probability
+stage2_symptoms,logistic,stratified_inner,Cleveland,0,0,0.7435739988785038
+stage2_symptoms,logistic,stratified_inner,Cleveland,1,1,0.9175894829695725
+stage2_symptoms,logistic,stratified_inner,Cleveland,2,1,0.9175894829695725
+stage2_symptoms,logistic,stratified_inner,Cleveland,3,0,0.28127335673093345
+stage2_symptoms,logistic,stratified_inner,Cleveland,4,0,0.03836323230682892
+stage2_symptoms,logistic,stratified_inner,Cleveland,5,0,0.22765063697116722
+stage2_symptoms,logistic,stratified_inner,Cleveland,6,1,0.7315770372917745
+stage2_symptoms,logistic,stratified_inner,Cleveland,7,0,0.6696011283783153
+stage2_symptoms,logistic,stratified_inner,Cleveland,8,1,0.897801449404288
+stage2_symptoms,logistic,stratified_inner,Cleveland,9,1,0.8292777895620336
+stage2_symptoms,logistic,stratified_inner,Cleveland,10,0,0.8602686471915705
+stage2_symptoms,logistic,stratified_inner,Cleveland,11,0,0.08844538210710728
+stage2_symptoms,logistic,stratified_inner,Cleveland,12,1,0.5467685053912239
+stage2_symptoms,logistic,stratified_inner,Cleveland,13,0,0.12645848089785655
+stage2_symptoms,logistic,stratified_inner,Cleveland,14,0,0.4876567303557493
+stage2_symptoms,logistic,stratified_inner,Cleveland,15,0,0.5614069081597245
+stage2_symptoms,logistic,stratified_inner,Cleveland,16,1,0.15503608530046487
+stage2_symptoms,logistic,stratified_inner,Cleveland,17,0,0.837503482737823
+stage2_symptoms,logistic,stratified_inner,Cleveland,18,0,0.19820832695211035
+stage2_symptoms,logistic,stratified_inner,Cleveland,19,0,0.16295760783614707
+stage2_symptoms,logistic,stratified_inner,Cleveland,20,0,0.7547076256104525
+stage2_symptoms,logistic,stratified_inner,Cleveland,21,0,0.4151366935387271
+stage2_symptoms,logistic,stratified_inner,Cleveland,22,1,0.24915537674748633
+stage2_symptoms,logistic,stratified_inner,Cleveland,23,1,0.5759392059723045
+stage2_symptoms,logistic,stratified_inner,Cleveland,24,1,0.8803003268418333
+stage2_symptoms,logistic,stratified_inner,Cleveland,25,0,0.21771583004655684
+stage2_symptoms,logistic,stratified_inner,Cleveland,26,0,0.30895353108033813
+stage2_symptoms,logistic,stratified_inner,Cleveland,27,0,0.5327632082442768
+stage2_symptoms,logistic,stratified_inner,Cleveland,28,0,0.7286933884620105
+stage2_symptoms,logistic,stratified_inner,Cleveland,29,1,0.6921626186090644
+stage2_symptoms,logistic,stratified_inner,Cleveland,30,0,0.5766399533020573
+stage2_symptoms,logistic,stratified_inner,Cleveland,31,1,0.8803003268418333
+stage2_symptoms,logistic,stratified_inner,Cleveland,32,1,0.6596272759396469
+stage2_symptoms,logistic,stratified_inner,Cleveland,33,0,0.8739148913907533
+stage2_symptoms,logistic,stratified_inner,Cleveland,34,0,0.37205887479373495
+stage2_symptoms,logistic,stratified_inner,Cleveland,35,0,0.7168220376059604
+stage2_symptoms,logistic,stratified_inner,Cleveland,36,1,0.7286933884620105
+stage2_symptoms,logistic,stratified_inner,Cleveland,37,1,0.8602686471915705
+stage2_symptoms,logistic,stratified_inner,Cleveland,38,1,0.8454067308749702
+stage2_symptoms,logistic,stratified_inner,Cleveland,39,0,0.6186635381146587
+stage2_symptoms,logistic,stratified_inner,Cleveland,40,1,0.7650184176805354
+stage2_symptoms,logistic,stratified_inner,Cleveland,41,0,0.42600881028480647
+stage2_symptoms,logistic,stratified_inner,Cleveland,42,0,0.1909274133441194
+stage2_symptoms,logistic,stratified_inner,Cleveland,43,0,0.5903413512120514
+stage2_symptoms,logistic,stratified_inner,Cleveland,44,1,0.719783342829763
+stage2_symptoms,logistic,stratified_inner,Cleveland,45,1,0.5759392059723045
+stage2_symptoms,logistic,stratified_inner,Cleveland,46,0,0.47286805001916854
+stage2_symptoms,logistic,stratified_inner,Cleveland,47,1,0.8026220094908207
+stage2_symptoms,logistic,stratified_inner,Cleveland,48,0,0.4036555802041158
+stage2_symptoms,logistic,stratified_inner,Cleveland,49,0,0.5024670517687877
+stage2_symptoms,logistic,stratified_inner,Cleveland,50,0,0.03836323230682892
+stage2_symptoms,logistic,stratified_inner,Cleveland,51,0,0.90817347754483
+stage2_symptoms,logistic,stratified_inner,Cleveland,52,1,0.7402474089236318
+stage2_symptoms,logistic,stratified_inner,Cleveland,53,0,0.12645848089785655
+stage2_symptoms,logistic,stratified_inner,Cleveland,54,1,0.8803003268418333
+stage2_symptoms,logistic,stratified_inner,Cleveland,55,1,0.837503482737823
+stage2_symptoms,logistic,stratified_inner,Cleveland,56,1,0.45812682824663153
+stage2_symptoms,logistic,stratified_inner,Cleveland,57,1,0.7046417859608434
+stage2_symptoms,logistic,stratified_inner,Cleveland,58,0,0.5172730452455226
+stage2_symptoms,logistic,stratified_inner,Cleveland,59,0,0.5874930521005449
+stage2_symptoms,logistic,stratified_inner,Cleveland,60,1,0.5868293075054515
+stage2_symptoms,logistic,stratified_inner,Cleveland,61,0,0.18004642637057658
+stage2_symptoms,logistic,stratified_inner,Cleveland,62,1,0.8672401935637706
+stage2_symptoms,logistic,stratified_inner,Cleveland,63,0,0.2607600773452986
+stage2_symptoms,logistic,stratified_inner,Cleveland,64,1,0.837503482737823
+stage2_symptoms,logistic,stratified_inner,Cleveland,65,1,0.8803003268418333
+stage2_symptoms,logistic,stratified_inner,Cleveland,66,1,0.6045901769128361
+stage2_symptoms,logistic,stratified_inner,Cleveland,67,0,0.5172730452455226
+stage2_symptoms,logistic,stratified_inner,Cleveland,68,1,0.8739148913907533
+stage2_symptoms,logistic,stratified_inner,Cleveland,69,1,0.4001376722064998
+stage2_symptoms,logistic,stratified_inner,Cleveland,70,0,0.4036555802041158
+stage2_symptoms,logistic,stratified_inner,Cleveland,71,1,0.9175894829695725
+stage2_symptoms,logistic,stratified_inner,Cleveland,72,1,0.8922353293776475
+stage2_symptoms,logistic,stratified_inner,Cleveland,73,1,0.90817347754483
+stage2_symptoms,logistic,stratified_inner,Cleveland,74,1,0.7402474089236318
+stage2_symptoms,logistic,stratified_inner,Cleveland,75,0,0.4036555802041158
+stage2_symptoms,logistic,stratified_inner,Cleveland,76,1,0.8803003268418333
+stage2_symptoms,logistic,stratified_inner,Cleveland,77,0,0.2279758757135373
+stage2_symptoms,logistic,stratified_inner,Cleveland,78,0,0.15503608530046487
+stage2_symptoms,logistic,stratified_inner,Cleveland,79,1,0.8672401935637706
+stage2_symptoms,logistic,stratified_inner,Cleveland,80,0,0.7514771968364271
+stage2_symptoms,logistic,stratified_inner,Cleveland,81,0,0.6152360489093864
+stage2_symptoms,logistic,stratified_inner,Cleveland,82,0,0.30583768407448514
+stage2_symptoms,logistic,stratified_inner,Cleveland,83,1,0.7106697928122485
+stage2_symptoms,logistic,stratified_inner,Cleveland,84,0,0.18867688718509218
+stage2_symptoms,logistic,stratified_inner,Cleveland,85,0,0.37205887479373495
+stage2_symptoms,logistic,stratified_inner,Cleveland,86,0,0.4144400813593807
+stage2_symptoms,logistic,stratified_inner,Cleveland,87,0,0.24950141385559782
+stage2_symptoms,logistic,stratified_inner,Cleveland,88,0,0.6152360489093864
+stage2_symptoms,logistic,stratified_inner,Cleveland,89,0,0.2279758757135373
+stage2_symptoms,logistic,stratified_inner,Cleveland,90,0,0.912996654354334
+stage2_symptoms,logistic,stratified_inner,Cleveland,91,1,0.7315770372917745
+stage2_symptoms,logistic,stratified_inner,Cleveland,92,0,0.6325404390372388
+stage2_symptoms,logistic,stratified_inner,Cleveland,93,0,0.16320995224053386
+stage2_symptoms,logistic,stratified_inner,Cleveland,94,0,0.3754844444651767
+stage2_symptoms,logistic,stratified_inner,Cleveland,95,1,0.8207248379151709
+stage2_symptoms,logistic,stratified_inner,Cleveland,96,1,0.8739148913907533
+stage2_symptoms,logistic,stratified_inner,Cleveland,97,1,0.7076785216695173
+stage2_symptoms,logistic,stratified_inner,Cleveland,98,0,0.18867688718509218
+stage2_symptoms,logistic,stratified_inner,Cleveland,99,0,0.7831741278860482
+stage2_symptoms,logistic,stratified_inner,Cleveland,100,0,0.7514771968364271
+stage2_symptoms,logistic,stratified_inner,Cleveland,101,0,0.34216469579829967
+stage2_symptoms,logistic,stratified_inner,Cleveland,102,0,0.6696011283783153
+stage2_symptoms,logistic,stratified_inner,Cleveland,103,0,0.4913138737721239
+stage2_symptoms,logistic,stratified_inner,Cleveland,104,1,0.4434585513950045
+stage2_symptoms,logistic,stratified_inner,Cleveland,105,0,0.20748907081545576
+stage2_symptoms,logistic,stratified_inner,Cleveland,106,1,0.8739148913907533
+stage2_symptoms,logistic,stratified_inner,Cleveland,107,1,0.5614069081597245
+stage2_symptoms,logistic,stratified_inner,Cleveland,108,1,0.8864044141068547
+stage2_symptoms,logistic,stratified_inner,Cleveland,109,1,0.6793960902548132
+stage2_symptoms,logistic,stratified_inner,Cleveland,110,1,0.719783342829763
+stage2_symptoms,logistic,stratified_inner,Cleveland,111,1,0.8529930645432553
+stage2_symptoms,logistic,stratified_inner,Cleveland,112,0,0.6017741182941481
+stage2_symptoms,logistic,stratified_inner,Cleveland,113,1,0.4692543373027961
+stage2_symptoms,logistic,stratified_inner,Cleveland,114,1,0.3616959967353064
+stage2_symptoms,logistic,stratified_inner,Cleveland,115,0,0.10809050126746204
+stage2_symptoms,logistic,stratified_inner,Cleveland,116,0,0.5759392059723045
+stage2_symptoms,logistic,stratified_inner,Cleveland,117,0,0.35499618166242275
+stage2_symptoms,logistic,stratified_inner,Cleveland,118,1,0.897801449404288
+stage2_symptoms,logistic,stratified_inner,Cleveland,119,1,0.90817347754483
+stage2_symptoms,logistic,stratified_inner,Cleveland,120,1,0.7831741278860482
+stage2_symptoms,logistic,stratified_inner,Cleveland,121,1,0.7430515558454391
+stage2_symptoms,logistic,stratified_inner,Cleveland,122,0,0.47286805001916854
+stage2_symptoms,logistic,stratified_inner,Cleveland,123,1,0.8454067308749702
+stage2_symptoms,logistic,stratified_inner,Cleveland,124,1,0.7655102913923261
+stage2_symptoms,logistic,stratified_inner,Cleveland,125,0,0.04812959198524914
+stage2_symptoms,logistic,stratified_inner,Cleveland,126,1,0.6563634639221623
+stage2_symptoms,logistic,stratified_inner,Cleveland,127,1,0.837503482737823
+stage2_symptoms,logistic,stratified_inner,Cleveland,128,0,0.12645848089785655
+stage2_symptoms,logistic,stratified_inner,Cleveland,129,0,0.7315770372917745
+stage2_symptoms,logistic,stratified_inner,Cleveland,130,0,0.5172730452455226
+stage2_symptoms,logistic,stratified_inner,Cleveland,131,0,0.47286805001916854
+stage2_symptoms,logistic,stratified_inner,Cleveland,132,0,0.05617798730218148
+stage2_symptoms,logistic,stratified_inner,Cleveland,133,0,0.8118406177076607
+stage2_symptoms,logistic,stratified_inner,Cleveland,134,0,0.1552784385823914
+stage2_symptoms,logistic,stratified_inner,Cleveland,135,0,0.08378341537139188
+stage2_symptoms,logistic,stratified_inner,Cleveland,136,1,0.9300716993832939
+stage2_symptoms,logistic,stratified_inner,Cleveland,137,1,0.29606303296814684
+stage2_symptoms,logistic,stratified_inner,Cleveland,138,1,0.6257418882577055
+stage2_symptoms,logistic,stratified_inner,Cleveland,139,0,0.47286805001916854
+stage2_symptoms,logistic,stratified_inner,Cleveland,140,0,0.2604038433722459
+stage2_symptoms,logistic,stratified_inner,Cleveland,141,1,0.6958519989008721
+stage2_symptoms,logistic,stratified_inner,Cleveland,142,0,0.18867688718509218
+stage2_symptoms,logistic,stratified_inner,Cleveland,143,1,0.6596272759396469
+stage2_symptoms,logistic,stratified_inner,Cleveland,144,0,0.5759392059723045
+stage2_symptoms,logistic,stratified_inner,Cleveland,145,1,0.4144400813593807
+stage2_symptoms,logistic,stratified_inner,Cleveland,146,1,0.8602686471915705
+stage2_symptoms,logistic,stratified_inner,Cleveland,147,0,0.3315576392504816
+stage2_symptoms,logistic,stratified_inner,Cleveland,148,0,0.13314993282798
+stage2_symptoms,logistic,stratified_inner,Cleveland,149,0,0.3348091350062843
+stage2_symptoms,logistic,stratified_inner,Cleveland,150,0,0.6017741182941481
+stage2_symptoms,logistic,stratified_inner,Cleveland,151,0,0.454528631690744
+stage2_symptoms,logistic,stratified_inner,Cleveland,152,0,0.4324766402005087
+stage2_symptoms,logistic,stratified_inner,Cleveland,153,1,0.8454067308749702
+stage2_symptoms,logistic,stratified_inner,Cleveland,154,1,0.9031112947186208
+stage2_symptoms,logistic,stratified_inner,Cleveland,155,1,0.9300716993832939
+stage2_symptoms,logistic,stratified_inner,Cleveland,156,1,0.8118406177076607
+stage2_symptoms,logistic,stratified_inner,Cleveland,157,1,0.8672401935637706
+stage2_symptoms,logistic,stratified_inner,Cleveland,158,1,0.8803003268418333
+stage2_symptoms,logistic,stratified_inner,Cleveland,159,0,0.7106697928122485
+stage2_symptoms,logistic,stratified_inner,Cleveland,160,0,0.14013865525852648
+stage2_symptoms,logistic,stratified_inner,Cleveland,161,1,0.9526892410082954
+stage2_symptoms,logistic,stratified_inner,Cleveland,162,0,0.2607600773452986
+stage2_symptoms,logistic,stratified_inner,Cleveland,163,0,0.6825754627636076
+stage2_symptoms,logistic,stratified_inner,Cleveland,164,0,0.428888199977024
+stage2_symptoms,logistic,stratified_inner,Cleveland,165,0,0.8602686471915705
+stage2_symptoms,logistic,stratified_inner,Cleveland,166,0,0.4876567303557493
+stage2_symptoms,logistic,stratified_inner,Cleveland,167,0,0.07934579177879643
+stage2_symptoms,logistic,stratified_inner,Cleveland,168,1,0.6257418882577055
+stage2_symptoms,logistic,stratified_inner,Cleveland,169,0,0.04812959198524914
+stage2_symptoms,logistic,stratified_inner,Cleveland,170,1,0.7344155361247497
+stage2_symptoms,logistic,stratified_inner,Cleveland,171,0,0.8292777895620336
+stage2_symptoms,logistic,stratified_inner,Cleveland,172,1,0.695272172816532
+stage2_symptoms,logistic,stratified_inner,Cleveland,173,0,0.7315770372917745
+stage2_symptoms,logistic,stratified_inner,Cleveland,174,1,0.9031112947186208
+stage2_symptoms,logistic,stratified_inner,Cleveland,175,1,0.8602686471915705
+stage2_symptoms,logistic,stratified_inner,Cleveland,176,0,0.8207248379151709
+stage2_symptoms,logistic,stratified_inner,Cleveland,177,1,0.8529930645432553
+stage2_symptoms,logistic,stratified_inner,Cleveland,178,0,0.35832404463951006
+stage2_symptoms,logistic,stratified_inner,Cleveland,179,0,0.5024670517687877
+stage2_symptoms,logistic,stratified_inner,Cleveland,180,1,0.7831741278860482
+stage2_symptoms,logistic,stratified_inner,Cleveland,181,1,0.6563634639221623
+stage2_symptoms,logistic,stratified_inner,Cleveland,182,0,0.45520760111848746
+stage2_symptoms,logistic,stratified_inner,Cleveland,183,0,0.6958519989008721
+stage2_symptoms,logistic,stratified_inner,Cleveland,184,1,0.7076785216695173
+stage2_symptoms,logistic,stratified_inner,Cleveland,185,0,0.12808403140651448
+stage2_symptoms,logistic,stratified_inner,Cleveland,186,0,0.34481782258154686
+stage2_symptoms,logistic,stratified_inner,Cleveland,187,1,0.34771217963138257
+stage2_symptoms,logistic,stratified_inner,Cleveland,188,1,0.20748907081545576
+stage2_symptoms,logistic,stratified_inner,Cleveland,189,1,0.7226992840909292
+stage2_symptoms,logistic,stratified_inner,Cleveland,190,0,0.45812682824663153
+stage2_symptoms,logistic,stratified_inner,Cleveland,191,1,0.8118406177076607
+stage2_symptoms,logistic,stratified_inner,Cleveland,192,1,0.7286933884620105
+stage2_symptoms,logistic,stratified_inner,Cleveland,193,1,0.7315770372917745
+stage2_symptoms,logistic,stratified_inner,Cleveland,194,0,0.44707346847534235
+stage2_symptoms,logistic,stratified_inner,Cleveland,195,1,0.9175894829695725
+stage2_symptoms,logistic,stratified_inner,Cleveland,196,0,0.8053598230600687
+stage2_symptoms,logistic,stratified_inner,Cleveland,197,0,0.4988411991316837
+stage2_symptoms,logistic,stratified_inner,Cleveland,198,0,0.06366879496246432
+stage2_symptoms,logistic,stratified_inner,Cleveland,199,1,0.6958519989008721
+stage2_symptoms,logistic,stratified_inner,Cleveland,200,0,0.5723931260444419
+stage2_symptoms,logistic,stratified_inner,Cleveland,201,0,0.7542003678248191
+stage2_symptoms,logistic,stratified_inner,Cleveland,202,0,0.5614069081597245
+stage2_symptoms,logistic,stratified_inner,Cleveland,203,0,0.3894777986309091
+stage2_symptoms,logistic,stratified_inner,Cleveland,204,0,0.7286933884620105
+stage2_symptoms,logistic,stratified_inner,Cleveland,205,1,0.7514771968364271
+stage2_symptoms,logistic,stratified_inner,Cleveland,206,1,0.8672401935637706
+stage2_symptoms,logistic,stratified_inner,Cleveland,207,1,0.8026220094908207
+stage2_symptoms,logistic,stratified_inner,Cleveland,208,0,0.21740110679848332
+stage2_symptoms,logistic,stratified_inner,Cleveland,209,1,0.7315770372917745
+stage2_symptoms,logistic,stratified_inner,Cleveland,210,0,0.11412357921878358
+stage2_symptoms,logistic,stratified_inner,Cleveland,211,1,0.39731702032606275
+stage2_symptoms,logistic,stratified_inner,Cleveland,212,0,0.3315576392504816
+stage2_symptoms,logistic,stratified_inner,Cleveland,213,1,0.7755020708531373
+stage2_symptoms,logistic,stratified_inner,Cleveland,214,1,0.8207248379151709
+stage2_symptoms,logistic,stratified_inner,Cleveland,215,0,0.6569807987288719
+stage2_symptoms,logistic,stratified_inner,Cleveland,216,0,0.0509179232390391
+stage2_symptoms,logistic,stratified_inner,Cleveland,217,0,0.5136506537668942
+stage2_symptoms,logistic,stratified_inner,Cleveland,218,0,0.7542003678248191
+stage2_symptoms,logistic,stratified_inner,Cleveland,219,0,0.8739148913907533
+stage2_symptoms,logistic,stratified_inner,Cleveland,220,0,0.14036158924916867
+stage2_symptoms,logistic,stratified_inner,Cleveland,221,0,0.2607600773452986
+stage2_symptoms,logistic,stratified_inner,Cleveland,222,0,0.1266628580874565
+stage2_symptoms,logistic,stratified_inner,Cleveland,223,1,0.8292777895620336
+stage2_symptoms,logistic,stratified_inner,Cleveland,224,1,0.7430515558454391
+stage2_symptoms,logistic,stratified_inner,Cleveland,225,0,0.025673251045385707
+stage2_symptoms,logistic,stratified_inner,Cleveland,226,0,0.7729438492553607
+stage2_symptoms,logistic,stratified_inner,Cleveland,227,0,0.4324766402005087
+stage2_symptoms,logistic,stratified_inner,Cleveland,228,1,0.837503482737823
+stage2_symptoms,logistic,stratified_inner,Cleveland,229,1,0.912996654354334
+stage2_symptoms,logistic,stratified_inner,Cleveland,230,0,0.23857197850660497
+stage2_symptoms,logistic,stratified_inner,Cleveland,231,1,0.642878291361469
+stage2_symptoms,logistic,stratified_inner,Cleveland,232,1,0.4434585513950045
+stage2_symptoms,logistic,stratified_inner,Cleveland,233,0,0.2199013895872677
+stage2_symptoms,logistic,stratified_inner,Cleveland,234,0,0.2607600773452986
+stage2_symptoms,logistic,stratified_inner,Cleveland,235,1,0.837503482737823
+stage2_symptoms,logistic,stratified_inner,Cleveland,236,1,0.8529930645432553
+stage2_symptoms,logistic,stratified_inner,Cleveland,237,1,0.7623773369424666
+stage2_symptoms,logistic,stratified_inner,Cleveland,238,0,0.06022651907287914
+stage2_symptoms,logistic,stratified_inner,Cleveland,239,0,0.11393679521788821
+stage2_symptoms,logistic,stratified_inner,Cleveland,240,0,0.10809050126746204
+stage2_symptoms,logistic,stratified_inner,Cleveland,241,0,0.03836323230682892
+stage2_symptoms,logistic,stratified_inner,Cleveland,242,0,0.5578326026669314
+stage2_symptoms,logistic,stratified_inner,Cleveland,243,1,0.7203352898515998
+stage2_symptoms,logistic,stratified_inner,Cleveland,244,0,0.3348091350062843
+stage2_symptoms,logistic,stratified_inner,Cleveland,245,1,0.9175894829695725
+stage2_symptoms,logistic,stratified_inner,Cleveland,246,1,0.8672401935637706
+stage2_symptoms,logistic,stratified_inner,Cleveland,247,1,0.7729438492553607
+stage2_symptoms,logistic,stratified_inner,Cleveland,248,1,0.8207248379151709
+stage2_symptoms,logistic,stratified_inner,Cleveland,249,0,0.29606303296814684
+stage2_symptoms,logistic,stratified_inner,Cleveland,250,0,0.8602686471915705
+stage2_symptoms,logistic,stratified_inner,Cleveland,251,1,0.8672401935637706
+stage2_symptoms,logistic,stratified_inner,Cleveland,252,0,0.9031112947186208
+stage2_symptoms,logistic,stratified_inner,Cleveland,253,0,0.2279758757135373
+stage2_symptoms,logistic,stratified_inner,Cleveland,254,0,0.7286933884620105
+stage2_symptoms,logistic,stratified_inner,Cleveland,255,0,0.1476643545456922
+stage2_symptoms,logistic,stratified_inner,Cleveland,256,0,0.7856490504780517
+stage2_symptoms,logistic,stratified_inner,Cleveland,257,0,0.5650071999262462
+stage2_symptoms,logistic,stratified_inner,Cleveland,258,0,0.40321060927111024
+stage2_symptoms,logistic,stratified_inner,Cleveland,259,1,0.23823628781371745
+stage2_symptoms,logistic,stratified_inner,Cleveland,260,0,0.16320995224053386
+stage2_symptoms,logistic,stratified_inner,Cleveland,261,1,0.0984769140796504
+stage2_symptoms,logistic,stratified_inner,Cleveland,262,0,0.444166941269852
+stage2_symptoms,logistic,stratified_inner,Cleveland,263,0,0.37205887479373495
+stage2_symptoms,logistic,stratified_inner,Cleveland,264,1,0.8864044141068547
+stage2_symptoms,logistic,stratified_inner,Cleveland,265,1,0.7168220376059604
+stage2_symptoms,logistic,stratified_inner,Cleveland,266,1,0.8207248379151709
+stage2_symptoms,logistic,stratified_inner,Cleveland,267,1,0.5903413512120514
+stage2_symptoms,logistic,stratified_inner,Cleveland,268,1,0.6921626186090644
+stage2_symptoms,logistic,stratified_inner,Cleveland,269,0,0.34481782258154686
+stage2_symptoms,logistic,stratified_inner,Cleveland,270,1,0.8864044141068547
+stage2_symptoms,logistic,stratified_inner,Cleveland,271,0,0.912996654354334
+stage2_symptoms,logistic,stratified_inner,Cleveland,272,1,0.7623773369424666
+stage2_symptoms,logistic,stratified_inner,Cleveland,273,0,0.8228680851429264
+stage2_symptoms,logistic,stratified_inner,Cleveland,274,1,0.6958519989008721
+stage2_symptoms,logistic,stratified_inner,Cleveland,275,0,0.7547076256104525
+stage2_symptoms,logistic,stratified_inner,Cleveland,276,0,0.41799611214686766
+stage2_symptoms,logistic,stratified_inner,Cleveland,277,0,0.1266628580874565
+stage2_symptoms,logistic,stratified_inner,Cleveland,278,1,0.23823628781371745
+stage2_symptoms,logistic,stratified_inner,Cleveland,279,0,0.6825754627636076
+stage2_symptoms,logistic,stratified_inner,Cleveland,280,1,0.8602686471915705
+stage2_symptoms,logistic,stratified_inner,Cleveland,281,0,0.4144400813593807
+stage2_symptoms,logistic,stratified_inner,Cleveland,282,1,0.642878291361469
+stage2_symptoms,logistic,stratified_inner,Cleveland,283,0,0.07828325663558407
+stage2_symptoms,logistic,stratified_inner,Cleveland,284,1,0.8864044141068547
+stage2_symptoms,logistic,stratified_inner,Cleveland,285,1,0.8672401935637706
+stage2_symptoms,logistic,stratified_inner,Cleveland,286,1,0.6825754627636076
+stage2_symptoms,logistic,stratified_inner,Cleveland,287,0,0.24915537674748633
+stage2_symptoms,logistic,stratified_inner,Cleveland,288,0,0.22765063697116722
+stage2_symptoms,logistic,stratified_inner,Cleveland,289,0,0.22765063697116722
+stage2_symptoms,logistic,stratified_inner,Cleveland,290,1,0.6983362797593611
+stage2_symptoms,logistic,stratified_inner,Cleveland,291,0,0.08378341537139188
+stage2_symptoms,logistic,stratified_inner,Cleveland,292,1,0.7402474089236318
+stage2_symptoms,logistic,stratified_inner,Cleveland,293,1,0.897801449404288
+stage2_symptoms,logistic,stratified_inner,Cleveland,294,1,0.7430515558454391
+stage2_symptoms,logistic,stratified_inner,Cleveland,295,0,0.10809050126746204
+stage2_symptoms,logistic,stratified_inner,Cleveland,296,1,0.8739148913907533
+stage2_symptoms,logistic,stratified_inner,Cleveland,297,1,0.6696011283783153
+stage2_symptoms,logistic,stratified_inner,Cleveland,298,1,0.4995257441141677
+stage2_symptoms,logistic,stratified_inner,Cleveland,299,1,0.9219605840778256
+stage2_symptoms,logistic,stratified_inner,Cleveland,300,1,0.8602686471915705
+stage2_symptoms,logistic,stratified_inner,Cleveland,301,1,0.09334032778195078
+stage2_symptoms,logistic,stratified_inner,Cleveland,302,0,0.2934052180401341
+stage2_symptoms,logistic,stratified_inner,Hungary,0,0,0.1053313622003894
+stage2_symptoms,logistic,stratified_inner,Hungary,1,0,0.11036136590185242
+stage2_symptoms,logistic,stratified_inner,Hungary,2,0,0.11036136590185242
+stage2_symptoms,logistic,stratified_inner,Hungary,3,0,0.04797963263815026
+stage2_symptoms,logistic,stratified_inner,Hungary,4,0,0.026556401742503635
+stage2_symptoms,logistic,stratified_inner,Hungary,5,0,0.027942067063824155
+stage2_symptoms,logistic,stratified_inner,Hungary,6,0,0.12672907594862873
+stage2_symptoms,logistic,stratified_inner,Hungary,7,0,0.12672907594862873
+stage2_symptoms,logistic,stratified_inner,Hungary,8,0,0.23217101018267375
+stage2_symptoms,logistic,stratified_inner,Hungary,9,0,0.030927067033307644
+stage2_symptoms,logistic,stratified_inner,Hungary,10,0,0.1387608418338778
+stage2_symptoms,logistic,stratified_inner,Hungary,11,0,0.1387608418338778
+stage2_symptoms,logistic,stratified_inner,Hungary,12,0,0.06143485354215174
+stage2_symptoms,logistic,stratified_inner,Hungary,13,0,0.30203860796031773
+stage2_symptoms,logistic,stratified_inner,Hungary,14,0,0.14512828159212052
+stage2_symptoms,logistic,stratified_inner,Hungary,15,0,0.14512828159212052
+stage2_symptoms,logistic,stratified_inner,Hungary,16,0,0.15173643075860763
+stage2_symptoms,logistic,stratified_inner,Hungary,17,0,0.2612982269615082
+stage2_symptoms,logistic,stratified_inner,Hungary,18,0,0.2612982269615082
+stage2_symptoms,logistic,stratified_inner,Hungary,19,0,0.2612982269615082
+stage2_symptoms,logistic,stratified_inner,Hungary,20,0,0.0359904633523251
+stage2_symptoms,logistic,stratified_inner,Hungary,21,0,0.06875117402771731
+stage2_symptoms,logistic,stratified_inner,Hungary,22,0,0.3245290741319904
+stage2_symptoms,logistic,stratified_inner,Hungary,23,0,0.15858965090270533
+stage2_symptoms,logistic,stratified_inner,Hungary,24,0,0.2715159349884123
+stage2_symptoms,logistic,stratified_inner,Hungary,25,0,0.7080749353283419
+stage2_symptoms,logistic,stratified_inner,Hungary,26,0,0.7080749353283419
+stage2_symptoms,logistic,stratified_inner,Hungary,27,0,0.03784924139580416
+stage2_symptoms,logistic,stratified_inner,Hungary,28,0,0.16569193846556768
+stage2_symptoms,logistic,stratified_inner,Hungary,29,0,0.28198067457887904
+stage2_symptoms,logistic,stratified_inner,Hungary,30,0,0.07575597991600222
+stage2_symptoms,logistic,stratified_inner,Hungary,31,0,0.17304688022521122
+stage2_symptoms,logistic,stratified_inner,Hungary,32,0,0.17304688022521122
+stage2_symptoms,logistic,stratified_inner,Hungary,33,0,0.17304688022521122
+stage2_symptoms,logistic,stratified_inner,Hungary,34,0,0.17304688022521122
+stage2_symptoms,logistic,stratified_inner,Hungary,35,0,0.17304688022521122
+stage2_symptoms,logistic,stratified_inner,Hungary,36,0,0.29268669680880993
+stage2_symptoms,logistic,stratified_inner,Hungary,37,0,0.29268669680880993
+stage2_symptoms,logistic,stratified_inner,Hungary,38,0,0.7292116973724967
+stage2_symptoms,logistic,stratified_inner,Hungary,39,0,0.7292116973724967
+stage2_symptoms,logistic,stratified_inner,Hungary,40,0,0.1806576076632573
+stage2_symptoms,logistic,stratified_inner,Hungary,41,0,0.1806576076632573
+stage2_symptoms,logistic,stratified_inner,Hungary,42,0,0.30362731048965713
+stage2_symptoms,logistic,stratified_inner,Hungary,43,0,0.30362731048965713
+stage2_symptoms,logistic,stratified_inner,Hungary,44,0,0.30362731048965713
+stage2_symptoms,logistic,stratified_inner,Hungary,45,0,0.04399448962892597
+stage2_symptoms,logistic,stratified_inner,Hungary,46,0,0.04399448962892597
+stage2_symptoms,logistic,stratified_inner,Hungary,47,0,0.04399448962892597
+stage2_symptoms,logistic,stratified_inner,Hungary,48,0,0.18852675056017534
+stage2_symptoms,logistic,stratified_inner,Hungary,49,0,0.18852675056017534
+stage2_symptoms,logistic,stratified_inner,Hungary,50,0,0.18852675056017534
+stage2_symptoms,logistic,stratified_inner,Hungary,51,0,0.7493597801409312
+stage2_symptoms,logistic,stratified_inner,Hungary,52,0,0.08749612578238704
+stage2_symptoms,logistic,stratified_inner,Hungary,53,0,0.1966563901931709
+stage2_symptoms,logistic,stratified_inner,Hungary,54,0,0.1966563901931709
+stage2_symptoms,logistic,stratified_inner,Hungary,55,0,0.1966563901931709
+stage2_symptoms,logistic,stratified_inner,Hungary,56,0,0.3261807902059769
+stage2_symptoms,logistic,stratified_inner,Hungary,57,0,0.3261807902059769
+stage2_symptoms,logistic,stratified_inner,Hungary,58,0,0.7590517300606398
+stage2_symptoms,logistic,stratified_inner,Hungary,59,0,0.0904560568557043
+stage2_symptoms,logistic,stratified_inner,Hungary,60,0,0.048608587981568516
+stage2_symptoms,logistic,stratified_inner,Hungary,61,0,0.048608587981568516
+stage2_symptoms,logistic,stratified_inner,Hungary,62,0,0.048608587981568516
+stage2_symptoms,logistic,stratified_inner,Hungary,63,0,0.048608587981568516
+stage2_symptoms,logistic,stratified_inner,Hungary,64,0,0.048608587981568516
+stage2_symptoms,logistic,stratified_inner,Hungary,65,0,0.09176177920452334
+stage2_symptoms,logistic,stratified_inner,Hungary,66,0,0.20504801255793262
+stage2_symptoms,logistic,stratified_inner,Hungary,67,0,0.4092598024874489
+stage2_symptoms,logistic,stratified_inner,Hungary,68,0,0.2137024620812439
+stage2_symptoms,logistic,stratified_inner,Hungary,69,0,0.2137024620812439
+stage2_symptoms,logistic,stratified_inner,Hungary,70,0,0.777656533405484
+stage2_symptoms,logistic,stratified_inner,Hungary,71,0,0.053679436299304016
+stage2_symptoms,logistic,stratified_inner,Hungary,72,0,0.053679436299304016
+stage2_symptoms,logistic,stratified_inner,Hungary,73,0,0.42195838271303304
+stage2_symptoms,logistic,stratified_inner,Hungary,74,0,0.22261989633481688
+stage2_symptoms,logistic,stratified_inner,Hungary,75,0,0.3615485933227429
+stage2_symptoms,logistic,stratified_inner,Hungary,76,0,0.7865659348982543
+stage2_symptoms,logistic,stratified_inner,Hungary,77,0,0.7865659348982543
+stage2_symptoms,logistic,stratified_inner,Hungary,78,0,0.43476099840202187
+stage2_symptoms,logistic,stratified_inner,Hungary,79,0,0.23179974230034686
+stage2_symptoms,logistic,stratified_inner,Hungary,80,0,0.3737032803998697
+stage2_symptoms,logistic,stratified_inner,Hungary,81,0,0.3737032803998697
+stage2_symptoms,logistic,stratified_inner,Hungary,82,0,0.7952123458712864
+stage2_symptoms,logistic,stratified_inner,Hungary,83,0,0.7952123458712864
+stage2_symptoms,logistic,stratified_inner,Hungary,84,0,0.7952123458712864
+stage2_symptoms,logistic,stratified_inner,Hungary,85,0,0.05924633351759731
+stage2_symptoms,logistic,stratified_inner,Hungary,86,0,0.11074409763226455
+stage2_symptoms,logistic,stratified_inner,Hungary,87,0,0.38228909033386843
+stage2_symptoms,logistic,stratified_inner,Hungary,88,0,0.24124065477035034
+stage2_symptoms,logistic,stratified_inner,Hungary,89,0,0.8035959455454028
+stage2_symptoms,logistic,stratified_inner,Hungary,90,0,0.06222866149975633
+stage2_symptoms,logistic,stratified_inner,Hungary,91,0,0.06222866149975633
+stage2_symptoms,logistic,stratified_inner,Hungary,92,0,0.06222866149975633
+stage2_symptoms,logistic,stratified_inner,Hungary,93,0,0.11599906811410643
+stage2_symptoms,logistic,stratified_inner,Hungary,94,0,0.4606122169849775
+stage2_symptoms,logistic,stratified_inner,Hungary,95,0,0.4606122169849775
+stage2_symptoms,logistic,stratified_inner,Hungary,96,0,0.4606122169849775
+stage2_symptoms,logistic,stratified_inner,Hungary,97,0,0.2509404774974222
+stage2_symptoms,logistic,stratified_inner,Hungary,98,0,0.2509404774974222
+stage2_symptoms,logistic,stratified_inner,Hungary,99,0,0.2509404774974222
+stage2_symptoms,logistic,stratified_inner,Hungary,100,0,0.3984834255290926
+stage2_symptoms,logistic,stratified_inner,Hungary,101,0,0.06535068466451432
+stage2_symptoms,logistic,stratified_inner,Hungary,102,0,0.06535068466451432
+stage2_symptoms,logistic,stratified_inner,Hungary,103,0,0.06535068466451432
+stage2_symptoms,logistic,stratified_inner,Hungary,104,0,0.12146933348846473
+stage2_symptoms,logistic,stratified_inner,Hungary,105,0,0.2608962077246932
+stage2_symptoms,logistic,stratified_inner,Hungary,106,0,0.4110803145388212
+stage2_symptoms,logistic,stratified_inner,Hungary,107,0,0.8195788100110009
+stage2_symptoms,logistic,stratified_inner,Hungary,108,0,0.8195788100110009
+stage2_symptoms,logistic,stratified_inner,Hungary,109,0,0.06861787930460435
+stage2_symptoms,logistic,stratified_inner,Hungary,110,0,0.4866770799314976
+stage2_symptoms,logistic,stratified_inner,Hungary,111,0,0.27110396474106535
+stage2_symptoms,logistic,stratified_inner,Hungary,112,0,0.27110396474106535
+stage2_symptoms,logistic,stratified_inner,Hungary,113,0,0.27110396474106535
+stage2_symptoms,logistic,stratified_inner,Hungary,114,0,0.8271816784157665
+stage2_symptoms,logistic,stratified_inner,Hungary,115,0,0.8271816784157665
+stage2_symptoms,logistic,stratified_inner,Hungary,116,0,0.07203582745248965
+stage2_symptoms,logistic,stratified_inner,Hungary,117,0,0.1330778331525032
+stage2_symptoms,logistic,stratified_inner,Hungary,118,0,0.1330778331525032
+stage2_symptoms,logistic,stratified_inner,Hungary,119,0,0.1330778331525032
+stage2_symptoms,logistic,stratified_inner,Hungary,120,0,0.28155896310492384
+stage2_symptoms,logistic,stratified_inner,Hungary,121,0,0.28155896310492384
+stage2_symptoms,logistic,stratified_inner,Hungary,122,0,0.8345288496527741
+stage2_symptoms,logistic,stratified_inner,Hungary,123,0,0.07561020694574845
+stage2_symptoms,logistic,stratified_inner,Hungary,124,0,0.07561020694574845
+stage2_symptoms,logistic,stratified_inner,Hungary,125,0,0.13922664923472977
+stage2_symptoms,logistic,stratified_inner,Hungary,126,0,0.5128146066274069
+stage2_symptoms,logistic,stratified_inner,Hungary,127,0,0.2922554911682597
+stage2_symptoms,logistic,stratified_inner,Hungary,128,0,0.2922554911682597
+stage2_symptoms,logistic,stratified_inner,Hungary,129,0,0.2922554911682597
+stage2_symptoms,logistic,stratified_inner,Hungary,130,0,0.4495125757796692
+stage2_symptoms,logistic,stratified_inner,Hungary,131,0,0.07934677995557818
+stage2_symptoms,logistic,stratified_inner,Hungary,132,0,0.07934677995557818
+stage2_symptoms,logistic,stratified_inner,Hungary,133,0,0.14561184999403776
+stage2_symptoms,logistic,stratified_inner,Hungary,134,0,0.3031868955084719
+stage2_symptoms,logistic,stratified_inner,Hungary,135,0,0.3031868955084719
+stage2_symptoms,logistic,stratified_inner,Hungary,136,0,0.4624823246017033
+stage2_symptoms,logistic,stratified_inner,Hungary,137,0,0.8484691388358299
+stage2_symptoms,logistic,stratified_inner,Hungary,138,0,0.8484691388358299
+stage2_symptoms,logistic,stratified_inner,Hungary,139,0,0.8484691388358299
+stage2_symptoms,logistic,stratified_inner,Hungary,140,0,0.08325137987647657
+stage2_symptoms,logistic,stratified_inner,Hungary,141,0,0.08325137987647657
+stage2_symptoms,logistic,stratified_inner,Hungary,142,0,0.08325137987647657
+stage2_symptoms,logistic,stratified_inner,Hungary,143,0,0.08325137987647657
+stage2_symptoms,logistic,stratified_inner,Hungary,144,0,0.08325137987647657
+stage2_symptoms,logistic,stratified_inner,Hungary,145,0,0.08325137987647657
+stage2_symptoms,logistic,stratified_inner,Hungary,146,0,0.08325137987647657
+stage2_symptoms,logistic,stratified_inner,Hungary,147,0,0.47157203446303914
+stage2_symptoms,logistic,stratified_inner,Hungary,148,0,0.31434557183679884
+stage2_symptoms,logistic,stratified_inner,Hungary,149,0,0.31434557183679884
+stage2_symptoms,logistic,stratified_inner,Hungary,150,0,0.31434557183679884
+stage2_symptoms,logistic,stratified_inner,Hungary,151,0,0.31434557183679884
+stage2_symptoms,logistic,stratified_inner,Hungary,152,0,0.31434557183679884
+stage2_symptoms,logistic,stratified_inner,Hungary,153,0,0.47550304694920725
+stage2_symptoms,logistic,stratified_inner,Hungary,154,0,0.47550304694920725
+stage2_symptoms,logistic,stratified_inner,Hungary,155,0,0.8550698650050592
+stage2_symptoms,logistic,stratified_inner,Hungary,156,0,0.08732989647731884
+stage2_symptoms,logistic,stratified_inner,Hungary,157,0,0.08732989647731884
+stage2_symptoms,logistic,stratified_inner,Hungary,158,0,0.08732989647731884
+stage2_symptoms,logistic,stratified_inner,Hungary,159,0,0.3257229628998969
+stage2_symptoms,logistic,stratified_inner,Hungary,160,0,0.3257229628998969
+stage2_symptoms,logistic,stratified_inner,Hungary,161,0,0.3257229628998969
+stage2_symptoms,logistic,stratified_inner,Hungary,162,0,0.4885571602060329
+stage2_symptoms,logistic,stratified_inner,Hungary,163,0,0.4885571602060329
+stage2_symptoms,logistic,stratified_inner,Hungary,164,0,0.8614300203518896
+stage2_symptoms,logistic,stratified_inner,Hungary,165,0,0.8614300203518896
+stage2_symptoms,logistic,stratified_inner,Hungary,166,0,0.1662307016653601
+stage2_symptoms,logistic,stratified_inner,Hungary,167,0,0.33730956382444727
+stage2_symptoms,logistic,stratified_inner,Hungary,168,0,0.5016269001043584
+stage2_symptoms,logistic,stratified_inner,Hungary,169,0,0.5016269001043584
+stage2_symptoms,logistic,stratified_inner,Hungary,170,0,0.8675542975947171
+stage2_symptoms,logistic,stratified_inner,Hungary,171,0,0.17135399670203202
+stage2_symptoms,logistic,stratified_inner,Hungary,172,0,0.5775452696444054
+stage2_symptoms,logistic,stratified_inner,Hungary,173,0,0.3490949352741652
+stage2_symptoms,logistic,stratified_inner,Hungary,174,0,0.36106772469493903
+stage2_symptoms,logistic,stratified_inner,Hungary,175,0,0.36106772469493903
+stage2_symptoms,logistic,stratified_inner,Hungary,176,0,0.5277418738865084
+stage2_symptoms,logistic,stratified_inner,Hungary,177,0,0.8791153448956904
+stage2_symptoms,logistic,stratified_inner,Hungary,178,0,0.10550190933712127
+stage2_symptoms,logistic,stratified_inner,Hungary,179,0,0.3732156958182845
+stage2_symptoms,logistic,stratified_inner,Hungary,180,0,0.540751542387951
+stage2_symptoms,logistic,stratified_inner,Hungary,181,0,0.540751542387951
+stage2_symptoms,logistic,stratified_inner,Hungary,182,0,0.8845627395646376
+stage2_symptoms,logistic,stratified_inner,Hungary,183,0,0.5537058999944735
+stage2_symptoms,logistic,stratified_inner,Hungary,184,0,0.6275808262814518
+stage2_symptoms,logistic,stratified_inner,Hungary,185,0,0.8948191341358681
+stage2_symptoms,logistic,stratified_inner,Hungary,186,0,0.21171367733180588
+stage2_symptoms,logistic,stratified_inner,Hungary,187,0,0.410575932646749
+stage2_symptoms,logistic,stratified_inner,Hungary,188,1,0.6393008511895651
+stage2_symptoms,logistic,stratified_inner,Hungary,189,1,0.28045961974470734
+stage2_symptoms,logistic,stratified_inner,Hungary,190,1,0.23874467300002872
+stage2_symptoms,logistic,stratified_inner,Hungary,191,1,0.14512828159212052
+stage2_symptoms,logistic,stratified_inner,Hungary,192,1,0.15173643075860763
+stage2_symptoms,logistic,stratified_inner,Hungary,193,1,0.7080749353283419
+stage2_symptoms,logistic,stratified_inner,Hungary,194,1,0.7187641754247918
+stage2_symptoms,logistic,stratified_inner,Hungary,195,1,0.7187641754247918
+stage2_symptoms,logistic,stratified_inner,Hungary,196,1,0.7187641754247918
+stage2_symptoms,logistic,stratified_inner,Hungary,197,1,0.739411818092634
+stage2_symptoms,logistic,stratified_inner,Hungary,198,1,0.7493597801409312
+stage2_symptoms,logistic,stratified_inner,Hungary,199,1,0.7493597801409312
+stage2_symptoms,logistic,stratified_inner,Hungary,200,1,0.7684846914541156
+stage2_symptoms,logistic,stratified_inner,Hungary,201,1,0.7952123458712864
+stage2_symptoms,logistic,stratified_inner,Hungary,202,1,0.7952123458712864
+stage2_symptoms,logistic,stratified_inner,Hungary,203,1,0.7952123458712864
+stage2_symptoms,logistic,stratified_inner,Hungary,204,1,0.3860195287396438
+stage2_symptoms,logistic,stratified_inner,Hungary,205,1,0.8035959455454028
+stage2_symptoms,logistic,stratified_inner,Hungary,206,1,0.8117175986325349
+stage2_symptoms,logistic,stratified_inner,Hungary,207,1,0.8117175986325349
+stage2_symptoms,logistic,stratified_inner,Hungary,208,1,0.8117175986325349
+stage2_symptoms,logistic,stratified_inner,Hungary,209,1,0.12146933348846473
+stage2_symptoms,logistic,stratified_inner,Hungary,210,1,0.4110803145388212
+stage2_symptoms,logistic,stratified_inner,Hungary,211,1,0.8195788100110009
+stage2_symptoms,logistic,stratified_inner,Hungary,212,1,0.1271604572605093
+stage2_symptoms,logistic,stratified_inner,Hungary,213,1,0.8271816784157665
+stage2_symptoms,logistic,stratified_inner,Hungary,214,1,0.49974566952838223
+stage2_symptoms,logistic,stratified_inner,Hungary,215,1,0.8416234698029708
+stage2_symptoms,logistic,stratified_inner,Hungary,216,1,0.8550698650050592
+stage2_symptoms,logistic,stratified_inner,Hungary,217,1,0.8550698650050592
+stage2_symptoms,logistic,stratified_inner,Hungary,218,1,0.8614300203518896
+stage2_symptoms,logistic,stratified_inner,Hungary,219,1,0.3490949352741652
+stage2_symptoms,logistic,stratified_inner,Hungary,220,1,0.5277418738865084
+stage2_symptoms,logistic,stratified_inner,Hungary,221,1,0.6028318325196265
+stage2_symptoms,logistic,stratified_inner,Hungary,222,1,0.8897954319842294
+stage2_symptoms,logistic,stratified_inner,Hungary,223,1,0.9042628931864304
+stage2_symptoms,logistic,stratified_inner,Hungary,224,1,0.9129412313102997
+stage2_symptoms,logistic,stratified_inner,Hungary,225,1,0.6512680895401509
+stage2_symptoms,logistic,stratified_inner,Hungary,226,1,0.7187641754247918
+stage2_symptoms,logistic,stratified_inner,Hungary,227,1,0.7292116973724967
+stage2_symptoms,logistic,stratified_inner,Hungary,228,1,0.35981341705840003
+stage2_symptoms,logistic,stratified_inner,Hungary,229,1,0.33425748664154514
+stage2_symptoms,logistic,stratified_inner,Hungary,230,1,0.7865659348982543
+stage2_symptoms,logistic,stratified_inner,Hungary,231,1,0.7952123458712864
+stage2_symptoms,logistic,stratified_inner,Hungary,232,1,0.7952123458712864
+stage2_symptoms,logistic,stratified_inner,Hungary,233,1,0.8117175986325349
+stage2_symptoms,logistic,stratified_inner,Hungary,234,1,0.8117175986325349
+stage2_symptoms,logistic,stratified_inner,Hungary,235,1,0.8117175986325349
+stage2_symptoms,logistic,stratified_inner,Hungary,236,1,0.8117175986325349
+stage2_symptoms,logistic,stratified_inner,Hungary,237,1,0.8271816784157665
+stage2_symptoms,logistic,stratified_inner,Hungary,238,1,0.8416234698029708
+stage2_symptoms,logistic,stratified_inner,Hungary,239,1,0.8416234698029708
+stage2_symptoms,logistic,stratified_inner,Hungary,240,1,0.8484691388358299
+stage2_symptoms,logistic,stratified_inner,Hungary,241,1,0.47550304694920725
+stage2_symptoms,logistic,stratified_inner,Hungary,242,1,0.8550698650050592
+stage2_symptoms,logistic,stratified_inner,Hungary,243,1,0.8550698650050592
+stage2_symptoms,logistic,stratified_inner,Hungary,244,1,0.8550698650050592
+stage2_symptoms,logistic,stratified_inner,Hungary,245,1,0.8550698650050592
+stage2_symptoms,logistic,stratified_inner,Hungary,246,1,0.8614300203518896
+stage2_symptoms,logistic,stratified_inner,Hungary,247,1,0.8675542975947171
+stage2_symptoms,logistic,stratified_inner,Hungary,248,1,0.8734476686386878
+stage2_symptoms,logistic,stratified_inner,Hungary,249,1,0.5277418738865084
+stage2_symptoms,logistic,stratified_inner,Hungary,250,1,0.8791153448956904
+stage2_symptoms,logistic,stratified_inner,Hungary,251,1,0.7493597801409312
+stage2_symptoms,logistic,stratified_inner,Hungary,252,1,0.7684846914541156
+stage2_symptoms,logistic,stratified_inner,Hungary,253,1,0.2137024620812439
+stage2_symptoms,logistic,stratified_inner,Hungary,254,1,0.777656533405484
+stage2_symptoms,logistic,stratified_inner,Hungary,255,1,0.3700201346496228
+stage2_symptoms,logistic,stratified_inner,Hungary,256,1,0.11074409763226455
+stage2_symptoms,logistic,stratified_inner,Hungary,257,1,0.4606122169849775
+stage2_symptoms,logistic,stratified_inner,Hungary,258,1,0.8195788100110009
+stage2_symptoms,logistic,stratified_inner,Hungary,259,1,0.8195788100110009
+stage2_symptoms,logistic,stratified_inner,Hungary,260,1,0.4366111071409036
+stage2_symptoms,logistic,stratified_inner,Hungary,261,1,0.8416234698029708
+stage2_symptoms,logistic,stratified_inner,Hungary,262,1,0.8416234698029708
+stage2_symptoms,logistic,stratified_inner,Hungary,263,1,0.8416234698029708
+stage2_symptoms,logistic,stratified_inner,Hungary,264,1,0.8416234698029708
+stage2_symptoms,logistic,stratified_inner,Hungary,265,1,0.4624823246017033
+stage2_symptoms,logistic,stratified_inner,Hungary,266,1,0.8484691388358299
+stage2_symptoms,logistic,stratified_inner,Hungary,267,1,0.8550698650050592
+stage2_symptoms,logistic,stratified_inner,Hungary,268,1,0.48461794231712324
+stage2_symptoms,logistic,stratified_inner,Hungary,269,1,0.3257229628998969
+stage2_symptoms,logistic,stratified_inner,Hungary,270,1,0.8614300203518896
+stage2_symptoms,logistic,stratified_inner,Hungary,271,1,0.09158825921785169
+stage2_symptoms,logistic,stratified_inner,Hungary,272,1,0.8675542975947171
+stage2_symptoms,logistic,stratified_inner,Hungary,273,1,0.8675542975947171
+stage2_symptoms,logistic,stratified_inner,Hungary,274,1,0.36106772469493903
+stage2_symptoms,logistic,stratified_inner,Hungary,275,1,0.8845627395646376
+stage2_symptoms,logistic,stratified_inner,Hungary,276,1,0.8845627395646376
+stage2_symptoms,logistic,stratified_inner,Hungary,277,1,0.9129412313102997
+stage2_symptoms,logistic,stratified_inner,Hungary,278,1,0.9170082370120335
+stage2_symptoms,logistic,stratified_inner,Hungary,279,1,0.7493597801409312
+stage2_symptoms,logistic,stratified_inner,Hungary,280,1,0.7684846914541156
+stage2_symptoms,logistic,stratified_inner,Hungary,281,1,0.777656533405484
+stage2_symptoms,logistic,stratified_inner,Hungary,282,1,0.44765123630966847
+stage2_symptoms,logistic,stratified_inner,Hungary,283,1,0.8035959455454028
+stage2_symptoms,logistic,stratified_inner,Hungary,284,1,0.8195788100110009
+stage2_symptoms,logistic,stratified_inner,Hungary,285,1,0.8195788100110009
+stage2_symptoms,logistic,stratified_inner,Hungary,286,1,0.8271816784157665
+stage2_symptoms,logistic,stratified_inner,Hungary,287,1,0.8271816784157665
+stage2_symptoms,logistic,stratified_inner,Hungary,288,1,0.8416234698029708
+stage2_symptoms,logistic,stratified_inner,Hungary,289,1,0.8416234698029708
+stage2_symptoms,logistic,stratified_inner,Hungary,290,1,0.15223809645601247
+stage2_symptoms,logistic,stratified_inner,Hungary,291,1,0.8675542975947171
+stage2_symptoms,logistic,stratified_inner,Hungary,292,1,0.10066832575348014
+stage2_symptoms,logistic,stratified_inner,Hungary,293,1,0.9129412313102997
+stage2_symptoms,logistic,stratified_inner,Switzerland,0,1,0.16226449846230723
+stage2_symptoms,logistic,stratified_inner,Switzerland,1,1,0.5311126367519197
+stage2_symptoms,logistic,stratified_inner,Switzerland,2,1,0.5462352655692686
+stage2_symptoms,logistic,stratified_inner,Switzerland,3,1,0.5612730537085234
+stage2_symptoms,logistic,stratified_inner,Switzerland,4,1,0.24745303999456505
+stage2_symptoms,logistic,stratified_inner,Switzerland,5,1,0.24745303999456505
+stage2_symptoms,logistic,stratified_inner,Switzerland,6,0,0.19879613951108424
+stage2_symptoms,logistic,stratified_inner,Switzerland,7,1,0.19879613951108424
+stage2_symptoms,logistic,stratified_inner,Switzerland,8,1,0.5909874699421646
+stage2_symptoms,logistic,stratified_inner,Switzerland,9,1,0.5909874699421646
+stage2_symptoms,logistic,stratified_inner,Switzerland,10,1,0.620051721975936
+stage2_symptoms,logistic,stratified_inner,Switzerland,11,1,0.6342810786494562
+stage2_symptoms,logistic,stratified_inner,Switzerland,12,1,0.6482798190986864
+stage2_symptoms,logistic,stratified_inner,Switzerland,13,1,0.6482798190986864
+stage2_symptoms,logistic,stratified_inner,Switzerland,14,1,0.66202824041436
+stage2_symptoms,logistic,stratified_inner,Switzerland,15,1,0.66202824041436
+stage2_symptoms,logistic,stratified_inner,Switzerland,16,1,0.66202824041436
+stage2_symptoms,logistic,stratified_inner,Switzerland,17,0,0.2753152440444447
+stage2_symptoms,logistic,stratified_inner,Switzerland,18,1,0.7015990392052922
+stage2_symptoms,logistic,stratified_inner,Switzerland,19,1,0.7015990392052922
+stage2_symptoms,logistic,stratified_inner,Switzerland,20,1,0.3002513550206509
+stage2_symptoms,logistic,stratified_inner,Switzerland,21,1,0.3002513550206509
+stage2_symptoms,logistic,stratified_inner,Switzerland,22,1,0.7141821563956996
+stage2_symptoms,logistic,stratified_inner,Switzerland,23,1,0.7141821563956996
+stage2_symptoms,logistic,stratified_inner,Switzerland,24,1,0.726441551571316
+stage2_symptoms,logistic,stratified_inner,Switzerland,25,1,0.4056614565345072
+stage2_symptoms,logistic,stratified_inner,Switzerland,26,1,0.7499529672489402
+stage2_symptoms,logistic,stratified_inner,Switzerland,27,1,0.7499529672489402
+stage2_symptoms,logistic,stratified_inner,Switzerland,28,1,0.7499529672489402
+stage2_symptoms,logistic,stratified_inner,Switzerland,29,1,0.42041481646320406
+stage2_symptoms,logistic,stratified_inner,Switzerland,30,1,0.7611911073019437
+stage2_symptoms,logistic,stratified_inner,Switzerland,31,1,0.7611911073019437
+stage2_symptoms,logistic,stratified_inner,Switzerland,32,1,0.7611911073019437
+stage2_symptoms,logistic,stratified_inner,Switzerland,33,1,0.7611911073019437
+stage2_symptoms,logistic,stratified_inner,Switzerland,34,1,0.7611911073019437
+stage2_symptoms,logistic,stratified_inner,Switzerland,35,1,0.7611911073019437
+stage2_symptoms,logistic,stratified_inner,Switzerland,36,1,0.7720776633301196
+stage2_symptoms,logistic,stratified_inner,Switzerland,37,1,0.7720776633301196
+stage2_symptoms,logistic,stratified_inner,Switzerland,38,1,0.7720776633301196
+stage2_symptoms,logistic,stratified_inner,Switzerland,39,1,0.7720776633301196
+stage2_symptoms,logistic,stratified_inner,Switzerland,40,1,0.20947827814744527
+stage2_symptoms,logistic,stratified_inner,Switzerland,41,0,0.20947827814744527
+stage2_symptoms,logistic,stratified_inner,Switzerland,42,1,0.3820290024011239
+stage2_symptoms,logistic,stratified_inner,Switzerland,43,1,0.3820290024011239
+stage2_symptoms,logistic,stratified_inner,Switzerland,44,1,0.7826096700460385
+stage2_symptoms,logistic,stratified_inner,Switzerland,45,1,0.7826096700460385
+stage2_symptoms,logistic,stratified_inner,Switzerland,46,1,0.7826096700460385
+stage2_symptoms,logistic,stratified_inner,Switzerland,47,0,0.7826096700460385
+stage2_symptoms,logistic,stratified_inner,Switzerland,48,1,0.7927856212405074
+stage2_symptoms,logistic,stratified_inner,Switzerland,49,1,0.7927856212405074
+stage2_symptoms,logistic,stratified_inner,Switzerland,50,1,0.7927856212405074
+stage2_symptoms,logistic,stratified_inner,Switzerland,51,0,0.23034674309426226
+stage2_symptoms,logistic,stratified_inner,Switzerland,52,1,0.8026053837752092
+stage2_symptoms,logistic,stratified_inner,Switzerland,53,1,0.8026053837752092
+stage2_symptoms,logistic,stratified_inner,Switzerland,54,1,0.8026053837752092
+stage2_symptoms,logistic,stratified_inner,Switzerland,55,0,0.4259567592036396
+stage2_symptoms,logistic,stratified_inner,Switzerland,56,1,0.4259567592036396
+stage2_symptoms,logistic,stratified_inner,Switzerland,57,1,0.4259567592036396
+stage2_symptoms,logistic,stratified_inner,Switzerland,58,1,0.8120701056309864
+stage2_symptoms,logistic,stratified_inner,Switzerland,59,1,0.8120701056309864
+stage2_symptoms,logistic,stratified_inner,Switzerland,60,1,0.8120701056309864
+stage2_symptoms,logistic,stratified_inner,Switzerland,61,1,0.8120701056309864
+stage2_symptoms,logistic,stratified_inner,Switzerland,62,1,0.8120701056309864
+stage2_symptoms,logistic,stratified_inner,Switzerland,63,1,0.44090067458779725
+stage2_symptoms,logistic,stratified_inner,Switzerland,64,1,0.8211821197310936
+stage2_symptoms,logistic,stratified_inner,Switzerland,65,1,0.8211821197310936
+stage2_symptoms,logistic,stratified_inner,Switzerland,66,1,0.8211821197310936
+stage2_symptoms,logistic,stratified_inner,Switzerland,67,1,0.8211821197310936
+stage2_symptoms,logistic,stratified_inner,Switzerland,68,1,0.8211821197310936
+stage2_symptoms,logistic,stratified_inner,Switzerland,69,1,0.8299448451479442
+stage2_symptoms,logistic,stratified_inner,Switzerland,70,1,0.8299448451479442
+stage2_symptoms,logistic,stratified_inner,Switzerland,71,1,0.8299448451479442
+stage2_symptoms,logistic,stratified_inner,Switzerland,72,1,0.471085103228211
+stage2_symptoms,logistic,stratified_inner,Switzerland,73,1,0.8383626871702247
+stage2_symptoms,logistic,stratified_inner,Switzerland,74,1,0.8383626871702247
+stage2_symptoms,logistic,stratified_inner,Switzerland,75,1,0.8383626871702247
+stage2_symptoms,logistic,stratified_inner,Switzerland,76,1,0.8383626871702247
+stage2_symptoms,logistic,stratified_inner,Switzerland,77,1,0.4862710994255127
+stage2_symptoms,logistic,stratified_inner,Switzerland,78,1,0.8464409375609507
+stage2_symptoms,logistic,stratified_inner,Switzerland,79,1,0.8464409375609507
+stage2_symptoms,logistic,stratified_inner,Switzerland,80,1,0.8464409375609507
+stage2_symptoms,logistic,stratified_inner,Switzerland,81,1,0.8464409375609507
+stage2_symptoms,logistic,stratified_inner,Switzerland,82,1,0.8464409375609507
+stage2_symptoms,logistic,stratified_inner,Switzerland,83,1,0.5014824857795754
+stage2_symptoms,logistic,stratified_inner,Switzerland,84,1,0.8541856761818656
+stage2_symptoms,logistic,stratified_inner,Switzerland,85,1,0.8541856761818656
+stage2_symptoms,logistic,stratified_inner,Switzerland,86,1,0.8541856761818656
+stage2_symptoms,logistic,stratified_inner,Switzerland,87,1,0.8541856761818656
+stage2_symptoms,logistic,stratified_inner,Switzerland,88,1,0.8541856761818656
+stage2_symptoms,logistic,stratified_inner,Switzerland,89,1,0.8541856761818656
+stage2_symptoms,logistic,stratified_inner,Switzerland,90,1,0.8541856761818656
+stage2_symptoms,logistic,stratified_inner,Switzerland,91,1,0.8541856761818656
+stage2_symptoms,logistic,stratified_inner,Switzerland,92,1,0.21484147482454446
+stage2_symptoms,logistic,stratified_inner,Switzerland,93,1,0.5862252369834868
+stage2_symptoms,logistic,stratified_inner,Switzerland,94,1,0.5459466076077037
+stage2_symptoms,logistic,stratified_inner,Switzerland,95,1,0.5166911283896076
+stage2_symptoms,logistic,stratified_inner,Switzerland,96,1,0.8616036750006734
+stage2_symptoms,logistic,stratified_inner,Switzerland,97,1,0.8616036750006734
+stage2_symptoms,logistic,stratified_inner,Switzerland,98,1,0.8616036750006734
+stage2_symptoms,logistic,stratified_inner,Switzerland,99,1,0.8687023053394718
+stage2_symptoms,logistic,stratified_inner,Switzerland,100,1,0.8687023053394718
+stage2_symptoms,logistic,stratified_inner,Switzerland,101,1,0.8687023053394718
+stage2_symptoms,logistic,stratified_inner,Switzerland,102,1,0.8687023053394718
+stage2_symptoms,logistic,stratified_inner,Switzerland,103,1,0.8687023053394718
+stage2_symptoms,logistic,stratified_inner,Switzerland,104,1,0.6154076718435868
+stage2_symptoms,logistic,stratified_inner,Switzerland,105,1,0.6154076718435868
+stage2_symptoms,logistic,stratified_inner,Switzerland,106,1,0.8754894490691002
+stage2_symptoms,logistic,stratified_inner,Switzerland,107,1,0.8819734143079908
+stage2_symptoms,logistic,stratified_inner,Switzerland,108,1,0.8819734143079908
+stage2_symptoms,logistic,stratified_inner,Switzerland,109,0,0.8819734143079908
+stage2_symptoms,logistic,stratified_inner,Switzerland,110,1,0.8819734143079908
+stage2_symptoms,logistic,stratified_inner,Switzerland,111,1,0.6437825795489
+stage2_symptoms,logistic,stratified_inner,Switzerland,112,1,0.8881628560477968
+stage2_symptoms,logistic,stratified_inner,Switzerland,113,1,0.6197773354384494
+stage2_symptoms,logistic,stratified_inner,Switzerland,114,1,0.8996940838708436
+stage2_symptoms,logistic,stratified_inner,Switzerland,115,1,0.8996940838708436
+stage2_symptoms,logistic,stratified_inner,Switzerland,116,1,0.9050542740832349
+stage2_symptoms,logistic,stratified_inner,Switzerland,117,1,0.9050542740832349
+stage2_symptoms,logistic,stratified_inner,Switzerland,118,1,0.910156628056641
+stage2_symptoms,logistic,stratified_inner,Switzerland,119,1,0.910156628056641
+stage2_symptoms,logistic,stratified_inner,Switzerland,120,0,0.6627074596295254
+stage2_symptoms,logistic,stratified_inner,Switzerland,121,1,0.32211933088944666
+stage2_symptoms,logistic,stratified_inner,Switzerland,122,1,0.48749602828414157
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,0,1,0.893976024346359
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,1,0,0.7528767043466487
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,2,1,0.8777482010119599
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,3,1,0.8459759649315086
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,4,0,0.5290476038998174
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,5,0,0.5290476038998174
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,6,1,0.9037123942933621
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,7,0,0.44889108674945594
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,8,1,0.44889108674945594
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,9,1,0.26916856007482726
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,10,0,0.22914227018220779
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,11,1,0.8718815102068342
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,12,1,0.8887894162559474
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,13,1,0.48889797913531813
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,14,1,0.8594271424897295
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,15,0,0.8887894162559474
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,16,1,0.893976024346359
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,17,1,0.7722697240904357
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,18,0,0.893976024346359
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,19,0,0.8777482010119599
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,20,1,0.8657763369108711
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,21,1,0.8989482429523986
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,22,1,0.48889797913531813
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,23,0,0.6329638141976169
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,24,1,0.34665311822206507
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,25,1,0.9208160939809071
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,26,1,0.8159381298676105
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,27,1,0.8777482010119599
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,28,1,0.8528286650532853
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,29,1,0.383895361072586
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,30,1,0.8388644721806069
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,31,1,0.9469553875888753
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,32,1,0.893976024346359
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,33,1,0.383895361072586
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,34,1,0.34665311822206507
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,35,1,0.8989482429523986
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,36,1,0.8777482010119599
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,37,0,0.8777482010119599
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,38,1,0.8657763369108711
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,39,0,0.8718815102068342
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,40,1,0.46217907247684975
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,41,1,0.7108875162069745
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,42,1,0.8833821814514524
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,43,0,0.7217737935782315
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,44,1,0.8594271424897295
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,45,1,0.893976024346359
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,46,1,0.8718815102068342
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,47,0,0.8159381298676105
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,48,1,0.43567565957017035
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,49,0,0.23693220239004997
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,50,1,0.383895361072586
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,51,0,0.091827910128565
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,52,1,0.8887894162559474
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,53,0,0.22914227018220779
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,54,1,0.8314900358767854
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,55,1,0.9168203134938631
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,56,1,0.8314900358767854
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,57,1,0.44889108674945594
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,58,0,0.2907617733577792
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,59,1,0.8718815102068342
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,60,0,0.8159381298676105
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,61,1,0.8833821814514524
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,62,1,0.8594271424897295
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,63,1,0.3966440906299542
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,64,1,0.2486168226791153
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,65,1,0.5688248500339129
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,66,1,0.652667983755218
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,67,1,0.8657763369108711
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,68,1,0.9037123942933621
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,69,1,0.3019333551483692
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,70,0,0.21981587612563702
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,71,1,0.8594271424897295
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,72,0,0.6279960856845702
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,73,1,0.8388644721806069
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,74,1,0.6077334883575642
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,75,1,0.9413076607714134
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,76,1,0.417356855043049
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,77,1,0.3346200532884839
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,78,1,0.8777482010119599
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,79,1,0.6752841973593566
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,80,0,0.8657763369108711
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,81,1,0.8833821814514524
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,82,1,0.9126420269828601
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,83,1,0.8887894162559474
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,84,1,0.9037123942933621
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,85,1,0.893976024346359
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,86,1,0.9208160939809071
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,87,0,0.8159381298676105
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,88,1,0.8887894162559474
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,89,1,0.383895361072586
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,90,1,0.9413076607714134
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,91,0,0.2181072440292045
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,92,1,0.9126420269828601
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,93,1,0.8657763369108711
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,94,0,0.8777482010119599
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,95,1,0.893976024346359
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,96,0,0.17586389238382175
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,97,1,0.5897405127535722
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,98,1,0.7427736968157251
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,99,0,0.48889797913531813
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,100,1,0.5556384428508871
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,101,1,0.9037123942933621
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,102,1,0.29983172720048484
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,103,1,0.893976024346359
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,104,0,0.8989482429523986
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,105,1,0.8833821814514524
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,106,1,0.8077549157745467
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,107,1,0.8718815102068342
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,108,0,0.8459759649315086
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,109,0,0.26720769574760345
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,110,1,0.9037123942933621
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,111,0,0.2798378398380618
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,112,1,0.31119888532502943
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,113,1,0.9317714235972921
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,114,1,0.8077549157745467
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,115,1,0.8989482429523986
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,116,1,0.8459759649315086
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,117,1,0.893976024346359
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,118,1,0.8718815102068342
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,119,1,0.8528286650532853
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,120,1,0.47552100829717514
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,121,1,0.9382766129804732
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,122,1,0.8388644721806069
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,123,0,0.8594271424897295
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,124,1,0.47552100829717514
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,125,1,0.6574859388515656
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,126,1,0.5489412979294241
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,127,1,0.9246357039798562
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,128,0,0.08327375525999187
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,129,0,0.7905642296202562
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,130,1,0.29983172720048484
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,131,1,0.5767177706473728
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,132,1,0.9082748548191424
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,133,0,0.6647125209786058
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,134,1,0.8459759649315086
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,135,0,0.47552100829717514
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,136,1,0.5948895547941615
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,137,1,0.7322052220600193
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,138,0,0.3588855043369964
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,139,1,0.42255098995749196
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,140,0,0.9413076607714134
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,141,1,0.3966440906299542
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,142,1,0.42255098995749196
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,143,1,0.8989482429523986
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,144,0,0.3713042270756742
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,145,0,0.21076529065987454
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,146,0,0.8718815102068342
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,147,1,0.8459759649315086
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,148,1,0.8594271424897295
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,149,1,0.8833821814514524
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,150,0,0.7217737935782315
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,151,1,0.928285416147949
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,152,1,0.6883765708746044
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,153,1,0.8459759649315086
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,154,1,0.8528286650532853
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,155,1,0.9208160939809071
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,156,1,0.8989482429523986
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,157,1,0.9317714235972921
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,158,1,0.9208160939809071
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,159,1,0.8528286650532853
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,160,1,0.8887894162559474
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,161,1,0.9126420269828601
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,162,1,0.8594271424897295
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,163,1,0.9208160939809071
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,164,1,0.8159381298676105
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,165,1,0.7905642296202562
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,166,1,0.9208160939809071
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,167,0,0.5688248500339129
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,168,1,0.8989482429523986
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,169,1,0.23874327804864284
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,170,1,0.8314900358767854
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,171,0,0.1919378294942712
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,172,1,0.9126420269828601
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,173,1,0.6329638141976169
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,174,0,0.3019333551483692
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,175,0,0.8657763369108711
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,176,1,0.8833821814514524
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,177,1,0.8989482429523986
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,178,1,0.8657763369108711
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,179,1,0.8777482010119599
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,180,1,0.8594271424897295
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,181,0,0.383895361072586
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,182,1,0.8459759649315086
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,183,1,0.8528286650532853
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,184,0,0.8594271424897295
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,185,1,0.46217907247684975
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,186,1,0.46217907247684975
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,187,1,0.42255098995749196
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,188,1,0.9382766129804732
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,189,0,0.5556384428508871
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,190,0,0.5089133652841157
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,191,1,0.8887894162559474
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,192,1,0.8314900358767854
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,193,1,0.8887894162559474
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,194,1,0.7722697240904357
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,195,1,0.5489412979294241
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,196,0,0.5897405127535722
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,197,1,0.8459759649315086
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,198,0,0.8657763369108711
+stage2_symptoms,logistic,stratified_inner,VA Long Beach,199,1,0.2907617733577792
+stage4_exercise_test,logistic,stratified_inner,Cleveland,0,0,0.8719434164325045
+stage4_exercise_test,logistic,stratified_inner,Cleveland,1,1,0.9134969869655715
+stage4_exercise_test,logistic,stratified_inner,Cleveland,2,1,0.9254620246351182
+stage4_exercise_test,logistic,stratified_inner,Cleveland,3,0,0.5528131028935102
+stage4_exercise_test,logistic,stratified_inner,Cleveland,4,0,0.034653809649096326
+stage4_exercise_test,logistic,stratified_inner,Cleveland,5,0,0.1393932208744649
+stage4_exercise_test,logistic,stratified_inner,Cleveland,6,1,0.6392629332782789
+stage4_exercise_test,logistic,stratified_inner,Cleveland,7,0,0.5643388771706165
+stage4_exercise_test,logistic,stratified_inner,Cleveland,8,1,0.7050835486582184
+stage4_exercise_test,logistic,stratified_inner,Cleveland,9,1,0.9721261760194874
+stage4_exercise_test,logistic,stratified_inner,Cleveland,10,0,0.7430027797834015
+stage4_exercise_test,logistic,stratified_inner,Cleveland,11,0,0.06011241485475184
+stage4_exercise_test,logistic,stratified_inner,Cleveland,12,1,0.823978665867894
+stage4_exercise_test,logistic,stratified_inner,Cleveland,13,0,0.08935474110010723
+stage4_exercise_test,logistic,stratified_inner,Cleveland,14,0,0.6392028455511565
+stage4_exercise_test,logistic,stratified_inner,Cleveland,15,0,0.4708329137983081
+stage4_exercise_test,logistic,stratified_inner,Cleveland,16,1,0.2206797329869062
+stage4_exercise_test,logistic,stratified_inner,Cleveland,17,0,0.667980904279859
+stage4_exercise_test,logistic,stratified_inner,Cleveland,18,0,0.14834899800268966
+stage4_exercise_test,logistic,stratified_inner,Cleveland,19,0,0.11744634131616706
+stage4_exercise_test,logistic,stratified_inner,Cleveland,20,0,0.8259628976897214
+stage4_exercise_test,logistic,stratified_inner,Cleveland,21,0,0.3999360265568474
+stage4_exercise_test,logistic,stratified_inner,Cleveland,22,1,0.1682204918616703
+stage4_exercise_test,logistic,stratified_inner,Cleveland,23,1,0.43552633931778084
+stage4_exercise_test,logistic,stratified_inner,Cleveland,24,1,0.9138970695426792
+stage4_exercise_test,logistic,stratified_inner,Cleveland,25,0,0.25426262735777555
+stage4_exercise_test,logistic,stratified_inner,Cleveland,26,0,0.11573395529349685
+stage4_exercise_test,logistic,stratified_inner,Cleveland,27,0,0.6809569283925231
+stage4_exercise_test,logistic,stratified_inner,Cleveland,28,0,0.6104912753578515
+stage4_exercise_test,logistic,stratified_inner,Cleveland,29,1,0.8818865157008139
+stage4_exercise_test,logistic,stratified_inner,Cleveland,30,0,0.4111367963441841
+stage4_exercise_test,logistic,stratified_inner,Cleveland,31,1,0.9487804523395834
+stage4_exercise_test,logistic,stratified_inner,Cleveland,32,1,0.33790401373478407
+stage4_exercise_test,logistic,stratified_inner,Cleveland,33,0,0.7137834335843193
+stage4_exercise_test,logistic,stratified_inner,Cleveland,34,0,0.5205037198978534
+stage4_exercise_test,logistic,stratified_inner,Cleveland,35,0,0.49748729908502487
+stage4_exercise_test,logistic,stratified_inner,Cleveland,36,1,0.8966420734566725
+stage4_exercise_test,logistic,stratified_inner,Cleveland,37,1,0.8653954471061733
+stage4_exercise_test,logistic,stratified_inner,Cleveland,38,1,0.8831135837292174
+stage4_exercise_test,logistic,stratified_inner,Cleveland,39,0,0.9099048937660141
+stage4_exercise_test,logistic,stratified_inner,Cleveland,40,1,0.5362338943630574
+stage4_exercise_test,logistic,stratified_inner,Cleveland,41,0,0.7031746493076925
+stage4_exercise_test,logistic,stratified_inner,Cleveland,42,0,0.07046837787991354
+stage4_exercise_test,logistic,stratified_inner,Cleveland,43,0,0.7279584920208446
+stage4_exercise_test,logistic,stratified_inner,Cleveland,44,1,0.21962599224931778
+stage4_exercise_test,logistic,stratified_inner,Cleveland,45,1,0.4653025715299193
+stage4_exercise_test,logistic,stratified_inner,Cleveland,46,0,0.45073454366427285
+stage4_exercise_test,logistic,stratified_inner,Cleveland,47,1,0.7577205887527763
+stage4_exercise_test,logistic,stratified_inner,Cleveland,48,0,0.25212864418804143
+stage4_exercise_test,logistic,stratified_inner,Cleveland,49,0,0.7203348803759788
+stage4_exercise_test,logistic,stratified_inner,Cleveland,50,0,0.036208549940262354
+stage4_exercise_test,logistic,stratified_inner,Cleveland,51,0,0.7296384608849172
+stage4_exercise_test,logistic,stratified_inner,Cleveland,52,1,0.4008352905089954
+stage4_exercise_test,logistic,stratified_inner,Cleveland,53,0,0.05981639831336958
+stage4_exercise_test,logistic,stratified_inner,Cleveland,54,1,0.8821309570485115
+stage4_exercise_test,logistic,stratified_inner,Cleveland,55,1,0.9016424875442351
+stage4_exercise_test,logistic,stratified_inner,Cleveland,56,1,0.42035343387514007
+stage4_exercise_test,logistic,stratified_inner,Cleveland,57,1,0.4405083612180995
+stage4_exercise_test,logistic,stratified_inner,Cleveland,58,0,0.3949656912237816
+stage4_exercise_test,logistic,stratified_inner,Cleveland,59,0,0.7409151860417311
+stage4_exercise_test,logistic,stratified_inner,Cleveland,60,1,0.711782976043282
+stage4_exercise_test,logistic,stratified_inner,Cleveland,61,0,0.45784473312554946
+stage4_exercise_test,logistic,stratified_inner,Cleveland,62,1,0.9041869900592189
+stage4_exercise_test,logistic,stratified_inner,Cleveland,63,0,0.27497031374270076
+stage4_exercise_test,logistic,stratified_inner,Cleveland,64,1,0.8210251302217315
+stage4_exercise_test,logistic,stratified_inner,Cleveland,65,1,0.9040277080790393
+stage4_exercise_test,logistic,stratified_inner,Cleveland,66,1,0.5727668946645025
+stage4_exercise_test,logistic,stratified_inner,Cleveland,67,0,0.3341633205412593
+stage4_exercise_test,logistic,stratified_inner,Cleveland,68,1,0.9343506237654459
+stage4_exercise_test,logistic,stratified_inner,Cleveland,69,1,0.6369351326319292
+stage4_exercise_test,logistic,stratified_inner,Cleveland,70,0,0.22868298380552857
+stage4_exercise_test,logistic,stratified_inner,Cleveland,71,1,0.8743039742553079
+stage4_exercise_test,logistic,stratified_inner,Cleveland,72,1,0.9420927357920478
+stage4_exercise_test,logistic,stratified_inner,Cleveland,73,1,0.5680659086361033
+stage4_exercise_test,logistic,stratified_inner,Cleveland,74,1,0.4034338099088477
+stage4_exercise_test,logistic,stratified_inner,Cleveland,75,0,0.13298370156078743
+stage4_exercise_test,logistic,stratified_inner,Cleveland,76,1,0.9056413851380306
+stage4_exercise_test,logistic,stratified_inner,Cleveland,77,0,0.13670325505344458
+stage4_exercise_test,logistic,stratified_inner,Cleveland,78,0,0.09074977891775415
+stage4_exercise_test,logistic,stratified_inner,Cleveland,79,1,0.8399159914283757
+stage4_exercise_test,logistic,stratified_inner,Cleveland,80,0,0.8802696769523738
+stage4_exercise_test,logistic,stratified_inner,Cleveland,81,0,0.3403560632258836
+stage4_exercise_test,logistic,stratified_inner,Cleveland,82,0,0.1388093282058092
+stage4_exercise_test,logistic,stratified_inner,Cleveland,83,1,0.889208292956113
+stage4_exercise_test,logistic,stratified_inner,Cleveland,84,0,0.09728660969851109
+stage4_exercise_test,logistic,stratified_inner,Cleveland,85,0,0.18281319591892195
+stage4_exercise_test,logistic,stratified_inner,Cleveland,86,0,0.21662385918132274
+stage4_exercise_test,logistic,stratified_inner,Cleveland,87,0,0.14317962642388413
+stage4_exercise_test,logistic,stratified_inner,Cleveland,88,0,0.24491998286538322
+stage4_exercise_test,logistic,stratified_inner,Cleveland,89,0,0.11174504333846506
+stage4_exercise_test,logistic,stratified_inner,Cleveland,90,0,0.6222931457602154
+stage4_exercise_test,logistic,stratified_inner,Cleveland,91,1,0.844018160522632
+stage4_exercise_test,logistic,stratified_inner,Cleveland,92,0,0.5966577357030184
+stage4_exercise_test,logistic,stratified_inner,Cleveland,93,0,0.18751960251296085
+stage4_exercise_test,logistic,stratified_inner,Cleveland,94,0,0.10752748452200508
+stage4_exercise_test,logistic,stratified_inner,Cleveland,95,1,0.786944049109642
+stage4_exercise_test,logistic,stratified_inner,Cleveland,96,1,0.8592996090169067
+stage4_exercise_test,logistic,stratified_inner,Cleveland,97,1,0.5070205887014689
+stage4_exercise_test,logistic,stratified_inner,Cleveland,98,0,0.16430772592885148
+stage4_exercise_test,logistic,stratified_inner,Cleveland,99,0,0.3989832070345849
+stage4_exercise_test,logistic,stratified_inner,Cleveland,100,0,0.36074551960085494
+stage4_exercise_test,logistic,stratified_inner,Cleveland,101,0,0.24867012562026677
+stage4_exercise_test,logistic,stratified_inner,Cleveland,102,0,0.22910340833322781
+stage4_exercise_test,logistic,stratified_inner,Cleveland,103,0,0.3412990373254492
+stage4_exercise_test,logistic,stratified_inner,Cleveland,104,1,0.5733633548669942
+stage4_exercise_test,logistic,stratified_inner,Cleveland,105,0,0.10976268848608095
+stage4_exercise_test,logistic,stratified_inner,Cleveland,106,1,0.8405051065153807
+stage4_exercise_test,logistic,stratified_inner,Cleveland,107,1,0.36294604927831303
+stage4_exercise_test,logistic,stratified_inner,Cleveland,108,1,0.9490428321988916
+stage4_exercise_test,logistic,stratified_inner,Cleveland,109,1,0.6973906599253372
+stage4_exercise_test,logistic,stratified_inner,Cleveland,110,1,0.6533097021913779
+stage4_exercise_test,logistic,stratified_inner,Cleveland,111,1,0.9401589714332904
+stage4_exercise_test,logistic,stratified_inner,Cleveland,112,0,0.36552877336461725
+stage4_exercise_test,logistic,stratified_inner,Cleveland,113,1,0.8542770924551889
+stage4_exercise_test,logistic,stratified_inner,Cleveland,114,1,0.38071045668202147
+stage4_exercise_test,logistic,stratified_inner,Cleveland,115,0,0.1726774678917317
+stage4_exercise_test,logistic,stratified_inner,Cleveland,116,0,0.5025049081629701
+stage4_exercise_test,logistic,stratified_inner,Cleveland,117,0,0.3147922037360204
+stage4_exercise_test,logistic,stratified_inner,Cleveland,118,1,0.9365500933403217
+stage4_exercise_test,logistic,stratified_inner,Cleveland,119,1,0.8135182031282059
+stage4_exercise_test,logistic,stratified_inner,Cleveland,120,1,0.8695887273190334
+stage4_exercise_test,logistic,stratified_inner,Cleveland,121,1,0.5372175412070552
+stage4_exercise_test,logistic,stratified_inner,Cleveland,122,0,0.733725052118757
+stage4_exercise_test,logistic,stratified_inner,Cleveland,123,1,0.9824258965698592
+stage4_exercise_test,logistic,stratified_inner,Cleveland,124,1,0.7475442021903135
+stage4_exercise_test,logistic,stratified_inner,Cleveland,125,0,0.03738242335666252
+stage4_exercise_test,logistic,stratified_inner,Cleveland,126,1,0.9493502259843303
+stage4_exercise_test,logistic,stratified_inner,Cleveland,127,1,0.9369283292677804
+stage4_exercise_test,logistic,stratified_inner,Cleveland,128,0,0.100120635499601
+stage4_exercise_test,logistic,stratified_inner,Cleveland,129,0,0.3790119516481095
+stage4_exercise_test,logistic,stratified_inner,Cleveland,130,0,0.33414997580361366
+stage4_exercise_test,logistic,stratified_inner,Cleveland,131,0,0.5671610505222939
+stage4_exercise_test,logistic,stratified_inner,Cleveland,132,0,0.04039124040447829
+stage4_exercise_test,logistic,stratified_inner,Cleveland,133,0,0.658141462223369
+stage4_exercise_test,logistic,stratified_inner,Cleveland,134,0,0.16134949102132612
+stage4_exercise_test,logistic,stratified_inner,Cleveland,135,0,0.061772597630077364
+stage4_exercise_test,logistic,stratified_inner,Cleveland,136,1,0.9717692005361993
+stage4_exercise_test,logistic,stratified_inner,Cleveland,137,1,0.24383404325291982
+stage4_exercise_test,logistic,stratified_inner,Cleveland,138,1,0.8850354958378803
+stage4_exercise_test,logistic,stratified_inner,Cleveland,139,0,0.6643913067166067
+stage4_exercise_test,logistic,stratified_inner,Cleveland,140,0,0.3267227232552212
+stage4_exercise_test,logistic,stratified_inner,Cleveland,141,1,0.4496837349353996
+stage4_exercise_test,logistic,stratified_inner,Cleveland,142,0,0.25593036360713994
+stage4_exercise_test,logistic,stratified_inner,Cleveland,143,1,0.8048254716800964
+stage4_exercise_test,logistic,stratified_inner,Cleveland,144,0,0.6106540377429436
+stage4_exercise_test,logistic,stratified_inner,Cleveland,145,1,0.29839393144374077
+stage4_exercise_test,logistic,stratified_inner,Cleveland,146,1,0.8629547301119089
+stage4_exercise_test,logistic,stratified_inner,Cleveland,147,0,0.2276938251123173
+stage4_exercise_test,logistic,stratified_inner,Cleveland,148,0,0.05765834181743688
+stage4_exercise_test,logistic,stratified_inner,Cleveland,149,0,0.1325882959501376
+stage4_exercise_test,logistic,stratified_inner,Cleveland,150,0,0.7574904563525503
+stage4_exercise_test,logistic,stratified_inner,Cleveland,151,0,0.32304684308530307
+stage4_exercise_test,logistic,stratified_inner,Cleveland,152,0,0.12257527122012261
+stage4_exercise_test,logistic,stratified_inner,Cleveland,153,1,0.8300168398857074
+stage4_exercise_test,logistic,stratified_inner,Cleveland,154,1,0.9470714021710075
+stage4_exercise_test,logistic,stratified_inner,Cleveland,155,1,0.810977003038219
+stage4_exercise_test,logistic,stratified_inner,Cleveland,156,1,0.8234700452155164
+stage4_exercise_test,logistic,stratified_inner,Cleveland,157,1,0.44063246195949796
+stage4_exercise_test,logistic,stratified_inner,Cleveland,158,1,0.6200925373776102
+stage4_exercise_test,logistic,stratified_inner,Cleveland,159,0,0.45743036516536956
+stage4_exercise_test,logistic,stratified_inner,Cleveland,160,0,0.2675715740971183
+stage4_exercise_test,logistic,stratified_inner,Cleveland,161,1,0.7849680425066823
+stage4_exercise_test,logistic,stratified_inner,Cleveland,162,0,0.26912302511319847
+stage4_exercise_test,logistic,stratified_inner,Cleveland,163,0,0.4392272395695684
+stage4_exercise_test,logistic,stratified_inner,Cleveland,164,0,0.49976214085183884
+stage4_exercise_test,logistic,stratified_inner,Cleveland,165,0,0.8144405743929493
+stage4_exercise_test,logistic,stratified_inner,Cleveland,166,0,0.31594229308808075
+stage4_exercise_test,logistic,stratified_inner,Cleveland,167,0,0.192270071538923
+stage4_exercise_test,logistic,stratified_inner,Cleveland,168,1,0.6162829041237935
+stage4_exercise_test,logistic,stratified_inner,Cleveland,169,0,0.07345537541195868
+stage4_exercise_test,logistic,stratified_inner,Cleveland,170,1,0.8983388325886974
+stage4_exercise_test,logistic,stratified_inner,Cleveland,171,0,0.8047239858789897
+stage4_exercise_test,logistic,stratified_inner,Cleveland,172,1,0.7270033767592534
+stage4_exercise_test,logistic,stratified_inner,Cleveland,173,0,0.34387163976325824
+stage4_exercise_test,logistic,stratified_inner,Cleveland,174,1,0.788191875477147
+stage4_exercise_test,logistic,stratified_inner,Cleveland,175,1,0.9350230492824644
+stage4_exercise_test,logistic,stratified_inner,Cleveland,176,0,0.8061577050524968
+stage4_exercise_test,logistic,stratified_inner,Cleveland,177,1,0.9224507101928389
+stage4_exercise_test,logistic,stratified_inner,Cleveland,178,0,0.34697144375100913
+stage4_exercise_test,logistic,stratified_inner,Cleveland,179,0,0.43241682080493227
+stage4_exercise_test,logistic,stratified_inner,Cleveland,180,1,0.5195323647796639
+stage4_exercise_test,logistic,stratified_inner,Cleveland,181,1,0.6152197906398362
+stage4_exercise_test,logistic,stratified_inner,Cleveland,182,0,0.30502152582673187
+stage4_exercise_test,logistic,stratified_inner,Cleveland,183,0,0.7952748433377794
+stage4_exercise_test,logistic,stratified_inner,Cleveland,184,1,0.2497015407584367
+stage4_exercise_test,logistic,stratified_inner,Cleveland,185,0,0.05719214892066042
+stage4_exercise_test,logistic,stratified_inner,Cleveland,186,0,0.6346354560790218
+stage4_exercise_test,logistic,stratified_inner,Cleveland,187,1,0.5225211126399336
+stage4_exercise_test,logistic,stratified_inner,Cleveland,188,1,0.0690665901732895
+stage4_exercise_test,logistic,stratified_inner,Cleveland,189,1,0.5339777707723217
+stage4_exercise_test,logistic,stratified_inner,Cleveland,190,0,0.3266008758224118
+stage4_exercise_test,logistic,stratified_inner,Cleveland,191,1,0.9514047729830216
+stage4_exercise_test,logistic,stratified_inner,Cleveland,192,1,0.9002746395084167
+stage4_exercise_test,logistic,stratified_inner,Cleveland,193,1,0.8389194445981246
+stage4_exercise_test,logistic,stratified_inner,Cleveland,194,0,0.31887600428814933
+stage4_exercise_test,logistic,stratified_inner,Cleveland,195,1,0.8681536366350265
+stage4_exercise_test,logistic,stratified_inner,Cleveland,196,0,0.7936231461516208
+stage4_exercise_test,logistic,stratified_inner,Cleveland,197,0,0.5410777740659748
+stage4_exercise_test,logistic,stratified_inner,Cleveland,198,0,0.05682803963828676
+stage4_exercise_test,logistic,stratified_inner,Cleveland,199,1,0.43549127971963264
+stage4_exercise_test,logistic,stratified_inner,Cleveland,200,0,0.2151281769872927
+stage4_exercise_test,logistic,stratified_inner,Cleveland,201,0,0.6298733244325444
+stage4_exercise_test,logistic,stratified_inner,Cleveland,202,0,0.6522171180446948
+stage4_exercise_test,logistic,stratified_inner,Cleveland,203,0,0.1961404393942412
+stage4_exercise_test,logistic,stratified_inner,Cleveland,204,0,0.5303090709563075
+stage4_exercise_test,logistic,stratified_inner,Cleveland,205,1,0.739801587613639
+stage4_exercise_test,logistic,stratified_inner,Cleveland,206,1,0.9143912952470096
+stage4_exercise_test,logistic,stratified_inner,Cleveland,207,1,0.8621954818138681
+stage4_exercise_test,logistic,stratified_inner,Cleveland,208,0,0.12980674172990805
+stage4_exercise_test,logistic,stratified_inner,Cleveland,209,1,0.7837417885332933
+stage4_exercise_test,logistic,stratified_inner,Cleveland,210,0,0.10089704545724938
+stage4_exercise_test,logistic,stratified_inner,Cleveland,211,1,0.8338995798209027
+stage4_exercise_test,logistic,stratified_inner,Cleveland,212,0,0.3554637261068103
+stage4_exercise_test,logistic,stratified_inner,Cleveland,213,1,0.9083379791727172
+stage4_exercise_test,logistic,stratified_inner,Cleveland,214,1,0.5715662712372981
+stage4_exercise_test,logistic,stratified_inner,Cleveland,215,0,0.5678277305042516
+stage4_exercise_test,logistic,stratified_inner,Cleveland,216,0,0.03845364468577965
+stage4_exercise_test,logistic,stratified_inner,Cleveland,217,0,0.5290669409178942
+stage4_exercise_test,logistic,stratified_inner,Cleveland,218,0,0.6296120089275441
+stage4_exercise_test,logistic,stratified_inner,Cleveland,219,0,0.4472913308389315
+stage4_exercise_test,logistic,stratified_inner,Cleveland,220,0,0.16216111432855293
+stage4_exercise_test,logistic,stratified_inner,Cleveland,221,0,0.08555081817631999
+stage4_exercise_test,logistic,stratified_inner,Cleveland,222,0,0.09612922984362567
+stage4_exercise_test,logistic,stratified_inner,Cleveland,223,1,0.9340377180873519
+stage4_exercise_test,logistic,stratified_inner,Cleveland,224,1,0.7571321595494893
+stage4_exercise_test,logistic,stratified_inner,Cleveland,225,0,0.030857406476857953
+stage4_exercise_test,logistic,stratified_inner,Cleveland,226,0,0.6007917921825207
+stage4_exercise_test,logistic,stratified_inner,Cleveland,227,0,0.16590646180933297
+stage4_exercise_test,logistic,stratified_inner,Cleveland,228,1,0.8505031628500629
+stage4_exercise_test,logistic,stratified_inner,Cleveland,229,1,0.8200894133786799
+stage4_exercise_test,logistic,stratified_inner,Cleveland,230,0,0.1333544617220084
+stage4_exercise_test,logistic,stratified_inner,Cleveland,231,1,0.8365108829245711
+stage4_exercise_test,logistic,stratified_inner,Cleveland,232,1,0.36198633834459154
+stage4_exercise_test,logistic,stratified_inner,Cleveland,233,0,0.16504634163898316
+stage4_exercise_test,logistic,stratified_inner,Cleveland,234,0,0.16385548351598098
+stage4_exercise_test,logistic,stratified_inner,Cleveland,235,1,0.9149224832476466
+stage4_exercise_test,logistic,stratified_inner,Cleveland,236,1,0.968953774757605
+stage4_exercise_test,logistic,stratified_inner,Cleveland,237,1,0.5119098293195397
+stage4_exercise_test,logistic,stratified_inner,Cleveland,238,0,0.05429795968607402
+stage4_exercise_test,logistic,stratified_inner,Cleveland,239,0,0.0872384250804924
+stage4_exercise_test,logistic,stratified_inner,Cleveland,240,0,0.10184366161290934
+stage4_exercise_test,logistic,stratified_inner,Cleveland,241,0,0.030955473784311988
+stage4_exercise_test,logistic,stratified_inner,Cleveland,242,0,0.28771195255883214
+stage4_exercise_test,logistic,stratified_inner,Cleveland,243,1,0.7472407850496613
+stage4_exercise_test,logistic,stratified_inner,Cleveland,244,0,0.5112190710276869
+stage4_exercise_test,logistic,stratified_inner,Cleveland,245,1,0.8744065331552309
+stage4_exercise_test,logistic,stratified_inner,Cleveland,246,1,0.6092727841515031
+stage4_exercise_test,logistic,stratified_inner,Cleveland,247,1,0.833262607582342
+stage4_exercise_test,logistic,stratified_inner,Cleveland,248,1,0.6370405647953157
+stage4_exercise_test,logistic,stratified_inner,Cleveland,249,0,0.2856328521575501
+stage4_exercise_test,logistic,stratified_inner,Cleveland,250,0,0.9243105978941907
+stage4_exercise_test,logistic,stratified_inner,Cleveland,251,1,0.8617563521975579
+stage4_exercise_test,logistic,stratified_inner,Cleveland,252,0,0.9151955330228124
+stage4_exercise_test,logistic,stratified_inner,Cleveland,253,0,0.09732766792719227
+stage4_exercise_test,logistic,stratified_inner,Cleveland,254,0,0.5927141352627107
+stage4_exercise_test,logistic,stratified_inner,Cleveland,255,0,0.14347581973198284
+stage4_exercise_test,logistic,stratified_inner,Cleveland,256,0,0.4501878405119722
+stage4_exercise_test,logistic,stratified_inner,Cleveland,257,0,0.3978778419399653
+stage4_exercise_test,logistic,stratified_inner,Cleveland,258,0,0.14125117345618
+stage4_exercise_test,logistic,stratified_inner,Cleveland,259,1,0.1582482798667292
+stage4_exercise_test,logistic,stratified_inner,Cleveland,260,0,0.17631180719888084
+stage4_exercise_test,logistic,stratified_inner,Cleveland,261,1,0.08315864114291997
+stage4_exercise_test,logistic,stratified_inner,Cleveland,262,0,0.27928469316856636
+stage4_exercise_test,logistic,stratified_inner,Cleveland,263,0,0.26955875027290255
+stage4_exercise_test,logistic,stratified_inner,Cleveland,264,1,0.9467759641793242
+stage4_exercise_test,logistic,stratified_inner,Cleveland,265,1,0.8864048229372636
+stage4_exercise_test,logistic,stratified_inner,Cleveland,266,1,0.9550437703729109
+stage4_exercise_test,logistic,stratified_inner,Cleveland,267,1,0.828120796508561
+stage4_exercise_test,logistic,stratified_inner,Cleveland,268,1,0.48877798166665776
+stage4_exercise_test,logistic,stratified_inner,Cleveland,269,0,0.32063616192252714
+stage4_exercise_test,logistic,stratified_inner,Cleveland,270,1,0.8718828367195154
+stage4_exercise_test,logistic,stratified_inner,Cleveland,271,0,0.7472262387965161
+stage4_exercise_test,logistic,stratified_inner,Cleveland,272,1,0.9005344633732268
+stage4_exercise_test,logistic,stratified_inner,Cleveland,273,0,0.7047694462695171
+stage4_exercise_test,logistic,stratified_inner,Cleveland,274,1,0.5447999626441985
+stage4_exercise_test,logistic,stratified_inner,Cleveland,275,0,0.5479075151189647
+stage4_exercise_test,logistic,stratified_inner,Cleveland,276,0,0.1657708269085905
+stage4_exercise_test,logistic,stratified_inner,Cleveland,277,0,0.1596615849997333
+stage4_exercise_test,logistic,stratified_inner,Cleveland,278,1,0.09603258675053067
+stage4_exercise_test,logistic,stratified_inner,Cleveland,279,0,0.5479830854656766
+stage4_exercise_test,logistic,stratified_inner,Cleveland,280,1,0.9206504125380546
+stage4_exercise_test,logistic,stratified_inner,Cleveland,281,0,0.25825298086542287
+stage4_exercise_test,logistic,stratified_inner,Cleveland,282,1,0.7877624326017256
+stage4_exercise_test,logistic,stratified_inner,Cleveland,283,0,0.08644713786913147
+stage4_exercise_test,logistic,stratified_inner,Cleveland,284,1,0.6510013776001924
+stage4_exercise_test,logistic,stratified_inner,Cleveland,285,1,0.8756336740604455
+stage4_exercise_test,logistic,stratified_inner,Cleveland,286,1,0.9104141554610781
+stage4_exercise_test,logistic,stratified_inner,Cleveland,287,0,0.22307405193673147
+stage4_exercise_test,logistic,stratified_inner,Cleveland,288,0,0.09238135369400459
+stage4_exercise_test,logistic,stratified_inner,Cleveland,289,0,0.20317967468024695
+stage4_exercise_test,logistic,stratified_inner,Cleveland,290,1,0.46510049358621414
+stage4_exercise_test,logistic,stratified_inner,Cleveland,291,0,0.05179974172251866
+stage4_exercise_test,logistic,stratified_inner,Cleveland,292,1,0.9434644668510515
+stage4_exercise_test,logistic,stratified_inner,Cleveland,293,1,0.9258505502395388
+stage4_exercise_test,logistic,stratified_inner,Cleveland,294,1,0.7565012281907147
+stage4_exercise_test,logistic,stratified_inner,Cleveland,295,0,0.09834562986765537
+stage4_exercise_test,logistic,stratified_inner,Cleveland,296,1,0.9192088703038693
+stage4_exercise_test,logistic,stratified_inner,Cleveland,297,1,0.7499829442058124
+stage4_exercise_test,logistic,stratified_inner,Cleveland,298,1,0.583741408430659
+stage4_exercise_test,logistic,stratified_inner,Cleveland,299,1,0.9606796190674086
+stage4_exercise_test,logistic,stratified_inner,Cleveland,300,1,0.9383802743188903
+stage4_exercise_test,logistic,stratified_inner,Cleveland,301,1,0.0413969773283354
+stage4_exercise_test,logistic,stratified_inner,Cleveland,302,0,0.2684681912787403
+stage4_exercise_test,logistic,stratified_inner,Hungary,0,0,0.08211732077716212
+stage4_exercise_test,logistic,stratified_inner,Hungary,1,0,0.07940622261714522
+stage4_exercise_test,logistic,stratified_inner,Hungary,2,0,0.13149103142534582
+stage4_exercise_test,logistic,stratified_inner,Hungary,3,0,0.04173200963579629
+stage4_exercise_test,logistic,stratified_inner,Hungary,4,0,0.02907894245007369
+stage4_exercise_test,logistic,stratified_inner,Hungary,5,0,0.024930638516081297
+stage4_exercise_test,logistic,stratified_inner,Hungary,6,0,0.05816956505508939
+stage4_exercise_test,logistic,stratified_inner,Hungary,7,0,0.09305967309685671
+stage4_exercise_test,logistic,stratified_inner,Hungary,8,0,0.06690630881790399
+stage4_exercise_test,logistic,stratified_inner,Hungary,9,0,0.023508057899847154
+stage4_exercise_test,logistic,stratified_inner,Hungary,10,0,0.1089718415694069
+stage4_exercise_test,logistic,stratified_inner,Hungary,11,0,0.09397515848680343
+stage4_exercise_test,logistic,stratified_inner,Hungary,12,0,0.03132730113355932
+stage4_exercise_test,logistic,stratified_inner,Hungary,13,0,0.21524305246705872
+stage4_exercise_test,logistic,stratified_inner,Hungary,14,0,0.06564898620488892
+stage4_exercise_test,logistic,stratified_inner,Hungary,15,0,0.09671585116768765
+stage4_exercise_test,logistic,stratified_inner,Hungary,16,0,0.08415385262727851
+stage4_exercise_test,logistic,stratified_inner,Hungary,17,0,0.10527325261112751
+stage4_exercise_test,logistic,stratified_inner,Hungary,18,0,0.10498592447988811
+stage4_exercise_test,logistic,stratified_inner,Hungary,19,0,0.14539660103641128
+stage4_exercise_test,logistic,stratified_inner,Hungary,20,0,0.04709057369322367
+stage4_exercise_test,logistic,stratified_inner,Hungary,21,0,0.059581610904859625
+stage4_exercise_test,logistic,stratified_inner,Hungary,22,0,0.13727456681217776
+stage4_exercise_test,logistic,stratified_inner,Hungary,23,0,0.22706533232574297
+stage4_exercise_test,logistic,stratified_inner,Hungary,24,0,0.16375201943359133
+stage4_exercise_test,logistic,stratified_inner,Hungary,25,0,0.35305325646526275
+stage4_exercise_test,logistic,stratified_inner,Hungary,26,0,0.35509492007180476
+stage4_exercise_test,logistic,stratified_inner,Hungary,27,0,0.15997945845458017
+stage4_exercise_test,logistic,stratified_inner,Hungary,28,0,0.11680080765870728
+stage4_exercise_test,logistic,stratified_inner,Hungary,29,0,0.1961448768864965
+stage4_exercise_test,logistic,stratified_inner,Hungary,30,0,0.03363978776348646
+stage4_exercise_test,logistic,stratified_inner,Hungary,31,0,0.3461609479972632
+stage4_exercise_test,logistic,stratified_inner,Hungary,32,0,0.3440773138800744
+stage4_exercise_test,logistic,stratified_inner,Hungary,33,0,0.1371256786009619
+stage4_exercise_test,logistic,stratified_inner,Hungary,34,0,0.2909174381567457
+stage4_exercise_test,logistic,stratified_inner,Hungary,35,0,0.31708944375019343
+stage4_exercise_test,logistic,stratified_inner,Hungary,36,0,0.08847991185633078
+stage4_exercise_test,logistic,stratified_inner,Hungary,37,0,0.2511585276161067
+stage4_exercise_test,logistic,stratified_inner,Hungary,38,0,0.45606169985030914
+stage4_exercise_test,logistic,stratified_inner,Hungary,39,0,0.4417362055249064
+stage4_exercise_test,logistic,stratified_inner,Hungary,40,0,0.12017184677860283
+stage4_exercise_test,logistic,stratified_inner,Hungary,41,0,0.09110758628813373
+stage4_exercise_test,logistic,stratified_inner,Hungary,42,0,0.1964852411398878
+stage4_exercise_test,logistic,stratified_inner,Hungary,43,0,0.11548631036856606
+stage4_exercise_test,logistic,stratified_inner,Hungary,44,0,0.16353839960096506
+stage4_exercise_test,logistic,stratified_inner,Hungary,45,0,0.04287918710575522
+stage4_exercise_test,logistic,stratified_inner,Hungary,46,0,0.030171770423320053
+stage4_exercise_test,logistic,stratified_inner,Hungary,47,0,0.042978067345336636
+stage4_exercise_test,logistic,stratified_inner,Hungary,48,0,0.0994155056963624
+stage4_exercise_test,logistic,stratified_inner,Hungary,49,0,0.08241390585990457
+stage4_exercise_test,logistic,stratified_inner,Hungary,50,0,0.13111788422152681
+stage4_exercise_test,logistic,stratified_inner,Hungary,51,0,0.44799798835305243
+stage4_exercise_test,logistic,stratified_inner,Hungary,52,0,0.06778989449772357
+stage4_exercise_test,logistic,stratified_inner,Hungary,53,0,0.13977544152653865
+stage4_exercise_test,logistic,stratified_inner,Hungary,54,0,0.12987327257119108
+stage4_exercise_test,logistic,stratified_inner,Hungary,55,0,0.17649181191481556
+stage4_exercise_test,logistic,stratified_inner,Hungary,56,0,0.4820275462308339
+stage4_exercise_test,logistic,stratified_inner,Hungary,57,0,0.25326550505491485
+stage4_exercise_test,logistic,stratified_inner,Hungary,58,0,0.3360667459408775
+stage4_exercise_test,logistic,stratified_inner,Hungary,59,0,0.05359532166710795
+stage4_exercise_test,logistic,stratified_inner,Hungary,60,0,0.03710529337667096
+stage4_exercise_test,logistic,stratified_inner,Hungary,61,0,0.03184772232424598
+stage4_exercise_test,logistic,stratified_inner,Hungary,62,0,0.028895662276307046
+stage4_exercise_test,logistic,stratified_inner,Hungary,63,0,0.06502523728094632
+stage4_exercise_test,logistic,stratified_inner,Hungary,64,0,0.056704351504583216
+stage4_exercise_test,logistic,stratified_inner,Hungary,65,0,0.07735080909439518
+stage4_exercise_test,logistic,stratified_inner,Hungary,66,0,0.18918878043189188
+stage4_exercise_test,logistic,stratified_inner,Hungary,67,0,0.32491129704567434
+stage4_exercise_test,logistic,stratified_inner,Hungary,68,0,0.2608167646146234
+stage4_exercise_test,logistic,stratified_inner,Hungary,69,0,0.1835734962892173
+stage4_exercise_test,logistic,stratified_inner,Hungary,70,0,0.3356516329445981
+stage4_exercise_test,logistic,stratified_inner,Hungary,71,0,0.03579950721704543
+stage4_exercise_test,logistic,stratified_inner,Hungary,72,0,0.07487497533767806
+stage4_exercise_test,logistic,stratified_inner,Hungary,73,0,0.21292853622903596
+stage4_exercise_test,logistic,stratified_inner,Hungary,74,0,0.28760288166303116
+stage4_exercise_test,logistic,stratified_inner,Hungary,75,0,0.4289659337780471
+stage4_exercise_test,logistic,stratified_inner,Hungary,76,0,0.514183996380253
+stage4_exercise_test,logistic,stratified_inner,Hungary,77,0,0.537334659218165
+stage4_exercise_test,logistic,stratified_inner,Hungary,78,0,0.4291252425777825
+stage4_exercise_test,logistic,stratified_inner,Hungary,79,0,0.24462023532748767
+stage4_exercise_test,logistic,stratified_inner,Hungary,80,0,0.1750822909205863
+stage4_exercise_test,logistic,stratified_inner,Hungary,81,0,0.6757390590799875
+stage4_exercise_test,logistic,stratified_inner,Hungary,82,0,0.80773333903239
+stage4_exercise_test,logistic,stratified_inner,Hungary,83,0,0.5015563393064785
+stage4_exercise_test,logistic,stratified_inner,Hungary,84,0,0.6828968093134633
+stage4_exercise_test,logistic,stratified_inner,Hungary,85,0,0.0893898007395054
+stage4_exercise_test,logistic,stratified_inner,Hungary,86,0,0.24986008552840866
+stage4_exercise_test,logistic,stratified_inner,Hungary,87,0,0.15942794443604913
+stage4_exercise_test,logistic,stratified_inner,Hungary,88,0,0.12772651276219707
+stage4_exercise_test,logistic,stratified_inner,Hungary,89,0,0.8228515097672326
+stage4_exercise_test,logistic,stratified_inner,Hungary,90,0,0.14282806703154025
+stage4_exercise_test,logistic,stratified_inner,Hungary,91,0,0.11389009501982048
+stage4_exercise_test,logistic,stratified_inner,Hungary,92,0,0.0688080112782242
+stage4_exercise_test,logistic,stratified_inner,Hungary,93,0,0.09773058602321504
+stage4_exercise_test,logistic,stratified_inner,Hungary,94,0,0.296894936093842
+stage4_exercise_test,logistic,stratified_inner,Hungary,95,0,0.34732152979158215
+stage4_exercise_test,logistic,stratified_inner,Hungary,96,0,0.6760256924867655
+stage4_exercise_test,logistic,stratified_inner,Hungary,97,0,0.3645648979651434
+stage4_exercise_test,logistic,stratified_inner,Hungary,98,0,0.1350810788636513
+stage4_exercise_test,logistic,stratified_inner,Hungary,99,0,0.25151814227485914
+stage4_exercise_test,logistic,stratified_inner,Hungary,100,0,0.20861734890277425
+stage4_exercise_test,logistic,stratified_inner,Hungary,101,0,0.067564222629604
+stage4_exercise_test,logistic,stratified_inner,Hungary,102,0,0.067564222629604
+stage4_exercise_test,logistic,stratified_inner,Hungary,103,0,0.045449106399801556
+stage4_exercise_test,logistic,stratified_inner,Hungary,104,0,0.0935233802735034
+stage4_exercise_test,logistic,stratified_inner,Hungary,105,0,0.09074375746606238
+stage4_exercise_test,logistic,stratified_inner,Hungary,106,0,0.17385849831784533
+stage4_exercise_test,logistic,stratified_inner,Hungary,107,0,0.8830428360295234
+stage4_exercise_test,logistic,stratified_inner,Hungary,108,0,0.7319119397444708
+stage4_exercise_test,logistic,stratified_inner,Hungary,109,0,0.056047709883252694
+stage4_exercise_test,logistic,stratified_inner,Hungary,110,0,0.6520986653545562
+stage4_exercise_test,logistic,stratified_inner,Hungary,111,0,0.1560293683775825
+stage4_exercise_test,logistic,stratified_inner,Hungary,112,0,0.14031305705653047
+stage4_exercise_test,logistic,stratified_inner,Hungary,113,0,0.3398895234056651
+stage4_exercise_test,logistic,stratified_inner,Hungary,114,0,0.660695580822799
+stage4_exercise_test,logistic,stratified_inner,Hungary,115,0,0.7877879523498016
+stage4_exercise_test,logistic,stratified_inner,Hungary,116,0,0.057839148696093655
+stage4_exercise_test,logistic,stratified_inner,Hungary,117,0,0.10667379128625658
+stage4_exercise_test,logistic,stratified_inner,Hungary,118,0,0.24748885668758655
+stage4_exercise_test,logistic,stratified_inner,Hungary,119,0,0.15420866569653707
+stage4_exercise_test,logistic,stratified_inner,Hungary,120,0,0.19282560124105536
+stage4_exercise_test,logistic,stratified_inner,Hungary,121,0,0.17330049021381838
+stage4_exercise_test,logistic,stratified_inner,Hungary,122,0,0.7412344962998273
+stage4_exercise_test,logistic,stratified_inner,Hungary,123,0,0.05954549505582355
+stage4_exercise_test,logistic,stratified_inner,Hungary,124,0,0.12015121320758776
+stage4_exercise_test,logistic,stratified_inner,Hungary,125,0,0.07661888816824895
+stage4_exercise_test,logistic,stratified_inner,Hungary,126,0,0.6981251256972629
+stage4_exercise_test,logistic,stratified_inner,Hungary,127,0,0.22283958149522826
+stage4_exercise_test,logistic,stratified_inner,Hungary,128,0,0.4757669704278531
+stage4_exercise_test,logistic,stratified_inner,Hungary,129,0,0.1863538228846801
+stage4_exercise_test,logistic,stratified_inner,Hungary,130,0,0.16989571616161026
+stage4_exercise_test,logistic,stratified_inner,Hungary,131,0,0.14837364604655412
+stage4_exercise_test,logistic,stratified_inner,Hungary,132,0,0.33379228627946034
+stage4_exercise_test,logistic,stratified_inner,Hungary,133,0,0.08616634179949294
+stage4_exercise_test,logistic,stratified_inner,Hungary,134,0,0.3152289702067515
+stage4_exercise_test,logistic,stratified_inner,Hungary,135,0,0.13466176047825082
+stage4_exercise_test,logistic,stratified_inner,Hungary,136,0,0.2476515719962505
+stage4_exercise_test,logistic,stratified_inner,Hungary,137,0,0.9474369511366365
+stage4_exercise_test,logistic,stratified_inner,Hungary,138,0,0.5822946092256608
+stage4_exercise_test,logistic,stratified_inner,Hungary,139,0,0.5364697857715782
+stage4_exercise_test,logistic,stratified_inner,Hungary,140,0,0.09603852361403109
+stage4_exercise_test,logistic,stratified_inner,Hungary,141,0,0.08856097718992995
+stage4_exercise_test,logistic,stratified_inner,Hungary,142,0,0.10532746960244242
+stage4_exercise_test,logistic,stratified_inner,Hungary,143,0,0.05680009309594096
+stage4_exercise_test,logistic,stratified_inner,Hungary,144,0,0.21606738552904797
+stage4_exercise_test,logistic,stratified_inner,Hungary,145,0,0.09665694495772525
+stage4_exercise_test,logistic,stratified_inner,Hungary,146,0,0.08618504209686494
+stage4_exercise_test,logistic,stratified_inner,Hungary,147,0,0.4303839863570569
+stage4_exercise_test,logistic,stratified_inner,Hungary,148,0,0.18742793349633205
+stage4_exercise_test,logistic,stratified_inner,Hungary,149,0,0.16030655391274387
+stage4_exercise_test,logistic,stratified_inner,Hungary,150,0,0.27445897328830227
+stage4_exercise_test,logistic,stratified_inner,Hungary,151,0,0.37982141494704463
+stage4_exercise_test,logistic,stratified_inner,Hungary,152,0,0.13596053598955796
+stage4_exercise_test,logistic,stratified_inner,Hungary,153,0,0.2515584873880292
+stage4_exercise_test,logistic,stratified_inner,Hungary,154,0,0.4712302339371075
+stage4_exercise_test,logistic,stratified_inner,Hungary,155,0,0.6571195626175318
+stage4_exercise_test,logistic,stratified_inner,Hungary,156,0,0.03760417136359779
+stage4_exercise_test,logistic,stratified_inner,Hungary,157,0,0.04536365509262665
+stage4_exercise_test,logistic,stratified_inner,Hungary,158,0,0.04846917585824577
+stage4_exercise_test,logistic,stratified_inner,Hungary,159,0,0.24857788768148548
+stage4_exercise_test,logistic,stratified_inner,Hungary,160,0,0.21315542697592282
+stage4_exercise_test,logistic,stratified_inner,Hungary,161,0,0.1584498832477197
+stage4_exercise_test,logistic,stratified_inner,Hungary,162,0,0.16020666854373866
+stage4_exercise_test,logistic,stratified_inner,Hungary,163,0,0.2867888328219661
+stage4_exercise_test,logistic,stratified_inner,Hungary,164,0,0.5546798229562927
+stage4_exercise_test,logistic,stratified_inner,Hungary,165,0,0.8992421173739379
+stage4_exercise_test,logistic,stratified_inner,Hungary,166,0,0.22618974545390308
+stage4_exercise_test,logistic,stratified_inner,Hungary,167,0,0.3713687588111709
+stage4_exercise_test,logistic,stratified_inner,Hungary,168,0,0.4783309098248717
+stage4_exercise_test,logistic,stratified_inner,Hungary,169,0,0.5574286122303729
+stage4_exercise_test,logistic,stratified_inner,Hungary,170,0,0.6694895524830031
+stage4_exercise_test,logistic,stratified_inner,Hungary,171,0,0.23152070452460172
+stage4_exercise_test,logistic,stratified_inner,Hungary,172,0,0.7192143343601969
+stage4_exercise_test,logistic,stratified_inner,Hungary,173,0,0.27790792176292284
+stage4_exercise_test,logistic,stratified_inner,Hungary,174,0,0.2001788209352155
+stage4_exercise_test,logistic,stratified_inner,Hungary,175,0,0.310548379878897
+stage4_exercise_test,logistic,stratified_inner,Hungary,176,0,0.24978441605916119
+stage4_exercise_test,logistic,stratified_inner,Hungary,177,0,0.7643096422530228
+stage4_exercise_test,logistic,stratified_inner,Hungary,178,0,0.18405608215103655
+stage4_exercise_test,logistic,stratified_inner,Hungary,179,0,0.1943601166773729
+stage4_exercise_test,logistic,stratified_inner,Hungary,180,0,0.6386769562442827
+stage4_exercise_test,logistic,stratified_inner,Hungary,181,0,0.5278773819696191
+stage4_exercise_test,logistic,stratified_inner,Hungary,182,0,0.7537796676760211
+stage4_exercise_test,logistic,stratified_inner,Hungary,183,0,0.298535493972388
+stage4_exercise_test,logistic,stratified_inner,Hungary,184,0,0.7247535841382121
+stage4_exercise_test,logistic,stratified_inner,Hungary,185,0,0.8410215058195485
+stage4_exercise_test,logistic,stratified_inner,Hungary,186,0,0.1983779887462802
+stage4_exercise_test,logistic,stratified_inner,Hungary,187,0,0.2685798812693359
+stage4_exercise_test,logistic,stratified_inner,Hungary,188,1,0.7247039036384411
+stage4_exercise_test,logistic,stratified_inner,Hungary,189,1,0.39436966966037784
+stage4_exercise_test,logistic,stratified_inner,Hungary,190,1,0.11538600016216669
+stage4_exercise_test,logistic,stratified_inner,Hungary,191,1,0.11127157029948129
+stage4_exercise_test,logistic,stratified_inner,Hungary,192,1,0.2705148892356358
+stage4_exercise_test,logistic,stratified_inner,Hungary,193,1,0.8594858828238757
+stage4_exercise_test,logistic,stratified_inner,Hungary,194,1,0.3643744806191706
+stage4_exercise_test,logistic,stratified_inner,Hungary,195,1,0.31940321334970195
+stage4_exercise_test,logistic,stratified_inner,Hungary,196,1,0.8817142168975265
+stage4_exercise_test,logistic,stratified_inner,Hungary,197,1,0.8695381901871659
+stage4_exercise_test,logistic,stratified_inner,Hungary,198,1,0.3167563397936721
+stage4_exercise_test,logistic,stratified_inner,Hungary,199,1,0.9379750190122684
+stage4_exercise_test,logistic,stratified_inner,Hungary,200,1,0.8951462285305105
+stage4_exercise_test,logistic,stratified_inner,Hungary,201,1,0.6825391082445245
+stage4_exercise_test,logistic,stratified_inner,Hungary,202,1,0.6038110234455288
+stage4_exercise_test,logistic,stratified_inner,Hungary,203,1,0.8346956800831724
+stage4_exercise_test,logistic,stratified_inner,Hungary,204,1,0.5566721507545903
+stage4_exercise_test,logistic,stratified_inner,Hungary,205,1,0.9325979642229716
+stage4_exercise_test,logistic,stratified_inner,Hungary,206,1,0.670761362787505
+stage4_exercise_test,logistic,stratified_inner,Hungary,207,1,0.8016170558663115
+stage4_exercise_test,logistic,stratified_inner,Hungary,208,1,0.9134922770951986
+stage4_exercise_test,logistic,stratified_inner,Hungary,209,1,0.14402254301464637
+stage4_exercise_test,logistic,stratified_inner,Hungary,210,1,0.11995020750907152
+stage4_exercise_test,logistic,stratified_inner,Hungary,211,1,0.4529041595732793
+stage4_exercise_test,logistic,stratified_inner,Hungary,212,1,0.16483704696838503
+stage4_exercise_test,logistic,stratified_inner,Hungary,213,1,0.5325216303755512
+stage4_exercise_test,logistic,stratified_inner,Hungary,214,1,0.5954965085650469
+stage4_exercise_test,logistic,stratified_inner,Hungary,215,1,0.9206757144170452
+stage4_exercise_test,logistic,stratified_inner,Hungary,216,1,0.5901707053030181
+stage4_exercise_test,logistic,stratified_inner,Hungary,217,1,0.8287837739542429
+stage4_exercise_test,logistic,stratified_inner,Hungary,218,1,0.9474583786364873
+stage4_exercise_test,logistic,stratified_inner,Hungary,219,1,0.5295367050483035
+stage4_exercise_test,logistic,stratified_inner,Hungary,220,1,0.2880230270532625
+stage4_exercise_test,logistic,stratified_inner,Hungary,221,1,0.7558447131274857
+stage4_exercise_test,logistic,stratified_inner,Hungary,222,1,0.7426440033969907
+stage4_exercise_test,logistic,stratified_inner,Hungary,223,1,0.7662182886648624
+stage4_exercise_test,logistic,stratified_inner,Hungary,224,1,0.9649974423494818
+stage4_exercise_test,logistic,stratified_inner,Hungary,225,1,0.2870968891772885
+stage4_exercise_test,logistic,stratified_inner,Hungary,226,1,0.8285266647056293
+stage4_exercise_test,logistic,stratified_inner,Hungary,227,1,0.3819131182373977
+stage4_exercise_test,logistic,stratified_inner,Hungary,228,1,0.40780306754975476
+stage4_exercise_test,logistic,stratified_inner,Hungary,229,1,0.1367186280123672
+stage4_exercise_test,logistic,stratified_inner,Hungary,230,1,0.8543717105123363
+stage4_exercise_test,logistic,stratified_inner,Hungary,231,1,0.7909165541450448
+stage4_exercise_test,logistic,stratified_inner,Hungary,232,1,0.6494467490685365
+stage4_exercise_test,logistic,stratified_inner,Hungary,233,1,0.9038285220089118
+stage4_exercise_test,logistic,stratified_inner,Hungary,234,1,0.965177545340513
+stage4_exercise_test,logistic,stratified_inner,Hungary,235,1,0.9290652837457867
+stage4_exercise_test,logistic,stratified_inner,Hungary,236,1,0.9300030679067678
+stage4_exercise_test,logistic,stratified_inner,Hungary,237,1,0.913791884091579
+stage4_exercise_test,logistic,stratified_inner,Hungary,238,1,0.5487425581937966
+stage4_exercise_test,logistic,stratified_inner,Hungary,239,1,0.9524429040139561
+stage4_exercise_test,logistic,stratified_inner,Hungary,240,1,0.8129634211794857
+stage4_exercise_test,logistic,stratified_inner,Hungary,241,1,0.5214255417625643
+stage4_exercise_test,logistic,stratified_inner,Hungary,242,1,0.9273431430938884
+stage4_exercise_test,logistic,stratified_inner,Hungary,243,1,0.8025868967425902
+stage4_exercise_test,logistic,stratified_inner,Hungary,244,1,0.8997826257199495
+stage4_exercise_test,logistic,stratified_inner,Hungary,245,1,0.9405779219990685
+stage4_exercise_test,logistic,stratified_inner,Hungary,246,1,0.898961513536006
+stage4_exercise_test,logistic,stratified_inner,Hungary,247,1,0.929501762352489
+stage4_exercise_test,logistic,stratified_inner,Hungary,248,1,0.9706318163496812
+stage4_exercise_test,logistic,stratified_inner,Hungary,249,1,0.5972923054355007
+stage4_exercise_test,logistic,stratified_inner,Hungary,250,1,0.9004412686431764
+stage4_exercise_test,logistic,stratified_inner,Hungary,251,1,0.7852062885976503
+stage4_exercise_test,logistic,stratified_inner,Hungary,252,1,0.8664449238559834
+stage4_exercise_test,logistic,stratified_inner,Hungary,253,1,0.6054572892202403
+stage4_exercise_test,logistic,stratified_inner,Hungary,254,1,0.9161107548768384
+stage4_exercise_test,logistic,stratified_inner,Hungary,255,1,0.33718492818885043
+stage4_exercise_test,logistic,stratified_inner,Hungary,256,1,0.06354026229322468
+stage4_exercise_test,logistic,stratified_inner,Hungary,257,1,0.7716732278929959
+stage4_exercise_test,logistic,stratified_inner,Hungary,258,1,0.8455379592324667
+stage4_exercise_test,logistic,stratified_inner,Hungary,259,1,0.8484802083594029
+stage4_exercise_test,logistic,stratified_inner,Hungary,260,1,0.4553481291541634
+stage4_exercise_test,logistic,stratified_inner,Hungary,261,1,0.8870736754057659
+stage4_exercise_test,logistic,stratified_inner,Hungary,262,1,0.8858399722142535
+stage4_exercise_test,logistic,stratified_inner,Hungary,263,1,0.8829655665256144
+stage4_exercise_test,logistic,stratified_inner,Hungary,264,1,0.9826752786249064
+stage4_exercise_test,logistic,stratified_inner,Hungary,265,1,0.17373198329699313
+stage4_exercise_test,logistic,stratified_inner,Hungary,266,1,0.9283587550785015
+stage4_exercise_test,logistic,stratified_inner,Hungary,267,1,0.8573881876460054
+stage4_exercise_test,logistic,stratified_inner,Hungary,268,1,0.2851471439709088
+stage4_exercise_test,logistic,stratified_inner,Hungary,269,1,0.6948563643652721
+stage4_exercise_test,logistic,stratified_inner,Hungary,270,1,0.9514985874339544
+stage4_exercise_test,logistic,stratified_inner,Hungary,271,1,0.09194418280954254
+stage4_exercise_test,logistic,stratified_inner,Hungary,272,1,0.9230827891900312
+stage4_exercise_test,logistic,stratified_inner,Hungary,273,1,0.9220269930049297
+stage4_exercise_test,logistic,stratified_inner,Hungary,274,1,0.8149526464208854
+stage4_exercise_test,logistic,stratified_inner,Hungary,275,1,0.7827193402418069
+stage4_exercise_test,logistic,stratified_inner,Hungary,276,1,0.8911123930095264
+stage4_exercise_test,logistic,stratified_inner,Hungary,277,1,0.9691062949661529
+stage4_exercise_test,logistic,stratified_inner,Hungary,278,1,0.9698458427164781
+stage4_exercise_test,logistic,stratified_inner,Hungary,279,1,0.9012036798265685
+stage4_exercise_test,logistic,stratified_inner,Hungary,280,1,0.8682520782988725
+stage4_exercise_test,logistic,stratified_inner,Hungary,281,1,0.39300613976128024
+stage4_exercise_test,logistic,stratified_inner,Hungary,282,1,0.8060297048206697
+stage4_exercise_test,logistic,stratified_inner,Hungary,283,1,0.8995622131761779
+stage4_exercise_test,logistic,stratified_inner,Hungary,284,1,0.8612272721042393
+stage4_exercise_test,logistic,stratified_inner,Hungary,285,1,0.8372231320658211
+stage4_exercise_test,logistic,stratified_inner,Hungary,286,1,0.9651095977421394
+stage4_exercise_test,logistic,stratified_inner,Hungary,287,1,0.9116013576606407
+stage4_exercise_test,logistic,stratified_inner,Hungary,288,1,0.9005327016255992
+stage4_exercise_test,logistic,stratified_inner,Hungary,289,1,0.9450815899231116
+stage4_exercise_test,logistic,stratified_inner,Hungary,290,1,0.3213664097914714
+stage4_exercise_test,logistic,stratified_inner,Hungary,291,1,0.9346792033934843
+stage4_exercise_test,logistic,stratified_inner,Hungary,292,1,0.36496621147597214
+stage4_exercise_test,logistic,stratified_inner,Hungary,293,1,0.9182810026146337
+stage4_exercise_test,logistic,stratified_inner,Switzerland,0,1,0.1286885531385626
+stage4_exercise_test,logistic,stratified_inner,Switzerland,1,1,0.5359931126390066
+stage4_exercise_test,logistic,stratified_inner,Switzerland,2,1,0.8951836168070577
+stage4_exercise_test,logistic,stratified_inner,Switzerland,3,1,0.7779123580841089
+stage4_exercise_test,logistic,stratified_inner,Switzerland,4,1,0.2948281656050501
+stage4_exercise_test,logistic,stratified_inner,Switzerland,5,1,0.09000159704892824
+stage4_exercise_test,logistic,stratified_inner,Switzerland,6,0,0.03897446359660909
+stage4_exercise_test,logistic,stratified_inner,Switzerland,7,1,0.3151863092530975
+stage4_exercise_test,logistic,stratified_inner,Switzerland,8,1,0.298847861391864
+stage4_exercise_test,logistic,stratified_inner,Switzerland,9,1,0.7503384004934148
+stage4_exercise_test,logistic,stratified_inner,Switzerland,10,1,0.29635150354525536
+stage4_exercise_test,logistic,stratified_inner,Switzerland,11,1,0.4716641948019151
+stage4_exercise_test,logistic,stratified_inner,Switzerland,12,1,0.547564891246862
+stage4_exercise_test,logistic,stratified_inner,Switzerland,13,1,0.7245986750530348
+stage4_exercise_test,logistic,stratified_inner,Switzerland,14,1,0.7392449481822708
+stage4_exercise_test,logistic,stratified_inner,Switzerland,15,1,0.843803882043302
+stage4_exercise_test,logistic,stratified_inner,Switzerland,16,1,0.6318047810305802
+stage4_exercise_test,logistic,stratified_inner,Switzerland,17,0,0.12274093695351113
+stage4_exercise_test,logistic,stratified_inner,Switzerland,18,1,0.13877737577872412
+stage4_exercise_test,logistic,stratified_inner,Switzerland,19,1,0.8564029962608531
+stage4_exercise_test,logistic,stratified_inner,Switzerland,20,1,0.35986285048267674
+stage4_exercise_test,logistic,stratified_inner,Switzerland,21,1,0.5683083838086473
+stage4_exercise_test,logistic,stratified_inner,Switzerland,22,1,0.6445453221649906
+stage4_exercise_test,logistic,stratified_inner,Switzerland,23,1,0.7087754969895913
+stage4_exercise_test,logistic,stratified_inner,Switzerland,24,1,0.47525871495316274
+stage4_exercise_test,logistic,stratified_inner,Switzerland,25,1,0.1787425951942391
+stage4_exercise_test,logistic,stratified_inner,Switzerland,26,1,0.7713930195795882
+stage4_exercise_test,logistic,stratified_inner,Switzerland,27,1,0.5556185136038879
+stage4_exercise_test,logistic,stratified_inner,Switzerland,28,1,0.801838363262573
+stage4_exercise_test,logistic,stratified_inner,Switzerland,29,1,0.5440763600169539
+stage4_exercise_test,logistic,stratified_inner,Switzerland,30,1,0.5826975174990144
+stage4_exercise_test,logistic,stratified_inner,Switzerland,31,1,0.6506737522892454
+stage4_exercise_test,logistic,stratified_inner,Switzerland,32,1,0.23716240974575956
+stage4_exercise_test,logistic,stratified_inner,Switzerland,33,1,0.34671604848384413
+stage4_exercise_test,logistic,stratified_inner,Switzerland,34,1,0.6319032578329957
+stage4_exercise_test,logistic,stratified_inner,Switzerland,35,1,0.7861458579734993
+stage4_exercise_test,logistic,stratified_inner,Switzerland,36,1,0.531489174840128
+stage4_exercise_test,logistic,stratified_inner,Switzerland,37,1,0.9116932632149984
+stage4_exercise_test,logistic,stratified_inner,Switzerland,38,1,0.8196614509361874
+stage4_exercise_test,logistic,stratified_inner,Switzerland,39,1,0.8513922362413693
+stage4_exercise_test,logistic,stratified_inner,Switzerland,40,1,0.16173400868675294
+stage4_exercise_test,logistic,stratified_inner,Switzerland,41,0,0.2837844454286244
+stage4_exercise_test,logistic,stratified_inner,Switzerland,42,1,0.21274721052490694
+stage4_exercise_test,logistic,stratified_inner,Switzerland,43,1,0.4510986499099909
+stage4_exercise_test,logistic,stratified_inner,Switzerland,44,1,0.5327666615363328
+stage4_exercise_test,logistic,stratified_inner,Switzerland,45,1,0.6726157945402078
+stage4_exercise_test,logistic,stratified_inner,Switzerland,46,1,0.8331770378798382
+stage4_exercise_test,logistic,stratified_inner,Switzerland,47,0,0.9202357598559885
+stage4_exercise_test,logistic,stratified_inner,Switzerland,48,1,0.4075520267472544
+stage4_exercise_test,logistic,stratified_inner,Switzerland,49,1,0.9596715809796046
+stage4_exercise_test,logistic,stratified_inner,Switzerland,50,1,0.7129035882113506
+stage4_exercise_test,logistic,stratified_inner,Switzerland,51,0,0.10623534655794845
+stage4_exercise_test,logistic,stratified_inner,Switzerland,52,1,0.4714234306734596
+stage4_exercise_test,logistic,stratified_inner,Switzerland,53,1,0.5325691728259211
+stage4_exercise_test,logistic,stratified_inner,Switzerland,54,1,0.6036762998915614
+stage4_exercise_test,logistic,stratified_inner,Switzerland,55,0,0.26682973515253966
+stage4_exercise_test,logistic,stratified_inner,Switzerland,56,1,0.11424982819465791
+stage4_exercise_test,logistic,stratified_inner,Switzerland,57,1,0.27857974988537715
+stage4_exercise_test,logistic,stratified_inner,Switzerland,58,1,0.409958778039366
+stage4_exercise_test,logistic,stratified_inner,Switzerland,59,1,0.7344288338478123
+stage4_exercise_test,logistic,stratified_inner,Switzerland,60,1,0.4382464051858148
+stage4_exercise_test,logistic,stratified_inner,Switzerland,61,1,0.9204887448805676
+stage4_exercise_test,logistic,stratified_inner,Switzerland,62,1,0.8876384302453321
+stage4_exercise_test,logistic,stratified_inner,Switzerland,63,1,0.2381231618368898
+stage4_exercise_test,logistic,stratified_inner,Switzerland,64,1,0.8432258389135022
+stage4_exercise_test,logistic,stratified_inner,Switzerland,65,1,0.9154912166930219
+stage4_exercise_test,logistic,stratified_inner,Switzerland,66,1,0.7762088297027198
+stage4_exercise_test,logistic,stratified_inner,Switzerland,67,1,0.9443080300016439
+stage4_exercise_test,logistic,stratified_inner,Switzerland,68,1,0.5816214800060756
+stage4_exercise_test,logistic,stratified_inner,Switzerland,69,1,0.5113342184748062
+stage4_exercise_test,logistic,stratified_inner,Switzerland,70,1,0.8784684276385547
+stage4_exercise_test,logistic,stratified_inner,Switzerland,71,1,0.7840324595262986
+stage4_exercise_test,logistic,stratified_inner,Switzerland,72,1,0.5177207886950247
+stage4_exercise_test,logistic,stratified_inner,Switzerland,73,1,0.5584788473499537
+stage4_exercise_test,logistic,stratified_inner,Switzerland,74,1,0.5413397056730397
+stage4_exercise_test,logistic,stratified_inner,Switzerland,75,1,0.8301778586939599
+stage4_exercise_test,logistic,stratified_inner,Switzerland,76,1,0.8660599184560183
+stage4_exercise_test,logistic,stratified_inner,Switzerland,77,1,0.484186145185947
+stage4_exercise_test,logistic,stratified_inner,Switzerland,78,1,0.5399318039274116
+stage4_exercise_test,logistic,stratified_inner,Switzerland,79,1,0.9100327989137691
+stage4_exercise_test,logistic,stratified_inner,Switzerland,80,1,0.8547572697498452
+stage4_exercise_test,logistic,stratified_inner,Switzerland,81,1,0.8589055506963177
+stage4_exercise_test,logistic,stratified_inner,Switzerland,82,1,0.5913205488305092
+stage4_exercise_test,logistic,stratified_inner,Switzerland,83,1,0.3684572617602124
+stage4_exercise_test,logistic,stratified_inner,Switzerland,84,1,0.8863121144395164
+stage4_exercise_test,logistic,stratified_inner,Switzerland,85,1,0.7782303604819596
+stage4_exercise_test,logistic,stratified_inner,Switzerland,86,1,0.8490828819221499
+stage4_exercise_test,logistic,stratified_inner,Switzerland,87,1,0.5900075710433736
+stage4_exercise_test,logistic,stratified_inner,Switzerland,88,1,0.911572853257926
+stage4_exercise_test,logistic,stratified_inner,Switzerland,89,1,0.8093663883822352
+stage4_exercise_test,logistic,stratified_inner,Switzerland,90,1,0.9273266416659444
+stage4_exercise_test,logistic,stratified_inner,Switzerland,91,1,0.7666456463239474
+stage4_exercise_test,logistic,stratified_inner,Switzerland,92,1,0.047817661538730426
+stage4_exercise_test,logistic,stratified_inner,Switzerland,93,1,0.7892732018307301
+stage4_exercise_test,logistic,stratified_inner,Switzerland,94,1,0.17495491475651076
+stage4_exercise_test,logistic,stratified_inner,Switzerland,95,1,0.6349323720794391
+stage4_exercise_test,logistic,stratified_inner,Switzerland,96,1,0.9612114701134005
+stage4_exercise_test,logistic,stratified_inner,Switzerland,97,1,0.832344250210659
+stage4_exercise_test,logistic,stratified_inner,Switzerland,98,1,0.8900155864470038
+stage4_exercise_test,logistic,stratified_inner,Switzerland,99,1,0.4811375510093971
+stage4_exercise_test,logistic,stratified_inner,Switzerland,100,1,0.7624355923979804
+stage4_exercise_test,logistic,stratified_inner,Switzerland,101,1,0.9484686728554877
+stage4_exercise_test,logistic,stratified_inner,Switzerland,102,1,0.8865727366134805
+stage4_exercise_test,logistic,stratified_inner,Switzerland,103,1,0.7879630642367096
+stage4_exercise_test,logistic,stratified_inner,Switzerland,104,1,0.6080107894559359
+stage4_exercise_test,logistic,stratified_inner,Switzerland,105,1,0.41971719654079226
+stage4_exercise_test,logistic,stratified_inner,Switzerland,106,1,0.9347582500505573
+stage4_exercise_test,logistic,stratified_inner,Switzerland,107,1,0.8317458486987601
+stage4_exercise_test,logistic,stratified_inner,Switzerland,108,1,0.7880992060849351
+stage4_exercise_test,logistic,stratified_inner,Switzerland,109,0,0.6165421434304574
+stage4_exercise_test,logistic,stratified_inner,Switzerland,110,1,0.7652767414125404
+stage4_exercise_test,logistic,stratified_inner,Switzerland,111,1,0.29078261333206235
+stage4_exercise_test,logistic,stratified_inner,Switzerland,112,1,0.9413289333478543
+stage4_exercise_test,logistic,stratified_inner,Switzerland,113,1,0.2770350085182348
+stage4_exercise_test,logistic,stratified_inner,Switzerland,114,1,0.7535959605952518
+stage4_exercise_test,logistic,stratified_inner,Switzerland,115,1,0.7692911433954726
+stage4_exercise_test,logistic,stratified_inner,Switzerland,116,1,0.5809889029835501
+stage4_exercise_test,logistic,stratified_inner,Switzerland,117,1,0.7671272871843622
+stage4_exercise_test,logistic,stratified_inner,Switzerland,118,1,0.8515705224041458
+stage4_exercise_test,logistic,stratified_inner,Switzerland,119,1,0.9498112526850498
+stage4_exercise_test,logistic,stratified_inner,Switzerland,120,0,0.6530056549291522
+stage4_exercise_test,logistic,stratified_inner,Switzerland,121,1,0.07657561947695697
+stage4_exercise_test,logistic,stratified_inner,Switzerland,122,1,0.34321614859204647
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,0,1,0.9663021599390862
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,1,0,0.49798160251905044
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,2,1,0.9441889938592058
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,3,1,0.8849387251852391
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,4,0,0.839303440772443
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,5,0,0.35455893639392666
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,6,1,0.8582445049145401
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,7,0,0.8445164589985906
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,8,1,0.8815707993421378
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,9,1,0.2801858597413604
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,10,0,0.1120427082329731
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,11,1,0.9601304286123383
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,12,1,0.9419135680304667
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,13,1,0.9023758978649719
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,14,1,0.9417552295903188
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,15,0,0.6818117316723209
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,16,1,0.9912285091987743
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,17,1,0.9196555554563098
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,18,0,0.9484644735757329
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,19,0,0.8780327393627028
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,20,1,0.8247626049125615
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,21,1,0.9540495383280023
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,22,1,0.5664196824919471
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,23,0,0.8971861991259258
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,24,1,0.42441905571184724
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,25,1,0.916590306354886
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,26,1,0.9767204996792591
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,27,1,0.903473143174102
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,28,1,0.9485663276947683
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,29,1,0.7711461260478324
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,30,1,0.9713282682229831
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,31,1,0.9398653477969444
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,32,1,0.9634628867050569
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,33,1,0.2750219822574589
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,34,1,0.9162521512298372
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,35,1,0.9604400390552904
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,36,1,0.9418087704153112
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,37,0,0.9375903174405975
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,38,1,0.9649390402784163
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,39,0,0.9134738012073954
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,40,1,0.8413596964333943
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,41,1,0.5490937866403724
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,42,1,0.9585261293183401
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,43,0,0.645068793554283
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,44,1,0.9529980977535627
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,45,1,0.925386998386605
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,46,1,0.9557835045083158
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,47,0,0.7445704307421881
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,48,1,0.8964179257328304
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,49,0,0.24544324341025273
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,50,1,0.8527389010889356
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,51,0,0.5756580962102568
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,52,1,0.9495685974479334
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,53,0,0.36073633141950484
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,54,1,0.7487016482027288
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,55,1,0.9805896075915156
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,56,1,0.9844194984102796
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,57,1,0.7801737582890961
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,58,0,0.8356577045239725
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,59,1,0.9351723269501349
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,60,0,0.9669074354233198
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,61,1,0.9944243729799689
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,62,1,0.9590012511938893
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,63,1,0.8309132772625609
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,64,1,0.8607060753024417
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,65,1,0.9509368798519675
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,66,1,0.6361032019712525
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,67,1,0.9846131963849742
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,68,1,0.9765501428791077
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,69,1,0.7650787444837381
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,70,0,0.7683225505616876
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,71,1,0.9233702236497351
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,72,0,0.8368856346403729
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,73,1,0.9501430462212994
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,74,1,0.7697399290775165
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,75,1,0.7818812885513586
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,76,1,0.7458235315611859
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,77,1,0.7176085076924246
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,78,1,0.9671730997587952
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,79,1,0.6959181019805738
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,80,0,0.9294433447906632
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,81,1,0.9688861065211322
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,82,1,0.8786395562099347
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,83,1,0.8987520436404706
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,84,1,0.98027224807936
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,85,1,0.9154131501402117
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,86,1,0.8578748466882749
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,87,0,0.9562691800940857
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,88,1,0.9889459477288562
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,89,1,0.8043730044121128
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,90,1,0.9743986657988751
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,91,0,0.42736833623228404
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,92,1,0.9389638640454528
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,93,1,0.592125427411557
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,94,0,0.9574151603762796
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,95,1,0.9454798821051529
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,96,0,0.7650477928793357
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,97,1,0.9516119359911411
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,98,1,0.7859211553833966
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,99,0,0.7186665492371266
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,100,1,0.2810351346284183
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,101,1,0.9474574355089129
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,102,1,0.942149389707279
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,103,1,0.799053681938246
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,104,0,0.7809042631121779
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,105,1,0.9740270868122348
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,106,1,0.8591722942359651
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,107,1,0.8483244111681101
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,108,0,0.5120028604129447
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,109,0,0.7613938620144646
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,110,1,0.9532780232948141
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,111,0,0.6905177052686953
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,112,1,0.8138909522696587
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,113,1,0.9609376974409274
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,114,1,0.9494743411728525
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,115,1,0.9528208993660798
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,116,1,0.6738538449876816
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,117,1,0.9047997465182935
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,118,1,0.9646196115848339
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,119,1,0.9783186266215579
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,120,1,0.8999317758070192
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,121,1,0.9882849634128956
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,122,1,0.9632623128733725
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,123,0,0.6712145730717246
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,124,1,0.7962453125580254
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,125,1,0.7019786058590168
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,126,1,0.8128353971301177
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,127,1,0.9841322834542304
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,128,0,0.11098216489984761
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,129,0,0.9354724867233387
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,130,1,0.12143297610466507
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,131,1,0.8412882864542325
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,132,1,0.6869169242222987
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,133,0,0.8848421483481893
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,134,1,0.8923713458385033
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,135,0,0.3455419615202753
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,136,1,0.8172671659916295
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,137,1,0.8897703928559257
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,138,0,0.9184392373458906
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,139,1,0.411028296941944
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,140,0,0.9815770880413837
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,141,1,0.8222105592058248
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,142,1,0.775093239848567
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,143,1,0.9883479003879032
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,144,0,0.7816370975511822
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,145,0,0.7173558946061726
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,146,0,0.9049993924846695
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,147,1,0.9606957893714968
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,148,1,0.9124319696514054
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,149,1,0.9406890620323712
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,150,0,0.9352469626395081
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,151,1,0.7894085188378586
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,152,1,0.9452872671233779
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,153,1,0.9696437329471704
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,154,1,0.963832298610975
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,155,1,0.9321956584934313
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,156,1,0.9065970275294674
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,157,1,0.6956063217051912
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,158,1,0.9656998374248864
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,159,1,0.9554485770930286
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,160,1,0.915857338268818
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,161,1,0.9365852120517276
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,162,1,0.987171180139478
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,163,1,0.9573409599943153
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,164,1,0.9308087246924122
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,165,1,0.6714771216004507
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,166,1,0.9066221872913159
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,167,0,0.8196426384646477
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,168,1,0.960206974273218
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,169,1,0.26353235421126353
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,170,1,0.9352218262372136
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,171,0,0.26689880022037005
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,172,1,0.9505382233606554
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,173,1,0.3907300616258881
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,174,0,0.7468992230314976
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,175,0,0.5399672592266503
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,176,1,0.9757045624411608
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,177,1,0.6316977664657951
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,178,1,0.9353085491654598
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,179,1,0.9241696418728231
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,180,1,0.6517139735525286
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,181,0,0.614883214311055
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,182,1,0.9609866447164784
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,183,1,0.9216528210392789
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,184,0,0.9441706370852646
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,185,1,0.7692005675363763
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,186,1,0.3748778234053429
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,187,1,0.411028296941944
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,188,1,0.9699539846193971
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,189,0,0.3297457878147172
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,190,0,0.5688285208759579
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,191,1,0.9792058167712808
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,192,1,0.9275270002186902
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,193,1,0.7732548591365119
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,194,1,0.46461885047393126
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,195,1,0.14024306658731828
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,196,0,0.8634023626662102
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,197,1,0.6694083577353673
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,198,0,0.951417677259471
+stage4_exercise_test,logistic,stratified_inner,VA Long Beach,199,1,0.4012870129987425

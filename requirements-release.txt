@@ -1,0 +1,14 @@
+# Python 3.11. Core versions match the frozen executed study.
+-c requirements-release.lock.txt
+numpy==2.4.6
+pandas==3.1.1
+scipy==1.17.1
+scikit-learn==1.9.1
+joblib==1.6.0
+threadpoolctl==3.8.0
+matplotlib==3.11.2
+imbalanced-learn==0.14.2
+openpyxl==3.1.5
+pytest==9.2.0
+ruff==0.17.4
+pillow==13.0.0

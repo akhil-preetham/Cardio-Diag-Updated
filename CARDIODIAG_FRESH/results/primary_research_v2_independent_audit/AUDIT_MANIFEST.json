@@ -1,0 +1,46 @@
+{
+  "audit_version": "primary_research_v2_independent_audit",
+  "generated_utc": "2026-11-13T09:51:15.614978+00:00",
+  "auditor_script": "runner\\primary_research_v2_independent_audit.py",
+  "auditor_script_sha256": "38e55a3901e9b47b80195912596f61a9c18344fe0d61be7b00467b8b08c42120",
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "pandas": "3.1.1"
+  },
+  "inputs": {
+    "runner\\primary_research_v2\\run.py": "b32c247ac3fa856864edfe758c704a7e050b4293cd92c70040b961ee0c5c2fcb",
+    "results\\primary_research_v2\\REPRODUCIBILITY_MANIFEST.json": "bfdaf27b68978c917b46eb0a62b0ee4c7587eefac3c6ad005fc22a4c2b8a508e",
+    "results\\methodology_corrections_v2\\reproducibility\\split_manifest_v2.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "results\\primary_research_v2\\OUTER_FOLD_PREDICTIONS.csv": "89fc50c6e1b2e13c258ffce68312f6e65b0db5316298dd894c7941718e15e03a",
+    "results\\primary_research_v2\\MODEL_COMPARISON_RESULTS.csv": "b02bc9bce1fb8e4a14d1cbd8dca69b0f9c08a02064c473e4c4ce5997eca95d01",
+    "results\\primary_research_v2\\CALIBRATION_RESULTS.csv": "5987beb5dec1145fabe7fadf82776bea271c15239bdc1e0263c97feca385501c",
+    "results\\primary_research_v2\\FEATURE_IMPORTANCE_RESULTS.csv": "b51f1523c69bbde28ab62295e9db276e9c0def15321578552a789e12dbe0a26b",
+    "paper\\research_v2\\RESULTS_UPDATE.md": "9666d9c15c884ecf77e8b82fbcd292cc9308927276f28713de8d55431f3f8d67",
+    "results\\primary_experiment_verification_v1\\verification_manifest.json": "54ba04c50e4921c1fadbafb109a7d475b2bd238301dba14a2b5169f69430d0be"
+  },
+  "outputs": {
+    "results\\primary_research_v2_independent_audit\\CALIBRATION_IMPLEMENTATION_AUDIT.md": "112db52eb621dd069cb56fa8bc2d84a852b020af4426d6dd4e7b18402d2bb710",
+    "results\\primary_research_v2_independent_audit\\CALIBRATION_RECOMPUTATION.csv": "ce3f7b67cb74548306d1d2f03ff98f800ddef497d47b4a6b0f8c3308bf279d43",
+    "results\\primary_research_v2_independent_audit\\CORRECTION_AND_ACCEPTANCE_DECISIONS.md": "3dcb6b0045250a899ad23a16e0af88c3b2c38504c6b9e6f0135ef235596c348d",
+    "results\\primary_research_v2_independent_audit\\EXECUTIVE_V2_AUDIT_REPORT.md": "0c774d8830b9d52aefe4a837ec238f44139cb07ca4c56555eafc81ae1c885bc4",
+    "results\\primary_research_v2_independent_audit\\FEATURE_IMPORTANCE_AUDIT.md": "4d8d72f75eed2b07590d6234747e46853d885ffd7fb3e4e5daf7738fe797b114",
+    "results\\primary_research_v2_independent_audit\\FEATURE_IMPORTANCE_STABILITY.csv": "404199be773136bbc1b16e9012b3211b8f35b2bb3cc91c7a57d9e4768599ea58",
+    "results\\primary_research_v2_independent_audit\\MANUSCRIPT_CLAIM_AUDIT.csv": "f01869a2c890ae57f08245bcbf84f5e69c11185c174cb2f8724642e8f9124397",
+    "results\\primary_research_v2_independent_audit\\METRIC_RECOMPUTATION.csv": "e83cca5161bd890b6db9036ba1188d08c7a69506bf4f591e40e2a36197a58d63",
+    "results\\primary_research_v2_independent_audit\\SPLIT_AND_LEAKAGE_AUDIT.md": "9ce01fbb4a68f4e5f6d3c8d77796f3a5178c61825b1cc98cdcc6854e3b0a71b1",
+    "results\\primary_research_v2_independent_audit\\STATISTICAL_VALIDITY_AUDIT.md": "e1f45b4290caf309d35254f09aaf9bc674de9f22b57ba06825f33bb9884aceb1",
+    "results\\primary_research_v2_independent_audit\\UNCERTAINTY_VALIDITY_AUDIT.md": "7878265613f41c4b9f1db94dc474482bf445a2247779da808abbb8129377af67"
+  },
+  "checks": {
+    "outer_manifest_equal": true,
+    "inner_manifest_equal": true,
+    "metric_rows_checked": 3150,
+    "metric_failures": 0,
+    "calibration_rows_checked": 1125,
+    "calibration_failures": 0,
+    "v2_model_training_rerun": false,
+    "historical_files_modified": false
+  },
+  "overall_classification": "requires_correction"
+}

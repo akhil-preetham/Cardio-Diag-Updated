@@ -1,0 +1,98 @@
+[
+  {
+    "endpoint": "base_gt50",
+    "arm": "raw_full_source_fit",
+    "requested_draws": 2000,
+    "single_class_draws_skipped": 0,
+    "metric_nonconvergence": {
+      "roc_auc": 0,
+      "average_precision": 0,
+      "brier_score": 0,
+      "log_loss": 0,
+      "sensitivity_at_0_5": 0,
+      "specificity_at_0_5": 0,
+      "joint_calibration_intercept": 0,
+      "joint_calibration_slope": 0
+    }
+  },
+  {
+    "endpoint": "base_gt50",
+    "arm": "source_calibrated_ensemble",
+    "requested_draws": 2000,
+    "single_class_draws_skipped": 0,
+    "metric_nonconvergence": {
+      "roc_auc": 0,
+      "average_precision": 0,
+      "brier_score": 0,
+      "log_loss": 0,
+      "sensitivity_at_0_5": 0,
+      "specificity_at_0_5": 0,
+      "joint_calibration_intercept": 0,
+      "joint_calibration_slope": 0
+    }
+  },
+  {
+    "endpoint": "exclude_ambiguous26_50",
+    "arm": "raw_full_source_fit",
+    "requested_draws": 2000,
+    "single_class_draws_skipped": 0,
+    "metric_nonconvergence": {
+      "roc_auc": 0,
+      "average_precision": 0,
+      "brier_score": 0,
+      "log_loss": 0,
+      "sensitivity_at_0_5": 0,
+      "specificity_at_0_5": 0,
+      "joint_calibration_intercept": 0,
+      "joint_calibration_slope": 0
+    }
+  },
+  {
+    "endpoint": "exclude_ambiguous26_50",
+    "arm": "source_calibrated_ensemble",
+    "requested_draws": 2000,
+    "single_class_draws_skipped": 0,
+    "metric_nonconvergence": {
+      "roc_auc": 0,
+      "average_precision": 0,
+      "brier_score": 0,
+      "log_loss": 0,
+      "sensitivity_at_0_5": 0,
+      "specificity_at_0_5": 0,
+      "joint_calibration_intercept": 0,
+      "joint_calibration_slope": 0
+    }
+  },
+  {
+    "endpoint": "upper_assignment26_50_positive",
+    "arm": "raw_full_source_fit",
+    "requested_draws": 2000,
+    "single_class_draws_skipped": 0,
+    "metric_nonconvergence": {
+      "roc_auc": 0,
+      "average_precision": 0,
+      "brier_score": 0,
+      "log_loss": 0,
+      "sensitivity_at_0_5": 0,
+      "specificity_at_0_5": 0,
+      "joint_calibration_intercept": 0,
+      "joint_calibration_slope": 0
+    }
+  },
+  {
+    "endpoint": "upper_assignment26_50_positive",
+    "arm": "source_calibrated_ensemble",
+    "requested_draws": 2000,
+    "single_class_draws_skipped": 0,
+    "metric_nonconvergence": {
+      "roc_auc": 0,
+      "average_precision": 0,
+      "brier_score": 0,
+      "log_loss": 0,
+      "sensitivity_at_0_5": 0,
+      "specificity_at_0_5": 0,
+      "joint_calibration_intercept": 0,
+      "joint_calibration_slope": 0
+    }
+  }
+]

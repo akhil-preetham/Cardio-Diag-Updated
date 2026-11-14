@@ -1,0 +1,3 @@
+# External Validation Feasibility
+
+Untouched external validation of the final five-feature Z-Alizadeh CAD model is not currently feasible. Cleveland has a compatible angiographic disease concept, but the strict model predictors Current Smoker, EX-Smoker and FH are not all available in a harmonized form. Cleveland and Statlog also have confirmed record-level overlap, so Statlog cannot be treated as an independent cohort. Other datasets have incompatible targets, modalities, or unresolved provenance. A future validation cohort must collect the same five predictors and a compatible angiographic endpoint with documented patient independence.

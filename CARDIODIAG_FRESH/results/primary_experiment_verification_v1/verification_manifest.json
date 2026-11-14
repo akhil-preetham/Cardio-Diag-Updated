@@ -1,0 +1,79 @@
+{
+  "audit_version": "primary_experiment_verification_v1",
+  "generated_utc": "2026-11-13T09:04:49.811243+00:00",
+  "script": "runner\\primary_experiment_verification_v1.py",
+  "script_sha256": "c2bda3700940f0a4dd90461a0d4a1ad1fcf20045e7c938765a117ee54ea94ec6",
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "pandas": "3.1.1",
+    "numpy": "2.4.6"
+  },
+  "inputs": {
+    "runner\\primary_experiment_verification_v1.py": "c2bda3700940f0a4dd90461a0d4a1ad1fcf20045e7c938765a117ee54ea94ec6",
+    "runner\\primary_research_v1.py": "8af0f84aaffba1f83b3de1fc4d801a15538a2e7a7dd8297aefc8a6624e6064a7",
+    "data\\interim\\validated\\z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "results\\clinical_validation_audit_v3\\Z_ALIZADEH_FEATURE_AUDIT.csv": "21d307f6632d7a8130922575919b877d3f55427ddd988f99804d3147499537b0",
+    "paper\\research_v1\\MANUSCRIPT_DRAFT.md": "fc5ba156b59653642dcc3812248e466bbcd624e9a38b2071dd0dc21788b8ec24",
+    "results\\primary_research_v1\\splits\\SPLIT_ASSIGNMENTS.csv": "1161bcd61b7743bafd3b7e4547793f409837689b9759eed7e3351c6f851019ac",
+    "results\\primary_research_v1\\predictions\\OUTER_FOLD_PREDICTIONS.csv": "225fa56fed0b2d3181249bae004ac7ea7e9ba2b40689a799061120c7322ec7e0",
+    "results\\primary_research_v1\\metrics\\MODEL_COMPARISON_RESULTS.csv": "6e054efe5b855a701a6ee0f9b5112abbd37d508714c770ea45a83f89d1935000",
+    "results\\primary_research_v1\\calibration\\CALIBRATION_RESULTS.csv": "cebdc3f293139cc2eb4cadb2ab0da6f3354cadb1facb578529c03cc22a71c622",
+    "results\\primary_research_v1\\uncertainty\\UNCERTAINTY_RESULTS.csv": "0e4d5757024414f2ae4e1ad1ec58666bdb40cfd6a0c733c1344ef4bbf02c023e",
+    "results\\primary_research_v1\\statistics\\STATISTICAL_COMPARISONS.csv": "63beed57c87e417f640c2ae96adeb817d5e3c0b7aaeced506f79fa2ffc6420ea",
+    "results\\primary_research_v1\\explainability\\FEATURE_IMPORTANCE_RESULTS.csv": "b51f1523c69bbde28ab62295e9db276e9c0def15321578552a789e12dbe0a26b"
+  },
+  "outputs": {
+    "results\\primary_experiment_verification_v1\\CALIBRATION_METHODOLOGY_AUDIT.md": "27c041688d431af84fc8fde9677ed566776edd22c338e65dbf17f2b4f90de56e",
+    "results\\primary_experiment_verification_v1\\CORRECTION_RECOMMENDATIONS.md": "637b4114a07e5dca8a93c703b22e337b814e4c6bc62ea1d835f90f03f13357b0",
+    "results\\primary_experiment_verification_v1\\EXECUTIVE_VERIFICATION_REPORT.md": "95843a96e91e68246ad311879f0ceee2c8380d8f5731f86fa7e494ea34927855",
+    "results\\primary_experiment_verification_v1\\EXPLAINABILITY_STABILITY_AUDIT.md": "7011865aaf0cff855bf3347bc33980e2fe7223d59e2c83ff3e71a4ddb78a41f4",
+    "results\\primary_experiment_verification_v1\\FEATURE_CLINICAL_VALIDITY_AUDIT.csv": "8e4da2a502fc6da9f33264906cd60c5eb5e29b1bdfa319979796cbc5d06fbda1",
+    "results\\primary_experiment_verification_v1\\MANUSCRIPT_CLAIM_VERIFICATION.csv": "5aae2c6bb4fffb6fb6b9701b80fd99ca758ddb100cb02d76303e2d7695943731",
+    "results\\primary_experiment_verification_v1\\MODEL_METRIC_RECOMPUTATION.csv": "c83751ecae035e7aa7e914a3db776b0072a6bcdb3dfe4b25fd94a112c1b79c30",
+    "results\\primary_experiment_verification_v1\\STATISTICAL_METHODS_AUDIT.md": "15f1122334f44c37eb6806951e9507f93cf5b036bbafc498cc7fc0b80016a725",
+    "results\\primary_experiment_verification_v1\\UNCERTAINTY_AND_BOOTSTRAP_AUDIT.md": "b1e85ae2942c729247786e10daccd1ce0c86b3c3b0d0475bd925b212bdee05c4",
+    "results\\primary_experiment_verification_v1\\VALIDATION_FOLD_AUDIT.csv": "bde4a5ce24943020a9edbf927637d16ccf6dfcf07b9139f614ebbb5ad4b2714e",
+    "results\\primary_experiment_verification_v1\\VALIDATION_LEAKAGE_AUDIT.md": "dd4f24510ab2d48fa028f97fa278ceb468d7d033affd7bc61d4fe87495db686c"
+  },
+  "classification": {
+    "experiment_results_modified": false,
+    "raw_data_modified": false,
+    "independent_metric_recomputation": "completed"
+  },
+  "split_summary": {
+    "repeat_count": 5,
+    "folds_per_repeat": {
+      "1": 5,
+      "2": 5,
+      "3": 5,
+      "4": 5,
+      "5": 5
+    },
+    "outer_train_test_overlaps": 0,
+    "test_coverage_violations": 0,
+    "prediction_rows": 13635,
+    "inner_assignments_saved": false,
+    "inner_assignments_reconstructible_from_source_seed_formula": true,
+    "patient_grouping": "not independently verifiable: no patient identifier is present in the Z-Alizadeh derivative"
+  },
+  "metric_recomputation": {
+    "rows_checked": 6300,
+    "mismatches": 0
+  },
+  "feature_summary": {
+    "strict_features": [
+      "Age",
+      "Sex",
+      "Current Smoker",
+      "EX-Smoker",
+      "FH"
+    ],
+    "smoking_overlap_count": 0,
+    "smoking_neither_count": 230,
+    "fh_values": [
+      0,
+      1
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+analysis,implemented,limitation
+fixed_prediction_bootstrap,True,not complete model-development uncertainty
+optimism_correction,False,not executed because nested predictions are already out-of-fold and a full bootstrap of model development would be computationally disproportionate

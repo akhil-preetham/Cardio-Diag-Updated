@@ -1,0 +1,7 @@
+feature_group,n_complete,events,non_events
+v3_five_predictor,303,216,87
+basic_risk,303,216,87
+symptoms_examination,303,216,87
+resting_ecg,303,216,87
+laboratory,303,216,87
+eligible_combined,303,216,87

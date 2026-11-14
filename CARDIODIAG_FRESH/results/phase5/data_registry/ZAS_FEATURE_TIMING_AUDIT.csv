@@ -1,0 +1,7 @@
+feature_group,features,timing_assessment,role
+ZAS V3,Age; Sex; Current Smoker; EX-Smoker; FH,frozen prediagnostic baseline,primary reference
+basic_risk,Age; Sex; DM; HTN; Current Smoker; EX-Smoker; FH,prediagnostic plausible; timing not fully documented,development experiment
+symptoms_examination,Typical Chest Pain; Dyspnea; Function Class; Atypical; Nonanginal; Exertional CP; LowTH Ang; BP; PR; Edema,presentation-stage candidate,development experiment
+resting_ecg,Q Wave; St Elevation; St Depression; Tinversion; LVH; Poor R Progression; BBB,resting ECG candidate; acquisition timing requires confirmation,development experiment
+laboratory,FBS; CR; TG; LDL; HDL; BUN; ESR; HB; K; Na; WBC; Lymph; Neut; PLT,laboratory candidate; timing and units incomplete,development experiment
+eligible_combined,basic_risk + symptoms_examination + resting_ecg + laboratory,exploratory prediagnostic composite; no echo variables,development experiment

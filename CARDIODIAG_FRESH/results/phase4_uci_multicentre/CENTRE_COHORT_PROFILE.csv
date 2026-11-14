@@ -1,0 +1,5 @@
+centre,n,events,prevalence,non_events,strict_complete_cases,exploratory_complete_cases
+Cleveland,303,139,0.45874587458745875,164,303,303
+Hungary,294,106,0.36054421768707484,188,261,261
+Switzerland,123,115,0.9349593495934959,8,47,46
+VA Long Beach,200,149,0.745,51,133,130

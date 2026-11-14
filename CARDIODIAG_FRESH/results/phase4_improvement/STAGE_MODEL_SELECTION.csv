@@ -1,0 +1,17 @@
+stage,held_out_centre,best_params,inner_best_roc_auc
+stage1_basic_risk,Cleveland,"{""model__C"": 0.1, ""model__class_weight"": null}",0.7380889519917802
+stage1_basic_risk,Hungary,"{""model__C"": 10.0, ""model__class_weight"": ""balanced""}",0.7045382618619004
+stage1_basic_risk,Switzerland,"{""model__C"": 1.0, ""model__class_weight"": null}",0.7343375153841915
+stage1_basic_risk,VA Long Beach,"{""model__C"": 10.0, ""model__class_weight"": null}",0.7223456790123457
+stage2_symptoms,Cleveland,"{""model__C"": 0.1, ""model__class_weight"": null}",0.8397481432557803
+stage2_symptoms,Hungary,"{""model__C"": 1.0, ""model__class_weight"": null}",0.8170935731966054
+stage2_symptoms,Switzerland,"{""model__C"": 1.0, ""model__class_weight"": null}",0.8364731141481495
+stage2_symptoms,VA Long Beach,"{""model__C"": 0.1, ""model__class_weight"": null}",0.8566512345679013
+stage3_resting_measurements,Cleveland,"{""model__C"": 10.0, ""model__class_weight"": null}",0.8490739085686511
+stage3_resting_measurements,Hungary,"{""model__C"": 1.0, ""model__class_weight"": ""balanced""}",0.8323607673267326
+stage3_resting_measurements,Switzerland,"{""model__C"": 0.1, ""model__class_weight"": ""balanced""}",0.8355218940261373
+stage3_resting_measurements,VA Long Beach,"{""model__C"": 0.1, ""model__class_weight"": null}",0.8665740740740742
+stage4_exercise_test,Cleveland,"{""model__C"": 0.1, ""model__class_weight"": null}",0.884705832034768
+stage4_exercise_test,Hungary,"{""model__C"": 0.1, ""model__class_weight"": ""balanced""}",0.857354297929793
+stage4_exercise_test,Switzerland,"{""model__C"": 10.0, ""model__class_weight"": ""balanced""}",0.8777347887850009
+stage4_exercise_test,VA Long Beach,"{""model__C"": 0.1, ""model__class_weight"": null}",0.8995061728395062

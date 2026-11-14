@@ -1,0 +1,8 @@
+dataset,outcome_definition,clinical_endpoint,compatibility_assessment,decision
+Z-Alizadeh Sani,>=50% coronary narrowing by Cath,angiographic CAD,compatible primary endpoint,primary development cohort
+Cleveland,num 0 versus 1-4; >50% narrowing for positive,angiographic disease,compatible endpoint concept; predictor mismatch,external validation not feasible now
+Statlog,presence/absence coding,heart disease classification,not independent from Cleveland,exclude as external cohort
+MultiD4CAD,CAD classification in suspected CAD CCTA cohort,CCTA/multimodal CAD,related but not identical endpoint/modality,separate future track
+CADICA,ICA lesion annotations/severity,angiographic imaging,related but image-level and 42 patients,separate future track
+Angiographic stenosis dataset,QCA >=70% or 50-69% with functional evidence,angiographic stenosis,potentially compatible endpoint; predictors unknown,highest-priority source-access audit
+MIMIC-IV/eICU,EHR-derived diagnoses/procedures,not fixed angiographic endpoint,not equivalent without new phenotype validation,not direct validation

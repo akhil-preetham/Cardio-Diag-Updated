@@ -1,0 +1,3 @@
+# Feature Expansion Protocol
+
+The strict primary group is Age, Sex, Current Smoker, EX-Smoker and FH. Six additional groups were evaluated as exploratory sensitivity analyses: anthropometrics, medical history, symptoms, ECG, laboratory variables, and the strict group. Every preprocessing, regularization choice, and calibration step was fit inside the persisted Stage 6 training partitions. Expanded groups are not final eligible predictors because the source audit does not document prediction-time timing and, for several variables, units or ascertainment. The observed performance gains are therefore hypothesis-generating only.

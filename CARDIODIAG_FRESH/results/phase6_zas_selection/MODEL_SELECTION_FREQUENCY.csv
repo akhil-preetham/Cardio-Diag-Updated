@@ -1,0 +1,4 @@
+selected_group,selected_model_family,selection_count,outer_fold_count,selection_frequency
+eligible_combined,elastic_net,4,15,0.26666666666666666
+eligible_combined,logistic_l2,9,15,0.6
+eligible_combined,spline_logistic,2,15,0.13333333333333333

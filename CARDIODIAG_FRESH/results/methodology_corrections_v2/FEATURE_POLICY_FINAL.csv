@@ -1,0 +1,57 @@
+feature,category,audit_decision,clinical_meaning,primary_inclusion,reason
+Age,strict_primary,eligible,Age in years,True,Available before diagnostic work-up; source workbook label.
+Weight,exploratory_pending_evidence,eligible_with_unit_review,Body weight,False,Available before diagnosis; unit is not machine-readable in the workbook.
+Length,exploratory_pending_evidence,eligible_with_unit_review,Body length/height,False,Available before diagnosis; likely centimetres but source units require confirmation.
+Sex,strict_primary,eligible,Recorded sex,True,Baseline demographic variable.
+BMI,exploratory_pending_evidence,eligible_with_unit_review,Body mass index,False,Baseline measurement; unit/calculation should be documented.
+DM,exploratory_pending_evidence,eligible_with_timing_confirmation,Diabetes mellitus indicator,False,History may precede CAD diagnosis; ascertainment timing is not documented.
+HTN,exploratory_pending_evidence,eligible_with_timing_confirmation,Hypertension indicator,False,History may precede CAD diagnosis; ascertainment timing is not documented.
+Current Smoker,strict_primary,eligible,Current smoking indicator,True,Baseline history/exposure.
+EX-Smoker,strict_primary,eligible,Former smoking indicator,True,Baseline history/exposure.
+FH,strict_primary,eligible,Family history indicator,True,Baseline history variable.
+Obesity,exploratory_pending_evidence,eligible_with_unit_review,Obesity indicator,False,Potentially derived from anthropometrics; avoid duplicate-derived feature use without documentation.
+CRF,exploratory_pending_evidence,eligible_with_timing_confirmation,Chronic renal failure indicator,False,History may precede diagnosis; timing and definition require review.
+CVA,exploratory_pending_evidence,eligible_with_timing_confirmation,Cerebrovascular accident history,False,History may precede diagnosis; timing and definition require review.
+Airway disease,exploratory_pending_evidence,eligible_with_timing_confirmation,Airway disease indicator,False,History may precede diagnosis; timing is undocumented.
+Thyroid Disease,exploratory_pending_evidence,eligible_with_timing_confirmation,Thyroid disease indicator,False,History may precede diagnosis; timing is undocumented.
+CHF,excluded_pending_clinical_review,requires_clinical_review,Congestive heart failure indicator,False,May be a downstream/overlapping cardiac diagnosis; temporal relation to CAD target is unclear.
+DLP,exploratory_pending_evidence,eligible_with_timing_confirmation,Dyslipidemia indicator,False,History may precede diagnosis; timing is undocumented.
+BP,exploratory_pending_evidence,eligible_with_unit_review,Blood pressure,False,Likely baseline examination measurement; unit and measurement timing require confirmation.
+PR,exploratory_pending_evidence,eligible_with_unit_review,Pulse rate,False,Baseline examination measurement; unit/timing require confirmation.
+Edema,excluded_pending_clinical_review,requires_clinical_review,Peripheral edema finding,False,Could reflect established cardiac disease; timing relative to CAD ascertainment is unclear.
+Weak Peripheral Pulse,excluded_pending_clinical_review,requires_clinical_review,Weak peripheral pulse finding,False,Physical finding may be available before diagnosis but timing is undocumented.
+Lung rales,excluded_pending_clinical_review,requires_clinical_review,Pulmonary rales finding,False,May reflect heart failure or acute disease; timing is undocumented.
+Systolic Murmur,exploratory_pending_evidence,eligible_with_timing_confirmation,Systolic murmur finding,False,Potentially available at examination; timing and ascertainment require review.
+Diastolic Murmur,exploratory_pending_evidence,eligible_with_timing_confirmation,Diastolic murmur finding,False,Potentially available at examination; timing and ascertainment require review.
+Typical Chest Pain,exploratory_pending_evidence,eligible_with_timing_confirmation,Typical chest pain indicator,False,Symptom is clinically relevant but must be defined as present before the diagnostic procedure.
+Dyspnea,exploratory_pending_evidence,eligible_with_timing_confirmation,Dyspnea indicator,False,Symptom may precede diagnosis; timing and coding require review.
+Function Class,excluded_pending_clinical_review,requires_clinical_review,Functional class,False,May reflect established heart failure severity; prediction-time availability is uncertain.
+Atypical,exploratory_pending_evidence,eligible_with_timing_confirmation,Atypical chest pain indicator,False,Potential baseline symptom; timing requires confirmation.
+Nonanginal,exploratory_pending_evidence,eligible_with_timing_confirmation,Non-anginal symptom indicator,False,Potential baseline symptom; timing requires confirmation.
+Exertional CP,exploratory_pending_evidence,eligible_with_timing_confirmation,Exertional chest pain indicator,False,Constant in this file and therefore not informative; retain in raw data but exclude as predictor.
+LowTH Ang,excluded_pending_clinical_review,requires_clinical_review,Low-threshold angina indicator,False,Angina classification may be part of diagnostic assessment; timing is undocumented.
+Q Wave,exploratory_pending_evidence,eligible_with_timing_confirmation,Q-wave ECG finding,False,"Could be baseline ECG information, but ECG acquisition timing is undocumented."
+St Elevation,exploratory_pending_evidence,eligible_with_timing_confirmation,ST elevation ECG finding,False,Potentially diagnostic ECG information; prediction-time availability must be specified.
+St Depression,exploratory_pending_evidence,eligible_with_timing_confirmation,ST depression ECG finding,False,Potentially diagnostic ECG information; prediction-time availability must be specified.
+Tinversion,exploratory_pending_evidence,eligible_with_timing_confirmation,T-wave inversion ECG finding,False,Potentially diagnostic ECG information; prediction-time availability must be specified.
+LVH,exploratory_pending_evidence,eligible_with_timing_confirmation,Left ventricular hypertrophy ECG finding,False,Potentially diagnostic ECG information; prediction-time availability must be specified.
+Poor R Progression,exploratory_pending_evidence,eligible_with_timing_confirmation,Poor R-wave progression ECG finding,False,Potentially diagnostic ECG information; prediction-time availability must be specified.
+BBB,exploratory_pending_evidence,eligible_with_timing_confirmation,Bundle branch block ECG finding,False,Potentially diagnostic ECG information; prediction-time availability must be specified.
+FBS,exploratory_pending_evidence,eligible_with_unit_review,Fasting blood sugar,False,Laboratory value may be baseline; fasting status and timing require confirmation.
+CR,exploratory_pending_evidence,eligible_with_unit_review,Creatinine,False,Laboratory value may be baseline; units and timing require confirmation.
+TG,exploratory_pending_evidence,eligible_with_unit_review,Triglycerides,False,Laboratory value may be baseline; fasting status and timing require confirmation.
+LDL,exploratory_pending_evidence,eligible_with_unit_review,LDL cholesterol,False,Laboratory value may be baseline; units and timing require confirmation.
+HDL,exploratory_pending_evidence,eligible_with_unit_review,HDL cholesterol,False,Laboratory value may be baseline; units and timing require confirmation.
+BUN,exploratory_pending_evidence,eligible_with_unit_review,Blood urea nitrogen,False,Laboratory value may be baseline; units and timing require confirmation.
+ESR,exploratory_pending_evidence,eligible_with_unit_review,Erythrocyte sedimentation rate,False,Laboratory value may be baseline; units and timing require confirmation.
+HB,exploratory_pending_evidence,eligible_with_unit_review,Hemoglobin,False,Laboratory value may be baseline; units and timing require confirmation.
+K,exploratory_pending_evidence,eligible_with_unit_review,Serum potassium,False,Laboratory value may be baseline; units and timing require confirmation.
+Na,exploratory_pending_evidence,eligible_with_unit_review,Serum sodium,False,Laboratory value may be baseline; units and timing require confirmation.
+WBC,exploratory_pending_evidence,eligible_with_unit_review,White blood cell count,False,Laboratory value may be baseline; units and timing require confirmation.
+Lymph,exploratory_pending_evidence,eligible_with_unit_review,Lymphocyte measure,False,Laboratory value may be baseline; units and timing require confirmation.
+Neut,exploratory_pending_evidence,eligible_with_unit_review,Neutrophil measure,False,Laboratory value may be baseline; units and timing require confirmation.
+PLT,exploratory_pending_evidence,eligible_with_unit_review,Platelet count,False,Laboratory value may be baseline; units and timing require confirmation.
+EF-TTE,excluded_target_or_downstream,exclude,Ejection fraction from transthoracic echocardiography,False,Echo-derived cardiac function may be measured during diagnostic work-up and is a downstream leakage risk.
+Region RWMA,excluded_target_or_downstream,exclude,Regional wall-motion abnormality,False,Diagnostic imaging finding is likely downstream of or part of CAD ascertainment.
+VHD,excluded_target_or_downstream,exclude,Valvular heart disease severity,False,Clinical diagnosis/severity field may be downstream and is not a safe pre-diagnostic predictor without temporal evidence.
+Cath,excluded_target_or_downstream,exclude_target,Catheterization-derived CAD label,False,"This is the target itself: Cad versus Normal, based on at least 50% coronary narrowing."

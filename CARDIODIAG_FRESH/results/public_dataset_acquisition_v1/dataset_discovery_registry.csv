@@ -1,0 +1,10 @@
+dataset,source,access,size,license,outcome,classification,reason
+UCI Heart Disease four-centre,https://archive.ics.uci.edu/dataset/45/heart+disease,public,920,CC BY 4.0,angiographic num 0 vs 1-4,conditionally suitable,four source files reproduced; site labels available; strict five-feature subset incomplete
+Cleveland processed subset,https://archive.ics.uci.edu/dataset/45/heart+disease,public,303,CC BY 4.0,angiographic num,conditional only,development cohort lineage; not independent of existing Cleveland copy
+Statlog Heart,https://archive.ics.uci.edu/,public,270,UCI terms,heart disease presence,unsuitable as independent cohort,normalized record overlap with Cleveland already established
+AngioCAD,https://doi.org/10.5281/zenodo.15826856,public,413 image patients; 377 clinical rows,CC BY 4.0,artery-level seven-category stenosis labels,related-task / conditional clinical,metadata and labels downloaded; 16.4 GB image archive not downloaded
+Angiographic dataset for stenosis detection,https://doi.org/10.17632/ydrm75xywg.3,public listing,100,verify on download,all patients described with confirmed one-vessel disease,related-task only,image-selected all-positive cohort; no negative class
+MultiD4CAD,https://zenodo.org/records/15148653,restricted,118,DUA,CCTA/multimodal CAD,conditional research candidate,files restricted; strict predictors unknown
+CADICA,https://data.mendeley.com/datasets/p9bpx9ctcv/5,public,42,Mendeley terms,ICA lesion annotations,related-task only,small imaging cohort; strict predictors/outcome mapping incomplete
+MIMIC-IV,https://physionet.org/content/mimiciv/,credentialed,large EHR,PhysioNet DUA,EHR phenotype required,unsuitable by default,not a verified angiographic endpoint
+eICU-CRD,https://physionet.org/content/eicu-crd/,credentialed,">200,000 ICU admissions",PhysioNet DUA,EHR phenotype required,unsuitable by default,not a verified angiographic endpoint

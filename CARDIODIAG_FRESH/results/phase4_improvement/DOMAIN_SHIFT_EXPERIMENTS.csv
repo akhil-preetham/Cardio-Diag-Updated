@@ -1,0 +1,5 @@
+experiment,status,interpretation
+centre prevalence shift,descriptive,large observed differences
+centre predictor shift,descriptive,reported in CENTRE_SHIFT_DIAGNOSTICS.csv
+centre intercept adjustment,not performed,would use held-out outcomes and violate untouched IECV
+hierarchical partial pooling,not performed,no validated implementation or enough centres for stable inference

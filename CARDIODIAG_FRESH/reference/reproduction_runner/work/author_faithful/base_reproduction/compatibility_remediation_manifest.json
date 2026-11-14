@@ -1,0 +1,145 @@
+{
+  "preparation_only": true,
+  "execution_performed": false,
+  "notebook_modified": false,
+  "entries": [
+    {
+      "cell": 2,
+      "original_code": "from google.colab import drive\ndrive.mount('/content/drive')",
+      "proposed_compatibility_change": "Omit the unavailable Colab mount in the already-prepared working copy.",
+      "classification": "A",
+      "scientific_methodology_impact": "None; this changes only environment setup.",
+      "expected_behavior_change": "No Drive mount prompt; local execution proceeds to the dataset-loading cell.",
+      "reason": "Google Colab is unavailable in the Windows local environment.",
+      "mandatory_before_execution": true,
+      "author_result_still_faithful": true,
+      "track": "author-faithful"
+    },
+    {
+      "cell": 4,
+      "original_code": "df = pd.read_csv('/content/drive/MyDrive/heart5.csv')",
+      "proposed_compatibility_change": "Use the verified local heart5.csv path in the prepared working copy.",
+      "classification": "A",
+      "scientific_methodology_impact": "None; the dataset identity is unchanged.",
+      "expected_behavior_change": "Reads the local copy instead of a Colab Drive path.",
+      "reason": "The original input path is environment-specific.",
+      "mandatory_before_execution": true,
+      "author_result_still_faithful": true,
+      "track": "author-faithful"
+    },
+    {
+      "cell": 13,
+      "original_code": "'max_features': ['auto', 'sqrt', 'log2', None]",
+      "proposed_compatibility_change": "Remove 'auto' or translate it to a currently accepted equivalent such as 'sqrt' in a separate compatibility copy.",
+      "classification": "B",
+      "scientific_methodology_impact": "Changes the searched grid and therefore the selected estimator space.",
+      "expected_behavior_change": "Invalid candidate is skipped or replaced; GridSearchCV can evaluate remaining candidates.",
+      "reason": "Current scikit-learn rejects the legacy DecisionTreeClassifier max_features='auto' value.",
+      "mandatory_before_execution": false,
+      "author_result_still_faithful": false,
+      "track": "separate-compatibility-copy"
+    },
+    {
+      "cell": 13,
+      "original_code": "'metric': ['minkowskii', 'euclidean', 'manhattan']",
+      "proposed_compatibility_change": "Correct the spelling to 'minkowski' in a separate compatibility copy.",
+      "classification": "B",
+      "scientific_methodology_impact": "Changes an invalid candidate into the intended KNN metric.",
+      "expected_behavior_change": "The intended Minkowski metric becomes evaluable.",
+      "reason": "minkowskii is a misspelled metric name and is expected to fail parameter validation.",
+      "mandatory_before_execution": false,
+      "author_result_still_faithful": false,
+      "track": "separate-compatibility-copy"
+    },
+    {
+      "cell": 13,
+      "original_code": "'penalty': ['l1', 'l2', 'none'], 'solver': ['liblinear', 'lbfgs']",
+      "proposed_compatibility_change": "Remove incompatible penalty/solver combinations and represent no penalty using the API-supported form in a separate compatibility copy.",
+      "classification": "B",
+      "scientific_methodology_impact": "Changes the hyperparameter search space and potentially the selected logistic model.",
+      "expected_behavior_change": "Invalid combinations are not attempted; valid solver/penalty combinations run.",
+      "reason": "liblinear does not support all listed penalties, lbfgs does not support l1, and current scikit-learn does not accept the legacy 'none' spelling as used here.",
+      "mandatory_before_execution": false,
+      "author_result_still_faithful": false,
+      "track": "separate-compatibility-copy"
+    },
+    {
+      "cell": 13,
+      "original_code": "'objective': ['reg:linear'], 'silent': [1]",
+      "proposed_compatibility_change": "Translate legacy XGBoost parameters only in a separate compatibility copy, for example reg:squarederror and a supported verbosity parameter.",
+      "classification": "B",
+      "scientific_methodology_impact": "May change XGBoost defaults and objective behavior; not an exact historical implementation.",
+      "expected_behavior_change": "The regressor may instantiate under current XGBoost instead of rejecting or ignoring legacy parameters.",
+      "reason": "reg:linear and silent are legacy XGBoost arguments.",
+      "mandatory_before_execution": false,
+      "author_result_still_faithful": false,
+      "track": "separate-compatibility-copy"
+    },
+    {
+      "cell": 15,
+      "original_code": "xgb_reg = XGBRegressor()\ngrid_search_xgb_reg = GridSearchCV(xgb_reg, param_grid_xgb_reg, cv=5, scoring='accuracy')",
+      "proposed_compatibility_change": "Do not replace the regressor or silently change the metric in the author-faithful track. A separate corrected/compatibility experiment must choose a classifier or a regression metric explicitly.",
+      "classification": "C",
+      "scientific_methodology_impact": "Directly changes estimator type, target interpretation, metric meaning, and scientific conclusions.",
+      "expected_behavior_change": "Leaving it unchanged may fail GridSearchCV because accuracy expects classification outputs; changing it creates a different experiment.",
+      "reason": "A continuous-output regressor is evaluated with a classification accuracy scorer.",
+      "mandatory_before_execution": true,
+      "author_result_still_faithful": false,
+      "track": "corrected-validation-only"
+    },
+    {
+      "cell": 9,
+      "original_code": "X_resampled, y_resampled = smote.fit_resample(X, y)",
+      "proposed_compatibility_change": "Do not move this operation in the author-faithful track. Corrected validation must split first and apply SMOTE inside training folds.",
+      "classification": "C",
+      "scientific_methodology_impact": "Changes the data-generating and validation procedure.",
+      "expected_behavior_change": "Corrected validation avoids synthetic/test-information leakage; author-faithful behavior remains unchanged.",
+      "reason": "SMOTE is applied to the full dataset before the holdout split.",
+      "mandatory_before_execution": false,
+      "author_result_still_faithful": false,
+      "track": "corrected-validation-only"
+    },
+    {
+      "cell": 11,
+      "original_code": "train_test_split(X_resampled, y_resampled, test_size=0.2, random_state=42)",
+      "proposed_compatibility_change": "Do not change the author-faithful copy. Use a separately specified 75:25 split in corrected validation if that is the comparator protocol.",
+      "classification": "C",
+      "scientific_methodology_impact": "Changes the evaluation split and reported metrics.",
+      "expected_behavior_change": "Corrected validation evaluates a different holdout proportion.",
+      "reason": "The author notebook uses 80:20 while the planned comparator uses 75:25.",
+      "mandatory_before_execution": false,
+      "author_result_still_faithful": false,
+      "track": "corrected-validation-only"
+    },
+    {
+      "cell": 5,
+      "original_code": "chest_pain_encoder.fit_transform(df['ChestPainType'])",
+      "proposed_compatibility_change": "Do not alter the author-faithful copy. Fit feature preprocessing only inside training folds in corrected validation.",
+      "classification": "C",
+      "scientific_methodology_impact": "Changes preprocessing provenance and leakage behavior.",
+      "expected_behavior_change": "Corrected validation prevents full-dataset category fitting.",
+      "reason": "The encoder is fitted before the train/test split.",
+      "mandatory_before_execution": false,
+      "author_result_still_faithful": false,
+      "track": "corrected-validation-only"
+    },
+    {
+      "cell": 19,
+      "original_code": "calibrated_stacking.fit(X_train, y_train)\ny_pred = calibrated_stacking.predict(X_test)\naccuracy = accuracy_score(y_test, y_pred)",
+      "proposed_compatibility_change": "Do not alter the author-faithful copy. Remove test-set-driven stopping only in corrected validation.",
+      "classification": "C",
+      "scientific_methodology_impact": "Changes model selection and invalidates direct comparison with the saved author result.",
+      "expected_behavior_change": "Corrected validation evaluates after selection without using test accuracy to stop.",
+      "reason": "The loop repeatedly refits and uses test accuracy to decide when to stop.",
+      "mandatory_before_execution": false,
+      "author_result_still_faithful": false,
+      "track": "corrected-validation-only"
+    }
+  ],
+  "unresolved_blockers": [
+    "The exact historical package versions are not present in the supplied artifacts.",
+    "The current environment is only partially compatible with the unmodified grid.",
+    "No static API inspection can prove that a complete GridSearchCV run will finish without executing it.",
+    "Any B or C change must be kept out of the author-faithful notebook."
+  ]
+}

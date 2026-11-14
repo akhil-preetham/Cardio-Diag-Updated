@@ -1,0 +1,20 @@
+{
+  "stage": "Stage 6",
+  "status": "protocol_finalization_without_new_training",
+  "primary_feature_set": [
+    "Age",
+    "Sex",
+    "Current Smoker",
+    "EX-Smoker",
+    "FH"
+  ],
+  "primary_comparison": "descriptive paired comparisons on identical outer predictions",
+  "probability_decision": "native and calibrated outputs must be separated; SVM requires nested calibration",
+  "uncertainty_decision": "report validation variation and conditional bootstrap only; defer population inference",
+  "calibration_decision": "sigmoid primary; isotonic exploratory only",
+  "unresolved": [
+    "patient-level identifier unavailable",
+    "feature timing for broader variables",
+    "independent external cohort unavailable"
+  ]
+}

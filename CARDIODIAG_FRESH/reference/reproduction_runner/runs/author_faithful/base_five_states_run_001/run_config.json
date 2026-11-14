@@ -1,0 +1,51 @@
+{
+  "run_id": "base_five_states_run_001",
+  "track": "author_faithful",
+  "execution_enabled": false,
+  "notebook": {
+    "path": "reference/reproduction_runner/work/author_faithful/base_reproduction/Daza_Paper_Exact_Accuracy.ipynb",
+    "sha256": "666ab88c049dba064057e79d55fb413bca37a1c7de3f3bb8c24cad070844b646"
+  },
+  "dataset": {
+    "name": "heart5.csv",
+    "path": "reference/author_release/heart5.csv",
+    "sha256": "e4068802a044e8a1e3ae9fa81deae7025711bf4f13e3057f96e4f1cf3b0180c2",
+    "target": "HeartDisease",
+    "rows": 918,
+    "columns": 12
+  },
+  "environment": {
+    "python": "3.11.16",
+    "environment_path": ".venv-repro",
+    "packages": {
+      "numpy": "2.4.6",
+      "pandas": "3.1.1",
+      "scikit-learn": "1.9.1",
+      "imbalanced-learn": "0.14.2",
+      "xgboost": "3.2.0",
+      "matplotlib": "3.11.2",
+      "nbformat": "5.11.1",
+      "nbclient": "0.11.0",
+      "ipykernel": "7.4.0"
+    }
+  },
+  "paths": {
+    "working_directory": "reference/reproduction_runner/runs/author_faithful/base_five_states_run_001/work",
+    "output_directory": "reference/reproduction_runner/runs/author_faithful/base_five_states_run_001/results",
+    "log_directory": "reference/reproduction_runner/runs/author_faithful/base_five_states_run_001/logs"
+  },
+  "execution": {
+    "timeout_seconds": 3600,
+    "sequential": true,
+    "n_jobs": 1,
+    "random_state": 42,
+    "expected_metrics": "Notebook reports are not yet independently verified; expected output is unknown.",
+    "restrictions": [
+      "Do not execute unless explicitly approved.",
+      "Do not modify source notebook or original author repository.",
+      "Do not install or change packages.",
+      "Do not execute other notebooks.",
+      "Record compatibility failure as evidence rather than silently repair it."
+    ]
+  }
+}

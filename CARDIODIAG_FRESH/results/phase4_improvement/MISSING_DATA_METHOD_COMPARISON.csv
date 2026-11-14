@@ -1,0 +1,6 @@
+method,implemented,decision
+training-fold median/mode imputation,yes,primary
+missingness indicators,yes,inside preprocessing for existing Phase 4 numeric pipeline
+multiple imputation,no,not executed due small centre and lack of independent calibration
+complete-case sensitivity,descriptive,reported in stage cohort comparison
+native missing handling,no,not compared as a primary method

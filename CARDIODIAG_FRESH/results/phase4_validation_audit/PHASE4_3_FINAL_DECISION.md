@@ -1,0 +1,3 @@
+# Phase 4.3 final decision: CONDITIONAL GO
+
+The staged gains are reproducible under independent metric recomputation and should be interpreted as incremental information available at different clinical times. Stage 2 is the most defensible expanded early-presentation task, while Stage 4 is a separate exercise-test task with stronger pooled discrimination but unresolved timing and centre calibration limitations. No stage is selected for clinical deployment. The audit does not establish external validation, universal transportability, reliable abstention, or patient-level safety. A genuinely independent cohort remains required.

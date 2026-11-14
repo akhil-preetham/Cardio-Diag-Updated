@@ -1,0 +1,115 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\title{Prediction-Time Eligibility, Calibration, and Centre Transportability in Public Coronary Artery Disease Benchmarks: A Reproducibility Audit}
+\author{[Author names and affiliations to be confirmed]}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent\textbf{Background:} High discrimination reported on small public coronary artery disease (CAD) datasets does not establish that predictors were available at the intended decision time or that performance transports across settings.\
+\textbf{Objective:} To reconcile a frozen Z-Alizadeh Sani (ZAS) reference and expanded-feature benchmark, audit predictor timing and model selection, and summarize separate centre-held-out staged analyses of the UCI Heart Disease cohort.\
+\textbf{Design:} Repository-based reproducibility and secondary analysis of saved predictions. The frozen ZAS V3 reference uses five predictors and nested calibration. Existing Phase 5 ZAS predictions use repeated nested cross-validation across six feature groups and six model labels. UCI stages are evaluated across four held-out centres. No datasets were merged.\
+\textbf{Results:} The reported Phase 5 ZAS combined-feature ROC-AUC of 0.928214 was reconstructed from two predictions per source row (303 rows; 216 positive outcomes). Its Logistic and Ridge labels use the same L2 logistic-regression implementation and produce identical probabilities. Feature-group/model selection was not nested, and acquisition timing for the expanded features is undocumented. The frozen V3 report gives calibrated ROC-AUC 0.735 (SD 0.060). For UCI, pooled out-of-centre ROC-AUC was 0.8225 for Stage 2 and 0.8450 for the later exercise-test Stage 4; Stage 4 minus Stage 3 ROC-AUC was 0.0235 (record-bootstrap 95\% interval 0.0061 to 0.0443). Centre performance varied, and Switzerland had 115 positives among 123 records.\
+\textbf{Conclusions:} The 0.928 ZAS result is exploratory and does not support a prediagnostic performance claim. Stage 2 is the most defensible expanded early-presentation UCI research task; Stage 4 is a separate later task. Neither dataset provides external validation of the frozen ZAS model. Prospective timing documentation and a compatible independent cohort remain necessary.
+\end{abstract}
+
+\noindent\textbf{Keywords:} coronary artery disease; prediction model; data leakage; calibration; internal-external validation; feature timing; reproducibility
+
+\section{Introduction}
+Machine-learning studies on public CAD datasets often report high discrimination, but estimates depend on sample size, predictor timing, validation design, outcome prevalence and model-selection procedures. A diagnostic dataset collected around angiography can contain variables recorded at different points in a work-up. Without acquisition-time evidence, clinical plausibility alone cannot establish that a variable was available before diagnostic confirmation.
+
+The Z-Alizadeh Sani dataset contains 303 records and an angiography-derived CAD outcome based on coronary narrowing; the original work describes the data and feature-based CAD analyses \citep{alizadehsani2013,uciZAS}. A separate four-centre Heart Disease cohort contains records from Cleveland, Hungary, Switzerland and VA Long Beach, with the conventional binary outcome formed from the angiographic status field \citep{uciHeart,detrano1989}. These cohorts have different variables and collection processes and are not combined here.
+
+This study asks: (1) what does the frozen ZAS V3 reference establish; (2) can the reported Phase 5 ROC-AUC of 0.928 be reconstructed and interpreted as a prespecified result; (3) what prediction stages are supported by the UCI centre-held-out evidence; and (4) what prevents external validation or clinical claims? Model-selection optimism is a known risk when candidates are chosen using finite validation data \citep{cawley2010}. Reporting is organized with TRIPOD+AI principles in mind, while recognizing that a reporting checklist does not establish low risk of bias \citep{tripodAI,probastAI}.
+
+\section{Objectives and contributions}
+The objectives were to preserve historical results; independently reconcile selected Phase 5 metrics against saved predictions; audit model identity and feature timing; summarize the UCI four-centre staged evidence; and identify the remaining evidence required for independent validation. The contribution is an evidence audit and task-specific interpretation of existing experiments. No new classifier or clinically deployable prediction rule is claimed.
+
+\section{Methods}
+\subsection{Data sources and outcomes}
+The ZAS analysis uses the local validated 303-row table. The target is \texttt{Cath}, mapped as Cad=1 and Normal=0. The UCI repository defines CAD at a diameter-narrowing threshold of at least 50\% for ZAS; the original local code and dictionaries were retained for the analysis \citep{uciZAS}. No patient identifier or row-level predictor acquisition timestamps are available in the project table.
+
+The UCI analysis uses the reconstructed four-centre table (920 records): Cleveland (303), Hungary (294), Switzerland (123) and VA Long Beach (200). The target is the binary form of \texttt{num} (0 versus 1--4), a related angiography-derived endpoint. The outcomes and cohorts are analyzed separately; UCI is not treated as external validation of ZAS.
+
+\subsection{Prediction tasks and predictor eligibility}
+The frozen V3 ZAS baseline uses Age, Sex, Current Smoker, EX-Smoker and FH. These variables remain the historical protocol reference. The source does not verify their actual acquisition times, so this preservation does not upgrade them to timestamp-confirmed eligibility. The expanded Phase 5 ZAS feature groups cover history, symptoms/examination, resting ECG, laboratories, and their combined set. The combined set excludes EF-TTE, Region RWMA, VHD and the target, but timing, ascertainment and some units remain unresolved. The Phase 5.1 audit classifies expanded features as exploratory pending source documentation.
+
+UCI tasks remain distinct: Stage 1 (age and sex); Stage 2 (Stage 1 plus chest-pain category); Stage 3 (Stage 2 plus resting blood pressure, cholesterol, fasting blood sugar indicator and resting ECG); and Stage 4 (Stage 3 plus exercise maximum heart rate, exercise-induced angina, exercise ST depression and slope). Stage 4 is a later exercise-test task. Fluoroscopy-derived \texttt{ca}, thallium result \texttt{thal}, and outcome \texttt{num} are excluded from these predictor sets. Original per-record timestamps are unavailable; stage labels describe the intended information set, not proof of measurement time before angiography.
+
+\subsection{Validation and model evaluation}
+The frozen V3 ZAS report describes five outer folds and four inner folds, preserving the prior split assignments and fitting fold-specific sigmoid calibration from nested out-of-fold scores. Its highest descriptive calibrated ROC-AUC was 0.735 (SD 0.060). This is internal validation on source rows, not external validation.
+
+Phase 5 ZAS evaluates six prespecified feature-group labels and six model labels with repeated stratified four-fold cross-validation (two repeats), three-fold inner hyperparameter search and fold-local preprocessing. Repeated predictions were averaged by source row. We reconstructed metrics from the persisted predictions without refitting models. Group/model selection was not nested, and a full model-development optimism correction was not performed. Logistic and Ridge labels map to the same L2 logistic-regression pipeline and are treated as duplicate labels, not independent candidates.
+
+For UCI, we report the existing four-centre internal-external predictions and metrics. Stage comparisons use paired records keyed by centre and source-row identity. Record-level paired bootstrap intervals quantify resampling of those records; they are not centre-level or patient-clustered intervals. No held-out centre is used for threshold selection or calibration updates.
+
+\subsection{Performance and reliability measures}
+Discrimination is summarized by ROC-AUC and PR-AUC; probability error by Brier score and log loss; and calibration by the saved calibration intercept/slope and centre-specific summaries where available. Threshold metrics use the stored 0.5 threshold or documented descriptive grids. OOD scores are treated as covariate-space diagnostics, not disease probabilities. Selective prediction and decision-curve outputs are descriptive and do not establish a safe abstention policy or clinical utility.
+
+\subsection{Data integrity and ethics}
+The local Phase 5 output manifest contains 40 output hashes; all 40 were present and matched at the completion audit. The project folder lacks Git metadata, so a tracked working-tree status cannot be asserted. The analysis uses secondary public/de-identified datasets, but ethics determination, consent status and permitted reuse should be confirmed by the authors and relevant institutions before submission.
+
+\section{Results}
+\subsection{ZAS metric and model-identity reconciliation}
+For each \texttt{eligible\_combined} Logistic and Ridge label, the saved prediction file contains 606 held-out predictions. Averaging by source row yields 303 rows, two predictions per row, 216 positive outcomes, and no conflicting labels. Recomputed values were ROC-AUC 0.928214, PR-AUC 0.966830, Brier 0.096424 and log loss 0.314108, matching the benchmark table. The two labels have exactly identical saved probabilities because the implementation is the same.
+
+The benchmark table has 36 rows (six feature-group labels by six model labels); after accounting for the Logistic/Ridge alias, it has at most 30 distinct label/group combinations and five distinct estimator families. The 0.928 row was not selected by a programmatic winner rule. Hyperparameter tuning is nested within each candidate, but choosing among the groups and model families is not. The result is therefore post hoc and exploratory. The project has no patient ID, so the supported aggregation unit is a source row, not a verified unique patient.
+
+\subsection{UCI centre-held-out performance}
+\begin{table}[ht]
+\centering
+\caption{Pooled UCI out-of-centre results by prediction stage.}
+\begin{tabular}{lrrrr}
+\toprule
+Stage & ROC-AUC & PR-AUC & Brier & Log loss\\
+\midrule
+Stage 1: age/sex & 0.7179 & 0.7293 & 0.2112 & 0.6117\\
+Stage 2: symptoms & 0.8225 & 0.8241 & 0.1681 & 0.5106\\
+Stage 3: resting measures & 0.8215 & 0.8191 & 0.1684 & 0.5139\\
+Stage 4: exercise test & 0.8450 & 0.8645 & 0.1584 & 0.4861\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Stage 2 ROC-AUC by held-out centre was 0.8305 (Cleveland), 0.8380 (Hungary), 0.7478 (Switzerland), and 0.7102 (VA Long Beach). Stage 4 values were 0.8638, 0.8747, 0.7261 and 0.7294, respectively. Switzerland had 115 positive outcomes among 123 records, leaving eight negatives; its specificity and calibration estimates are consequently imprecise.
+
+Paired Stage 3-to-Stage 4 differences across 920 matched centre/source rows were: ROC-AUC +0.0235 (95\% record-bootstrap interval +0.0061 to +0.0443), PR-AUC +0.0454 (+0.0196 to +0.0706), Brier -0.0099 (-0.0186 to -0.0015), and log loss -0.0278 (-0.0514 to -0.0056). These are descriptive paired changes for a later task and do not establish that Stage 4 is preferable for an early-presentation decision.
+
+\subsection{Reliability, stability and interpretability}
+Existing V3 and Phase 4/5 outputs include calibration and uncertainty summaries, feature-importance summaries, centre heterogeneity, missingness, OOD and selective-prediction analyses. No external cohort is available to assess transportability of the frozen ZAS reference. Switzerland's small negative count limits centre-specific reliability estimates. The available importance summaries are model associations, not causal effects. The saved duplicate-sensitivity table is not used as evidence because its implementation excludes rows using a row index without centre identity.
+
+\section{Discussion}
+The principal finding is interpretive. A reproducible ROC-AUC can still be an unsuitable primary claim when its feature set was selected after reviewing many candidates, the estimator labels duplicate one another, or predictor timing is unverified. The 0.928 result is numerically supported by saved predictions but does not estimate a prespecified model-selection procedure and does not establish prediagnostic availability.
+
+The frozen V3 five-feature result remains the appropriate historical reference for ZAS because its protocol and splits were frozen before Phase 5. Its reported performance is materially lower than the expanded post hoc result. This difference should not be interpreted as a clean head-to-head estimate: the protocols, calibration, and model-selection layers differ, and the new feature timing is unresolved.
+
+For UCI, Stage 2 is the most defensible expanded early-presentation research task represented in the repository. Stage 3 added little pooled discrimination over Stage 2, while Stage 4 improved pooled metrics but uses exercise-test information. Centre-wise variation, extreme Swiss prevalence, missingness and lack of patient identifiers constrain generalization. This internal-external four-centre analysis is not external validation of ZAS V3.
+
+The research contribution is an auditable separation of prediction-time tasks and a concrete demonstration that nested hyperparameter tuning does not protect a later selection across feature groups and estimator families. The work does not establish algorithmic novelty or clinical utility. Prior reporting and risk-of-bias guidance support transparent documentation and cautious applicability claims \citep{tripodAI,probastAI}.
+
+\section{Limitations}
+First, predictor acquisition timestamps and some feature definitions/units are absent. Second, neither source supplies verified patient identifiers; row-level resampling cannot represent patient-cluster uncertainty. Third, ZAS Phase 5 uses a small cohort and selection among 36 benchmark rows is not nested. Fourth, no compatible independent cohort with matched outcome and all frozen predictors is established. Fifth, UCI centres differ in prevalence and missingness, with only eight negative records in Switzerland. Sixth, existing duplicate sensitivity is invalid due to centre-unqualified exclusion keys; the pooled base results are retained, but the sensitivity claim is not. Finally, repository manifests and past audits provide substantial traceability but do not replace a final reproducibility run in a working Python environment or author confirmation of ethics and publication declarations.
+
+\section{Conclusion}
+The ZAS Phase 5 ROC-AUC 0.928 is reproducible from saved predictions but is exploratory, post hoc, and unsupported as a prediagnostic performance estimate. The frozen V3 model remains the historical reference. UCI Stage 2 is the most defensible early-presentation research stage in that dataset, whereas Stage 4 is a separate exercise-test task. No external validation or clinical deployment evidence is established. A publication claim should be limited to the repository-based evidence audit and internal/centre-held-out empirical findings until timing, corrected duplicate sensitivity, environment QA and independent validation are addressed.
+
+\section*{Ethics and declarations}
+\textbf{Ethics approval and consent:} [Author/institution to confirm applicable ethics determination, consent status, and whether secondary use of the public de-identified datasets requires review.]\\
+\textbf{Funding:} [Authors to confirm.]\\
+\textbf{Competing interests:} [Authors to declare.]\\
+\textbf{Author contributions:} [Authors to complete.]\\
+\textbf{Data availability:} Source datasets are available from the UCI Machine Learning Repository under their stated terms; processed data and derived artifacts are in the project workspace. [Authors to provide a stable public repository/archive URL and confirm redistribution terms.]\\
+\textbf{Code availability:} [Authors to provide a stable public repository/archive URL and version identifier.]\\
+\textbf{Patient and public involvement:} [Authors to confirm whether any involvement occurred; none is inferred from this repository.]
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}

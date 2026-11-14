@@ -1,0 +1,11 @@
+variable,type,definition,coding_or_unit,intended_stage,acquisition_time,required,data_governance_note
+study_id,string,unique cohort identifier,not a predictor,source-defined,enrolment,required,deidentified; no direct identifiers
+patient_id_hash,string,irreversible cohort-local patient key,grouping only,cohort-defined,enrolment,required,must not be a predictor
+age_years,numeric,age in completed years,years,pre-angiography,initial presentation,required,plausible range and missingness required
+sex,categorical,recorded sex using source definition,source-defined,pre-angiography,initial presentation,required,coding map required
+current_smoker,binary,smoking currently active at index presentation,0/1 plus source code,pre-angiography,initial presentation,required,reference date required
+ex_smoker,binary,former smoker before index presentation,0/1 plus source code,pre-angiography,initial presentation,required,definition and abstinence interval required
+family_history_cad,binary,family history of CAD using source definition,0/1 plus source code,pre-angiography,initial presentation,required,degree/age and missing code required
+cad_outcome,binary,angiographic CAD according to prespecified stenosis rule,0/1,outcome ascertainment,angiography,required,QCA/visual method and threshold required
+angiography_date_relative,date/offset,relative timing of index angiography,deidentified offset,outcome,index episode,required,no calendar date needed
+missingness_reason,categorical,why a predictor is missing,source-defined,measurement,all stages,recommended,distinguish not measured from unknown

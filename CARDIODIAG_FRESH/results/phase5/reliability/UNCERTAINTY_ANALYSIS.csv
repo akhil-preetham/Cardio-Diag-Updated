@@ -1,0 +1,17 @@
+stage,held_out_centre,method,implemented,limitation
+stage1_basic_risk,Cleveland,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage1_basic_risk,Hungary,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage1_basic_risk,Switzerland,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage1_basic_risk,VA Long Beach,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage2_symptoms,Cleveland,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage2_symptoms,Hungary,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage2_symptoms,Switzerland,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage2_symptoms,VA Long Beach,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage3_resting_measurements,Cleveland,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage3_resting_measurements,Hungary,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage3_resting_measurements,Switzerland,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage3_resting_measurements,VA Long Beach,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage4_exercise_test,Cleveland,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage4_exercise_test,Hungary,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage4_exercise_test,Switzerland,record_bootstrap,True,does not account for patient clustering or centre sampling
+stage4_exercise_test,VA Long Beach,record_bootstrap,True,does not account for patient clustering or centre sampling

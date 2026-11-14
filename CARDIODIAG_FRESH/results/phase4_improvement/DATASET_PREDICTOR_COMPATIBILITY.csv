@@ -1,0 +1,10 @@
+dataset,patient_predictor_evidence,predictor_compatibility
+ARCADE,no patient-level identifiers verified,no frozen five-predictor table verified
+MultiD4CAD,clinical biomarkers plus CT EAT/PAT; files restricted,biomarkers; frozen set unverified
+CADICA,clinical metadata plus ICA images,selected clinical features; frozen set unverified
+AngioCAD,patient tables acquired; images not acquired,clinical/laboratory table; timing audit required
+PTB-XL,patient identifiers/grouping available in metadata,"ECG features, not angiographic predictors"
+MIMIC-IV,angiography phenotype would require new ascertainment,variable EHR fields
+eICU-CRD,not fixed angiographic endpoint,variable ICU EHR fields
+NHANES,no angiographic endpoint,survey risk factors
+Mendeley stenosis detection,no negative class,no usable clinical negative cohort

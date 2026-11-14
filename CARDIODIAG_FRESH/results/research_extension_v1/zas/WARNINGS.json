@@ -1,0 +1,8 @@
+[
+  {
+    "checkpoint": "r1_f4_corrected_component1.json",
+    "category": "ConvergenceWarning",
+    "message": "The max_iter was reached which means the coef_ did not converge",
+    "count": 1
+  }
+]

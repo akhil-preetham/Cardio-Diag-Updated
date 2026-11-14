@@ -1,0 +1,51 @@
+{
+  "audit_version": "comprehensive_research_audit_v1",
+  "generated_utc": "2026-11-13T07:28:20.552591+00:00",
+  "project_root": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH",
+  "scope": "static review and existing-artifact verification; no broad retraining or notebook execution",
+  "source_hashes": {
+    "reference/author_release/heart5.csv": "e4068802a044e8a1e3ae9fa81deae7025711bf4f13e3057f96e4f1cf3b0180c2",
+    "reference/author_release/MendeleyCardiovascular_Disease_Dataset.csv": "9376367dde41e79e432d6402ea5d9e44223fc318ff54ed09966d721923947d1e",
+    "reference/extracted_author_archives/base_reproduction/Daza_Base_Paper_Reproduced/Daza_Paper_Exact_Accuracy.ipynb": "990f24622ca3aefe2f62e37f7d9e1097fe14b118a49ee398ff3ee67568bfbe4d",
+    "reference/reproduction_runner/work/author_faithful/base_reproduction/Daza_Paper_Exact_Accuracy.ipynb": "666ab88c049dba064057e79d55fb413bca37a1c7de3f3bb8c24cad070844b646",
+    "runner/corrected_validation.py": "3f09d0d791a4fbbc00d2f5050d47229ebc3c0d5cb9d8609d22fcb602946fd3bc",
+    "runner/ensemble_experiments.py": "8e47cf84cc45b6086517ca5caabe4a3b1d4b8bd486b8b81a01192bb705881823",
+    "src/cardiodiag/feature_selection/xaih_drc.py": "92c300467eaf14acc73f2f680ca84a6bb1e276ec3380bdf99aab1dab4e3bf2f0",
+    "src/cardiodiag/statistics/paired.py": "3b2b3c133b77bca3d47c6ff81c633ee82a94aa6bc79c9e0566442cf64f0779a7",
+    "paper/manuscript.tex": "1af0af5ccf7da204c82dcf98f4805d8a900573e6597af9bfd8b038960f31a502",
+    "docs/EXPERIMENT_RESULTS.md": "542ec4cc6696225111cda32dbc694d6f1bd817a39c51a3adc3e0a8e4a6356691",
+    "docs/FINAL_EXECUTION_VERIFICATION.md": "3f01fa5d06aa49a60d1254d9d1d98cceb79f4f48074f08bc48080bd25e419ca2"
+  },
+  "audit_scripts": [
+    "runner/duplicate_audit.py",
+    "runner/evidence_audit.py",
+    "runner/final_independent_verification.py"
+  ],
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "pandas": "3.1.1",
+    "numpy": "2.4.6",
+    "pytest": "13 tests passed with PYTHONPATH=src",
+    "compileall": "passed for src, runner, tests"
+  },
+  "execution_records": [
+    "results/final_independent_verification.json",
+    "reference/reproduction_runner/audit/notebook_inventory.json",
+    "results/experiment_metrics.json"
+  ],
+  "outputs": {
+    "audit_findings.json": "2d8d7a4fbc6f23800428e656573de0b1b0c77ea78da2bc45ae2f0ca867c1c4f7",
+    "DATA_LEAKAGE_AUDIT.md": "8b0b9633802fa791eb3beadc7bade1d95498c42907c1cd91f02f27ead7c6ba31",
+    "DATASET_INTEGRITY_AUDIT.md": "caf6c04bd370235045c6fbbf5444306ecf4d20acf64e5c73b6634eb6aa2e929e",
+    "EXECUTIVE_SUMMARY.md": "da67573903bb44e50696d7449e069ffddec5317b5117725b7b10142753917d86",
+    "EXPLAINABILITY_AND_RELIABILITY_AUDIT.md": "9cfecd010c0ef1bd32662661bbcfa09dc6fc85ff7c462ab758267dd8443c27a7",
+    "IMPLEMENTATION_AUDIT.md": "d0da8d60eee3c5ff7f31f28db1c7ee17b6421f77205ef1f7117635e18890fc36",
+    "MANUSCRIPT_PUBLICATION_AUDIT.md": "2cd35caa2db7a2d1f82467c88e7530ded3155ebddd159780f7dd21b8275ea419",
+    "METHODOLOGY_COMPLIANCE.md": "565a86c97ad06cea3e864a82c6b280c6d82b3d14e25b954d78a219079654834d",
+    "MODEL_AND_EXPERIMENT_AUDIT.md": "c011da8e1fcddc0a0b98607c43474d8ace5ca2ee481efc93efef54e81c6af669",
+    "NEXT_ACTIONS.md": "74def2b3efeddf410858f333b3375e1861e6758f2409e5b5dc2d203fe895816e",
+    "PRIORITIZED_IMPROVEMENT_ROADMAP.md": "2e1da6fd90e635176b5e63a6b3d4201b88a7b93409daf9b5c6fed9ec8d77faeb",
+    "SOFTWARE_REPRODUCIBILITY_AUDIT.md": "2a5b7ee5f9bd41d6c8356b7d2c1b38c7deafc194c1154af1166299bb3a1dbb1e"
+  }
+}

@@ -1,0 +1,3 @@
+# Prespecified stage-selection protocol
+
+Before reviewing final comparisons, stages are judged on: (1) discrimination and PR-AUC, (2) Brier score, log loss, intercept and slope, (3) consistency across all held-out centres, (4) missingness and duplicate sensitivity, (5) availability at the stated prediction time, (6) interpretability, and (7) reproducibility under independent metric audit. Stages answer different questions and are not ranked as interchangeable models. Stage 1 is initial pretest risk; Stage 2 adds symptoms; Stage 3 adds resting measurements; Stage 4 adds exercise testing. A later stage cannot replace an earlier stage for a different clinical decision.

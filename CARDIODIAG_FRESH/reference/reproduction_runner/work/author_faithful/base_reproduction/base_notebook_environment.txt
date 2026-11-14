@@ -1,0 +1,19 @@
+Preparation timestamp (UTC): 2026-11-12T18:22:09+00:00
+Preparation only: True
+Notebook execution performed: False
+Python: 3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]
+Platform: Windows-10-10.0.26300-SP0
+Original notebook SHA-256: 990f24622ca3aefe2f62e37f7d9e1097fe14b118a49ee398ff3ee67568bfbe4d
+Working copy SHA-256: 666ab88c049dbd064057e79d55fb413bca37a1c7de3f3bb8c24cad070844b646
+Dataset path: C:\CARDIO_DIAG\Cardio-Diag-Approach-Code-main\CARDIODIAG_FRESH\reference\author_release\heart5.csv
+Dataset SHA-256: e4068802a044e8a1e3ae9fa81deae7025711bf4f13e3057f96e4f1cf3b0180c2
+Installed package versions used for compatibility review:
+  numpy==2.4.6
+  pandas==3.1.1
+  scikit-learn==1.9.1
+  imbalanced-learn==0.14.2
+  xgboost==3.2.0
+  matplotlib==3.11.2
+  nbformat==5.11.1
+  nbclient==0.11.0
+  ipykernel==7.4.0

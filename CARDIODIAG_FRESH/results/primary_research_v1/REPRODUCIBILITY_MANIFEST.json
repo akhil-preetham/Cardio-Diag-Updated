@@ -1,0 +1,82 @@
+{
+  "protocol_version": "PRIMARY_RESEARCH_PROTOCOL_V1",
+  "generated_utc": "2026-11-13T09:00:00.030388+00:00",
+  "script": "runner\\primary_research_v1.py",
+  "script_sha256": "8af0f84aaffba1f83b3de1fc4d801a15538a2e7a7dd8297aefc8a6624e6064a7",
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "pandas": "3.1.1",
+    "numpy": "2.4.6",
+    "scikit_learn": "1.9.1"
+  },
+  "inputs": {
+    "data\\interim\\validated\\z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "results\\clinical_validation_audit_v3\\Z_ALIZADEH_FEATURE_AUDIT.csv": "21d307f6632d7a8130922575919b877d3f55427ddd988f99804d3147499537b0",
+    "docs\\PRIMARY_RESEARCH_PROTOCOL_V1.md": "137cf9409d1ede5bbee9ae3c00cd2af7bda84204b5fd5cf7281955755d0cb636"
+  },
+  "outputs": {
+    "results\\primary_research_v1\\CALIBRATION_RESULTS.csv": "cebdc3f293139cc2eb4cadb2ab0da6f3354cadb1facb578529c03cc22a71c622",
+    "results\\primary_research_v1\\DATA_VALIDATION_REPORT.md": "444a03607b6952dd1c5cfc2e81b164f0e345960b42b78868da3f4b02af0cc6e3",
+    "results\\primary_research_v1\\EXECUTIVE_RESULTS_REPORT.md": "6867db75518cf780ffc0c3200a67bf900111fbe5a9617064b47b1f4791da3fe8",
+    "results\\primary_research_v1\\EXPERIMENT_CONFIGURATION.json": "97339a919d213c0a164373538c94e8d7c377774a327ac9b5afe1c5cd388c49f7",
+    "results\\primary_research_v1\\FEATURE_ELIGIBILITY_FINAL.csv": "4cb8940f110fb5f8e8c82de30da869fcbb75173cbe42f42e55022d4b1d9d585f",
+    "results\\primary_research_v1\\FEATURE_IMPORTANCE_RESULTS.csv": "b51f1523c69bbde28ab62295e9db276e9c0def15321578552a789e12dbe0a26b",
+    "results\\primary_research_v1\\HYPERPARAMETER_SELECTION_RESULTS.csv": "2133a13e2431c8cee493fd4f5eb1add292c74d21891978c1cb3d23cbb4dabe01",
+    "results\\primary_research_v1\\LIMITATIONS_AND_VALIDITY_ASSESSMENT.md": "f02fb2076792eb6cb35a09fc9add9db8ac59ecf6cbfc9205d1c20b74836c5731",
+    "results\\primary_research_v1\\MODEL_COMPARISON_RESULTS.csv": "6e054efe5b855a701a6ee0f9b5112abbd37d508714c770ea45a83f89d1935000",
+    "results\\primary_research_v1\\OUTER_FOLD_PREDICTIONS.csv": "225fa56fed0b2d3181249bae004ac7ea7e9ba2b40689a799061120c7322ec7e0",
+    "results\\primary_research_v1\\PRIMARY_RESEARCH_PROTOCOL_V1.md": "137cf9409d1ede5bbee9ae3c00cd2af7bda84204b5fd5cf7281955755d0cb636",
+    "results\\primary_research_v1\\ROBUSTNESS_RESULTS.csv": "a69e9ab66599e1cb1542e2c7d3a62a77c846616f1462745f8a6fa605fc15d5cd",
+    "results\\primary_research_v1\\STATISTICAL_COMPARISONS.csv": "63beed57c87e417f640c2ae96adeb817d5e3c0b7aaeced506f79fa2ffc6420ea",
+    "results\\primary_research_v1\\UNCERTAINTY_RESULTS.csv": "0e4d5757024414f2ae4e1ad1ec58666bdb40cfd6a0c733c1344ef4bbf02c023e",
+    "results\\primary_research_v1\\calibration\\CALIBRATION_RESULTS.csv": "cebdc3f293139cc2eb4cadb2ab0da6f3354cadb1facb578529c03cc22a71c622",
+    "results\\primary_research_v1\\data_validation\\data_validation.json": "2b538564c777844871058d7c23b59d66537b9db6ca9a17ed1611e036e58f495c",
+    "results\\primary_research_v1\\data_validation\\DATA_VALIDATION_REPORT.md": "444a03607b6952dd1c5cfc2e81b164f0e345960b42b78868da3f4b02af0cc6e3",
+    "results\\primary_research_v1\\explainability\\FEATURE_IMPORTANCE_RESULTS.csv": "b51f1523c69bbde28ab62295e9db276e9c0def15321578552a789e12dbe0a26b",
+    "results\\primary_research_v1\\figures\\best_model_calibration.png": "fdb1dc5669f677b716d866bc4fe6dff7a9268c2f743176f3e95b7014898715be",
+    "results\\primary_research_v1\\figures\\model_roc_auc_summary.png": "8f63e7547fdbcdb76f23c661ea89f2b614cba9009566b38ae1ed1f63610018ab",
+    "results\\primary_research_v1\\logs\\experiment_failures.jsonl": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "results\\primary_research_v1\\metrics\\HYPERPARAMETER_SELECTION_RESULTS.csv": "2133a13e2431c8cee493fd4f5eb1add292c74d21891978c1cb3d23cbb4dabe01",
+    "results\\primary_research_v1\\metrics\\MODEL_COMPARISON_RESULTS.csv": "6e054efe5b855a701a6ee0f9b5112abbd37d508714c770ea45a83f89d1935000",
+    "results\\primary_research_v1\\predictions\\OUTER_FOLD_PREDICTIONS.csv": "225fa56fed0b2d3181249bae004ac7ea7e9ba2b40689a799061120c7322ec7e0",
+    "results\\primary_research_v1\\protocol\\FEATURE_ELIGIBILITY_FINAL.csv": "4cb8940f110fb5f8e8c82de30da869fcbb75173cbe42f42e55022d4b1d9d585f",
+    "results\\primary_research_v1\\protocol\\PRIMARY_RESEARCH_PROTOCOL_V1.md": "137cf9409d1ede5bbee9ae3c00cd2af7bda84204b5fd5cf7281955755d0cb636",
+    "results\\primary_research_v1\\robustness\\ROBUSTNESS_RESULTS.csv": "a69e9ab66599e1cb1542e2c7d3a62a77c846616f1462745f8a6fa605fc15d5cd",
+    "results\\primary_research_v1\\splits\\SPLIT_ASSIGNMENTS.csv": "1161bcd61b7743bafd3b7e4547793f409837689b9759eed7e3351c6f851019ac",
+    "results\\primary_research_v1\\statistics\\STATISTICAL_COMPARISONS.csv": "63beed57c87e417f640c2ae96adeb817d5e3c0b7aaeced506f79fa2ffc6420ea",
+    "results\\primary_research_v1\\uncertainty\\UNCERTAINTY_RESULTS.csv": "0e4d5757024414f2ae4e1ad1ec58666bdb40cfd6a0c733c1344ef4bbf02c023e"
+  },
+  "execution_policy": {
+    "model_training": true,
+    "model_tuning": true,
+    "model_evaluation": true,
+    "raw_data_modified": false,
+    "external_validation": false,
+    "historical_results_overwritten": false
+  },
+  "validation": {
+    "source": "data\\interim\\validated\\z_alizadeh_sani.csv",
+    "rows": 303,
+    "columns": 56,
+    "target": "Cath",
+    "class_counts": {
+      "Cad": 216,
+      "Normal": 87
+    },
+    "strict_features": [
+      "Age",
+      "Sex",
+      "Current Smoker",
+      "EX-Smoker",
+      "FH"
+    ],
+    "missing_values_in_strict_features": {},
+    "exact_duplicate_rows": 0,
+    "strict_predictor_duplicate_rows": 147,
+    "invalid_target_values": [],
+    "raw_data_modified": false
+  },
+  "failed_model_folds": 0,
+  "prediction_rows": 13635
+}

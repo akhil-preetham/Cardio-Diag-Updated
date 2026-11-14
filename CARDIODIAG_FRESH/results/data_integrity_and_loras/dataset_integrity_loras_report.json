@@ -1,0 +1,66 @@
+[
+  {
+    "dataset": "five_states",
+    "rows": 918,
+    "features": 11,
+    "identifier_columns": [],
+    "duplicate_rows": 0,
+    "duplicate_feature_rows": 0,
+    "rounded_numeric_duplicates_3dp": 2,
+    "train_rows": 688,
+    "test_rows": 230,
+    "loras_train_rows": 762,
+    "loras_class_counts": {
+      "1": 381,
+      "0": 381
+    },
+    "smote_train_rows": 762,
+    "smote_class_counts": {
+      "0": 381,
+      "1": 381
+    },
+    "loras_vs_smote_feature_shape": [
+      [
+        762,
+        20
+      ],
+      [
+        762,
+        20
+      ]
+    ]
+  },
+  {
+    "dataset": "mendeley",
+    "rows": 1000,
+    "features": 12,
+    "identifier_columns": [
+      "patientid"
+    ],
+    "duplicate_rows": 0,
+    "duplicate_feature_rows": 0,
+    "rounded_numeric_duplicates_3dp": 0,
+    "train_rows": 750,
+    "test_rows": 250,
+    "loras_train_rows": 870,
+    "loras_class_counts": {
+      "1": 435,
+      "0": 435
+    },
+    "smote_train_rows": 870,
+    "smote_class_counts": {
+      "1": 435,
+      "0": 435
+    },
+    "loras_vs_smote_feature_shape": [
+      [
+        870,
+        12
+      ],
+      [
+        870,
+        12
+      ]
+    ]
+  }
+]

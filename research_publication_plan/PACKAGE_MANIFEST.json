@@ -1,0 +1,146 @@
+{
+  "date_local": "2026-11-14",
+  "timezone": "Asia/Calcutta",
+  "scope": "Planning, source comparison, official clinical data acquisition/screening, evidence-only IEEE-style review manuscript",
+  "new_predictive_models_trained": 0,
+  "latex_compiled": false,
+  "pdf_pages": 4,
+  "historical_research_outputs_modified": false,
+  "data_acquired": "Two small AngioCAD workbooks and public metadata only; no imagery",
+  "source_base_pdf": {
+    "path": "C:\\Users\\akhil\\Downloads\\Final_Year_Project\\peerj-cs-4059-BASE_PAPER.pdf",
+    "sha256": "28423f6cc9902be70d33a9e778336b6e950031e8174e3d5dc100efcafc5c1155"
+  },
+  "files": [
+    {
+      "path": "ANGIOCAD_EXTENSION_PROTOCOL.md",
+      "bytes": 6196,
+      "sha256": "9b47c3a61e30d2e7c7704c8582a82ad0ab8c77a8c1c75829f6dd50cbd7c2a7e8"
+    },
+    {
+      "path": "base_paper_extracted.txt",
+      "bytes": 175379,
+      "sha256": "351eb2d675309b3cf3d0d3370bcdfdea8c397b26c288c5bd5a7ced2a69f224d3"
+    },
+    {
+      "path": "base_paper_review.png",
+      "bytes": 1038676,
+      "sha256": "09c46af1141795726ccc55408e925f1067385fc874f8e4df75c13e486a7f749d"
+    },
+    {
+      "path": "BASE_VS_UPDATED.md",
+      "bytes": 13520,
+      "sha256": "5ef3bfdd77851f7a581cfccb2e4747db3d7472567a56b8af90238fa1d5132dec"
+    },
+    {
+      "path": "build_manuscript.py",
+      "bytes": 10984,
+      "sha256": "882397a19ccb39befc70029c0927d4f67733f263e74aadfb2bd48932af3aad79"
+    },
+    {
+      "path": "BUILD_QA.json",
+      "bytes": 571,
+      "sha256": "d9475bef68b71c643b2a4eec3bf23ab5ed97c1cb20df88bdabbe86adecdb5f00"
+    },
+    {
+      "path": "CARDIODIAG_IEEE_STYLE_REVIEW_DRAFT.pdf",
+      "bytes": 19616,
+      "sha256": "e1ab9bfd7a94923f6d2e6be0836e7df8d1656b38b63eecd9965536981b96d702"
+    },
+    {
+      "path": "dataset_and_literature_review.md",
+      "bytes": 17947,
+      "sha256": "bc5601bfed7b09083389b94baf8eccd9e122fe5047a60d817a000c3c255169fd"
+    },
+    {
+      "path": "IEEE_MANUSCRIPT_DRAFT.md",
+      "bytes": 20059,
+      "sha256": "51248242d49dec1cdfbfe1b138f71d73b5fb38edfbc05014f8ca7a4733e30fd5"
+    },
+    {
+      "path": "IEEE_MANUSCRIPT_DRAFT.tex",
+      "bytes": 20870,
+      "sha256": "b39a48985057e80f6e3275b913a1cf138a0ec1a30ee66b783f6420790748dca5"
+    },
+    {
+      "path": "MANUSCRIPT_NUMERIC_TRACEABILITY.csv",
+      "bytes": 3011,
+      "sha256": "1ce8c000e954179526a9c63e9be4b7d78f296bf437dfe9306aaf917a0e51afb2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2856,
+      "sha256": "17d857d73a00d1f3bca474b2475bfd13107ffba759bdeca41e5709b2ae38b532"
+    },
+    {
+      "path": "RESEARCH_PLAN.md",
+      "bytes": 20716,
+      "sha256": "7dbe52b4d0c97430c3fb23960118e972ab5b3e4b879fd6ad507694983062ea4e"
+    },
+    {
+      "path": "updated_methodology_review.md",
+      "bytes": 14581,
+      "sha256": "2c7bd87be637bc7d7a0b410269fe8a22cd5dc3c0c57d57c0e2127334e90921b9"
+    },
+    {
+      "path": "data_screening\\angiocad\\aggregate_screening.json",
+      "bytes": 1994,
+      "sha256": "d535ffaf8f35c75a757c319a567e5ef9df2ea5fc39acc6444efbc25fa0b7ac4f"
+    },
+    {
+      "path": "data_screening\\angiocad\\AngioCAD_Features.xlsx",
+      "bytes": 129493,
+      "sha256": "978f2415ab52f11724e1ef00bb63597b8497487afd84b97f7112fc7975a33295"
+    },
+    {
+      "path": "data_screening\\angiocad\\AngioCAD_Labels.xlsx",
+      "bytes": 43267,
+      "sha256": "5bba3f4ba8bed0df0d2f412d5e2ca6deacca0eff20d531a599fe1b8f4d897425"
+    },
+    {
+      "path": "data_screening\\angiocad\\PROVENANCE_MANIFEST.json",
+      "bytes": 1224,
+      "sha256": "3095d952705721224dadd9310830804bf2ead4353450f68d4fbde2a6d4cc76a2"
+    },
+    {
+      "path": "data_screening\\angiocad\\screen_angiocad.py",
+      "bytes": 9648,
+      "sha256": "04a526f0e024517679c2b7467a5b414b547c9884d52febaa091ebdc0de01d496"
+    },
+    {
+      "path": "data_screening\\angiocad\\SCREENING_REPORT.md",
+      "bytes": 2971,
+      "sha256": "0d90a62a1c4a9427de57acc4e9eb22ab0d08724472cc14d206d32e80b4d9f032"
+    },
+    {
+      "path": "data_screening\\angiocad\\zenodo_record_15826856.json",
+      "bytes": 6032,
+      "sha256": "d04bc15229833f93e361fd22dc5add5c32131a1331d576c6bf24fb3514c7b53b"
+    },
+    {
+      "path": "rendered_pages\\contact_sheet.png",
+      "bytes": 701256,
+      "sha256": "cad2c1bc66a5ccef5b920ff66ed77d064a957ca62478de7e23e46a8a06c78c42"
+    },
+    {
+      "path": "rendered_pages\\page_01.png",
+      "bytes": 365545,
+      "sha256": "8746f95080cc79be1ad0360e53a6c8a2ff765804b7d7872968fcef92e83a5f0b"
+    },
+    {
+      "path": "rendered_pages\\page_02.png",
+      "bytes": 393473,
+      "sha256": "128e4cf586919e4b53d1ce0b1998132b8d3815034c1314dc9e5b6c3bcae89c00"
+    },
+    {
+      "path": "rendered_pages\\page_03.png",
+      "bytes": 378261,
+      "sha256": "8314b95fd03c4817642e17a2a218e0ed792242f683eb7f9b75137380fde21c84"
+    },
+    {
+      "path": "rendered_pages\\page_04.png",
+      "bytes": 255650,
+      "sha256": "3cea775acee5c39ae7cede673799c00701c5b6b8001fee04d98f8ed2762d6ff4"
+    }
+  ]
+}

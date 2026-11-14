@@ -1,0 +1,25 @@
+observation,test_index,feature,weight,probability
+positive_representative,104,-0.54 < slope <= 0.46,0.5599376735269407,0.9924512239027798
+positive_representative,104,restingrelectro > 0.33,0.09150081985614769,0.9924512239027798
+positive_representative,104,0.03 < chestpain <= 1.09,0.06595741481717542,0.9924512239027798
+positive_representative,104,fastingbloodsugar <= -0.63,-0.04002264015926853,0.9924512239027798
+positive_representative,104,oldpeak <= -0.87,0.028545400061639956,0.9924512239027798
+positive_representative,104,-0.14 < restingBP <= 0.97,0.02774748014140274,0.9924512239027798
+positive_representative,104,0.03 < maxheartrate <= 0.86,0.026819522099478552,0.9924512239027798
+positive_representative,104,0.05 < serumcholestrol <= 0.72,-0.025946223867933153,0.9924512239027798
+positive_representative,104,noofmajorvessels > 0.79,-0.01953311908691144,0.9924512239027798
+positive_representative,104,-0.97 < exerciseangia <= 1.04,-0.01943309834681122,0.9924512239027798
+positive_representative,104,-0.01 < age <= 0.84,0.005436490606756634,0.9924512239027798
+positive_representative,104,gender <= 0.56,0.0,0.9924512239027798
+negative_representative,87,slope <= -0.54,-0.8159305205898533,0.011409965210476639
+negative_representative,87,chestpain <= -1.02,-0.05907863592322142,0.011409965210476639
+negative_representative,87,restingrelectro <= -0.98,-0.0431245443467072,0.011409965210476639
+negative_representative,87,fastingbloodsugar <= -0.63,-0.04126288393611676,0.011409965210476639
+negative_representative,87,0.05 < serumcholestrol <= 0.72,-0.03404505191493337,0.011409965210476639
+negative_representative,87,maxheartrate <= -0.76,-0.03061548352629421,0.011409965210476639
+negative_representative,87,restingBP <= -0.76,-0.02360795096876015,0.011409965210476639
+negative_representative,87,oldpeak <= -0.87,0.020234708167617955,0.011409965210476639
+negative_representative,87,age <= -0.85,-0.0061385647986721475,0.011409965210476639
+negative_representative,87,noofmajorvessels <= -1.25,-0.0022373775668791075,0.011409965210476639
+negative_representative,87,-0.97 < exerciseangia <= 1.04,0.001312936893581278,0.011409965210476639
+negative_representative,87,gender <= 0.56,0.0,0.011409965210476639

@@ -1,0 +1,11 @@
+# CARDIODIAG V4 Performance Optimization Results
+
+This study is a structured predictive-performance investigation after the fully nested V3 calibration correction. It preserved the five strict prespecified predictors, the five existing model families, and the exact Stage 6 repeated nested splits. It expanded regularization and compact model-complexity grids within the training process, retained balanced and unweighted alternatives, and used V3 fold-specific fully nested calibration. No additional clinical features were evaluated because their prediagnostic timing and definitions were not sufficiently documented.
+
+The best descriptive calibrated ROC-AUC in the V4 search was logistic regression with class weighting (0.734 +/- 0.059). This did not improve on V3's corresponding 0.735 +/- 0.060. V4 also did not improve probability quality: its best logistic balanced Brier score was 0.179 versus 0.176 in V3, and its log loss was 0.539 versus 0.533. These are descriptive repeated internal-validation comparisons, not confirmatory significance tests.
+
+The optimization therefore does not replace V3 as the preferred calibrated internal-validation baseline. Logistic regression remains the most defensible model family because it provides the strongest discrimination among the tested families with lower complexity; the choice between balanced and unweighted thresholds remains dependent on the prespecified clinical operating point. Tree and kernel models did not provide a stable discrimination or calibration advantage.
+
+All probability metrics use valid calibrated probabilities. SVM native decision scores remain decision scores and are not reported as native probabilities. The study involved 30,725 bounded single-worker pipeline fits, used no outer-test labels for selection, and was independently checked from saved predictions and selection records.
+
+Limitations remain substantial: 303 observations, repeated internal validation without an independent clinical cohort, repeated use of source rows across folds, no patient identifier for grouping, and conditional source-row bootstrap summaries that do not quantify full algorithmic or population uncertainty. Feature importance is predictive association and not causal evidence.

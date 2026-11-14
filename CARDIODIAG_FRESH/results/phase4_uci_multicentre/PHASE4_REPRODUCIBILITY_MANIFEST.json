@@ -1,0 +1,53 @@
+{
+  "generated_utc": "2026-11-13T13:45:22.989097+00:00",
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0"
+  },
+  "inputs": {
+    "archive": "b17cd273da9ce1caa4710fce80227ea454d4dbf9fcbc8e6a9121672751563adc",
+    "source_files": {
+      "processed.cleveland.data": "a74b7efa387bc9d108d7d0115d831fe9b414b29ae7124f331b622b4efa0427c8",
+      "processed.hungarian.data": "d1ad108f785768cd3d7e82dc522e6f5a61eea93cccfb3a46ee8076f73fc3d796",
+      "processed.switzerland.data": "834a405ccf5b66ab4056bb77794adc8df0b7125186454c0a1d002d33c6c3b314",
+      "processed.va.data": "e7c93d8d0d2acdadfa4c5e8de768e2191e7f618b952e29623f1f0d5949ff6b8f"
+    }
+  },
+  "outputs": {
+    "results\\phase4_uci_multicentre\\CALIBRATION_RESULTS.csv": "c281e9e1c47c8e2a616b04873b11fa1e2c0cf1b267553732231086ecc8388144",
+    "results\\phase4_uci_multicentre\\CARDIODIAG_V3_COMPARISON.md": "96d675b59c7ab994899ae59af5867d8054b2c846bb8f8a2c94b9f09b188053fa",
+    "results\\phase4_uci_multicentre\\CENTRE_COHORT_PROFILE.csv": "3831548217460db150381fd3882d74f70bccbf980222bc9c49bed6d767714c6b",
+    "results\\phase4_uci_multicentre\\CENTRE_MISSINGNESS_MATRIX.csv": "bd03faf0eca1010d347f9ba8d14cd812d916edd27dc9fca044967162222c04f9",
+    "results\\phase4_uci_multicentre\\CENTRE_SAMPLE_SIZE_ASSESSMENT.csv": "3e7a24a60c31a0a7dd831cb8664490e75e4b71501581b66f8ce24f1935fbfb8f",
+    "results\\phase4_uci_multicentre\\CENTRE_VALIDATION_METRICS.csv": "a57531d8f252e3831ef17ebd8438fd7bc0c6881388d17e2b71df72f73ef1b137",
+    "results\\phase4_uci_multicentre\\CLINICAL_VARIABLE_DICTIONARY.csv": "7b143ec80d746463e653868ea2444e83b9ce2f388eb45deb6844f62b242c4083",
+    "results\\phase4_uci_multicentre\\DATA_QUALITY_REPORT.md": "cae3d07477682d834e33a0777c57e0e495e2fff054da6004d4b45d52954a20eb",
+    "results\\phase4_uci_multicentre\\DUPLICATE_AND_OVERLAP_AUDIT.csv": "f5ad385ace153a2d5afdd140b8d333e72f91a45a9e975c5906b7bd2078ea1e04",
+    "results\\phase4_uci_multicentre\\EXPERIMENT_FEASIBILITY_GATE.md": "399092a6cade11893b7ea68706e0f8b4cd7cd86728eb8a934a181d134fd822da",
+    "results\\phase4_uci_multicentre\\EXPLORATORY_FEATURE_SET.json": "8be1121332d2e3ec0c5fc3df5111ce65e1f983878fd33c87d5a396e70027eb1a",
+    "results\\phase4_uci_multicentre\\FEATURE_HARMONIZATION_MATRIX.csv": "f324af2eb2d08cfac6b89d00113845305eaed07e04527a2808392c598a199512",
+    "results\\phase4_uci_multicentre\\HARMONIZATION_DECISIONS.md": "6a03525c35be59d57ff819f9560e25ba2db1abcdb4a70e33e2dbb845da45db07",
+    "results\\phase4_uci_multicentre\\MODEL_SELECTION_RESULTS.csv": "9418e5e54cc671ac4fb61ae7f59531e175311876a7cbc96241ca89b49b219509",
+    "results\\phase4_uci_multicentre\\OUTCOME_DEFINITION_AND_HARMONIZATION.md": "72b591bb338f2760c998e2f74627ae063545d64d5cdb17d2003a2a121aeb4a41",
+    "results\\phase4_uci_multicentre\\OUT_OF_CENTRE_PREDICTIONS.csv": "79a90baefdad84009bcaa190dc0f9ef9338b8025c621315c35f84351c0ae7208",
+    "results\\phase4_uci_multicentre\\PHASE4_EXPERIMENT_CONFIG.json": "b2d57eaf0a2d691b61fb2ceff6a121fa95698aa595471166424d718605e7020f",
+    "results\\phase4_uci_multicentre\\PHASE4_FINAL_DECISION.md": "23092e7d3cdb3daf2d766313cc80aba2b418906349908c722b11f092e7300a4a",
+    "results\\phase4_uci_multicentre\\PHASE4_FINAL_RESEARCH_REPORT.md": "8dce597dbd7aca0eb71bb43360b3e5ab057eef140f1bb23011f239388fd4bc30",
+    "results\\phase4_uci_multicentre\\PHASE4_PROTOCOL.md": "b3b53b64f3f0e0499a844c3ae96c5ee6a482b0cf52c585db9bf94efaa59f29b8",
+    "results\\phase4_uci_multicentre\\PHASE4_QA_REPORT.md": "7f3e4dff7e9eb37d156088a5f3c7e27e5a9638e46ad7481c06319b0f393b8f34",
+    "results\\phase4_uci_multicentre\\POOLED_OUT_OF_CENTRE_METRICS.csv": "d26ca2a1001975c1a4f7780ec102b0ddb9654bc3896c00de63e856cdabd91dc2",
+    "results\\phase4_uci_multicentre\\PREDICTOR_TIMING_AND_ELIGIBILITY.csv": "e9814430040325a0a253018c193193533f55b612fcebfe09cc292fdda508da64",
+    "results\\phase4_uci_multicentre\\PROTOCOL_FREEZE_MANIFEST.json": "6ea9aafd5b2873df3f6d369ec2dd0bd29db4420d96bbb25b90406f928bcdc1af",
+    "results\\phase4_uci_multicentre\\SAMPLE_SIZE_AND_PRECISION_REPORT.md": "83b412f2e5ab131303c8c216140986679fdfbacc41b2403c8aa74beff42ccc54",
+    "results\\phase4_uci_multicentre\\SENSITIVITY_ANALYSIS_REPORT.md": "b8727ee036743338794b82414bfab9cbfc5c5c3ebc691f7cad42d677a04aec93",
+    "results\\phase4_uci_multicentre\\SHA256_MANIFEST.json": "d19a4571f6b66412c895a7134f7c5ef17b875f0eb99ddf74ff1d6e4a27871c06",
+    "results\\phase4_uci_multicentre\\SOURCE_INTEGRITY_AUDIT.md": "7d85fab3b54175a0bdad3c7bab4f4723080401c7bfbe5166bb959577844901c1",
+    "results\\phase4_uci_multicentre\\STRICT_FEATURE_SET.json": "3cbcf86b71607db41df9d5867bbf7f394827122b410f82eec8b65d1cc88c612e",
+    "results\\phase4_uci_multicentre\\TRANSPORTABILITY_REPORT.md": "c41b4e7a59939a502332c521bc282260ed393f319ac7f8cf17ec4c9ae295cc8c",
+    "results\\phase4_uci_multicentre\\uci_four_centre_patient_table.csv": "63602544561a5c91de270250d7920d8b0896cecd55e067bdb3b0266ca4d0fec5",
+    "results\\phase4_uci_multicentre\\VARIABLE_RANGE_AUDIT.csv": "b376a620581561f261f226469c12fe479a8236987b3d501923ac3a25753ba8e1",
+    "results\\phase4_uci_multicentre\\figures\\strict_logistic_calibration_by_centre.png": "dcaebe0058d829722eb377a65320d3dee2f59415159c6f0cd8664073507bd383",
+    "results\\phase4_uci_multicentre\\figures\\strict_pooled_roc.png": "ec00510fc80890f1eead15055709d1682e05ed7380150a74443b6b725e93a7b2"
+  },
+  "historical_results_modified": false
+}

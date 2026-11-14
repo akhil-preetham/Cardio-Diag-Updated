@@ -1,0 +1,5 @@
+check,expected,observed,pass
+prediction_count,5520,5520,True
+duplicate_prediction_keys,0,0,True
+wrong_held_out_centre_rows,0,12756,False
+missing_prediction_rows,0,0,True

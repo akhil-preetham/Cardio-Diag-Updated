@@ -1,0 +1,12 @@
+{
+  "prediction_rows": 13635,
+  "prediction_completeness": true,
+  "duplicate_prediction_keys": 0,
+  "calibration_selection_records": 900,
+  "calibration_selection_violations": 0,
+  "metric_rows_recomputed": 900,
+  "metric_recomputation_failures": 0,
+  "all_calibrated_probabilities_valid": true,
+  "historical_results_modified": false,
+  "manifest_hash_failures": []
+}

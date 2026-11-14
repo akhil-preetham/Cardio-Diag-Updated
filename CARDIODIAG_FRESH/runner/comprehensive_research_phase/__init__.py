@@ -1,0 +1,1 @@
+"""Comprehensive research consolidation package."""

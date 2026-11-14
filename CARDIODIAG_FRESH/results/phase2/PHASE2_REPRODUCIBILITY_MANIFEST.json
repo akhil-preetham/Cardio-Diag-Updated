@@ -1,0 +1,43 @@
+{
+  "generated_utc": "2026-11-13T13:21:59.040678+00:00",
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0"
+  },
+  "inputs": {
+    "data\\interim\\validated\\z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "results\\clinical_validation_audit_v3\\Z_ALIZADEH_FEATURE_AUDIT.csv": "21d307f6632d7a8130922575919b877d3f55427ddd988f99804d3147499537b0",
+    "results\\methodology_corrections_v2\\reproducibility\\split_manifest_v2.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458"
+  },
+  "outputs": {
+    "results\\phase2\\COMPLETE_FEATURE_PROVENANCE_AUDIT.csv": "21d307f6632d7a8130922575919b877d3f55427ddd988f99804d3147499537b0",
+    "results\\phase2\\DATASET_COMPATIBILITY_PHASE2.csv": "1eb053b1da98f155164be709f26031101c2ea66f370bf3f330132896779ccac0",
+    "results\\phase2\\FEATURE_TIMING_EVIDENCE.csv": "5ee885a422b4fe2dac45421970d89ba3e6d6733aee4b56c279300cd88634e532",
+    "results\\phase2\\FINAL_FEATURE_STAGE_MATRIX.csv": "79d3509ede1bf4b6f8a409eb6e1924438bc63e34b784f69d0da1e0a765dc06fe",
+    "results\\phase2\\LEARNING_CURVE_RESULTS.csv": "04050b1406414fbd92cdda05d813a6bc068f7fce3e7b8a39692cd9513032a9fa",
+    "results\\phase2\\MODEL_STABILITY_RESULTS.csv": "be361330065684d40a154cd5cfb43487ed2ae8fd0817d58aec422dc5e8626531",
+    "results\\phase2\\PHASE2_EXPERIMENT_CONFIGURATION.json": "e221251c18dfe5a1e19f89476ce088e1dcd99f6ff63fe6f385af1839392f7794",
+    "results\\phase2\\PHASE2_EXPERIMENT_REGISTRY.csv": "b78ca3787e4dc5ceae688e26ac4cb652bd3443497ed71899a0e0b9f2da3a8012",
+    "results\\phase2\\PHASE2_FINAL_ASSESSMENT.md": "0174af4168ec65e326277926b5f43f928c2c25aa506ff54d24b24010f9ad235c",
+    "results\\phase2\\PHASE2_FINAL_QA_REPORT.md": "439175ad436a5ed3586f825c55b5a5ac6133db1ed37f41432e9190b32c66e9fd",
+    "results\\phase2\\PHASE2_INDEPENDENT_VERIFICATION_REPORT.md": "32c8c5ffe5943df0cfd9dedadd96f19826d5e2ae72acec50d06600f2183ea54c",
+    "results\\phase2\\STAGE_WISE_CALIBRATION_RESULTS.csv": "d2e5706f8f25104060e10eaea74f86f3aca92dc41a9657cf2f33350cea877c3e",
+    "results\\phase2\\STAGE_WISE_DECISION_CURVE_RESULTS.csv": "af373d0910a56d23a229011122ca7f93ad6e1f689502a76da18f48efe7d85ab2",
+    "results\\phase2\\STAGE_WISE_MODEL_RESULTS.csv": "6e2466f305079fb19bb16c210d64b29a2b71fc25dd71cb24ef6ede57fce755a3",
+    "results\\phase2\\figures\\calibration_plots.png": "00a3b9c09716ed79ce8ead52ab22b5e7241896af567474589c3cfada333f9479",
+    "results\\phase2\\figures\\clinical_stage_architecture.png": "7afa9c7454a6f619736b9bdc45b2479af43fef6337edb0ba16554a5e70edec2a",
+    "results\\phase2\\figures\\decision_curves_exploratory.png": "2f8e75c0fafcba8a01faf06346b87ff3361f45c73d8777642e922f6429d5a696",
+    "results\\phase2\\figures\\feature_eligibility_matrix.png": "d260825ed4693ca3a1dc5e49bbb69689f001f4e183d2d3e8efb14623eb4f89fa",
+    "results\\phase2\\figures\\learning_curves_not_run.png": "cf30934f2cc7607f4cba7bb3a3794730e679b82c669cea58f8959506af51b098",
+    "results\\phase2\\figures\\model_stability.png": "1614ca4b0830432b1718be52282db12126032e89135990c05d30d1a3b7c68545",
+    "results\\phase2\\figures\\precision_recall_comparison_stages.png": "ce1e80905ea8bf9c7a205724f763039800ba665b58baafc21a2dbe45ec075ce5",
+    "results\\phase2\\figures\\roc_comparison_stages.png": "0afd4e13c8a5a7acf684da5d54f621aa632db37a6118525f8854268815a8740c",
+    "docs\\phase2\\CLINICAL_FEATURE_ELIGIBILITY.md": "66eaea815b4e4e0c4bc2f6412d31dd3c1f52088d301c02ab5fdf00f12b9a42dc",
+    "docs\\phase2\\EXTERNAL_VALIDATION_ACTION_PLAN.md": "e8a9d32435b825bca2863b1b6e3a19d0475749de35b3a4341ec0aad3c6f1a719",
+    "docs\\phase2\\PHASE2_INITIAL_AUDIT.md": "87f09cd7dc92d42b0d1a19ad743ef4987cf36043cb1148b124e380590e1c688e",
+    "docs\\phase2\\PHASE2_RESEARCH_PROTOCOL.md": "87caf625d48b0b6463685f02d8534d9a7a050ecd6603b3c3fe204dc4dc43ef67",
+    "docs\\phase2\\PHASE2_STATISTICAL_ANALYSIS_PLAN.md": "ed40f5b6883ddc462dc5a7f77afa6e9885e0580d36eab19d3d5b59ce9ead15ca",
+    "paper\\phase2\\MANUSCRIPT_DRAFT.md": "82b01f4c373a8a04da36c644720b6d322a403cfc2ab60bd5bb1da2a4474d8bc9"
+  },
+  "historical_results_modified": false
+}

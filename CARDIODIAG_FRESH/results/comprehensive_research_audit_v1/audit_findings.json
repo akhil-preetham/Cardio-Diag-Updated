@@ -1,0 +1,102 @@
+{
+  "audit_version": "comprehensive_research_audit_v1",
+  "scope": "static review plus inspection of existing executed artifacts; no broad retraining",
+  "findings": [
+    {
+      "id": "AUD-001",
+      "severity": "critical",
+      "status": "verified",
+      "problem": "Author-faithful preprocessing and SMOTE occur before the train/test split, with test-set-driven stopping.",
+      "evidence": ["runner/ensemble_experiments.py", "results/experiment_metrics.json", "docs/EXPERIMENT_RESULTS.md"],
+      "scientific_impact": "The author-faithful metric is selection/resampling-biased and is not an unbiased generalization estimate.",
+      "recommendation": "Preserve it as a faithful-risk artifact; use fold-local corrected validation for claims.",
+      "rerun_required": "Only if the corrected protocol changes",
+      "cost": "moderate",
+      "benefit": "valid evaluation boundary"
+    },
+    {
+      "id": "AUD-002",
+      "severity": "high",
+      "status": "verified",
+      "problem": "Author-faithful OVEC fails on recovered n_estimators=None; finite rerun is compatibility-adapted.",
+      "evidence": ["results/ensemble_experiments/five_states/author_faithful/ovec/failure.json", "runner/ensemble_experiments.py"],
+      "scientific_impact": "Exact OVEC reproduction is incomplete.",
+      "recommendation": "Report failure and adaptation separately; do not relabel the finite rerun as exact.",
+      "rerun_required": "Only after historical environment/source resolution",
+      "cost": "low to moderate",
+      "benefit": "faithful attribution"
+    },
+    {
+      "id": "AUD-003",
+      "severity": "high",
+      "status": "verified",
+      "problem": "Paired-statistics execution status conflicts across authoritative-looking documents.",
+      "evidence": ["docs/EXPERIMENT_RESULTS.md", "docs/FINAL_EXECUTION_VERIFICATION.md", "results/final_independent_verification.json", "results/ensemble_postprocessing/paired_model_comparisons.csv"],
+      "scientific_impact": "Readers cannot establish which inferential claims were actually executed and validated.",
+      "recommendation": "Reconcile artifacts and require prediction row-ID manifests.",
+      "rerun_required": "Maybe; first perform provenance check",
+      "cost": "low",
+      "benefit": "traceable inference"
+    },
+    {
+      "id": "AUD-004",
+      "severity": "high",
+      "status": "verified",
+      "problem": "Repeated holdouts overlap and are not independent cohorts.",
+      "evidence": ["runner/corrected_validation.py", "docs/EXPERIMENT_RESULTS.md"],
+      "scientific_impact": "Run-level uncertainty must not be interpreted as independent-patient uncertainty or external validation.",
+      "recommendation": "Use grouped/nested or independent external evaluation and cautious descriptive summaries.",
+      "rerun_required": "For external-validity claims",
+      "cost": "high",
+      "benefit": "valid generalization claims"
+    },
+    {
+      "id": "AUD-005",
+      "severity": "medium",
+      "status": "verified",
+      "problem": "Specialized method equivalence and fold-local XAIH-DRC/LIME provenance are incomplete.",
+      "evidence": ["src/cardiodiag/feature_selection/xaih_drc.py", "src/cardiodiag/explainability/lime_workflow.py", "results/xaih_drc_experiments", "results/lime_experiments"],
+      "scientific_impact": "Named methods cannot automatically be treated as paper-equivalent or causal explanations.",
+      "recommendation": "Map definitions to executable inputs/outputs and persist model, row, and feature-schema hashes.",
+      "rerun_required": "For method-equivalence claims",
+      "cost": "moderate",
+      "benefit": "reproducible interpretation"
+    },
+    {
+      "id": "AUD-006",
+      "severity": "high",
+      "status": "verified",
+      "problem": "The approximately 70,000-row benchmark dataset and historical environment are unavailable.",
+      "evidence": ["docs/DATASET_DOCUMENTATION.md", "requirements-runner.txt", "reference/reproduction_runner/audit/dependency_audit.json"],
+      "scientific_impact": "Benchmark and historical-equivalence claims cannot be completed.",
+      "recommendation": "Obtain and hash the exact data/environment before external or benchmark claims.",
+      "rerun_required": "Yes for those claims",
+      "cost": "high",
+      "benefit": "scope and transportability"
+    },
+    {
+      "id": "AUD-007",
+      "severity": "medium",
+      "status": "verified",
+      "problem": "Fairness, calibration, and decision-curve outputs are internal descriptive diagnostics.",
+      "evidence": ["runner/fairness_ensemble.py", "src/cardiodiag/calibration/metrics.py", "src/cardiodiag/clinical_utility/decision_curve.py"],
+      "scientific_impact": "They do not support certification, causal claims, or clinical deployment.",
+      "recommendation": "Add uncertainty, prespecification, external calibration, and explicit limitations.",
+      "rerun_required": "For clinical claims",
+      "cost": "moderate to high",
+      "benefit": "defensible reliability reporting"
+    },
+    {
+      "id": "AUD-008",
+      "severity": "low",
+      "status": "verified",
+      "problem": "Experiment provenance is distributed across reports, manifests, and CSVs.",
+      "evidence": ["results/", "docs/EXPERIMENT_RESULTS.md", "reference/reproduction_runner/audit/"],
+      "scientific_impact": "Manual reconciliation is error-prone.",
+      "recommendation": "Create an immutable experiment registry and validation test.",
+      "rerun_required": "No",
+      "cost": "low",
+      "benefit": "reproducibility"
+    }
+  ]
+}

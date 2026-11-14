@@ -1,0 +1,29 @@
+[
+  {
+    "feature":"age"
+  },
+  {
+    "feature":"sex"
+  },
+  {
+    "feature":"trestbps"
+  },
+  {
+    "feature":"chol"
+  },
+  {
+    "feature":"fbs"
+  },
+  {
+    "feature":"restecg"
+  },
+  {
+    "feature":"thalach"
+  },
+  {
+    "feature":"exang"
+  },
+  {
+    "feature":"oldpeak"
+  }
+]

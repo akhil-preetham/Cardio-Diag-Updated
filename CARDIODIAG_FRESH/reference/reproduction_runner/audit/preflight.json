@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-11-12T17:57:12+00:00",
+  "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "extracted_root_exists": true,
+  "notebook_count": 18,
+  "modules_available": {
+    "numpy": true,
+    "pandas": true,
+    "sklearn": true,
+    "imblearn": true,
+    "xgboost": true,
+    "matplotlib": true,
+    "jupyter": true,
+    "nbformat": true,
+    "nbclient": true,
+    "ipykernel": true
+  },
+  "package_versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "sklearn": "1.9.1",
+    "imblearn": "0.14.2",
+    "xgboost": "3.2.0",
+    "matplotlib": "3.11.2",
+    "jupyter": null,
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0"
+  },
+  "datasets": {
+    "five_states": {
+      "path": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\heart5.csv",
+      "exists": true,
+      "bytes": 36840
+    },
+    "mendeley": {
+      "path": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\MendeleyCardiovascular_Disease_Dataset.csv",
+      "exists": true,
+      "bytes": 43633
+    }
+  },
+  "author_git_commit": "e63b02c8a2aba6344a48025f657696fd99ac3a5f",
+  "author_repository_clean": true
+}

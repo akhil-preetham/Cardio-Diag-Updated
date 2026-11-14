@@ -1,0 +1,42 @@
+name: Research release verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  primary-evidence:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    env:
+      OMP_NUM_THREADS: "1"
+      OPENBLAS_NUM_THREADS: "1"
+      MKL_NUM_THREADS: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements-release.txt
+            requirements-release.lock.txt
+      - name: Install pinned research runtime
+        run: python -m pip install -r requirements-release.txt
+      - name: Check dependency consistency
+        run: python -m pip check
+      - name: Verify frozen artifacts and metrics without retraining
+        run: python tools/portable_release.py --root . --check-runtime
+      - name: Verify publication inventory
+        run: python tools/verify_publication.py --root .
+      - name: Run primary and portable release tests
+        run: python -m pytest -q -p no:cacheprovider

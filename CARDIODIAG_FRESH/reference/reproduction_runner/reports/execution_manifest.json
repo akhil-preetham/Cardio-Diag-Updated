@@ -1,0 +1,389 @@
+{
+  "created_utc": "2026-11-12T17:54:53+00:00",
+  "preflight": {
+    "created_utc": "2026-11-12T17:45:58+00:00",
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "extracted_root_exists": true,
+    "notebook_count": 18,
+    "modules_available": {
+      "numpy": true,
+      "pandas": true,
+      "sklearn": true,
+      "imblearn": true,
+      "xgboost": true,
+      "matplotlib": true,
+      "jupyter": true,
+      "nbformat": true,
+      "nbclient": true,
+      "ipykernel": true
+    },
+    "package_versions": {
+      "numpy": "2.4.6",
+      "pandas": "3.1.1",
+      "sklearn": "1.9.1",
+      "imblearn": "0.14.2",
+      "xgboost": "3.2.0",
+      "matplotlib": "3.11.2",
+      "jupyter": null,
+      "nbformat": "5.11.1",
+      "nbclient": "0.11.0",
+      "ipykernel": "7.4.0"
+    },
+    "datasets": {
+      "five_states": {
+        "path": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\heart5.csv",
+        "exists": true,
+        "bytes": 36840
+      },
+      "mendeley": {
+        "path": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\MendeleyCardiovascular_Disease_Dataset.csv",
+        "exists": true,
+        "bytes": 43633
+      }
+    },
+    "author_git_commit": "e63b02c8a2aba6344a48025f657696fd99ac3a5f",
+    "author_repository_clean": true
+  },
+  "dataset_validation": {
+    "created_utc": "2026-11-12T17:45:30+00:00",
+    "datasets": [
+      {
+        "dataset": "five_states",
+        "path": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\heart5.csv",
+        "sha256": "e4068802a044e8a1e3ae9fa81deae7025711bf4f13e3057f96e4f1cf3b0180c2",
+        "status": "validated",
+        "rows": 918,
+        "columns": 12,
+        "column_names": [
+          "Age",
+          "Sex",
+          "ChestPainType",
+          "RestingBP",
+          "Cholesterol",
+          "FastingBS",
+          "RestingECG",
+          "MaxHR",
+          "ExerciseAngina",
+          "Oldpeak",
+          "ST_Slope",
+          "HeartDisease"
+        ],
+        "dtypes": {
+          "Age": "int64",
+          "Sex": "str",
+          "ChestPainType": "str",
+          "RestingBP": "int64",
+          "Cholesterol": "int64",
+          "FastingBS": "int64",
+          "RestingECG": "str",
+          "MaxHR": "int64",
+          "ExerciseAngina": "str",
+          "Oldpeak": "float64",
+          "ST_Slope": "str",
+          "HeartDisease": "int64"
+        },
+        "target": "HeartDisease",
+        "target_exists": true,
+        "target_values": {
+          "1": 508,
+          "0": 410
+        },
+        "missing_values": {
+          "Age": 0,
+          "Sex": 0,
+          "ChestPainType": 0,
+          "RestingBP": 0,
+          "Cholesterol": 0,
+          "FastingBS": 0,
+          "RestingECG": 0,
+          "MaxHR": 0,
+          "ExerciseAngina": 0,
+          "Oldpeak": 0,
+          "ST_Slope": 0,
+          "HeartDisease": 0
+        },
+        "duplicate_rows": 0,
+        "identifier_columns": [],
+        "numeric_ranges": {
+          "Age": {
+            "min": 28.0,
+            "max": 77.0,
+            "unique": 50
+          },
+          "RestingBP": {
+            "min": 0.0,
+            "max": 200.0,
+            "unique": 67
+          },
+          "Cholesterol": {
+            "min": 0.0,
+            "max": 603.0,
+            "unique": 222
+          },
+          "FastingBS": {
+            "min": 0.0,
+            "max": 1.0,
+            "unique": 2
+          },
+          "MaxHR": {
+            "min": 60.0,
+            "max": 202.0,
+            "unique": 119
+          },
+          "Oldpeak": {
+            "min": -2.6,
+            "max": 6.2,
+            "unique": 53
+          },
+          "HeartDisease": {
+            "min": 0.0,
+            "max": 1.0,
+            "unique": 2
+          }
+        },
+        "invalid_target_values": []
+      },
+      {
+        "dataset": "mendeley",
+        "path": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\MendeleyCardiovascular_Disease_Dataset.csv",
+        "sha256": "9376367dde41e79e432d6402ea5d9e44223fc318ff54ed09966d721923947d1e",
+        "status": "validated",
+        "rows": 1000,
+        "columns": 14,
+        "column_names": [
+          "patientid",
+          "age",
+          "gender",
+          "chestpain",
+          "restingBP",
+          "serumcholestrol",
+          "fastingbloodsugar",
+          "restingrelectro",
+          "maxheartrate",
+          "exerciseangia",
+          "oldpeak",
+          "slope",
+          "noofmajorvessels",
+          "target"
+        ],
+        "dtypes": {
+          "patientid": "int64",
+          "age": "int64",
+          "gender": "int64",
+          "chestpain": "int64",
+          "restingBP": "int64",
+          "serumcholestrol": "int64",
+          "fastingbloodsugar": "int64",
+          "restingrelectro": "int64",
+          "maxheartrate": "int64",
+          "exerciseangia": "int64",
+          "oldpeak": "float64",
+          "slope": "int64",
+          "noofmajorvessels": "int64",
+          "target": "int64"
+        },
+        "target": "target",
+        "target_exists": true,
+        "target_values": {
+          "1": 580,
+          "0": 420
+        },
+        "missing_values": {
+          "patientid": 0,
+          "age": 0,
+          "gender": 0,
+          "chestpain": 0,
+          "restingBP": 0,
+          "serumcholestrol": 0,
+          "fastingbloodsugar": 0,
+          "restingrelectro": 0,
+          "maxheartrate": 0,
+          "exerciseangia": 0,
+          "oldpeak": 0,
+          "slope": 0,
+          "noofmajorvessels": 0,
+          "target": 0
+        },
+        "duplicate_rows": 0,
+        "identifier_columns": [
+          "patientid"
+        ],
+        "numeric_ranges": {
+          "patientid": {
+            "min": 103368.0,
+            "max": 9990855.0,
+            "unique": 1000
+          },
+          "age": {
+            "min": 20.0,
+            "max": 80.0,
+            "unique": 61
+          },
+          "gender": {
+            "min": 0.0,
+            "max": 1.0,
+            "unique": 2
+          },
+          "chestpain": {
+            "min": 0.0,
+            "max": 3.0,
+            "unique": 4
+          },
+          "restingBP": {
+            "min": 94.0,
+            "max": 200.0,
+            "unique": 95
+          },
+          "serumcholestrol": {
+            "min": 0.0,
+            "max": 602.0,
+            "unique": 344
+          },
+          "fastingbloodsugar": {
+            "min": 0.0,
+            "max": 1.0,
+            "unique": 2
+          },
+          "restingrelectro": {
+            "min": 0.0,
+            "max": 2.0,
+            "unique": 3
+          },
+          "maxheartrate": {
+            "min": 71.0,
+            "max": 202.0,
+            "unique": 129
+          },
+          "exerciseangia": {
+            "min": 0.0,
+            "max": 1.0,
+            "unique": 2
+          },
+          "oldpeak": {
+            "min": 0.0,
+            "max": 6.2,
+            "unique": 63
+          },
+          "slope": {
+            "min": 0.0,
+            "max": 3.0,
+            "unique": 4
+          },
+          "noofmajorvessels": {
+            "min": 0.0,
+            "max": 3.0,
+            "unique": 4
+          },
+          "target": {
+            "min": 0.0,
+            "max": 1.0,
+            "unique": 2
+          }
+        },
+        "invalid_target_values": []
+      }
+    ]
+  },
+  "author_faithful": [
+    {
+      "notebook": "base_reproduction\\Daza_Base_Paper_Reproduced\\Daza_Paper_Exact_Accuracy.ipynb",
+      "working_copy": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\reproduction_runner\\author_faithful\\working_copies\\Daza_Paper_Exact_Accuracy_a76762bef3\\Daza_Paper_Exact_Accuracy.ipynb",
+      "output": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\reproduction_runner\\author_faithful\\executed_notebooks\\Daza_Paper_Exact_Accuracy_a76762bef3_executed.ipynb",
+      "started_utc": "2026-11-12T17:54:02+00:00",
+      "status": "failed",
+      "finished_utc": "2026-11-12T17:54:09+00:00",
+      "error": "CellExecutionError(\"An error occurred while executing the following cell:\\n------------------\\nfrom google.colab import drive\\ndrive.mount('/content/drive')\\n------------------\\n\\n\\n\\x1b[31m---------------------------------------------------------------------------\\x1b[39m\\n\\x1b[31mModuleNotFoundError\\x1b[39m                       Traceback (most recent call last)\\n\\x1b[36mCell\\x1b[39m\\x1b[36m \\x1b[39m\\x1b[32mIn[2]\\x1b[39m\\x1b[32m, line 1\\x1b[39m\\n\\x1b[32m----> \\x1b[39m\\x1b[32m1\\x1b[39m \\x1b[38;5;28;01mfrom\\x1b[39;00m google.colab \\x1b[38;5;28;01mimport\\x1b[39;00m drive\\n\\x1b[32m      2\\x1b[39m drive.mount(\\x1b[33m'/content/drive'\\x1b[39m)\\n\\n\\x1b[31mModuleNotFoundError\\x1b[39m: No module named 'google'\\n\")",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\runner\\execute_notebooks.py\", line 72, in main\n    executed = client.execute()\n               ^^^^^^^^^^^^^^^^\n  File \"C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\.venv-repro\\Lib\\site-packages\\jupyter_core\\utils\\__init__.py\", line 165, in wrapped\n    return loop.run_until_complete(inner)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\akhil\\AppData\\Roaming\\uv\\python\\cpython-3.11-windows-x86_64-none\\Lib\\asyncio\\base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\.venv-repro\\Lib\\site-packages\\nbclient\\client.py\", line 709, in async_execute\n    await self.async_execute_cell(\n  File \"C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\.venv-repro\\Lib\\site-packages\\nbclient\\client.py\", line 1062, in async_execute_cell\n    await self._check_raise_for_error(cell, cell_index, exec_reply)\n  File \"C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\.venv-repro\\Lib\\site-packages\\nbclient\\client.py\", line 918, in _check_raise_for_error\n    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)\nnbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:\n------------------\nfrom google.colab import drive\ndrive.mount('/content/drive')\n------------------\n\n\n\u001b[31m---------------------------------------------------------------------------\u001b[39m\n\u001b[31mModuleNotFoundError\u001b[39m                       Traceback (most recent call last)\n\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[2]\u001b[39m\u001b[32m, line 1\u001b[39m\n\u001b[32m----> \u001b[39m\u001b[32m1\u001b[39m \u001b[38;5;28;01mfrom\u001b[39;00m google.colab \u001b[38;5;28;01mimport\u001b[39;00m drive\n\u001b[32m      2\u001b[39m drive.mount(\u001b[33m'/content/drive'\u001b[39m)\n\n\u001b[31mModuleNotFoundError\u001b[39m: No module named 'google'\n\n"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\Fairness_OSEC_FiveStates_dataset.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\Fairness_OVEC_FiveStates_dataset.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\FiveStates_PAIRED_BOOTSTRAP_95_CI.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\OSEC_5state_dataset_Clinical_Utility_Analysis.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\OVEC_Accuracy_Proof_Five_States.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\OVEC_Reviewer1_Five_States_Full_Methodology.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\Reviewer1_Comment_15_LIME__All.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\Reviewer1_Five_States_Full_Methodology.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\Reviewer1_XAIH_DRC.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\Reviewer2_NOSEC_5state_dataset_Concern_22_and_18+Ablation_Results.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\Updated_27_11_2025_Reviewer2_NOSEC_5state_dataset_Concern_13_18_and_19.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "five_states_results\\Five States Results\\Wilcoxon,_Delong,_Bootstrapped.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "lime_materials\\Paper 1 Code LIME with Diagrams\\Reviewer 1 Concern 15\\base_paper_dataset_all_reviewers.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "mendeley_results\\MENDELEY Results\\Fairness_OSEC_MENDELEY_dataset.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "mendeley_results\\MENDELEY Results\\Fairness_OVEC_MENDELEY_dataset.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "mendeley_results\\MENDELEY Results\\Mendeley_Clinical_Utility+Dispersion+Statistical_Tests.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    },
+    {
+      "notebook": "mendeley_results\\MENDELEY Results\\Reviewer2_NOSEC_Mendeley_dataset_Ablation_Results.ipynb",
+      "status": "skipped_not_allowlisted",
+      "time_utc": "2026-11-12T17:54:09+00:00"
+    }
+  ],
+  "corrected_reports": [
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\heart5.csv",
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\MendeleyCardiovascular_Disease_Dataset.csv"
+  ]
+}

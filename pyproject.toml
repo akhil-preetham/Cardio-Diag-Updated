@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+pythonpath = ["CARDIODIAG_FRESH/src", "CARDIODIAG_FRESH", "tools"]
+testpaths = [
+  "CARDIODIAG_FRESH/tests/test_cardiodiag_modules.py",
+  "CARDIODIAG_FRESH/tests/test_research_extension_v1.py",
+  "CARDIODIAG_FRESH/tests/test_research_transport_v1.py",
+  "CARDIODIAG_FRESH/tests/test_research_extension_independent.py",
+  "CARDIODIAG_FRESH/tests/test_research_predict_v1.py",
+  "tools/test_portable_release.py",
+]
+addopts = "-ra"

@@ -1,0 +1,12 @@
+{
+  "pdf_pages": 8,
+  "requested_page_range_met": true,
+  "blank_pages": [],
+  "missing_section_markers": [],
+  "replacement_glyph_count": 0,
+  "unresolved_placeholders": [],
+  "latex_compiled": true,
+  "compiler": "Tectonic 0.17.0; IEEEtran conference class",
+  "pdf_sha256": "061445cb15eec55660e2ba26cec9ad798c32c73eb3f7bffe8cd0c51c89296b1e",
+  "visual_review": "All eight pages inspected; final pages 1, 4 and 8 rechecked after author, diagram and reference-layout corrections. No clipping, overlap or missing content observed; four figures and four tables readable; page numbers1..8 present."
+}

@@ -1,0 +1,5 @@
+analysis,method,recommended,caveat
+Primary paper comparison,paired descriptive difference on identical outer predictions,yes,No confirmatory p-value
+Ordinary independent t-test,independent fold scores,no,Violates repeated-CV dependence
+Nadeau-Bengio corrected resampled test,dependent resampling sensitivity,conditional,Assumptions and multiplicity must be prespecified
+Multiplicity,limited prespecified comparisons,required,Do not search across models and report a single favorable p-value

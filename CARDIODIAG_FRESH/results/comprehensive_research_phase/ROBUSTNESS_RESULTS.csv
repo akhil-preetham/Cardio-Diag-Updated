@@ -1,0 +1,11 @@
+analysis,model_id,strategy,complexity,status
+regularization_and_complexity,logistic_regression_none,none,linear; five regularization values,completed
+regularization_and_complexity,logistic_regression_balanced,balanced,linear; five regularization values,completed
+regularization_and_complexity,svm_none,none,kernel; compact C/gamma grid,completed
+regularization_and_complexity,svm_balanced,balanced,kernel; compact C/gamma grid,completed
+regularization_and_complexity,random_forest_none,none,200 trees; depth/leaf grid,completed
+regularization_and_complexity,random_forest_balanced,balanced,200 trees; depth/leaf grid,completed
+regularization_and_complexity,hist_gradient_boosting_none,none,boosting; learning-rate/tree/l2 grid,completed
+regularization_and_complexity,extra_trees_none,none,200 randomized trees; depth/leaf grid,completed
+regularization_and_complexity,extra_trees_balanced,balanced,200 randomized trees; depth/leaf grid,completed
+feature_timing_sensitivity,not_run,strict_primary_only,,additional features excluded by policy

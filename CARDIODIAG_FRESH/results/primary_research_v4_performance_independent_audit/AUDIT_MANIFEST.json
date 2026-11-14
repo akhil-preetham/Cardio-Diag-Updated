@@ -1,0 +1,16 @@
+{
+  "generated_utc": "2026-11-13T12:19:35.900574+00:00",
+  "script_sha256": "8acb4561c5619f8c081c0b620d6be37fd400e35ec1ae86d9644d0f89baa4323d",
+  "inputs": {
+    "results\\primary_research_v4_performance\\OUTER_FOLD_PREDICTIONS.csv": "02578b7fd55e693fc847055c3df4b0376248f13ecac4483478e8046dced09dc5",
+    "results\\primary_research_v4_performance\\MODEL_COMPARISON_RESULTS.csv": "fa22231a42759b35b9c92938fd2a37ac7a0472a9a0c7ee8c3bcb75c292506b71",
+    "results\\primary_research_v4_performance\\CALIBRATION_SELECTION_RESULTS.csv": "095646cdbf9827b634c24979962b4d8e6a1570eb69d3ce8c509564ad83332892"
+  },
+  "outputs": {
+    "results\\primary_research_v4_performance_independent_audit\\AUDIT_CHECKS.json": "e3f715591b8d38847b23012e8bfc9c4a03d7bcb22d841a5bc48818500514edc9",
+    "results\\primary_research_v4_performance_independent_audit\\CROSS_VERSION_COMPARISON.csv": "9f19b06d8ed8597a33f7e7f44ee5251f9a3c35c441d5af78d7bb6cc45893964a",
+    "results\\primary_research_v4_performance_independent_audit\\INDEPENDENT_PERFORMANCE_AUDIT.md": "8a33b38d41f1aaa8b12243c620b4d59b5d98c1c4fce355ee94c928428d2df787",
+    "results\\primary_research_v4_performance_independent_audit\\METRIC_RECOMPUTATION.csv": "64bd1f4b10b49b169c0ae55527457dfa71c85b1619023ebc33dea427a9951ff5",
+    "results\\primary_research_v4_performance_independent_audit\\TRADEOFF_ANALYSIS.csv": "35fc4e5dae916e295bd7541e59c3842ad0f9f74878322105d10c3c56bec7edfa"
+  }
+}

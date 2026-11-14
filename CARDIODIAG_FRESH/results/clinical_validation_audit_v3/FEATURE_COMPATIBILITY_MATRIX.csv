@@ -1,0 +1,8 @@
+source_track,comparison_track,compatibility,recommended_use
+Z-Alizadeh Sani,Z-Alizadeh Sani,directly compatible,Within-dataset internal validation after eligibility review
+Z-Alizadeh Sani,Cleveland/Statlog,partially compatible,Held-out comparison only if target/coding and provenance are prespecified; independence unresolved
+Z-Alizadeh Sani,Mendeley/Five States/Kaggle,clinically incompatible without transformation,Descriptive comparison or separate analyses; do not silently harmonize
+NHANES,NHANES,directly compatible,Weighted within-cycle descriptive/associational analysis
+PTB-XL,PTB Diagnostic,partially compatible,Separate ECG tasks; no independent validation claim
+Auricle,Tabular datasets,clinically incompatible,Multimodal physiology metadata/descriptive track only
+Heart Failure,Disease-presence datasets,clinically incompatible,Separate mortality task

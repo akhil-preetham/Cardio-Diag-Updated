@@ -1,0 +1,225 @@
+stage,held_out_centre,metric,recomputed,stored,absolute_difference,pass
+stage1_basic_risk,Cleveland,roc_auc,0.7098613791893315,0.7098613791893315,0.0,True
+stage1_basic_risk,Cleveland,pr_auc,0.6541134773240126,0.6541134773240126,0.0,True
+stage1_basic_risk,Cleveland,sensitivity,0.8201438848920863,0.8201438848920863,0.0,True
+stage1_basic_risk,Cleveland,specificity,0.4329268292682927,0.4329268292682927,0.0,True
+stage1_basic_risk,Cleveland,precision,0.5507246376811594,0.5507246376811594,0.0,True
+stage1_basic_risk,Cleveland,npv,0.7395833333333334,0.7395833333333334,0.0,True
+stage1_basic_risk,Cleveland,f1,0.6589595375722543,0.6589595375722543,0.0,True
+stage1_basic_risk,Cleveland,balanced_accuracy,0.6265353570801895,0.6265353570801895,0.0,True
+stage1_basic_risk,Cleveland,brier,0.2287111795712966,0.2287111795712966,0.0,True
+stage1_basic_risk,Cleveland,log_loss,0.6482865250019497,0.6482865250019497,0.0,True
+stage1_basic_risk,Cleveland,calibration_intercept,-0.5879025203925408,-0.5879025203925408,0.0,True
+stage1_basic_risk,Cleveland,calibration_slope,1.117192938796465,1.117192938796465,0.0,True
+stage1_basic_risk,Cleveland,roc_auc_ci_low,0.6478065523528203,0.6478065523528203,0.0,True
+stage1_basic_risk,Cleveland,roc_auc_ci_high,0.7649504589823753,0.7649504589823753,0.0,True
+stage1_basic_risk,Hungary,roc_auc,0.68137796065837,0.68137796065837,0.0,True
+stage1_basic_risk,Hungary,pr_auc,0.5134556469144984,0.5134556469144984,0.0,True
+stage1_basic_risk,Hungary,sensitivity,0.4528301886792453,0.4528301886792453,0.0,True
+stage1_basic_risk,Hungary,specificity,0.7340425531914894,0.7340425531914894,0.0,True
+stage1_basic_risk,Hungary,precision,0.4897959183673469,0.4897959183673469,0.0,True
+stage1_basic_risk,Hungary,npv,0.7040816326530612,0.7040816326530612,0.0,True
+stage1_basic_risk,Hungary,f1,0.47058823529411764,0.47058823529411764,0.0,True
+stage1_basic_risk,Hungary,balanced_accuracy,0.5934363709353674,0.5934363709353674,0.0,True
+stage1_basic_risk,Hungary,brier,0.20861968640121153,0.20861968640121153,0.0,True
+stage1_basic_risk,Hungary,log_loss,0.6021245587744807,0.6021245587744807,0.0,True
+stage1_basic_risk,Hungary,calibration_intercept,-0.16629603566565873,-0.16629603566565873,0.0,True
+stage1_basic_risk,Hungary,calibration_slope,0.896504111425312,0.896504111425312,0.0,True
+stage1_basic_risk,Hungary,roc_auc_ci_low,0.6237472953792823,0.6157299510516159,0.008017344327666431,True
+stage1_basic_risk,Hungary,roc_auc_ci_high,0.7421656692718631,0.7394769723581918,0.0026886969136713512,True
+stage1_basic_risk,Switzerland,roc_auc,0.5010869565217392,0.5010869565217392,0.0,True
+stage1_basic_risk,Switzerland,pr_auc,0.9281044908051053,0.9281044908051053,0.0,True
+stage1_basic_risk,Switzerland,sensitivity,0.7391304347826086,0.7391304347826086,0.0,True
+stage1_basic_risk,Switzerland,specificity,0.25,0.25,0.0,True
+stage1_basic_risk,Switzerland,precision,0.9340659340659341,0.9340659340659341,0.0,True
+stage1_basic_risk,Switzerland,npv,0.0625,0.0625,0.0,True
+stage1_basic_risk,Switzerland,f1,0.8252427184466019,0.8252427184466019,0.0,True
+stage1_basic_risk,Switzerland,balanced_accuracy,0.4945652173913043,0.4945652173913043,0.0,True
+stage1_basic_risk,Switzerland,brier,0.2162722443742074,0.2162722443742074,0.0,True
+stage1_basic_risk,Switzerland,log_loss,0.6332415615568027,0.6332415615568027,0.0,True
+stage1_basic_risk,Switzerland,calibration_intercept,2.7267176116088483,2.7267176116088483,0.0,True
+stage1_basic_risk,Switzerland,calibration_slope,-0.16656583967645228,-0.16656583967645228,0.0,True
+stage1_basic_risk,Switzerland,roc_auc_ci_low,0.25697523262178434,0.2926232672556202,0.03564803463383587,False
+stage1_basic_risk,Switzerland,roc_auc_ci_high,0.7037835249042146,0.7112376847290641,0.007454159824849538,True
+stage1_basic_risk,VA Long Beach,roc_auc,0.6131727858928807,0.6131727858928807,0.0,True
+stage1_basic_risk,VA Long Beach,pr_auc,0.8050542160179319,0.8050542160179319,0.0,True
+stage1_basic_risk,VA Long Beach,sensitivity,0.959731543624161,0.959731543624161,0.0,True
+stage1_basic_risk,VA Long Beach,specificity,0.21568627450980393,0.21568627450980393,0.0,True
+stage1_basic_risk,VA Long Beach,precision,0.7814207650273224,0.7814207650273224,0.0,True
+stage1_basic_risk,VA Long Beach,npv,0.6470588235294118,0.6470588235294118,0.0,True
+stage1_basic_risk,VA Long Beach,f1,0.8614457831325302,0.8614457831325302,0.0,True
+stage1_basic_risk,VA Long Beach,balanced_accuracy,0.5877089090669825,0.5877089090669825,0.0,True
+stage1_basic_risk,VA Long Beach,brier,0.18536848338253087,0.18536848338253087,0.0,True
+stage1_basic_risk,VA Long Beach,log_loss,0.5569523747774104,0.5569523747774104,0.0,True
+stage1_basic_risk,VA Long Beach,calibration_intercept,0.4532079701851217,0.4532079701851217,0.0,True
+stage1_basic_risk,VA Long Beach,calibration_slope,0.8138224230356168,0.8138224230356168,0.0,True
+stage1_basic_risk,VA Long Beach,roc_auc_ci_low,0.5281842208121174,0.5143806605961477,0.013803560215969624,True
+stage1_basic_risk,VA Long Beach,roc_auc_ci_high,0.7016856965468304,0.7064007939952162,0.004715097448385719,True
+stage2_symptoms,Cleveland,roc_auc,0.8305404456922267,0.8305404456922267,0.0,True
+stage2_symptoms,Cleveland,pr_auc,0.7819635113548014,0.7819635113548014,0.0,True
+stage2_symptoms,Cleveland,sensitivity,0.8705035971223022,0.8705035971223022,0.0,True
+stage2_symptoms,Cleveland,specificity,0.6036585365853658,0.6036585365853658,0.0,True
+stage2_symptoms,Cleveland,precision,0.6505376344086021,0.6505376344086021,0.0,True
+stage2_symptoms,Cleveland,npv,0.8461538461538461,0.8461538461538461,0.0,True
+stage2_symptoms,Cleveland,f1,0.7446153846153846,0.7446153846153846,0.0,True
+stage2_symptoms,Cleveland,balanced_accuracy,0.737081066853834,0.737081066853834,0.0,True
+stage2_symptoms,Cleveland,brier,0.18366512069236496,0.18366512069236496,0.0,True
+stage2_symptoms,Cleveland,log_loss,0.5483195355144355,0.5483195355144355,0.0,True
+stage2_symptoms,Cleveland,calibration_intercept,-0.7988894767731596,-0.7988894767731596,0.0,True
+stage2_symptoms,Cleveland,calibration_slope,1.3985975888656221,1.3985975888656221,0.0,True
+stage2_symptoms,Cleveland,roc_auc_ci_low,0.7840024832823481,0.7842453560371516,0.00024287275480350257,True
+stage2_symptoms,Cleveland,roc_auc_ci_high,0.8735250532286268,0.8724409474262163,0.0010841058024105843,True
+stage2_symptoms,Hungary,roc_auc,0.837991770373344,0.837991770373344,0.0,True
+stage2_symptoms,Hungary,pr_auc,0.7186653216261751,0.7186653216261751,0.0,True
+stage2_symptoms,Hungary,sensitivity,0.7547169811320755,0.7547169811320755,0.0,True
+stage2_symptoms,Hungary,specificity,0.8031914893617021,0.8031914893617021,0.0,True
+stage2_symptoms,Hungary,precision,0.6837606837606838,0.6837606837606838,0.0,True
+stage2_symptoms,Hungary,npv,0.8531073446327684,0.8531073446327684,0.0,True
+stage2_symptoms,Hungary,f1,0.7174887892376681,0.7174887892376681,0.0,True
+stage2_symptoms,Hungary,balanced_accuracy,0.7789542352468888,0.7789542352468888,0.0,True
+stage2_symptoms,Hungary,brier,0.1595088460222463,0.1595088460222463,0.0,True
+stage2_symptoms,Hungary,log_loss,0.49152092562851124,0.49152092562851124,0.0,True
+stage2_symptoms,Hungary,calibration_intercept,-0.5668694912053388,-0.5668694912053388,0.0,True
+stage2_symptoms,Hungary,calibration_slope,0.9815080913257082,0.9815080913257082,0.0,True
+stage2_symptoms,Hungary,roc_auc_ci_low,0.792958678706485,0.7811858470164309,0.011772831690054053,True
+stage2_symptoms,Hungary,roc_auc_ci_high,0.8840715760649291,0.8842448936080137,0.00017331754308458347,True
+stage2_symptoms,Switzerland,roc_auc,0.7478260869565218,0.7478260869565218,0.0,True
+stage2_symptoms,Switzerland,pr_auc,0.9669937120965114,0.9669937120965114,0.0,True
+stage2_symptoms,Switzerland,sensitivity,0.8347826086956521,0.8347826086956521,0.0,True
+stage2_symptoms,Switzerland,specificity,0.625,0.625,0.0,True
+stage2_symptoms,Switzerland,precision,0.9696969696969697,0.9696969696969697,0.0,True
+stage2_symptoms,Switzerland,npv,0.20833333333333334,0.20833333333333334,0.0,True
+stage2_symptoms,Switzerland,f1,0.897196261682243,0.897196261682243,0.0,True
+stage2_symptoms,Switzerland,balanced_accuracy,0.7298913043478261,0.7298913043478261,0.0,True
+stage2_symptoms,Switzerland,brier,0.13401084957256584,0.13401084957256584,0.0,True
+stage2_symptoms,Switzerland,log_loss,0.4308854271972885,0.4308854271972885,0.0,True
+stage2_symptoms,Switzerland,calibration_intercept,2.2262503592763414,2.2262503592763414,0.0,True
+stage2_symptoms,Switzerland,calibration_slope,0.982729293441921,0.982729293441921,0.0,True
+stage2_symptoms,Switzerland,roc_auc_ci_low,0.4940011025071186,0.5010504201680672,0.0070493176609486285,True
+stage2_symptoms,Switzerland,roc_auc_ci_high,0.9538340336134453,0.953725632604943,0.00010840100850229017,True
+stage2_symptoms,VA Long Beach,roc_auc,0.710225029609159,0.710225029609159,0.0,True
+stage2_symptoms,VA Long Beach,pr_auc,0.8643915589680757,0.8643915589680757,0.0,True
+stage2_symptoms,VA Long Beach,sensitivity,0.7919463087248322,0.7919463087248322,0.0,True
+stage2_symptoms,VA Long Beach,specificity,0.39215686274509803,0.39215686274509803,0.0,True
+stage2_symptoms,VA Long Beach,precision,0.7919463087248322,0.7919463087248322,0.0,True
+stage2_symptoms,VA Long Beach,npv,0.39215686274509803,0.39215686274509803,0.0,True
+stage2_symptoms,VA Long Beach,f1,0.7919463087248322,0.7919463087248322,0.0,True
+stage2_symptoms,VA Long Beach,balanced_accuracy,0.5920515857349651,0.5920515857349651,0.0,True
+stage2_symptoms,VA Long Beach,brier,0.17797465394864376,0.17797465394864376,0.0,True
+stage2_symptoms,VA Long Beach,log_loss,0.5307257968867926,0.5307257968867926,0.0,True
+stage2_symptoms,VA Long Beach,calibration_intercept,0.4997797375114298,0.4997797375114298,0.0,True
+stage2_symptoms,VA Long Beach,calibration_slope,0.734280334805695,0.734280334805695,0.0,True
+stage2_symptoms,VA Long Beach,roc_auc_ci_low,0.6275012835322809,0.6289002446487701,0.0013989611164892946,True
+stage2_symptoms,VA Long Beach,roc_auc_ci_high,0.7888114459325396,0.7798339679267879,0.00897747800575166,True
+stage3_resting_measurements,Cleveland,roc_auc,0.8039568345323741,0.8039568345323741,0.0,True
+stage3_resting_measurements,Cleveland,pr_auc,0.7448174175913892,0.7448174175913892,0.0,True
+stage3_resting_measurements,Cleveland,sensitivity,0.7841726618705036,0.7841726618705036,0.0,True
+stage3_resting_measurements,Cleveland,specificity,0.725609756097561,0.725609756097561,0.0,True
+stage3_resting_measurements,Cleveland,precision,0.7077922077922078,0.7077922077922078,0.0,True
+stage3_resting_measurements,Cleveland,npv,0.7986577181208053,0.7986577181208053,0.0,True
+stage3_resting_measurements,Cleveland,f1,0.7440273037542662,0.7440273037542662,0.0,True
+stage3_resting_measurements,Cleveland,balanced_accuracy,0.7548912089840323,0.7548912089840323,0.0,True
+stage3_resting_measurements,Cleveland,brier,0.1791317224963132,0.1791317224963132,0.0,True
+stage3_resting_measurements,Cleveland,log_loss,0.5392425203012726,0.5392425203012726,0.0,True
+stage3_resting_measurements,Cleveland,calibration_intercept,-0.13492377795913593,-0.13492377795913593,0.0,True
+stage3_resting_measurements,Cleveland,calibration_slope,0.9550701658000418,0.9550701658000418,0.0,True
+stage3_resting_measurements,Cleveland,roc_auc_ci_low,0.7490808418279978,0.7529672836914065,0.003886441863408696,True
+stage3_resting_measurements,Cleveland,roc_auc_ci_high,0.8487076548728769,0.8489729246011036,0.0002652697282267136,True
+stage3_resting_measurements,Hungary,roc_auc,0.8187976716178242,0.8187976716178242,0.0,True
+stage3_resting_measurements,Hungary,pr_auc,0.6864152563313272,0.6864152563313272,0.0,True
+stage3_resting_measurements,Hungary,sensitivity,0.6320754716981132,0.6320754716981132,0.0,True
+stage3_resting_measurements,Hungary,specificity,0.8776595744680851,0.8776595744680851,0.0,True
+stage3_resting_measurements,Hungary,precision,0.7444444444444445,0.7444444444444445,0.0,True
+stage3_resting_measurements,Hungary,npv,0.8088235294117647,0.8088235294117647,0.0,True
+stage3_resting_measurements,Hungary,f1,0.6836734693877551,0.6836734693877551,0.0,True
+stage3_resting_measurements,Hungary,balanced_accuracy,0.7548675230830991,0.7548675230830991,0.0,True
+stage3_resting_measurements,Hungary,brier,0.16051723560848838,0.16051723560848838,0.0,True
+stage3_resting_measurements,Hungary,log_loss,0.49445099257856057,0.49445099257856057,0.0,True
+stage3_resting_measurements,Hungary,calibration_intercept,0.19543233560411727,0.19543233560411727,0.0,True
+stage3_resting_measurements,Hungary,calibration_slope,0.9521600161609434,0.9521600161609434,0.0,True
+stage3_resting_measurements,Hungary,roc_auc_ci_low,0.7634438804120864,0.7595364502900789,0.00390743012200756,True
+stage3_resting_measurements,Hungary,roc_auc_ci_high,0.866825197089145,0.8679946131889368,0.0011694160997918202,True
+stage3_resting_measurements,Switzerland,roc_auc,0.7467391304347826,0.7467391304347826,0.0,True
+stage3_resting_measurements,Switzerland,pr_auc,0.966474886713953,0.966474886713953,0.0,True
+stage3_resting_measurements,Switzerland,sensitivity,0.8434782608695652,0.8434782608695652,0.0,True
+stage3_resting_measurements,Switzerland,specificity,0.625,0.625,0.0,True
+stage3_resting_measurements,Switzerland,precision,0.97,0.97,0.0,True
+stage3_resting_measurements,Switzerland,npv,0.21739130434782608,0.21739130434782608,0.0,True
+stage3_resting_measurements,Switzerland,f1,0.9023255813953488,0.9023255813953488,0.0,True
+stage3_resting_measurements,Switzerland,balanced_accuracy,0.7342391304347826,0.7342391304347826,0.0,True
+stage3_resting_measurements,Switzerland,brier,0.14059556907298662,0.14059556907298662,0.0,True
+stage3_resting_measurements,Switzerland,log_loss,0.45327600250314626,0.45327600250314626,0.0,True
+stage3_resting_measurements,Switzerland,calibration_intercept,2.2457257807435678,2.2457257807435678,0.0,True
+stage3_resting_measurements,Switzerland,calibration_slope,1.0455834730055982,1.0455834730055982,0.0,True
+stage3_resting_measurements,Switzerland,roc_auc_ci_low,0.4917320647267171,0.5036728956950096,0.011940830968292515,True
+stage3_resting_measurements,Switzerland,roc_auc_ci_high,0.949593897388015,0.9305654651306825,0.019028432257332528,True
+stage3_resting_measurements,VA Long Beach,roc_auc,0.6790367153572838,0.6790367153572838,0.0,True
+stage3_resting_measurements,VA Long Beach,pr_auc,0.8554502397275363,0.8554502397275363,0.0,True
+stage3_resting_measurements,VA Long Beach,sensitivity,0.8791946308724832,0.8791946308724832,0.0,True
+stage3_resting_measurements,VA Long Beach,specificity,0.29411764705882354,0.29411764705882354,0.0,True
+stage3_resting_measurements,VA Long Beach,precision,0.7844311377245509,0.7844311377245509,0.0,True
+stage3_resting_measurements,VA Long Beach,npv,0.45454545454545453,0.45454545454545453,0.0,True
+stage3_resting_measurements,VA Long Beach,f1,0.8291139240506329,0.8291139240506329,0.0,True
+stage3_resting_measurements,VA Long Beach,balanced_accuracy,0.5866561389656534,0.5866561389656534,0.0,True
+stage3_resting_measurements,VA Long Beach,brier,0.18074227701035628,0.18074227701035628,0.0,True
+stage3_resting_measurements,VA Long Beach,log_loss,0.541479383574,0.541479383574,0.0,True
+stage3_resting_measurements,VA Long Beach,calibration_intercept,0.4599824135113853,0.4599824135113853,0.0,True
+stage3_resting_measurements,VA Long Beach,calibration_slope,0.6349574633244827,0.6349574633244827,0.0,True
+stage3_resting_measurements,VA Long Beach,roc_auc_ci_low,0.5893060826232132,0.5984693939393939,0.009163311316180756,True
+stage3_resting_measurements,VA Long Beach,roc_auc_ci_high,0.7655738283455674,0.7586358669256921,0.006937961419875349,True
+stage4_exercise_test,Cleveland,roc_auc,0.8637918933146166,0.8637918933146166,0.0,True
+stage4_exercise_test,Cleveland,pr_auc,0.8594000405489429,0.8594000405489429,0.0,True
+stage4_exercise_test,Cleveland,sensitivity,0.8345323741007195,0.8345323741007195,0.0,True
+stage4_exercise_test,Cleveland,specificity,0.6890243902439024,0.6890243902439024,0.0,True
+stage4_exercise_test,Cleveland,precision,0.6946107784431138,0.6946107784431138,0.0,True
+stage4_exercise_test,Cleveland,npv,0.8308823529411765,0.8308823529411765,0.0,True
+stage4_exercise_test,Cleveland,f1,0.7581699346405228,0.7581699346405228,0.0,True
+stage4_exercise_test,Cleveland,balanced_accuracy,0.761778382172311,0.761778382172311,0.0,True
+stage4_exercise_test,Cleveland,brier,0.16007162781692366,0.16007162781692366,0.0,True
+stage4_exercise_test,Cleveland,log_loss,0.48719763405257227,0.48719763405257227,0.0,True
+stage4_exercise_test,Cleveland,calibration_intercept,-0.5976073125769553,-0.5976073125769553,0.0,True
+stage4_exercise_test,Cleveland,calibration_slope,1.3187863675625071,1.3187863675625071,0.0,True
+stage4_exercise_test,Cleveland,roc_auc_ci_low,0.8212520876764312,0.8241461798678199,0.0028940921913886974,True
+stage4_exercise_test,Cleveland,roc_auc_ci_high,0.8998821813173424,0.9021327054760309,0.0022505241586884273,True
+stage4_exercise_test,Hungary,roc_auc,0.8746989160979527,0.8746989160979527,0.0,True
+stage4_exercise_test,Hungary,pr_auc,0.8324674377769186,0.8324674377769186,0.0,True
+stage4_exercise_test,Hungary,sensitivity,0.6792452830188679,0.6792452830188679,0.0,True
+stage4_exercise_test,Hungary,specificity,0.898936170212766,0.898936170212766,0.0,True
+stage4_exercise_test,Hungary,precision,0.7912087912087912,0.7912087912087912,0.0,True
+stage4_exercise_test,Hungary,npv,0.8325123152709359,0.8325123152709359,0.0,True
+stage4_exercise_test,Hungary,f1,0.7309644670050761,0.7309644670050761,0.0,True
+stage4_exercise_test,Hungary,balanced_accuracy,0.7890907266158169,0.7890907266158169,0.0,True
+stage4_exercise_test,Hungary,brier,0.13119645207188008,0.13119645207188008,0.0,True
+stage4_exercise_test,Hungary,log_loss,0.4189510684050529,0.4189510684050529,0.0,True
+stage4_exercise_test,Hungary,calibration_intercept,0.10521094153619019,0.10521094153619019,0.0,True
+stage4_exercise_test,Hungary,calibration_slope,1.2374944585362408,1.2374944585362408,0.0,True
+stage4_exercise_test,Hungary,roc_auc_ci_low,0.8277181489076928,0.8251512806956964,0.002566868211996365,True
+stage4_exercise_test,Hungary,roc_auc_ci_high,0.9167068559385073,0.9174166032805819,0.0007097473420746292,True
+stage4_exercise_test,Switzerland,roc_auc,0.7260869565217392,0.7260869565217392,0.0,True
+stage4_exercise_test,Switzerland,pr_auc,0.9656443791357272,0.9656443791357272,0.0,True
+stage4_exercise_test,Switzerland,sensitivity,0.7217391304347827,0.7217391304347827,0.0,True
+stage4_exercise_test,Switzerland,specificity,0.625,0.625,0.0,True
+stage4_exercise_test,Switzerland,precision,0.9651162790697675,0.9651162790697675,0.0,True
+stage4_exercise_test,Switzerland,npv,0.13513513513513514,0.13513513513513514,0.0,True
+stage4_exercise_test,Switzerland,f1,0.8258706467661692,0.8258706467661692,0.0,True
+stage4_exercise_test,Switzerland,balanced_accuracy,0.6733695652173913,0.6733695652173913,0.0,True
+stage4_exercise_test,Switzerland,brier,0.1984019012169211,0.1984019012169211,0.0,True
+stage4_exercise_test,Switzerland,log_loss,0.5922163484986218,0.5922163484986218,0.0,True
+stage4_exercise_test,Switzerland,calibration_intercept,2.6376537890179863,2.6376537890179863,0.0,True
+stage4_exercise_test,Switzerland,calibration_slope,0.6467129525579786,0.6467129525579786,0.0,True
+stage4_exercise_test,Switzerland,roc_auc_ci_low,0.46327061745203335,0.4527103013945119,0.010560316057521446,True
+stage4_exercise_test,Switzerland,roc_auc_ci_high,0.950021186440678,0.9427014208362172,0.007319765604460793,True
+stage4_exercise_test,VA Long Beach,roc_auc,0.7294380839584156,0.7294380839584156,0.0,True
+stage4_exercise_test,VA Long Beach,pr_auc,0.8849945477783475,0.8849945477783475,0.0,True
+stage4_exercise_test,VA Long Beach,sensitivity,0.912751677852349,0.912751677852349,0.0,True
+stage4_exercise_test,VA Long Beach,specificity,0.27450980392156865,0.27450980392156865,0.0,True
+stage4_exercise_test,VA Long Beach,precision,0.7861271676300579,0.7861271676300579,0.0,True
+stage4_exercise_test,VA Long Beach,npv,0.5185185185185185,0.5185185185185185,0.0,True
+stage4_exercise_test,VA Long Beach,f1,0.84472049689441,0.84472049689441,0.0,True
+stage4_exercise_test,VA Long Beach,balanced_accuracy,0.5936307408869588,0.5936307408869588,0.0,True
+stage4_exercise_test,VA Long Beach,brier,0.17145185718389555,0.17145185718389555,0.0,True
+stage4_exercise_test,VA Long Beach,log_loss,0.5178195708511447,0.5178195708511447,0.0,True
+stage4_exercise_test,VA Long Beach,calibration_intercept,0.25127189817658135,0.25127189817658135,0.0,True
+stage4_exercise_test,VA Long Beach,calibration_slope,0.6713351219983522,0.6713351219983522,0.0,True
+stage4_exercise_test,VA Long Beach,roc_auc_ci_low,0.6484326538893099,0.6524510910298209,0.0040184371405109776,True
+stage4_exercise_test,VA Long Beach,roc_auc_ci_high,0.7991873930780365,0.8069571283612379,0.007769735283201351,True

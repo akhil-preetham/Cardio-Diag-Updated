@@ -1,0 +1,6 @@
+predictor,model_role,z_alizadeh,cleveland,new_candidate_datasets,external_validation_requirement
+Age,required,Z-Alizadeh available,Cleveland available,MultiD4CAD/CADICA/angiographic stenosis dataset unknown,must be confirmed from data dictionary
+Sex,required,available,available,unknown,coding and definition must be harmonized
+Current Smoker,required,available,not verified,unknown,binary definition and reference date required
+EX-Smoker,required,available,not verified,unknown,former smoking definition required
+FH,required,available,not verified,unknown,family-history definition and ascertainment required

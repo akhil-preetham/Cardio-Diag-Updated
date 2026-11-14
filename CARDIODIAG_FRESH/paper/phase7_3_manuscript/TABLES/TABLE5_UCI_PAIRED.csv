@@ -1,0 +1,5 @@
+Comparison,Metric,Difference (later−earlier),95% interval low,95% interval high,Bootstrap draws,Uncertainty unit
+Stage 3 → Stage 4,ROC-AUC,0.023527837131152807,0.00608424204472002,0.04425780088870872,400,Paired record bootstrap; centre/source-row paired
+Stage 3 → Stage 4,Average precision,0.04538093145762112,0.01960009742733353,0.07062391812791019,400,Paired record bootstrap; centre/source-row paired
+Stage 3 → Stage 4,Brier,-0.009938504520876162,-0.018608452319289433,-0.0015089650391593957,400,Paired record bootstrap; centre/source-row paired
+Stage 3 → Stage 4,Log loss,-0.027835737203798838,-0.05139195289457488,-0.005623950984536899,400,Paired record bootstrap; centre/source-row paired

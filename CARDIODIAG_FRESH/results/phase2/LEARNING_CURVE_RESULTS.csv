@@ -1,0 +1,5 @@
+stage,sample_sizes,status,reason
+Stage 1 baseline risk,303 total; 216 positive; 87 negative,not_run,Learning curves were not added to the frozen V3/V4 protocol; current repeated-CV results are the prespecified internal validation.
+Stage 2 clinical presentation,303 total,not_run,Exploratory group performance is reported; learning-curve refitting was not prespecified.
+Stage 3 initial investigation,303 total,not_run,Timing and unit evidence unresolved.
+Stage 4 later diagnostic,303 total,not_run,Downstream features excluded.

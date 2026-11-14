@@ -1,0 +1,8 @@
+issue,classification,evidence,decision
+SVM score probability labeling,requires_correction,expit(decision_function) is not native probability calibration,Use nested Platt calibration; label native scores separately.
+Inner assignments,requires_correction,only seed formula was saved in Version 1,Persist exact outer and inner row assignments.
+Bootstrap uncertainty,correct_with_limitations,row bootstrap of aggregated repeated-CV predictions,"Report as conditional resampling uncertainty, not population CI."
+Statistical comparisons,correct_with_limitations,paired descriptive bootstrap; no confirmatory p-values,Retain descriptive analysis; consider dependent-CV sensitivity only if prespecified.
+Ten-bin ECE,correct_with_limitations,approximately 60 observations per outer fold,Use fewer/adaptive bins as sensitivity; keep ECE supplementary.
+Patient grouping,unresolved,no patient identifier in modeling derivative,Do not manufacture IDs; obtain a legitimate identifier for future patient bootstrap/splitting.
+Strict features,verified_correct,five features pass current audit,Preserve as primary baseline.

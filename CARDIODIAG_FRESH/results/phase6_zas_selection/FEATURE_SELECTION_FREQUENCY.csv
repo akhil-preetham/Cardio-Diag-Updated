@@ -1,0 +1,39 @@
+feature,category,selected_group_inclusion_count,outer_fold_count,selection_group_inclusion_frequency
+Age,timing_uncertain_retrospective,15,15,1.0
+Atypical,timing_uncertain_retrospective,15,15,1.0
+BBB,timing_uncertain_retrospective,15,15,1.0
+BP,timing_uncertain_retrospective,15,15,1.0
+BUN,timing_uncertain_retrospective,15,15,1.0
+CR,timing_uncertain_retrospective,15,15,1.0
+Current Smoker,timing_uncertain_retrospective,15,15,1.0
+DM,timing_uncertain_retrospective,15,15,1.0
+Dyspnea,timing_uncertain_retrospective,15,15,1.0
+ESR,timing_uncertain_retrospective,15,15,1.0
+EX-Smoker,timing_uncertain_retrospective,15,15,1.0
+Edema,timing_uncertain_retrospective,15,15,1.0
+Exertional CP,timing_uncertain_retrospective,15,15,1.0
+FBS,timing_uncertain_retrospective,15,15,1.0
+FH,timing_uncertain_retrospective,15,15,1.0
+Function Class,timing_uncertain_retrospective,15,15,1.0
+HB,timing_uncertain_retrospective,15,15,1.0
+HDL,timing_uncertain_retrospective,15,15,1.0
+HTN,timing_uncertain_retrospective,15,15,1.0
+K,timing_uncertain_retrospective,15,15,1.0
+LDL,timing_uncertain_retrospective,15,15,1.0
+LVH,timing_uncertain_retrospective,15,15,1.0
+LowTH Ang,timing_uncertain_retrospective,15,15,1.0
+Lymph,timing_uncertain_retrospective,15,15,1.0
+Na,timing_uncertain_retrospective,15,15,1.0
+Neut,timing_uncertain_retrospective,15,15,1.0
+Nonanginal,timing_uncertain_retrospective,15,15,1.0
+PLT,timing_uncertain_retrospective,15,15,1.0
+PR,timing_uncertain_retrospective,15,15,1.0
+Poor R Progression,timing_uncertain_retrospective,15,15,1.0
+Q Wave,timing_uncertain_retrospective,15,15,1.0
+Sex,timing_uncertain_retrospective,15,15,1.0
+St Depression,timing_uncertain_retrospective,15,15,1.0
+St Elevation,timing_uncertain_retrospective,15,15,1.0
+TG,timing_uncertain_retrospective,15,15,1.0
+Tinversion,timing_uncertain_retrospective,15,15,1.0
+Typical Chest Pain,timing_uncertain_retrospective,15,15,1.0
+WBC,timing_uncertain_retrospective,15,15,1.0

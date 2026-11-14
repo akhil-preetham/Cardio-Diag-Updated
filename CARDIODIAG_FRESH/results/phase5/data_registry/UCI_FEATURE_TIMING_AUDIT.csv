@@ -1,0 +1,12 @@
+feature,timing,eligible_stage
+age,presentation/resting,stage2/3
+sex,presentation/resting,stage2/3
+cp,presentation/resting,stage2/3
+trestbps,presentation/resting,stage4
+chol,presentation/resting,stage4
+fbs,presentation/resting,stage4
+restecg,presentation/resting,stage4
+thalach,exercise-test timing unresolved,stage4
+exang,exercise-test timing unresolved,stage4
+oldpeak,exercise-test timing unresolved,stage4
+slope,exercise-test timing unresolved,stage4

@@ -1,0 +1,10 @@
+dataset,task_class,decision,endpoint_compatibility
+ARCADE,image angiography segmentation/detection,related imaging task; not tabular CAD validation,"image segmentation/detection, not binary tabular"
+MultiD4CAD,CT-defined/multimodal CAD,conditional separate CT study,"CT/multimodal CAD, not identical angiographic endpoint"
+CADICA,invasive angiography lesion imaging,exploratory imaging only,lesion imaging
+AngioCAD,angiography stenosis/CAD imaging,conditional separate clinical/imaging task,angiographic imaging with clinical table; timing unresolved
+PTB-XL,ECG diagnosis,ECG task; not angiographic CAD,ECG labels
+MIMIC-IV,EHR/administrative proxy,not direct validation,EHR phenotype
+eICU-CRD,ICU EHR proxy,not direct validation,ICU EHR phenotype
+NHANES,survey/risk-factor association,population risk only,no angiography
+Mendeley stenosis detection,angiography image detection,cannot estimate specificity,all-positive angiographic imaging

@@ -1,0 +1,73 @@
+{
+  "phase": "Phase 7.1 \u2014 Independent Research Evidence Consolidation",
+  "created_local": "2026-11-14",
+  "research_question": "Retrospective discrimination of angiography-defined CAD using recorded clinical features.",
+  "decision": "READY WITH SPECIFIED EVIDENCE LIMITATIONS",
+  "scope": "Read-only consolidation of existing Phase 1\u20136.1 artifacts; no model fitting, benchmark rerun, manuscript modification, or historical result modification.",
+  "source_rows_vs_patients": "ZAS evaluation is source-row based; unique patient identity is not verified.",
+  "historical_namespaces_modified": false,
+  "inputs": {
+    "results/primary_research_v3/EXECUTIVE_RESULTS_REPORT.md": "7276728d3093b03257f6418b2cb06cd6023dfa569b8f4eb642ee836388205058",
+    "results/phase5_1_audit/ZAS_0928_EVIDENCE_DECISION.md": "bda3dc1190926a32719a82899ae18e6722a5dc9c47b43c98c79f57d99e27cf0b",
+    "results/phase5_1_audit/ZAS_FEATURE_TIMING_AUDIT.md": "292066e23be7c5aa0731a16909d249776d8f9ad324f91ea281e1d98e65afd43e",
+    "results/phase6_zas_selection/REPEAT_LEVEL_PERFORMANCE.csv": "a99bb8ee87678544b24c368b188444e01be15b2f1783a5c3bfe34d714e81d881",
+    "results/phase6_zas_selection/PAIRED_REPEAT_DIFFERENCES.csv": "3ce4b8d577235814604022f3d52e0ada7cd00bb9595684f4dbaaa852b8ab92cf",
+    "results/phase6_zas_selection/ROBUSTNESS_REPORT.md": "f3037c3fc3ca341d9f80176338a57f6cbab209051d9ca9b075907bd8c6038574",
+    "results/phase6_zas_selection/PHASE6_FINAL_DECISION.md": "4f6bda9dd3de53bf82d499a3e66d935ec66cfb07d855527b34bb01ca34530307",
+    "results/phase6_zas_selection/PHASE6_MANIFEST.json": "e30b3684edee27253bbdc94cdb7dde26d3d2d2b2193034837eefb230b64d6943",
+    "results/phase6_1_audit/PHASE6_1_FINAL_DECISION.md": "392d79fcfefc7153eae52e834fe298f0793b35c6ba0556f96c9ef338deb47325",
+    "results/phase6_1_audit/PHASE6_METRIC_RECONCILIATION.md": "64db21f7fe81340806fa850722f4bc883b3196544d61ee6375cbb687b6c4cc90",
+    "results/phase6_1_audit/PHASE6_CALIBRATION_AUDIT.md": "fbfc8c1e36bdf0458f46c90055fb6ccf9879100768dad8b881ca2d9e2df22886",
+    "results/phase4_validation_audit/PHASE4_3_FINAL_REPORT.md": "556b968087af9e44d974328a92ed85bfdf8464c7341954dbbfd4e9155fb5eb8e",
+    "results/phase4_validation_audit/PHASE4_3_MANIFEST.json": "cf537600fad105b40f11029e1591eb1258ee3fa16c0ca84e39536c2f1efd35fb",
+    "results/phase4_validation_audit/FINAL_STAGE_COMPARISON.csv": "330a0c50c8ced7377b08b847cb647e5cb824bb93bf44d4843b06bc0451d05e09",
+    "results/phase4_validation_audit/PAIRED_STAGE_COMPARISONS.csv": "3d215ed00e84b18fa47330fdeb51c7148d706a0f954d3eb58a3ee7b94bb2caef",
+    "results/final_project/FINAL_RESEARCH_DECISION.md": "ff426ba210d56817809e5aca27852a3601fd720ba7a15b5af0ffbba66daf20ca",
+    "paper/manuscript.tex": "5ffdfac441fffdf2dbf47f101cda6ef17d75b06623e7961656b0ae9b6703b981",
+    "paper/references.bib": "fa77349aa8f80b935adabb68c580774f5af83002392ac47f58692bb279f8a00c",
+    "paper/publication_readiness_report.md": "89e785cc2eb5216d9e7d0c0267901d18ee3d1eca32c5ea246a8f2d63aa001cd6"
+  },
+  "outputs": {
+    "results/phase7_1_evidence/MASTER_EVIDENCE_TABLE.csv": "345f3b6e53c21bbb3f6567d0337819a4543368084aa617fdb64f23bff835b3bc",
+    "results/phase7_1_evidence/MASTER_EVIDENCE_REGISTER.md": "20f028666901ba015a7e9240be34f761cc70b92f5eb45781985c9b5d80bf3d19",
+    "results/phase7_1_evidence/RESULTS_RECONCILIATION.md": "466e053dfd1d72a6488847a089732a5b5c3e88645c76f1c4063e739605de2a9e",
+    "results/phase7_1_evidence/CLAIMS_AND_LIMITATIONS.md": "654b64834b4bf79225f40b4e8152b7e169e7056932811f6c0cad22f50095b02e",
+    "results/phase7_1_evidence/MANUSCRIPT_RESULTS_OUTLINE.md": "2cf9fc73522f641464af07467750efb3ff5e49233c5c2d9249f296ab57c06869",
+    "results/phase7_1_evidence/PHASE7_1_FINAL_DECISION.md": "2c25aa33205816473420493e909c6f1539446a5665b854ac7c4cd97f23ed48b4"
+  },
+  "validation": {
+    "master_csv_rows": 75,
+    "master_csv_columns": [
+      "evidence_id",
+      "phase",
+      "dataset",
+      "n_records",
+      "events",
+      "prevalence",
+      "endpoint",
+      "task",
+      "validation_unit_and_design",
+      "model_or_procedure",
+      "feature_group",
+      "metric",
+      "estimate",
+      "uncertainty_or_context",
+      "source_artifact",
+      "evidence_status",
+      "permitted_interpretation",
+      "prohibited_interpretation"
+    ],
+    "all_source_artifacts_exist": true,
+    "csv_parse": "passed",
+    "phase6_outer_reconciliation": "relied on independently verified Phase 6.1 audit; no rerun",
+    "models_fitted": 0
+  },
+  "reproduction_commands": [
+    "$env:PYTHONPATH = 'src;.'",
+    ".\\.venv\\Scripts\\python.exe -m runner.phase6_1_audit.audit",
+    ".\\.venv\\Scripts\\python.exe -m pytest tests\\test_phase6_1_audit.py -q",
+    ".\\.venv\\Scripts\\python.exe -m ruff check runner\\phase6_1_audit tests\\test_phase6_1_audit.py",
+    "Phase 4.3 read-only reproduction instructions: results/phase4_validation_audit/PHASE4_3_FINAL_REPORT.md (uses .venv-repro)."
+  ],
+  "notes": "Phase 5 0.928214 is exploratory and post-hoc. Phase 6.1 found outer discrimination verified; calibration limitations remain. No external, prospective, patient-level, or clinical utility claim."
+}

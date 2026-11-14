@@ -1,0 +1,12 @@
+feature,missing_fraction,univariate_numeric_auc,overall_median,overall_mean,interpretation
+age,0.0,0.6685930621083274,54.0,53.51086956521739,descriptive association; not a selection rule
+sex,0.0,0.6260665681958326,1.0,0.7891304347826087,descriptive association; not a selection rule
+cp,0.0,0.7698005248591054,4.0,3.25,descriptive association; not a selection rule
+trestbps,0.0641304347826087,0.5621483375959079,130.0,132.13240418118468,descriptive association; not a selection rule
+chol,0.03260869565217391,0.5788639250881076,223.0,199.13033707865168,descriptive association; not a selection rule
+fbs,0.09782608695652174,0.5531294175135688,0.0,0.16626506024096385,descriptive association; not a selection rule
+restecg,0.002173913043478261,0.539238975510733,0.0,0.6045751633986928,descriptive association; not a selection rule
+thalach,0.059782608695652176,0.7313984482070208,140.0,137.5456647398844,descriptive association; not a selection rule
+exang,0.059782608695652176,0.7271358736119655,0.0,0.3895953757225434,descriptive association; not a selection rule
+oldpeak,0.06739130434782609,0.7226468332237562,0.5,0.8787878787878788,descriptive association; not a selection rule
+slope,0.3358695652173913,0.6883185096995588,2.0,1.7708674304418985,descriptive association; not a selection rule

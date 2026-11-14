@@ -1,0 +1,5 @@
+stage,pooled_roc_auc,pooled_brier,centre_auc_min,centre_auc_max,centre_brier_max,feature_timing_role,selection_status
+stage1_basic_risk,0.717900181167214,0.21120528037673125,0.5010869565217392,0.7098613791893315,0.2287111795712966,initial pretest,descriptive only; no deployment selection
+stage2_symptoms,0.8225254422822289,0.1680699973776971,0.710225029609159,0.837991770373344,0.18366512069236496,symptom-stage,descriptive only; no deployment selection
+stage3_resting_measurements,0.82150488291053,0.16838118432970334,0.6790367153572838,0.8187976716178242,0.18074227701035628,resting-measurement-stage,descriptive only; no deployment selection
+stage4_exercise_test,0.8450327200416828,0.1584426798088272,0.7260869565217392,0.8746989160979527,0.1984019012169211,exercise-test-stage,descriptive only; no deployment selection

@@ -1,0 +1,13 @@
+# Install only in the CARDIODIAG_FRESH virtual environment.
+# These are runner/execution packages, not a reconstruction of the authors' historical environment.
+nbformat>=5.9
+nbclient>=0.10
+ipykernel>=6.29
+numpy>=1.26
+pandas>=2.1
+openpyxl>=3.1
+scikit-learn>=1.4
+imbalanced-learn>=0.12
+matplotlib>=3.8
+xgboost>=2.0
+pytest>=8.0

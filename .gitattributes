@@ -1,0 +1,6 @@
+# Frozen hashes are byte-sensitive; preserve original CRLF/LF exactly.
+* -text
+*.pdf binary
+*.png binary
+*.xlsx binary
+*.joblib binary

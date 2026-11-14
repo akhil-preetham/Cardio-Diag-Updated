@@ -1,0 +1,233 @@
+{
+  "audit_version": "clinical_validation_audit_v3",
+  "generated_utc": "2026-11-13T08:29:40.440901+00:00",
+  "script": "runner\\clinical_validation_audit.py",
+  "script_sha256": "e0d69289452053882f83cf9fbeb4881708b1f96e0a5994010a7a64b6427e48af",
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "pandas": "3.1.1"
+  },
+  "inputs": {
+    "data\\interim\\validated\\z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "data\\interim\\nhanes_components\\nhanes_2017_2018_cardiovascular_components.csv": "2cede3514e413de742a54f997b2d7d1e5efda533264f8c7d16cc686428590054",
+    "data\\interim\\clinical_metadata\\ptb_xl_metadata_index.csv": "ff0898f4397758679a99e9089e49619918258dcf138acbada8a423f7d9e50c66",
+    "data\\interim\\clinical_metadata\\ptb_diagnostic_record_index.csv": "0f46ff660eddb9e4c6d718a7852a272482087cc6832d7ecb9506cbf6c447a04c",
+    "data\\raw\\ptb_xl\\metadata\\SHA256SUMS.txt": "b7224b92b341511ec3ceb13dc6652079b2c36a06504bcb49506f157f51dc695d",
+    "data\\raw\\ptb_diagnostic\\metadata\\SHA256SUMS.txt": "994115d0484fe90daaff0e280ff6eeb1d8b76338f93d1687716efa3acf2cea83",
+    "data\\raw\\auricle\\metadata\\SHA256SUMS.txt": "b801903cf00152830cbde3cf20f5a62a748ff15cec8cf41f4ecb56d3a1ead04e",
+    "data\\raw\\ptb_xl\\ptb-xl-1.0.3.zip": "2d98687a9c69c8df03dbd69e0c569b3363981a0f667861c279c747d4aec29812",
+    "data\\raw\\ptb_diagnostic\\ptbdb-1.0.0.zip": "61e00fc9f38a391fc2a0d757dfa6a02a3f915ad7f0095f747e9c44df395371d3",
+    "data\\metadata\\dataset_registry.json": "b4861acff8775ae0030e752645142a043f9e06c192e879ce61e3d7c4ff911b72",
+    "data\\metadata\\dataset_manifest_v2.json": "f926f225c9a3d9066840ffac62e422b1483a082acf2305e804c24c369a6b178d"
+  },
+  "outputs": {
+    "results\\clinical_validation_audit_v3\\DATASET_PROVENANCE_AUDIT.md": "6a2c9fae043063057cfaae23744fe1d53e23bee65e333c2ef3fe2127b5c39149",
+    "results\\clinical_validation_audit_v3\\ECG_INTEGRITY_AND_OVERLAP_AUDIT.md": "c2f8b616e3d84533bd363f06d11f0852370da6e30a69bd015344acd5b9b57a91",
+    "results\\clinical_validation_audit_v3\\EXECUTIVE_SUMMARY.md": "50c3bbc75c18177d4cae18a7c6ef8408713e0ce0b05497bfc352fa59e203828b",
+    "results\\clinical_validation_audit_v3\\EXISTING_DATASET_OVERLAP_AUDIT.md": "bd53a6d54935c232031a9c0dc146dbbf5976d2f6d486ad44b822f23cf4e2c192",
+    "results\\clinical_validation_audit_v3\\FEATURE_COMPATIBILITY_MATRIX.csv": "387c8cf9c809c15cf13eb1548e5a8e66fd137cf7f0ace73fb32fbeebe6b6cd2c",
+    "results\\clinical_validation_audit_v3\\NHANES_VARIABLE_AND_WEIGHT_AUDIT.csv": "19ade659c8ac2af4e46423cac36c3c424083f476d88473a2e80e7e1608bffe93",
+    "results\\clinical_validation_audit_v3\\PROPOSED_RESEARCH_PROTOCOL.md": "bfabe80dcdd8b054dcb240b0c52e667566ddaece5f40b47102421115f907a393",
+    "results\\clinical_validation_audit_v3\\REMAINING_RISKS_AND_LIMITATIONS.md": "0351fad975fa94a64fd236b65dc5a118f65441bc993cbb41c255aa0f4616e480",
+    "results\\clinical_validation_audit_v3\\TARGET_DEFINITION_MATRIX.csv": "a8fe719d43b87a107213f593893aff41ad42879388ce14a71b5702f802304d9d",
+    "results\\clinical_validation_audit_v3\\Z_ALIZADEH_FEATURE_AUDIT.csv": "21d307f6632d7a8130922575919b877d3f55427ddd988f99804d3147499537b0"
+  },
+  "nhanes_merge_steps": [
+    {
+      "added_component": "BPQ_J",
+      "left_rows_before_merge": 9254,
+      "component_rows": 6161,
+      "merged_rows": 9254,
+      "left_only": 3093,
+      "right_only": 0,
+      "both": 6161
+    },
+    {
+      "added_component": "BPX_J",
+      "left_rows_before_merge": 9254,
+      "component_rows": 8704,
+      "merged_rows": 9254,
+      "left_only": 550,
+      "right_only": 0,
+      "both": 8704
+    },
+    {
+      "added_component": "CDQ_J",
+      "left_rows_before_merge": 9254,
+      "component_rows": 3882,
+      "merged_rows": 9254,
+      "left_only": 5372,
+      "right_only": 0,
+      "both": 3882
+    },
+    {
+      "added_component": "BMX_J",
+      "left_rows_before_merge": 9254,
+      "component_rows": 8704,
+      "merged_rows": 9254,
+      "left_only": 550,
+      "right_only": 0,
+      "both": 8704
+    },
+    {
+      "added_component": "TCHOL_J",
+      "left_rows_before_merge": 9254,
+      "component_rows": 7435,
+      "merged_rows": 9254,
+      "left_only": 1819,
+      "right_only": 0,
+      "both": 7435
+    },
+    {
+      "added_component": "HDL_J",
+      "left_rows_before_merge": 9254,
+      "component_rows": 7435,
+      "merged_rows": 9254,
+      "left_only": 1819,
+      "right_only": 0,
+      "both": 7435
+    },
+    {
+      "added_component": "TRIGLY_J",
+      "left_rows_before_merge": 9254,
+      "component_rows": 3036,
+      "merged_rows": 9254,
+      "left_only": 6218,
+      "right_only": 0,
+      "both": 3036
+    },
+    {
+      "added_component": "DIQ_J",
+      "left_rows_before_merge": 9254,
+      "component_rows": 8897,
+      "merged_rows": 9254,
+      "left_only": 357,
+      "right_only": 0,
+      "both": 8897
+    },
+    {
+      "added_component": "SMQ_J",
+      "left_rows_before_merge": 9254,
+      "component_rows": 6724,
+      "merged_rows": 9254,
+      "left_only": 2530,
+      "right_only": 0,
+      "both": 6724
+    }
+  ],
+  "nhanes_summary": {
+    "merged_rows": 9254,
+    "unique_seqn": 9254,
+    "duplicate_seqn": 0,
+    "survey_design_columns": [
+      "WTINT2YR",
+      "WTMEC2YR",
+      "WTSAF2YR",
+      "SDMVPSU",
+      "SDMVSTRA"
+    ],
+    "component_rows": {
+      "BMX_J": 8704,
+      "BPQ_J": 6161,
+      "BPX_J": 8704,
+      "CDQ_J": 3882,
+      "DEMO_J": 9254,
+      "DIQ_J": 8897,
+      "HDL_J": 7435,
+      "SMQ_J": 6724,
+      "TCHOL_J": 7435,
+      "TRIGLY_J": 3036
+    }
+  },
+  "ecg_summary": {
+    "ptb_xl_records": 21799,
+    "ptb_xl_patients": 18869,
+    "ptb_xl_patient_multi_fold_count": 0,
+    "ptb_xl_recommended_folds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ptb_xl_diagnostic_class_annotation_counts": {
+      "NORM": 9514,
+      "nan": 30286,
+      "MI": 6863,
+      "STTC": 5771,
+      "HYP": 2812,
+      "CD": 5761
+    },
+    "ptb_diagnostic_record_count": 549,
+    "ptb_diagnostic_visible_subject_directory_count": 290,
+    "ptb_diagnostic_record_per_subject": {
+      "count": 290.0,
+      "mean": 1.893103448275862,
+      "std": 1.2584471769684664,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 1.0,
+      "75%": 3.0,
+      "max": 7.0
+    },
+    "overlap_classification": "unresolved_related_provenance",
+    "overlap_evidence": "PTB-XL exposes numeric patient_id values and PTB Diagnostic exposes patient directory identifiers; no validated crosswalk is available. Both originate from PTB/PhysioNet, so independence cannot be assumed.",
+    "waveform_policy": "Archives verified; waveforms were not extracted or loaded."
+  },
+  "overlap_summary": {
+    "pairwise_checks": [
+      {
+        "left": "cleveland",
+        "right": "statlog",
+        "common_predictor_fields": 13,
+        "exact_common_predictor_matches": 270,
+        "classification": "confirmed_record_level_overlap",
+        "matched_right_rows": 270,
+        "target_agreement_after_standard_mapping": 270,
+        "evidence": "All 270 Statlog predictor profiles exactly match unique Cleveland predictor profiles; mapped targets agree for all 270 rows."
+      },
+      {
+        "left": "cleveland",
+        "right": "five_states",
+        "common_predictor_fields": 11,
+        "exact_common_predictor_matches": 0,
+        "classification": "no_exact_match_detected_under_normalization"
+      },
+      {
+        "left": "cleveland",
+        "right": "mendeley",
+        "common_predictor_fields": 12,
+        "exact_common_predictor_matches": 0,
+        "classification": "no_exact_match_detected_under_normalization"
+      },
+      {
+        "left": "cleveland",
+        "right": "kaggle_cvd_70000",
+        "common_predictor_fields": 2,
+        "exact_common_predictor_matches": 0,
+        "classification": "unresolvable_schema_or_provenance"
+      },
+      {
+        "left": "statlog",
+        "right": "mendeley",
+        "common_predictor_fields": 12,
+        "exact_common_predictor_matches": 0,
+        "classification": "no_exact_match_detected_under_normalization"
+      }
+    ],
+    "interpretation": "Identical clinical profiles are not treated as patient identity; no independent-validation claim is permitted."
+  },
+  "prohibited_actions": {
+    "model_training": false,
+    "model_tuning": false,
+    "model_evaluation": false,
+    "additional_downloads": false,
+    "raw_modification": false
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "sources": {
+    "data/interim/validated/z_alizadeh_sani.csv": {
+      "sha256": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+      "rows": 303,
+      "columns": 56
+    },
+    "data/interim/validated/uci_heart_disease_cleveland.csv": {
+      "sha256": "953d45066c221ee00cf8de72cfa4ab2086eb4e231fef6dda8fc3051b17840e61",
+      "rows": 303,
+      "columns": 14
+    },
+    "data/interim/validated/statlog_heart.csv": {
+      "sha256": "2a1c6f2350a41a7ba7389b3f87d1c943b477e4b4a756f012dca343767731f283",
+      "rows": 270,
+      "columns": 14
+    },
+    "data/interim/validated/mendeley.csv": {
+      "sha256": "6cf99c7fafb8901b5cd707b9423dff87b370d6c60263739df8a0d3383857e447",
+      "rows": 1000,
+      "columns": 14
+    },
+    "data/interim/validated/kaggle_cvd_70000.csv": {
+      "sha256": "2423cc5534fdc70887471778fc92b673ebb53d0d5188537b9029643b8a10e275",
+      "rows": 70000,
+      "columns": 13
+    }
+  },
+  "new_downloads": [],
+  "policy": "No new incompatible or unnecessary downloads in Phase 5."
+}

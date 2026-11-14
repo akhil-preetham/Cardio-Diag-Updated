@@ -1,0 +1,3332 @@
+{
+  "selection": {
+    "group": "eligible_combined",
+    "family": "elastic_net",
+    "features": [
+      "Age",
+      "Sex",
+      "DM",
+      "HTN",
+      "Current Smoker",
+      "EX-Smoker",
+      "FH",
+      "Typical Chest Pain",
+      "Dyspnea",
+      "Function Class",
+      "Atypical",
+      "Nonanginal",
+      "Exertional CP",
+      "LowTH Ang",
+      "BP",
+      "PR",
+      "Edema",
+      "Q Wave",
+      "St Elevation",
+      "St Depression",
+      "Tinversion",
+      "LVH",
+      "Poor R Progression",
+      "BBB",
+      "FBS",
+      "CR",
+      "TG",
+      "LDL",
+      "HDL",
+      "BUN",
+      "ESR",
+      "HB",
+      "K",
+      "Na",
+      "WBC",
+      "Lymph",
+      "Neut",
+      "PLT"
+    ],
+    "params": {
+      "model__C": 0.1,
+      "model__l1_ratio": 0.25
+    },
+    "inner_auc": 0.941827860248913
+  },
+  "candidates": [
+    {
+      "group": "v3_five_predictor",
+      "family": "logistic_l2",
+      "best_score": 0.7552481631429,
+      "best_params": {
+        "model__C": 0.1
+      }
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "elastic_net",
+      "best_score": 0.7587424089068827,
+      "best_params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.25
+      }
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "spline_logistic",
+      "best_score": 0.7409722222222221,
+      "best_params": {
+        "model__C": 0.1
+      }
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "random_forest",
+      "best_score": 0.7085071787374418,
+      "best_params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 8
+      }
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "hist_gradient_boosting",
+      "best_score": 0.6302209851551956,
+      "best_params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      }
+    },
+    {
+      "group": "basic_risk",
+      "family": "logistic_l2",
+      "best_score": 0.8204228520017994,
+      "best_params": {
+        "model__C": 10.0
+      }
+    },
+    {
+      "group": "basic_risk",
+      "family": "elastic_net",
+      "best_score": 0.8209710976158343,
+      "best_params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.25
+      }
+    },
+    {
+      "group": "basic_risk",
+      "family": "spline_logistic",
+      "best_score": 0.8220244789323736,
+      "best_params": {
+        "model__C": 0.1
+      }
+    },
+    {
+      "group": "basic_risk",
+      "family": "random_forest",
+      "best_score": 0.8161784000599791,
+      "best_params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 2
+      }
+    },
+    {
+      "group": "basic_risk",
+      "family": "hist_gradient_boosting",
+      "best_score": 0.746440620782726,
+      "best_params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      }
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "logistic_l2",
+      "best_score": 0.8673868833408308,
+      "best_params": {
+        "model__C": 1.0
+      }
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "elastic_net",
+      "best_score": 0.8809543222372169,
+      "best_params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.75
+      }
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "spline_logistic",
+      "best_score": 0.860968192382666,
+      "best_params": {
+        "model__C": 0.1
+      }
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "random_forest",
+      "best_score": 0.8535992090268406,
+      "best_params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 2
+      }
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "hist_gradient_boosting",
+      "best_score": 0.8708811291048133,
+      "best_params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      }
+    },
+    {
+      "group": "resting_ecg",
+      "family": "logistic_l2",
+      "best_score": 0.7025416104363473,
+      "best_params": {
+        "model__C": 0.1
+      }
+    },
+    {
+      "group": "resting_ecg",
+      "family": "elastic_net",
+      "best_score": 0.7032622956965061,
+      "best_params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.25
+      }
+    },
+    {
+      "group": "resting_ecg",
+      "family": "spline_logistic",
+      "best_score": 0.7079331608936871,
+      "best_params": {
+        "model__C": 0.1
+      }
+    },
+    {
+      "group": "resting_ecg",
+      "family": "random_forest",
+      "best_score": 0.6775425476083371,
+      "best_params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2
+      }
+    },
+    {
+      "group": "resting_ecg",
+      "family": "hist_gradient_boosting",
+      "best_score": 0.6199172477133003,
+      "best_params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      }
+    },
+    {
+      "group": "laboratory",
+      "family": "logistic_l2",
+      "best_score": 0.628020505323137,
+      "best_params": {
+        "model__C": 0.1
+      }
+    },
+    {
+      "group": "laboratory",
+      "family": "elastic_net",
+      "best_score": 0.6279127305443095,
+      "best_params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.75
+      }
+    },
+    {
+      "group": "laboratory",
+      "family": "spline_logistic",
+      "best_score": 0.5749793822162244,
+      "best_params": {
+        "model__C": 0.1
+      }
+    },
+    {
+      "group": "laboratory",
+      "family": "random_forest",
+      "best_score": 0.615377118008697,
+      "best_params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 8
+      }
+    },
+    {
+      "group": "laboratory",
+      "family": "hist_gradient_boosting",
+      "best_score": 0.5472222222222222,
+      "best_params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      }
+    },
+    {
+      "group": "eligible_combined",
+      "family": "logistic_l2",
+      "best_score": 0.9391944069575647,
+      "best_params": {
+        "model__C": 0.1
+      }
+    },
+    {
+      "group": "eligible_combined",
+      "family": "elastic_net",
+      "best_score": 0.941827860248913,
+      "best_params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.25
+      }
+    },
+    {
+      "group": "eligible_combined",
+      "family": "spline_logistic",
+      "best_score": 0.929680236917079,
+      "best_params": {
+        "model__C": 0.1
+      }
+    },
+    {
+      "group": "eligible_combined",
+      "family": "random_forest",
+      "best_score": 0.9069219523166892,
+      "best_params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 8
+      }
+    },
+    {
+      "group": "eligible_combined",
+      "family": "hist_gradient_boosting",
+      "best_score": 0.9024835057729795,
+      "best_params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      }
+    }
+  ],
+  "grid_scores": [
+    {
+      "group": "v3_five_predictor",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.7552481631429,
+      "inner_fold_aucs": [
+        0.6973684210526315,
+        0.8675213675213675,
+        0.7008547008547009
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.753119845554056,
+      "inner_fold_aucs": [
+        0.6858552631578947,
+        0.8675213675213675,
+        0.7059829059829059
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.7531414005098215,
+      "inner_fold_aucs": [
+        0.6842105263157894,
+        0.8675213675213675,
+        0.7076923076923076
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.7587424089068827,
+      "inner_fold_aucs": [
+        0.6916118421052633,
+        0.8854700854700855,
+        0.6991452991452991
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.7493899010346379,
+      "inner_fold_aucs": [
+        0.6661184210526315,
+        0.8957264957264958,
+        0.6863247863247863
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.7536465362123256,
+      "inner_fold_aucs": [
+        0.6891447368421052,
+        0.8692307692307693,
+        0.7025641025641025
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.7538775491078122,
+      "inner_fold_aucs": [
+        0.6932565789473684,
+        0.8675213675213675,
+        0.7008547008547008
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.7531414005098215,
+      "inner_fold_aucs": [
+        0.6842105263157894,
+        0.8675213675213675,
+        0.7076923076923076
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.7531414005098215,
+      "inner_fold_aucs": [
+        0.6842105263157894,
+        0.8675213675213675,
+        0.7076923076923076
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.7409722222222221,
+      "inner_fold_aucs": [
+        0.65625,
+        0.8692307692307693,
+        0.6974358974358974
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.7306848852901485,
+      "inner_fold_aucs": [
+        0.6151315789473685,
+        0.8675213675213675,
+        0.7094017094017093
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.7341252436647173,
+      "inner_fold_aucs": [
+        0.613486842105263,
+        0.8692307692307693,
+        0.7196581196581195
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.6975886564702355,
+      "inner_fold_aucs": [
+        0.5970394736842105,
+        0.723931623931624,
+        0.7717948717948717
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.7085071787374418,
+      "inner_fold_aucs": [
+        0.5682565789473684,
+        0.8051282051282052,
+        0.7521367521367521
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.6910097091018144,
+      "inner_fold_aucs": [
+        0.5773026315789473,
+        0.7307692307692308,
+        0.764957264957265
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.7085071787374418,
+      "inner_fold_aucs": [
+        0.5682565789473684,
+        0.8051282051282052,
+        0.7521367521367521
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.6302209851551956,
+      "inner_fold_aucs": [
+        0.49835526315789475,
+        0.7264957264957264,
+        0.6658119658119658
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.6302209851551956,
+      "inner_fold_aucs": [
+        0.49835526315789475,
+        0.7264957264957264,
+        0.6658119658119658
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.620782257459889,
+      "inner_fold_aucs": [
+        0.4794407894736842,
+        0.7136752136752137,
+        0.6692307692307692
+      ]
+    },
+    {
+      "group": "v3_five_predictor",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.620782257459889,
+      "inner_fold_aucs": [
+        0.4794407894736842,
+        0.7136752136752137,
+        0.6692307692307692
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.8158860023991603,
+      "inner_fold_aucs": [
+        0.787828947368421,
+        0.9025641025641026,
+        0.7572649572649572
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.8198530514319988,
+      "inner_fold_aucs": [
+        0.7894736842105263,
+        0.8974358974358974,
+        0.7726495726495727
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.8204228520017994,
+      "inner_fold_aucs": [
+        0.7894736842105263,
+        0.9008547008547008,
+        0.770940170940171
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.8171333783175888,
+      "inner_fold_aucs": [
+        0.7796052631578947,
+        0.8991452991452991,
+        0.7726495726495727
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.8027819950517318,
+      "inner_fold_aucs": [
+        0.7442434210526315,
+        0.911111111111111,
+        0.7529914529914531
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.8198099415204677,
+      "inner_fold_aucs": [
+        0.7927631578947368,
+        0.8991452991452991,
+        0.7675213675213676
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.8186487854251011,
+      "inner_fold_aucs": [
+        0.794407894736842,
+        0.8923076923076924,
+        0.7692307692307693
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.8209710976158343,
+      "inner_fold_aucs": [
+        0.7911184210526315,
+        0.9008547008547008,
+        0.770940170940171
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.8204012970460338,
+      "inner_fold_aucs": [
+        0.7911184210526315,
+        0.9008547008547008,
+        0.7692307692307693
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.8220244789323736,
+      "inner_fold_aucs": [
+        0.7976973684210527,
+        0.8991452991452991,
+        0.7692307692307693
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.8088881391512971,
+      "inner_fold_aucs": [
+        0.756578947368421,
+        0.8974358974358974,
+        0.7726495726495727
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.806211575948418,
+      "inner_fold_aucs": [
+        0.7434210526315789,
+        0.8991452991452991,
+        0.7760683760683761
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.8145121082621083,
+      "inner_fold_aucs": [
+        0.71875,
+        0.8735042735042735,
+        0.8512820512820513
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.7896840793222374,
+      "inner_fold_aucs": [
+        0.6784539473684211,
+        0.9059829059829061,
+        0.7846153846153847
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.8161784000599791,
+      "inner_fold_aucs": [
+        0.7220394736842105,
+        0.8735042735042735,
+        0.852991452991453
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.7896840793222374,
+      "inner_fold_aucs": [
+        0.6784539473684211,
+        0.9059829059829061,
+        0.7846153846153847
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.746440620782726,
+      "inner_fold_aucs": [
+        0.6085526315789473,
+        0.8735042735042735,
+        0.7572649572649572
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.746440620782726,
+      "inner_fold_aucs": [
+        0.6085526315789473,
+        0.8735042735042735,
+        0.7572649572649572
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.7326468548508022,
+      "inner_fold_aucs": [
+        0.6175986842105263,
+        0.829059829059829,
+        0.7512820512820513
+      ]
+    },
+    {
+      "group": "basic_risk",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.7326468548508022,
+      "inner_fold_aucs": [
+        0.6175986842105263,
+        0.829059829059829,
+        0.7512820512820513
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.8667093079922029,
+      "inner_fold_aucs": [
+        0.8445723684210527,
+        0.9350427350427352,
+        0.8205128205128205
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.8673868833408308,
+      "inner_fold_aucs": [
+        0.8363486842105263,
+        0.9538461538461539,
+        0.811965811965812
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.8640974096566202,
+      "inner_fold_aucs": [
+        0.8264802631578947,
+        0.958974358974359,
+        0.8068376068376067
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.8808788798920378,
+      "inner_fold_aucs": [
+        0.850328947368421,
+        0.9538461538461538,
+        0.8384615384615384
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.8809543222372169,
+      "inner_fold_aucs": [
+        0.8445723684210527,
+        0.9401709401709402,
+        0.8581196581196581
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.8736439121307543,
+      "inner_fold_aucs": [
+        0.837171052631579,
+        0.9538461538461538,
+        0.82991452991453
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.8733590118458538,
+      "inner_fold_aucs": [
+        0.837171052631579,
+        0.9564102564102563,
+        0.8264957264957264
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.8646672102264207,
+      "inner_fold_aucs": [
+        0.8264802631578947,
+        0.958974358974359,
+        0.8085470085470086
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.8680860136452241,
+      "inner_fold_aucs": [
+        0.8264802631578948,
+        0.958974358974359,
+        0.8188034188034188
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.860968192382666,
+      "inner_fold_aucs": [
+        0.847861842105263,
+        0.9094017094017094,
+        0.8256410256410256
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.8326937134502925,
+      "inner_fold_aucs": [
+        0.8314144736842105,
+        0.864957264957265,
+        0.8017094017094017
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.8094396648672965,
+      "inner_fold_aucs": [
+        0.8231907894736842,
+        0.8461538461538463,
+        0.7589743589743589
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.8502881803868646,
+      "inner_fold_aucs": [
+        0.814967105263158,
+        0.8905982905982905,
+        0.8452991452991453
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.8522656132853502,
+      "inner_fold_aucs": [
+        0.8379934210526316,
+        0.9008547008547009,
+        0.8179487179487179
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.8535992090268406,
+      "inner_fold_aucs": [
+        0.8231907894736842,
+        0.8940170940170941,
+        0.8435897435897436
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.8522656132853502,
+      "inner_fold_aucs": [
+        0.8379934210526316,
+        0.9008547008547009,
+        0.8179487179487179
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.8708811291048133,
+      "inner_fold_aucs": [
+        0.8305921052631579,
+        0.9179487179487179,
+        0.8641025641025641
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.8708811291048133,
+      "inner_fold_aucs": [
+        0.8305921052631579,
+        0.9179487179487179,
+        0.8641025641025641
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.8558460788723946,
+      "inner_fold_aucs": [
+        0.8256578947368421,
+        0.8846153846153846,
+        0.8572649572649573
+      ]
+    },
+    {
+      "group": "symptoms_examination",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.8558460788723946,
+      "inner_fold_aucs": [
+        0.8256578947368421,
+        0.8846153846153846,
+        0.8572649572649573
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.7025416104363473,
+      "inner_fold_aucs": [
+        0.6973684210526315,
+        0.6923076923076923,
+        0.717948717948718
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.6999728220122957,
+      "inner_fold_aucs": [
+        0.675986842105263,
+        0.6923076923076923,
+        0.7316239316239316
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.6948015069725596,
+      "inner_fold_aucs": [
+        0.6792763157894737,
+        0.6923076923076923,
+        0.7128205128205128
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.6460142075273655,
+      "inner_fold_aucs": [
+        0.662828947368421,
+        0.6341880341880342,
+        0.6410256410256411
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.6144718098665467,
+      "inner_fold_aucs": [
+        0.6348684210526316,
+        0.6341880341880342,
+        0.5743589743589744
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.7032622956965061,
+      "inner_fold_aucs": [
+        0.6858552631578947,
+        0.6923076923076923,
+        0.7316239316239316
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.6767881241565453,
+      "inner_fold_aucs": [
+        0.6842105263157895,
+        0.6803418803418804,
+        0.6658119658119659
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.702208914379967,
+      "inner_fold_aucs": [
+        0.6792763157894737,
+        0.6923076923076923,
+        0.7350427350427351
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.6933770055480583,
+      "inner_fold_aucs": [
+        0.6792763157894737,
+        0.6923076923076923,
+        0.7085470085470086
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.7079331608936871,
+      "inner_fold_aucs": [
+        0.6990131578947367,
+        0.6931623931623931,
+        0.7316239316239316
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.7054552781526465,
+      "inner_fold_aucs": [
+        0.6924342105263158,
+        0.6923076923076923,
+        0.7316239316239316
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.6967958089668617,
+      "inner_fold_aucs": [
+        0.6792763157894737,
+        0.6914529914529914,
+        0.7196581196581197
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.6775425476083371,
+      "inner_fold_aucs": [
+        0.6266447368421052,
+        0.7025641025641025,
+        0.7034188034188035
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.6404300682261209,
+      "inner_fold_aucs": [
+        0.6324013157894737,
+        0.6735042735042736,
+        0.6153846153846154
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.6746935447593342,
+      "inner_fold_aucs": [
+        0.6266447368421052,
+        0.7025641025641025,
+        0.694871794871795
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.6404300682261209,
+      "inner_fold_aucs": [
+        0.6324013157894737,
+        0.6735042735042736,
+        0.6153846153846154
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.6199172477133003,
+      "inner_fold_aucs": [
+        0.6324013157894737,
+        0.6401709401709401,
+        0.5871794871794872
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.6199172477133003,
+      "inner_fold_aucs": [
+        0.6324013157894737,
+        0.6401709401709401,
+        0.5871794871794872
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.6199172477133003,
+      "inner_fold_aucs": [
+        0.6324013157894737,
+        0.6401709401709401,
+        0.5871794871794872
+      ]
+    },
+    {
+      "group": "resting_ecg",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.6199172477133003,
+      "inner_fold_aucs": [
+        0.6324013157894737,
+        0.6401709401709401,
+        0.5871794871794872
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.628020505323137,
+      "inner_fold_aucs": [
+        0.5575657894736843,
+        0.6495726495726496,
+        0.676923076923077
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.6233974358974359,
+      "inner_fold_aucs": [
+        0.5625,
+        0.6495726495726496,
+        0.6581196581196582
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.6205268780926675,
+      "inner_fold_aucs": [
+        0.5641447368421053,
+        0.6512820512820513,
+        0.6461538461538462
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.6225596041385516,
+      "inner_fold_aucs": [
+        0.5394736842105263,
+        0.6393162393162394,
+        0.6888888888888889
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.5691229944519418,
+      "inner_fold_aucs": [
+        0.5082236842105263,
+        0.5726495726495726,
+        0.6264957264957265
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.6261817738791423,
+      "inner_fold_aucs": [
+        0.5674342105263157,
+        0.6495726495726495,
+        0.6615384615384616
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.6279127305443095,
+      "inner_fold_aucs": [
+        0.5657894736842105,
+        0.652991452991453,
+        0.664957264957265
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.6200001874343979,
+      "inner_fold_aucs": [
+        0.5608552631578947,
+        0.652991452991453,
+        0.6461538461538462
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.6210966786624681,
+      "inner_fold_aucs": [
+        0.5641447368421053,
+        0.652991452991453,
+        0.6461538461538462
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.5749793822162244,
+      "inner_fold_aucs": [
+        0.4309210526315789,
+        0.6256410256410257,
+        0.6683760683760684
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.5240975033738192,
+      "inner_fold_aucs": [
+        0.3569078947368421,
+        0.6017094017094018,
+        0.6136752136752137
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.4891456740140951,
+      "inner_fold_aucs": [
+        0.37171052631578944,
+        0.570940170940171,
+        0.5247863247863248
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.5454762708052182,
+      "inner_fold_aucs": [
+        0.5082236842105263,
+        0.5435897435897435,
+        0.5846153846153846
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.615377118008697,
+      "inner_fold_aucs": [
+        0.5657894736842105,
+        0.6000000000000001,
+        0.6803418803418804
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.5538508397061028,
+      "inner_fold_aucs": [
+        0.5213815789473684,
+        0.5521367521367522,
+        0.5880341880341879
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.6136677162992953,
+      "inner_fold_aucs": [
+        0.5657894736842105,
+        0.5982905982905983,
+        0.676923076923077
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.5472222222222222,
+      "inner_fold_aucs": [
+        0.375,
+        0.6324786324786325,
+        0.6341880341880342
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.5472222222222222,
+      "inner_fold_aucs": [
+        0.375,
+        0.6324786324786325,
+        0.6341880341880342
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.530214424951267,
+      "inner_fold_aucs": [
+        0.3684210526315789,
+        0.6256410256410257,
+        0.5965811965811966
+      ]
+    },
+    {
+      "group": "laboratory",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.530214424951267,
+      "inner_fold_aucs": [
+        0.3684210526315789,
+        0.6256410256410257,
+        0.5965811965811966
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.9391944069575647,
+      "inner_fold_aucs": [
+        0.944078947368421,
+        0.9811965811965812,
+        0.8923076923076922
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.9178128280101964,
+      "inner_fold_aucs": [
+        0.8799342105263157,
+        0.9794871794871796,
+        0.894017094017094
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "logistic_l2",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.8867230844204528,
+      "inner_fold_aucs": [
+        0.8174342105263157,
+        0.9521367521367521,
+        0.8905982905982907
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.941827860248913,
+      "inner_fold_aucs": [
+        0.9605263157894737,
+        0.9846153846153847,
+        0.8803418803418803
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 0.1,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.9206880716749138,
+      "inner_fold_aucs": [
+        0.899671052631579,
+        0.9846153846153847,
+        0.8777777777777778
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.9216289923526766,
+      "inner_fold_aucs": [
+        0.8930921052631579,
+        0.9794871794871794,
+        0.8923076923076922
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 1.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.9314758584495427,
+      "inner_fold_aucs": [
+        0.924342105263158,
+        0.9811965811965813,
+        0.8888888888888888
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.25
+      },
+      "mean_inner_auc": 0.8900556680161943,
+      "inner_fold_aucs": [
+        0.8240131578947368,
+        0.9538461538461538,
+        0.8923076923076924
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "elastic_net",
+      "params": {
+        "model__C": 10.0,
+        "model__l1_ratio": 0.75
+      },
+      "mean_inner_auc": 0.8872066651671915,
+      "inner_fold_aucs": [
+        0.8240131578947368,
+        0.9538461538461539,
+        0.8837606837606837
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 0.1
+      },
+      "mean_inner_auc": 0.929680236917079,
+      "inner_fold_aucs": [
+        0.930921052631579,
+        0.9504273504273505,
+        0.9076923076923077
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 1.0
+      },
+      "mean_inner_auc": 0.9013963862648072,
+      "inner_fold_aucs": [
+        0.8717105263157894,
+        0.9094017094017094,
+        0.9230769230769231
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "spline_logistic",
+      "params": {
+        "model__C": 10.0
+      },
+      "mean_inner_auc": 0.8796483730694257,
+      "inner_fold_aucs": [
+        0.8355263157894737,
+        0.8854700854700855,
+        0.9179487179487179
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.9005154445943919,
+      "inner_fold_aucs": [
+        0.8519736842105262,
+        0.9555555555555555,
+        0.8940170940170941
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.9069219523166892,
+      "inner_fold_aucs": [
+        0.8848684210526315,
+        0.9589743589743589,
+        0.8769230769230769
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 2
+      },
+      "mean_inner_auc": 0.9004076698155646,
+      "inner_fold_aucs": [
+        0.8601973684210527,
+        0.9521367521367522,
+        0.8888888888888888
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "random_forest",
+      "params": {
+        "model__max_depth": 5,
+        "model__min_samples_leaf": 8
+      },
+      "mean_inner_auc": 0.9069219523166892,
+      "inner_fold_aucs": [
+        0.8848684210526315,
+        0.9589743589743589,
+        0.8769230769230769
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.9024835057729795,
+      "inner_fold_aucs": [
+        0.8322368421052633,
+        0.9811965811965813,
+        0.8940170940170941
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.05,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.9024835057729795,
+      "inner_fold_aucs": [
+        0.8322368421052633,
+        0.9811965811965813,
+        0.8940170940170941
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 7
+      },
+      "mean_inner_auc": 0.8912168241115609,
+      "inner_fold_aucs": [
+        0.8223684210526315,
+        0.9658119658119658,
+        0.8854700854700857
+      ]
+    },
+    {
+      "group": "eligible_combined",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "model__learning_rate": 0.1,
+        "model__max_leaf_nodes": 15
+      },
+      "mean_inner_auc": 0.8912168241115609,
+      "inner_fold_aucs": [
+        0.8223684210526315,
+        0.9658119658119658,
+        0.8854700854700857
+      ]
+    }
+  ],
+  "calibration_raw_scores": [
+    0.6013521867854563,
+    0.9588376597393152,
+    0.6713049243835044,
+    0.915032371466343,
+    0.09813325381237328,
+    0.8051788394651199,
+    0.9832699805566402,
+    0.9534602218586399,
+    0.9764253467083156,
+    0.42932400526391457,
+    0.40837588424165927,
+    0.8917472285889849,
+    0.5480176865457671,
+    0.8796096153451937,
+    0.2879235963435489,
+    0.592447115768142,
+    0.9463391670416439,
+    0.9532897861735198,
+    0.611073317314089,
+    0.9697635219962886,
+    0.8909483700455085,
+    0.9245663018652626,
+    0.9553815786706675,
+    0.9947199308312451,
+    0.4792574708267851,
+    0.9132613040910171,
+    0.8818080890785057,
+    0.7530469195027064,
+    0.7527708035128899,
+    0.7552177233484364,
+    0.27995371481549197,
+    0.24576365892452037,
+    0.964861614966822,
+    0.9651886927608777,
+    0.9696632012131808,
+    0.8496648473022796,
+    0.6249867729727531,
+    0.8100182162652696,
+    0.9881906049907744,
+    0.8093648732785126,
+    0.838928002974155,
+    0.7386743408227595,
+    0.292943255190391,
+    0.5000037954923722,
+    0.9818321136980189,
+    0.9880660895392295,
+    0.37913943211170875,
+    0.884157981831601,
+    0.883313017236585,
+    0.5488926218174385,
+    0.8204561261303411,
+    0.28831794096277047,
+    0.9735813070370036,
+    0.8266124174422866,
+    0.11908724393902403,
+    0.771345914265015,
+    0.16031962750066384,
+    0.8223276840166333,
+    0.49002929133929396,
+    0.2634665503778522,
+    0.9377945648241532,
+    0.6875232024322708,
+    0.829916714732352,
+    0.9182554307274359,
+    0.7728118476428978,
+    0.23743803514270337,
+    0.9711340025845657,
+    0.16965197741806345,
+    0.9440048144026643,
+    0.21423489268148832,
+    0.4449593434225701,
+    0.20753044650056973,
+    0.9558584475561718,
+    0.9837669470147226,
+    0.9336340262874206,
+    0.9648770155522497,
+    0.8358380367318463,
+    0.8445337913046638,
+    0.5378066455789281,
+    0.08097955598948584,
+    0.6387687911095635
+  ],
+  "calibration_y": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1
+  ],
+  "calibrator_intercept": -2.520162167484347,
+  "calibrator_coefficient": 5.211206543424922,
+  "raw_probability": [
+    0.6369145592370301,
+    0.6929385793574585,
+    0.947383884110793,
+    0.9358300199760785,
+    0.9323834549740883,
+    0.9774319195489817,
+    0.3797675302727539,
+    0.8814348552600229,
+    0.8810983085778101,
+    0.3024790565313502,
+    0.7019999158506587,
+    0.8657211170180004,
+    0.2518107340198232,
+    0.9783549033023232,
+    0.7567618036883793,
+    0.46025357251397375,
+    0.9674430952516424,
+    0.48482919868045665,
+    0.8163129778376798,
+    0.906142121268762,
+    0.8210809905503921,
+    0.15517023806166624,
+    0.9735791193392125,
+    0.5876791442064881,
+    0.7970319857194886,
+    0.2957574508910685,
+    0.8063602584842658,
+    0.8856730273686698,
+    0.3521685243174409,
+    0.20220849486414488,
+    0.9834575331218022,
+    0.10477946522075043,
+    0.9504224880688631,
+    0.9959299229260036,
+    0.3561912180294408,
+    0.8573576212356768,
+    0.6953570803404732,
+    0.3199447369148094,
+    0.9865462951913909,
+    0.9270850253649462,
+    0.34559099152653283,
+    0.8023307910877184,
+    0.5081058539141731,
+    0.9213984379356154,
+    0.1548407967858068,
+    0.9429732349781086,
+    0.7082704050022363,
+    0.9500852375832115,
+    0.9720684092778307,
+    0.7209126862186446,
+    0.9672239373326915,
+    0.9860380638135703,
+    0.5724965114610464,
+    0.11789775682865182,
+    0.8504336573730693,
+    0.903050712816108,
+    0.9178520845968337,
+    0.4242043676147006,
+    0.7773667875950705,
+    0.1798618193512602
+  ],
+  "calibrated_probability": [
+    0.6897457975948965,
+    0.74854812758729,
+    0.9181032784967547,
+    0.9134606722234186,
+    0.9120302853864286,
+    0.929132370195151,
+    0.36792821304765677,
+    0.8882686515892756,
+    0.8880944714240716,
+    0.2801169993813826,
+    0.7573314322824094,
+    0.8798794811481709,
+    0.23006850647030438,
+    0.9294484243598347,
+    0.8058833746771472,
+    0.46961604838456183,
+    0.9256273612738917,
+    0.5015957258629615,
+    0.84989954167118,
+    0.9004228337195658,
+    0.8530418132816325,
+    0.15296433551914748,
+    0.9277988989470288,
+    0.632360134955294,
+    0.8366261429915406,
+    0.2731083147150377,
+    0.8431622648792048,
+    0.8904419052549686,
+    0.33515980642615834,
+    0.1874885947292156,
+    0.9311723073396082,
+    0.12194546876415649,
+    0.9192860357525294,
+    0.9352229977110221,
+    0.3398469884746291,
+    0.8751962319764804,
+    0.7509129313774959,
+    0.2988324007169693,
+    0.9321967862014083,
+    0.9097896606333958,
+    0.32756561955892183,
+    0.8403653942677979,
+    0.5318773001456248,
+    0.9073278118381596,
+    0.15274203043114176,
+    0.9163583673768105,
+    0.7632861925553842,
+    0.9191555358330166,
+    0.9272697475349162,
+    0.7749825817307001,
+    0.9255487009114907,
+    0.9320291936172723,
+    0.6137814215344899,
+    0.12945652324078288,
+    0.8712014042658247,
+    0.8989690422793298,
+    0.90576213149727,
+    0.42322565876966795,
+    0.8221316283864022,
+    0.17039009980512448
+  ],
+  "input_hashes": {
+    "dataset": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "outer_split_source": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "historical_runner": "b58292e4cbfecbe50c1234a5352b5ceed505dbe053d95e67f084166afedaba5f",
+    "historical_predictions": "359a5b4f039903c130e9688d5bf6e5459ab81d2f946bf769002c0078a578a3fd",
+    "historical_manifest": "e30b3684edee27253bbdc94cdb7dde26d3d2d2b2193034837eefb230b64d6943",
+    "extension_runner": "2309b44d155a2310cd485699b385e7a6afc5b1c31e20b3e17e8aad7193b6a229",
+    "protocol": "83be85b72ee0fa33857b4c74c9408f2b021074ab9f1370bfeba91e9efa3fde04"
+  },
+  "trace": {
+    "repeat": 1,
+    "fold": 4,
+    "outer_test": [
+      2,
+      3,
+      12,
+      13,
+      21,
+      23,
+      27,
+      31,
+      32,
+      35,
+      42,
+      46,
+      54,
+      57,
+      61,
+      62,
+      66,
+      70,
+      78,
+      82,
+      96,
+      102,
+      103,
+      107,
+      119,
+      124,
+      131,
+      135,
+      136,
+      137,
+      139,
+      143,
+      144,
+      146,
+      158,
+      160,
+      163,
+      169,
+      171,
+      172,
+      180,
+      182,
+      186,
+      191,
+      192,
+      197,
+      204,
+      224,
+      226,
+      229,
+      240,
+      246,
+      252,
+      261,
+      262,
+      265,
+      266,
+      286,
+      295,
+      296
+    ],
+    "component": 3,
+    "inner_seed": 862454,
+    "development_pos": [
+      2,
+      5,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      20,
+      22,
+      23,
+      24,
+      26,
+      27,
+      29,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      40,
+      42,
+      43,
+      46,
+      47,
+      48,
+      51,
+      53,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      63,
+      64,
+      65,
+      66,
+      68,
+      69,
+      70,
+      72,
+      76,
+      77,
+      79,
+      80,
+      81,
+      83,
+      85,
+      88,
+      89,
+      90,
+      91,
+      92,
+      95,
+      96,
+      97,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      113,
+      114,
+      116,
+      120,
+      121,
+      122,
+      124,
+      125,
+      126,
+      127,
+      128,
+      130,
+      131,
+      132,
+      133,
+      135,
+      136,
+      138,
+      142,
+      144,
+      145,
+      147,
+      148,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      160,
+      162,
+      166,
+      168,
+      169,
+      171,
+      175,
+      179,
+      180,
+      181,
+      182,
+      183,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194,
+      195,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      206,
+      210,
+      211,
+      212,
+      214,
+      215,
+      216,
+      217,
+      219,
+      223,
+      225,
+      226,
+      228,
+      229,
+      230,
+      232,
+      233,
+      234,
+      235,
+      236,
+      239,
+      240,
+      241,
+      242
+    ],
+    "calibration_pos": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      11,
+      17,
+      19,
+      21,
+      25,
+      28,
+      30,
+      32,
+      39,
+      41,
+      44,
+      45,
+      49,
+      50,
+      52,
+      54,
+      61,
+      62,
+      67,
+      71,
+      73,
+      74,
+      75,
+      78,
+      82,
+      84,
+      86,
+      87,
+      93,
+      94,
+      98,
+      111,
+      112,
+      115,
+      117,
+      118,
+      119,
+      123,
+      129,
+      134,
+      137,
+      139,
+      140,
+      141,
+      143,
+      146,
+      149,
+      159,
+      161,
+      163,
+      164,
+      165,
+      167,
+      170,
+      172,
+      173,
+      174,
+      176,
+      177,
+      178,
+      184,
+      196,
+      205,
+      207,
+      208,
+      209,
+      213,
+      218,
+      220,
+      221,
+      222,
+      224,
+      227,
+      231,
+      237,
+      238
+    ],
+    "development_rows": [
+      4,
+      7,
+      9,
+      10,
+      11,
+      14,
+      16,
+      17,
+      18,
+      19,
+      20,
+      24,
+      26,
+      29,
+      30,
+      33,
+      36,
+      37,
+      39,
+      41,
+      44,
+      45,
+      47,
+      48,
+      49,
+      50,
+      52,
+      55,
+      56,
+      60,
+      63,
+      64,
+      68,
+      71,
+      73,
+      74,
+      75,
+      76,
+      77,
+      79,
+      83,
+      84,
+      85,
+      86,
+      88,
+      89,
+      90,
+      92,
+      97,
+      98,
+      100,
+      101,
+      104,
+      106,
+      109,
+      112,
+      113,
+      114,
+      115,
+      116,
+      120,
+      121,
+      122,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      132,
+      133,
+      134,
+      138,
+      140,
+      141,
+      147,
+      148,
+      150,
+      154,
+      155,
+      156,
+      159,
+      161,
+      162,
+      164,
+      165,
+      167,
+      168,
+      170,
+      173,
+      175,
+      176,
+      178,
+      184,
+      187,
+      188,
+      190,
+      193,
+      195,
+      196,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      205,
+      207,
+      209,
+      213,
+      215,
+      216,
+      218,
+      222,
+      228,
+      230,
+      231,
+      232,
+      233,
+      235,
+      236,
+      237,
+      238,
+      239,
+      241,
+      242,
+      243,
+      244,
+      245,
+      247,
+      249,
+      250,
+      251,
+      253,
+      254,
+      255,
+      256,
+      257,
+      259,
+      267,
+      268,
+      269,
+      271,
+      272,
+      273,
+      274,
+      276,
+      280,
+      282,
+      283,
+      285,
+      287,
+      288,
+      290,
+      291,
+      292,
+      293,
+      294,
+      299,
+      300,
+      301,
+      302
+    ],
+    "calibration_rows": [
+      0,
+      1,
+      5,
+      6,
+      8,
+      15,
+      22,
+      25,
+      28,
+      34,
+      38,
+      40,
+      43,
+      51,
+      53,
+      58,
+      59,
+      65,
+      67,
+      69,
+      72,
+      80,
+      81,
+      87,
+      91,
+      93,
+      94,
+      95,
+      99,
+      105,
+      108,
+      110,
+      111,
+      117,
+      118,
+      123,
+      142,
+      145,
+      149,
+      151,
+      152,
+      153,
+      157,
+      166,
+      174,
+      177,
+      179,
+      181,
+      183,
+      185,
+      189,
+      194,
+      206,
+      208,
+      210,
+      211,
+      212,
+      214,
+      217,
+      219,
+      220,
+      221,
+      223,
+      225,
+      227,
+      234,
+      248,
+      258,
+      260,
+      263,
+      264,
+      270,
+      275,
+      277,
+      278,
+      279,
+      281,
+      284,
+      289,
+      297,
+      298
+    ],
+    "inner_cv": [
+      {
+        "fold": 1,
+        "fit_rows": [
+          4,
+          7,
+          10,
+          14,
+          16,
+          17,
+          18,
+          19,
+          20,
+          26,
+          30,
+          33,
+          37,
+          39,
+          41,
+          44,
+          47,
+          48,
+          49,
+          50,
+          52,
+          56,
+          60,
+          63,
+          64,
+          68,
+          71,
+          73,
+          74,
+          77,
+          83,
+          86,
+          88,
+          89,
+          90,
+          92,
+          97,
+          101,
+          104,
+          106,
+          109,
+          112,
+          113,
+          114,
+          115,
+          116,
+          120,
+          121,
+          125,
+          126,
+          127,
+          129,
+          130,
+          132,
+          134,
+          140,
+          141,
+          154,
+          155,
+          161,
+          162,
+          165,
+          167,
+          168,
+          170,
+          173,
+          175,
+          176,
+          178,
+          184,
+          187,
+          190,
+          195,
+          196,
+          199,
+          200,
+          201,
+          202,
+          203,
+          207,
+          209,
+          213,
+          222,
+          231,
+          237,
+          238,
+          242,
+          245,
+          249,
+          250,
+          253,
+          255,
+          257,
+          267,
+          268,
+          269,
+          271,
+          272,
+          273,
+          274,
+          276,
+          283,
+          285,
+          291,
+          294,
+          299,
+          300,
+          302
+        ],
+        "valid_rows": [
+          9,
+          11,
+          24,
+          29,
+          36,
+          45,
+          55,
+          75,
+          76,
+          79,
+          84,
+          85,
+          98,
+          100,
+          122,
+          128,
+          133,
+          138,
+          147,
+          148,
+          150,
+          156,
+          159,
+          164,
+          188,
+          193,
+          198,
+          205,
+          215,
+          216,
+          218,
+          228,
+          230,
+          232,
+          233,
+          235,
+          236,
+          239,
+          241,
+          243,
+          244,
+          247,
+          251,
+          254,
+          256,
+          259,
+          280,
+          282,
+          287,
+          288,
+          290,
+          292,
+          293,
+          301
+        ]
+      },
+      {
+        "fold": 2,
+        "fit_rows": [
+          7,
+          9,
+          11,
+          17,
+          18,
+          20,
+          24,
+          29,
+          36,
+          37,
+          39,
+          44,
+          45,
+          47,
+          48,
+          50,
+          52,
+          55,
+          56,
+          60,
+          71,
+          74,
+          75,
+          76,
+          77,
+          79,
+          84,
+          85,
+          89,
+          90,
+          98,
+          100,
+          104,
+          106,
+          109,
+          112,
+          113,
+          120,
+          121,
+          122,
+          125,
+          128,
+          129,
+          130,
+          132,
+          133,
+          138,
+          141,
+          147,
+          148,
+          150,
+          154,
+          156,
+          159,
+          164,
+          165,
+          167,
+          173,
+          176,
+          184,
+          187,
+          188,
+          193,
+          195,
+          198,
+          201,
+          202,
+          203,
+          205,
+          209,
+          213,
+          215,
+          216,
+          218,
+          228,
+          230,
+          231,
+          232,
+          233,
+          235,
+          236,
+          237,
+          238,
+          239,
+          241,
+          243,
+          244,
+          247,
+          249,
+          251,
+          254,
+          255,
+          256,
+          259,
+          268,
+          272,
+          276,
+          280,
+          282,
+          285,
+          287,
+          288,
+          290,
+          291,
+          292,
+          293,
+          294,
+          301
+        ],
+        "valid_rows": [
+          4,
+          10,
+          14,
+          16,
+          19,
+          26,
+          30,
+          33,
+          41,
+          49,
+          63,
+          64,
+          68,
+          73,
+          83,
+          86,
+          88,
+          92,
+          97,
+          101,
+          114,
+          115,
+          116,
+          126,
+          127,
+          134,
+          140,
+          155,
+          161,
+          162,
+          168,
+          170,
+          175,
+          178,
+          190,
+          196,
+          199,
+          200,
+          207,
+          222,
+          242,
+          245,
+          250,
+          253,
+          257,
+          267,
+          269,
+          271,
+          273,
+          274,
+          283,
+          299,
+          300,
+          302
+        ]
+      },
+      {
+        "fold": 3,
+        "fit_rows": [
+          4,
+          9,
+          10,
+          11,
+          14,
+          16,
+          19,
+          24,
+          26,
+          29,
+          30,
+          33,
+          36,
+          41,
+          45,
+          49,
+          55,
+          63,
+          64,
+          68,
+          73,
+          75,
+          76,
+          79,
+          83,
+          84,
+          85,
+          86,
+          88,
+          92,
+          97,
+          98,
+          100,
+          101,
+          114,
+          115,
+          116,
+          122,
+          126,
+          127,
+          128,
+          133,
+          134,
+          138,
+          140,
+          147,
+          148,
+          150,
+          155,
+          156,
+          159,
+          161,
+          162,
+          164,
+          168,
+          170,
+          175,
+          178,
+          188,
+          190,
+          193,
+          196,
+          198,
+          199,
+          200,
+          205,
+          207,
+          215,
+          216,
+          218,
+          222,
+          228,
+          230,
+          232,
+          233,
+          235,
+          236,
+          239,
+          241,
+          242,
+          243,
+          244,
+          245,
+          247,
+          250,
+          251,
+          253,
+          254,
+          256,
+          257,
+          259,
+          267,
+          269,
+          271,
+          273,
+          274,
+          280,
+          282,
+          283,
+          287,
+          288,
+          290,
+          292,
+          293,
+          299,
+          300,
+          301,
+          302
+        ],
+        "valid_rows": [
+          7,
+          17,
+          18,
+          20,
+          37,
+          39,
+          44,
+          47,
+          48,
+          50,
+          52,
+          56,
+          60,
+          71,
+          74,
+          77,
+          89,
+          90,
+          104,
+          106,
+          109,
+          112,
+          113,
+          120,
+          121,
+          125,
+          129,
+          130,
+          132,
+          141,
+          154,
+          165,
+          167,
+          173,
+          176,
+          184,
+          187,
+          195,
+          201,
+          202,
+          203,
+          209,
+          213,
+          231,
+          237,
+          238,
+          249,
+          255,
+          268,
+          272,
+          276,
+          285,
+          291,
+          294
+        ]
+      }
+    ]
+  },
+  "completed_utc": "2026-11-14T07:52:28.821367+00:00",
+  "wall_seconds": 24.367058000003453,
+  "warnings": []
+}

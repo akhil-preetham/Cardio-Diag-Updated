@@ -1,0 +1,6 @@
+experiment_id,design,status,artifact_path,calibration,decision
+V1,strict five-feature primary,historical,results/primary_research_v1,sigmoid_inner_cv,preserved comparator
+V2,strict five-feature corrected splits,historical; calibration defect,results/primary_research_v2,nested_sigmoid,preserved comparator
+V3,strict five-feature fully nested calibration,preferred baseline,results/primary_research_v3,fully_nested_sigmoid,accepted with limitations
+V4,strict five-feature compact performance optimization,negative optimization result,results/primary_research_v4_performance,fully_nested_sigmoid,does not replace V3
+EXP-GROUP,"six prespecified feature groups, logistic sensitivity",exploratory,results/comprehensive_research_phase/feature_expansion,fully_nested_sigmoid,not clinically eligible without timing/unit confirmation

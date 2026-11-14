@@ -1,0 +1,34 @@
+{
+  "protocol_version": "phase4_uci_multicentre_v1",
+  "seed": 4107,
+  "dataset": "official UCI Heart Disease four-centre processed files",
+  "n_records": 920,
+  "target": "num > 0",
+  "strict_features": [
+    "age",
+    "sex",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg"
+  ],
+  "exploratory_features": [
+    "age",
+    "sex",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak"
+  ],
+  "design": "four-fold leave-one-centre-out internal-external cross-validation",
+  "primary_model": "logistic",
+  "secondary_models": [
+    "random_forest",
+    "hist_gradient_boosting"
+  ],
+  "outer_test_isolation": true,
+  "v3_external_validation_claim": false
+}

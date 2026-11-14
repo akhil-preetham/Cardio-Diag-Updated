@@ -1,0 +1,53 @@
+{
+  "dataset": "mendeley",
+  "dataset_path": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\MendeleyCardiovascular_Disease_Dataset.csv",
+  "dataset_sha256": "9376367dde41e79e432d6402ea5d9e44223fc318ff54ed09966d721923947d1e",
+  "target": "target",
+  "track": "compatibility_adapted",
+  "method": "osec",
+  "n_train": 928,
+  "n_test": 232,
+  "runtime_seconds": 3.480262279510498,
+  "warnings": [
+    "'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None."
+  ],
+  "search_results": [
+    {
+      "model": "tree",
+      "best_params": {
+        "criterion": "entropy",
+        "max_depth": 5,
+        "max_features": null,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2,
+        "splitter": "best"
+      },
+      "best_score": 0.9612089508863703
+    },
+    {
+      "model": "logistic",
+      "best_params": {
+        "C": 1.623776739188721,
+        "penalty": "l2",
+        "solver": "liblinear"
+      },
+      "best_score": 0.9622725951758211
+    },
+    {
+      "model": "bayes",
+      "best_params": {
+        "var_smoothing": 0.1873817422860384
+      },
+      "best_score": 0.9439465271723335
+    },
+    {
+      "model": "gradient",
+      "best_params": {
+        "learning_rate": 0.1,
+        "n_estimators": 125
+      },
+      "best_score": 0.9816739319965126
+    }
+  ],
+  "preprocessing": "author source order: encoding/scaling, SMOTE, split"
+}

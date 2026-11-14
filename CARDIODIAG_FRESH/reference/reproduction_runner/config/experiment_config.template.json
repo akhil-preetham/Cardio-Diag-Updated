@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "stage": "static planning template; execution disabled",
+  "track": "author_faithful",
+  "run_id": "<approved-run-id>",
+  "source_notebook": "<absolute path to dedicated working copy>",
+  "source_sha256": "<record before execution>",
+  "dataset": {
+    "name": "five_states",
+    "path": "<absolute path to heart5.csv>",
+    "sha256": "<record before execution>",
+    "target": "HeartDisease"
+  },
+  "environment": {
+    "python": "<record>",
+    "packages": "<record exact versions>",
+    "environment_path": "<record>"
+  },
+  "execution": {
+    "enabled": false,
+    "approved_notebook_allowlist": [],
+    "timeout_seconds": 3600,
+    "n_jobs": 1,
+    "working_directory": "<dedicated run directory>",
+    "output_directory": "<dedicated results directory>"
+  },
+  "capture": [
+    "stdout",
+    "stderr",
+    "warnings",
+    "traceback",
+    "cell_status",
+    "runtime",
+    "metrics",
+    "predictions"
+  ],
+  "safety": {
+    "overwrite_source": false,
+    "install_packages": false,
+    "modify_original_repository": false,
+    "start_kernel_without_explicit_approval": false
+  }
+}

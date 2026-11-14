@@ -1,0 +1,54 @@
+{
+  "model_fits": 0,
+  "source_zas_workbook_sha256": "90fefd4ecdb6263b3f2a260bb2b5d3b9fa92ba35d626dd56ad8c6db5fbbad163",
+  "source_angio_features_sha256": "978f2415ab52f11724e1ef00bb63597b8497487afd84b97f7112fc7975a33295",
+  "source_angio_labels_sha256": "5bba3f4ba8bed0df0d2f412d5e2ca6deacca0eff20d531a599fe1b8f4d897425",
+  "zas_sheets": {
+    "Sheet 1 - Table 1": {
+      "rows": 303,
+      "columns": 56
+    },
+    "Sheet1": {
+      "rows": 0,
+      "columns": 100
+    }
+  },
+  "zas_primary_matches_validated_dataframe": true,
+  "zas_predictor_columns_excluding_Cath": 55,
+  "zas_full_record_duplicates": 0,
+  "zas_predictor_duplicates": 0,
+  "angio_feature_rows": 377,
+  "angio_label_rows": 413,
+  "angio_matched_rows": 377,
+  "angio_case_id_duplicates_features": 0,
+  "angio_case_id_duplicates_labels": 0,
+  "angio_label_only_case_ids": 36,
+  "angio_vessel_label_missing_cells": 0,
+  "angio_vessel_allowed_tokens": [
+    "1-25",
+    "100",
+    "26-50",
+    "51-75",
+    "76-90",
+    "91-99",
+    "NL"
+  ],
+  "angio_embedded_vessel_labels_match_label_workbook": true,
+  "angio_gt50_matched_positive": 298,
+  "angio_gt50_matched_negative": 79,
+  "angio_negative_26_50_boundary_ambiguous": 10,
+  "angio_features_duplicates_without_ID": 0,
+  "angio_core_missingness": {
+    "Age": 6,
+    "Sex": 0,
+    "DM": 0,
+    "HTN": 0,
+    "Current Smoker": 46
+  },
+  "zas_core_fingerprint_collisions_with_angio": 93,
+  "zas_all16_name_mapped_fingerprint_collisions_with_angio": 0,
+  "name_mapping_is_not_clinical_unit_or_timing_equivalence": true,
+  "fingerprint_noncollision_does_not_prove_patient_independence": true,
+  "limited_core_collisions_could_occur_by_chance": true,
+  "new_official_workbook_byte_matches_existing_raw": true
+}

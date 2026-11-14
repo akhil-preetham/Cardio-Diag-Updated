@@ -1,0 +1,130 @@
+{
+  "report_pages": 8,
+  "latex_compiled": true,
+  "files": [
+    {
+      "path": "build_report.py",
+      "sha256": "21214bbf6a3e285b81caa2d355895b05d8268b334139c8f811a4c18e04d9e5c8"
+    },
+    {
+      "path": "CARDIODIAG_RESEARCH_REPORT.log",
+      "sha256": "bf958cc4d7f56e81c13f7ef433f286e3fb3fb4dc17dec87268ee502fcf19a6a2"
+    },
+    {
+      "path": "CARDIODIAG_RESEARCH_REPORT.md",
+      "sha256": "213f1d3ecf8150d4bcfd676eec520428c628845ebb4f33e631a44aae64cd1893"
+    },
+    {
+      "path": "CARDIODIAG_RESEARCH_REPORT.pdf",
+      "sha256": "061445cb15eec55660e2ba26cec9ad798c32c73eb3f7bffe8cd0c51c89296b1e"
+    },
+    {
+      "path": "CARDIODIAG_RESEARCH_REPORT.tex",
+      "sha256": "60008b456c1370d2399497e36912603262838dc55341b8e085d94677e6e81ffb"
+    },
+    {
+      "path": "COMPILATION_OUTPUT.txt",
+      "sha256": "9635f7f0b6e5f37fdc6f3aeb8fd492511bbd699d7a79be8b2e4a01a20b1539ef"
+    },
+    {
+      "path": "example_input.csv",
+      "sha256": "d94ee38573d7f52a848e78213e5e3cd67a1669a6928c2812c82bed278a3bebe5"
+    },
+    {
+      "path": "figures\\calibration.pdf",
+      "sha256": "14943c87fc267a376baef6213fe96bce0e6bc8f4eb1aef0b2dc404009a3125bf"
+    },
+    {
+      "path": "figures\\calibration.png",
+      "sha256": "446696e739cbcb70ec02915275ca5b1d1de328f2dd6d88c94015a83324abed0d"
+    },
+    {
+      "path": "figures\\missingness.pdf",
+      "sha256": "20903b3b894447259036cdf97c526ec6135d683bf8bff7528910a202d9ef3af5"
+    },
+    {
+      "path": "figures\\missingness.png",
+      "sha256": "6ed8fecea28368e85bac7ad8a7f238d92d4c19f005fc35b34ba004c5ea56fb53"
+    },
+    {
+      "path": "figures\\source_auc.pdf",
+      "sha256": "bcd4fa6ab6753ad82c3f8baa284f88139f94acc9b12c1fdfd3bef660f8c20b37"
+    },
+    {
+      "path": "figures\\source_auc.png",
+      "sha256": "cf67f16d1ad8d51c1fc4f261905953d515ead499e5cafc813f82cd458bcda81d"
+    },
+    {
+      "path": "figures\\workflow.pdf",
+      "sha256": "64e310015181c9607d6249fed48fc7f1d2aac7a624f6c41e75254236163d3dda"
+    },
+    {
+      "path": "figures\\workflow.png",
+      "sha256": "46433a68f5e5df7a67f23003666f3115501a18e4656750fb182aa6d653f3f70c"
+    },
+    {
+      "path": "PDF_EXTRACTED_TEXT.txt",
+      "sha256": "e1c3a772dfafd066a0afdba9175317f288e4fe71c45faf9b9d1a2db5c77a171f"
+    },
+    {
+      "path": "qa_report.py",
+      "sha256": "ccdc158868a9021a2d4441e76d209a6f0e1e1513dd776cf584268865c22bf66f"
+    },
+    {
+      "path": "rendered_pages\\contact_sheet.png",
+      "sha256": "3686a982a3a387c6d0245c45fb5e8c72846f2b86053265e9bc22681db17071d7"
+    },
+    {
+      "path": "rendered_pages\\page_01.png",
+      "sha256": "a11a4c2bd3c216d7388945fa9e6d2fe580194a28103a71b632b2f9e904b94749"
+    },
+    {
+      "path": "rendered_pages\\page_02.png",
+      "sha256": "f66fe5f8cf388f696260b63cae16dfbb9ef4e8c340d423cc801835629b576298"
+    },
+    {
+      "path": "rendered_pages\\page_03.png",
+      "sha256": "36bf7ec6c8389fff8884a637aa9163f74caa1c5b56336a174ebdaa52f0f0bf11"
+    },
+    {
+      "path": "rendered_pages\\page_04.png",
+      "sha256": "a41462b47f3f964efa77c5f51f199393a71d06e0cae61be828d0fd77ecede4fe"
+    },
+    {
+      "path": "rendered_pages\\page_05.png",
+      "sha256": "5eec085877c0cea927dd64f029a771967c4e25a6427dfe8faf4c2eb666b8e9e3"
+    },
+    {
+      "path": "rendered_pages\\page_06.png",
+      "sha256": "9944cb8bb123a63beb62a6fb5150aa4243561c9949c4e4daaf42abfee03cf1b2"
+    },
+    {
+      "path": "rendered_pages\\page_07.png",
+      "sha256": "35d361b5ee78d53203073da5f9c1b94badf7e361c0aacc0e51d40e0ad8afc5cb"
+    },
+    {
+      "path": "rendered_pages\\page_08.png",
+      "sha256": "91aecca014cb86335c4732c399be26da134a5af2b453cb82fd3391ebd718accc"
+    },
+    {
+      "path": "REPORT_INPUTS.json",
+      "sha256": "af2e0ccb738889c90be00c4c7d3e5fb37a88fb44b190efb6e1d2e85c6711a86d"
+    },
+    {
+      "path": "REPORT_NUMERIC_TRACEABILITY.csv",
+      "sha256": "524de9189ab117de20f147ca86ed42f4626a1a1148993fc037d98e25e785c4cc"
+    },
+    {
+      "path": "REPORT_README.md",
+      "sha256": "2910680e8c4b2fc1c0869110a571cb3e4e5563bb69b57ba7d7ba73e9837d7ac9"
+    },
+    {
+      "path": "REPORT_RENDER_QA.json",
+      "sha256": "4f66738f19390396b0bcc027d41f5c1c37a9d4bd1c976af87738950b6c620660"
+    },
+    {
+      "path": "REPORT_TEMPLATE.md",
+      "sha256": "af8d800ca6907c1c404a64c5682e48e00136b1d797367216bcbcfde2b72ab2d5"
+    }
+  ]
+}

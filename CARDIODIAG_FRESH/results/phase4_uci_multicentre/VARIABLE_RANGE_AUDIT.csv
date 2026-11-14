@@ -1,0 +1,15 @@
+variable,dtype,non_missing,missing,min,max,unique
+age,float64,920,0,28.0,77.0,50
+sex,float64,920,0,0.0,1.0,2
+cp,float64,920,0,1.0,4.0,4
+trestbps,float64,861,59,0.0,200.0,61
+chol,float64,890,30,0.0,603.0,217
+fbs,float64,830,90,0.0,1.0,2
+restecg,float64,918,2,0.0,2.0,3
+thalach,float64,865,55,60.0,202.0,119
+exang,float64,865,55,0.0,1.0,2
+oldpeak,float64,858,62,-2.6,6.2,53
+slope,float64,611,309,1.0,3.0,3
+ca,float64,309,611,0.0,3.0,4
+thal,float64,434,486,3.0,7.0,3
+num,int64,920,0,0.0,4.0,5

@@ -1,0 +1,33 @@
+stage,held_out_centre,method,best_params,inner_best_roc_auc,n_inner_groups,prediction_mae_vs_saved,prediction_correlation_vs_saved,outer_auc
+stage1_basic_risk,Cleveland,stratified,"{""model__C"": 0.1, ""model__class_weight"": null}",0.7380889519917802,4,0.0,1.0,0.7098613791893315
+stage1_basic_risk,Cleveland,centre_aware,"{""model__C"": 0.1, ""model__class_weight"": null}",0.6008242717930328,3,0.0,1.0,0.7098613791893315
+stage1_basic_risk,Hungary,stratified,"{""model__C"": 10.0, ""model__class_weight"": ""balanced""}",0.7045382618619004,4,0.0,1.0,0.68137796065837
+stage1_basic_risk,Hungary,centre_aware,"{""model__C"": 0.1, ""model__class_weight"": null}",0.6103474802677297,3,0.13545046308669298,0.9952960976239509,0.6814783219590524
+stage1_basic_risk,Switzerland,stratified,"{""model__C"": 1.0, ""model__class_weight"": null}",0.7343375153841915,4,0.0,1.0,0.5010869565217392
+stage1_basic_risk,Switzerland,centre_aware,"{""model__C"": 10.0, ""model__class_weight"": null}",0.6690022060607673,3,0.0016601910599878683,0.999978461554664,0.5010869565217392
+stage1_basic_risk,VA Long Beach,stratified,"{""model__C"": 10.0, ""model__class_weight"": null}",0.7223456790123457,4,0.0,0.9999999999999998,0.6131727858928807
+stage1_basic_risk,VA Long Beach,centre_aware,"{""model__C"": 0.1, ""model__class_weight"": null}",0.6307211511997445,3,0.019596418857365933,0.9988538525555956,0.6131727858928806
+stage2_symptoms,Cleveland,stratified,"{""model__C"": 0.1, ""model__class_weight"": null}",0.8397481432557803,4,0.0,1.0,0.8305404456922267
+stage2_symptoms,Cleveland,centre_aware,"{""model__C"": 1.0, ""model__class_weight"": null}",0.7640675503544166,3,0.03592300897696809,0.9951664516470361,0.8278206702930339
+stage2_symptoms,Hungary,stratified,"{""model__C"": 1.0, ""model__class_weight"": null}",0.8170935731966054,4,0.0,1.0,0.837991770373344
+stage2_symptoms,Hungary,centre_aware,"{""model__C"": 0.1, ""model__class_weight"": null}",0.7560189240590091,3,0.05370055908376488,0.9964319526334132,0.8376906864712966
+stage2_symptoms,Switzerland,stratified,"{""model__C"": 1.0, ""model__class_weight"": null}",0.8364731141481495,4,0.0,1.0,0.7478260869565218
+stage2_symptoms,Switzerland,centre_aware,"{""model__C"": 1.0, ""model__class_weight"": null}",0.791942273933953,3,0.0,1.0,0.7478260869565218
+stage2_symptoms,VA Long Beach,stratified,"{""model__C"": 0.1, ""model__class_weight"": null}",0.8566512345679013,4,0.0,1.0,0.710225029609159
+stage2_symptoms,VA Long Beach,centre_aware,"{""model__C"": 0.1, ""model__class_weight"": ""balanced""}",0.8133288025590372,3,0.0,1.0,0.710225029609159
+stage3_resting_measurements,Cleveland,stratified,"{""model__C"": 10.0, ""model__class_weight"": null}",0.8490739085686511,4,0.0,1.0,0.8039568345323741
+stage3_resting_measurements,Cleveland,centre_aware,"{""model__C"": 10.0, ""model__class_weight"": null}",0.7452720684952947,3,0.0,1.0,0.8039568345323741
+stage3_resting_measurements,Hungary,stratified,"{""model__C"": 1.0, ""model__class_weight"": ""balanced""}",0.8323607673267326,4,0.0,1.0,0.8187976716178242
+stage3_resting_measurements,Hungary,centre_aware,"{""model__C"": 0.1, ""model__class_weight"": null}",0.709706127853322,3,0.11322353007273805,0.9851950945557608,0.8093637093536732
+stage3_resting_measurements,Switzerland,stratified,"{""model__C"": 0.1, ""model__class_weight"": ""balanced""}",0.8355218940261373,4,0.0,1.0,0.7467391304347826
+stage3_resting_measurements,Switzerland,centre_aware,"{""model__C"": 0.1, ""model__class_weight"": null}",0.7767162591257692,3,0.0038283680285339998,0.9999914231712227,0.7467391304347826
+stage3_resting_measurements,VA Long Beach,stratified,"{""model__C"": 0.1, ""model__class_weight"": null}",0.8665740740740742,4,0.0,1.0,0.6790367153572838
+stage3_resting_measurements,VA Long Beach,centre_aware,"{""model__C"": 1.0, ""model__class_weight"": null}",0.8026761141204893,3,0.034201896380206875,0.9947409249507247,0.6831161994999341
+stage4_exercise_test,Cleveland,stratified,"{""model__C"": 0.1, ""model__class_weight"": null}",0.884705832034768,4,0.0,0.9999999999999998,0.8637918933146166
+stage4_exercise_test,Cleveland,centre_aware,"{""model__C"": 0.1, ""model__class_weight"": null}",0.7741758196522784,3,0.0,0.9999999999999998,0.8637918933146166
+stage4_exercise_test,Hungary,stratified,"{""model__C"": 0.1, ""model__class_weight"": ""balanced""}",0.857354297929793,4,0.0,1.0,0.8746989160979527
+stage4_exercise_test,Hungary,centre_aware,"{""model__C"": 0.1, ""model__class_weight"": null}",0.7254657212035857,3,0.08960295792650712,0.9919583192825369,0.8748996386993175
+stage4_exercise_test,Switzerland,stratified,"{""model__C"": 10.0, ""model__class_weight"": ""balanced""}",0.8777347887850009,4,0.0,0.9999999999999999,0.7260869565217392
+stage4_exercise_test,Switzerland,centre_aware,"{""model__C"": 0.1, ""model__class_weight"": null}",0.8191773248564482,3,0.03923875833529253,0.9688046100144966,0.7260869565217392
+stage4_exercise_test,VA Long Beach,stratified,"{""model__C"": 0.1, ""model__class_weight"": null}",0.8995061728395062,4,0.0,1.0,0.7294380839584156
+stage4_exercise_test,VA Long Beach,centre_aware,"{""model__C"": 0.1, ""model__class_weight"": null}",0.7899778229576969,3,0.0,1.0,0.7294380839584156

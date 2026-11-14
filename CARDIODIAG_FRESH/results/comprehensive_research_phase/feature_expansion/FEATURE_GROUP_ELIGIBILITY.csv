@@ -1,0 +1,7 @@
+feature_group,features,status,reason
+strict_primary,Age|Sex|Current Smoker|EX-Smoker|FH,strict_primary,Prespecified V3 primary feature set.
+demographic_anthropometric_exploratory,Age|Sex|Current Smoker|EX-Smoker|FH|Weight|Length|BMI,exploratory_only,Units or prediction-time timing require confirmation before clinical eligibility.
+medical_history_exploratory,Age|Sex|Current Smoker|EX-Smoker|FH|DM|HTN|Obesity|CRF|CVA|Airway disease|Thyroid Disease|DLP,exploratory_only,Units or prediction-time timing require confirmation before clinical eligibility.
+symptoms_exploratory,Age|Sex|Current Smoker|EX-Smoker|FH|Typical Chest Pain|Dyspnea|Atypical|Nonanginal,exploratory_only,Units or prediction-time timing require confirmation before clinical eligibility.
+ecg_exploratory,Age|Sex|Current Smoker|EX-Smoker|FH|Q Wave|St Elevation|St Depression|Tinversion|LVH|Poor R Progression|BBB,exploratory_only,Units or prediction-time timing require confirmation before clinical eligibility.
+laboratory_exploratory,Age|Sex|Current Smoker|EX-Smoker|FH|FBS|CR|TG|LDL|HDL|BUN|ESR|HB|K|Na|WBC|Lymph|Neut|PLT,exploratory_only,Units or prediction-time timing require confirmation before clinical eligibility.

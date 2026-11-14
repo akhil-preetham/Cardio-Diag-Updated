@@ -1,0 +1,18 @@
+feature,dtype,missing,timing
+centre,str,0,post-diagnostic/target-derived; exclude
+source_row,int64,0,post-diagnostic/target-derived; exclude
+age,float64,0,presentation/resting
+sex,float64,0,presentation/resting
+cp,float64,0,presentation/resting
+trestbps,float64,59,presentation/resting
+chol,float64,30,presentation/resting
+fbs,float64,90,presentation/resting
+restecg,float64,2,presentation/resting
+thalach,float64,55,exercise-test or timing unresolved
+exang,float64,55,exercise-test or timing unresolved
+oldpeak,float64,62,exercise-test or timing unresolved
+slope,float64,309,exercise-test or timing unresolved
+ca,float64,611,post-diagnostic/target-derived; exclude
+thal,float64,486,post-diagnostic/target-derived; exclude
+num,int64,0,post-diagnostic/target-derived; exclude
+target_binary,int64,0,post-diagnostic/target-derived; exclude

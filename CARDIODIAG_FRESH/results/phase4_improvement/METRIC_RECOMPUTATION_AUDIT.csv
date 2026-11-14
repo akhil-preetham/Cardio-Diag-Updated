@@ -1,0 +1,145 @@
+feature_set,model,held_out_centre,metric,recomputed,stored,absolute_difference,pass
+exploratory,hist_gradient_boosting,Cleveland,roc_auc,0.8161958238287419,0.8161958238287419,0.0,True
+exploratory,hist_gradient_boosting,Cleveland,pr_auc,0.8132139931800042,0.8132139931800042,0.0,True
+exploratory,hist_gradient_boosting,Cleveland,brier,0.17374043718580204,0.17374043718580204,0.0,True
+exploratory,hist_gradient_boosting,Cleveland,log_loss,0.5281824412849672,0.5281824412849672,0.0,True
+exploratory,hist_gradient_boosting,Cleveland,calibration_intercept,-0.049443276881596596,-0.049443276881596596,0.0,True
+exploratory,hist_gradient_boosting,Cleveland,calibration_slope,0.795828933599778,0.795828933599778,0.0,True
+exploratory,hist_gradient_boosting,Hungary,roc_auc,0.8588167402649539,0.8588167402649539,0.0,True
+exploratory,hist_gradient_boosting,Hungary,pr_auc,0.7860968617646884,0.7860968617646884,0.0,True
+exploratory,hist_gradient_boosting,Hungary,brier,0.1554828470203415,0.1554828470203415,0.0,True
+exploratory,hist_gradient_boosting,Hungary,log_loss,0.48504531758916025,0.48504531758916025,0.0,True
+exploratory,hist_gradient_boosting,Hungary,calibration_intercept,-0.7710131302550853,-0.7710131302550853,0.0,True
+exploratory,hist_gradient_boosting,Hungary,calibration_slope,0.9531994946388368,0.9531994946388368,0.0,True
+exploratory,hist_gradient_boosting,Switzerland,roc_auc,0.6369565217391304,0.6369565217391304,0.0,True
+exploratory,hist_gradient_boosting,Switzerland,pr_auc,0.9626361092641286,0.9626361092641286,0.0,True
+exploratory,hist_gradient_boosting,Switzerland,brier,0.21037177179556155,0.21037177179556155,0.0,True
+exploratory,hist_gradient_boosting,Switzerland,log_loss,0.6090354881264034,0.6090354881264034,0.0,True
+exploratory,hist_gradient_boosting,Switzerland,calibration_intercept,2.5404032510114325,2.5404032510114325,0.0,True
+exploratory,hist_gradient_boosting,Switzerland,calibration_slope,0.35702321382872493,0.35702321382872493,0.0,True
+exploratory,hist_gradient_boosting,VA Long Beach,roc_auc,0.6589024871693644,0.6589024871693644,0.0,True
+exploratory,hist_gradient_boosting,VA Long Beach,pr_auc,0.8431651144935615,0.8431651144935615,0.0,True
+exploratory,hist_gradient_boosting,VA Long Beach,brier,0.22144628719251425,0.22144628719251425,0.0,True
+exploratory,hist_gradient_boosting,VA Long Beach,log_loss,0.6662940625801343,0.6662940625801343,0.0,True
+exploratory,hist_gradient_boosting,VA Long Beach,calibration_intercept,0.8016696969213766,0.8016696969213766,0.0,True
+exploratory,hist_gradient_boosting,VA Long Beach,calibration_slope,0.3272479292313336,0.3272479292313336,0.0,True
+exploratory,logistic,Cleveland,roc_auc,0.8254518336550271,0.8254518336550271,0.0,True
+exploratory,logistic,Cleveland,pr_auc,0.8171459138516176,0.8171459138516176,0.0,True
+exploratory,logistic,Cleveland,brier,0.16990010277982032,0.16990010277982032,0.0,True
+exploratory,logistic,Cleveland,log_loss,0.5146457799199684,0.5146457799199684,0.0,True
+exploratory,logistic,Cleveland,calibration_intercept,0.11651255859750886,0.11651255859750886,0.0,True
+exploratory,logistic,Cleveland,calibration_slope,0.8660237918633058,0.8660237918633058,0.0,True
+exploratory,logistic,Hungary,roc_auc,0.8265756724207145,0.8265756724207145,0.0,True
+exploratory,logistic,Hungary,pr_auc,0.7976936574053701,0.7976936574053701,0.0,True
+exploratory,logistic,Hungary,brier,0.168717580899311,0.168717580899311,0.0,True
+exploratory,logistic,Hungary,log_loss,0.5097199604953415,0.5097199604953415,0.0,True
+exploratory,logistic,Hungary,calibration_intercept,-0.670911653407115,-0.670911653407115,0.0,True
+exploratory,logistic,Hungary,calibration_slope,1.2063059013992226,1.2063059013992226,0.0,True
+exploratory,logistic,Switzerland,roc_auc,0.6467391304347826,0.6467391304347826,0.0,True
+exploratory,logistic,Switzerland,pr_auc,0.9623114144319688,0.9623114144319688,0.0,True
+exploratory,logistic,Switzerland,brier,0.2816379273109381,0.2816379273109381,0.0,True
+exploratory,logistic,Switzerland,log_loss,0.7951783991991975,0.7951783991991975,0.0,True
+exploratory,logistic,Switzerland,calibration_intercept,2.7694810641753462,2.7694810641753462,0.0,True
+exploratory,logistic,Switzerland,calibration_slope,0.437676192527969,0.437676192527969,0.0,True
+exploratory,logistic,VA Long Beach,roc_auc,0.6936439005132254,0.6936439005132254,0.0,True
+exploratory,logistic,VA Long Beach,pr_auc,0.8722823889507907,0.8722823889507907,0.0,True
+exploratory,logistic,VA Long Beach,brier,0.18022224865711572,0.18022224865711572,0.0,True
+exploratory,logistic,VA Long Beach,log_loss,0.5419344579451834,0.5419344579451834,0.0,True
+exploratory,logistic,VA Long Beach,calibration_intercept,0.28483155034947116,0.28483155034947116,0.0,True
+exploratory,logistic,VA Long Beach,calibration_slope,0.6105237819287577,0.6105237819287577,0.0,True
+exploratory,random_forest,Cleveland,roc_auc,0.8234339357782067,0.8234339357782067,0.0,True
+exploratory,random_forest,Cleveland,pr_auc,0.8112334959804082,0.8112334959804082,0.0,True
+exploratory,random_forest,Cleveland,brier,0.17391320548030037,0.17391320548030037,0.0,True
+exploratory,random_forest,Cleveland,log_loss,0.5248398161308281,0.5248398161308281,0.0,True
+exploratory,random_forest,Cleveland,calibration_intercept,-0.18720428107951895,-0.18720428107951895,0.0,True
+exploratory,random_forest,Cleveland,calibration_slope,1.3778366126018737,1.3778366126018737,0.0,True
+exploratory,random_forest,Hungary,roc_auc,0.8438378161380972,0.8438378161380972,0.0,True
+exploratory,random_forest,Hungary,pr_auc,0.7789535996052623,0.7789535996052623,0.0,True
+exploratory,random_forest,Hungary,brier,0.15289891216851392,0.15289891216851392,0.0,True
+exploratory,random_forest,Hungary,log_loss,0.4799275979524819,0.4799275979524819,0.0,True
+exploratory,random_forest,Hungary,calibration_intercept,-0.2897012186008097,-0.2897012186008097,0.0,True
+exploratory,random_forest,Hungary,calibration_slope,1.4400589283809684,1.4400589283809684,0.0,True
+exploratory,random_forest,Switzerland,roc_auc,0.6652173913043479,0.6652173913043479,0.0,True
+exploratory,random_forest,Switzerland,pr_auc,0.9661022532519294,0.9661022532519294,0.0,True
+exploratory,random_forest,Switzerland,brier,0.20705249473078385,0.20705249473078385,0.0,True
+exploratory,random_forest,Switzerland,log_loss,0.5962761005478191,0.5962761005478191,0.0,True
+exploratory,random_forest,Switzerland,calibration_intercept,2.542954626446451,2.542954626446451,0.0,True
+exploratory,random_forest,Switzerland,calibration_slope,0.6487517079781207,0.6487517079781207,0.0,True
+exploratory,random_forest,VA Long Beach,roc_auc,0.6946308724832214,0.6946308724832214,0.0,True
+exploratory,random_forest,VA Long Beach,pr_auc,0.8456876950733564,0.8456876950733564,0.0,True
+exploratory,random_forest,VA Long Beach,brier,0.1869057922222706,0.1869057922222706,0.0,True
+exploratory,random_forest,VA Long Beach,log_loss,0.5548359925557528,0.5548359925557528,0.0,True
+exploratory,random_forest,VA Long Beach,calibration_intercept,0.6458782123721665,0.6458782123721665,0.0,True
+exploratory,random_forest,VA Long Beach,calibration_slope,0.6615235361241503,0.6615235361241503,0.0,True
+strict,hist_gradient_boosting,Cleveland,roc_auc,0.6714116511668713,0.6714116511668713,0.0,True
+strict,hist_gradient_boosting,Cleveland,pr_auc,0.5752645296851667,0.5752645296851667,0.0,True
+strict,hist_gradient_boosting,Cleveland,brier,0.23462066017273658,0.23462066017273658,0.0,True
+strict,hist_gradient_boosting,Cleveland,log_loss,0.6674842035271684,0.6674842035271684,0.0,True
+strict,hist_gradient_boosting,Cleveland,calibration_intercept,-0.16956170662438833,-0.16956170662438833,0.0,True
+strict,hist_gradient_boosting,Cleveland,calibration_slope,0.5624460693924065,0.5624460693924065,0.0,True
+strict,hist_gradient_boosting,Hungary,roc_auc,0.6936471296668004,0.6936471296668004,0.0,True
+strict,hist_gradient_boosting,Hungary,pr_auc,0.5131136861296461,0.5131136861296461,0.0,True
+strict,hist_gradient_boosting,Hungary,brier,0.2220523751008629,0.2220523751008629,0.0,True
+strict,hist_gradient_boosting,Hungary,log_loss,0.6365171532452047,0.6365171532452047,0.0,True
+strict,hist_gradient_boosting,Hungary,calibration_intercept,-0.5024874799238165,-0.5024874799238165,0.0,True
+strict,hist_gradient_boosting,Hungary,calibration_slope,0.635132757873052,0.635132757873052,0.0,True
+strict,hist_gradient_boosting,Switzerland,roc_auc,0.39565217391304347,0.39565217391304347,0.0,True
+strict,hist_gradient_boosting,Switzerland,pr_auc,0.9227305554405315,0.9227305554405315,0.0,True
+strict,hist_gradient_boosting,Switzerland,brier,0.16448309262141958,0.16448309262141958,0.0,True
+strict,hist_gradient_boosting,Switzerland,log_loss,0.5182323928984094,0.5182323928984094,0.0,True
+strict,hist_gradient_boosting,Switzerland,calibration_intercept,3.3516278453197543,3.3516278453197543,0.0,True
+strict,hist_gradient_boosting,Switzerland,calibration_slope,-0.7474500211192486,-0.7474500211192486,0.0,True
+strict,hist_gradient_boosting,VA Long Beach,roc_auc,0.5831030398736676,0.5831030398736676,0.0,True
+strict,hist_gradient_boosting,VA Long Beach,pr_auc,0.7622299882215133,0.7622299882215133,0.0,True
+strict,hist_gradient_boosting,VA Long Beach,brier,0.20930353686817843,0.20930353686817843,0.0,True
+strict,hist_gradient_boosting,VA Long Beach,log_loss,0.6584650172736798,0.6584650172736798,0.0,True
+strict,hist_gradient_boosting,VA Long Beach,calibration_intercept,0.8992297984594296,0.8992297984594296,0.0,True
+strict,hist_gradient_boosting,VA Long Beach,calibration_slope,0.1758358054782798,0.1758358054782798,0.0,True
+strict,logistic,Cleveland,roc_auc,0.6770924723635726,0.6770924723635726,0.0,True
+strict,logistic,Cleveland,pr_auc,0.5869596345101473,0.5869596345101473,0.0,True
+strict,logistic,Cleveland,brier,0.22725892171445064,0.22725892171445064,0.0,True
+strict,logistic,Cleveland,log_loss,0.6458667010508652,0.6458667010508652,0.0,True
+strict,logistic,Cleveland,calibration_intercept,-0.12634865272589035,-0.12634865272589035,0.0,True
+strict,logistic,Cleveland,calibration_slope,0.7249265404097921,0.7249265404097921,0.0,True
+strict,logistic,Hungary,roc_auc,0.6299177037334405,0.6299177037334405,0.0,True
+strict,logistic,Hungary,pr_auc,0.46950625725457906,0.46950625725457906,0.0,True
+strict,logistic,Hungary,brier,0.23855523307284085,0.23855523307284085,0.0,True
+strict,logistic,Hungary,log_loss,0.6721648845497553,0.6721648845497553,0.0,True
+strict,logistic,Hungary,calibration_intercept,-0.5272195978546295,-0.5272195978546295,0.0,True
+strict,logistic,Hungary,calibration_slope,0.5491559599835691,0.5491559599835691,0.0,True
+strict,logistic,Switzerland,roc_auc,0.45760869565217394,0.45760869565217394,0.0,True
+strict,logistic,Switzerland,pr_auc,0.9164588616232257,0.9164588616232257,0.0,True
+strict,logistic,Switzerland,brier,0.23196788660472564,0.23196788660472564,0.0,True
+strict,logistic,Switzerland,log_loss,0.6716073631186429,0.6716073631186429,0.0,True
+strict,logistic,Switzerland,calibration_intercept,2.769766562785077,2.769766562785077,0.0,True
+strict,logistic,Switzerland,calibration_slope,-0.29995848441838285,-0.29995848441838285,0.0,True
+strict,logistic,VA Long Beach,roc_auc,0.5736281089617055,0.5736281089617055,0.0,True
+strict,logistic,VA Long Beach,pr_auc,0.7796288641891721,0.7796288641891721,0.0,True
+strict,logistic,VA Long Beach,brier,0.199395654501062,0.199395654501062,0.0,True
+strict,logistic,VA Long Beach,log_loss,0.5901249448006604,0.5901249448006604,0.0,True
+strict,logistic,VA Long Beach,calibration_intercept,0.790752972374432,0.790752972374432,0.0,True
+strict,logistic,VA Long Beach,calibration_slope,0.3342140525377916,0.3342140525377916,0.0,True
+strict,random_forest,Cleveland,roc_auc,0.7248640112300404,0.7248640112300404,0.0,True
+strict,random_forest,Cleveland,pr_auc,0.6332120007470687,0.6332120007470687,0.0,True
+strict,random_forest,Cleveland,brier,0.21191065486225502,0.21191065486225502,0.0,True
+strict,random_forest,Cleveland,log_loss,0.6119210843713361,0.6119210843713361,0.0,True
+strict,random_forest,Cleveland,calibration_intercept,-0.15920124870695498,-0.15920124870695498,0.0,True
+strict,random_forest,Cleveland,calibration_slope,1.137289436442355,1.137289436442355,0.0,True
+strict,random_forest,Hungary,roc_auc,0.6631372942593337,0.6631372942593337,0.0,True
+strict,random_forest,Hungary,pr_auc,0.4912362438253104,0.4912362438253104,0.0,True
+strict,random_forest,Hungary,brier,0.21398802201931125,0.21398802201931125,0.0,True
+strict,random_forest,Hungary,log_loss,0.6144844448109748,0.6144844448109748,0.0,True
+strict,random_forest,Hungary,calibration_intercept,-0.11113245846015883,-0.11113245846015883,0.0,True
+strict,random_forest,Hungary,calibration_slope,0.8809190544795417,0.8809190544795417,0.0,True
+strict,random_forest,Switzerland,roc_auc,0.4815217391304348,0.4815217391304348,0.0,True
+strict,random_forest,Switzerland,pr_auc,0.9377197452787129,0.9377197452787129,0.0,True
+strict,random_forest,Switzerland,brier,0.1858403371995144,0.1858403371995144,0.0,True
+strict,random_forest,Switzerland,log_loss,0.5641309629775281,0.5641309629775281,0.0,True
+strict,random_forest,Switzerland,calibration_intercept,2.910450381630078,2.910450381630078,0.0,True
+strict,random_forest,Switzerland,calibration_slope,-0.4779800836881405,-0.4779800836881405,0.0,True
+strict,random_forest,VA Long Beach,roc_auc,0.5879063034609817,0.5879063034609817,0.0,True
+strict,random_forest,VA Long Beach,pr_auc,0.7809094646334671,0.7809094646334671,0.0,True
+strict,random_forest,VA Long Beach,brier,0.20548852301918955,0.20548852301918955,0.0,True
+strict,random_forest,VA Long Beach,log_loss,0.6100980962588285,0.6100980962588285,0.0,True
+strict,random_forest,VA Long Beach,calibration_intercept,0.8823816873555552,0.8823816873555552,0.0,True
+strict,random_forest,VA Long Beach,calibration_slope,0.2719827900731941,0.2719827900731941,0.0,True

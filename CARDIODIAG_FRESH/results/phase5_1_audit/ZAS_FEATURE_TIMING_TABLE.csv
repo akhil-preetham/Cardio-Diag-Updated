@@ -1,0 +1,39 @@
+feature,source_definition,clinical_group,classification,timing_evidence
+Age,Patient age in years,Demographic measurement,A,"Age is necessarily known before the Cath outcome, although the exact recording time is not documented."
+Sex,Recorded sex,Demographic measurement,A,Sex is available before the Cath outcome; source coding is imperfectly documented.
+DM,Diabetes mellitus indicator,Medical history,B,"Clinically prediagnostic, but the source does not establish whether history was recorded before the diagnostic work-up."
+HTN,Hypertension indicator,Medical history,B,"Clinically prediagnostic, but acquisition timing is undocumented."
+Current Smoker,Current smoking indicator,Risk history,B,"Clinically prediagnostic, but interview timing and ascertainment are undocumented."
+EX-Smoker,Former smoking indicator,Risk history,B,"Clinically prediagnostic, but interview timing and ascertainment are undocumented."
+FH,Family-history indicator,Risk history,B,"Clinically prediagnostic, but source timing and definition are undocumented."
+Typical Chest Pain,Typical chest-pain indicator,Symptom,B,Could be available at presentation; the source does not document whether it was recorded before diagnostic decisions.
+Dyspnea,Dyspnea indicator,Symptom,B,Could be available at presentation; timing is undocumented.
+Function Class,Functional class,Symptom/functional status,B,May reflect established heart-failure severity or clinical assessment; prediction-time availability is uncertain.
+Atypical,Atypical chest-pain indicator,Symptom,B,Could be available at presentation; timing is undocumented.
+Nonanginal,Nonanginal symptom indicator,Symptom,B,Could be available at presentation; timing is undocumented.
+Exertional CP,Exertional chest-pain indicator,Symptom,B,Could be available at presentation; timing is undocumented.
+LowTH Ang,Low-threshold angina indicator,Symptom,B,Angina classification may be part of diagnostic assessment; timing is undocumented.
+BP,Blood pressure,Vital sign,B,"Likely obtainable at presentation, but the source does not document measurement timing or whether treatment occurred first."
+PR,Pulse rate,Vital sign,B,"Likely obtainable at presentation, but measurement timing is undocumented."
+Edema,Peripheral edema indicator,Examination,B,Could be a presentation examination finding; timing and ascertainment are undocumented.
+Q Wave,Q-wave ECG finding,Resting ECG,B,"Potentially available before angiographic confirmation, but ECG timing relative to diagnostic work-up is undocumented."
+St Elevation,ST-elevation ECG finding,Resting ECG,B,"Potentially available before angiographic confirmation, but timing is undocumented."
+St Depression,ST-depression ECG finding,Resting ECG,B,"Potentially available before angiographic confirmation, but timing is undocumented."
+Tinversion,T-wave inversion ECG finding,Resting ECG,B,"Potentially available before angiographic confirmation, but timing is undocumented."
+LVH,Left-ventricular-hypertrophy ECG finding,Resting ECG,B,"Potentially available before angiographic confirmation, but timing is undocumented."
+Poor R Progression,Poor R-wave progression ECG finding,Resting ECG,B,"Potentially available before angiographic confirmation, but timing is undocumented."
+BBB,Bundle-branch-block ECG finding,Resting ECG,B,"Potentially available before angiographic confirmation, but timing is undocumented."
+FBS,Fasting blood sugar,Laboratory,B,"May be baseline laboratory information, but fasting status, units and timing are undocumented."
+CR,Creatinine,Laboratory,B,"May be baseline laboratory information, but timing and clinical context are undocumented."
+TG,Triglycerides,Laboratory,B,"May be baseline laboratory information, but fasting status and timing are undocumented."
+LDL,Low-density lipoprotein,Laboratory,B,"May be baseline laboratory information, but timing and calculation/measurement details are undocumented."
+HDL,High-density lipoprotein,Laboratory,B,"May be baseline laboratory information, but fasting status and timing are undocumented."
+BUN,Blood urea nitrogen,Laboratory,B,"May be baseline laboratory information, but timing and clinical context are undocumented."
+ESR,Erythrocyte sedimentation rate,Laboratory,B,"May be available before angiography, but ordering and timing are undocumented."
+HB,Hemoglobin,Laboratory,B,"May be baseline laboratory information, but timing is undocumented."
+K,Potassium,Laboratory,B,"May be baseline laboratory information, but timing and treatment context are undocumented."
+Na,Sodium,Laboratory,B,"May be baseline laboratory information, but timing and treatment context are undocumented."
+WBC,White blood cell count,Laboratory,B,"May be baseline laboratory information, but timing is undocumented."
+Lymph,Lymphocyte measure,Laboratory,B,"May be baseline laboratory information, but timing and unit definition are undocumented."
+Neut,Neutrophil measure,Laboratory,B,"May be baseline laboratory information, but timing and unit definition are undocumented."
+PLT,Platelet count,Laboratory,B,"May be baseline laboratory information, but timing is undocumented."

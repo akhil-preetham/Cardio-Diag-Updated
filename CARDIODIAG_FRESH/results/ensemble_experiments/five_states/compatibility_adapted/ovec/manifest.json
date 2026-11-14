@@ -1,0 +1,56 @@
+{
+  "dataset": "five_states",
+  "dataset_path": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\reference\\author_release\\heart5.csv",
+  "dataset_sha256": "e4068802a044e8a1e3ae9fa81deae7025711bf4f13e3057f96e4f1cf3b0180c2",
+  "target": "HeartDisease",
+  "track": "compatibility_adapted",
+  "method": "ovec",
+  "n_train": 812,
+  "n_test": 204,
+  "runtime_seconds": 2.3621482849121094,
+  "warnings": [
+    "The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`"
+  ],
+  "search_results": [
+    {
+      "model": "logistic",
+      "best_params": {
+        "solver": "liblinear",
+        "C": 0.012742749857031334
+      },
+      "best_score": 0.8595394985988033,
+      "track": "compatibility_adapted"
+    },
+    {
+      "model": "rf",
+      "best_params": {
+        "n_estimators": 2,
+        "max_depth": 5,
+        "criterion": "entropy"
+      },
+      "best_score": 0.837324850412785,
+      "track": "compatibility_adapted"
+    },
+    {
+      "model": "knn",
+      "best_params": {
+        "weights": "distance",
+        "n_neighbors": 9,
+        "metric": "manhattan"
+      },
+      "best_score": 0.8559266833295462,
+      "track": "compatibility_adapted"
+    },
+    {
+      "model": "svm",
+      "best_params": {
+        "kernel": "linear",
+        "gamma": "scale",
+        "C": 0.1
+      },
+      "best_score": 0.8620237824736803,
+      "track": "compatibility_adapted"
+    }
+  ],
+  "preprocessing": "author source order: encoding/scaling, SMOTE, split"
+}

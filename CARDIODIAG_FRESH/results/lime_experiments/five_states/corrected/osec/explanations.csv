@@ -1,0 +1,41 @@
+observation,test_index,feature,weight,probability
+positive_representative,187,categorical__ST_Slope_Up <= 0.00,0.2549396849742302,0.8935236250891267
+positive_representative,187,0.00 < categorical__ChestPainType_ASY <= 1.00,0.17994476263325263,0.8935236250891267
+positive_representative,187,numeric__Cholesterol <= -0.21,0.11184154360634081,0.8935236250891267
+positive_representative,187,numeric__FastingBS > -0.54,0.11020281031562729,0.8935236250891267
+positive_representative,187,0.00 < categorical__ST_Slope_Flat <= 1.00,0.08320723392325848,0.8935236250891267
+positive_representative,187,numeric__Oldpeak <= -0.82,-0.07698283765704546,0.8935236250891267
+positive_representative,187,categorical__Sex_F <= 0.00,0.06786906589923028,0.8935236250891267
+positive_representative,187,categorical__ExerciseAngina_Y <= 0.00,-0.057806850735012696,0.8935236250891267
+positive_representative,187,0.00 < categorical__ExerciseAngina_N <= 1.00,-0.0550724979643179,0.8935236250891267
+positive_representative,187,categorical__ChestPainType_ATA <= 0.00,0.04948438144511025,0.8935236250891267
+positive_representative,187,-0.70 < numeric__MaxHR <= 0.07,0.031627641684608215,0.8935236250891267
+positive_representative,187,numeric__Age <= -0.62,-0.02658891793783834,0.8935236250891267
+positive_representative,187,categorical__ST_Slope_Down <= 0.00,-0.02638085657272042,0.8935236250891267
+positive_representative,187,categorical__ChestPainType_NAP <= 0.00,0.023995756334226667,0.8935236250891267
+positive_representative,187,categorical__RestingECG_LVH <= 0.00,-0.01989157487873853,0.8935236250891267
+positive_representative,187,numeric__RestingBP <= -0.70,-0.01760705418115297,0.8935236250891267
+positive_representative,187,0.00 < categorical__RestingECG_Normal <= 1.00,-0.014143018126106075,0.8935236250891267
+positive_representative,187,categorical__RestingECG_ST <= 0.00,-0.013456250611751822,0.8935236250891267
+positive_representative,187,categorical__ChestPainType_TA <= 0.00,0.009458381660800461,0.8935236250891267
+positive_representative,187,categorical__Sex_M <= 1.00,0.0,0.8935236250891267
+negative_representative,51,0.00 < categorical__ST_Slope_Up <= 1.00,-0.2591993848271499,0.13520851820466848
+negative_representative,51,categorical__ChestPainType_ASY <= 0.00,-0.17266152548815528,0.13520851820466848
+negative_representative,51,numeric__FastingBS <= -0.54,-0.11709862356207373,0.13520851820466848
+negative_representative,51,numeric__Oldpeak <= -0.82,-0.08074272190384005,0.13520851820466848
+negative_representative,51,categorical__ST_Slope_Flat <= 0.00,-0.08004660842019422,0.13520851820466848
+negative_representative,51,categorical__Sex_F > 0.00,-0.07422440894887394,0.13520851820466848
+negative_representative,51,categorical__ExerciseAngina_Y <= 0.00,-0.06761987752785376,0.13520851820466848
+negative_representative,51,0.00 < categorical__ExerciseAngina_N <= 1.00,-0.05409194429246648,0.13520851820466848
+negative_representative,51,0.07 < numeric__MaxHR <= 0.76,-0.04273813450201962,0.13520851820466848
+negative_representative,51,categorical__ChestPainType_ATA > 0.00,-0.03984059101228901,0.13520851820466848
+negative_representative,51,categorical__RestingECG_LVH <= 0.00,-0.02391777265539846,0.13520851820466848
+negative_representative,51,0.20 < numeric__Cholesterol <= 0.62,-0.022741106653000144,0.13520851820466848
+negative_representative,51,categorical__ChestPainType_NAP <= 0.00,0.01954212750990396,0.13520851820466848
+negative_representative,51,0.00 < categorical__RestingECG_Normal <= 1.00,-0.01235066520701565,0.13520851820466848
+negative_representative,51,categorical__RestingECG_ST <= 0.00,-0.011830968983657804,0.13520851820466848
+negative_representative,51,categorical__ST_Slope_Down <= 0.00,-0.011449454813394216,0.13520851820466848
+negative_representative,51,-0.62 < numeric__Age <= 0.12,-0.008632556590600164,0.13520851820466848
+negative_representative,51,-0.15 < numeric__RestingBP <= 0.45,-0.007064795177500793,0.13520851820466848
+negative_representative,51,categorical__ChestPainType_TA <= 0.00,-0.005522931794312908,0.13520851820466848
+negative_representative,51,categorical__Sex_M <= 1.00,0.0,0.13520851820466848

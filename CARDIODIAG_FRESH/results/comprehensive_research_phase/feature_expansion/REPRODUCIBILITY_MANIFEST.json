@@ -1,0 +1,25 @@
+{
+  "generated_utc": "2026-11-13T12:53:52.678131+00:00",
+  "script_sha256": "2b5c075c63f45627904588341d4122e4b9413019ed36c5b63910760700aaf76c",
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "sklearn": "1.9.1",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1"
+  },
+  "inputs": {
+    "data\\interim\\validated\\z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "results\\methodology_corrections_v2\\reproducibility\\split_manifest_v2.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458"
+  },
+  "outputs": {
+    "results\\comprehensive_research_phase\\feature_expansion\\CALIBRATION_RESULTS.csv": "4f9cb96dc94f6dfa5bc2c5c452395963fd2389827dcd6aa45ccd02099c70a7dc",
+    "results\\comprehensive_research_phase\\feature_expansion\\EXPERIMENT_CONFIGURATION.json": "47fa17a4626a8383e550376b435aa7715abcddf79c97ede252296b350deef7c9",
+    "results\\comprehensive_research_phase\\feature_expansion\\FEATURE_GROUP_COMPARISON.csv": "f5e58a5b1c33d3b156eae7daf2e5e534ebc508a9ccc582f473b25558ef4d8450",
+    "results\\comprehensive_research_phase\\feature_expansion\\FEATURE_GROUP_ELIGIBILITY.csv": "eb2e63af557f512f445d7756a8e519b3c94c766ecaa168c83e5c9ef030eefd92",
+    "results\\comprehensive_research_phase\\feature_expansion\\FEATURE_GROUP_SELECTION_RESULTS.csv": "de35b9fba8fde19f85d9c7bebed4e272b172b13f338bc43a85e4c1d1e43bd18a",
+    "results\\comprehensive_research_phase\\feature_expansion\\MODEL_PERFORMANCE_RESULTS.csv": "14f011a1c7469497c436286fe2770f8b1aaeb5be1acf31932c7a6322d1fb8712",
+    "results\\comprehensive_research_phase\\feature_expansion\\OUTER_FOLD_PREDICTIONS.csv": "dfa0df554c0d06746ec0716e1c7ca39b55539d18a707410a88912124fb00e85f"
+  },
+  "fit_count_estimate": 25500
+}

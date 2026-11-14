@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-11-14T07:49:00.793500+00:00",
+  "protocol_sha256": "61818ac6869acb2f3a0b5db50e6e187e24aa4d1cdeb69eb9ea87bd0ff05459a4",
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "sklearn": "1.9.1",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1"
+  },
+  "target_label_fits": 0,
+  "model_training_data": "source ZAS only",
+  "input_hashes": {
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\data\\interim\\validated\\z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\results\\methodology_corrections_v2\\reproducibility\\split_manifest_v2.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\research_publication_plan\\data_screening\\angiocad\\AngioCAD_Features.xlsx": "978f2415ab52f11724e1ef00bb63597b8497487afd84b97f7112fc7975a33295",
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\research_publication_plan\\data_screening\\angiocad\\AngioCAD_Labels.xlsx": "5bba3f4ba8bed0df0d2f412d5e2ca6deacca0eff20d531a599fe1b8f4d897425",
+    "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\research_publication_plan\\data_screening\\angiocad\\zenodo_record_15826856.json": "d04bc15229833f93e361fd22dc5add5c32131a1331d576c6bf24fb3514c7b53b"
+  },
+  "outputs": {
+    "BOOTSTRAP_DIAGNOSTICS.json": "4c8a971ba2c82892069543fdc60603854c7b8e6336d1f49a1dfaf87cee21f8f5",
+    "CASE_MIX_AND_MISSINGNESS.csv": "bfd533a83858691010b4c47ed2c3ff06e2975c1523ab6d7d6468556e48ee6d2e",
+    "CORE_FINGERPRINT_AUDIT.json": "ba904fea79120e66ab1deb6d52465b00b2a99456548526afdd20f1a92efba593",
+    "EXCLUSIONS.csv": "8365ecbe62f827b500ce56705e8e787790a32d189ab53a04e1331b4ac636d426",
+    "FROZEN_PROTOCOL.json": "61818ac6869acb2f3a0b5db50e6e187e24aa4d1cdeb69eb9ea87bd0ff05459a4",
+    "FROZEN_PROTOCOL.sha256": "077eb20fefcd746e79ae118c3d47fdc1860d7d502a5b88f2c1db7e68a62ee6dc",
+    "FROZEN_PROTOCOL_INITIAL_PREFIT.json": "69895828aaa90fc4412b449a5236fe159d3be6626e153d99c60bcaf145c68c36",
+    "FROZEN_PROTOCOL_INITIAL_PREFIT.sha256": "fb93e83523983bb1ba3b8654d4604f94384cfcd6ea744d678559ef02d96afa65",
+    "INTERPRETATION.md": "c46703ccb4d7cec54a923b9443565d5136802a91bd2b2f91cd1301212a08c6bb",
+    "PREDICTION_FREEZE.json": "dbea1f0d083b4c294099c18f2f4116c67d591dabe376817c497ddebfe6a90117",
+    "SOURCE_CALIBRATION_MEMBERSHIP.csv": "27b462ba437d21d9386c2c939fc2baa0eeb93d8b5bbc1916bbcbf16dd6fb8dae",
+    "SOURCE_FOLD_METRICS.csv": "4a70c154c913aa85da43654799c820688cf7d93292f80df8e5292f6616bbec7a",
+    "SOURCE_MCAR_MASKS.csv": "78047f2aeeb17eb385df3849692c68e3103867ccb62f1d84da70d0c6d4e6ffd9",
+    "SOURCE_MCAR_STRESS_PREDICTIONS.csv": "9fae5a326320f7dbabdba9a08d5748fedfb1cb399eb75312626877b63be11674",
+    "SOURCE_MCAR_STRESS_REPEAT_METRICS.csv": "00fe2b66d7a605b59c17e373c0763e9b78d08a81dd6ac5c7fd09963fe5effbca",
+    "SOURCE_MODELS.joblib": "8249555d95d065b8da78020fa2be963a40ba42cda7848046f702ee532a8285dd",
+    "SOURCE_OOF_PREDICTIONS.csv": "9aceb35e6b94acec740015b5c4120bd6b15b625c06b49d174a910fd6c4d39884",
+    "SOURCE_REPEAT_METRICS.csv": "c179b6e0bc4a1ad707b274280276c7c6dc6b13e16524aec973eef9bb5192b0be",
+    "SOURCE_SELECTIONS.csv": "0d579901b225fa5827026359d448d6046b8de6074cfa4aba77d4d26978be288b",
+    "TARGET_METRICS.csv": "200d3695e45ba2dadf5ca3a4bf60438d865a59839d337e10285546e63a10cd0f",
+    "TARGET_PREDICTIONS.csv": "543738d988235896ebbb907b0e5e61a6d59f4fd5fef5ee412ae638ebba291d39",
+    "TARGET_PROBABILITIES_FROZEN_BEFORE_SCORING.csv": "cc9dbf8073e269a59d28d1395f887c266abd8ebb29d1c8e646a7ceedcfc35713",
+    "TARGET_RECORD_BOOTSTRAP_INTERVALS.csv": "87b8487a75e5fe5f0d43829707b8b44a583e6835b75ecdddda5de94f5bb2220c"
+  }
+}

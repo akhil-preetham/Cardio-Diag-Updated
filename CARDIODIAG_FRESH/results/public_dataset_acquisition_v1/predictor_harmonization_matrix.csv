@@ -1,0 +1,12 @@
+concept,uci_four_centre,cleveland,angiocad,mendeley_stenosis,timing_and_leakage_rule,role
+Age,age,Age,Age,Age,safe if measured at presentation,required
+Sex,sex,Sex,Sex,Sex,coding harmonization required,required
+Current smoker,smoke/cigs/years,Current Smoker,Current Smoker,unknown,UCI source timing not explicit; AngioCAD clinical table timing not sufficient,required
+Former smoker,not in published 14-column UCI subset,not verified,not verified,unknown,cannot fabricate from absent fields,required
+Family history,famhist in full UCI schema but absent from processed 14-column files,not verified,not verified,unknown,cannot use unless patient-level field is present and timed,required
+Hypertension,"htn in full UCI schema, not processed 14-column",not verified,HTN,unknown,separate model feature; timing must be established,exploratory
+Diabetes,"dm in full UCI schema, not processed 14-column",not verified,DM,unknown,separate model feature; timing must be established,exploratory
+Chest pain,cp,cp,Diagnosis (not equivalent),not available,UCI presentation feature; AngioCAD diagnosis is post/clinical context,exploratory
+ECG,restecg/exang/oldpeak,available with missingness,not verified,not available,UCI timing is exercise-test context,exploratory
+Laboratory,trestbps/chol/fbs,available with missingness,available,unknown,measurement timing must be documented,exploratory
+Imaging/angiography,ca/thal and num,target-derived or post-diagnostic,artery labels/Gensini,image-only,exclude from prediagnostic predictors,excluded from frozen model

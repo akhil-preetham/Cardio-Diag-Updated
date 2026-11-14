@@ -1,0 +1,1036 @@
+{
+  "date_local": "2026-11-14",
+  "timezone": "Asia/Calcutta",
+  "status": "Computational research extension and eight-page report completed",
+  "tests_passed": 116,
+  "optional_historical_tests_skipped": 1,
+  "new_source_prediction_rows": 5454,
+  "corrected_calibration_component_searches": 45,
+  "target_cases": 377,
+  "report_pages": 8,
+  "latex_compiled": true,
+  "historical_outputs_preserved": true,
+  "publication_and_clinical_claims": "Not established; declarations and clinical evidence boundaries remain",
+  "files": [
+    {
+      "path": "paper\\research_extension_v1\\build_report.py",
+      "bytes": 21899,
+      "sha256": "21214bbf6a3e285b81caa2d355895b05d8268b334139c8f811a4c18e04d9e5c8"
+    },
+    {
+      "path": "paper\\research_extension_v1\\CARDIODIAG_RESEARCH_REPORT.log",
+      "bytes": 11124,
+      "sha256": "bf958cc4d7f56e81c13f7ef433f286e3fb3fb4dc17dec87268ee502fcf19a6a2"
+    },
+    {
+      "path": "paper\\research_extension_v1\\CARDIODIAG_RESEARCH_REPORT.md",
+      "bytes": 38265,
+      "sha256": "213f1d3ecf8150d4bcfd676eec520428c628845ebb4f33e631a44aae64cd1893"
+    },
+    {
+      "path": "paper\\research_extension_v1\\CARDIODIAG_RESEARCH_REPORT.pdf",
+      "bytes": 122314,
+      "sha256": "061445cb15eec55660e2ba26cec9ad798c32c73eb3f7bffe8cd0c51c89296b1e"
+    },
+    {
+      "path": "paper\\research_extension_v1\\CARDIODIAG_RESEARCH_REPORT.tex",
+      "bytes": 41014,
+      "sha256": "60008b456c1370d2399497e36912603262838dc55341b8e085d94677e6e81ffb"
+    },
+    {
+      "path": "paper\\research_extension_v1\\COMPILATION_OUTPUT.txt",
+      "bytes": 3315,
+      "sha256": "9635f7f0b6e5f37fdc6f3aeb8fd492511bbd699d7a79be8b2e4a01a20b1539ef"
+    },
+    {
+      "path": "paper\\research_extension_v1\\example_input.csv",
+      "bytes": 59,
+      "sha256": "d94ee38573d7f52a848e78213e5e3cd67a1669a6928c2812c82bed278a3bebe5"
+    },
+    {
+      "path": "paper\\research_extension_v1\\figures\\calibration.pdf",
+      "bytes": 20438,
+      "sha256": "14943c87fc267a376baef6213fe96bce0e6bc8f4eb1aef0b2dc404009a3125bf"
+    },
+    {
+      "path": "paper\\research_extension_v1\\figures\\calibration.png",
+      "bytes": 100805,
+      "sha256": "446696e739cbcb70ec02915275ca5b1d1de328f2dd6d88c94015a83324abed0d"
+    },
+    {
+      "path": "paper\\research_extension_v1\\figures\\missingness.pdf",
+      "bytes": 12641,
+      "sha256": "20903b3b894447259036cdf97c526ec6135d683bf8bff7528910a202d9ef3af5"
+    },
+    {
+      "path": "paper\\research_extension_v1\\figures\\missingness.png",
+      "bytes": 27884,
+      "sha256": "6ed8fecea28368e85bac7ad8a7f238d92d4c19f005fc35b34ba004c5ea56fb53"
+    },
+    {
+      "path": "paper\\research_extension_v1\\figures\\source_auc.pdf",
+      "bytes": 22404,
+      "sha256": "bcd4fa6ab6753ad82c3f8baa284f88139f94acc9b12c1fdfd3bef660f8c20b37"
+    },
+    {
+      "path": "paper\\research_extension_v1\\figures\\source_auc.png",
+      "bytes": 52183,
+      "sha256": "cf67f16d1ad8d51c1fc4f261905953d515ead499e5cafc813f82cd458bcda81d"
+    },
+    {
+      "path": "paper\\research_extension_v1\\figures\\workflow.pdf",
+      "bytes": 17866,
+      "sha256": "64e310015181c9607d6249fed48fc7f1d2aac7a624f6c41e75254236163d3dda"
+    },
+    {
+      "path": "paper\\research_extension_v1\\figures\\workflow.png",
+      "bytes": 51711,
+      "sha256": "46433a68f5e5df7a67f23003666f3115501a18e4656750fb182aa6d653f3f70c"
+    },
+    {
+      "path": "paper\\research_extension_v1\\PDF_EXTRACTED_TEXT.txt",
+      "bytes": 39729,
+      "sha256": "e1c3a772dfafd066a0afdba9175317f288e4fe71c45faf9b9d1a2db5c77a171f"
+    },
+    {
+      "path": "paper\\research_extension_v1\\qa_report.py",
+      "bytes": 2282,
+      "sha256": "ccdc158868a9021a2d4441e76d209a6f0e1e1513dd776cf584268865c22bf66f"
+    },
+    {
+      "path": "paper\\research_extension_v1\\rendered_pages\\contact_sheet.png",
+      "bytes": 1362515,
+      "sha256": "3686a982a3a387c6d0245c45fb5e8c72846f2b86053265e9bc22681db17071d7"
+    },
+    {
+      "path": "paper\\research_extension_v1\\rendered_pages\\page_01.png",
+      "bytes": 480327,
+      "sha256": "a11a4c2bd3c216d7388945fa9e6d2fe580194a28103a71b632b2f9e904b94749"
+    },
+    {
+      "path": "paper\\research_extension_v1\\rendered_pages\\page_02.png",
+      "bytes": 534638,
+      "sha256": "f66fe5f8cf388f696260b63cae16dfbb9ef4e8c340d423cc801835629b576298"
+    },
+    {
+      "path": "paper\\research_extension_v1\\rendered_pages\\page_03.png",
+      "bytes": 514415,
+      "sha256": "36bf7ec6c8389fff8884a637aa9163f74caa1c5b56336a174ebdaa52f0f0bf11"
+    },
+    {
+      "path": "paper\\research_extension_v1\\rendered_pages\\page_04.png",
+      "bytes": 430458,
+      "sha256": "a41462b47f3f964efa77c5f51f199393a71d06e0cae61be828d0fd77ecede4fe"
+    },
+    {
+      "path": "paper\\research_extension_v1\\rendered_pages\\page_05.png",
+      "bytes": 367683,
+      "sha256": "5eec085877c0cea927dd64f029a771967c4e25a6427dfe8faf4c2eb666b8e9e3"
+    },
+    {
+      "path": "paper\\research_extension_v1\\rendered_pages\\page_06.png",
+      "bytes": 377035,
+      "sha256": "9944cb8bb123a63beb62a6fb5150aa4243561c9949c4e4daaf42abfee03cf1b2"
+    },
+    {
+      "path": "paper\\research_extension_v1\\rendered_pages\\page_07.png",
+      "bytes": 482335,
+      "sha256": "35d361b5ee78d53203073da5f9c1b94badf7e361c0aacc0e51d40e0ad8afc5cb"
+    },
+    {
+      "path": "paper\\research_extension_v1\\rendered_pages\\page_08.png",
+      "bytes": 321242,
+      "sha256": "91aecca014cb86335c4732c399be26da134a5af2b453cb82fd3391ebd718accc"
+    },
+    {
+      "path": "paper\\research_extension_v1\\REPORT_INPUTS.json",
+      "bytes": 1458,
+      "sha256": "af2e0ccb738889c90be00c4c7d3e5fb37a88fb44b190efb6e1d2e85c6711a86d"
+    },
+    {
+      "path": "paper\\research_extension_v1\\REPORT_NUMERIC_TRACEABILITY.csv",
+      "bytes": 7604,
+      "sha256": "524de9189ab117de20f147ca86ed42f4626a1a1148993fc037d98e25e785c4cc"
+    },
+    {
+      "path": "paper\\research_extension_v1\\REPORT_README.md",
+      "bytes": 3048,
+      "sha256": "2910680e8c4b2fc1c0869110a571cb3e4e5563bb69b57ba7d7ba73e9837d7ac9"
+    },
+    {
+      "path": "paper\\research_extension_v1\\REPORT_RENDER_QA.json",
+      "bytes": 611,
+      "sha256": "4f66738f19390396b0bcc027d41f5c1c37a9d4bd1c976af87738950b6c620660"
+    },
+    {
+      "path": "paper\\research_extension_v1\\REPORT_TEMPLATE.md",
+      "bytes": 31047,
+      "sha256": "af8d800ca6907c1c404a64c5682e48e00136b1d797367216bcbcfde2b72ab2d5"
+    },
+    {
+      "path": "RESEARCH_EXTENSION_README.md",
+      "bytes": 5421,
+      "sha256": "a291f6e8bc8d1a2e2f5051e508667951291d2a7cda8946bb567eb5e939c62069"
+    },
+    {
+      "path": "results\\research_extension_v1\\ENVIRONMENT_SNAPSHOT.txt",
+      "bytes": 2439,
+      "sha256": "6396b7d9e51e4cc0cfa4f705105430f8c976177e250638316024baa072be6bf6"
+    },
+    {
+      "path": "results\\research_extension_v1\\ENVIRONMENT.json",
+      "bytes": 3698,
+      "sha256": "5868ac94cb64dc11abc6088f49a9261eb82fcb6f29a87b4fa41ac3b787892a00"
+    },
+    {
+      "path": "results\\research_extension_v1\\FINAL_COMPLETION.md",
+      "bytes": 3554,
+      "sha256": "1c35b92345b334a5f41d512f2bc87f40cad7f01cb1b362fbc7486d2e26d08637"
+    },
+    {
+      "path": "results\\research_extension_v1\\FINAL_QA_SUMMARY.json",
+      "bytes": 1147,
+      "sha256": "23006bd90817ca133dfa4ba94a8840159d9e51f10f7fba74ac5bc222b2f72c94"
+    },
+    {
+      "path": "results\\research_extension_v1\\final_test_run.txt",
+      "bytes": 194,
+      "sha256": "2c25a031666450038e50ede1ee57afe815bf7d1337902c2fabe4c361f0c131a5"
+    },
+    {
+      "path": "results\\research_extension_v1\\historical_test_run.txt",
+      "bytes": 194,
+      "sha256": "fe0e09fad9c1b01383e799e5e5ff9480115a7142213487ff7d77e5f81addeee0"
+    },
+    {
+      "path": "results\\research_extension_v1\\INDEPENDENT_REVIEW.md",
+      "bytes": 11824,
+      "sha256": "971448d3bcbb29279a0d837d316b96a58f3577e85fb95b6459ab5fafb8e8bc19"
+    },
+    {
+      "path": "results\\research_extension_v1\\POSTHOC_CONSTANT_REFERENCE.csv",
+      "bytes": 165,
+      "sha256": "29b7e88f248923a346c83b6ba8e98530bf2616a89623a7872547e08dbc34991c"
+    },
+    {
+      "path": "results\\research_extension_v1\\provenance\\independent_raw_checks.json",
+      "bytes": 1780,
+      "sha256": "b23361e096ed9fcdbf0ec6d6043b5c7c17ff61d7aaec69b305988cbf8e3973f4"
+    },
+    {
+      "path": "results\\research_extension_v1\\provenance\\independent_raw_checks.py",
+      "bytes": 5714,
+      "sha256": "77dd4eef76f4b2e9704b276a51d4031ad11330b497d10be512816400e59c60f9"
+    },
+    {
+      "path": "results\\research_extension_v1\\provenance\\official_zas_20261114.zip",
+      "bytes": 123772,
+      "sha256": "48210a6623fa6112423d9bc357f72fe3fca12ae77866e63e08632e15d95b724e"
+    },
+    {
+      "path": "results\\research_extension_v1\\provenance\\official_zas_archive_comparison.json",
+      "bytes": 468,
+      "sha256": "b8cc7930bb641663287b7e4f17aecacc55b63f5af822d4b79dc553aeb7bccc3f"
+    },
+    {
+      "path": "results\\research_extension_v1\\SYNTHETIC_SCORING_DEMONSTRATION.csv",
+      "bytes": 393,
+      "sha256": "1e10a49b20afec85acaab3d776c8fc15c1b805e27cd011ae790ebd4b1b3495d4"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport_summary_for_report.md",
+      "bytes": 8405,
+      "sha256": "463381505ac1c853563dcf67461d7a0af5d95fc2dc669450e94d54b8fe3c8703"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\BOOTSTRAP_DIAGNOSTICS.json",
+      "bytes": 2630,
+      "sha256": "4c8a971ba2c82892069543fdc60603854c7b8e6336d1f49a1dfaf87cee21f8f5"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\CASE_MIX_AND_MISSINGNESS.csv",
+      "bytes": 554,
+      "sha256": "bfd533a83858691010b4c47ed2c3ff06e2975c1523ab6d7d6468556e48ee6d2e"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\CORE_FINGERPRINT_AUDIT.json",
+      "bytes": 524,
+      "sha256": "ba904fea79120e66ab1deb6d52465b00b2a99456548526afdd20f1a92efba593"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\EXCLUSIONS.csv",
+      "bytes": 1438,
+      "sha256": "8365ecbe62f827b500ce56705e8e787790a32d189ab53a04e1331b4ac636d426"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\FROZEN_PROTOCOL_INITIAL_PREFIT.json",
+      "bytes": 4258,
+      "sha256": "69895828aaa90fc4412b449a5236fe159d3be6626e153d99c60bcaf145c68c36"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\FROZEN_PROTOCOL_INITIAL_PREFIT.sha256",
+      "bytes": 88,
+      "sha256": "fb93e83523983bb1ba3b8654d4604f94384cfcd6ea744d678559ef02d96afa65"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\FROZEN_PROTOCOL.json",
+      "bytes": 4743,
+      "sha256": "61818ac6869acb2f3a0b5db50e6e187e24aa4d1cdeb69eb9ea87bd0ff05459a4"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\FROZEN_PROTOCOL.sha256",
+      "bytes": 88,
+      "sha256": "077eb20fefcd746e79ae118c3d47fdc1860d7d502a5b88f2c1db7e68a62ee6dc"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\INTERPRETATION.md",
+      "bytes": 2817,
+      "sha256": "c46703ccb4d7cec54a923b9443565d5136802a91bd2b2f91cd1301212a08c6bb"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\PREDICTION_FREEZE.json",
+      "bytes": 385,
+      "sha256": "dbea1f0d083b4c294099c18f2f4116c67d591dabe376817c497ddebfe6a90117"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\SOURCE_CALIBRATION_MEMBERSHIP.csv",
+      "bytes": 613275,
+      "sha256": "27b462ba437d21d9386c2c939fc2baa0eeb93d8b5bbc1916bbcbf16dd6fb8dae"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\SOURCE_FOLD_METRICS.csv",
+      "bytes": 6387,
+      "sha256": "4a70c154c913aa85da43654799c820688cf7d93292f80df8e5292f6616bbec7a"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\SOURCE_MCAR_MASKS.csv",
+      "bytes": 152171,
+      "sha256": "78047f2aeeb17eb385df3849692c68e3103867ccb62f1d84da70d0c6d4e6ffd9"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\SOURCE_MCAR_STRESS_PREDICTIONS.csv",
+      "bytes": 123173,
+      "sha256": "9fae5a326320f7dbabdba9a08d5748fedfb1cb399eb75312626877b63be11674"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\SOURCE_MCAR_STRESS_REPEAT_METRICS.csv",
+      "bytes": 4396,
+      "sha256": "00fe2b66d7a605b59c17e373c0763e9b78d08a81dd6ac5c7fd09963fe5effbca"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\SOURCE_MODELS.joblib",
+      "bytes": 18800,
+      "sha256": "8249555d95d065b8da78020fa2be963a40ba42cda7848046f702ee532a8285dd"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\SOURCE_OOF_PREDICTIONS.csv",
+      "bytes": 96663,
+      "sha256": "9aceb35e6b94acec740015b5c4120bd6b15b625c06b49d174a910fd6c4d39884"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\SOURCE_REPEAT_METRICS.csv",
+      "bytes": 2340,
+      "sha256": "c179b6e0bc4a1ad707b274280276c7c6dc6b13e16524aec973eef9bb5192b0be"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\SOURCE_SELECTIONS.csv",
+      "bytes": 3217,
+      "sha256": "0d579901b225fa5827026359d448d6046b8de6074cfa4aba77d4d26978be288b"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\TARGET_METRICS.csv",
+      "bytes": 2419,
+      "sha256": "200d3695e45ba2dadf5ca3a4bf60438d865a59839d337e10285546e63a10cd0f"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\TARGET_PREDICTIONS.csv",
+      "bytes": 38125,
+      "sha256": "543738d988235896ebbb907b0e5e61a6d59f4fd5fef5ee412ae638ebba291d39"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\TARGET_PROBABILITIES_FROZEN_BEFORE_SCORING.csv",
+      "bytes": 16234,
+      "sha256": "cc9dbf8073e269a59d28d1395f887c266abd8ebb29d1c8e646a7ceedcfc35713"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\TARGET_RECORD_BOOTSTRAP_INTERVALS.csv",
+      "bytes": 5126,
+      "sha256": "87b8487a75e5fe5f0d43829707b8b44a583e6835b75ecdddda5de94f5bb2220c"
+    },
+    {
+      "path": "results\\research_extension_v1\\transport\\TRANSPORT_MANIFEST.json",
+      "bytes": 3890,
+      "sha256": "6075df4d9d3b4c4e1ad3396774d5f8b3f054f7e27e599d31e776471a86a654de"
+    },
+    {
+      "path": "results\\research_extension_v1\\verification_run.txt",
+      "bytes": 548,
+      "sha256": "154fb2bad20cb9da10d26e437c6721aba3738f5f12cf2a2e5f0a5c3eb50e032a"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\CANDIDATE_SCORES.csv",
+      "bytes": 192541,
+      "sha256": "5785eb463e88f32673c9d0668b487d99f5e4f8cf7c246884148ad6c68e0c0054"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f1_corrected_component1.json",
+      "bytes": 65258,
+      "sha256": "e297bf7b2ef590933fb3bfce14bc3fd192531841daef69b29ec0168aeac36c43"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f1_corrected_component2.json",
+      "bytes": 65383,
+      "sha256": "63c0b981abd69506f069b3bc8164b6e7eb4659de1d965b3877055ac1e3e724e5"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f1_corrected_component3.json",
+      "bytes": 65236,
+      "sha256": "c645fc47416fce452a47b8af285957a017e87e93c24c6bcf38a44b6589671e96"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f1_l2_full38_historical_calibration.json",
+      "bytes": 26000,
+      "sha256": "6266fe226ba6e70d690630b831121e748f9b6ee273582bfe98f25464817623bb"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f1_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25799,
+      "sha256": "d2bdc83e2d61c5042fe446090dfd34e6484556fa3b105e72c4cfd3f49d6fb197"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f1_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25710,
+      "sha256": "be93d3e3092ff48bb81e756088fccbc18b068f386800d949191c4e4f1fecd240"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f1_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25431,
+      "sha256": "21d8ff705bd523c6a6ffbd22028946add87a7287fd43a173ee9e87227c3fea0f"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f2_corrected_component1.json",
+      "bytes": 65319,
+      "sha256": "39ecd8e818f27a73fb4ae7c83850aa9d32a1b758d0f8658848efd0bee6a9813e"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f2_corrected_component2.json",
+      "bytes": 65348,
+      "sha256": "430e40d122b877961b317dfeed943cda4008cd0bda85ff50d49e958d4899ad95"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f2_corrected_component3.json",
+      "bytes": 65299,
+      "sha256": "aa4164bd37f4db09a7ae7704b028727e0839f439de5c7529fa32ff216ccb58b8"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f2_l2_full38_historical_calibration.json",
+      "bytes": 25982,
+      "sha256": "9de1067df8b5d60e7d014322aa1c1ab78119b9eb48a91c80c3a20b4765e5ee1c"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f2_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25801,
+      "sha256": "ded52db4dfabfe8f79d576bcfa2f8ede87c8a3b16e131935806cd49c8572d24d"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f2_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25697,
+      "sha256": "f48d0c9f54bb54c5ec590a85882a456b28ea467a5de7330193a61f099d526382"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f2_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25460,
+      "sha256": "bc2c99ea26268e6e5e13919a113fb9f782d44b07d571349b3a521b8902a3a84e"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f3_corrected_component1.json",
+      "bytes": 65185,
+      "sha256": "ed8ce2766390003468289cf7b009893b6f0fd36a344d68f37bb758aeb073aea0"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f3_corrected_component2.json",
+      "bytes": 65350,
+      "sha256": "375715a045f320718f4fd907cf199b91a5e60c7539a2d873271d41c58d6a9a7b"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f3_corrected_component3.json",
+      "bytes": 65309,
+      "sha256": "104b09175179727fd69cd49a131067ba9cf604a94865415d4a29939028823fbe"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f3_l2_full38_historical_calibration.json",
+      "bytes": 26000,
+      "sha256": "c2858c8b950d025d949614f69056d2df952566c2237963fdce61b6a28de35ab4"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f3_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25786,
+      "sha256": "e3f526c9c80fdda0c59e598fb4f406706d7cbfbbe76d5a62136f6c42c4269a77"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f3_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25698,
+      "sha256": "eea1d8903b369b51b8a1eee83039c710279118d22bc18bcdd478d9527cbd8deb"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f3_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25429,
+      "sha256": "e08d04b55906e394f2e40f449e75e5eaa6e07d635f0053ed4f5a9cf056ea33e7"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f4_corrected_component1.json",
+      "bytes": 65355,
+      "sha256": "52c45bda677b9d185fcb4b6509686b48c2b37b6c89b0edf55153e7cd127d0baf"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f4_corrected_component2.json",
+      "bytes": 65258,
+      "sha256": "58945b4b51b4d392e95a6988023b1b6b2c2a0c050f02ca148f3a34d7170be7b5"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f4_corrected_component3.json",
+      "bytes": 65354,
+      "sha256": "3598aaa0896c55ad5aa7ba89df36e0683e6f01cfdfaaf29298b62757b6041943"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f4_l2_full38_historical_calibration.json",
+      "bytes": 26028,
+      "sha256": "842edde8816721c40235c48c4e33b291096586f11d78b88e60cdec57f6ef2aac"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f4_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25832,
+      "sha256": "dc0ef2b7200c759c1c7071ef11c4fde76757fba3524caafc6191101ecbf27fd8"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f4_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25712,
+      "sha256": "e06cebfc7dfb625c0fc122ef2577bae11bfdd7ce8eb496048b81ca824c990b56"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f4_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25450,
+      "sha256": "181e3f8b878d11cd1335e550d131fe36c5e77072920cdea339f9d887a97622a9"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f5_corrected_component1.json",
+      "bytes": 65268,
+      "sha256": "0b405e0cb971a24fa1748b4b04d3068cdbec93fa051821e8bfc972c6b73df6ff"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f5_corrected_component2.json",
+      "bytes": 65282,
+      "sha256": "a8a3ab119328cb240ed9d56b1861a224a109c0cacb4967aa60d0ccc0b947f0c1"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f5_corrected_component3.json",
+      "bytes": 65303,
+      "sha256": "28cd71cc26e2f7af86fb50e2f785d2b66b8d24afe5467e47fd2330fb8700010f"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f5_l2_full38_historical_calibration.json",
+      "bytes": 26004,
+      "sha256": "05091114c0047358ffab97fa007b720c7daa971207555d055f100cbb46d799e0"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f5_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25823,
+      "sha256": "148e5ac68673d291650617054051bc902fab2e350ed08eb8e92a74702b1261a0"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f5_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25717,
+      "sha256": "f0a0d83dd03ca7d3b8113dc9059dce59ffc2ec8d868c3bd89d22ba276c97b6c9"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r1_f5_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25455,
+      "sha256": "e3998276cfa70b49420328e731b26aff0b1afa0705dcc48a3271a6f3f0b9d889"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f1_corrected_component1.json",
+      "bytes": 65212,
+      "sha256": "bdf17b35d4b8c5e2e466bccf13a49011b0cd7873a7df82a9e3a0664ba5d9fed2"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f1_corrected_component2.json",
+      "bytes": 65304,
+      "sha256": "f67151aa8901a599ef41aaa86855eb62506b95f28d84451da031505242c60bc2"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f1_corrected_component3.json",
+      "bytes": 65204,
+      "sha256": "85615d34c3bc0269a9a8648a6caeec8dbe334cd585a8bec50bc5ead6ea48ea07"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f1_l2_full38_historical_calibration.json",
+      "bytes": 26002,
+      "sha256": "7f68fccc3f21c12d7a5a5a5d519de3a4198068f08676635cbd7410b3624a183c"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f1_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25808,
+      "sha256": "a83288769e27a459b560cec0208a455d3d39ca21cbe99cb6876ca45045b3ab5c"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f1_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25704,
+      "sha256": "58e9ef9b98eb50800fad06717e9c3ab30af9d983dc0a21aa39e38a1ecbfd7ecf"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f1_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25445,
+      "sha256": "6ef7d0d023c77fe4e8d0811e6df70bab501f016cbb19c17af77ac34429bc0b25"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f2_corrected_component1.json",
+      "bytes": 65286,
+      "sha256": "c71b99b036cce8cdc9992cfde8575506e1d4885c6f0ee01c033a6743400bf6a5"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f2_corrected_component2.json",
+      "bytes": 65231,
+      "sha256": "35eaa481e4c101867a3274c1c2d1caa4b86e86adcf90925b703c151696425bb7"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f2_corrected_component3.json",
+      "bytes": 65205,
+      "sha256": "1771cc72ee5036387afe07dfc7f0b1188cea01d76d6fb895447d523899a3748b"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f2_l2_full38_historical_calibration.json",
+      "bytes": 26009,
+      "sha256": "b7109e1e6e474e86f27f33c496ae088e69a7cbbc05a6c4214c7058fb3fae6513"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f2_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25830,
+      "sha256": "54c6ae84065c731bb66436cfb0d7167b1d53942ee3571e243d7a7a83a359520e"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f2_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25706,
+      "sha256": "bf5f96ae368e2cd5016ef4b94e1ba7f79661e6f773bee0c91baa40b4d3044da9"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f2_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25455,
+      "sha256": "ed92650b397a911f4e63e68f24b5a8063af737dd25ec1aebf8b5bc7144fca651"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f3_corrected_component1.json",
+      "bytes": 65233,
+      "sha256": "af1b353a10b56626416b8f99e00b99fa30b2a1de3c79da9d8a727887f81e7b1c"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f3_corrected_component2.json",
+      "bytes": 65247,
+      "sha256": "f23a932d078cbf03584dd12472dad062c8088ca34363929add7e1e497cecd824"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f3_corrected_component3.json",
+      "bytes": 65349,
+      "sha256": "6bbd475eb796980340c73c6053a34698bc8705b654cb72df69a61655f147206b"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f3_l2_full38_historical_calibration.json",
+      "bytes": 25997,
+      "sha256": "7bdb01220575dbfe51dc8bc0f35440f9ef96c3e004d1eca1bf252db32304954e"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f3_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25805,
+      "sha256": "0f9cdccd824039f9de6fb331468da0c3eb8c99e2646b4647c2ffb1c58a1756e8"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f3_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25697,
+      "sha256": "442c820f46749256a7779ff923ea7454200751c72e0b3c887d39c1a714cdd377"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f3_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25456,
+      "sha256": "01c2f129d1b787bb01991a9bb624a581537371e9b0ba7fc3e22372026d6323e1"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f4_corrected_component1.json",
+      "bytes": 65340,
+      "sha256": "8357073d8d6551ab34a311b3edc45f1fc5ec9b985d2a5c7083cc31b823322b85"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f4_corrected_component2.json",
+      "bytes": 65205,
+      "sha256": "451ab94f10493201fc2737a54754b338eb1fd9c952fbf7127782676c6da491f6"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f4_corrected_component3.json",
+      "bytes": 65290,
+      "sha256": "2368b46aa258941e22cd7c31c322ac5a9be8fb09344f3863326fdde1855f7487"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f4_l2_full38_historical_calibration.json",
+      "bytes": 26016,
+      "sha256": "6ca2a551c2d5d096d03581d9f48800e7a0cc6934da34054692bc7e083e489506"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f4_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25826,
+      "sha256": "afb06811cdb125a26d4dccc0e6daf9a17104c8c8fff0b81c9d06f41b3ed150a0"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f4_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25709,
+      "sha256": "f56bf9b157d7da910b977856ed324b87ae712c468a10ff5d601d33a881651175"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f4_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25457,
+      "sha256": "4921db0214ac710b4558f3b9f908cddb1590dd27eddff365e55cb0ef68299dc0"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f5_corrected_component1.json",
+      "bytes": 65218,
+      "sha256": "df75101b21ba00ab7be53a509f9ee7430455adec026e2fb4f685d70e17165087"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f5_corrected_component2.json",
+      "bytes": 65257,
+      "sha256": "d8cc8b93dec823962b7098a0fd3f3e9561de640a707c1b80430d509cded55338"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f5_corrected_component3.json",
+      "bytes": 65201,
+      "sha256": "c719c70b7c6ab3e8f055d5ff10aeafcccf460debbf0b02b2f1357a54e8c014f0"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f5_l2_full38_historical_calibration.json",
+      "bytes": 26019,
+      "sha256": "0bb347eb54dec8a94435314eb07d73a9be5166cb9db739c773e51d7d000912a9"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f5_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25808,
+      "sha256": "aeb71490b610a4832caec4258cb515006f36b247149e1ee1361050518ecebb80"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f5_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25719,
+      "sha256": "4537b4005a3bdccd7ef0f92f73395eeac82cee6004dbf1986947df3efe8f643b"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r2_f5_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25449,
+      "sha256": "10f7b36250156870e9069d5ab67589f47562e620530d82ec70a75a00544d395a"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f1_corrected_component1.json",
+      "bytes": 65263,
+      "sha256": "070b8b0763d89a9157b6c62c796083e30ae1946202d7b852830ca0a42ac237d0"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f1_corrected_component2.json",
+      "bytes": 65271,
+      "sha256": "2a09e6ad995ec20302ab9773b2d17e2200121472d91269d05090fdb7b4b58275"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f1_corrected_component3.json",
+      "bytes": 65176,
+      "sha256": "9e4d76201a80f7b02d82e33f4f37d735e470993371e28110c99b71303bb90c42"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f1_l2_full38_historical_calibration.json",
+      "bytes": 25995,
+      "sha256": "0b2d0f986766553ba74ab831bcd186703ca9357ec0c4fa5c3ba39acec89a009d"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f1_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25809,
+      "sha256": "28a8341fae2cb84a002b02ef14005b649e1b1e347964144aa6c26330d490058a"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f1_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25696,
+      "sha256": "39bd0c550e43b725a976fb24e5a14fc5fc5bcaf0273b6122a61e2ee5c2df02ce"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f1_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25458,
+      "sha256": "99e34b12c4deb989aedccbbed1ec2c034dda421c1ce916412a394d0dc2c93715"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f2_corrected_component1.json",
+      "bytes": 65376,
+      "sha256": "3eaf39b28120e92a47670821f04ff4b66b4c9169de48736465a36560c188c581"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f2_corrected_component2.json",
+      "bytes": 65311,
+      "sha256": "2d0fa08b2e3f781b6bc16c0c4bb903116801dcc79c73d60dd0d7aa98329c80ef"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f2_corrected_component3.json",
+      "bytes": 65320,
+      "sha256": "103aed1798d163d745ab7d61c122ca5796e07c2ca93375ad3c87a1edfcc848d0"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f2_l2_full38_historical_calibration.json",
+      "bytes": 26012,
+      "sha256": "d33f11ce6dbfaa9fd56cc7e0146f8b2c57004ec42e30fb3deb4fb711e722c0cf"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f2_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25812,
+      "sha256": "c992e5f765b95e07abb10626b2d732caa72b70f3e3b6ae2819de905f3d3e04e4"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f2_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25715,
+      "sha256": "ceecd828117723f65b86872a53a4b04df0e6ae04710aa78c4e53411d75de8110"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f2_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25461,
+      "sha256": "ddca2606e1250fbc6779f750aa070c21966661634d34a9730ec39fc24b2686ac"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f3_corrected_component1.json",
+      "bytes": 65220,
+      "sha256": "92b0fac2ee20a2d5f6d930fa21529d676e46b85a78f5c75b49d57d5afd4f5882"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f3_corrected_component2.json",
+      "bytes": 65196,
+      "sha256": "db1f61db10301a6131c52904bca430098e7d331cc5e35f3946611428c2fc819b"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f3_corrected_component3.json",
+      "bytes": 65200,
+      "sha256": "ee0c38370758f9d05863c14ec3febaa33e3ce60c40e42f12144056b2acade608"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f3_l2_full38_historical_calibration.json",
+      "bytes": 25984,
+      "sha256": "644d2f324e6cb9b87dd06c870dcdc873b951997e35eea54273110de26009cec0"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f3_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25791,
+      "sha256": "3a719bf7bbca763299154b588b068765d9eb76313726cba599abb7e59085d444"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f3_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25678,
+      "sha256": "efcd7f657d893be15c9e5c3e8b3d9d5d5c8ad5ef141eec4033209fea85d46ea4"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f3_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25411,
+      "sha256": "26f00c240fe9faf5e84a411cabc1e2660f02582306cb9a045961eb20756ba554"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f4_corrected_component1.json",
+      "bytes": 65327,
+      "sha256": "d956fd2dd583b23c3e4416612a97fd8639fdf2526f65f4635033bc82bfd3a071"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f4_corrected_component2.json",
+      "bytes": 65285,
+      "sha256": "11fc5b0d5155db36f74fec5883068e597e2c15cc4e9400e31c2d97dc9fc64a3d"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f4_corrected_component3.json",
+      "bytes": 65294,
+      "sha256": "00fc1b5afda18e01d2b41771ac43ead98f2a6b0208af9cc574c829098e419422"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f4_l2_full38_historical_calibration.json",
+      "bytes": 26043,
+      "sha256": "be4f712966e756646f2903f53bb9220bf707a44d702c66c2949cec19f699df12"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f4_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25838,
+      "sha256": "844475bcbdfd076d5a4f15ee9aa668af63914ac3726db7d1bb77a5d5c4f09399"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f4_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25730,
+      "sha256": "ab6399562e26481ad5d497825d41d7df54d2711dcb9b251d14edca554ec3b08b"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f4_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25461,
+      "sha256": "336c77e6d472383c4b1ba13e14196e6227c4e5032657da82f907833191d51497"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f5_corrected_component1.json",
+      "bytes": 65240,
+      "sha256": "3aee3f185d5a90a04fb0714e4a6f5c9f33213e2733fa9e4c0d19593d04d7a283"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f5_corrected_component2.json",
+      "bytes": 65226,
+      "sha256": "81f7644e4c8636eb98e0b5fc6c52a4186b94141b6b0b15c3d4fa5b54d5becdaa"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f5_corrected_component3.json",
+      "bytes": 65151,
+      "sha256": "d43e16f6ef23cdee4bb3959f294eebfb92d282c7227d23ad31b1768681bd0961"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f5_l2_full38_historical_calibration.json",
+      "bytes": 26012,
+      "sha256": "5185b9a4886dc5142ed55c252a3ec2799ec1a06fcd5f4cd23069f700ce8d80d0"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f5_l2_no_symptoms28_historical_calibration.json",
+      "bytes": 25812,
+      "sha256": "fa18134c2a78f8a58aa88822ef24ad3a9aeadee364b4ee0aab1fded642d95f35"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f5_l2_risk_symptoms17_historical_calibration.json",
+      "bytes": 25716,
+      "sha256": "31a9b7f6aa1ed62de9f2f7426562c15860e10516484884aafde5b3d5b4823012"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\checkpoints\\r3_f5_l2_v3_ordinary_historical_calibration.json",
+      "bytes": 25462,
+      "sha256": "3ab6070501d66542d77b55fb3d9b7fdcf0dc86b0674372b853bd7828703390e4"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\FOLD_METRICS.csv",
+      "bytes": 28338,
+      "sha256": "c582812bbcf74bb70309f8f566d1c117544549500b00a4eeb38876e2f8f1726a"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\FROZEN_INPUTS.json",
+      "bytes": 1226,
+      "sha256": "368022acd57ef664167e6060e6641d595e52b8766a91c829402aebaab0ffad92"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\GRID_SCORES.csv",
+      "bytes": 1121592,
+      "sha256": "d7742ca2cdc6de1332dc38db14db41ec714f24486a2c2af7350ce64fb8477149"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\MANIFEST.json",
+      "bytes": 22149,
+      "sha256": "0c4c5e17e44de866bf6e05421f91c873cbf394b503e908f905b6d7e15da772ca"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\OOF_PREDICTIONS.csv",
+      "bytes": 709180,
+      "sha256": "74be1a372637a857fc75ed405d306701e456c80f48410cae7090671608713c1b"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\PAIRED_DESCRIPTIVE_SUMMARY.csv",
+      "bytes": 10638,
+      "sha256": "43fc1b4af11ead2eb4468e6d72cd858fe14ea29340cb649afd9ee7cdefd90f03"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\PAIRED_REPEAT_DIFFERENCES.csv",
+      "bytes": 3850,
+      "sha256": "26cd1ad513727fba004944a08bcfebb0477f1b07ed3ce176786468101c1715b5"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\PILOT_RUNTIME.json",
+      "bytes": 405,
+      "sha256": "712ffd40feef16b9d6aa7d9e9eb9f522eaa52cd8359154d363eb0a4df0199af0"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\PREDICTIONS.csv",
+      "bytes": 709180,
+      "sha256": "74be1a372637a857fc75ed405d306701e456c80f48410cae7090671608713c1b"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\PROTOCOL.md",
+      "bytes": 7458,
+      "sha256": "83be85b72ee0fa33857b4c74c9408f2b021074ab9f1370bfeba91e9efa3fde04"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\REPEAT_METRICS.csv",
+      "bytes": 5824,
+      "sha256": "73c023bfc45655e0fe2a698ac8fb82871ac1cc64ecf822571294a8db44342b68"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\RUNTIMES.json",
+      "bytes": 17652,
+      "sha256": "8da5ff9150156bdde7f2d22af80536f7334a1d32b0450d1f35a5465a8cfbae85"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\SELECTIONS.csv",
+      "bytes": 44500,
+      "sha256": "7a01f8bd272e228a8d2cb9719a38badbb422b3a38c3f1e4ca647533fa5bf571d"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\SPLIT_TRACE.json",
+      "bytes": 968846,
+      "sha256": "891c9338c1be4751d9a8a292f39596b1c1030a44d49d17c0ef4252c59b6b8044"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\SUMMARY_METRICS.csv",
+      "bytes": 5870,
+      "sha256": "cc6e230be0932aab1e1610d2e1f3d3c1fa654542b11f89a363e8de1816c57fe6"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\SUMMARY.csv",
+      "bytes": 5870,
+      "sha256": "cc6e230be0932aab1e1610d2e1f3d3c1fa654542b11f89a363e8de1816c57fe6"
+    },
+    {
+      "path": "results\\research_extension_v1\\zas\\WARNINGS.json",
+      "bytes": 199,
+      "sha256": "b22f7ac39de24b7c3c31edb24557835a899c825a15eac35fa1e4772770d5efae"
+    },
+    {
+      "path": "runner\\research_extension_v1\\predict_research.py",
+      "bytes": 3010,
+      "sha256": "45c0825e6ea40f0f7cf78258f34a8e338fb278e0e862ee8a359d02961adbe7db"
+    },
+    {
+      "path": "runner\\research_extension_v1\\transport.py",
+      "bytes": 28926,
+      "sha256": "ea258e09f508799158253ab46a2bef399dd003b36a97e68c679fdefb37e014b3"
+    },
+    {
+      "path": "runner\\research_extension_v1\\verify.py",
+      "bytes": 4467,
+      "sha256": "119264eedd77e7c7553816cb5c21cda7e5a80782ea53db1b6f60d7d076b1b2a9"
+    },
+    {
+      "path": "runner\\research_extension_v1\\zas.py",
+      "bytes": 23548,
+      "sha256": "2309b44d155a2310cd485699b385e7a6afc5b1c31e20b3e17e8aad7193b6a229"
+    },
+    {
+      "path": "tests\\test_research_extension_independent.py",
+      "bytes": 7930,
+      "sha256": "547e2ac42d7750070300efe7d7dd36a2c1913d92f1c64ae34e970e3911ed4cf7"
+    },
+    {
+      "path": "tests\\test_research_extension_v1.py",
+      "bytes": 7040,
+      "sha256": "9bf00511ad46d16be555959dd5f32fca21fb52ff63fc8b9d0f8583064fb50291"
+    },
+    {
+      "path": "tests\\test_research_predict_v1.py",
+      "bytes": 1611,
+      "sha256": "98718c4653967c9eecb0627856c01d9fdb13b4afa6dcdfae1791eea1dce62c5d"
+    },
+    {
+      "path": "tests\\test_research_transport_v1.py",
+      "bytes": 5775,
+      "sha256": "fdfbea11ce17d724b1b707a219086ddc2ce68c26636976d6b94ba7707db2a8b3"
+    },
+    {
+      "path": "paper\\research_extension_v1\\REPORT_PACKAGE_MANIFEST.json",
+      "bytes": 4473,
+      "sha256": "53a606ee98411a656b4a93a393e7a843249556d4f766273a6b5660fe9a2286af"
+    },
+    {
+      "path": "paper\\research_extension_v1\\CARDIODIAG_REPORT_PACKAGE.zip",
+      "bytes": 4898805,
+      "sha256": "63c7a80af784f3d41ff5e886a0eeb67325ffb4bb045492af3506ae952bb5c4c9"
+    }
+  ]
+}

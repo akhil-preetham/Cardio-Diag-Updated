@@ -1,0 +1,34 @@
+{
+  "protocol_version": "RESEARCH_PROTOCOL_V2",
+  "dataset": "data\\interim\\validated\\z_alizadeh_sani.csv",
+  "target": "Cath",
+  "target_encoding": {
+    "Cad": 1,
+    "Normal": 0
+  },
+  "strict_features": [
+    "Age",
+    "Sex",
+    "Current Smoker",
+    "EX-Smoker",
+    "FH"
+  ],
+  "exploratory_feature_policy": "timing/unit/clinical-review evidence required before use",
+  "outer_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "calibration": "nested sigmoid/Platt calibration; isotonic exploratory only",
+  "threshold": 0.5,
+  "resampling": "no SMOTE by default; class weighting only where supported",
+  "patient_identifier_available": false,
+  "source_row_identifier_policy": "stable source-row labels only; not patient identifiers",
+  "code_version": "Git unavailable in repository workspace",
+  "historical_results_preserved": true,
+  "model_training_launched": false
+}

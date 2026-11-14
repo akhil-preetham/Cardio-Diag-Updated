@@ -1,0 +1,4 @@
+,uci_cleveland_vs_statlog,ptb_xl_vs_ptb_diagnostic,new_vs_existing
+classification,cannot_determine,likely_related_provenance_but_patient_overlap_unverified,no_overlap_detected_under_available_identifiers
+method,No shared patient identifier; schemas and coding differ. Exact normalized feature comparison was not treated as patient identity.,Both originate from PTB/PhysioNet and use ECG records; public metadata identifiers are not a validated cross-dataset key.,No common patient identifiers across the tabular source files; identical clinical attributes were not interpreted as identity.
+conclusion,Do not call these independent cohorts without source-level provenance or record-level evidence.,Do not use one as independent external validation of the other pending a documented linkage analysis.,Absence of detected overlap is not proof of cohort independence.

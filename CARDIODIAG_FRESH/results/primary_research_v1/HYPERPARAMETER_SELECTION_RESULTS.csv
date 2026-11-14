@@ -1,0 +1,226 @@
+repeat,fold,model_id,model_name,imbalance_strategy,inner_best_roc_auc,best_params,fit_seconds_including_inner_selection,warning_count,warnings,status
+1,1,logistic_regression_none,Logistic Regression,none,0.7112783097735218,"{""model__C"": 0.1}",0.6843748999963282,0,,success
+1,1,logistic_regression_balanced,Logistic Regression,balanced,0.7079913360693114,"{""model__C"": 10.0}",0.6236950000020443,0,,success
+1,1,svm_none,Support Vector Classifier,none,0.7126082991336069,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",1.0345743999932893,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+1,1,svm_balanced,Support Vector Classifier,balanced,0.7072123423012615,"{""model__C"": 1.0, ""model__gamma"": ""auto""}",0.7913501000002725,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+1,1,random_forest_none,Random Forest,none,0.6808690530475756,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",5.6429894999891985,0,,success
+1,1,random_forest_balanced,Random Forest,balanced,0.6812870497036023,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",5.856383000005735,0,,success
+1,1,hist_gradient_boosting_none,HistGradientBoosting,none,0.6354689162486701,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 15}",3.640541000000667,0,,success
+1,1,extra_trees_none,Extra Trees,none,0.6815055479556165,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.338546700004372,0,,success
+1,1,extra_trees_balanced,Extra Trees,balanced,0.6894284845721235,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.764838400005829,0,,success
+1,2,logistic_regression_none,Logistic Regression,none,0.7459949184042891,"{""model__C"": 0.1}",0.6009221999993315,0,,success
+1,2,logistic_regression_balanced,Logistic Regression,balanced,0.7442996137849078,"{""model__C"": 0.1}",0.6572911000112072,0,,success
+1,2,svm_none,Support Vector Classifier,none,0.7005196458428331,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",1.0803712000051746,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+1,2,svm_balanced,Support Vector Classifier,balanced,0.7210325726485097,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.9329408000048716,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+1,2,random_forest_none,Random Forest,none,0.708456400530614,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",5.626145300004282,0,,success
+1,2,random_forest_balanced,Random Forest,balanced,0.7032167606295514,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",5.885311500009266,0,,success
+1,2,hist_gradient_boosting_none,HistGradientBoosting,none,0.6680299057607539,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.6827092000021366,0,,success
+1,2,extra_trees_none,Extra Trees,none,0.6849458158880184,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.843673900002614,0,,success
+1,2,extra_trees_balanced,Extra Trees,balanced,0.6794790414403957,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",5.109058499991079,0,,success
+1,3,logistic_regression_none,Logistic Regression,none,0.7688232357777501,"{""model__C"": 1.0}",0.40229610000096727,0,,success
+1,3,logistic_regression_balanced,Logistic Regression,balanced,0.7671477946358247,"{""model__C"": 10.0}",0.3855706000031205,0,,success
+1,3,svm_none,Support Vector Classifier,none,0.7360579978996531,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.6369132999971043,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+1,3,svm_balanced,Support Vector Classifier,balanced,0.7593034482996863,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.6994101000018418,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+1,3,random_forest_none,Random Forest,none,0.7379791416214124,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",5.678817399995751,0,,success
+1,3,random_forest_balanced,Random Forest,balanced,0.7299810692423552,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",5.953215599991381,0,,success
+1,3,hist_gradient_boosting_none,HistGradientBoosting,none,0.7174830555901006,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 15}",3.57417350000469,0,,success
+1,3,extra_trees_none,Extra Trees,none,0.7463334611504926,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",4.412150599993765,0,,success
+1,3,extra_trees_balanced,Extra Trees,balanced,0.7351477324545039,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",4.923642399997334,0,,success
+1,4,logistic_regression_none,Logistic Regression,none,0.7447629509873012,"{""model__C"": 0.1}",0.36467520000587683,0,,success
+1,4,logistic_regression_balanced,Logistic Regression,balanced,0.744590225096381,"{""model__C"": 1.0}",0.38404829999490175,0,,success
+1,4,svm_none,Support Vector Classifier,none,0.7034555541737484,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.693584099994041,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+1,4,svm_balanced,Support Vector Classifier,balanced,0.7206253713606655,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.6653751999983797,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+1,4,random_forest_none,Random Forest,none,0.6785122082659703,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.500062599996454,0,,success
+1,4,random_forest_balanced,Random Forest,balanced,0.688832580248449,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.659508500000811,0,,success
+1,4,hist_gradient_boosting_none,HistGradientBoosting,none,0.6774287851151737,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.314034700000775,0,,success
+1,4,extra_trees_none,Extra Trees,none,0.6814183213807017,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.3433117999957176,0,,success
+1,4,extra_trees_balanced,Extra Trees,balanced,0.6856716964446102,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.637242500000866,0,,success
+1,5,logistic_regression_none,Logistic Regression,none,0.7402556688637401,"{""model__C"": 10.0}",0.2990148999961093,0,,success
+1,5,logistic_regression_balanced,Logistic Regression,balanced,0.7398713537564428,"{""model__C"": 10.0}",0.30911609999020584,0,,success
+1,5,svm_none,Support Vector Classifier,none,0.7311003330155178,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.48963779999758117,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+1,5,svm_balanced,Support Vector Classifier,balanced,0.733606585692769,"{""model__C"": 0.1, ""model__gamma"": ""scale""}",0.5152823000098579,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+1,5,random_forest_none,Random Forest,none,0.709474187842861,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.280516300001182,0,,success
+1,5,random_forest_balanced,Random Forest,balanced,0.722687718498252,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.432529400000931,0,,success
+1,5,hist_gradient_boosting_none,HistGradientBoosting,none,0.6844885240918073,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.2572765000077197,0,,success
+1,5,extra_trees_none,Extra Trees,none,0.7073418867194516,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",3.3657059999968624,0,,success
+1,5,extra_trees_balanced,Extra Trees,balanced,0.7083445605162432,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",3.6937761000008322,0,,success
+2,1,logistic_regression_none,Logistic Regression,none,0.7490405076759385,"{""model__C"": 0.1}",0.2793165999901248,0,,success
+2,1,logistic_regression_balanced,Logistic Regression,balanced,0.7469885240918073,"{""model__C"": 0.1}",0.29929310000443365,0,,success
+2,1,svm_none,Support Vector Classifier,none,0.7190587475300196,"{""model__C"": 1.0, ""model__gamma"": ""auto""}",0.5252029999974184,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+2,1,svm_balanced,Support Vector Classifier,balanced,0.7398635810913513,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5013613999908557,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+2,1,random_forest_none,Random Forest,none,0.7226212190302478,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.252882200002205,0,,success
+2,1,random_forest_balanced,Random Forest,balanced,0.7199612403100775,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.546786399994744,0,,success
+2,1,hist_gradient_boosting_none,HistGradientBoosting,none,0.7213387292901656,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.2885343999951147,0,,success
+2,1,extra_trees_none,Extra Trees,none,0.7199137406900744,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.3067765000014333,0,,success
+2,1,extra_trees_balanced,Extra Trees,balanced,0.7212057303541572,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.623583199994755,0,,success
+2,2,logistic_regression_none,Logistic Regression,none,0.7329558408987273,"{""model__C"": 10.0}",0.28271179999865126,0,,success
+2,2,logistic_regression_balanced,Logistic Regression,balanced,0.7346122821926515,"{""model__C"": 10.0}",0.291619300012826,0,,success
+2,2,svm_none,Support Vector Classifier,none,0.6998658783457006,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5445709000050556,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+2,2,svm_balanced,Support Vector Classifier,balanced,0.7151469379154057,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5803180000075372,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+2,2,random_forest_none,Random Forest,none,0.6922300985228482,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",5.188733399991179,0,,success
+2,2,random_forest_balanced,Random Forest,balanced,0.682248269286573,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.620443200008594,0,,success
+2,2,hist_gradient_boosting_none,HistGradientBoosting,none,0.7138242894056848,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.649694499996258,0,,success
+2,2,extra_trees_none,Extra Trees,none,0.6791897255731045,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",4.053953499998897,0,,success
+2,2,extra_trees_balanced,Extra Trees,balanced,0.6736745878760242,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",3.7406366000068374,0,,success
+2,3,logistic_regression_none,Logistic Regression,none,0.7108253361245837,"{""model__C"": 0.1}",0.28678140000556596,0,,success
+2,3,logistic_regression_balanced,Logistic Regression,balanced,0.7055330148267905,"{""model__C"": 0.1}",0.2811089000024367,0,,success
+2,3,svm_none,Support Vector Classifier,none,0.6869753451063301,"{""model__C"": 10.0, ""model__gamma"": ""auto""}",0.523594400001457,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+2,3,svm_balanced,Support Vector Classifier,balanced,0.7043783422459893,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.6086828999978025,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+2,3,random_forest_none,Random Forest,none,0.6517690585748042,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.2683030999905895,0,,success
+2,3,random_forest_balanced,Random Forest,balanced,0.6451713613563819,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.412273800000548,0,,success
+2,3,hist_gradient_boosting_none,HistGradientBoosting,none,0.644902772596001,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.2259025999956066,0,,success
+2,3,extra_trees_none,Extra Trees,none,0.678859819121447,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.4258320000080857,0,,success
+2,3,extra_trees_balanced,Extra Trees,balanced,0.6809947111332201,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.588540800003102,0,,success
+2,4,logistic_regression_none,Logistic Regression,none,0.7467799575785212,"{""model__C"": 1.0}",0.3852696999965701,0,,success
+2,4,logistic_regression_balanced,Logistic Regression,balanced,0.7441398423358068,"{""model__C"": 10.0}",0.3176865999994334,0,,success
+2,4,svm_none,Support Vector Classifier,none,0.7296524582348796,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5183833999908529,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+2,4,svm_balanced,Support Vector Classifier,balanced,0.7167584704776907,"{""model__C"": 1.0, ""model__gamma"": ""auto""}",0.5274183000001358,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+2,4,random_forest_none,Random Forest,none,0.7238821180339647,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.2045549000031315,0,,success
+2,4,random_forest_balanced,Random Forest,balanced,0.7204142139590155,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.463028199999826,0,,success
+2,4,hist_gradient_boosting_none,HistGradientBoosting,none,0.7083527649960619,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 15}",3.2238571000052616,0,,success
+2,4,extra_trees_none,Extra Trees,none,0.7092552577761195,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.3644372999988263,0,,success
+2,4,extra_trees_balanced,Extra Trees,balanced,0.7139594474153298,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.655740299989702,0,,success
+2,5,logistic_regression_none,Logistic Regression,none,0.7448104506073043,"{""model__C"": 0.1}",0.3112455999944359,0,,success
+2,5,logistic_regression_balanced,Logistic Regression,balanced,0.7438423219886969,"{""model__C"": 0.1}",0.30068720001145266,0,,success
+2,5,svm_none,Support Vector Classifier,none,0.6931688637399992,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.4805393999995431,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+2,5,svm_balanced,Support Vector Classifier,balanced,0.7222369039229505,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5357401000073878,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+2,5,random_forest_none,Random Forest,none,0.691856146969006,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.61013180000009,0,,success
+2,5,random_forest_balanced,Random Forest,balanced,0.697056059915157,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",6.092426000002888,0,,success
+2,5,hist_gradient_boosting_none,HistGradientBoosting,none,0.6900248207105253,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",7.823749899995164,0,,success
+2,5,extra_trees_none,Extra Trees,none,0.6998870372673381,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",5.535117499995977,0,,success
+2,5,extra_trees_balanced,Extra Trees,balanced,0.6991693611905649,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",6.286567799994373,0,,success
+3,1,logistic_regression_none,Logistic Regression,none,0.7755737954096367,"{""model__C"": 0.1}",0.4721428999910131,0,,success
+3,1,logistic_regression_balanced,Logistic Regression,balanced,0.7715838273293814,"{""model__C"": 1.0}",0.5163425000064308,0,,success
+3,1,svm_none,Support Vector Classifier,none,0.7647248822009425,"{""model__C"": 1.0, ""model__gamma"": ""auto""}",0.8770700000022771,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+3,1,svm_balanced,Support Vector Classifier,balanced,0.7672708618331053,"{""model__C"": 1.0, ""model__gamma"": ""auto""}",0.8837891000002855,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+3,1,random_forest_none,Random Forest,none,0.7554719562243501,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",6.9212530000077095,0,,success
+3,1,random_forest_balanced,Random Forest,balanced,0.7520899832801338,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",7.24705289999838,0,,success
+3,1,hist_gradient_boosting_none,HistGradientBoosting,none,0.737108603131175,"{""model__learning_rate"": 0.1, ""model__max_leaf_nodes"": 15}",5.878371600003447,0,,success
+3,1,extra_trees_none,Extra Trees,none,0.760202918376653,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",5.480708399991272,0,,success
+3,1,extra_trees_balanced,Extra Trees,balanced,0.7543319653442773,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",6.406117999998969,0,,success
+3,2,logistic_regression_none,Logistic Regression,none,0.7469673651701696,"{""model__C"": 1.0}",0.4606037999910768,0,,success
+3,2,logistic_regression_balanced,Logistic Regression,balanced,0.7466486859014217,"{""model__C"": 0.1}",0.4637198999989778,0,,success
+3,2,svm_none,Support Vector Classifier,none,0.7244914086141856,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.872984900008305,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+3,2,svm_balanced,Support Vector Classifier,balanced,0.7308244034047728,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.8128101000038441,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+3,2,random_forest_none,Random Forest,none,0.7334165872127569,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",7.168362700002035,0,,success
+3,2,random_forest_balanced,Random Forest,balanced,0.7282002653069685,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",7.81058980000671,0,,success
+3,2,hist_gradient_boosting_none,HistGradientBoosting,none,0.7026817421824261,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 15}",6.403445000003558,0,,success
+3,2,extra_trees_none,Extra Trees,none,0.7182724129116058,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",5.39630799999577,0,,success
+3,2,extra_trees_balanced,Extra Trees,balanced,0.7170020139838881,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.269294900004752,0,,success
+3,3,logistic_regression_none,Logistic Regression,none,0.7186917050118145,"{""model__C"": 0.1}",0.26834590001089964,0,,success
+3,3,logistic_regression_balanced,Logistic Regression,balanced,0.7149297351075736,"{""model__C"": 0.1}",0.25624609999067616,0,,success
+3,3,svm_none,Support Vector Classifier,none,0.6977391908137461,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.4478882999974303,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+3,3,svm_balanced,Support Vector Classifier,balanced,0.6961311127692797,"{""model__C"": 1.0, ""model__gamma"": ""scale""}",0.48107200000958983,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+3,3,random_forest_none,Random Forest,none,0.64695993795686,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.827079299997422,0,,success
+3,3,random_forest_balanced,Random Forest,balanced,0.6602572406693474,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.157512899997528,0,,success
+3,3,hist_gradient_boosting_none,HistGradientBoosting,none,0.6238703726733823,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",2.956902899997658,0,,success
+3,3,extra_trees_none,Extra Trees,none,0.6681283595185784,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",2.9855686999944737,0,,success
+3,3,extra_trees_balanced,Extra Trees,balanced,0.6727967085354227,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.665117199998349,0,,success
+3,4,logistic_regression_none,Logistic Regression,none,0.6982837091848719,"{""model__C"": 0.1}",0.2737549999874318,0,,success
+3,4,logistic_regression_balanced,Logistic Regression,balanced,0.6924248469648606,"{""model__C"": 0.1}",0.2809516999986954,0,,success
+3,4,svm_none,Support Vector Classifier,none,0.6867922556619548,"{""model__C"": 1.0, ""model__gamma"": ""auto""}",0.4456620999990264,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+3,4,svm_balanced,Support Vector Classifier,balanced,0.6781585520043113,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.4819982000044547,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+3,4,random_forest_none,Random Forest,none,0.6458000835993313,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.9057098999910522,0,,success
+3,4,random_forest_balanced,Random Forest,balanced,0.6523774855255704,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.110612000004039,0,,success
+3,4,hist_gradient_boosting_none,HistGradientBoosting,none,0.6634643286490073,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 15}",2.8936830000020564,0,,success
+3,4,extra_trees_none,Extra Trees,none,0.6557404586217856,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.1140559000050416,0,,success
+3,4,extra_trees_balanced,Extra Trees,balanced,0.650595817960729,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.411085500003537,0,,success
+3,5,logistic_regression_none,Logistic Regression,none,0.7679168566651466,"{""model__C"": 1.0}",0.25829859999066684,0,,success
+3,5,logistic_regression_balanced,Logistic Regression,balanced,0.7712832842791804,"{""model__C"": 0.1}",0.27853070000128355,0,,success
+3,5,svm_none,Support Vector Classifier,none,0.7195441072835053,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.47579540000879206,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+3,5,svm_balanced,Support Vector Classifier,balanced,0.7513895797924526,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.4532219999964582,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+3,5,random_forest_none,Random Forest,none,0.7180634145835925,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.9816208999982337,0,,success
+3,5,random_forest_balanced,Random Forest,balanced,0.7252142664676864,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.110579300002428,0,,success
+3,5,hist_gradient_boosting_none,HistGradientBoosting,none,0.6941305151376971,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",2.83173779999197,0,,success
+3,5,extra_trees_none,Extra Trees,none,0.7144452389835427,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.056193299998995,0,,success
+3,5,extra_trees_balanced,Extra Trees,balanced,0.7122585292044936,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.3511625999963144,0,,success
+4,1,logistic_regression_none,Logistic Regression,none,0.7574954400364797,"{""model__C"": 0.1}",0.2709904000075767,0,,success
+4,1,logistic_regression_balanced,Logistic Regression,balanced,0.7545694634442924,"{""model__C"": 10.0}",0.2618594000086887,0,,success
+4,1,svm_none,Support Vector Classifier,none,0.7552534579723362,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.45333109999774024,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+4,1,svm_balanced,Support Vector Classifier,balanced,0.7428085575315397,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5008084999863058,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+4,1,random_forest_none,Random Forest,none,0.725062699498404,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.080052700010128,0,,success
+4,1,random_forest_balanced,Random Forest,balanced,0.7311996504027969,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.582520799987833,0,,success
+4,1,hist_gradient_boosting_none,HistGradientBoosting,none,0.7028613771089831,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 15}",3.327744399997755,0,,success
+4,1,extra_trees_none,Extra Trees,none,0.7293376652986776,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.35664430000179,0,,success
+4,1,extra_trees_balanced,Extra Trees,balanced,0.7296606627146982,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.7288084000028903,0,,success
+4,2,logistic_regression_none,Logistic Regression,none,0.7625161498708011,"{""model__C"": 0.1}",0.30527720000827685,0,,success
+4,2,logistic_regression_balanced,Logistic Regression,balanced,0.7604684844339427,"{""model__C"": 0.1}",0.30925230000866577,0,,success
+4,2,svm_none,Support Vector Classifier,none,0.7420006321767607,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.49420280000776984,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+4,2,svm_balanced,Support Vector Classifier,balanced,0.738028800315052,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5208577000012156,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+4,2,random_forest_none,Random Forest,none,0.7283617640149788,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.25319909999962,0,,success
+4,2,random_forest_balanced,Random Forest,balanced,0.7194434944520444,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.484278499992797,0,,success
+4,2,hist_gradient_boosting_none,HistGradientBoosting,none,0.702375153726043,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.2198788999958197,0,,success
+4,2,extra_trees_none,Extra Trees,none,0.7078544508007572,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.367976399997133,0,,success
+4,2,extra_trees_balanced,Extra Trees,balanced,0.7065693701723114,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.686053700002958,0,,success
+4,3,logistic_regression_none,Logistic Regression,none,0.7264553019939477,"{""model__C"": 0.1}",0.2822306000016397,0,,success
+4,3,logistic_regression_balanced,Logistic Regression,balanced,0.7229291029308129,"{""model__C"": 10.0}",0.30880050000268966,0,,success
+4,3,svm_none,Support Vector Classifier,none,0.7005300093962885,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5125457999965874,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+4,3,svm_balanced,Support Vector Classifier,balanced,0.7078389054705745,"{""model__C"": 1.0, ""model__gamma"": ""auto""}",0.4985612000018591,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+4,3,random_forest_none,Random Forest,none,0.7070724343296163,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.258929600007832,0,,success
+4,3,random_forest_balanced,Random Forest,balanced,0.7082685611242383,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.683891499997117,0,,success
+4,3,hist_gradient_boosting_none,HistGradientBoosting,none,0.7024546076358662,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.3074076999910176,0,,success
+4,3,extra_trees_none,Extra Trees,none,0.6837393255399412,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.7071302000113064,0,,success
+4,3,extra_trees_balanced,Extra Trees,balanced,0.6791707257251033,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.682173300010618,0,,success
+4,4,logistic_regression_none,Logistic Regression,none,0.722945080075723,"{""model__C"": 10.0}",0.28452490000927355,0,,success
+4,4,logistic_regression_balanced,Logistic Regression,balanced,0.7232948500048363,"{""model__C"": 10.0}",0.30309079999278765,0,,success
+4,4,svm_none,Support Vector Classifier,none,0.687465454821816,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5067765999992844,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+4,4,svm_balanced,Support Vector Classifier,balanced,0.7103170901905513,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5010121999948751,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+4,4,random_forest_none,Random Forest,none,0.6606229877433709,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.23841619999439,0,,success
+4,4,random_forest_balanced,Random Forest,balanced,0.6534505451229118,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.452477699989686,0,,success
+4,4,hist_gradient_boosting_none,HistGradientBoosting,none,0.6302417989746991,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.1935595000104513,0,,success
+4,4,extra_trees_none,Extra Trees,none,0.660598806118642,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.466451699991012,0,,success
+4,4,extra_trees_balanced,Extra Trees,balanced,0.6579889179068386,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.9449647000001278,0,,success
+4,5,logistic_regression_none,Logistic Regression,none,0.7195199256587765,"{""model__C"": 0.1}",0.28201910000643693,0,,success
+4,5,logistic_regression_balanced,Logistic Regression,balanced,0.7168754922687891,"{""model__C"": 1.0}",0.3071151999902213,0,,success
+4,5,svm_none,Support Vector Classifier,none,0.6916894664842681,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5126091999991331,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+4,5,svm_balanced,Support Vector Classifier,balanced,0.6907627920794815,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5136744999908842,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+4,5,random_forest_none,Random Forest,none,0.6950714394284845,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.197204500000225,0,,success
+4,5,random_forest_balanced,Random Forest,balanced,0.6962295665271042,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.290361700011999,0,,success
+4,5,hist_gradient_boosting_none,HistGradientBoosting,none,0.6986870241401705,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",2.9426041999977315,0,,success
+4,5,extra_trees_none,Extra Trees,none,0.6617025245616217,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.1352879000041867,0,,success
+4,5,extra_trees_balanced,Extra Trees,balanced,0.6659394906658929,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.370948399999179,0,,success
+5,1,logistic_regression_none,Logistic Regression,none,0.7290336677306581,"{""model__C"": 0.1}",0.27237750000495,0,,success
+5,1,logistic_regression_balanced,Logistic Regression,balanced,0.7282736738106096,"{""model__C"": 0.1}",0.28476409999711905,0,,success
+5,1,svm_none,Support Vector Classifier,none,0.7164937680498555,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.48910849999811035,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+5,1,svm_balanced,Support Vector Classifier,balanced,0.7247587019303845,"{""model__C"": 1.0, ""model__gamma"": ""scale""}",0.5099174000060884,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+5,1,random_forest_none,Random Forest,none,0.7039823681410549,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",4.049020400008885,0,,success
+5,1,random_forest_balanced,Random Forest,balanced,0.6964204286365709,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",4.3528809000126785,0,,success
+5,1,hist_gradient_boosting_none,HistGradientBoosting,none,0.6991849065207478,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",2.9810347000020556,0,,success
+5,1,extra_trees_none,Extra Trees,none,0.6771735826113391,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",3.5244430000020657,0,,success
+5,1,extra_trees_balanced,Extra Trees,balanced,0.6804035567715458,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",4.126906099991174,0,,success
+5,2,logistic_regression_none,Logistic Regression,none,0.7431483957219251,"{""model__C"": 0.1}",0.28089209999598097,0,,success
+5,2,logistic_regression_balanced,Logistic Regression,balanced,0.7411490935345244,"{""model__C"": 0.1}",0.327357000001939,0,,success
+5,2,svm_none,Support Vector Classifier,none,0.7283121053213393,"{""model__C"": 1.0, ""model__gamma"": ""auto""}",0.6680922999948962,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+5,2,svm_balanced,Support Vector Classifier,balanced,0.7255536728433445,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5479846999951405,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+5,2,random_forest_none,Random Forest,none,0.7050614731445785,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.351763000013307,0,,success
+5,2,random_forest_balanced,Random Forest,balanced,0.6993304280838479,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.466435700000147,0,,success
+5,2,hist_gradient_boosting_none,HistGradientBoosting,none,0.6644212300847047,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.232565700003761,0,,success
+5,2,extra_trees_none,Extra Trees,none,0.6926234817394188,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.38142260001041,0,,success
+5,2,extra_trees_balanced,Extra Trees,balanced,0.6935657014743881,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",3.639223900012439,0,,success
+5,3,logistic_regression_none,Logistic Regression,none,0.7191602239909354,"{""model__C"": 1.0}",0.2985934000025736,0,,success
+5,3,logistic_regression_balanced,Logistic Regression,balanced,0.7173206932526357,"{""model__C"": 0.1}",0.2973529000009876,0,,success
+5,3,svm_none,Support Vector Classifier,none,0.7128902741505341,"{""model__C"": 1.0, ""model__gamma"": ""auto""}",0.5246890999987954,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+5,3,svm_balanced,Support Vector Classifier,balanced,0.7202414880680954,"{""model__C"": 0.1, ""model__gamma"": ""scale""}",0.5035616000095615,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+5,3,random_forest_none,Random Forest,none,0.7114825581395349,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.335113799999817,0,,success
+5,3,random_forest_balanced,Random Forest,balanced,0.7160347489947354,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",5.258783400000539,0,,success
+5,3,hist_gradient_boosting_none,HistGradientBoosting,none,0.7283436277964321,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.812869999994291,0,,success
+5,3,extra_trees_none,Extra Trees,none,0.7137867215244096,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",3.559411900001578,0,,success
+5,3,extra_trees_balanced,Extra Trees,balanced,0.7098269804750652,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",4.007106200006092,0,,success
+5,4,logistic_regression_none,Logistic Regression,none,0.7266940955381448,"{""model__C"": 10.0}",0.32083549999515526,0,,success
+5,4,logistic_regression_balanced,Logistic Regression,balanced,0.727404862579281,"{""model__C"": 10.0}",0.3763016000011703,0,,success
+5,4,svm_none,Support Vector Classifier,none,0.7122136204728544,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.6267017000063788,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+5,4,svm_balanced,Support Vector Classifier,balanced,0.7146827370835579,"{""model__C"": 0.1, ""model__gamma"": ""auto""}",0.5267956999887247,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+5,4,random_forest_none,Random Forest,none,0.7033273051997402,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.558099500005483,0,,success
+5,4,random_forest_balanced,Random Forest,balanced,0.7069588670563363,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.821605699995416,0,,success
+5,4,hist_gradient_boosting_none,HistGradientBoosting,none,0.6887332628611698,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 15}",3.6146793000079924,0,,success
+5,4,extra_trees_none,Extra Trees,none,0.6848901117881965,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.514048199998797,0,,success
+5,4,extra_trees_balanced,Extra Trees,balanced,0.6860257845209965,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",3.8259930000058375,0,,success
+5,5,logistic_regression_none,Logistic Regression,none,0.7556576365570895,"{""model__C"": 0.1}",0.3052871999971103,0,,success
+5,5,logistic_regression_balanced,Logistic Regression,balanced,0.7572087150575523,"{""model__C"": 0.1}",0.3046846000070218,0,,success
+5,5,svm_none,Support Vector Classifier,none,0.7270041385123465,"{""model__C"": 10.0, ""model__gamma"": ""auto""}",0.5846415999985766,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+5,5,svm_balanced,Support Vector Classifier,balanced,0.7530969752241983,"{""model__C"": 1.0, ""model__gamma"": ""auto""}",0.5681239000114147,25,"The `probability` parameter was deprecated in 1.9 and will be removed in version 1.11. Use `CalibratedClassifierCV(SVC(), ensemble=False)` instead of `SVC(probability=True)`",success
+5,5,random_forest_none,Random Forest,none,0.7371768298580884,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.458186499992735,0,,success
+5,5,random_forest_balanced,Random Forest,balanced,0.7298195705343449,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 3}",4.666014999995241,0,,success
+5,5,hist_gradient_boosting_none,HistGradientBoosting,none,0.71083872238113,"{""model__learning_rate"": 0.05, ""model__max_leaf_nodes"": 7}",3.550493100003223,0,,success
+5,5,extra_trees_none,Extra Trees,none,0.7407194378808606,"{""model__max_depth"": null, ""model__min_samples_leaf"": 3}",3.5368461000034586,0,,success
+5,5,extra_trees_balanced,Extra Trees,balanced,0.7453787187884315,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 1}",4.288051399998949,0,,success

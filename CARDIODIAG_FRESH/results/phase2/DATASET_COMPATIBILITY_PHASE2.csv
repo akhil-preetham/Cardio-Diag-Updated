@@ -1,0 +1,8 @@
+dataset,sample_count,outcome_definition,predictor_availability,track,phase2_decision,evidence
+Z-Alizadeh Sani,303,Cath >=50% narrowing,all strict predictors,primary,eligible internal validation,CC BY 4.0; DOI 10.24432/C5Q31T
+Cleveland,303,angiographic disease coding,strict smoking/FH unavailable or not harmonized,external candidate,not eligible for untouched strict validation,Overlap with Statlog must be respected
+Statlog,270,presence/absence,different coding; exact overlap with Cleveland,external candidate,not independent,270 record-level matches
+MultiD4CAD,"118 (78 CAD, 40 without CAD)",CAD analysis using CCTA-derived multimodal data,Clinical biomarkers and CT-derived EAT/PAT; strict five predictors not verified,external candidate,not direct strict validation; source access restricted by DUA,Zenodo 15148653; created 2025; DUA required
+CADICA,42 patients,Invasive coronary angiography lesion annotations/severity,Selected clinical features; strict five predictors not verified,external candidate,not direct strict validation; imaging task and feature harmonization unresolved,Mendeley DOI 10.17632/p9bpx9ctcv.4; CC BY 4.0; 2024 paper
+NHANES,9254 merged,no angiographic CAD target,risk factors only,descriptive,incompatible,Cross-sectional survey
+Kaggle CVD 70K,70000,cardio label,target/provenance compatibility unresolved,separate benchmark,incompatible for direct validation,Licensing/provenance review pending

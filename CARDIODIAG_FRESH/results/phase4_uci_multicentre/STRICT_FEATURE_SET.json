@@ -1,0 +1,20 @@
+[
+  {
+    "feature":"age"
+  },
+  {
+    "feature":"sex"
+  },
+  {
+    "feature":"trestbps"
+  },
+  {
+    "feature":"chol"
+  },
+  {
+    "feature":"fbs"
+  },
+  {
+    "feature":"restecg"
+  }
+]

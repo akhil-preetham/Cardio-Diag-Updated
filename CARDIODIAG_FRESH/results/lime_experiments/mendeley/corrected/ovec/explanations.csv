@@ -1,0 +1,25 @@
+observation,test_index,feature,weight,probability
+positive_representative,106,numeric__slope > 0.46,0.3161349382057118,0.9999976060347592
+positive_representative,106,numeric__chestpain > 1.09,0.19149593027115488,0.9999976060347592
+positive_representative,106,numeric__restingBP > 0.97,0.097895195356171,0.9999976060347592
+positive_representative,106,numeric__restingrelectro > 0.33,0.09249602548329006,0.9999976060347592
+positive_representative,106,-0.63 < numeric__fastingbloodsugar <= 1.59,0.08371208869530827,0.9999976060347592
+positive_representative,106,numeric__oldpeak <= -0.87,0.048885793485827216,0.9999976060347592
+positive_representative,106,-0.23 < numeric__noofmajorvessels <= 0.79,0.038858521694257915,0.9999976060347592
+positive_representative,106,0.03 < numeric__maxheartrate <= 0.86,0.014358497664206679,0.9999976060347592
+positive_representative,106,numeric__age > 0.84,-0.01298821425411979,0.9999976060347592
+positive_representative,106,numeric__exerciseangia <= -0.97,0.009198899160376106,0.9999976060347592
+positive_representative,106,-0.58 < numeric__serumcholestrol <= 0.05,-0.0083492025824011,0.9999976060347592
+positive_representative,106,numeric__gender <= 0.56,0.0,0.9999976060347592
+negative_representative,229,numeric__slope <= -0.54,-0.48933941775706935,5.519592005189184e-05
+negative_representative,229,numeric__chestpain <= -1.02,-0.26206828003957816,5.519592005189184e-05
+negative_representative,229,numeric__restingBP <= -0.76,-0.10530203267993683,5.519592005189184e-05
+negative_representative,229,numeric__fastingbloodsugar <= -0.63,-0.07038709157136985,5.519592005189184e-05
+negative_representative,229,numeric__restingrelectro <= -0.98,-0.05507870089065624,5.519592005189184e-05
+negative_representative,229,numeric__oldpeak > 0.81,-0.05491432592915251,5.519592005189184e-05
+negative_representative,229,-1.25 < numeric__noofmajorvessels <= -0.23,-0.0333278912200698,5.519592005189184e-05
+negative_representative,229,-0.58 < numeric__serumcholestrol <= 0.05,-0.020645105537278764,5.519592005189184e-05
+negative_representative,229,numeric__age > 0.84,-0.009163695230494037,5.519592005189184e-05
+negative_representative,229,-0.97 < numeric__exerciseangia <= 1.04,-0.00022541876431383386,5.519592005189184e-05
+negative_representative,229,-0.76 < numeric__maxheartrate <= 0.03,-0.00021669255283154204,5.519592005189184e-05
+negative_representative,229,numeric__gender <= 0.56,0.0,5.519592005189184e-05

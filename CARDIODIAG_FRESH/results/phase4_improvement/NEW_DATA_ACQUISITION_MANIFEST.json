@@ -1,0 +1,9 @@
+{
+  "generated_utc": "2026-11-13T14:08:15.547264+00:00",
+  "acquired_files": [
+    "results/public_dataset_acquisition_v1/downloads/uci_heart_disease_official.zip",
+    "results/public_dataset_acquisition_v1/downloads/AngioCAD_Features.xlsx",
+    "results/public_dataset_acquisition_v1/downloads/AngioCAD_Labels.xlsx"
+  ],
+  "historical_modified": false
+}

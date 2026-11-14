@@ -1,0 +1,232 @@
+{
+  "phase": "Phase 6 \u2014 selection-aware ZAS validation",
+  "created_utc": "2026-11-13T18:24:18.906397+00:00",
+  "research_question": "Retrospective discrimination of angiography-defined CAD using recorded clinical features.",
+  "decision": "1. Improvement supported by selection-aware validation",
+  "source_rows": 303,
+  "target": {
+    "field": "Cath",
+    "mapping": {
+      "Cad": 1,
+      "Normal": 0
+    }
+  },
+  "outer_design": "first three repeats of frozen V3 5-fold outer assignments; 15 paired outer folds",
+  "inner_design": "3-fold deterministic stratified CV within each outer training split",
+  "patient_identifier_verified": false,
+  "candidate_groups": {
+    "v3_five_predictor": [
+      "Age",
+      "Sex",
+      "Current Smoker",
+      "EX-Smoker",
+      "FH"
+    ],
+    "basic_risk": [
+      "Age",
+      "Sex",
+      "DM",
+      "HTN",
+      "Current Smoker",
+      "EX-Smoker",
+      "FH"
+    ],
+    "symptoms_examination": [
+      "Typical Chest Pain",
+      "Dyspnea",
+      "Function Class",
+      "Atypical",
+      "Nonanginal",
+      "Exertional CP",
+      "LowTH Ang",
+      "BP",
+      "PR",
+      "Edema"
+    ],
+    "resting_ecg": [
+      "Q Wave",
+      "St Elevation",
+      "St Depression",
+      "Tinversion",
+      "LVH",
+      "Poor R Progression",
+      "BBB"
+    ],
+    "laboratory": [
+      "FBS",
+      "CR",
+      "TG",
+      "LDL",
+      "HDL",
+      "BUN",
+      "ESR",
+      "HB",
+      "K",
+      "Na",
+      "WBC",
+      "Lymph",
+      "Neut",
+      "PLT"
+    ],
+    "eligible_combined": [
+      "Age",
+      "Sex",
+      "DM",
+      "HTN",
+      "Current Smoker",
+      "EX-Smoker",
+      "FH",
+      "Typical Chest Pain",
+      "Dyspnea",
+      "Function Class",
+      "Atypical",
+      "Nonanginal",
+      "Exertional CP",
+      "LowTH Ang",
+      "BP",
+      "PR",
+      "Edema",
+      "Q Wave",
+      "St Elevation",
+      "St Depression",
+      "Tinversion",
+      "LVH",
+      "Poor R Progression",
+      "BBB",
+      "FBS",
+      "CR",
+      "TG",
+      "LDL",
+      "HDL",
+      "BUN",
+      "ESR",
+      "HB",
+      "K",
+      "Na",
+      "WBC",
+      "Lymph",
+      "Neut",
+      "PLT"
+    ]
+  },
+  "unique_model_families": [
+    "logistic_l2",
+    "elastic_net",
+    "spline_logistic",
+    "random_forest",
+    "hist_gradient_boosting"
+  ],
+  "phase5_hyperparameter_grids": {
+    "logistic_l2": [
+      "logistic",
+      {
+        "model__C": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      }
+    ],
+    "elastic_net": [
+      "elastic_net",
+      {
+        "model__C": [
+          0.1,
+          1.0,
+          10.0
+        ],
+        "model__l1_ratio": [
+          0.25,
+          0.75
+        ]
+      }
+    ],
+    "spline_logistic": [
+      "spline_logistic",
+      {
+        "model__C": [
+          0.1,
+          1.0,
+          10.0
+        ]
+      }
+    ],
+    "random_forest": [
+      "random_forest",
+      {
+        "model__max_depth": [
+          null,
+          5
+        ],
+        "model__min_samples_leaf": [
+          2,
+          8
+        ]
+      }
+    ],
+    "hist_gradient_boosting": [
+      "hist_gradient_boosting",
+      {
+        "model__learning_rate": [
+          0.05,
+          0.1
+        ],
+        "model__max_leaf_nodes": [
+          7,
+          15
+        ]
+      }
+    ]
+  },
+  "v3_comparator_grid": {
+    "model__C": [
+      0.1,
+      1.0,
+      10.0
+    ]
+  },
+  "duplicate_alias_removed": "Phase 5 ridge is the same L2 LogisticRegression implementation as logistic",
+  "historical_0928_used_for_selection": false,
+  "outputs": {
+    "results/phase6_zas_selection/CALIBRATION_RESULTS.csv": "b3a6279c73815b5374971c7216712083e08a67f4a708045d167f7fe03a2745e2",
+    "results/phase6_zas_selection/DEMOGRAPHIC_ONLY_SENSITIVITY.csv": "2fb27b9d215af553ef75409a72d0a5084b559637dab5666f88319be167ba790e",
+    "results/phase6_zas_selection/FEATURE_PERMUTATION_IMPORTANCE.csv": "1ea4833d282560fd4874f6b319b5d2435e10a54f246b661dd8d2e02083d391f0",
+    "results/phase6_zas_selection/FEATURE_SELECTION_FREQUENCY.csv": "abed20d248e53655658276b1b0037663b3b4031be733e7e24b308abbac1db60d",
+    "results/phase6_zas_selection/INNER_CANDIDATE_SELECTION_SCORES.csv": "96f8d95d88853aa2111f66a8ce0090e3b9365716a6d01d855002c3fa29d88c1e",
+    "results/phase6_zas_selection/MODEL_SELECTION_FREQUENCY.csv": "999ce18db784837a5d5def8d80892569057ea68c8e6aa64f84990eca1ecc6eb1",
+    "results/phase6_zas_selection/OUTER_FOLD_PREDICTIONS.csv": "359a5b4f039903c130e9688d5bf6e5459ab81d2f946bf769002c0078a578a3fd",
+    "results/phase6_zas_selection/OUTER_MODEL_SELECTIONS.csv": "5799cffb36219dd7bcc96747626a2fd0eb7ed84663ddf3fcaaa0ee0f1e615890",
+    "results/phase6_zas_selection/PAIRED_REPEAT_DIFFERENCES.csv": "3ce4b8d577235814604022f3d52e0ada7cd00bb9595684f4dbaaa852b8ab92cf",
+    "results/phase6_zas_selection/PERFORMANCE_COMPARISON.csv": "04e889999fa1d0d1e9a5e62ccfd12140bf125d2e3f2937ee6e414a4cd9d0bfc0",
+    "results/phase6_zas_selection/PERFORMANCE_COMPARISON_SUMMARY.csv": "a473b135891f9c77ff60433e1099a7c1b0b286ca6372a478f38cd5c3edc7fa5c",
+    "results/phase6_zas_selection/PHASE6_FINAL_DECISION.md": "4f6bda9dd3de53bf82d499a3e66d935ec66cfb07d855527b34bb01ca34530307",
+    "results/phase6_zas_selection/REPEAT_LEVEL_PERFORMANCE.csv": "a99bb8ee87678544b24c368b188444e01be15b2f1783a5c3bfe34d714e81d881",
+    "results/phase6_zas_selection/ROBUSTNESS_REPORT.md": "f3037c3fc3ca341d9f80176338a57f6cbab209051d9ca9b075907bd8c6038574",
+    "results/phase6_zas_selection/SELECTION_AWARE_PROTOCOL.md": "a4ec02478fdda0e418043df2b6ebff28b31427c1d33e5307b1b49acff944a399"
+  },
+  "inputs": {
+    "data/interim/validated/z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "results/methodology_corrections_v2/reproducibility/split_manifest_v2.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "runner/phase6_zas_selection/run.py": "b58292e4cbfecbe50c1234a5352b5ceed505dbe053d95e67f084166afedaba5f",
+    "runner/phase6_zas_selection/finalize.py": "3c171a01d316fa1e5d90fa79f51bda0f81cf0915828a9aeb4921ded368d05000",
+    "tests/test_phase6_zas_selection.py": "87f7e1ba4c5834d7d665a155e402ccafd679b68759e18df9310e18253e08c25d",
+    "results/phase6_zas_selection/SELECTION_AWARE_PROTOCOL.md": "a4ec02478fdda0e418043df2b6ebff28b31427c1d33e5307b1b49acff944a399"
+  },
+  "software": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "scikit_learn": "1.9.1",
+    "pandas": "3.1.1",
+    "numpy": "2.4.6"
+  },
+  "validation_checks": {
+    "outer_prediction_rows": 1818,
+    "expected_outer_prediction_rows": 1818,
+    "unique_source_rows_per_repeat_and_model": 303,
+    "selection_rows": 30,
+    "paired_repeat_rows": 3,
+    "outer_paired_fold_auc_differences_positive": 15,
+    "no_target_or_downstream_predictor_fields": true
+  },
+  "historical_namespaces_modified": false
+}

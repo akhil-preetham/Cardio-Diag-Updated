@@ -1,0 +1,9 @@
+stage,model,validation,held_out_centre,best_params,inner_best_roc_auc
+stage2_symptoms,logistic,prespecified_low_complexity,Cleveland,"{""model__C"": 1.0}",
+stage2_symptoms,logistic,prespecified_low_complexity,Hungary,"{""model__C"": 1.0}",
+stage2_symptoms,logistic,prespecified_low_complexity,Switzerland,"{""model__C"": 1.0}",
+stage2_symptoms,logistic,prespecified_low_complexity,VA Long Beach,"{""model__C"": 1.0}",
+stage4_exercise_test,logistic,prespecified_low_complexity,Cleveland,"{""model__C"": 1.0}",
+stage4_exercise_test,logistic,prespecified_low_complexity,Hungary,"{""model__C"": 1.0}",
+stage4_exercise_test,logistic,prespecified_low_complexity,Switzerland,"{""model__C"": 1.0}",
+stage4_exercise_test,logistic,prespecified_low_complexity,VA Long Beach,"{""model__C"": 1.0}",

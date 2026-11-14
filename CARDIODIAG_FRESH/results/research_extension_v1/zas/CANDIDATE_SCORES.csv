@@ -1,0 +1,1411 @@
+repeat,fold,model_id,component,group,family,best_score,best_params
+1,1,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.9243594576980515,{'model__C': 0.1}
+1,1,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8425542345786171,{'model__C': 0.1}
+1,1,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.910359878540262,{'model__C': 1.0}
+1,1,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7202771055992473,{'model__C': 1.0}
+1,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.6415021929824561,{'model__C': 10.0}
+1,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.6423428362573099,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+1,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.6390533625730994,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.6311586257309941,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.5954678362573099,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.7906980994152045,{'model__C': 1.0}
+1,1,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.7918676900584796,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,1,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.7901498538011694,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.7902595029239766,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,1,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.8040387426900585,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8360562865497077,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.8387061403508772,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+1,1,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8257675438596491,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8292945906432748,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,1,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.7913377192982457,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.7004934210526317,{'model__C': 1.0}
+1,1,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.7048793859649122,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,1,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.7024488304093568,{'model__C': 10.0}
+1,1,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.6944261695906433,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,1,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6218567251461988,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.5507309941520467,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.5334795321637427,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+1,1,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.5242324561403509,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.5513157894736843,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,1,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.5114766081871345,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.8722222222222223,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.8676169590643275,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,1,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.84031432748538,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.8298611111111112,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,1,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.7994152046783626,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.6832691370520317,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7036807429899535,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+1,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.671245220422852,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.6629081384015595,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.6785987404408456,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.7978669965512072,{'model__C': 1.0}
+1,1,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.7976111485979906,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,1,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.795858636977058,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.7926652234218023,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,1,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.7960259221772379,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.826459645374119,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8186127043034936,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+1,1,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.809151953066427,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.7968379817064027,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,1,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.7754048582995953,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.6587325686009896,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.6557907857249963,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,1,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.6510571300044985,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.6432617333933125,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,1,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.6178774928774929,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.6790954415954417,{'model__C': 1.0}
+1,1,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.6789679862048285,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+1,1,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.6470732118758434,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.6240206552706552,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,1,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.6183142150247414,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.8743018068675964,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.8773223121907332,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+1,1,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.8671914829809566,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.8486270430349379,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,1,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8309725970910181,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7644427575348628,{'model__C': 1.0}
+1,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7644427575348628,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+1,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.7425808779427201,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.715367277702804,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.697943376068376,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.8323619545659019,{'model__C': 10.0}
+1,1,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.8312654633378317,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+1,1,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.8249545471584945,{'model__C': 1.0}
+1,1,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.7853885515069724,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,1,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.7687378167641326,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8373205315639526,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8427167678812415,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,1,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.846049351476983,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.8855661455990402,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,1,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.8211411943319837,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.656578947368421,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.6678704640875694,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,1,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.663964799820063,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.6283288349077822,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,1,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.6395435035237667,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.6755351252061779,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.7016166216824112,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+1,1,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.6377708427050534,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.6612807392412655,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,1,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.6418241115609536,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,1,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.9070878317588843,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.9053137651821862,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,1,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.8937790523316839,{'model__C': 0.1}
+1,1,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.8943488529014845,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,1,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8720957040035987,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,2,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.9159280009118248,{'model__C': 0.1}
+1,2,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8348194323890685,{'model__C': 0.1}
+1,2,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.9062135598867234,{'model__C': 0.1}
+1,2,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7262004962431066,{'model__C': 1.0}
+1,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.7351116171839855,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.738015444594392,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.7238842967461389,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.7114719223271856,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.6708811291048132,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.8026325161193583,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.8000374868795922,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,2,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.7930433723196882,{'model__C': 10.0}
+1,2,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.8050579172289698,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,2,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.7826449805068227,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8350628842405158,{'model__C': 1.0}
+1,2,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.8322569913030439,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8159839368720948,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8395331946318789,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,2,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.8114334982756035,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.7073732006297796,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.6965910368870896,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.7077443207377417,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.6666352714050082,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,2,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6447237216974059,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.6311544084570401,{'model__C': 1.0}
+1,2,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.6324120932673564,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.6051441370520317,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.634852489128805,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,2,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.6347475258659468,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.8989991003148899,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.8911109236767132,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.8684135552556604,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.8619854925775979,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,2,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.8398504273504274,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.7645875506072874,{'model__C': 10.0}
+1,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7678835844954266,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.7598445231668917,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.7020294459439196,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.6403377567851253,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.8034581646423752,{'model__C': 10.0}
+1,2,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.8031840418353576,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.7892239278752436,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.7258308029689609,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,2,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.6994301994301995,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8480919178287598,{'model__C': 10.0}
+1,2,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8492980581796371,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+1,2,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.8275313015444595,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.8449238079172291,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,2,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.8057551731893837,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.6823183760683761,{'model__C': 1.0}
+1,2,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.6877024291497976,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.6823183760683761,{'model__C': 1.0}
+1,2,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.678010196431249,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,2,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.669078947368421,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.6592611336032389,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.6540204678362573,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,2,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.6780579922027291,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.6510889938521518,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+1,2,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.6438221622432149,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.8896592442645074,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.8850277402908983,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.8727714050082471,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.8989672364672364,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,2,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8795621532463637,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.6919848365572049,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7143410743739692,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+1,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.6915012558104664,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.6756546146348779,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.6684875918428549,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.7887220722747038,{'model__C': 1.0}
+1,2,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.7860023991602939,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,2,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.7880229419703104,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.7383054993252361,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+1,2,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.7331510533813166,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8540059416704153,{'model__C': 1.0}
+1,2,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8545972971959813,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.842385008996851,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.8395360061478483,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,2,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.808353951117109,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.650997619583146,{'model__C': 1.0}
+1,2,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.636182804768331,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.6487184173039436,{'model__C': 1.0}
+1,2,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.6091894399460188,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,2,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.5662018293597241,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.6704387839256261,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.6700414230019494,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.659150547308442,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.6549248388064178,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,2,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.6357671689908532,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,2,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.8946852976458239,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.8881710151446994,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,2,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.8774956890088469,{'model__C': 0.1}
+1,2,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.8718192382666068,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,2,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8305902309191783,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.9208027565164786,{'model__C': 0.1}
+1,3,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8411539844113031,{'model__C': 0.1}
+1,3,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.9124955066326486,{'model__C': 0.1}
+1,3,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7430100739104133,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.776664886039886,{'model__C': 1.0}
+1,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.7837278827410407,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+1,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.7717372357174989,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.766498444294497,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.7521381578947368,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.7846837981706404,{'model__C': 1.0}
+1,3,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.7829059829059829,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,3,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.7846219448193131,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.7806286549707603,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,3,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.758816914080072,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8989578647473384,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.900438127905233,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,3,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8897745164192532,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8650819088319088,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,3,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.8741396761133603,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.669093473534263,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.6666512033288349,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,3,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.6725291460488828,{'model__C': 1.0}
+1,3,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.6596767693807167,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,3,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6036062378167641,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.7102151746888589,{'model__C': 10.0}
+1,3,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.7108215249662618,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+1,3,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.6754470310391363,{'model__C': 1.0}
+1,3,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.6816464237516868,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,3,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.6872816389263757,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.9461922702054282,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.9464359349227771,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,3,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.949813502774029,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.934647248463038,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,3,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.9355891063127905,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.7411854288499025,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7454964200029989,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.7405425288648972,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.7057950029989503,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.6277538798920378,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.7867165242165242,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.7864241265557056,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,3,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.7869442570100466,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.7682935972409656,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,3,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.6976669103313841,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8324373969110811,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8407955653021443,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,3,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.8261105488079172,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.8252961463487779,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,3,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.8129681174089068,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.7292599152796521,{'model__C': 10.0}
+1,3,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.7262445644024592,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+1,3,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.727615178437547,{'model__C': 10.0}
+1,3,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.7133425176188334,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,3,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.6342124006597691,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.7083755060728745,{'model__C': 1.0}
+1,3,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.710862760533813,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,3,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.7167753786174839,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.6507122507122507,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,3,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.6596210076473233,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.9116846603688709,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.8848468660968661,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,3,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.892204603388814,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.8743271105113211,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,3,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8291254310991153,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7683709139301245,{'model__C': 10.0}
+1,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7683709139301245,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+1,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.7644685297645823,{'model__C': 1.0}
+1,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.7597437771779877,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.7560461650922177,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.8348726383265858,{'model__C': 10.0}
+1,3,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.8337545921427502,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+1,3,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.8334650059979007,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.8241542022792023,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,3,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.8139901034637876,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8824959701604439,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8786413817663817,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,3,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.8701112423151898,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.8778621232568601,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,3,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.8641761321037637,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.7517403283850652,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.7534497300944669,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,3,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.7545462213225371,{'model__C': 10.0}
+1,3,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.7433442045284151,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,3,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.6675850952166743,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.7254414080071975,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.7087353801169591,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,3,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.7365815714499924,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.6857184360473835,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,3,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.6624119058329584,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,3,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.933120595291648,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.9213272229719598,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,3,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.9131466486729645,{'model__C': 0.1}
+1,3,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.9013101664417454,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,3,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8892365796971059,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.9083210587688613,{'model__C': 0.1}
+1,4,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8512845185594338,{'model__C': 0.1}
+1,4,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.891477141546186,{'model__C': 0.1}
+1,4,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7359357601900803,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.7232493627230469,{'model__C': 1.0}
+1,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.7283930311890838,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.7277431024141551,{'model__C': 1.0}
+1,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.7001030889188784,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.6502975521067627,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.7691290860698755,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.760668297345929,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.7741495164192532,{'model__C': 1.0}
+1,4,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.74904595891438,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,4,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.7270177312940471,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.86436028639976,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.847552575348628,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8471767693807167,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8478852714050081,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,4,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.8257614522417155,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.734021686159844,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.7316839106312791,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+1,4,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.7410040860698756,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.7305382178737441,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,4,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6583684772829509,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.7112479382216224,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.7280617408906882,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.7339631129104814,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.6992943094916778,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,4,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.7060981781376517,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.9325104963262859,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.914966636677163,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.9287158869395711,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.8915523316839106,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,4,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.8559472934472935,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.7476847165991902,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7458459851551957,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.7382567663817664,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.7004203216374268,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.7135411980806717,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.7964752961463488,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.7919168915879441,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.7925082471135103,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.7890571112610587,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,4,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.7538695831458989,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8110436347278452,{'model__C': 10.0}
+1,4,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8088506522717048,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.7994442570100464,{'model__C': 1.0}
+1,4,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.7668067738791423,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,4,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.7468004948268105,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.7143049932523616,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.7011995801469486,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,4,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.7170677762783025,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.6715296521217574,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,4,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.6568825910931174,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.6349068451042136,{'model__C': 10.0}
+1,4,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.639422139751087,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.6154286624681361,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.6404230394361973,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,4,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.62757628579997,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.8693516644174539,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.8545921427500374,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.871125730994152,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.8627633453291347,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,4,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.807236842105263,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7552481631429,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7587424089068827,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.7409722222222221,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.7085071787374418,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.6302209851551956,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.8204228520017994,{'model__C': 10.0}
+1,4,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.8209710976158343,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.8220244789323736,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.8161784000599791,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,4,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.746440620782726,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8673868833408308,{'model__C': 1.0}
+1,4,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8809543222372169,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+1,4,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.860968192382666,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.8535992090268406,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,4,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.8708811291048133,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.7025416104363473,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.7032622956965061,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.7079331608936871,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.6775425476083371,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,4,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.6199172477133003,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.628020505323137,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.6279127305443095,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,4,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.5749793822162244,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.615377118008697,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,4,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.5472222222222222,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,4,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.9391944069575647,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.941827860248913,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,4,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.929680236917079,{'model__C': 0.1}
+1,4,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.9069219523166892,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,4,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.9024835057729795,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.9283030268491484,{'model__C': 0.1}
+1,5,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8457204146464781,{'model__C': 0.1}
+1,5,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.9162703005222536,{'model__C': 0.1}
+1,5,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7200842195861132,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.7345868008696956,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.7436483168391064,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+1,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.7378331646423751,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.7049970010496326,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.6725089968511021,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.7929070137951717,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.7893218623481782,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,5,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.7967878430049483,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.7797491190583296,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.770405982905983,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8532646386264808,{'model__C': 10.0}
+1,5,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.8549093754685861,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+1,5,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8422781713900136,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8642342367671315,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,5,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.8176919328235117,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.7219584083070925,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.7231458052181736,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,5,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.7229733655720496,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.7066539211276054,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6526934322986955,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.7036156095366621,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.7107643574748836,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,5,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.6804262258209626,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.7009606012895487,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+1,5,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.6923611111111111,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.9445718998350578,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.9417013420302892,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,5,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.9467002174239015,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.9306933198380567,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.9252539736092368,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.7627923976608187,{'model__C': 10.0}
+1,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7647866996551208,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.7517628205128206,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.7183090605787975,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.6595961725895937,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.833949992502624,{'model__C': 1.0}
+1,5,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.8326009334233019,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,5,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.8323052556605187,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.8236256372769531,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.7685564739841055,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8168620670265407,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8354822687059529,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+1,5,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.8130674576398261,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.8358257422402159,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.8097995389113809,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.7027838693957116,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.6943352639076323,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,5,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.671259746588694,{'model__C': 1.0}
+1,5,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.7202846191333033,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.7131789811066126,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.7555696131354027,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.7542360173939121,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,5,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.7247600839706102,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.7280617408906883,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+1,5,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.7213628355075722,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.9231781376518219,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.9222971959814066,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+1,5,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.9000871569950517,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.8982268705952916,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.9301113360323887,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7398016944069576,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7448160331384015,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.706817926225821,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.7175518256110361,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+1,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.7370853013945119,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.7860914304993253,{'model__C': 1.0}
+1,5,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.7886602189233768,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+1,5,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.7674604513420303,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.7989906657669815,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.8048133153396311,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8420368496026391,{'model__C': 10.0}
+1,5,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.84370314140051,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+1,5,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.836101739391213,{'model__C': 10.0}
+1,5,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.8646779877043035,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.8439664867296447,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.6050485455090719,{'model__C': 10.0}
+1,5,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.6083487966711653,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+1,5,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.6080638963862649,{'model__C': 10.0}
+1,5,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.5962335057729796,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.5697148185635028,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.7099799445194183,{'model__C': 1.0}
+1,5,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.7232793522267208,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+1,5,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.6703863022941969,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.6675157444894287,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+1,5,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.6448530514319988,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+1,5,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.8902159244264508,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.8887745539061328,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+1,5,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.8764976008397061,{'model__C': 0.1}
+1,5,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.8814224396461238,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+1,5,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8596622432148747,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.9452419258207154,{'model__C': 0.1}
+2,1,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8766914057591088,{'model__C': 0.1}
+2,1,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.9206579093494188,{'model__C': 1.0}
+2,1,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7459340505186004,{'model__C': 1.0}
+2,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.7773391812865498,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.7763157894736842,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.7737938596491226,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.7626096491228069,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.7109100877192982,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.8541483918128655,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.855720029239766,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+2,1,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.8532711988304094,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.8241045321637426,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,1,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.8059758771929824,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8246162280701754,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.822076023391813,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8038559941520468,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.7939144736842106,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,1,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.7584247076023392,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.7588998538011694,{'model__C': 10.0}
+2,1,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.7521381578947368,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.7610928362573098,{'model__C': 10.0}
+2,1,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.7291118421052633,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,1,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6769919590643276,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.7094663742690058,{'model__C': 10.0}
+2,1,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.7089181286549708,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.6860380116959064,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.6580043859649122,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+2,1,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.6497076023391813,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.9402046783625732,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.9479532163742691,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.9329678362573101,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.8998538011695906,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,1,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.8876827485380118,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.6881653921127606,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.713992914979757,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.6879957639826061,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.6947049782576098,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.6877666254310991,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.7888518705952916,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.7824298995351627,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,1,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.7853768368571,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.7804126368271106,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,1,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.7860169253261359,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8971247563352827,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8924581084120558,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.8583286474733844,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.8654872357174987,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,1,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.8559932148747939,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.6500834083070925,{'model__C': 10.0}
+2,1,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.6555883565751986,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.6437846753636228,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.6300794721847354,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,1,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.5822162243214876,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.7427312940470836,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.7335395111710902,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.7160462588094166,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.7069491303043934,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,1,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.6586266681661419,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.924174351476983,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.9181689533663219,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.9148579247263458,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.9046539961013647,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,1,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8844251387014546,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7446646798620483,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7549735717498876,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.735295302893987,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.7508078422552108,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.7166118421052632,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.8113824224021592,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.8047172552106763,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.817037318188634,{'model__C': 1.0}
+2,1,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.8209551656920079,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,1,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.8010074598890388,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8098642037786775,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8136588131653921,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,1,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.8076281114110061,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.7988622732043785,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,1,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.7664173789173789,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.7016381766381766,{'model__C': 10.0}
+2,1,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.7029549032838506,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+2,1,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.7108674463937623,{'model__C': 10.0}
+2,1,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.681340905683011,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,1,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.6325578235117709,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.6990815714499924,{'model__C': 1.0}
+2,1,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.7002642825011246,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.6824186534712849,{'model__C': 10.0}
+2,1,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.6775678512520619,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,1,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.6711276053381315,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,1,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.8982699805068225,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.8741565452091767,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,1,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.8868739691108112,{'model__C': 0.1}
+2,1,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.8711688409056829,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+2,1,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8722653321337531,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.9348527490640643,{'model__C': 0.1}
+2,2,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8462479286672453,{'model__C': 1.0}
+2,2,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.9341162751957355,{'model__C': 0.1}
+2,2,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7453027872028898,{'model__C': 1.0}
+2,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.6932237779277252,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.6946749887539362,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.67385477582846,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.6828848965362123,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.672490253411306,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.8239962887989204,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.816273054430949,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.8152346678662469,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.8038602114260008,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,2,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.7808882516119358,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8761522529614636,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.8845394736842106,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,2,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8615651709401709,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.872418559754086,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,2,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.8549440508322087,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.6936993927125507,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.689407613585245,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.6899919403208878,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.682404595891438,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,2,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.5928943619733094,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.7245464087569351,{'model__C': 1.0}
+2,2,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.7257675438596491,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.6687097016044384,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.7701670040485831,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,2,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.7601017768780927,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.9440067851252062,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.9339921652421652,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.9183310841205579,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.9248584870295397,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,2,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.8657060653771179,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.7732746663667717,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7687378167641326,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.7731322162243215,{'model__C': 1.0}
+2,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.7307078460038987,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.7001223009446694,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.8499015969410705,{'model__C': 10.0}
+2,2,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.8504863922627081,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.8439477432898487,{'model__C': 10.0}
+2,2,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.7848304655870445,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,2,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.7842648822911982,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8611504723346828,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8509502923976608,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.8390444594391964,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.8693554131054132,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,2,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.8406840418353577,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.6836238566501724,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.6919703103913631,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.6775069350727246,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.6473674838806418,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,2,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.6593867146498726,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.5917500749737591,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.5707686684660368,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.6720685260158944,{'model__C': 1.0}
+2,2,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.6393640350877193,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,2,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.6453544384465437,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.9108758809416705,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.9100755360623781,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.8780411231069126,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.9015060353876144,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,2,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8938221622432149,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7119555030739241,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.707461763382816,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.7120632778527516,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.6923789173789174,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.6708956552706553,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.7878270730244415,{'model__C': 1.0}
+2,2,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.7872357174988754,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.789752024291498,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.7695147323436796,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,2,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.762838787674314,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8668972109761585,{'model__C': 1.0}
+2,2,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8668972109761582,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.8584579772079772,{'model__C': 10.0}
+2,2,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.8567532613585245,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,2,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.8041497975708501,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.6457817888738941,{'model__C': 10.0}
+2,2,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.6463300344879293,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+2,2,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.6400406732643575,{'model__C': 10.0}
+2,2,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.6554805817963714,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,2,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.5299145299145299,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.6059800944669366,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.5891231818863398,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.6050438596491229,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.5945409731593942,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+2,2,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.5333380191932824,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,2,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.8906132853501275,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.8624681361523466,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,2,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.8681661418503525,{'model__C': 0.1}
+2,2,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.8648335582546108,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,2,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.7989306867596341,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,3,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.8971259984043066,{'model__C': 0.1}
+2,3,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8400054358785519,{'model__C': 0.1}
+2,3,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.8875167679318237,{'model__C': 0.1}
+2,3,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7341636199444137,{'model__C': 1.0}
+2,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.6988388439046335,{'model__C': 1.0}
+2,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.6992540110961164,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.684513232868496,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.6438352826510721,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.6015749175288648,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.7828450667266457,{'model__C': 10.0}
+2,3,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.7858191820362873,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,3,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.7801656920077972,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.7724457377417903,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,3,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.7544431324036586,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8240501761883342,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.850195868945869,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,3,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8356711088618983,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8467175551057129,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,3,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.8072213787674314,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.7198694519418204,{'model__C': 10.0}
+2,3,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.7273199692607588,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+2,3,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.7190288086669666,{'model__C': 10.0}
+2,3,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.710744208277103,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,3,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.621017019043335,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.6894249512670566,{'model__C': 10.0}
+2,3,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.6905945419103313,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+2,3,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.7008734442944968,{'model__C': 1.0}
+2,3,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.6859002474134052,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+2,3,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.7053784300494828,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.9011658419553156,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.9160293897136002,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,3,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.9071346903583747,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.8847803268855902,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,3,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.888259109311741,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.7653190133453291,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7524788199130305,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+2,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.7679074823811666,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.6866724771330034,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.6369372282201229,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.8300710376368272,{'model__C': 1.0}
+2,3,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.8314243139901034,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+2,3,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.8285125206177838,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.7435710001499475,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,3,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.704718660968661,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8238997600839707,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8314753898635477,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,3,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.8048226870595291,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.8328699017843754,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,3,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.784022154745839,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.6880721434997751,{'model__C': 10.0}
+2,3,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.6912060466336781,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+2,3,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.6861790560803719,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.6796685222672064,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,3,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.6265261845853952,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.6717845629029839,{'model__C': 10.0}
+2,3,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.6717845629029839,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+2,3,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.6912561853351327,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.6878701829359724,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,3,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.6644530664267506,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.9092817513870145,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.8964143799670116,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,3,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.8933741940320887,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.8769680611785876,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,3,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8221819238266607,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7060157070025491,{'model__C': 1.0}
+2,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7153944556905083,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.6905664267506374,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.6937589031339031,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.6401128355075725,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.7682195606537712,{'model__C': 10.0}
+2,3,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.769074261508472,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+2,3,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.773922252211726,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.7082564852301695,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,3,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.6700859386714649,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8333961238566502,{'model__C': 10.0}
+2,3,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8331866659169291,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,3,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.810620970160444,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.8135346378767432,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,3,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.7840882253711201,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.6752469448193134,{'model__C': 1.0}
+2,3,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.6713014507422401,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,3,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.6752469448193134,{'model__C': 1.0}
+2,3,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.6676792810016495,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,3,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.593587869245764,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.6730937921727396,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.6712981706402759,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,3,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.6549463937621832,{'model__C': 10.0}
+2,3,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.64532444894287,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+2,3,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.6389704228520018,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,3,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.8677659694107063,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.8801938071674914,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,3,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.8609714724846304,{'model__C': 0.1}
+2,3,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.8783335207677313,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,3,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8535978032688559,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.8849990209573576,{'model__C': 0.1}
+2,4,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8116508266334669,{'model__C': 0.1}
+2,4,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.9017110596748409,{'model__C': 0.1}
+2,4,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7648374277773394,{'model__C': 1.0}
+2,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.6667814702354177,{'model__C': 1.0}
+2,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.6678489091318038,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.6575845329134803,{'model__C': 1.0}
+2,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.6214743589743589,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.6148785425101214,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.7563516831608936,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.7514174726345778,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.7547716111860848,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.7376789998500525,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.7324800382366172,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8119030214424953,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.814756710151447,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,4,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8182664192532614,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8230174126555706,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,4,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.8100521067626332,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.6253565939421203,{'model__C': 10.0}
+2,4,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.6478979232268706,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.6291943132403658,{'model__C': 10.0}
+2,4,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.6467091205578047,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6067626330784225,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.6180190058479532,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.6109995876443245,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.6313399685110211,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.6178278227620333,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.6739550532313691,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.8439168166141849,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.8911643424801321,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,4,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.8622675813465287,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.8710610661268556,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.8662992952466637,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.7664112872994452,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7664173789173789,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.7679913592742539,{'model__C': 1.0}
+2,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.7722540860698754,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.7392717236467238,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.8414436197330936,{'model__C': 1.0}
+2,4,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.842561665916929,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.8403686834607887,{'model__C': 1.0}
+2,4,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.8113594616884091,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,4,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.7820100464837307,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8217929974508923,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8177134877792772,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.7953141400509821,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.7860876818113661,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.7818619733093417,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.6261578759934023,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.6453403808666965,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.6264319988004199,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.6278982043784676,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.6416905645524066,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.671330971659919,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.6959279877043035,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.6436722147248463,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.6661287299445194,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.6302125506072874,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.8950114334982756,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.8998069425701005,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.8744245763982607,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.8735558179637127,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8313812040785725,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7730277215474585,{'model__C': 1.0}
+2,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7725225858449543,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.7758336144849304,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.7374105000749737,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.7265519568151148,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.8075329884540411,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.8030223796671164,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+2,4,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.7994264507422403,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.8077208914379966,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,4,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.7765542997450892,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8834214275003749,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.880615534562903,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.8852170490328386,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.888458726945569,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,4,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.8926029014844805,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.6770266344279502,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.6992474508921878,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.6781231256560204,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.6733660406357774,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,4,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.6777412280701753,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.7054215399610136,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.7224940020992653,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.7099490178437547,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.7317832508621983,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,4,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.6943919628130155,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,4,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.9196178212625581,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.9249184660368871,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,4,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.9202091767881241,{'model__C': 0.1}
+2,4,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.9203169515669516,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,4,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8933114035087719,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.932280935555614,{'model__C': 0.1}
+2,5,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8386976102591978,{'model__C': 0.1}
+2,5,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.9165908639247627,{'model__C': 1.0}
+2,5,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7390763682486243,{'model__C': 1.0}
+2,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.7562823324336483,{'model__C': 1.0}
+2,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.757905514319988,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.7525894062078273,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.7380655832958464,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.7263738941370521,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.8539314364972258,{'model__C': 1.0}
+2,5,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.8528133903133902,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,5,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.8588225371120108,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.8358487029539661,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.8343595366621681,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8925363622732044,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.8999006597690808,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+2,5,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8842264582396161,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8864625506072875,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.8275772229719598,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.6757506747638327,{'model__C': 10.0}
+2,5,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.6793142712550607,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+2,5,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.6793142712550607,{'model__C': 10.0}
+2,5,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.6472559604138551,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6052181736392263,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.7332330559304244,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.744327297945719,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,5,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.6948867896236317,{'model__C': 1.0}
+2,5,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.7102039286249813,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+2,5,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.7041947818263607,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.9525275528565001,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.94141175588544,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,5,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.9169440695756484,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.9252230469335734,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.8978416929074825,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.6518284225521067,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.655515257159994,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+2,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.6659750337381917,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.6416858786924576,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.5702401034637876,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.7524296183835658,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.7481083183385815,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+2,5,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.7630618346078872,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.7115253411306043,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,5,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.6856378392562603,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8155359686609686,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8165879442195232,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,5,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.7804145111710902,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.8017637576848102,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.7888893574748838,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.7211950817213975,{'model__C': 10.0}
+2,5,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.7227967086519719,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+2,5,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.7250974658869396,{'model__C': 10.0}
+2,5,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.7232587344429451,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.6653049557654821,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.7212485005248164,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.7212053906132853,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+2,5,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.7578516269305743,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.7467452016794122,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+2,5,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.7537430649272755,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.8827991452991452,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.8854757085020243,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,5,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.8922486504723347,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.8981931324036587,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8602133003448792,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.732485661268556,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7428236054880792,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.7426989616134353,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.7007230281901334,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.6639708914379967,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.8263813915129705,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.8280476833108411,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+2,5,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.8297139751087119,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.8569613135402608,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.7906085994901785,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8642670377867746,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8767056530214425,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+2,5,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.8698357137501875,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.8569027402908982,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.8563760496326286,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.7185667828759934,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.7135941482980956,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+2,5,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.7132661381016644,{'model__C': 10.0}
+2,5,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.6941515781976308,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.6587822387164493,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.6756194706852602,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.6706637052031789,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,5,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.6656339031339032,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.6837044534412956,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+2,5,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.6526887464387464,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+2,5,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.9232709176788125,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.9194116434248013,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+2,5,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.9127033663217873,{'model__C': 0.1}
+2,5,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.9000074973759183,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+2,5,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8744958014694858,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,1,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.9243046605352294,{'model__C': 0.1}
+3,1,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8794133634936917,{'model__C': 0.1}
+3,1,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.8933915717579807,{'model__C': 0.1}
+3,1,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7618833127296001,{'model__C': 10.0}
+3,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.7827302631578948,{'model__C': 1.0}
+3,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.783936403508772,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.7891630116959064,{'model__C': 1.0}
+3,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.7526133040935673,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,1,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.7236476608187136,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.8059576023391813,{'model__C': 10.0}
+3,1,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.8054093567251462,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.8207602339181287,{'model__C': 1.0}
+3,1,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.8073464912280702,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,1,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.7770285087719299,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8529422514619883,{'model__C': 10.0}
+3,1,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.8523940058479532,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.7960709064327484,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8150402046783625,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,1,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.7846491228070175,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.7438961988304094,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.7343567251461988,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.7305190058479533,{'model__C': 1.0}
+3,1,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.6947368421052632,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,1,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6004020467836257,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.7195175438596491,{'model__C': 1.0}
+3,1,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.7178362573099415,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.6720394736842105,{'model__C': 1.0}
+3,1,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.682858187134503,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,1,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.6891447368421053,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.9183479532163742,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.9097222222222222,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.8998538011695906,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.8874269005847953,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,1,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.9007675438596491,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.7488140088469036,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7462892675063727,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.7381396198830409,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.715897248463038,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,1,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.7087133565751986,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.7925260533813164,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.7877708427050533,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.795667453891138,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.7675251162093266,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,1,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.743115065976908,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8097573661718398,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8048531451491977,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.7978505960413855,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.8227803081421503,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,1,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.7837199167791273,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.7144750899685111,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.700343473534263,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.7353515332133753,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.6827077710301395,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,1,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.6586721210076473,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.671449992502624,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.6760187059529165,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.7016766006897587,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.6812246963562752,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+3,1,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.6755463712700555,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.874622319688109,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.8719495051731894,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.8820681511470986,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.8675494826810617,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,1,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8497713300344879,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7764765144699354,{'model__C': 10.0}
+3,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7848248425551058,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.7754446881091618,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.7364747338431549,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,1,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.6987474696356276,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.8255182561103614,{'model__C': 1.0}
+3,1,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.8255829209776578,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+3,1,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.8212738041685409,{'model__C': 1.0}
+3,1,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.8071028265107212,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,1,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.7723941932823513,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8283260233918129,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8567392037786775,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+3,1,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.8206168466036887,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.8244358224621382,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,1,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.8062439083820663,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.6949500487329435,{'model__C': 1.0}
+3,1,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.6936380079472185,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.6955198493027441,{'model__C': 1.0}
+3,1,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.6803723384315491,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,1,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.657738697705803,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.7081861973309342,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.6960816839106313,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.7284281751387014,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.6697321562453141,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,1,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.678353201379517,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,1,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.9261133603238867,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.9065583295846453,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,1,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.9331974433948119,{'model__C': 0.1}
+3,1,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.8821553081421502,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,1,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.848626105862948,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,2,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.9383290810734984,{'model__C': 0.1}
+3,2,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8528235882058971,{'model__C': 0.1}
+3,2,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.9312668227289862,{'model__C': 0.1}
+3,2,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7502542588354945,{'model__C': 10.0}
+3,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.6701557579847054,{'model__C': 10.0}
+3,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.7172102264207528,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+3,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.6529708352076773,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.6848299970010495,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,2,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.631827297945719,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.7761269493177387,{'model__C': 10.0}
+3,2,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.7846463112910481,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+3,2,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.7609991190583295,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.8086533775678513,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,2,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.7690067851252061,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.859885758734443,{'model__C': 10.0}
+3,2,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.8599073136902083,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8542870932673564,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8468197068526017,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,2,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.844723721697406,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.7298053493777178,{'model__C': 10.0}
+3,2,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.7298053493777178,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.72843473534263,{'model__C': 10.0}
+3,2,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.7208656657669815,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,2,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6661634053081421,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.6403874269005848,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.6330568675963413,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.5953731818863398,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.6369255135702504,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,2,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.6063174763832658,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.8845844579397212,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.8925260533813165,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+3,2,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.8800616659169291,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.8798873519268255,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,2,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.8720863322837008,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.7531723271854851,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7559233955615534,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.7554234143049933,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.7371190395861449,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,2,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.7408686647173489,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.8143762183235869,{'model__C': 10.0}
+3,2,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.8143762183235869,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.8056174089068827,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.7921811740890689,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,2,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.805090718248613,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8860436347278453,{'model__C': 1.0}
+3,2,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8889676113360324,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.8686169215774479,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.867628205128205,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,2,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.8227400097465886,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.7099644811815864,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.6875417041535462,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,2,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.7102451641925326,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.7008289286249813,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,2,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.6210273279352228,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.7120492202729044,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.6991902834008097,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.6801713150397362,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.7048264357474884,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,2,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.690062228220123,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.9253111411006146,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.915057542360174,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.9178999850052483,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.9092498875393614,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,2,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8892281451491978,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7685602226720647,{'model__C': 1.0}
+3,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7674637314439945,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.7645931736392262,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.7664965699505174,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,2,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.7549618571000151,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.81996691782876,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.8193755623031939,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.8126672852001798,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.8198314964762333,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,2,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.824164979757085,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8860333258359573,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8778621232568601,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.8367408906882591,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.863573999100315,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,2,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.8367024666366771,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.6561876780626781,{'model__C': 1.0}
+3,2,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.6765449280251912,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.6536666854101064,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.6363154146048884,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,2,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.6122788274104064,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.6738697705802968,{'model__C': 1.0}
+3,2,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.6772239091318039,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,2,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.6371776128355077,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.6609799070325386,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+3,2,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.6528518143649722,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,2,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.9415167191482982,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.9266803493777177,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,2,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.9154567776278303,{'model__C': 0.1}
+3,2,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.903028939871045,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,2,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8614672364672366,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.9093304225080443,{'model__C': 0.1}
+3,3,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8330133179024525,{'model__C': 0.1}
+3,3,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.9008302866110806,{'model__C': 0.1}
+3,3,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7208413337191054,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.7220404108562004,{'model__C': 10.0}
+3,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.7220404108562004,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.7221809866546708,{'model__C': 10.0}
+3,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.6718829659619132,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,3,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.6710010871195081,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.7811127043034937,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.7792233655720496,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.7896625243664718,{'model__C': 1.0}
+3,3,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.7515121270055481,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,3,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.7397173489278752,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.81571965437097,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.8113036999550157,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,3,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.800156976308292,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8191197143499774,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,3,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.8147159431698906,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.6779113247863249,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.664308273354326,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.6847643949617633,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.6666774441445494,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,3,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.5879001724396461,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.5745595291647924,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.5622638326585695,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.6022379667116509,{'model__C': 10.0}
+3,3,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.5948099415204678,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,3,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.6050269905533063,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.8479325985904933,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.8435438221622432,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.8473881016644175,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.8401803118908382,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,3,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.7869020842705053,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.6947387164492428,{'model__C': 1.0}
+3,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7108983730694257,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+3,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.6916169965512071,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.7114948830409356,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,3,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.687695400359874,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.7821328160143949,{'model__C': 10.0}
+3,3,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.7815845704003598,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.790701379517169,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.789728126405758,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,3,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.790534094316989,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8822138813915129,{'model__C': 10.0}
+3,3,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8811042697555855,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.8661535650022492,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.8681666104363472,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,3,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.8375337381916328,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.6668302031788874,{'model__C': 1.0}
+3,3,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.6564229082321188,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.6618510083970609,{'model__C': 10.0}
+3,3,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.6555700817213976,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,3,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.6164248762932973,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.5707161868346079,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.5767600089968511,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.5324833183385814,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.62805330634278,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,3,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.6155795471584945,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.8940489578647474,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.9011274179037337,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.9032144999250263,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.8956655795471585,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,3,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8857287449392713,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7372825760983656,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.735530064477433,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.7299398335582546,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.6790673264357475,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,3,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.6380013870145449,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.8318451042135253,{'model__C': 1.0}
+3,3,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.8331833858149649,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,3,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.8295227920227921,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.8046610248912881,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,3,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.7635472896986055,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8214021967311441,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8190475521067627,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.8123931623931623,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.8062701491977807,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,3,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.7472217536362272,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.6300996213825161,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.6627708427050533,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.6300996213825161,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.589789979757085,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,3,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.587720235417604,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.7244498800419853,{'model__C': 1.0}
+3,3,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.7306314664867296,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,3,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.7185485080221922,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.7069060203928625,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,3,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.6586669665617034,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,3,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.8856144099565153,{'model__C': 0.1}
+3,3,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.8786690283400809,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,3,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.8827654071075125,{'model__C': 1.0}
+3,3,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.8752717798770431,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,3,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8265922552106764,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,4,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.9167671281318405,{'model__C': 0.1}
+3,4,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8358481577924488,{'model__C': 0.1}
+3,4,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.9067549558554057,{'model__C': 0.1}
+3,4,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.704106828164865,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.7270346003898635,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.7341617933723197,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.728593117408907,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.6779342855000751,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,4,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.6161798058179637,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.7735230169440696,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.7795752736542211,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,4,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.7648373069425701,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.757532988454041,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,4,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.7062753036437247,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8683601364522416,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.867032632328685,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,4,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.8613407182486131,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.86376471360024,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,4,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.8403625918428551,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.6652520055480582,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.6616884090568301,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,4,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.6633547008547009,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.6467241153096417,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,4,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6240061291048135,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.681741078122657,{'model__C': 10.0}
+3,4,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.6822893237366922,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,4,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.6280101964312491,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.6342780026990553,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,4,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.6444884915279652,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.8903789923526766,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.8958183385814964,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,4,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.8666319913030439,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.8754995126705652,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,4,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.8367558854400959,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.7161142037786775,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7246120107962213,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.7122549295246663,{'model__C': 10.0}
+3,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.6637492502624082,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,4,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.6075357999700105,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.8400387989203778,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.8417050907182486,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,4,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.8400603538761434,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.8018527890238417,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,4,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.7708694144549408,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8452457264957265,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.8382525491078123,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,4,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.8408166516719149,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.8551525715999398,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,4,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.8524483618233618,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.665977845254161,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.6622479007347429,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+3,4,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.6728093604738342,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.6807865684510421,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,4,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.5929735530064478,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.6504976383265857,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.6610220797720797,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,4,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.590963787674314,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.6590446468735943,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+3,4,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.6659684735342629,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.9204490928175139,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.9270927050532313,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,4,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.9123210001499475,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.889704228520018,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,4,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.9069247638326585,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.7087063277852752,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.707609836557205,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.7007937846753637,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.7126288611485979,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,4,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.6699322424651372,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.8069538161643425,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.8058357699805069,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,4,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.7978585620032987,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.796503411306043,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,4,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.7523115347128505,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8631503973609237,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8600272717049032,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,4,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.8606940695756485,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.8563081046633679,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,4,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.8398223121907332,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.7154253823661719,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.7146784562902985,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,4,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.7122914792322687,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.6964354663367822,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,4,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.6366509221772381,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.6777168615984405,{'model__C': 1.0}
+3,4,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.6927350427350428,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,4,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.6422411530964163,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.6433901259559155,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,4,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.5900537936722147,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,4,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.9377652196731144,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.9260365122207227,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,4,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.9231012895486579,{'model__C': 0.1}
+3,4,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.8900219298245613,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,4,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8601458239616134,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,5,l2_full38_historical_calibration,0,fixed_information_set,logistic_l2,0.933879551452344,{'model__C': 0.1}
+3,5,l2_no_symptoms28_historical_calibration,0,fixed_information_set,logistic_l2,0.8922344383363874,{'model__C': 0.1}
+3,5,l2_risk_symptoms17_historical_calibration,0,fixed_information_set,logistic_l2,0.928995297672801,{'model__C': 0.1}
+3,5,l2_v3_ordinary_historical_calibration,0,fixed_information_set,logistic_l2,0.7717670769878219,{'model__C': 1.0}
+3,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,logistic_l2,0.7725835020242915,{'model__C': 10.0}
+3,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,elastic_net,0.7731533025940921,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+3,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,spline_logistic,0.7715301207077524,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,random_forest,0.7287130754236019,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,5,selection_independent_calibrated_ensemble,1,v3_five_predictor,hist_gradient_boosting,0.6833628542510123,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,1,basic_risk,logistic_l2,0.8435948980356875,{'model__C': 1.0}
+3,5,selection_independent_calibrated_ensemble,1,basic_risk,elastic_net,0.8424552968960864,"{'model__C': 1.0, 'model__l1_ratio': 0.75}"
+3,5,selection_independent_calibrated_ensemble,1,basic_risk,spline_logistic,0.8424984068076173,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,1,basic_risk,random_forest,0.7776592255210676,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,5,selection_independent_calibrated_ensemble,1,basic_risk,hist_gradient_boosting,0.7522351551956815,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,1,symptoms_examination,logistic_l2,0.8891039698605487,{'model__C': 10.0}
+3,5,selection_independent_calibrated_ensemble,1,symptoms_examination,elastic_net,0.8891039698605487,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,1,symptoms_examination,spline_logistic,0.854193376068376,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,1,symptoms_examination,random_forest,0.8629268818413555,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,5,selection_independent_calibrated_ensemble,1,symptoms_examination,hist_gradient_boosting,0.8384128055180687,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,1,resting_ecg,logistic_l2,0.7079430011995802,{'model__C': 10.0}
+3,5,selection_independent_calibrated_ensemble,1,resting_ecg,elastic_net,0.7068249550157445,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,1,resting_ecg,spline_logistic,0.7105656770130454,{'model__C': 10.0}
+3,5,selection_independent_calibrated_ensemble,1,resting_ecg,random_forest,0.672471978557505,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,5,selection_independent_calibrated_ensemble,1,resting_ecg,hist_gradient_boosting,0.6622141625431098,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,1,laboratory,logistic_l2,0.5967883115909433,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,1,laboratory,elastic_net,0.6141658232118758,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+3,5,selection_independent_calibrated_ensemble,1,laboratory,spline_logistic,0.6085816839106313,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,1,laboratory,random_forest,0.6086032388663968,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+3,5,selection_independent_calibrated_ensemble,1,laboratory,hist_gradient_boosting,0.6312443769680611,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,1,eligible_combined,logistic_l2,0.9269296371270054,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,1,eligible_combined,elastic_net,0.9222634577897736,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,1,eligible_combined,spline_logistic,0.9043653471285049,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,1,eligible_combined,random_forest,0.9038480281901334,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,5,selection_independent_calibrated_ensemble,1,eligible_combined,hist_gradient_boosting,0.8820259784075573,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,logistic_l2,0.7494494114559904,{'model__C': 1.0}
+3,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,elastic_net,0.7483313652721547,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+3,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,spline_logistic,0.757953310091468,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,random_forest,0.7496649610136451,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,5,selection_independent_calibrated_ensemble,2,v3_five_predictor,hist_gradient_boosting,0.6918451979307244,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,2,basic_risk,logistic_l2,0.852824167791273,{'model__C': 1.0}
+3,5,selection_independent_calibrated_ensemble,2,basic_risk,elastic_net,0.8511794309491677,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,2,basic_risk,spline_logistic,0.8517923414304994,{'model__C': 1.0}
+3,5,selection_independent_calibrated_ensemble,2,basic_risk,random_forest,0.8277604400959664,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,5,selection_independent_calibrated_ensemble,2,basic_risk,hist_gradient_boosting,0.7880482456140351,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,2,symptoms_examination,logistic_l2,0.8407458951866845,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,2,symptoms_examination,elastic_net,0.838020130454341,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,2,symptoms_examination,spline_logistic,0.8233838469035838,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,2,symptoms_examination,random_forest,0.8593693769680613,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,5,selection_independent_calibrated_ensemble,2,symptoms_examination,hist_gradient_boosting,0.786865534562903,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,2,resting_ecg,logistic_l2,0.7376743139901035,{'model__C': 10.0}
+3,5,selection_independent_calibrated_ensemble,2,resting_ecg,elastic_net,0.7376743139901035,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,2,resting_ecg,spline_logistic,0.7353735567551357,{'model__C': 10.0}
+3,5,selection_independent_calibrated_ensemble,2,resting_ecg,random_forest,0.7102189233768182,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,5,selection_independent_calibrated_ensemble,2,resting_ecg,hist_gradient_boosting,0.6393691895336632,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,2,laboratory,logistic_l2,0.631364334982756,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,2,laboratory,elastic_net,0.6398991602938972,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,2,laboratory,spline_logistic,0.6707517993702204,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,2,laboratory,random_forest,0.6918466036887089,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,5,selection_independent_calibrated_ensemble,2,laboratory,hist_gradient_boosting,0.7107980956665169,"{'model__learning_rate': 0.1, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,2,eligible_combined,logistic_l2,0.9130510571300045,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,2,eligible_combined,elastic_net,0.914803568750937,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,2,eligible_combined,spline_logistic,0.9080737366921577,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,2,eligible_combined,random_forest,0.8909487929224772,"{'model__max_depth': None, 'model__min_samples_leaf': 2}"
+3,5,selection_independent_calibrated_ensemble,2,eligible_combined,hist_gradient_boosting,0.8494208277103014,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,logistic_l2,0.785238603988604,{'model__C': 1.0}
+3,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,elastic_net,0.7857437396911081,"{'model__C': 1.0, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,spline_logistic,0.7777449767581347,{'model__C': 1.0}
+3,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,random_forest,0.7446056380266907,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,5,selection_independent_calibrated_ensemble,3,v3_five_predictor,hist_gradient_boosting,0.6844621569950516,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,3,basic_risk,logistic_l2,0.8305190058479534,{'model__C': 1.0}
+3,5,selection_independent_calibrated_ensemble,3,basic_risk,elastic_net,0.8260683760683761,"{'model__C': 10.0, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,3,basic_risk,spline_logistic,0.8383237741790373,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,3,basic_risk,random_forest,0.7766203703703703,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,5,selection_independent_calibrated_ensemble,3,basic_risk,hist_gradient_boosting,0.7523237179487179,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,3,symptoms_examination,logistic_l2,0.8065119395711501,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,3,symptoms_examination,elastic_net,0.8478796483730694,"{'model__C': 0.1, 'model__l1_ratio': 0.75}"
+3,5,selection_independent_calibrated_ensemble,3,symptoms_examination,spline_logistic,0.8070386302294197,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,3,symptoms_examination,random_forest,0.7862193544759334,"{'model__max_depth': None, 'model__min_samples_leaf': 8}"
+3,5,selection_independent_calibrated_ensemble,3,symptoms_examination,hist_gradient_boosting,0.7738669590643275,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,3,resting_ecg,logistic_l2,0.7276498538011696,{'model__C': 1.0}
+3,5,selection_independent_calibrated_ensemble,3,resting_ecg,elastic_net,0.732976739391213,"{'model__C': 10.0, 'model__l1_ratio': 0.75}"
+3,5,selection_independent_calibrated_ensemble,3,resting_ecg,spline_logistic,0.7296441557954716,{'model__C': 1.0}
+3,5,selection_independent_calibrated_ensemble,3,resting_ecg,random_forest,0.7215113772679563,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,5,selection_independent_calibrated_ensemble,3,resting_ecg,hist_gradient_boosting,0.6644202654071075,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,3,laboratory,logistic_l2,0.6780954790823213,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,3,laboratory,elastic_net,0.675009371719898,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,3,laboratory,spline_logistic,0.6957686684660369,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,3,laboratory,random_forest,0.6861682786024891,"{'model__max_depth': 5, 'model__min_samples_leaf': 8}"
+3,5,selection_independent_calibrated_ensemble,3,laboratory,hist_gradient_boosting,0.6344270130454341,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"
+3,5,selection_independent_calibrated_ensemble,3,eligible_combined,logistic_l2,0.8958370820212925,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,3,eligible_combined,elastic_net,0.8902899610136452,"{'model__C': 0.1, 'model__l1_ratio': 0.25}"
+3,5,selection_independent_calibrated_ensemble,3,eligible_combined,spline_logistic,0.8976111485979906,{'model__C': 0.1}
+3,5,selection_independent_calibrated_ensemble,3,eligible_combined,random_forest,0.8644671240065978,"{'model__max_depth': 5, 'model__min_samples_leaf': 2}"
+3,5,selection_independent_calibrated_ensemble,3,eligible_combined,hist_gradient_boosting,0.8149066576698155,"{'model__learning_rate': 0.05, 'model__max_leaf_nodes': 7}"

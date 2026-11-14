@@ -1,0 +1,3 @@
+source,scope,interpretation,implemented
+record_bootstrap,held-out-centre,descriptive record-level uncertainty; does not account for patient clustering or centre sampling,True
+conformal_classification,all centres,not executed because no independent calibration set and centre exchangeability is not defensible,False

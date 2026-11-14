@@ -1,0 +1,41 @@
+observation,test_index,feature,weight,probability
+positive_representative,187,Oldpeak <= -0.82,-0.12375919757781768,0.8510229331067016
+positive_representative,187,ChestPainType_ATA <= -0.48,0.11358742120290996,0.8510229331067016
+positive_representative,187,ST_Slope_Down <= -0.27,-0.10080569303555413,0.8510229331067016
+positive_representative,187,FastingBS > -0.54,0.09096046970499547,0.8510229331067016
+positive_representative,187,ChestPainType_TA <= -0.24,0.08952506020300921,0.8510229331067016
+positive_representative,187,-1.11 < ChestPainType_ASY <= 0.90,0.0825630537270373,0.8510229331067016
+positive_representative,187,Cholesterol <= -0.21,0.0755536307988703,0.8510229331067016
+positive_representative,187,Sex_F <= -0.52,0.05631460846987436,0.8510229331067016
+positive_representative,187,ExerciseAngina_Y <= -0.83,-0.053521707294404385,0.8510229331067016
+positive_representative,187,-1.01 < ST_Slope_Flat <= 0.99,0.05264459431958485,0.8510229331067016
+positive_representative,187,ST_Slope_Up <= -0.86,0.04421217833614268,0.8510229331067016
+positive_representative,187,ChestPainType_NAP <= -0.51,0.026276858242754143,0.8510229331067016
+positive_representative,187,RestingECG_LVH <= -0.49,-0.025884476459193995,0.8510229331067016
+positive_representative,187,RestingECG_ST <= -0.48,-0.02213271960248459,0.8510229331067016
+positive_representative,187,Age <= -0.62,-0.021685535019243488,0.8510229331067016
+positive_representative,187,-1.21 < ExerciseAngina_N <= 0.83,-0.010812008665598661,0.8510229331067016
+positive_representative,187,-0.70 < MaxHR <= 0.07,0.008469690442220545,0.8510229331067016
+positive_representative,187,-1.26 < RestingECG_Normal <= 0.79,-0.0024250498841063427,0.8510229331067016
+positive_representative,187,RestingBP <= -0.70,-0.001669353556314321,0.8510229331067016
+positive_representative,187,Sex_M <= 0.52,0.0,0.8510229331067016
+negative_representative,95,Oldpeak <= -0.82,-0.1265832759194436,0.2231736985430773
+negative_representative,95,ChestPainType_ATA > -0.48,-0.11045670753223459,0.2231736985430773
+negative_representative,95,ST_Slope_Down <= -0.27,-0.09993286552658,0.2231736985430773
+negative_representative,95,FastingBS <= -0.54,-0.09092223526865564,0.2231736985430773
+negative_representative,95,ChestPainType_TA <= -0.24,0.08522316453352137,0.2231736985430773
+negative_representative,95,ChestPainType_ASY <= -1.11,-0.07961701796211053,0.2231736985430773
+negative_representative,95,Cholesterol <= -0.21,0.07270439404710341,0.2231736985430773
+negative_representative,95,ExerciseAngina_Y <= -0.83,-0.05918690777875414,0.2231736985430773
+negative_representative,95,Sex_F > -0.52,-0.05866095003366583,0.2231736985430773
+negative_representative,95,ST_Slope_Flat <= -1.01,-0.05351674691104444,0.2231736985430773
+negative_representative,95,-0.86 < ST_Slope_Up <= 1.16,-0.04576884877705761,0.2231736985430773
+negative_representative,95,MaxHR > 0.76,-0.04461819200326088,0.2231736985430773
+negative_representative,95,RestingECG_LVH <= -0.49,-0.03299634340063667,0.2231736985430773
+negative_representative,95,Age <= -0.62,-0.024017116933109872,0.2231736985430773
+negative_representative,95,ChestPainType_NAP <= -0.51,0.021915410397865546,0.2231736985430773
+negative_representative,95,RestingECG_ST <= -0.48,-0.015976687017894394,0.2231736985430773
+negative_representative,95,-0.70 < RestingBP <= -0.15,-0.012521680489961773,0.2231736985430773
+negative_representative,95,-1.21 < ExerciseAngina_N <= 0.83,-0.008788197586253151,0.2231736985430773
+negative_representative,95,-1.26 < RestingECG_Normal <= 0.79,-0.0009479109118925393,0.2231736985430773
+negative_representative,95,Sex_M <= 0.52,0.0,0.2231736985430773

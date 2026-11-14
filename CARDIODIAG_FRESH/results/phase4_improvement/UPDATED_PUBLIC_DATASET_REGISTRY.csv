@@ -1,0 +1,10 @@
+dataset,source,task_class,size,license_access,patient_predictor_evidence,decision
+ARCADE,https://zenodo.org/records/10390295,image angiography segmentation/detection,1200 syntax + 1200 stenosis phase-1 images; phase 2 adds 600,CC BY? verify record license,no patient-level identifiers verified,related imaging task; not tabular CAD validation
+MultiD4CAD,https://zenodo.org/records/15148653,CT-defined/multimodal CAD,"118 (78 CAD, 40 non-CAD)",restricted DUA,clinical biomarkers plus CT EAT/PAT; files restricted,conditional separate CT study
+CADICA,https://data.mendeley.com/datasets/p9bpx9ctcv/5,invasive angiography lesion imaging,42 patients,Mendeley license,clinical metadata plus ICA images,exploratory imaging only
+AngioCAD,https://doi.org/10.5281/zenodo.15826856,angiography stenosis/CAD imaging,413 labels; 377 clinical rows,CC BY 4.0,patient tables acquired; images not acquired,conditional separate clinical/imaging task
+PTB-XL,https://physionet.org/content/ptb-xl/1.0.3/,ECG diagnosis,21837 ECG records,PhysioNet license,patient identifiers/grouping available in metadata,ECG task; not angiographic CAD
+MIMIC-IV,https://physionet.org/content/mimiciv/,EHR/administrative proxy,large credentialed cohort,PhysioNet DUA,angiography phenotype would require new ascertainment,not direct validation
+eICU-CRD,https://physionet.org/content/eicu-crd/,ICU EHR proxy,>200000 admissions,PhysioNet DUA,not fixed angiographic endpoint,not direct validation
+NHANES,https://www.cdc.gov/nchs/nhanes/,survey/risk-factor association,cycle-dependent,public survey terms,no angiographic endpoint,population risk only
+Mendeley stenosis detection,https://data.mendeley.com/datasets/ydrm75xywg/3,angiography image detection,100 all-positive patients,verify license,no negative class,cannot estimate specificity

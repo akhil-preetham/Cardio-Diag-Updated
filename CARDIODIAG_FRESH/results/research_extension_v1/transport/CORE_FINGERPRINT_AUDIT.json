@@ -1,0 +1,15 @@
+{
+  "feature_set": [
+    "Age",
+    "Sex",
+    "DM",
+    "HTN",
+    "Current Smoker"
+  ],
+  "source_duplicate_core_rows": 96,
+  "target_duplicate_core_rows": 129,
+  "shared_core_fingerprints": 93,
+  "source_rows_with_target_core_match": 145,
+  "target_rows_with_source_core_match": 175,
+  "interpretation": "Five common coarse fields can collide by chance. These are not verified duplicate persons, full-record duplicates or evidence of source-cohort overlap; source patient independence remains unverified."
+}

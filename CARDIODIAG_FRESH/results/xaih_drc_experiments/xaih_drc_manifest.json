@@ -1,0 +1,125 @@
+[
+  {
+    "dataset": "five_states",
+    "train_rows": 688,
+    "test_rows": 230,
+    "selected_features": [
+      "numeric__FastingBS",
+      "numeric__MaxHR",
+      "numeric__Oldpeak",
+      "categorical__Sex_F",
+      "categorical__ChestPainType_ASY",
+      "categorical__ExerciseAngina_N",
+      "categorical__ExerciseAngina_Y",
+      "categorical__ST_Slope_Flat",
+      "categorical__ST_Slope_Up"
+    ],
+    "pca_features": [
+      "numeric__RestingBP",
+      "numeric__Cholesterol",
+      "categorical__Sex_M",
+      "categorical__ChestPainType_ATA"
+    ],
+    "output_features": [
+      "numeric__FastingBS",
+      "numeric__MaxHR",
+      "numeric__Oldpeak",
+      "categorical__Sex_F",
+      "categorical__ChestPainType_ASY",
+      "categorical__ExerciseAngina_N",
+      "categorical__ExerciseAngina_Y",
+      "categorical__ST_Slope_Flat",
+      "categorical__ST_Slope_Up",
+      "PCA_1",
+      "PCA_2",
+      "PCA_3",
+      "PCA_4"
+    ],
+    "train_shape": [
+      688,
+      13
+    ],
+    "test_shape": [
+      230,
+      13
+    ],
+    "lime_observations": 50,
+    "downstream_model": "LogisticRegression",
+    "downstream_metrics": {
+      "accuracy": 0.8826086956521739,
+      "balanced_accuracy": 0.8781056494151823,
+      "precision": 0.8731343283582089,
+      "recall_sensitivity": 0.9212598425196851,
+      "specificity": 0.8349514563106796,
+      "f1": 0.896551724137931,
+      "roc_auc": 0.9324210687256326,
+      "pr_auc_average_precision": 0.9414646089531182,
+      "brier_score": 0.09346515597198078,
+      "confusion_matrix_tn_fp_fn_tp": [
+        86,
+        17,
+        10,
+        117
+      ]
+    }
+  },
+  {
+    "dataset": "mendeley",
+    "train_rows": 750,
+    "test_rows": 250,
+    "selected_features": [
+      "numeric__age",
+      "numeric__chestpain",
+      "numeric__restingBP",
+      "numeric__serumcholestrol",
+      "numeric__fastingbloodsugar",
+      "numeric__restingrelectro",
+      "numeric__maxheartrate",
+      "numeric__exerciseangia",
+      "numeric__oldpeak",
+      "numeric__slope",
+      "numeric__noofmajorvessels"
+    ],
+    "pca_features": [],
+    "output_features": [
+      "numeric__age",
+      "numeric__chestpain",
+      "numeric__restingBP",
+      "numeric__serumcholestrol",
+      "numeric__fastingbloodsugar",
+      "numeric__restingrelectro",
+      "numeric__maxheartrate",
+      "numeric__exerciseangia",
+      "numeric__oldpeak",
+      "numeric__slope",
+      "numeric__noofmajorvessels"
+    ],
+    "train_shape": [
+      750,
+      11
+    ],
+    "test_shape": [
+      250,
+      11
+    ],
+    "lime_observations": 50,
+    "downstream_model": "LogisticRegression",
+    "downstream_metrics": {
+      "accuracy": 0.976,
+      "balanced_accuracy": 0.9753694581280787,
+      "precision": 0.9793103448275862,
+      "recall_sensitivity": 0.9793103448275862,
+      "specificity": 0.9714285714285714,
+      "f1": 0.9793103448275862,
+      "roc_auc": 0.9973070607553366,
+      "pr_auc_average_precision": 0.9979773334152203,
+      "brier_score": 0.02023022590927091,
+      "confusion_matrix_tn_fp_fn_tp": [
+        102,
+        3,
+        3,
+        142
+      ]
+    }
+  }
+]

@@ -1,0 +1,15 @@
+issue_id,description,severity,scientific_consequence,evidence,status,solution_or_next_action,verification
+I01,Prediction-time timing of most non-strict Z-Alizadeh variables is undocumented,high,Exploratory gains may reflect ascertainment or diagnostic workflow information,Clinical feature audit; all non-strict timing notes,Documented; not resolved,Do not promote expanded groups; require source documentation,Exploratory groups remain non-final
+I02,Units for anthropometrics and laboratory variables are not machine-readable,high,Cross-cohort transport and interpretation are uncertain,Z_ALIZADEH_FEATURE_AUDIT.csv,Documented; not resolved,Unit confirmation before clinical eligibility,Exploratory only
+I03,"EF-TTE, Region RWMA and VHD are downstream/diagnostic",critical,Potential target leakage,Feature audit,Resolved by exclusion,Keep excluded,Verified in primary runs
+I04,Statlog and Cleveland have exact record-level overlap,critical,Invalid independent validation claim,Overlap audit,Resolved for current study,Do not use as independent cohorts,Verified
+I05,No independent cohort contains all strict predictors with confirmed compatible target,high,External validation unavailable,Compatibility matrix,Unresolved; requires future data,Collect or identify compatible cohort,No external validation claimed
+I06,Repeated CV predictions reuse source rows,high,Naive independent uncertainty is invalid,V2/V3 audits,Resolved with limitations,Use descriptive paired comparisons,Verified
+I07,Conditional source-row bootstrap does not refit models,high,Does not quantify algorithmic or population uncertainty,Uncertainty policies,Resolved with limitations,Label uncertainty narrowly,Verified
+I08,V2 calibration scores reused selection-influenced hyperparameters,high,Selection-induced calibration optimism,V2 independent audit,Resolved by V3,Use V3 calibration,Verified
+I09,Small sample and calibration folds limit calibration precision,high,Calibration slope/ECE are unstable,V3 results,Unresolved; requires larger cohort,Interpret calibration descriptively,Ongoing limitation
+I10,Expanded feature groups show apparent gains but lack timing evidence,high,Cannot support final clinical model,Feature expansion results,Resolved as exploratory classification,Do not promote,Verified
+I11,Kaggle/Five States licensing or provenance remains incomplete,medium,Reproducibility and reuse risk,Provenance audit,Unresolved,Obtain source documentation,Separate track only
+I12,No clinical utility threshold or decision context is prespecified,medium,Decision-curve analysis would be speculative,Statistical plan,Resolved by not performing DCA,Require clinical decision context,No DCA claim
+I13,No ethics approval/exemption documentation is present in repository,high,Publication governance cannot be asserted,Repository inspection,Unresolved; institutional review required,Obtain governance determination,Do not claim approval
+I14,No prospective or independent validation,critical,Generalization and deployment readiness unproven,All result artifacts,Requires future validation,Collect compatible external cohort,Not publication-ready as clinical tool

@@ -1,0 +1,5 @@
+architecture,estimator_output,evidence,classification,decision
+V2,single refitted estimator,selection-influenced cross-fitting,Requires correction,Corrected by V3
+V3,single refitted estimator,fully nested fold-specific selection; single final refit,Preferred internal baseline with limitations,Calibration-transfer mismatch remains a research limitation
+V4,single refitted estimator,same as V3 with compact optimization grid,No improvement over V3,Not promoted
+Fold ensemble,not run,Would require a new prespecified ensemble target and substantial implementation/audit,Unresolved,Future methodological sensitivity

@@ -1,0 +1,10 @@
+{
+  "phase": "3",
+  "purpose": "independent clinical cohort discovery and external validation preparation",
+  "frozen_model": "V3 logistic regression with fully nested calibration reference",
+  "external_validation_performed": false,
+  "candidate_count": 10,
+  "primary_data_hash": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+  "split_manifest_hash": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+  "historical_results_modified": false
+}

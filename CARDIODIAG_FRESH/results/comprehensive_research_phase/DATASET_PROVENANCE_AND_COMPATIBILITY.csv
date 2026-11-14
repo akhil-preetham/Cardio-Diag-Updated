@@ -1,0 +1,12 @@
+dataset,sample_count,target_definition,recommended_track,compatibility,provenance_or_license,decision
+Z-Alizadeh Sani,303,"Cath: Cad/Normal, >=50% coronary narrowing",Primary cohort,Directly compatible with strict CAD target,CC BY 4.0; DOI 10.24432/C5Q31T,Eligible only after feature timing audit
+UCI Cleveland,303,num: angiographic presence/severity,External feasibility only,Partially compatible; strict predictors unavailable; overlap with Statlog,UCI source; binary mapping derived,No untouched external validation performed
+UCI Statlog Heart,270,target: presence/absence coding,Separate comparison only,Not independent of Cleveland; 270 exact predictor-profile matches,UCI source,Excluded from independent validation
+Five States,918,HeartDisease supplied label,Separate task,Target/provenance compatibility unresolved,Author release; provenance audit,Not harmonized
+Mendeley,1000,target supplied; patientid identifier,Separate task,Disease-presence task; ascertainment not equivalent,Public dataset; provenance audit,Not harmonized
+Kaggle CVD 70K,70000,cardio supplied label,Separate benchmark,Target/provenance/licensing compatibility unresolved,Kaggle source; licensing review pending,Not harmonized
+NHANES 2017-2018,9254,No fixed CAD target,Weighted descriptive track,Cross-sectional survey; no prospective CAD endpoint,Public-use survey,Not used for prediction
+UCI Heart Failure,299,DEATH_EVENT mortality,Separate mortality task,Not CAD disease-presence,UCI source,Not harmonized
+PTB-XL,21799 records/18869 patients,Multilabel ECG statements,Separate ECG track,Different target and modality,DOI 10.13026/kfzx-aw45; CC BY 4.0,Not used for CAD validation
+PTB Diagnostic,549 records,Diagnostic ECG classes,Separate ECG track,Different target and patient structure,DOI 10.13026/C28C71; ODC-By 1.0,Not used for CAD validation
+Auricle,42 healthy/28 heart failure metadata,Heart failure/healthy,Metadata-only track,Different modality and endpoint; archive deferred,DOI 10.13026/swme-vp69,Not used for CAD validation

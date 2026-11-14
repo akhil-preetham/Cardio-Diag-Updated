@@ -1,0 +1,6 @@
+dataset,access_status,governance_route,requirements,phase3_action
+MultiD4CAD,restricted,DUA and Zenodo access request,institutional identity and DUA,do not download or use until authorized
+CADICA,public listing; verify current files,Mendeley Data terms and citation,confirm version/hash and patient-level metadata,potential imaging track
+Angiographic stenosis dataset,public listing; verify terms,Mendeley Data terms,"confirm patient-level access, identifiers and clinical table",priority candidate
+MIMIC-IV,credentialed,PhysioNet DUA and training,credentialed researcher and governance,phenotype construction required
+eICU-CRD,credentialed,PhysioNet DUA,credentialed researcher and governance,phenotype construction required

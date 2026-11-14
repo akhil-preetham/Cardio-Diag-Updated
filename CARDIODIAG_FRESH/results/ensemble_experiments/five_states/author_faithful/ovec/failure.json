@@ -1,0 +1,8 @@
+{
+  "dataset": "five_states",
+  "track": "author_faithful",
+  "method": "ovec",
+  "status": "failed",
+  "error_type": "InvalidParameterError",
+  "error": "The 'n_estimators' parameter of RandomForestClassifier must be an int in the range [1, inf). Got None instead."
+}

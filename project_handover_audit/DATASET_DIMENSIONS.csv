@@ -1,0 +1,8 @@
+"dataset","path","rows","columns","exact_duplicate_rows","target_candidates"
+"z_alizadeh_sani","data\interim\validated\z_alizadeh_sani.csv","303","56","0","Airway disease;Thyroid Disease;Cath"
+"mendeley","data\interim\validated\mendeley.csv","1000","14","0","target"
+"five_states","data\interim\validated\five_states.csv","918","12","0","HeartDisease"
+"kaggle_cvd_70000","data\interim\validated\kaggle_cvd_70000.csv","70000","13","0","cardio"
+"uci_heart_disease_cleveland","data\interim\validated\uci_heart_disease_cleveland.csv","303","14","0","num"
+"statlog_heart","data\interim\validated\statlog_heart.csv","270","14","0","target"
+"uci_heart_failure","data\interim\validated\uci_heart_failure.csv","299","13","0","DEATH_EVENT"

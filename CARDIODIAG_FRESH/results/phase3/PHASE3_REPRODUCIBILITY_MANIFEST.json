@@ -1,0 +1,34 @@
+{
+  "generated_utc": "2026-11-13T13:24:22.435372+00:00",
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0"
+  },
+  "inputs": {
+    "data\\interim\\validated\\z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "results\\methodology_corrections_v2\\reproducibility\\split_manifest_v2.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "results\\phase2\\DATASET_COMPATIBILITY_PHASE2.csv": "1eb053b1da98f155164be709f26031101c2ea66f370bf3f330132896779ccac0",
+    "results\\phase2\\FINAL_FEATURE_STAGE_MATRIX.csv": "79d3509ede1bf4b6f8a409eb6e1924438bc63e34b784f69d0da1e0a765dc06fe"
+  },
+  "outputs": {
+    "results\\phase3\\DATASET_ACCESS_AND_GOVERNANCE.csv": "930313f3718bde569cd6ac9bf5f9bb1df5254be6836115eee9e9313db187c9c1",
+    "results\\phase3\\DATASET_OUTCOME_COMPATIBILITY.csv": "c99f418f5c2c163532244a408a0e2004052fa4d6574ccba062b19029839fda7c",
+    "results\\phase3\\FIVE_PREDICTOR_AVAILABILITY_MATRIX.csv": "f04be6f7bd498aa2636002b85e52933efe2e85465b99cf78768271231f264b5f",
+    "results\\phase3\\INDEPENDENT_DATASET_DISCOVERY.csv": "ede40fc2013b06209d158abfc0bdc6f78c5d4823ad362df9f9c0216e8620fdc6",
+    "results\\phase3\\PHASE3_EXPERIMENT_CONFIGURATION.json": "67d655282225bc87ed6a9b57c6e12ab2ef313deaf6ed6fed4c5cfcc7086b000a",
+    "results\\phase3\\PHASE3_FINAL_DECISION.md": "b87de8f143a434bfa9f6b036a97aae57ec347cc713f85b315db9a3815b75e846",
+    "results\\phase3\\PHASE3_FINAL_QA_REPORT.md": "b54b4be4dad94ee18b97db22d0fd655beb36a4f21bed1ec91e781f43cfcd07b0",
+    "docs\\phase3\\CLINICAL_DATA_DICTIONARY_TEMPLATE.csv": "764a6d96eb1d1990a0d1624c9533ac3a797d3fe1a1903a653c8871ab7d508f51",
+    "docs\\phase3\\COHORT_ACQUISITION_REQUEST_TEMPLATE.md": "631fdc1116f3accda793dc75bbd5b9a4520d3624fa422bf795437f544d94abb7",
+    "docs\\phase3\\EXTERNAL_VALIDATION_PROTOCOL.md": "3d9da25059c9ee9f9a96adf6330a2002c3e7a028c11b55f267075d1dec3948fe",
+    "docs\\phase3\\INSTITUTIONAL_COHORT_ACQUISITION_PROTOCOL.md": "ac3052f338054dd4da5f9b862c7f0dc6dbd578f8c5551659a8eadb6b9d56e7c4",
+    "docs\\phase3\\MODEL_TRANSPORTABILITY_ASSESSMENT.md": "03b87246144ae2ce7e15080de2070a8a228e367cf1cb5605157b75eda3a1e667",
+    "docs\\phase3\\MODEL_UPDATING_PROTOCOL.md": "803133371bfb4714201337a84dbad6672282545516c0f891642d151cd128643e",
+    "docs\\phase3\\PHASE3_INITIAL_AUDIT.md": "3d9ce03a5b3edec2106cc8eaa907e1ea286e4d66367263d501d30829f45fef36",
+    "docs\\phase3\\PHASE3_RESEARCH_GAP.md": "cce158abddfdae4800171a6e9d59c248acc49366bbe8c50605e6035d74e373c0",
+    "docs\\phase3\\SAMPLE_SIZE_AND_PRECISION_ANALYSIS.md": "661cdf43bfddccab626826b2114eab935fe28cf51d50332c7bd5ebac959abdc8",
+    "paper\\phase3\\MANUSCRIPT_DRAFT.md": "faad3ca439b5cae004fdf9f664be241c76d193faf6af26f86edbc7e275ff0c37"
+  },
+  "external_validation_performed": false,
+  "historical_results_modified": false
+}

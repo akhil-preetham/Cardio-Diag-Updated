@@ -1,0 +1,11 @@
+{
+  "source_url": "https://archive.ics.uci.edu/static/public/412/z%2Balizadeh%2Bsani.zip",
+  "zip_sha256": "48210a6623fa6112423d9bc357f72fe3fca12ae77866e63e08632e15d95b724e",
+  "old_zip_sha256": "48210a6623fa6112423d9bc357f72fe3fca12ae77866e63e08632e15d95b724e",
+  "zip_equal": true,
+  "zip_members": [
+    "Z-Alizadeh sani dataset.xlsx"
+  ],
+  "workbook_equal": true,
+  "workbook_sha256": "90fefd4ecdb6263b3f2a260bb2b5d3b9fa92ba35d626dd56ad8c6db5fbbad163"
+}

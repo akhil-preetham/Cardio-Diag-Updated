@@ -1,0 +1,70 @@
+{
+  "outputs": [
+    {
+      "path": "build_audit.ps1",
+      "sha256": "49f0b3447e9236ae93f6278fadd844ecf4f4929e11e07d79c878800e3510255d"
+    },
+    {
+      "path": "COMPLETE_PROJECT_HISTORY.md",
+      "sha256": "e9541bebb5a2d0a4ebce92b8fce825298c6e48d693e6228a027416df9628c708"
+    },
+    {
+      "path": "DATASET_AND_PROVENANCE_AUDIT.md",
+      "sha256": "01aefe37ec0b7973ec38fc2bd57dbe2201e87b96070944433dccad5aaa3547e5"
+    },
+    {
+      "path": "DATASET_DIMENSIONS.csv",
+      "sha256": "a6c4ef456d2d27f2271b2f1d8ae9941483f7d3e55d9ed5a51bb21d673f6bac38"
+    },
+    {
+      "path": "EXPERIMENT_AND_METRIC_REGISTER.csv",
+      "sha256": "7b37cc0fd4ae41b82a3e29df674733ddf1cb7d3734a49fdf18847f3b59a7d776"
+    },
+    {
+      "path": "FILE_INVENTORY.csv",
+      "sha256": "2bcca42a8f95b980f232ffd6a097b546ffc235c239f3191f2de9d19a94dd2d25"
+    },
+    {
+      "path": "FINAL_RESEARCH_HANDOVER.md",
+      "sha256": "43d7d068a5a86c071951dec5d534fa04ba9e3768c7f1c452108a459e4c3a9aa8"
+    },
+    {
+      "path": "MANIFEST_CHECKS.csv",
+      "sha256": "c7539938ec7a6e34c1b09e6455d77a8f2c0c27c97ac2a7a8993e645a7731bccd"
+    },
+    {
+      "path": "MANUSCRIPT_CONSISTENCY_AUDIT.md",
+      "sha256": "5a20a46ab28917146bb88d2d17712df2f48f342da6b7dc9efcd0d6d1d627f93c"
+    },
+    {
+      "path": "PHASE_COMPLETION_MATRIX.md",
+      "sha256": "cf379fbfa246cd27dfd44b56833b7d5725b27eb881481f8dd44b7177000ab0f5"
+    },
+    {
+      "path": "REPRODUCIBILITY_AUDIT.md",
+      "sha256": "91ef78ad095fa4e512c1f4e75669bc5b241dd0eac3cb04e33270b28f0de81b87"
+    },
+    {
+      "path": "SCIENTIFIC_VALIDITY_AUDIT.md",
+      "sha256": "4fbf1f36b1949790650128e3fe23838260561bc5735ac6ab08b36c68a3fce24b"
+    },
+    {
+      "path": "TECHNICAL_IMPLEMENTATION_INVENTORY.md",
+      "sha256": "7d6325bb07b6fe3ccec354182f4629043b084ecfbcb55f51e2bb88e3a5ab0981"
+    },
+    {
+      "path": "UNRESOLVED_ISSUES.md",
+      "sha256": "cfa0a4f2d234da19399efc7a486ac531e2fb0bbbde53838ae122ee4bb67bde36"
+    }
+  ],
+  "audit_date_local": "2026-11-14",
+  "manifest_checks": 190,
+  "focused_tests": "8 passed in 15.29s",
+  "predictive_training_runs": 0,
+  "inventory_count": 1368,
+  "project_root": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH",
+  "timezone": "Asia/Kolkata",
+  "manifest_mismatches": 0,
+  "scope": "Initial local reconstruction; exhaustive audit incomplete",
+  "historical_outputs_intentionally_modified": false
+}

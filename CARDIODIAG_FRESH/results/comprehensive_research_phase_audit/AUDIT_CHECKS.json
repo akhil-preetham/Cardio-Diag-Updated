@@ -1,0 +1,23 @@
+{
+  "package_manifest_sha256": "8050011dd5cdd431f258162faef4063bf84abe46ecbdb4177c2dbd6b4a903f10",
+  "historical_results_modified": false,
+  "v4_audit_checks": {
+    "prediction_rows": 13635,
+    "prediction_completeness": true,
+    "duplicate_prediction_keys": 0,
+    "calibration_selection_records": 900,
+    "calibration_selection_violations": 0,
+    "metric_rows_recomputed": 900,
+    "metric_recomputation_failures": 0,
+    "all_calibrated_probabilities_valid": true,
+    "historical_results_modified": false,
+    "manifest_hash_failures": []
+  },
+  "feature_expansion": {
+    "prediction_rows": 18180,
+    "selection_records": 1200,
+    "duplicate_prediction_keys": 0,
+    "calibration_selection_overlap": 0
+  },
+  "full_test_suite": "62 passed"
+}

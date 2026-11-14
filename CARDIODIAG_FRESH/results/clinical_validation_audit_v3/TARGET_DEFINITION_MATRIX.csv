@@ -1,0 +1,12 @@
+dataset,target_variable,positive_class,negative_class,clinical_definition,intended_task,population,limitations
+Five States,HeartDisease,1,0,Supplied heart-disease label; provenance unresolved,disease-presence classification,918-row author release,No verified external independence
+Mendeley,target,1,0,"Supplied target; patientid is an identifier, not a predictor",disease-presence classification,"1,000-row public dataset",Target ascertainment details limited
+Kaggle CVD,cardio,1,0,Supplied cardiovascular disease label,disease-presence classification,"70,000-row benchmark",License and provenance require review
+UCI Cleveland,num,1-4,0,Angiographic heart-disease severity/presence coding,CAD/general heart disease classification,303 records,"Binary mapping is derived, not original"
+Statlog Heart,target,2,1,UCI target coding: presence versus absence,heart-disease classification,270 records,Possible source overlap with Cleveland
+Z-Alizadeh Sani,Cath,Cad,Normal,CAD if coronary diameter narrowing is at least 50%,CAD diagnosis,303 patients,Catheterization-derived target; downstream fields must be excluded
+UCI Heart Failure,DEATH_EVENT,1,0,Death during follow-up,heart-failure mortality,299 patients,Not disease-presence classification
+NHANES 2017-2018,none fixed,not created,not created,Cross-sectional public-use measurements/questionnaires,weighted descriptive/associational analysis,"9,254 merged participants",No synthetic or prospective target
+PTB-XL,scp_codes,task-specific,task-specific,Multi-label cardiologist/ECG statements,ECG diagnostic classification,"21,799 records/18,869 patients",Patient-level splits required
+PTB Diagnostic,clinical summaries,task-specific,task-specific,Clinical summaries and diagnostic classes,ECG diagnostic classification,549 records,Visible 290 subject directories; source documents 294 subjects
+Auricle,cohort metadata,heart failure/healthy,healthy,Multimodal physiology cohort labels,multimodal physiology,42 healthy/28 heart failure documented,Full archive deferred

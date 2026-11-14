@@ -1,0 +1,6 @@
+{
+  "paired_tests": "identical persisted test vectors only",
+  "multiple_comparison_correction": "Holm applied to Wilcoxon p-values",
+  "de_long": "paired implementation executed",
+  "clinical_utility": "net benefit threshold sweep from 0.05 to 0.95"
+}

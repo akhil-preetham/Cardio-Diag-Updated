@@ -1,0 +1,13 @@
+{
+  "results\\research_extension_v1\\zas\\MANIFEST.json": "0c4c5e17e44de866bf6e05421f91c873cbf394b503e908f905b6d7e15da772ca",
+  "results\\research_extension_v1\\zas\\REPEAT_METRICS.csv": "73c023bfc45655e0fe2a698ac8fb82871ac1cc64ecf822571294a8db44342b68",
+  "results\\research_extension_v1\\zas\\OOF_PREDICTIONS.csv": "74be1a372637a857fc75ed405d306701e456c80f48410cae7090671608713c1b",
+  "results\\research_extension_v1\\zas\\SELECTIONS.csv": "7a01f8bd272e228a8d2cb9719a38badbb422b3a38c3f1e4ca647533fa5bf571d",
+  "results\\research_extension_v1\\transport\\TRANSPORT_MANIFEST.json": "6075df4d9d3b4c4e1ad3396774d5f8b3f054f7e27e599d31e776471a86a654de",
+  "results\\research_extension_v1\\transport\\TARGET_METRICS.csv": "200d3695e45ba2dadf5ca3a4bf60438d865a59839d337e10285546e63a10cd0f",
+  "results\\research_extension_v1\\transport\\TARGET_PREDICTIONS.csv": "543738d988235896ebbb907b0e5e61a6d59f4fd5fef5ee412ae638ebba291d39",
+  "results\\research_extension_v1\\transport\\SOURCE_MCAR_STRESS_REPEAT_METRICS.csv": "00fe2b66d7a605b59c17e373c0763e9b78d08a81dd6ac5c7fd09963fe5effbca",
+  "results\\research_extension_v1\\FINAL_QA_SUMMARY.json": "23006bd90817ca133dfa4ba94a8840159d9e51f10f7fba74ac5bc222b2f72c94",
+  "paper\\research_extension_v1\\REPORT_TEMPLATE.md": "af8d800ca6907c1c404a64c5682e48e00136b1d797367216bcbcfde2b72ab2d5",
+  "paper\\research_extension_v1\\build_report.py": "21214bbf6a3e285b81caa2d355895b05d8268b334139c8f811a4c18e04d9e5c8"
+}

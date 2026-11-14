@@ -1,0 +1,6 @@
+experiment_id,question,implementation,status,execution_status
+P2-S1,Stage 1 strict baseline,V3/V4 fully nested logistic and model-family results,primary,completed
+P2-S2,Stage 2 symptom extension,Exploratory feature-group logistic analysis,exploratory,completed
+P2-S3,Stage 3 ECG/laboratory extension,Exploratory feature-group logistic analysis,exploratory,completed
+P2-S4,Stage 4 EF/RWMA/VHD,No model; downstream exclusion,excluded,completed
+P2-EXT,External validation,No compatible independent cohort,unresolved,not performed

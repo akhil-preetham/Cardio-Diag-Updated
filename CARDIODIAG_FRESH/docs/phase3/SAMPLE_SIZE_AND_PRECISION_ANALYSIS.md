@@ -1,0 +1,7 @@
+# Sample Size and Precision Analysis
+
+Sample size must be calculated for the intended external-validation estimands, not selected from a universal events-per-variable rule. Riley et al. (BMJ 2024;384:e074821; DOI 10.1136/bmj-2023-074821) demonstrate that calibration precision can dominate: their illustrative scenario required 949 participants and 408 events when targeting several precise measures.
+
+For threshold sensitivity/specificity, use the binomial approximation n_events = 1.96^2 * Se(1-Se) / half_width^2 and n_nonevents = 1.96^2 * Sp(1-Sp) / half_width^2, then inflate for prevalence and missingness. For example, targeting sensitivity 0.85 +/- 0.05 requires about 196 events; specificity 0.80 +/- 0.05 requires about 246 non-events. These are only component calculations and do not replace the full Riley calculation.
+
+For PPV/NPV and decision curves, prevalence and the prespecified threshold range must be supplied because precision changes materially with prevalence. For model updating, calculate the required sample for the number of candidate updating parameters, anticipated outcome prevalence, shrinkage and calibration slope; do not use the external cohort to decide whether to update after seeing performance. A practical target is several hundred events and non-events, with the final number determined from the predicted-risk distribution and desired calibration precision. The current 303-patient cohort is not adequate for precise independent validation of all requested measures.

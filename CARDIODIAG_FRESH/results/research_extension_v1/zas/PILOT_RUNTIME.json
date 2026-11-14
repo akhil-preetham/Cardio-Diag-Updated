@@ -1,0 +1,13 @@
+{
+  "first_outer_partition": "repeat1/fold1",
+  "checkpoint_seconds": 85.0671259999508,
+  "projected_15_partition_seconds_linear": 1276.006889999262,
+  "limits": "Projection only; same candidate pool regardless of pilot scores; 1 BLAS/OMP thread, n_jobs=1",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.8.0"
+  }
+}

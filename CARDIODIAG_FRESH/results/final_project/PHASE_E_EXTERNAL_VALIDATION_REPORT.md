@@ -1,0 +1,7 @@
+# Phase E — External-validation evidence gap
+
+Local acquisition registries and source audits cover UCI Heart Disease, Z-Alizadeh Sani, Statlog Heart, Mendeley cardiovascular/stenosis files, AngioCAD, CADICA, MultiD4CAD, PTB-XL, PTB Diagnostic, MIMIC-IV, eICU and NHANES. The existing compatibility and overlap reports are the authoritative local evidence; no new data were downloaded.
+
+No acquired candidate is shown to be an untouched independent cohort with (a) the same angiographic >=50% endpoint, (b) all five frozen V3 predictors, (c) verified predictor timing and mapping, and (d) patient-level independence from development. UCI four-centre experiments support a separate transportability research question but not external validation of ZAS V3. Statlog/Cleveland lineage overlap is unresolved or documented as related. Mendeley/CVD proxies, EHR diagnosis-code phenotypes, NHANES and ECG collections do not establish the same target. AngioCAD is modality-specific, with clinical/image schema and patient-level partitioning still to be verified; MultiD4CAD is restricted; other image collections address different endpoints.
+
+**Conclusion:** independent external validation of the frozen ZAS model is unavailable in the present repository. Do not substitute a proxy endpoint, merge incompatible cohorts, or retrain and call the result external validation. Obtain a governed cohort with matched predictors/outcome and timestamps, or develop a separate modality-/endpoint-specific study.

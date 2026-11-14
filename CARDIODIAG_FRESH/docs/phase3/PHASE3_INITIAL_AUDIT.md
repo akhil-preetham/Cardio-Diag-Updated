@@ -1,0 +1,3 @@
+# Phase 3 Initial Audit
+
+Phase 2 established that Z-Alizadeh Sani is the only locally verified angiographic CAD cohort with the five baseline predictors. Cleveland has the closest endpoint semantics but lacks a harmonized complete five-predictor set. Statlog is not independent because all 270 normalized predictor profiles match Cleveland. MultiD4CAD, CADICA and the newly identified angiographic stenosis dataset are real public/restricted candidates, but their predictor availability and timing are not yet verified. MIMIC-IV and eICU are large credentialed EHR resources, not angiographic CAD validation cohorts by default. No external validation has occurred.

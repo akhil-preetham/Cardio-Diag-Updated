@@ -1,0 +1,527 @@
+[
+  {
+    "checkpoint": "r1_f1_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.2764870999963023,
+    "completed_utc": "2026-11-14T07:47:10.537732+00:00"
+  },
+  {
+    "checkpoint": "r1_f1_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.21449810001649894,
+    "completed_utc": "2026-11-14T07:47:10.768232+00:00"
+  },
+  {
+    "checkpoint": "r1_f1_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.21091550000710413,
+    "completed_utc": "2026-11-14T07:47:10.968768+00:00"
+  },
+  {
+    "checkpoint": "r1_f1_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.16855969998869114,
+    "completed_utc": "2026-11-14T07:47:11.152455+00:00"
+  },
+  {
+    "checkpoint": "r1_f1_corrected_component1.json",
+    "wall_seconds": 26.314327699976275,
+    "completed_utc": "2026-11-14T07:47:37.470351+00:00"
+  },
+  {
+    "checkpoint": "r1_f1_corrected_component2.json",
+    "wall_seconds": 28.467264499980956,
+    "completed_utc": "2026-11-14T07:48:05.941465+00:00"
+  },
+  {
+    "checkpoint": "r1_f1_corrected_component3.json",
+    "wall_seconds": 29.415073399984976,
+    "completed_utc": "2026-11-14T07:48:35.365211+00:00"
+  },
+  {
+    "checkpoint": "r1_f2_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.30758800002513453,
+    "completed_utc": "2026-11-14T07:48:35.685475+00:00"
+  },
+  {
+    "checkpoint": "r1_f2_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.26633440001751296,
+    "completed_utc": "2026-11-14T07:48:35.954056+00:00"
+  },
+  {
+    "checkpoint": "r1_f2_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.24885920001543127,
+    "completed_utc": "2026-11-14T07:48:36.204013+00:00"
+  },
+  {
+    "checkpoint": "r1_f2_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.2288571000099182,
+    "completed_utc": "2026-11-14T07:48:36.435934+00:00"
+  },
+  {
+    "checkpoint": "r1_f2_corrected_component1.json",
+    "wall_seconds": 29.7511014000047,
+    "completed_utc": "2026-11-14T07:49:06.180799+00:00"
+  },
+  {
+    "checkpoint": "r1_f2_corrected_component2.json",
+    "wall_seconds": 25.886211500008358,
+    "completed_utc": "2026-11-14T07:49:32.070270+00:00"
+  },
+  {
+    "checkpoint": "r1_f2_corrected_component3.json",
+    "wall_seconds": 24.862377499986906,
+    "completed_utc": "2026-11-14T07:49:56.948183+00:00"
+  },
+  {
+    "checkpoint": "r1_f3_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.25754930000402965,
+    "completed_utc": "2026-11-14T07:49:57.207248+00:00"
+  },
+  {
+    "checkpoint": "r1_f3_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.23007530000177212,
+    "completed_utc": "2026-11-14T07:49:57.439852+00:00"
+  },
+  {
+    "checkpoint": "r1_f3_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.22202230000402778,
+    "completed_utc": "2026-11-14T07:49:57.658679+00:00"
+  },
+  {
+    "checkpoint": "r1_f3_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.1799200999957975,
+    "completed_utc": "2026-11-14T07:49:57.839452+00:00"
+  },
+  {
+    "checkpoint": "r1_f3_corrected_component1.json",
+    "wall_seconds": 24.55663760000607,
+    "completed_utc": "2026-11-14T07:50:22.411900+00:00"
+  },
+  {
+    "checkpoint": "r1_f3_corrected_component2.json",
+    "wall_seconds": 24.731868400005624,
+    "completed_utc": "2026-11-14T07:50:47.149515+00:00"
+  },
+  {
+    "checkpoint": "r1_f3_corrected_component3.json",
+    "wall_seconds": 25.399635500012664,
+    "completed_utc": "2026-11-14T07:51:12.543665+00:00"
+  },
+  {
+    "checkpoint": "r1_f4_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.29118309999466874,
+    "completed_utc": "2026-11-14T07:51:12.844191+00:00"
+  },
+  {
+    "checkpoint": "r1_f4_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.22077730001183227,
+    "completed_utc": "2026-11-14T07:51:13.072561+00:00"
+  },
+  {
+    "checkpoint": "r1_f4_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.21504119999008253,
+    "completed_utc": "2026-11-14T07:51:13.293171+00:00"
+  },
+  {
+    "checkpoint": "r1_f4_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.1891466999950353,
+    "completed_utc": "2026-11-14T07:51:13.472016+00:00"
+  },
+  {
+    "checkpoint": "r1_f4_corrected_component1.json",
+    "wall_seconds": 25.433097400004044,
+    "completed_utc": "2026-11-14T07:51:38.922413+00:00"
+  },
+  {
+    "checkpoint": "r1_f4_corrected_component2.json",
+    "wall_seconds": 25.53437660000054,
+    "completed_utc": "2026-11-14T07:52:04.461431+00:00"
+  },
+  {
+    "checkpoint": "r1_f4_corrected_component3.json",
+    "wall_seconds": 24.367058000003453,
+    "completed_utc": "2026-11-14T07:52:28.821367+00:00"
+  },
+  {
+    "checkpoint": "r1_f5_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.2559474000008777,
+    "completed_utc": "2026-11-14T07:52:29.098871+00:00"
+  },
+  {
+    "checkpoint": "r1_f5_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.21540570000070147,
+    "completed_utc": "2026-11-14T07:52:29.303493+00:00"
+  },
+  {
+    "checkpoint": "r1_f5_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.21229550000862218,
+    "completed_utc": "2026-11-14T07:52:29.520264+00:00"
+  },
+  {
+    "checkpoint": "r1_f5_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.17732049999176525,
+    "completed_utc": "2026-11-14T07:52:29.702985+00:00"
+  },
+  {
+    "checkpoint": "r1_f5_corrected_component1.json",
+    "wall_seconds": 24.10908710001968,
+    "completed_utc": "2026-11-14T07:52:53.822907+00:00"
+  },
+  {
+    "checkpoint": "r1_f5_corrected_component2.json",
+    "wall_seconds": 24.093511799990665,
+    "completed_utc": "2026-11-14T07:53:17.921139+00:00"
+  },
+  {
+    "checkpoint": "r1_f5_corrected_component3.json",
+    "wall_seconds": 24.46745969998301,
+    "completed_utc": "2026-11-14T07:53:42.392435+00:00"
+  },
+  {
+    "checkpoint": "r2_f1_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.2748872999800369,
+    "completed_utc": "2026-11-14T07:53:42.675335+00:00"
+  },
+  {
+    "checkpoint": "r2_f1_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.23612780001712963,
+    "completed_utc": "2026-11-14T07:53:42.906797+00:00"
+  },
+  {
+    "checkpoint": "r2_f1_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.2233107999782078,
+    "completed_utc": "2026-11-14T07:53:43.139465+00:00"
+  },
+  {
+    "checkpoint": "r2_f1_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.1792325999995228,
+    "completed_utc": "2026-11-14T07:53:43.322260+00:00"
+  },
+  {
+    "checkpoint": "r2_f1_corrected_component1.json",
+    "wall_seconds": 24.463880100025563,
+    "completed_utc": "2026-11-14T07:54:07.788713+00:00"
+  },
+  {
+    "checkpoint": "r2_f1_corrected_component2.json",
+    "wall_seconds": 23.523675500007812,
+    "completed_utc": "2026-11-14T07:54:31.303648+00:00"
+  },
+  {
+    "checkpoint": "r2_f1_corrected_component3.json",
+    "wall_seconds": 23.951941700011957,
+    "completed_utc": "2026-11-14T07:54:55.265647+00:00"
+  },
+  {
+    "checkpoint": "r2_f2_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.2412729999923613,
+    "completed_utc": "2026-11-14T07:54:55.524572+00:00"
+  },
+  {
+    "checkpoint": "r2_f2_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.21940499998163432,
+    "completed_utc": "2026-11-14T07:54:55.745917+00:00"
+  },
+  {
+    "checkpoint": "r2_f2_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.2077827999892179,
+    "completed_utc": "2026-11-14T07:54:55.956313+00:00"
+  },
+  {
+    "checkpoint": "r2_f2_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.16859039998962544,
+    "completed_utc": "2026-11-14T07:54:56.126310+00:00"
+  },
+  {
+    "checkpoint": "r2_f2_corrected_component1.json",
+    "wall_seconds": 23.533954299986362,
+    "completed_utc": "2026-11-14T07:55:19.663205+00:00"
+  },
+  {
+    "checkpoint": "r2_f2_corrected_component2.json",
+    "wall_seconds": 23.47150210000109,
+    "completed_utc": "2026-11-14T07:55:43.126431+00:00"
+  },
+  {
+    "checkpoint": "r2_f2_corrected_component3.json",
+    "wall_seconds": 23.538728499988792,
+    "completed_utc": "2026-11-14T07:56:06.670474+00:00"
+  },
+  {
+    "checkpoint": "r2_f3_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.2583798999839928,
+    "completed_utc": "2026-11-14T07:56:06.951319+00:00"
+  },
+  {
+    "checkpoint": "r2_f3_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.21224800002528355,
+    "completed_utc": "2026-11-14T07:56:07.166254+00:00"
+  },
+  {
+    "checkpoint": "r2_f3_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.21054209998692386,
+    "completed_utc": "2026-11-14T07:56:07.366542+00:00"
+  },
+  {
+    "checkpoint": "r2_f3_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.17075720001594163,
+    "completed_utc": "2026-11-14T07:56:07.550315+00:00"
+  },
+  {
+    "checkpoint": "r2_f3_corrected_component1.json",
+    "wall_seconds": 23.406582499999786,
+    "completed_utc": "2026-11-14T07:56:30.958036+00:00"
+  },
+  {
+    "checkpoint": "r2_f3_corrected_component2.json",
+    "wall_seconds": 23.696005299978424,
+    "completed_utc": "2026-11-14T07:56:54.660332+00:00"
+  },
+  {
+    "checkpoint": "r2_f3_corrected_component3.json",
+    "wall_seconds": 23.985227800003486,
+    "completed_utc": "2026-11-14T07:57:18.641463+00:00"
+  },
+  {
+    "checkpoint": "r2_f4_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.26149350000196137,
+    "completed_utc": "2026-11-14T07:57:18.906294+00:00"
+  },
+  {
+    "checkpoint": "r2_f4_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.22058389999438077,
+    "completed_utc": "2026-11-14T07:57:19.139338+00:00"
+  },
+  {
+    "checkpoint": "r2_f4_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.21050880002439953,
+    "completed_utc": "2026-11-14T07:57:19.357287+00:00"
+  },
+  {
+    "checkpoint": "r2_f4_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.17525290002231486,
+    "completed_utc": "2026-11-14T07:57:19.522238+00:00"
+  },
+  {
+    "checkpoint": "r2_f4_corrected_component1.json",
+    "wall_seconds": 23.889561799995136,
+    "completed_utc": "2026-11-14T07:57:43.425687+00:00"
+  },
+  {
+    "checkpoint": "r2_f4_corrected_component2.json",
+    "wall_seconds": 24.333833600016078,
+    "completed_utc": "2026-11-14T07:58:07.764769+00:00"
+  },
+  {
+    "checkpoint": "r2_f4_corrected_component3.json",
+    "wall_seconds": 24.993949900002917,
+    "completed_utc": "2026-11-14T07:58:32.759989+00:00"
+  },
+  {
+    "checkpoint": "r2_f5_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.2552276999922469,
+    "completed_utc": "2026-11-14T07:58:33.024555+00:00"
+  },
+  {
+    "checkpoint": "r2_f5_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.21735560000524856,
+    "completed_utc": "2026-11-14T07:58:33.245601+00:00"
+  },
+  {
+    "checkpoint": "r2_f5_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.2118573999905493,
+    "completed_utc": "2026-11-14T07:58:33.459063+00:00"
+  },
+  {
+    "checkpoint": "r2_f5_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.16919279997819103,
+    "completed_utc": "2026-11-14T07:58:33.632104+00:00"
+  },
+  {
+    "checkpoint": "r2_f5_corrected_component1.json",
+    "wall_seconds": 23.91883440001402,
+    "completed_utc": "2026-11-14T07:58:57.549994+00:00"
+  },
+  {
+    "checkpoint": "r2_f5_corrected_component2.json",
+    "wall_seconds": 23.94989180000266,
+    "completed_utc": "2026-11-14T07:59:21.505259+00:00"
+  },
+  {
+    "checkpoint": "r2_f5_corrected_component3.json",
+    "wall_seconds": 23.834591199993156,
+    "completed_utc": "2026-11-14T07:59:45.347225+00:00"
+  },
+  {
+    "checkpoint": "r3_f1_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.24660950002726167,
+    "completed_utc": "2026-11-14T07:59:45.596061+00:00"
+  },
+  {
+    "checkpoint": "r3_f1_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.21971549998852424,
+    "completed_utc": "2026-11-14T07:59:45.823003+00:00"
+  },
+  {
+    "checkpoint": "r3_f1_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.2149486000125762,
+    "completed_utc": "2026-11-14T07:59:46.028387+00:00"
+  },
+  {
+    "checkpoint": "r3_f1_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.1727219000167679,
+    "completed_utc": "2026-11-14T07:59:46.215200+00:00"
+  },
+  {
+    "checkpoint": "r3_f1_corrected_component1.json",
+    "wall_seconds": 23.794612699974095,
+    "completed_utc": "2026-11-14T08:00:10.005188+00:00"
+  },
+  {
+    "checkpoint": "r3_f1_corrected_component2.json",
+    "wall_seconds": 24.387448200024664,
+    "completed_utc": "2026-11-14T08:00:34.392631+00:00"
+  },
+  {
+    "checkpoint": "r3_f1_corrected_component3.json",
+    "wall_seconds": 23.811622500012163,
+    "completed_utc": "2026-11-14T08:00:58.219970+00:00"
+  },
+  {
+    "checkpoint": "r3_f2_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.24519829999189824,
+    "completed_utc": "2026-11-14T08:00:58.466466+00:00"
+  },
+  {
+    "checkpoint": "r3_f2_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.21241519998875447,
+    "completed_utc": "2026-11-14T08:00:58.687511+00:00"
+  },
+  {
+    "checkpoint": "r3_f2_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.2164119000080973,
+    "completed_utc": "2026-11-14T08:00:58.901036+00:00"
+  },
+  {
+    "checkpoint": "r3_f2_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.16524479998042807,
+    "completed_utc": "2026-11-14T08:00:59.065477+00:00"
+  },
+  {
+    "checkpoint": "r3_f2_corrected_component1.json",
+    "wall_seconds": 23.743155200005276,
+    "completed_utc": "2026-11-14T08:01:22.806802+00:00"
+  },
+  {
+    "checkpoint": "r3_f2_corrected_component2.json",
+    "wall_seconds": 23.656982099986635,
+    "completed_utc": "2026-11-14T08:01:46.480919+00:00"
+  },
+  {
+    "checkpoint": "r3_f2_corrected_component3.json",
+    "wall_seconds": 23.829305999999633,
+    "completed_utc": "2026-11-14T08:02:10.305793+00:00"
+  },
+  {
+    "checkpoint": "r3_f3_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.2572654999967199,
+    "completed_utc": "2026-11-14T08:02:10.571925+00:00"
+  },
+  {
+    "checkpoint": "r3_f3_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.2234566000115592,
+    "completed_utc": "2026-11-14T08:02:10.805233+00:00"
+  },
+  {
+    "checkpoint": "r3_f3_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.21225870001944713,
+    "completed_utc": "2026-11-14T08:02:11.021131+00:00"
+  },
+  {
+    "checkpoint": "r3_f3_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.17274790001101792,
+    "completed_utc": "2026-11-14T08:02:11.196264+00:00"
+  },
+  {
+    "checkpoint": "r3_f3_corrected_component1.json",
+    "wall_seconds": 23.84204519999912,
+    "completed_utc": "2026-11-14T08:02:35.028253+00:00"
+  },
+  {
+    "checkpoint": "r3_f3_corrected_component2.json",
+    "wall_seconds": 24.106974399997853,
+    "completed_utc": "2026-11-14T08:02:59.151749+00:00"
+  },
+  {
+    "checkpoint": "r3_f3_corrected_component3.json",
+    "wall_seconds": 23.97448189998977,
+    "completed_utc": "2026-11-14T08:03:23.126441+00:00"
+  },
+  {
+    "checkpoint": "r3_f4_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.25395600000047125,
+    "completed_utc": "2026-11-14T08:03:23.392751+00:00"
+  },
+  {
+    "checkpoint": "r3_f4_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.2605788000219036,
+    "completed_utc": "2026-11-14T08:03:23.656550+00:00"
+  },
+  {
+    "checkpoint": "r3_f4_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.21448689998942427,
+    "completed_utc": "2026-11-14T08:03:23.860475+00:00"
+  },
+  {
+    "checkpoint": "r3_f4_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.1701632000040263,
+    "completed_utc": "2026-11-14T08:03:24.058076+00:00"
+  },
+  {
+    "checkpoint": "r3_f4_corrected_component1.json",
+    "wall_seconds": 23.828676499979338,
+    "completed_utc": "2026-11-14T08:03:47.884574+00:00"
+  },
+  {
+    "checkpoint": "r3_f4_corrected_component2.json",
+    "wall_seconds": 24.550859400012996,
+    "completed_utc": "2026-11-14T08:04:12.438912+00:00"
+  },
+  {
+    "checkpoint": "r3_f4_corrected_component3.json",
+    "wall_seconds": 23.879173299996182,
+    "completed_utc": "2026-11-14T08:04:36.329758+00:00"
+  },
+  {
+    "checkpoint": "r3_f5_l2_full38_historical_calibration.json",
+    "wall_seconds": 0.2519882999768015,
+    "completed_utc": "2026-11-14T08:04:36.593718+00:00"
+  },
+  {
+    "checkpoint": "r3_f5_l2_no_symptoms28_historical_calibration.json",
+    "wall_seconds": 0.2235348999965936,
+    "completed_utc": "2026-11-14T08:04:36.819400+00:00"
+  },
+  {
+    "checkpoint": "r3_f5_l2_risk_symptoms17_historical_calibration.json",
+    "wall_seconds": 0.21598040001117624,
+    "completed_utc": "2026-11-14T08:04:37.028736+00:00"
+  },
+  {
+    "checkpoint": "r3_f5_l2_v3_ordinary_historical_calibration.json",
+    "wall_seconds": 0.17059970000991598,
+    "completed_utc": "2026-11-14T08:04:37.211045+00:00"
+  },
+  {
+    "checkpoint": "r3_f5_corrected_component1.json",
+    "wall_seconds": 23.7088575999951,
+    "completed_utc": "2026-11-14T08:05:00.919548+00:00"
+  },
+  {
+    "checkpoint": "r3_f5_corrected_component2.json",
+    "wall_seconds": 24.425556900008814,
+    "completed_utc": "2026-11-14T08:05:25.352733+00:00"
+  },
+  {
+    "checkpoint": "r3_f5_corrected_component3.json",
+    "wall_seconds": 24.127306299982592,
+    "completed_utc": "2026-11-14T08:05:49.483379+00:00"
+  }
+]

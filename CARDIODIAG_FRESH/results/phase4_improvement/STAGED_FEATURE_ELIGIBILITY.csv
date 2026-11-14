@@ -1,0 +1,6 @@
+stage,feature_set,prediction_time,eligible_features,excluded_features,clinical_use
+Stage 1,basic pretest risk,before diagnostic testing,age;sex,all symptoms/exercise/angiography,initial risk discussion
+Stage 2,presentation symptoms,initial clinical presentation,age;sex;cp,exercise-test and angiography fields,presentation triage
+Stage 3,resting clinical measurements,after admission/resting measurements,age;sex;cp;trestbps;chol;fbs;restecg,exercise-test and angiography fields,resting assessment
+Stage 4,exercise testing,after exercise test,age;sex;cp;trestbps;chol;fbs;restecg;thalach;exang;oldpeak;slope,ca;thal;num,later diagnostic assessment
+Stage 5,angiography/post-diagnostic,after angiography,not used for prediagnostic prediction,ca;thal;angiographic labels;Gensini,not a valid prediagnostic model

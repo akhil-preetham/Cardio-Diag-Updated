@@ -1,0 +1,11 @@
+{
+  "pdf_pages": 4,
+  "blank_pages": [],
+  "replacement_glyph": false,
+  "paragraphs_missing_from_extract": [],
+  "latex_compiled": false,
+  "renderer": "ReportLab two-column IEEE-style review layout, not venue-certified IEEE typesetting",
+  "new_predictive_fits": 0,
+  "figure_note": "Tables used for primary result; no synthetic performance figure",
+  "visual_qa": "All four final pages inspected via rendered page images; tables, headings, references and two-column flow readable; no clipping or overlap observed. Last page columns adjusted for balance."
+}

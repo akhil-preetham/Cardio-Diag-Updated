@@ -1,0 +1,14 @@
+{
+  "numeric__age": 0.01528263769702698,
+  "numeric__gender": 0.0,
+  "numeric__chestpain": 0.046635961780204516,
+  "numeric__restingBP": 0.04094455009483294,
+  "numeric__serumcholestrol": 0.046885920007365516,
+  "numeric__fastingbloodsugar": 0.04809434844205706,
+  "numeric__restingrelectro": 0.060618611945095394,
+  "numeric__maxheartrate": 0.026819349574368614,
+  "numeric__exerciseangia": 0.013855818378715891,
+  "numeric__oldpeak": 0.03498319618335354,
+  "numeric__slope": 0.5419625894486111,
+  "numeric__noofmajorvessels": 0.020276831418026203
+}

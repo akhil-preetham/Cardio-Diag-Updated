@@ -1,0 +1,3 @@
+990f24622ca3aefe2f62e37f7d9e1097fe14b118a49ee398ff3ee67568bfbe4d  original  C:\CARDIO_DIAG\Cardio-Diag-Approach-Code-main\CARDIODIAG_FRESH\reference\extracted_author_archives\base_reproduction\Daza_Base_Paper_Reproduced\Daza_Paper_Exact_Accuracy.ipynb
+666ab88c049dba064057e79d55fb413bca37a1c7de3f3bb8c24cad070844b646  working_copy  C:\CARDIO_DIAG\Cardio-Diag-Approach-Code-main\CARDIODIAG_FRESH\reference\reproduction_runner\work\author_faithful\base_reproduction\Daza_Paper_Exact_Accuracy.ipynb
+e4068802a044e8a1e3ae9fa81deae7025711bf4f13e3057f96e4f1cf3b0180c2  dataset  C:\CARDIO_DIAG\Cardio-Diag-Approach-Code-main\CARDIODIAG_FRESH\reference\author_release\heart5.csv

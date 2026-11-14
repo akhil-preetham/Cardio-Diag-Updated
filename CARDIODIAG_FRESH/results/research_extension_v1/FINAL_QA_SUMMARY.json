@@ -1,0 +1,11 @@
+{
+  "tests_passed": 116,
+  "tests_skipped": 1,
+  "new_tests_passed": 27,
+  "skip_reason": "Optional historical LoRAS dependency is unavailable; no new primary study test skipped",
+  "pip_check": "No broken requirements found",
+  "new_manifest_hash_entries_checked": 157,
+  "historical_phase7_artifact_hash_entries_checked": 65,
+  "historical_phase7_preservation_hash_entries_checked": 74,
+  "report_paragraph": "The complete test suite passed 116 tests with one optional historical LoRAS-dependency test skipped; all 27 new extension tests passed. Independent saved-artifact checks reconstructed source coverage, labels, candidate ranking, all parameter grids, component averaging and primary metrics, and matched stored target probabilities to the trusted saved bundle. Read-only release verification checked 157 listed source/transport manifest entries with no mismatch. The historical Phase 7 package also retained all 65 artifact and 74 preservation hashes. Dependency consistency passed. Targeted syntax/undefined-name checks passed with intentional import-order/name-style exclusions; full legacy style-cleanup is not claimed."
+}

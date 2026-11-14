@@ -1,0 +1,15 @@
+{
+  "outer_manifest_equal": true,
+  "inner_manifest_equal": true,
+  "calibration_records": 900,
+  "calibration_selection_checks_pass": true,
+  "metric_rows_checked": 3150,
+  "metric_failures": 0,
+  "calibration_rows_checked": 1125,
+  "calibration_failures": 0,
+  "prediction_rows": 13635,
+  "prediction_completeness": true,
+  "duplicate_prediction_keys": 1,
+  "actual_pipeline_fits_recorded": true,
+  "model_training_rerun_by_audit": false
+}

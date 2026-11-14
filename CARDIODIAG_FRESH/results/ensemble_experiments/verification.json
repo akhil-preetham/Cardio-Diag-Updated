@@ -1,0 +1,62 @@
+[
+  {
+    "path": "results\\ensemble_experiments\\five_states\\author_faithful\\osec",
+    "accuracy_match": true,
+    "roc_auc_match": true,
+    "model_reload": true
+  },
+  {
+    "path": "results\\ensemble_experiments\\five_states\\compatibility_adapted\\osec",
+    "accuracy_match": true,
+    "roc_auc_match": true,
+    "model_reload": true
+  },
+  {
+    "path": "results\\ensemble_experiments\\five_states\\compatibility_adapted\\ovec",
+    "accuracy_match": true,
+    "roc_auc_match": true,
+    "model_reload": true
+  },
+  {
+    "path": "results\\ensemble_experiments\\five_states\\corrected\\osec",
+    "accuracy_match": true,
+    "roc_auc_match": true,
+    "model_reload": true
+  },
+  {
+    "path": "results\\ensemble_experiments\\five_states\\corrected\\ovec",
+    "accuracy_match": true,
+    "roc_auc_match": true,
+    "model_reload": true
+  },
+  {
+    "path": "results\\ensemble_experiments\\mendeley\\author_faithful\\osec",
+    "accuracy_match": true,
+    "roc_auc_match": true,
+    "model_reload": true
+  },
+  {
+    "path": "results\\ensemble_experiments\\mendeley\\compatibility_adapted\\osec",
+    "accuracy_match": true,
+    "roc_auc_match": true,
+    "model_reload": true
+  },
+  {
+    "path": "results\\ensemble_experiments\\mendeley\\compatibility_adapted\\ovec",
+    "accuracy_match": true,
+    "roc_auc_match": true,
+    "model_reload": true
+  },
+  {
+    "path": "results\\ensemble_experiments\\mendeley\\corrected\\osec",
+    "accuracy_match": true,
+    "roc_auc_match": true,
+    "model_reload": true
+  },
+  {
+    "path": "results\\ensemble_experiments\\mendeley\\corrected\\ovec",
+    "accuracy_match": true,
+    "roc_auc_match": true,
+    "model_reload": true
+  }
+]

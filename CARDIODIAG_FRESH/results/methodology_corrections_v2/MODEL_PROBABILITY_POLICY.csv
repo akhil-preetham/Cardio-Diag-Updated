@@ -1,0 +1,6 @@
+model_family,native_output,primary_calibration_policy,interpretation
+Logistic Regression,native predict_proba,sigmoid calibration optional,Report native and calibrated separately; primary probability metric uses held-out calibrated output.
+Random Forest,native predict_proba,nested sigmoid calibration,Do not assume native probabilities are calibrated.
+Extra Trees,native predict_proba,nested sigmoid calibration,Do not compare Brier/log loss without labeling calibration status.
+HistGradientBoosting,native predict_proba,nested sigmoid calibration,Use held-out calibration assessment.
+SVM,decision_function score,nested Platt calibration required,Never call expit(score) native probability; isotonic is exploratory only.

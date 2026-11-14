@@ -1,0 +1,9 @@
+claim,audit_basis,evidence,classification
+Stage 6 manifest used exactly,verified,V2 SPLIT_MANIFEST_USED.json and exact row comparison,Verified correct
+"Five repeats, five outer folds, four inner folds",verified,EXPERIMENT_CONFIGURATION.json and assignments,Verified correct
+Highest calibrated ROC-AUC 0.735 +/- 0.060 balanced,verified,MODEL_COMPARISON_RESULTS.csv,Verified correct
+Highest calibrated ROC-AUC 0.735 +/- 0.061 unweighted,verified,MODEL_COMPARISON_RESULTS.csv,Verified correct
+Sigmoid calibration used cross-fitted inner-training predictions only,partially_supported,"Code confirms row-held-out inner predictions, but hyperparameters were selected using all inner folds",Requires correction
+SVM decision scores were not native probabilities,verified,native_output_type and metric omissions,Verified correct
+Not external validation or clinical deployment,verified,RESULTS_UPDATE.md,Verified correct
+No patient identifier available,verified,EXPERIMENT_CONFIGURATION.json and source-row policy,Verified correct

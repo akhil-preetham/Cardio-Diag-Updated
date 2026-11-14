@@ -1,0 +1,12 @@
+Selection dimension,Selected category,Outer fits selected,Outer fits total,Frequency
+Feature group,v3_five_predictor,0,15,0.0
+Feature group,basic_risk,0,15,0.0
+Feature group,symptoms_examination,0,15,0.0
+Feature group,resting_ecg,0,15,0.0
+Feature group,laboratory,0,15,0.0
+Feature group,eligible_combined,15,15,1.0
+Model family,logistic_l2,9,15,0.6
+Model family,elastic_net,4,15,0.26666666666666666
+Model family,spline_logistic,2,15,0.13333333333333333
+Model family,random_forest,0,15,0.0
+Model family,hist_gradient_boosting,0,15,0.0

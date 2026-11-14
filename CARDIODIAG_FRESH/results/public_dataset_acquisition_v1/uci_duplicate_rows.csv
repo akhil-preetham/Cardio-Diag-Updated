@@ -1,0 +1,5 @@
+site,row_in_site,age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal,num,target_binary
+hungary,101,49.0,0.0,2.0,110.0,,0.0,0.0,160.0,0.0,0.0,,,,0,0
+hungary,102,49.0,0.0,2.0,110.0,,0.0,0.0,160.0,0.0,0.0,,,,0,0
+va_long_beach,139,58.0,1.0,3.0,150.0,219.0,0.0,1.0,118.0,1.0,0.0,,,,2,1
+va_long_beach,187,58.0,1.0,3.0,150.0,219.0,0.0,1.0,118.0,1.0,0.0,,,,2,1

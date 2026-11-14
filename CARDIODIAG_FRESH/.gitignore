@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.env
+data/raw/ptb_xl/records100/
+data/raw/ptb_xl/records500/
+data/raw/ptb_diagnostic/patient*/
+data/raw/auricle/data/
+data/raw/nhanes/raw_cycles/
+data/raw/**/*.zip

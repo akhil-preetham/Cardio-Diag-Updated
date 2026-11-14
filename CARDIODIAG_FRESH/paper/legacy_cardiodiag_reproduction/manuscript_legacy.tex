@@ -1,0 +1,130 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{longtable}
+\title{CARDIODIAG: A Reproducibility Audit and Leakage-Controlled Validation of Cardiovascular Disease Prediction}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This report documents a reproducibility study of the CARDIODIAG author release. We distinguish an author-faithful execution from a separate corrected-validation comparator. The prepared Five States notebook produced accuracy 0.8922 and ROC-AUC 0.9555, but preserved pre-split SMOTE, non-nested selection, and test-set-driven stopping. A corrected pipeline used fold-local preprocessing and SMOTE, stratified 75:25 holdouts, and five-fold training-partition model selection. Across ten overlapping holdouts, mean accuracy was 0.8783 for Five States and 0.9772 for Mendeley. These results demonstrate executable artifacts and a corrected comparator, not historical environment equivalence, independent external validation, or clinical utility.
+\end{abstract}
+
+\section{Introduction}
+Cardiovascular disease prediction is a useful setting for studying reproducible machine-learning evaluation because performance can be strongly affected by preprocessing, class balancing, model selection, and threshold selection. This manuscript reports what was actually executed in the preserved CARDIODIAG workspace and explicitly separates author claims from newly measured results.
+
+\section{Related Work}
+The author paper describes LoRAS balancing, XAIH-DRC feature engineering, and optimized voting and stacking ensembles. The local paper is identified as Khan, Raza, and Nadeem, ``CardioDiag: a machine learning approach for cardiovascular disease diagnosis using XAI-guided hybrid dimensionality reduction and optimized-based ensemble classifiers,'' \emph{PeerJ Computer Science}, 12, e4059 (2026), DOI \href{https://doi.org/10.7717/peerj-cs.4059}{10.7717/peerj-cs.4059}. Standard methodological concerns about selection bias and resampling motivated the corrected comparator.
+
+\section{Research Gap}
+The author release did not include a verified historical environment, and the complete paper tables could not be extracted with available local PDF tools. A reproducibility assessment must therefore distinguish executable local evidence from claims that require paper-table or historical-environment confirmation.
+
+\section{Contributions}
+\begin{enumerate}
+\item We preserve and audit 18 author notebooks without modifying original extracted notebooks or datasets.
+\item We execute the prepared author-faithful Five States base notebook and preserve its warnings.
+\item We evaluate a separate leakage-controlled comparator on Five States and Mendeley.
+\item We report traceable metrics, limitations, and blocked analyses rather than inferring missing results.
+\end{enumerate}
+
+\section{Methodology}
+\subsection{Author-faithful track}
+The prepared working copy changes only the Colab mount and local dataset path. The source applies label encoding before splitting, SMOTE before an 80:20 split, five-fold GridSearchCV with accuracy scoring, calibrated stacking, and a loop that repeatedly evaluates held-out test accuracy for stopping. This track is faithful to the prepared source, not a methodological correction.
+
+\subsection{Corrected-validation track}
+The corrected runner uses a stratified 75:25 split for each of ten seeds, five-fold stratified cross-validation within the training partition, median numeric imputation, standardization, one-hot encoding, training-fold SMOTE, and ROC-AUC model selection. The estimator is a stacking classifier with random forest, decision tree, gradient boosting, Gaussian naive Bayes, and logistic-regression final estimator. Mendeley \texttt{patientid} is excluded as an identifier.
+
+\section{Datasets}
+Five States contains 918 rows with target \texttt{HeartDisease}. Mendeley contains 1,000 rows with target \texttt{target}; \texttt{patientid} was excluded in corrected validation. The requested approximately 70,000-row benchmark dataset was not present and was not substituted.
+
+\section{Experimental Setup}
+The author-faithful run used the prepared notebook SHA-256 \texttt{666ab88c049dba064057e79d55fb413bca37a1c7de3f3bb8c24cad070844b646} and Five States dataset SHA-256 \texttt{e4068802a044e8a1e3ae9fa81deae7025711bf4f13e3057f96e4f1cf3b0180c2}. The run completed in 404 seconds in the recorded environment. Corrected predictions and reports are preserved under \texttt{reference/reproduction\_runner/results/corrected\_validation\_run\_001/}.
+
+\section{Results}
+\begin{table}[ht]
+\centering
+\caption{Author-faithful Five States result. Values not printed by the notebook are not imputed.}
+\begin{tabular}{lr}
+\toprule
+Metric & Measured value\\
+\midrule
+Accuracy & 0.8922\\
+Precision & 0.9052\\
+Recall/sensitivity & 0.9052\\
+F1 & 0.9052\\
+ROC-AUC & 0.9555\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\caption{Corrected-validation means and standard deviations across ten overlapping holdouts.}
+\begin{tabular}{lrr}
+\toprule
+Metric & Five States & Mendeley\\
+\midrule
+Accuracy & 0.8783 (0.0160) & 0.9772 (0.0076)\\
+Balanced accuracy & 0.8755 (0.0158) & 0.9759 (0.0079)\\
+Precision & 0.8809 (0.0154) & 0.9768 (0.0096)\\
+Sensitivity & 0.9016 (0.0230) & 0.9841 (0.0098)\\
+Specificity & 0.8495 (0.0216) & 0.9676 (0.0136)\\
+F1 & 0.8910 (0.0148) & 0.9804 (0.0065)\\
+ROC-AUC & 0.9332 (0.0088) & 0.9964 (0.0028)\\
+PR-AUC & 0.9322 (0.0113) & 0.9970 (0.0026)\\
+Brier score & 0.0954 (0.0078) & 0.0182 (0.0058)\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Controlled ensemble runs are reported separately from the ten-run corrected
+comparator. On the fixed 25\% corrected holdout, OSEC accuracy/ROC-AUC was
+0.9174/0.9424 for Five States and 0.9840/0.9995 for Mendeley; OVEC was
+0.8957/0.9421 and 0.9760/0.9982, respectively. The author-faithful OSEC
+configuration executed, while author-faithful OVEC failed because its
+recovered search space includes the invalid current-version candidate
+\texttt{n\_estimators=None}. Compatibility-adapted results are stored
+separately and must not be interpreted as exact historical reproduction. The
+final compatibility OVEC rerun used the recovered source search count
+\texttt{n\_iter=2} and a finite \texttt{n\_estimators=2} engineering
+adaptation: accuracy/ROC-AUC was 0.8725/0.9430 for Five States and
+0.9871/0.9987 for Mendeley.
+
+\section{Statistical Analysis}
+Conditional bootstrap intervals for accuracy and ROC-AUC were computed separately for each persisted test-prediction run. Because repeated holdouts overlap, these intervals are not independent-cohort confidence intervals. Paired bootstrap, Wilcoxon, and DeLong comparisons were computed for OVEC/OSEC on identical persisted holdouts; Holm correction was applied to the Wilcoxon family, while DeLong p-values remain reported separately. Ten-bin calibration summaries and decision-curve net benefit are provided as machine-readable supplementary analyses; they are not fairness certification or clinical validation.
+
+\section{Explainability}
+LIME explanations were generated for representative positive and negative observations from persisted fitted ensemble models using the models' transformed feature representations. XAIH-DRC was executed using the recovered top-11 correlation/LIME thresholding and XOR-to-PCA procedure; LIME importances were computed from training observations only.
+
+\section{Discussion}
+The author-faithful result demonstrates that the prepared notebook can execute in the available environment. It also reproduces the source's methodological risks and warnings, including non-finite search scores and an XGBRegressor evaluated with classification accuracy. The corrected comparator is lower on Five States than the author-faithful single run, but the values are not a causal estimate of leakage bias because the protocols differ in more than one component.
+
+\section{Limitations}
+The historical software environment is unavailable. Repeated corrected holdouts overlap and are not independent external validation. The benchmark dataset requested by the project is missing. Exact published table values and figure captions could not be extracted locally. LoRAS uses the source package version available in the reproduction environment, while fairness analyses remain descriptive and no clinical deployment, causal, fairness, or publication-readiness claim follows.
+
+\section{Conclusion}
+CARDIODIAG is partially reproducible: the prepared base notebook and corrected comparators have traceable saved outputs, while the complete author methodology and paper-level claims are not fully verified. The safest interpretation is a documented local execution plus a separate corrected comparator, not complete reproduction of the published study.
+
+\section{Future Work}
+Future work should recover the historical environment, obtain the exact benchmark dataset, verify the paper tables from an extractable source, create paired predictions from prespecified models on identical observations, and independently validate explainability, fairness, clinical utility, and external calibration.
+
+\begin{thebibliography}{9}
+\bibitem{cardiodiag}
+M. J. Khan, B. Raza, and A. Nadeem, ``CardioDiag: a machine learning approach for cardiovascular disease diagnosis using XAI-guided hybrid dimensionality reduction and optimized-based ensemble classifiers,'' \emph{PeerJ Computer Science}, vol. 12, e4059, 2026. DOI: 10.7717/peerj-cs.4059.
+
+\bibitem{smote}
+N. V. Chawla, K. W. Bowyer, L. O. Hall, and W. P. Kegelmeyer, ``SMOTE: Synthetic Minority Over-sampling Technique,'' \emph{Journal of Artificial Intelligence Research}, vol. 16, pp. 321--357, 2002. DOI: 10.1613/jair.953.
+
+\bibitem{nested}
+G. C. Cawley and N. L. C. Talbot, ``On over-fitting in model selection and subsequent selection bias in performance evaluation,'' \emph{Journal of Machine Learning Research}, vol. 11, pp. 2079--2107, 2010.
+
+\bibitem{lime}
+M. T. Ribeiro, S. Singh, and C. Guestrin, ``Why Should I Trust You?: Explaining the Predictions of Any Classifier,'' in \emph{Proceedings of KDD}, 2016. DOI: 10.1145/2939672.2939778.
+\end{thebibliography}
+
+\end{document}

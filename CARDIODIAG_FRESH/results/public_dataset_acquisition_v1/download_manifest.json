@@ -1,0 +1,38 @@
+{
+  "generated_utc": "2026-11-13T13:28:42.335804+00:00",
+  "downloads": [
+    {
+      "file": "results\\public_dataset_acquisition_v1\\downloads\\uci_heart_disease_official.zip",
+      "bytes": 128894,
+      "sha256": "b17cd273da9ce1caa4710fce80227ea454d4dbf9fcbc8e6a9121672751563adc",
+      "source": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    },
+    {
+      "file": "results\\public_dataset_acquisition_v1\\downloads\\AngioCAD_Features.xlsx",
+      "bytes": 129493,
+      "sha256": "978f2415ab52f11724e1ef00bb63597b8497487afd84b97f7112fc7975a33295",
+      "source": "https://doi.org/10.5281/zenodo.15826856"
+    },
+    {
+      "file": "results\\public_dataset_acquisition_v1\\downloads\\AngioCAD_Labels.xlsx",
+      "bytes": 43267,
+      "sha256": "5bba3f4ba8bed0df0d2f412d5e2ca6deacca0eff20d531a599fe1b8f4d897425",
+      "source": "https://doi.org/10.5281/zenodo.15826856"
+    }
+  ],
+  "not_downloaded": [
+    {
+      "dataset": "AngioCAD image archives",
+      "reason": "16.4 GB total; metadata and labels suffice for the audit; no image experiment was requested yet."
+    },
+    {
+      "dataset": "Mendeley angiographic stenosis images",
+      "reason": "image-only, all 100 patients described as CAD-positive; not a binary external-validation cohort."
+    }
+  ],
+  "licenses": {
+    "UCI Heart Disease": "CC BY 4.0",
+    "AngioCAD": "CC BY 4.0",
+    "Mendeley stenosis dataset": "license not exposed in the retrieved page/API response; verify before reuse"
+  }
+}

@@ -1,0 +1,6 @@
+quantity,uncertainty_source,Version_1_status,limitation
+Outer repeat/fold variation,validation variability,reportable descriptively,repeated participants make folds dependent
+Row-aggregated bootstrap,conditional resampling,reportable with qualification,not population CI; does not refit algorithms
+Patient bootstrap,sampling uncertainty,requires new experiment,patient IDs unavailable in current derivative
+Refit bootstrap,algorithmic uncertainty,requires new experiment,"must refit preprocessing, tuning, model, and calibration"
+Individual predictive interval,predictive uncertainty,deferred,requires a prespecified probabilistic/conformal method

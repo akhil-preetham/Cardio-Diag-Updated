@@ -1,0 +1,34 @@
+note: Running TeX ...
+Fontconfig error: Cannot load default config file: No such file: (null)
+warning: CARDIODIAG_RESEARCH_REPORT.tex:31: Underfull \hbox (badness 2368) in paragraph at lines 30--31
+warning: CARDIODIAG_RESEARCH_REPORT.tex:34: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: CARDIODIAG_RESEARCH_REPORT.tex:51: Underfull \hbox (badness 1661) in paragraph at lines 50--51
+warning: CARDIODIAG_RESEARCH_REPORT.tex:60: Underfull \hbox (badness 1571) in paragraph at lines 59--60
+warning: CARDIODIAG_RESEARCH_REPORT.tex:61: Underfull \hbox (badness 10000) in paragraph at lines 60--61
+warning: CARDIODIAG_RESEARCH_REPORT.tex:61: Underfull \hbox (badness 10000) in paragraph at lines 60--61
+warning: CARDIODIAG_RESEARCH_REPORT.tex:62: Underfull \hbox (badness 10000) in paragraph at lines 61--62
+warning: CARDIODIAG_RESEARCH_REPORT.tex:62: Underfull \hbox (badness 10000) in paragraph at lines 61--62
+warning: CARDIODIAG_RESEARCH_REPORT.tex:198: Underfull \vbox (badness 3735) has occurred while \output is active
+warning: CARDIODIAG_RESEARCH_REPORT.tex:228: Underfull \hbox (badness 10000) in paragraph at lines 227--228
+warning: CARDIODIAG_RESEARCH_REPORT.tex:228: Underfull \hbox (badness 10000) in paragraph at lines 227--228
+warning: CARDIODIAG_RESEARCH_REPORT.tex:228: Underfull \hbox (badness 10000) in paragraph at lines 227--228
+warning: CARDIODIAG_RESEARCH_REPORT.tex:228: Underfull \hbox (badness 3668) in paragraph at lines 227--228
+note: Rerunning TeX because "CARDIODIAG_RESEARCH_REPORT.aux" changed ...
+warning: CARDIODIAG_RESEARCH_REPORT.tex:31: Underfull \hbox (badness 2368) in paragraph at lines 30--31
+warning: CARDIODIAG_RESEARCH_REPORT.tex:34: Underfull \vbox (badness 10000) has occurred while \output is active
+warning: CARDIODIAG_RESEARCH_REPORT.tex:51: Underfull \hbox (badness 1661) in paragraph at lines 50--51
+warning: CARDIODIAG_RESEARCH_REPORT.tex:60: Underfull \hbox (badness 1571) in paragraph at lines 59--60
+warning: CARDIODIAG_RESEARCH_REPORT.tex:61: Underfull \hbox (badness 10000) in paragraph at lines 60--61
+warning: CARDIODIAG_RESEARCH_REPORT.tex:61: Underfull \hbox (badness 10000) in paragraph at lines 60--61
+warning: CARDIODIAG_RESEARCH_REPORT.tex:62: Underfull \hbox (badness 10000) in paragraph at lines 61--62
+warning: CARDIODIAG_RESEARCH_REPORT.tex:62: Underfull \hbox (badness 10000) in paragraph at lines 61--62
+warning: CARDIODIAG_RESEARCH_REPORT.tex:198: Underfull \vbox (badness 3735) has occurred while \output is active
+warning: CARDIODIAG_RESEARCH_REPORT.tex:228: Underfull \hbox (badness 10000) in paragraph at lines 227--228
+warning: CARDIODIAG_RESEARCH_REPORT.tex:228: Underfull \hbox (badness 10000) in paragraph at lines 227--228
+warning: CARDIODIAG_RESEARCH_REPORT.tex:228: Underfull \hbox (badness 10000) in paragraph at lines 227--228
+warning: CARDIODIAG_RESEARCH_REPORT.tex:228: Underfull \hbox (badness 3668) in paragraph at lines 227--228
+note: Running xdvipdfmx ...
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Writing `CARDIODIAG_RESEARCH_REPORT.pdf` (119.447265625 KiB)
+note: Writing `CARDIODIAG_RESEARCH_REPORT.log` (10.86328125 KiB)
+note: Skipped writing 1 intermediate files (use --keep-intermediates to keep them)

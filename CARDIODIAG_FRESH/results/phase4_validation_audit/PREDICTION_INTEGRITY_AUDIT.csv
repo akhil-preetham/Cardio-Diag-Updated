@@ -1,0 +1,6 @@
+check,expected,observed,pass
+prediction_rows,3680,3680,True
+prediction_key_unique,0,0,True
+source_rows_complete,303,303,True
+centre_labels_match,0,0,True
+held_out_centre_values_valid,3680,3680,True

@@ -1,0 +1,31 @@
+{
+  "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "generated_utc": "2026-11-13T13:28:42.388580+00:00",
+  "historical_results_modified": false,
+  "zip_members_checked": [
+    "Index",
+    "WARNING",
+    "ask-detrano",
+    "bak",
+    "cleve.mod",
+    "cleveland.data",
+    "costs/",
+    "costs/Index",
+    "costs/heart-disease.README",
+    "costs/heart-disease.cost",
+    "costs/heart-disease.delay",
+    "costs/heart-disease.expense",
+    "costs/heart-disease.group",
+    "heart-disease.names",
+    "hungarian.data",
+    "long-beach-va.data",
+    "new.data",
+    "processed.cleveland.data",
+    "processed.hungarian.data",
+    "processed.switzerland.data",
+    "processed.va.data",
+    "reprocessed.hungarian.data",
+    "switzerland.data"
+  ]
+}

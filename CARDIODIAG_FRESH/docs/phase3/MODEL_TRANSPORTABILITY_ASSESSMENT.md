@@ -1,0 +1,3 @@
+# Model Transportability Assessment
+
+Assess geographic shift, calendar shift, prevalence shift, covariate distributions, coding, units, missingness, referral spectrum and outcome adjudication. Age and sex coding may be harmonizable if source definitions are explicit. Smoking and family-history definitions require direct mapping and timing confirmation. Differences in angiographic threshold, patient selection, spectrum or outcome ascertainment invalidate direct comparison unless a separate adaptation protocol is declared. Calibration drift is expected under prevalence or case-mix shift and must be reported rather than silently corrected.

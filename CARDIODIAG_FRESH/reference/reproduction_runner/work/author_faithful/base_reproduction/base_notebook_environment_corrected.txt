@@ -1,0 +1,12 @@
+QA correction record
+=====================
+This separately named record preserves the previous environment record and corrects one transcription error found during final QA.
+
+Original notebook SHA-256: 990f24622ca3aefe2f62e37f7d9e1097fe14b118a49ee398ff3ee67568bfbe4d
+Working copy SHA-256: 666ab88c049dba064057e79d55fb413bca37a1c7de3f3bb8c24cad070844b646
+
+The original environment record reported the working-copy hash with an incorrect substring
+(`...d064...`). The authoritative value above matches SHA256SUMS.txt and the patch manifest
+(`...c049...`).
+
+No notebook, dataset, package, or environment was changed by this correction.

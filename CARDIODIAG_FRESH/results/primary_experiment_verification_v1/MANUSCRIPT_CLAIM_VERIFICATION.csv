@@ -1,0 +1,12 @@
+claim_id,manuscript_claim,artifact_value,status,evidence
+sample_count,303 records,303,verified,validated Z-Alizadeh derivative
+class_counts,216 CAD and 87 normal,216 / 87,verified,data validation and target counts
+strict_feature_count,Five strictly pre-diagnostic features,5,correct_with_limitations,strict list frozen; timing documentation is incomplete
+validation_design,five repeats of stratified five-fold nested cross-validation,5 repeats / 5 outer folds / 4 inner folds,verified,split table and source constants
+best_metric,best calibrated mean ROC-AUC,0.737 (SD 0.059),verified,outer-fold metric summary
+bootstrap_interval,aggregated repeated-CV bootstrap ROC-AUC,0.738 (0.677-0.790),correct_with_limitations,row-level bootstrap of aggregated predictions
+model_failures,all model-fold fits completed successfully,0,verified,hyperparameter selection table
+external_validation,does not establish external validity,explicitly disclaimed,verified,manuscript limitations
+clinical_utility,does not establish clinical utility,explicitly disclaimed,verified,manuscript abstract and traceability
+statistical_significance,no confirmatory p-values,p_value fields are empty,verified,statistical comparison table
+prediction_completeness,outer-test predictions,13635,verified,nine configurations x five repeats x 303 rows

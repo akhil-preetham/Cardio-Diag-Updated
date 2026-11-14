@@ -1,0 +1,17 @@
+{
+  "phase": "2",
+  "primary_cohort": "Z-Alizadeh Sani",
+  "target": "Cath",
+  "strict_features": [
+    "Age",
+    "Sex",
+    "Current Smoker",
+    "EX-Smoker",
+    "FH"
+  ],
+  "split_manifest_sha256": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+  "historical_results_modified": false,
+  "external_validation": "not performed",
+  "decision_curve_status": "exploratory only",
+  "learning_curve_status": "not run; not prespecified"
+}

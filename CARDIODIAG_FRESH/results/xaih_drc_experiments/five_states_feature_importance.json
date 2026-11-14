@@ -1,0 +1,22 @@
+{
+  "numeric__Age": 0.041919252674784926,
+  "numeric__RestingBP": 0.05735694840573807,
+  "numeric__Cholesterol": 0.07644516575550449,
+  "numeric__FastingBS": 0.10464601791649121,
+  "numeric__MaxHR": 0.059947635590935,
+  "numeric__Oldpeak": 0.09276935444613621,
+  "categorical__Sex_F": 0.0683194244107206,
+  "categorical__Sex_M": 0.0,
+  "categorical__ChestPainType_ASY": 0.18159745809407443,
+  "categorical__ChestPainType_ATA": 0.04854437416492282,
+  "categorical__ChestPainType_NAP": 0.03617950366288861,
+  "categorical__ChestPainType_TA": 0.041037294592272684,
+  "categorical__RestingECG_LVH": 0.040253912087727675,
+  "categorical__RestingECG_Normal": 0.0,
+  "categorical__RestingECG_ST": 0.0,
+  "categorical__ExerciseAngina_N": 0.05683678331706915,
+  "categorical__ExerciseAngina_Y": 0.058183970834549646,
+  "categorical__ST_Slope_Down": 0.05271398243639699,
+  "categorical__ST_Slope_Flat": 0.08014589716887599,
+  "categorical__ST_Slope_Up": 0.2557625739826829
+}

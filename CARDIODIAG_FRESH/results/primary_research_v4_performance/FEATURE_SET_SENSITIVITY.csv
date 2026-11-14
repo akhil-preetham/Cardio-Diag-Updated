@@ -1,0 +1,3 @@
+analysis,features,status,reason
+strict_primary,Age|Sex|Current Smoker|EX-Smoker|FH,completed,prespecified primary feature set
+additional_features,,not_run,clinical timing/definition evidence insufficient under Stage 6 policy; no outer-test-driven selection

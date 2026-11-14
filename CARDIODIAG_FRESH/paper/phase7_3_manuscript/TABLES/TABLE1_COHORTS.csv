@@ -1,0 +1,7 @@
+Dataset/centre,Source,Records,Positive,Negative,Positive prevalence,Endpoint,Identity/schema note
+ZAS,Tehran Rajaei source dataset,303,216,87,71.3%,Cath: Cad vs Normal; UCI metadata says CAD if diameter narrowing >=50%,"No verified patient ID; local validated CSV has 56 columns, while repository source descriptions report 54 feature variables; schema discrepancy unresolved"
+UCI Cleveland,Cleveland,303,139,164,45.9%,num 0 vs 1–4,One of four centres; source rows keyed with centre
+UCI Hungary,Hungary,294,106,188,36.1%,num 0 vs 1–4,One of four centres; source rows keyed with centre
+UCI Switzerland,Switzerland,123,115,8,93.5%,num 0 vs 1–4,Only 8 negatives; centre metrics particularly unstable
+UCI VA Long Beach,VA Long Beach,200,149,51,74.5%,num 0 vs 1–4,One of four centres; source rows keyed with centre
+UCI total,Four-centre total,920,509,411,55.3%,num 0 vs 1–4,Four-centre cohort; not external validation of ZAS

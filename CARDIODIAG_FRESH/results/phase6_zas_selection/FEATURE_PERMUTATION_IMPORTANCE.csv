@@ -1,0 +1,571 @@
+repeat,fold,selected_group,selected_model_family,feature,permutation_auc_decrease_mean,permutation_auc_decrease_sd
+1,1,eligible_combined,logistic_l2,Age,0.04197860962566835,0.014756839279729024
+1,1,eligible_combined,logistic_l2,Sex,0.002673796791443861,0.0039658815439014405
+1,1,eligible_combined,logistic_l2,DM,0.012299465240641627,0.01100487466698219
+1,1,eligible_combined,logistic_l2,HTN,0.00668449197860963,0.006327358056791049
+1,1,eligible_combined,logistic_l2,Current Smoker,0.005347593582887678,0.0030485973933131764
+1,1,eligible_combined,logistic_l2,EX-Smoker,0.0021390374331550664,0.0018134572147393445
+1,1,eligible_combined,logistic_l2,FH,0.0037433155080213386,0.005697132554187838
+1,1,eligible_combined,logistic_l2,Typical Chest Pain,0.11310160427807484,0.02901531543583006
+1,1,eligible_combined,logistic_l2,Dyspnea,0.011764705882352877,0.0053073350912511185
+1,1,eligible_combined,logistic_l2,Function Class,0.00588235294117645,0.005044909696286932
+1,1,eligible_combined,logistic_l2,Atypical,0.005614973262032108,0.0033180945577515795
+1,1,eligible_combined,logistic_l2,Nonanginal,0.004278074866310155,0.0005347593582887278
+1,1,eligible_combined,logistic_l2,Exertional CP,0.0,0.0
+1,1,eligible_combined,logistic_l2,LowTH Ang,0.0,0.0
+1,1,eligible_combined,logistic_l2,BP,0.0024064171122994303,0.0051708768999502155
+1,1,eligible_combined,logistic_l2,PR,0.008021390374331472,0.004474117788952294
+1,1,eligible_combined,logistic_l2,Edema,-0.0016042780748663165,0.0005347593582887721
+1,1,eligible_combined,logistic_l2,Q Wave,0.007754010695187152,0.007194451362071497
+1,1,eligible_combined,logistic_l2,St Elevation,0.009358288770053468,0.013422353366856828
+1,1,eligible_combined,logistic_l2,St Depression,0.010160427807486539,0.0049011504758885854
+1,1,eligible_combined,logistic_l2,Tinversion,0.025133689839572093,0.009765765972058629
+1,1,eligible_combined,logistic_l2,LVH,0.0008021390374331582,0.0010695187165775443
+1,1,eligible_combined,logistic_l2,Poor R Progression,0.0,0.0
+1,1,eligible_combined,logistic_l2,BBB,0.0,0.0
+1,1,eligible_combined,logistic_l2,FBS,0.003208556149732611,0.002000886303087683
+1,1,eligible_combined,logistic_l2,CR,-0.0013368983957219305,0.0018906598427447872
+1,1,eligible_combined,logistic_l2,TG,0.009625668449197811,0.005170876899950211
+1,1,eligible_combined,logistic_l2,LDL,0.004278074866310133,0.0019648313444784837
+1,1,eligible_combined,logistic_l2,HDL,0.0010695187165775445,0.0005347593582887721
+1,1,eligible_combined,logistic_l2,BUN,0.0016042780748662944,0.0017735961445750738
+1,1,eligible_combined,logistic_l2,ESR,0.006149732620320814,0.003929662688956954
+1,1,eligible_combined,logistic_l2,HB,0.002941176470588225,0.0021390374331550642
+1,1,eligible_combined,logistic_l2,K,0.008556149732620266,0.0034449461836163196
+1,1,eligible_combined,logistic_l2,Na,-0.0013368983957219305,0.0011957582767378602
+1,1,eligible_combined,logistic_l2,WBC,0.0002673796791443861,0.0005347593582887722
+1,1,eligible_combined,logistic_l2,Lymph,0.0016042780748662723,0.0015590780467500563
+1,1,eligible_combined,logistic_l2,Neut,0.004010695187165747,0.0043934964505761755
+1,1,eligible_combined,logistic_l2,PLT,0.0032085561497325445,0.0018134572147393935
+1,2,eligible_combined,logistic_l2,Age,0.04496124031007753,0.013007455244086011
+1,2,eligible_combined,logistic_l2,Sex,0.004909560723514184,0.00538311799896632
+1,2,eligible_combined,logistic_l2,DM,0.023514211886304915,0.005743181077750137
+1,2,eligible_combined,logistic_l2,HTN,0.021963824289405687,0.008452417175088453
+1,2,eligible_combined,logistic_l2,Current Smoker,0.0,0.008838569186815038
+1,2,eligible_combined,logistic_l2,EX-Smoker,-0.003875968992248069,0.0
+1,2,eligible_combined,logistic_l2,FH,0.006201550387596888,0.008146709442085018
+1,2,eligible_combined,logistic_l2,Typical Chest Pain,0.07700258397932813,0.027059088044596162
+1,2,eligible_combined,logistic_l2,Dyspnea,0.006976744186046502,0.006255151646982011
+1,2,eligible_combined,logistic_l2,Function Class,0.005943152454780343,0.004665496146064025
+1,2,eligible_combined,logistic_l2,Atypical,0.0005167958656330685,0.0037087080347305663
+1,2,eligible_combined,logistic_l2,Nonanginal,0.002067183462532296,0.00266036954547467
+1,2,eligible_combined,logistic_l2,Exertional CP,0.0,0.0
+1,2,eligible_combined,logistic_l2,LowTH Ang,0.0,0.0
+1,2,eligible_combined,logistic_l2,BP,0.011111111111111094,0.007057622885657733
+1,2,eligible_combined,logistic_l2,PR,0.019121447028423777,0.006807204068382165
+1,2,eligible_combined,logistic_l2,Edema,0.0,0.0
+1,2,eligible_combined,logistic_l2,Q Wave,0.009302325581395321,0.005257620141957606
+1,2,eligible_combined,logistic_l2,St Elevation,0.0,0.0
+1,2,eligible_combined,logistic_l2,St Depression,0.010077519379844958,0.008507533660544896
+1,2,eligible_combined,logistic_l2,Tinversion,0.022739018087855258,0.006465114213538422
+1,2,eligible_combined,logistic_l2,LVH,-0.00025839793281652313,0.0005167958656330463
+1,2,eligible_combined,logistic_l2,Poor R Progression,0.0,0.0
+1,2,eligible_combined,logistic_l2,BBB,-0.0012919896640827266,0.0
+1,2,eligible_combined,logistic_l2,FBS,0.006459948320413434,0.004694031556740293
+1,2,eligible_combined,logistic_l2,CR,0.00749354005167957,0.004277246862337688
+1,2,eligible_combined,logistic_l2,TG,0.016279069767441846,0.009409375429474467
+1,2,eligible_combined,logistic_l2,LDL,-0.0025839793281653644,0.002161912213266331
+1,2,eligible_combined,logistic_l2,HDL,-0.004392764857881137,0.0022526609527341954
+1,2,eligible_combined,logistic_l2,BUN,0.0020671834625322514,0.0033292244771899356
+1,2,eligible_combined,logistic_l2,ESR,0.011627906976744184,0.007262774843697783
+1,2,eligible_combined,logistic_l2,HB,0.009302325581395344,0.005129052517126419
+1,2,eligible_combined,logistic_l2,K,0.004909560723514184,0.0039527283051107006
+1,2,eligible_combined,logistic_l2,Na,0.003100775193798433,0.004052813214821194
+1,2,eligible_combined,logistic_l2,WBC,0.0036175710594315014,0.00419846945976021
+1,2,eligible_combined,logistic_l2,Lymph,-0.0005167958656330906,0.00278303090807987
+1,2,eligible_combined,logistic_l2,Neut,-0.0012919896640826822,0.0008171260103794159
+1,2,eligible_combined,logistic_l2,PLT,0.0031007751937983884,0.007290302831868678
+1,3,eligible_combined,elastic_net,Age,0.04418604651162796,0.03568699040796157
+1,3,eligible_combined,elastic_net,Sex,0.0018087855297157728,0.002531772343961903
+1,3,eligible_combined,elastic_net,DM,0.029715762273901845,0.004003083561971483
+1,3,eligible_combined,elastic_net,HTN,0.029457364341085302,0.004997178192716697
+1,3,eligible_combined,elastic_net,Current Smoker,0.004134366925064659,0.0032066340170518876
+1,3,eligible_combined,elastic_net,EX-Smoker,0.0,0.0
+1,3,eligible_combined,elastic_net,FH,0.011886304909560752,0.00386734613620047
+1,3,eligible_combined,elastic_net,Typical Chest Pain,0.19250645994832044,0.06268480346619223
+1,3,eligible_combined,elastic_net,Dyspnea,0.001033591731266159,0.0026351522034071253
+1,3,eligible_combined,elastic_net,Function Class,0.0,0.0
+1,3,eligible_combined,elastic_net,Atypical,0.0,0.0
+1,3,eligible_combined,elastic_net,Nonanginal,0.0,0.0
+1,3,eligible_combined,elastic_net,Exertional CP,0.0,0.0
+1,3,eligible_combined,elastic_net,LowTH Ang,0.0,0.0
+1,3,eligible_combined,elastic_net,BP,0.01291989664082691,0.005601933692165045
+1,3,eligible_combined,elastic_net,PR,-0.011627906976744184,0.008412827181446897
+1,3,eligible_combined,elastic_net,Edema,0.0018087855297157507,0.0010335917312661314
+1,3,eligible_combined,elastic_net,Q Wave,0.006459948320413455,0.008686168637711454
+1,3,eligible_combined,elastic_net,St Elevation,0.0025839793281653865,0.004245911298489641
+1,3,eligible_combined,elastic_net,St Depression,0.00878552971576232,0.0045053219054683805
+1,3,eligible_combined,elastic_net,Tinversion,0.021705426356589164,0.010728960977791576
+1,3,eligible_combined,elastic_net,LVH,0.0,0.0
+1,3,eligible_combined,elastic_net,Poor R Progression,0.0,0.0
+1,3,eligible_combined,elastic_net,BBB,0.0,0.0
+1,3,eligible_combined,elastic_net,FBS,-0.0033591731266150006,0.006516547913652938
+1,3,eligible_combined,elastic_net,CR,0.0,0.0
+1,3,eligible_combined,elastic_net,TG,0.027131782945736437,0.01454851499768403
+1,3,eligible_combined,elastic_net,LDL,0.0023255813953488415,0.0045788230353150695
+1,3,eligible_combined,elastic_net,HDL,0.0,0.0
+1,3,eligible_combined,elastic_net,BUN,0.0,0.0
+1,3,eligible_combined,elastic_net,ESR,0.003875968992248113,0.002710100382868617
+1,3,eligible_combined,elastic_net,HB,0.0,0.0
+1,3,eligible_combined,elastic_net,K,-0.007235142118863025,0.006668469199257862
+1,3,eligible_combined,elastic_net,Na,0.0,0.0
+1,3,eligible_combined,elastic_net,WBC,0.0,0.0
+1,3,eligible_combined,elastic_net,Lymph,0.0025839793281653865,0.001827149305391604
+1,3,eligible_combined,elastic_net,Neut,0.001033591731266137,0.0020671834625323156
+1,3,eligible_combined,elastic_net,PLT,0.0010335917312661812,0.00359906673829046
+1,4,eligible_combined,logistic_l2,Age,0.04705882352941178,0.01778596220316826
+1,4,eligible_combined,logistic_l2,Sex,0.010670314637482869,0.003167123639614307
+1,4,eligible_combined,logistic_l2,DM,0.025444596443228384,0.008503567862062961
+1,4,eligible_combined,logistic_l2,HTN,0.007113543091655195,0.010141588504979813
+1,4,eligible_combined,logistic_l2,Current Smoker,0.005471956224350172,0.005471956224350249
+1,4,eligible_combined,logistic_l2,EX-Smoker,-0.0024623803009576894,0.00218878248974011
+1,4,eligible_combined,logistic_l2,FH,0.0043775649794801415,0.0067794865627161865
+1,4,eligible_combined,logistic_l2,Typical Chest Pain,0.10396716826265387,0.023021268364391397
+1,4,eligible_combined,logistic_l2,Dyspnea,0.0010943912448699634,0.0081805288031333
+1,4,eligible_combined,logistic_l2,Function Class,-0.00984952120383047,0.0063224186091881815
+1,4,eligible_combined,logistic_l2,Atypical,-0.006566347469220269,0.005956645980048488
+1,4,eligible_combined,logistic_l2,Nonanginal,0.006566347469220202,0.0023535773644439775
+1,4,eligible_combined,logistic_l2,Exertional CP,0.0,0.0
+1,4,eligible_combined,logistic_l2,LowTH Ang,0.0,0.0
+1,4,eligible_combined,logistic_l2,BP,-0.001367989056087615,0.007882276492961927
+1,4,eligible_combined,logistic_l2,PR,0.0030095759233925933,0.0038107765464252237
+1,4,eligible_combined,logistic_l2,Edema,-0.0019151846785226078,0.0006701750322252129
+1,4,eligible_combined,logistic_l2,Q Wave,-0.0002735978112175186,0.0005471956224350372
+1,4,eligible_combined,logistic_l2,St Elevation,0.003556771545827608,0.005234234328237736
+1,4,eligible_combined,logistic_l2,St Depression,-0.0030095759233926154,0.0038107765464252146
+1,4,eligible_combined,logistic_l2,Tinversion,0.0191518467852257,0.005539933442220689
+1,4,eligible_combined,logistic_l2,LVH,-0.0002735978112175186,0.0018148425665419307
+1,4,eligible_combined,logistic_l2,Poor R Progression,0.001367989056087482,0.0
+1,4,eligible_combined,logistic_l2,BBB,0.003009575923392571,0.002188782489740068
+1,4,eligible_combined,logistic_l2,FBS,0.003556771545827586,0.0052342343282377815
+1,4,eligible_combined,logistic_l2,CR,-0.00300957592339266,0.0040023909270391015
+1,4,eligible_combined,logistic_l2,TG,0.021340629274965762,0.009016282929293603
+1,4,eligible_combined,logistic_l2,LDL,-0.012585499316005522,0.006202891408347228
+1,4,eligible_combined,logistic_l2,HDL,0.0019151846785225412,0.001855630638337951
+1,4,eligible_combined,logistic_l2,BUN,-4.4408920985006264e-17,0.0012235666087550025
+1,4,eligible_combined,logistic_l2,ESR,-0.0027359781121751637,0.008069976034885178
+1,4,eligible_combined,logistic_l2,HB,-0.002462380300957645,0.00822615396901392
+1,4,eligible_combined,logistic_l2,K,-2.2204460492503132e-17,0.002869518052449097
+1,4,eligible_combined,logistic_l2,Na,0.0010943912448699855,0.0015953356757442824
+1,4,eligible_combined,logistic_l2,WBC,0.0005471956224349928,0.0006701750322251857
+1,4,eligible_combined,logistic_l2,Lymph,-4.4408920985006264e-17,0.0012235666087550025
+1,4,eligible_combined,logistic_l2,Neut,0.0016415868673050004,0.0013403500644504122
+1,4,eligible_combined,logistic_l2,PLT,0.007934336525307794,0.0041852417348231035
+1,5,eligible_combined,spline_logistic,Age,0.032558139534883665,0.01842270409798348
+1,5,eligible_combined,spline_logistic,Sex,0.0038303693570450603,0.0040023909270390625
+1,5,eligible_combined,spline_logistic,DM,0.02270861833105329,0.020172157144915735
+1,5,eligible_combined,spline_logistic,HTN,0.009849521203830359,0.009688608049042835
+1,5,eligible_combined,spline_logistic,Current Smoker,0.0016415868673050227,0.00751273883323994
+1,5,eligible_combined,spline_logistic,EX-Smoker,-0.0013679890560875708,0.004238559065616893
+1,5,eligible_combined,spline_logistic,FH,0.01915184678522568,0.003869257352593999
+1,5,eligible_combined,spline_logistic,Typical Chest Pain,0.13871409028727763,0.026293874203521694
+1,5,eligible_combined,spline_logistic,Dyspnea,0.003009575923392571,0.004848165566804186
+1,5,eligible_combined,spline_logistic,Function Class,0.0010943912448700744,0.0005471956224350371
+1,5,eligible_combined,spline_logistic,Atypical,-0.0002735978112175186,0.0005471956224350371
+1,5,eligible_combined,spline_logistic,Nonanginal,0.0035567715458276307,0.001094391244870019
+1,5,eligible_combined,spline_logistic,Exertional CP,0.0,0.0
+1,5,eligible_combined,spline_logistic,LowTH Ang,0.0,0.0
+1,5,eligible_combined,spline_logistic,BP,-0.0008207934336526224,0.004939937095832504
+1,5,eligible_combined,spline_logistic,PR,0.00683994528043772,0.008738013363978803
+1,5,eligible_combined,spline_logistic,Edema,0.0016415868673050448,0.0041852417348230446
+1,5,eligible_combined,spline_logistic,Q Wave,0.012859097127222907,0.018947512660115774
+1,5,eligible_combined,spline_logistic,St Elevation,0.004924760601915134,0.00362968513308389
+1,5,eligible_combined,spline_logistic,St Depression,0.0021887824897400153,0.003417235566839098
+1,5,eligible_combined,spline_logistic,Tinversion,0.007660738714090254,0.014047056254985972
+1,5,eligible_combined,spline_logistic,LVH,0.0002735978112175186,0.0005471956224350372
+1,5,eligible_combined,spline_logistic,Poor R Progression,0.0,0.0
+1,5,eligible_combined,spline_logistic,BBB,-0.0013679890560875708,0.0008651922462840896
+1,5,eligible_combined,spline_logistic,FBS,0.0002735978112175186,0.0010237092713472106
+1,5,eligible_combined,spline_logistic,CR,0.0057455540355676234,0.002010525096675681
+1,5,eligible_combined,spline_logistic,TG,-0.008755129958960394,0.01712119053040988
+1,5,eligible_combined,spline_logistic,LDL,-0.003009575923392638,0.00218878248974006
+1,5,eligible_combined,spline_logistic,HDL,-0.0024623803009576227,0.002353577364443962
+1,5,eligible_combined,spline_logistic,BUN,0.0010943912448700744,0.0005471956224350371
+1,5,eligible_combined,spline_logistic,ESR,0.0002735978112174964,0.002921225239953855
+1,5,eligible_combined,spline_logistic,HB,-0.008481532147742832,0.0026526291969446425
+1,5,eligible_combined,spline_logistic,K,0.004651162790697638,0.005375344105167825
+1,5,eligible_combined,spline_logistic,Na,-0.001367989056087593,0.004817186555857466
+1,5,eligible_combined,spline_logistic,WBC,-0.03064295485636117,0.017077413443860167
+1,5,eligible_combined,spline_logistic,Lymph,-0.012859097127223018,0.005512843140796115
+1,5,eligible_combined,spline_logistic,Neut,-0.013406292749658034,0.005000182457591577
+1,5,eligible_combined,spline_logistic,PLT,-0.005471956224350238,0.001730384492568214
+2,1,eligible_combined,logistic_l2,Age,0.016042780748663055,0.01817395237215661
+2,1,eligible_combined,logistic_l2,Sex,0.007754010695187175,0.004505962445548859
+2,1,eligible_combined,logistic_l2,DM,0.025935828877005362,0.010681809815742356
+2,1,eligible_combined,logistic_l2,HTN,0.007754010695187175,0.010874170806236753
+2,1,eligible_combined,logistic_l2,Current Smoker,-0.002139037433155089,0.011975505709389723
+2,1,eligible_combined,logistic_l2,EX-Smoker,-0.0016042780748663165,0.0010004431515438386
+2,1,eligible_combined,logistic_l2,FH,0.00481283422459895,0.011945619199833564
+2,1,eligible_combined,logistic_l2,Typical Chest Pain,0.1358288770053476,0.030328446927164143
+2,1,eligible_combined,logistic_l2,Dyspnea,-0.0008021390374332027,0.011011369134745425
+2,1,eligible_combined,logistic_l2,Function Class,0.003475935828876997,0.0027528422836863597
+2,1,eligible_combined,logistic_l2,Atypical,0.00828877005347597,0.007767828367023534
+2,1,eligible_combined,logistic_l2,Nonanginal,0.008021390374331538,0.0011957582767378354
+2,1,eligible_combined,logistic_l2,Exertional CP,0.0,0.0
+2,1,eligible_combined,logistic_l2,LowTH Ang,0.0,0.0
+2,1,eligible_combined,logistic_l2,BP,0.0026737967914438167,0.0038746996647565195
+2,1,eligible_combined,logistic_l2,PR,0.002139037433155111,0.01853618183148345
+2,1,eligible_combined,logistic_l2,Edema,-0.007754010695187175,0.002854833757227612
+2,1,eligible_combined,logistic_l2,Q Wave,0.0037433155080213608,0.0033180945577515578
+2,1,eligible_combined,logistic_l2,St Elevation,0.0064171122994652,0.00495915427566621
+2,1,eligible_combined,logistic_l2,St Depression,0.0016042780748662723,0.008344645205522574
+2,1,eligible_combined,logistic_l2,Tinversion,-0.0016042780748663388,0.005101279151962261
+2,1,eligible_combined,logistic_l2,LVH,0.0002673796791443861,0.0005347593582887721
+2,1,eligible_combined,logistic_l2,Poor R Progression,0.0,0.0
+2,1,eligible_combined,logistic_l2,BBB,-0.004278074866310155,0.0032085561497326074
+2,1,eligible_combined,logistic_l2,FBS,0.004278074866310111,0.003911427496879064
+2,1,eligible_combined,logistic_l2,CR,0.0010695187165775,0.0010004431515438564
+2,1,eligible_combined,logistic_l2,TG,0.0117647058823529,0.017723864619440106
+2,1,eligible_combined,logistic_l2,LDL,-0.0005347593582888166,0.0038376203460982394
+2,1,eligible_combined,logistic_l2,HDL,-0.0021390374331551553,0.002752842283686366
+2,1,eligible_combined,logistic_l2,BUN,-0.002406417112299475,0.0010004431515438386
+2,1,eligible_combined,logistic_l2,ESR,0.0010695187165775666,0.005821267662320117
+2,1,eligible_combined,logistic_l2,HB,-0.0037433155080213833,0.004584606470449783
+2,1,eligible_combined,logistic_l2,K,0.0024064171122994303,0.004584606470449795
+2,1,eligible_combined,logistic_l2,Na,-0.0008021390374331361,0.0013633742014954155
+2,1,eligible_combined,logistic_l2,WBC,0.002139037433155089,0.0018134572147393837
+2,1,eligible_combined,logistic_l2,Lymph,-0.006417112299465266,0.0028548337572275725
+2,1,eligible_combined,logistic_l2,Neut,-0.0045454545454545634,0.0018134572147393837
+2,1,eligible_combined,logistic_l2,PLT,-0.0069518716577540605,0.015714101876914587
+2,2,eligible_combined,logistic_l2,Age,0.05245478036175717,0.017744997119782335
+2,2,eligible_combined,logistic_l2,Sex,-0.0095607235142118,0.0019336730681002393
+2,2,eligible_combined,logistic_l2,DM,0.01679586563307498,0.008292923274357194
+2,2,eligible_combined,logistic_l2,HTN,0.011627906976744207,0.006537008083035389
+2,2,eligible_combined,logistic_l2,Current Smoker,-0.010594315245478002,0.012981764017654258
+2,2,eligible_combined,logistic_l2,EX-Smoker,-0.005684754521963753,0.001033591731266137
+2,2,eligible_combined,logistic_l2,FH,0.0012919896640827045,0.005358253579671232
+2,2,eligible_combined,logistic_l2,Typical Chest Pain,0.037209302325581416,0.030720025967757185
+2,2,eligible_combined,logistic_l2,Dyspnea,-0.0007751937984495693,0.007604102826647101
+2,2,eligible_combined,logistic_l2,Function Class,-0.0007751937984495693,0.006360999289452805
+2,2,eligible_combined,logistic_l2,Atypical,-0.02222222222222221,0.0059711731308999235
+2,2,eligible_combined,logistic_l2,Nonanginal,0.00025839793281656753,0.002877397603529713
+2,2,eligible_combined,logistic_l2,Exertional CP,0.0,0.0
+2,2,eligible_combined,logistic_l2,LowTH Ang,0.0,0.0
+2,2,eligible_combined,logistic_l2,BP,-0.0025839793281653644,0.0038326607168453156
+2,2,eligible_combined,logistic_l2,PR,0.004651162790697727,0.003122234101704049
+2,2,eligible_combined,logistic_l2,Edema,-0.001033591731266137,0.003206634017051852
+2,2,eligible_combined,logistic_l2,Q Wave,4.4408920985006264e-17,0.0014153037661632222
+2,2,eligible_combined,logistic_l2,St Elevation,0.0,0.0
+2,2,eligible_combined,logistic_l2,St Depression,0.010852713178294593,0.013905554570618824
+2,2,eligible_combined,logistic_l2,Tinversion,0.027906976744186053,0.0029005096021503395
+2,2,eligible_combined,logistic_l2,LVH,0.0018087855297157951,0.001933673068100219
+2,2,eligible_combined,logistic_l2,Poor R Progression,0.0,0.0
+2,2,eligible_combined,logistic_l2,BBB,-0.0005167958656330685,0.001033591731266137
+2,2,eligible_combined,logistic_l2,FBS,-0.00129198966408266,0.005481447916174775
+2,2,eligible_combined,logistic_l2,CR,-0.0020671834625322514,0.0020992347298800884
+2,2,eligible_combined,logistic_l2,TG,0.009302325581395387,0.007726054980736991
+2,2,eligible_combined,logistic_l2,LDL,-0.0020671834625322293,0.0015503875968992274
+2,2,eligible_combined,logistic_l2,HDL,-0.0005167958656330018,0.00342803595902367
+2,2,eligible_combined,logistic_l2,BUN,-0.001550387596899161,0.0005167958656330906
+2,2,eligible_combined,logistic_l2,ESR,0.0005167958656331351,0.0015503875968992202
+2,2,eligible_combined,logistic_l2,HB,-0.004651162790697616,0.001933673068100204
+2,2,eligible_combined,logistic_l2,K,0.0020671834625323403,0.006618216266080442
+2,2,eligible_combined,logistic_l2,Na,-0.011369509043927594,0.0037800358755368715
+2,2,eligible_combined,logistic_l2,WBC,0.0005167958656330906,0.0023962838489652873
+2,2,eligible_combined,logistic_l2,Lymph,0.0012919896640827266,0.004970383478468043
+2,2,eligible_combined,logistic_l2,Neut,-0.0007751937984495693,0.0038845727075898675
+2,2,eligible_combined,logistic_l2,PLT,-0.02739018087855294,0.010852713178294565
+2,3,eligible_combined,logistic_l2,Age,0.024806201550387617,0.013411823537324013
+2,3,eligible_combined,logistic_l2,Sex,0.005684754521963908,0.003122234101704023
+2,3,eligible_combined,logistic_l2,DM,0.022997416020671867,0.007981108636424055
+2,3,eligible_combined,logistic_l2,HTN,0.0012919896640827266,0.006169166091117965
+2,3,eligible_combined,logistic_l2,Current Smoker,0.005943152454780431,0.0010335917312661812
+2,3,eligible_combined,logistic_l2,EX-Smoker,0.0002583979328165453,0.0020671834625322935
+2,3,eligible_combined,logistic_l2,FH,0.01085271317829457,0.007515782724676456
+2,3,eligible_combined,logistic_l2,Typical Chest Pain,0.0739018087855298,0.026621258135792348
+2,3,eligible_combined,logistic_l2,Dyspnea,0.006459948320413455,0.0035617697033825464
+2,3,eligible_combined,logistic_l2,Function Class,-0.001550387596899161,0.00171401797951182
+2,3,eligible_combined,logistic_l2,Atypical,0.0005167958656330906,0.004806479389596444
+2,3,eligible_combined,logistic_l2,Nonanginal,0.00775193798449616,0.0014153037661631819
+2,3,eligible_combined,logistic_l2,Exertional CP,0.0,0.0
+2,3,eligible_combined,logistic_l2,LowTH Ang,0.0,0.0
+2,3,eligible_combined,logistic_l2,BP,0.0015503875968992942,0.003867346136200454
+2,3,eligible_combined,logistic_l2,PR,0.002325581395348819,0.005193734171121878
+2,3,eligible_combined,logistic_l2,Edema,0.0,0.0
+2,3,eligible_combined,logistic_l2,Q Wave,-0.0010335917312661147,0.002222823066419266
+2,3,eligible_combined,logistic_l2,St Elevation,-0.0002583979328165009,0.0022228230664193046
+2,3,eligible_combined,logistic_l2,St Depression,0.005684754521963864,0.0035240779578774623
+2,3,eligible_combined,logistic_l2,Tinversion,0.018604651162790732,0.005457031545721664
+2,3,eligible_combined,logistic_l2,LVH,-0.0018087855297156397,0.0022526609527341803
+2,3,eligible_combined,logistic_l2,Poor R Progression,0.0,0.0
+2,3,eligible_combined,logistic_l2,BBB,4.4408920985006264e-17,0.0011555906860463885
+2,3,eligible_combined,logistic_l2,FBS,0.003100775193798455,0.0010335917312661147
+2,3,eligible_combined,logistic_l2,CR,-0.0005167958656329796,0.0013175761017035583
+2,3,eligible_combined,logistic_l2,TG,0.017312661498708047,0.003969584365823588
+2,3,eligible_combined,logistic_l2,LDL,-0.0005167958656330463,0.002531772343961937
+2,3,eligible_combined,logistic_l2,HDL,0.0018087855297157951,0.0013175761017035674
+2,3,eligible_combined,logistic_l2,BUN,0.0033591731266150006,0.0034280359590236928
+2,3,eligible_combined,logistic_l2,ESR,-0.002583979328165431,0.003369096850233885
+2,3,eligible_combined,logistic_l2,HB,0.0023255813953488415,0.0015067059159806942
+2,3,eligible_combined,logistic_l2,K,0.0007751937984496581,0.002660369545474676
+2,3,eligible_combined,logistic_l2,Na,0.0005167958656330906,0.0010335917312661812
+2,3,eligible_combined,logistic_l2,WBC,-0.0038759689922480247,0.001827149305391604
+2,3,eligible_combined,logistic_l2,Lymph,-0.0018087855297156841,0.0010335917312661092
+2,3,eligible_combined,logistic_l2,Neut,-0.0015503875968991166,0.002877397603529709
+2,3,eligible_combined,logistic_l2,PLT,0.006976744186046569,0.0023962838489652847
+2,4,eligible_combined,elastic_net,Age,0.059097127222982236,0.017116817860046037
+2,4,eligible_combined,elastic_net,Sex,0.0,0.0
+2,4,eligible_combined,elastic_net,DM,0.03310533515731877,0.00949348923277566
+2,4,eligible_combined,elastic_net,HTN,0.01367989056087553,0.0044956707866360985
+2,4,eligible_combined,elastic_net,Current Smoker,0.0,0.0
+2,4,eligible_combined,elastic_net,EX-Smoker,0.0,0.0
+2,4,eligible_combined,elastic_net,FH,0.002735978112175097,0.003567279017894753
+2,4,eligible_combined,elastic_net,Typical Chest Pain,0.22462380300957596,0.0330521556793224
+2,4,eligible_combined,elastic_net,Dyspnea,0.0,0.0
+2,4,eligible_combined,elastic_net,Function Class,0.0,0.0
+2,4,eligible_combined,elastic_net,Atypical,0.0,0.0
+2,4,eligible_combined,elastic_net,Nonanginal,0.0,0.0
+2,4,eligible_combined,elastic_net,Exertional CP,0.0,0.0
+2,4,eligible_combined,elastic_net,LowTH Ang,0.0,0.0
+2,4,eligible_combined,elastic_net,BP,0.00984952120383038,0.004185241734823102
+2,4,eligible_combined,elastic_net,PR,0.006019151846785231,0.0025372417224338406
+2,4,eligible_combined,elastic_net,Edema,0.0,0.0
+2,4,eligible_combined,elastic_net,Q Wave,0.0,0.0
+2,4,eligible_combined,elastic_net,St Elevation,0.0,0.0
+2,4,eligible_combined,elastic_net,St Depression,0.0,0.0
+2,4,eligible_combined,elastic_net,Tinversion,0.015868673050615633,0.009342473914617748
+2,4,eligible_combined,elastic_net,LVH,0.0,0.0
+2,4,eligible_combined,elastic_net,Poor R Progression,0.0,0.0
+2,4,eligible_combined,elastic_net,BBB,0.0,0.0
+2,4,eligible_combined,elastic_net,FBS,-0.0005471956224349928,0.0006701750322251857
+2,4,eligible_combined,elastic_net,CR,0.0,0.0
+2,4,eligible_combined,elastic_net,TG,0.010943912448700433,0.0056734449667107485
+2,4,eligible_combined,elastic_net,LDL,0.0,0.0
+2,4,eligible_combined,elastic_net,HDL,0.0,0.0
+2,4,eligible_combined,elastic_net,BUN,0.0,0.0
+2,4,eligible_combined,elastic_net,ESR,0.0,0.0
+2,4,eligible_combined,elastic_net,HB,0.0,0.0
+2,4,eligible_combined,elastic_net,K,0.0,0.0
+2,4,eligible_combined,elastic_net,Na,0.0,0.0
+2,4,eligible_combined,elastic_net,WBC,0.0,0.0
+2,4,eligible_combined,elastic_net,Lymph,0.0,0.0
+2,4,eligible_combined,elastic_net,Neut,0.0,0.0
+2,4,eligible_combined,elastic_net,PLT,0.0,0.0
+2,5,eligible_combined,elastic_net,Age,0.06757865937072498,0.023449742639908195
+2,5,eligible_combined,elastic_net,Sex,0.0,0.0
+2,5,eligible_combined,elastic_net,DM,-0.00410396716826269,0.01743314070815206
+2,5,eligible_combined,elastic_net,HTN,0.009849521203830359,0.005430761488722061
+2,5,eligible_combined,elastic_net,Current Smoker,0.007660738714090254,0.008004781854078134
+2,5,eligible_combined,elastic_net,EX-Smoker,0.0,0.0
+2,5,eligible_combined,elastic_net,FH,0.013132694938440426,0.0047071547288878865
+2,5,eligible_combined,elastic_net,Typical Chest Pain,0.18358413132694934,0.05048899018069963
+2,5,eligible_combined,elastic_net,Dyspnea,0.0,0.0
+2,5,eligible_combined,elastic_net,Function Class,0.0,0.0
+2,5,eligible_combined,elastic_net,Atypical,0.0,0.0
+2,5,eligible_combined,elastic_net,Nonanginal,-0.0019151846785226078,0.0022227191257553837
+2,5,eligible_combined,elastic_net,Exertional CP,0.0,0.0
+2,5,eligible_combined,elastic_net,LowTH Ang,0.0,0.0
+2,5,eligible_combined,elastic_net,BP,-0.024897400820793524,0.016079546106610217
+2,5,eligible_combined,elastic_net,PR,-0.0024623803009576894,0.004185241734823099
+2,5,eligible_combined,elastic_net,Edema,0.0,0.0
+2,5,eligible_combined,elastic_net,Q Wave,-0.0016415868673051559,0.005633723743358088
+2,5,eligible_combined,elastic_net,St Elevation,0.00218878248974006,0.011497620459343738
+2,5,eligible_combined,elastic_net,St Depression,0.001367989056087482,0.007290239449780725
+2,5,eligible_combined,elastic_net,Tinversion,0.006019151846785187,0.017764906244320595
+2,5,eligible_combined,elastic_net,LVH,0.0,0.0
+2,5,eligible_combined,elastic_net,Poor R Progression,0.0,0.0
+2,5,eligible_combined,elastic_net,BBB,0.0,0.0
+2,5,eligible_combined,elastic_net,FBS,-0.0005471956224350816,0.005375344105167853
+2,5,eligible_combined,elastic_net,CR,0.001915184678522519,0.003305894931216006
+2,5,eligible_combined,elastic_net,TG,0.015868673050615546,0.011032473408293268
+2,5,eligible_combined,elastic_net,LDL,0.000547195622435015,0.003926867330891211
+2,5,eligible_combined,elastic_net,HDL,0.0,0.0
+2,5,eligible_combined,elastic_net,BUN,0.0,0.0
+2,5,eligible_combined,elastic_net,ESR,0.0005471956224349262,0.005512843140796063
+2,5,eligible_combined,elastic_net,HB,0.0,0.0
+2,5,eligible_combined,elastic_net,K,0.004377564979480097,0.005893477217110257
+2,5,eligible_combined,elastic_net,Na,0.0010943912448700076,0.0033952595474667094
+2,5,eligible_combined,elastic_net,WBC,-0.0019151846785226522,0.00307112781404149
+2,5,eligible_combined,elastic_net,Lymph,0.0,0.0
+2,5,eligible_combined,elastic_net,Neut,0.004377564979480097,0.003609002998159467
+2,5,eligible_combined,elastic_net,PLT,0.0041039671682626235,0.0014985569288787084
+3,1,eligible_combined,logistic_l2,Age,0.050000000000000024,0.022555183645949873
+3,1,eligible_combined,logistic_l2,Sex,0.0008021390374332027,0.005184684339482719
+3,1,eligible_combined,logistic_l2,DM,0.03208556149732626,0.006439355389728479
+3,1,eligible_combined,logistic_l2,HTN,0.032352941176470626,0.014383933322259656
+3,1,eligible_combined,logistic_l2,Current Smoker,0.0013368983957219526,0.004857193081439821
+3,1,eligible_combined,logistic_l2,EX-Smoker,-0.0013368983957219084,0.002071114088880937
+3,1,eligible_combined,logistic_l2,FH,0.010427807486630991,0.005374265038032596
+3,1,eligible_combined,logistic_l2,Typical Chest Pain,0.1481283422459893,0.041554965758121856
+3,1,eligible_combined,logistic_l2,Dyspnea,-0.0037433155080213608,0.007675240692196413
+3,1,eligible_combined,logistic_l2,Function Class,0.0002673796791444083,0.002139037433155058
+3,1,eligible_combined,logistic_l2,Atypical,0.006951871657754016,0.009239119007043318
+3,1,eligible_combined,logistic_l2,Nonanginal,0.010695187165775421,0.0032747189074641366
+3,1,eligible_combined,logistic_l2,Exertional CP,0.0,0.0
+3,1,eligible_combined,logistic_l2,LowTH Ang,0.0002673796791443861,0.0005347593582887721
+3,1,eligible_combined,logistic_l2,BP,0.013903743315508033,0.013727804976463576
+3,1,eligible_combined,logistic_l2,PR,0.01229946524064176,0.007904676737483712
+3,1,eligible_combined,logistic_l2,Edema,-0.0013368983957219305,0.00207111408888098
+3,1,eligible_combined,logistic_l2,Q Wave,0.005614973262032086,0.01070854780454589
+3,1,eligible_combined,logistic_l2,St Elevation,0.021925133689839595,0.01258674042346507
+3,1,eligible_combined,logistic_l2,St Depression,-0.008288770053475924,0.01119807036971761
+3,1,eligible_combined,logistic_l2,Tinversion,-0.009625668449197832,0.010195548644351623
+3,1,eligible_combined,logistic_l2,LVH,0.0010695187165775445,0.004425921218515218
+3,1,eligible_combined,logistic_l2,Poor R Progression,-0.0002673796791443861,0.0005347593582887722
+3,1,eligible_combined,logistic_l2,BBB,-0.0005347593582887722,0.0010695187165775443
+3,1,eligible_combined,logistic_l2,FBS,-0.002673796791443861,0.005143150818628722
+3,1,eligible_combined,logistic_l2,CR,-0.008021390374331494,0.00541402586398837
+3,1,eligible_combined,logistic_l2,TG,0.004278074866310178,0.018914159554895622
+3,1,eligible_combined,logistic_l2,LDL,0.0,0.00824119519113503
+3,1,eligible_combined,logistic_l2,HDL,-0.0016042780748663165,0.0015590780467500866
+3,1,eligible_combined,logistic_l2,BUN,-0.004278074866310178,0.004261330869120132
+3,1,eligible_combined,logistic_l2,ESR,0.00481283422459895,0.006361164306615119
+3,1,eligible_combined,logistic_l2,HB,-0.002406417112299453,0.0027267484029908137
+3,1,eligible_combined,logistic_l2,K,-0.002406417112299453,0.011758627501227827
+3,1,eligible_combined,logistic_l2,Na,-0.002941176470588247,0.004737979985740487
+3,1,eligible_combined,logistic_l2,WBC,-0.006149732620320791,0.0041936864014326305
+3,1,eligible_combined,logistic_l2,Lymph,-0.014705882352941079,0.004474117788952254
+3,1,eligible_combined,logistic_l2,Neut,-0.015240641711229875,0.003118156093500091
+3,1,eligible_combined,logistic_l2,PLT,0.0,0.005544503035649145
+3,2,eligible_combined,logistic_l2,Age,0.014470284237726116,0.012878486609175297
+3,2,eligible_combined,logistic_l2,Sex,0.010077519379844958,0.005625721203379136
+3,2,eligible_combined,logistic_l2,DM,-0.0012919896640826377,0.018161533220470885
+3,2,eligible_combined,logistic_l2,HTN,0.010077519379845001,0.008105626429642444
+3,2,eligible_combined,logistic_l2,Current Smoker,0.007493540051679593,0.007897006092990258
+3,2,eligible_combined,logistic_l2,EX-Smoker,0.000775193798449636,0.003797658515942929
+3,2,eligible_combined,logistic_l2,FH,0.0227390180878553,0.009157646070630202
+3,2,eligible_combined,logistic_l2,Typical Chest Pain,0.10465116279069767,0.017771316655348226
+3,2,eligible_combined,logistic_l2,Dyspnea,0.00775193798449616,0.005295581791193628
+3,2,eligible_combined,logistic_l2,Function Class,0.005426356589147275,0.002368256173103812
+3,2,eligible_combined,logistic_l2,Atypical,0.005684754521963797,0.0050767138771029546
+3,2,eligible_combined,logistic_l2,Nonanginal,-0.0005167958656330906,0.001317576101703602
+3,2,eligible_combined,logistic_l2,Exertional CP,0.0,0.0
+3,2,eligible_combined,logistic_l2,LowTH Ang,0.0,0.0
+3,2,eligible_combined,logistic_l2,BP,0.0010335917312661812,0.004277246862337662
+3,2,eligible_combined,logistic_l2,PR,0.0023255813953488636,0.013361946742995262
+3,2,eligible_combined,logistic_l2,Edema,-0.003617571059431457,0.0034085028315950674
+3,2,eligible_combined,logistic_l2,Q Wave,0.0049095607235142055,0.010914063091443328
+3,2,eligible_combined,logistic_l2,St Elevation,0.008268733850129184,0.00786311320656478
+3,2,eligible_combined,logistic_l2,St Depression,0.0015503875968991832,0.005257620141957606
+3,2,eligible_combined,logistic_l2,Tinversion,0.02118863049095603,0.011688044318241459
+3,2,eligible_combined,logistic_l2,LVH,0.0007751937984495916,0.0010335917312661314
+3,2,eligible_combined,logistic_l2,Poor R Progression,0.000775193798449636,0.0006329430859905045
+3,2,eligible_combined,logistic_l2,BBB,0.0005167958656330906,0.0013175761017035366
+3,2,eligible_combined,logistic_l2,FBS,-0.003875968992248069,0.005719882072656002
+3,2,eligible_combined,logistic_l2,CR,-0.00284237726098191,0.001265886171980982
+3,2,eligible_combined,logistic_l2,TG,0.018346253229974165,0.01833351087862196
+3,2,eligible_combined,logistic_l2,LDL,-0.0012919896640826822,0.004085630051897129
+3,2,eligible_combined,logistic_l2,HDL,0.00129198966408266,0.0008171260103794159
+3,2,eligible_combined,logistic_l2,BUN,-0.0018087855297157507,0.007104768519311371
+3,2,eligible_combined,logistic_l2,ESR,0.002067183462532274,0.01293539122561634
+3,2,eligible_combined,logistic_l2,HB,-0.0007751937984496138,0.005869672708837483
+3,2,eligible_combined,logistic_l2,K,0.003100775193798433,0.002099234729880089
+3,2,eligible_combined,logistic_l2,Na,-0.0012919896640826822,0.0014153037661632224
+3,2,eligible_combined,logistic_l2,WBC,-0.0012919896640826377,0.0014153037661632224
+3,2,eligible_combined,logistic_l2,Lymph,0.0005167958656330685,0.0017525400473192016
+3,2,eligible_combined,logistic_l2,Neut,0.004134366925064592,0.005684754521963837
+3,2,eligible_combined,logistic_l2,PLT,-0.010077519379844913,0.011185974584968164
+3,3,eligible_combined,logistic_l2,Age,0.03359173126614989,0.004622362744185585
+3,3,eligible_combined,logistic_l2,Sex,-0.0010335917312661812,0.004651162790697637
+3,3,eligible_combined,logistic_l2,DM,0.016795865633074957,0.007354134093414857
+3,3,eligible_combined,logistic_l2,HTN,-0.00025839793281658976,0.003408502831595027
+3,3,eligible_combined,logistic_l2,Current Smoker,0.0005167958656330685,0.002396283848965292
+3,3,eligible_combined,logistic_l2,EX-Smoker,0.0,0.0
+3,3,eligible_combined,logistic_l2,FH,0.004651162790697683,0.0029005096021503278
+3,3,eligible_combined,logistic_l2,Typical Chest Pain,0.08656330749354006,0.01784630144685477
+3,3,eligible_combined,logistic_l2,Dyspnea,-0.002583979328165431,0.00391879867909641
+3,3,eligible_combined,logistic_l2,Function Class,0.002842377260981821,0.001506705915980698
+3,3,eligible_combined,logistic_l2,Atypical,0.0010335917312660925,0.0034085028315950995
+3,3,eligible_combined,logistic_l2,Nonanginal,0.0015503875968992053,0.0009668365340501316
+3,3,eligible_combined,logistic_l2,Exertional CP,0.0,0.0
+3,3,eligible_combined,logistic_l2,LowTH Ang,0.0,0.0
+3,3,eligible_combined,logistic_l2,BP,-0.0054263565891473405,0.0031007751937984513
+3,3,eligible_combined,logistic_l2,PR,0.0015503875968992276,0.0041181853877284985
+3,3,eligible_combined,logistic_l2,Edema,0.0002583979328165453,0.0005167958656330905
+3,3,eligible_combined,logistic_l2,Q Wave,-0.0007751937984496138,0.004593382127811705
+3,3,eligible_combined,logistic_l2,St Elevation,0.0,0.0
+3,3,eligible_combined,logistic_l2,St Depression,0.007493540051679526,0.0015067059159806942
+3,3,eligible_combined,logistic_l2,Tinversion,0.01240310077519382,0.00823637077545696
+3,3,eligible_combined,logistic_l2,LVH,0.0002583979328165453,0.0005167958656330905
+3,3,eligible_combined,logistic_l2,Poor R Progression,0.0,0.0
+3,3,eligible_combined,logistic_l2,BBB,0.0002583979328165453,0.0005167958656330905
+3,3,eligible_combined,logistic_l2,FBS,0.004909560723514161,0.0015067059159807094
+3,3,eligible_combined,logistic_l2,CR,-0.0012919896640827045,0.001634252020758867
+3,3,eligible_combined,logistic_l2,TG,0.00129198966408266,0.0046223627441856225
+3,3,eligible_combined,logistic_l2,LDL,0.0015503875968992497,0.0012658861719809682
+3,3,eligible_combined,logistic_l2,HDL,0.0002583979328165453,0.0005167958656330906
+3,3,eligible_combined,logistic_l2,BUN,0.0012919896640826377,0.002451378031138295
+3,3,eligible_combined,logistic_l2,ESR,-0.0023255813953488636,0.0017140179795118464
+3,3,eligible_combined,logistic_l2,HB,0.0015503875968991832,0.002991172326302396
+3,3,eligible_combined,logistic_l2,K,-0.0031007751937984773,0.005578044740290177
+3,3,eligible_combined,logistic_l2,Na,-0.0005167958656331128,0.0017525400473192374
+3,3,eligible_combined,logistic_l2,WBC,-0.0012919896640827266,0.0
+3,3,eligible_combined,logistic_l2,Lymph,-0.0018087855297158396,0.0023962838489653302
+3,3,eligible_combined,logistic_l2,Neut,-0.0018087855297158396,0.006147481784687516
+3,3,eligible_combined,logistic_l2,PLT,-4.4408920985006264e-17,0.0014153037661632222
+3,4,eligible_combined,spline_logistic,Age,0.0670314637482901,0.026652977024257358
+3,4,eligible_combined,spline_logistic,Sex,0.006019151846785364,0.006274880952765938
+3,4,eligible_combined,spline_logistic,DM,0.01313269493844058,0.011562542604167121
+3,4,eligible_combined,spline_logistic,HTN,0.011491108071135514,0.01577879163370309
+3,4,eligible_combined,spline_logistic,Current Smoker,0.0068399452804378535,0.004894266435020072
+3,4,eligible_combined,spline_logistic,EX-Smoker,0.005471956224350283,0.01131385670486204
+3,4,eligible_combined,spline_logistic,FH,0.018331053351573257,0.005580322313097444
+3,4,eligible_combined,spline_logistic,Typical Chest Pain,0.10697674418604661,0.03436240379495765
+3,4,eligible_combined,spline_logistic,Dyspnea,0.006566347469220313,0.004848165566804189
+3,4,eligible_combined,spline_logistic,Function Class,0.002735978112175186,0.0022890835199290745
+3,4,eligible_combined,spline_logistic,Atypical,0.0005471956224350372,0.0006701750322252401
+3,4,eligible_combined,spline_logistic,Nonanginal,2.2204460492503132e-17,0.0008651922462840896
+3,4,eligible_combined,spline_logistic,Exertional CP,0.0,0.0
+3,4,eligible_combined,spline_logistic,LowTH Ang,0.0,0.0
+3,4,eligible_combined,spline_logistic,BP,0.005471956224350261,0.006416437427939072
+3,4,eligible_combined,spline_logistic,PR,0.018878248974008294,0.00917267010355134
+3,4,eligible_combined,spline_logistic,Edema,0.0002735978112175408,0.001023709271347175
+3,4,eligible_combined,spline_logistic,Q Wave,0.007113543091655306,0.0050001824575915095
+3,4,eligible_combined,spline_logistic,St Elevation,0.010123119015047944,0.020739363784675457
+3,4,eligible_combined,spline_logistic,St Depression,0.00875512995896044,0.00880628013101565
+3,4,eligible_combined,spline_logistic,Tinversion,0.0158686730506157,0.007522696079270892
+3,4,eligible_combined,spline_logistic,LVH,0.0002735978112175186,0.0005471956224350371
+3,4,eligible_combined,spline_logistic,Poor R Progression,0.0,0.0
+3,4,eligible_combined,spline_logistic,BBB,0.0005471956224350372,0.0006701750322252401
+3,4,eligible_combined,spline_logistic,FBS,8.881784197001253e-17,0.0022890835199290745
+3,4,eligible_combined,spline_logistic,CR,0.012585499316005565,0.0101046157661392
+3,4,eligible_combined,spline_logistic,TG,0.008755129958960394,0.004626958830448069
+3,4,eligible_combined,spline_logistic,LDL,0.0038303693570452156,0.0064975880093230964
+3,4,eligible_combined,spline_logistic,HDL,-0.000273597811217452,0.005699771998905484
+3,4,eligible_combined,spline_logistic,BUN,0.0010943912448701187,0.0026526291969446903
+3,4,eligible_combined,spline_logistic,ESR,0.005198358413132787,0.005566891915013842
+3,4,eligible_combined,spline_logistic,HB,0.004924760601915268,0.005580322313097444
+3,4,eligible_combined,spline_logistic,K,0.015868673050615657,0.0049399370958325235
+3,4,eligible_combined,spline_logistic,Na,0.002188782489740171,0.002537241722433891
+3,4,eligible_combined,spline_logistic,WBC,-0.0021887824897400153,0.007165964899430266
+3,4,eligible_combined,spline_logistic,Lymph,0.0005471956224350593,0.0013950805782743717
+3,4,eligible_combined,spline_logistic,Neut,0.006019151846785342,0.0025372417224338766
+3,4,eligible_combined,spline_logistic,PLT,-0.0038303693570449935,0.0050001824575915165
+3,5,eligible_combined,elastic_net,Age,0.027633378932968466,0.018361654430164156
+3,5,eligible_combined,elastic_net,Sex,0.001915184678522519,0.0025372417224338623
+3,5,eligible_combined,elastic_net,DM,0.013679890560875462,0.009278153191689847
+3,5,eligible_combined,elastic_net,HTN,0.01367989056087544,0.006757367461137337
+3,5,eligible_combined,elastic_net,Current Smoker,0.002188782489739993,0.0038303693570451744
+3,5,eligible_combined,elastic_net,EX-Smoker,-0.0016415868673051337,0.001340350064450453
+3,5,eligible_combined,elastic_net,FH,0.009302325581395276,0.010750688210335672
+3,5,eligible_combined,elastic_net,Typical Chest Pain,0.1526675786593707,0.03022729618524569
+3,5,eligible_combined,elastic_net,Dyspnea,0.00437756497948012,0.0018148425665419573
+3,5,eligible_combined,elastic_net,Function Class,-0.00656634746922029,0.002921225239953849
+3,5,eligible_combined,elastic_net,Atypical,0.0008207934336524669,0.0033058949312160467
+3,5,eligible_combined,elastic_net,Nonanginal,0.0,0.0
+3,5,eligible_combined,elastic_net,Exertional CP,0.0,0.0
+3,5,eligible_combined,elastic_net,LowTH Ang,0.0,0.0
+3,5,eligible_combined,elastic_net,BP,0.006019151846785142,0.005162233177595944
+3,5,eligible_combined,elastic_net,PR,0.009575923392612817,0.005931459203468893
+3,5,eligible_combined,elastic_net,Edema,0.0,0.0
+3,5,eligible_combined,elastic_net,Q Wave,0.006292749658002683,0.005512843140796144
+3,5,eligible_combined,elastic_net,St Elevation,0.0,0.0
+3,5,eligible_combined,elastic_net,St Depression,-0.0019151846785226301,0.004545348215003009
+3,5,eligible_combined,elastic_net,Tinversion,0.018604651162790663,0.007621553092850373
+3,5,eligible_combined,elastic_net,LVH,0.0,0.0
+3,5,eligible_combined,elastic_net,Poor R Progression,0.0,0.0
+3,5,eligible_combined,elastic_net,BBB,0.0,0.0
+3,5,eligible_combined,elastic_net,FBS,0.009849521203830291,0.008271527473505324
+3,5,eligible_combined,elastic_net,CR,0.0,0.0
+3,5,eligible_combined,elastic_net,TG,0.01641586867305056,0.012019634821608113
+3,5,eligible_combined,elastic_net,LDL,0.0,0.0
+3,5,eligible_combined,elastic_net,HDL,-0.0010943912448700744,0.0010237092713472106
+3,5,eligible_combined,elastic_net,BUN,0.0,0.0
+3,5,eligible_combined,elastic_net,ESR,0.0013679890560874598,0.0025955767388522915
+3,5,eligible_combined,elastic_net,HB,0.0,0.0
+3,5,eligible_combined,elastic_net,K,0.007113543091655195,0.0037112612766759447
+3,5,eligible_combined,elastic_net,Na,0.0,0.0
+3,5,eligible_combined,elastic_net,WBC,0.0,0.0
+3,5,eligible_combined,elastic_net,Lymph,0.0038303693570451046,0.0037112612766759365
+3,5,eligible_combined,elastic_net,Neut,-0.0008207934336526002,0.0016415868673050709
+3,5,eligible_combined,elastic_net,PLT,0.003009575923392527,0.0021887824897400873

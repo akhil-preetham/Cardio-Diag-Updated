@@ -1,0 +1,57 @@
+feature,dtype,missing,clinical_group,timing,leakage_risk
+Age,int64,0,basic_risk,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Weight,int64,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Length,int64,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Sex,str,0,basic_risk,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+BMI,float64,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+DM,int64,0,basic_risk,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+HTN,int64,0,basic_risk,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Current Smoker,int64,0,basic_risk,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+EX-Smoker,int64,0,basic_risk,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+FH,int64,0,basic_risk,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Obesity,str,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+CRF,str,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+CVA,str,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Airway disease,str,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Thyroid Disease,str,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+CHF,str,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+DLP,str,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+BP,int64,0,symptoms_examination,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+PR,int64,0,symptoms_examination,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Edema,int64,0,symptoms_examination,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Weak Peripheral Pulse,str,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Lung rales,str,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Systolic Murmur,str,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Diastolic Murmur,str,0,echo_or_diagnostic,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Typical Chest Pain,int64,0,symptoms_examination,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Dyspnea,str,0,symptoms_examination,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Function Class,int64,0,symptoms_examination,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Atypical,str,0,symptoms_examination,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Nonanginal,str,0,symptoms_examination,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Exertional CP,str,0,symptoms_examination,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+LowTH Ang,str,0,symptoms_examination,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Q Wave,int64,0,resting_ecg,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+St Elevation,int64,0,resting_ecg,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+St Depression,int64,0,resting_ecg,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Tinversion,int64,0,resting_ecg,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+LVH,str,0,resting_ecg,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Poor R Progression,str,0,resting_ecg,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+BBB,str,0,resting_ecg,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+FBS,int64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+CR,float64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+TG,int64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+LDL,int64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+HDL,float64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+BUN,int64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+ESR,int64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+HB,float64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+K,float64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Na,int64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+WBC,int64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Lymph,int64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+Neut,int64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+PLT,int64,0,laboratory,prediagnostic plausible but source timing incomplete,requires clinical timing confirmation
+EF-TTE,int64,0,echo_or_diagnostic,timing uncertain; keep exploratory or exclude,high/uncertain
+Region RWMA,int64,0,echo_or_diagnostic,timing uncertain; keep exploratory or exclude,high/uncertain
+VHD,str,0,echo_or_diagnostic,timing uncertain; keep exploratory or exclude,high/uncertain
+Cath,str,0,target,outcome,target

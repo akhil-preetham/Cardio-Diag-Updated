@@ -1,0 +1,121 @@
+centre,target_binary,level_2,missing_fraction
+Cleveland,0,source_row,0.0
+Cleveland,0,age,0.0
+Cleveland,0,sex,0.0
+Cleveland,0,cp,0.0
+Cleveland,0,trestbps,0.0
+Cleveland,0,chol,0.0
+Cleveland,0,fbs,0.0
+Cleveland,0,restecg,0.0
+Cleveland,0,thalach,0.0
+Cleveland,0,exang,0.0
+Cleveland,0,oldpeak,0.0
+Cleveland,0,slope,0.0
+Cleveland,0,ca,0.018292682926829267
+Cleveland,0,thal,0.006097560975609756
+Cleveland,0,num,0.0
+Cleveland,1,source_row,0.0
+Cleveland,1,age,0.0
+Cleveland,1,sex,0.0
+Cleveland,1,cp,0.0
+Cleveland,1,trestbps,0.0
+Cleveland,1,chol,0.0
+Cleveland,1,fbs,0.0
+Cleveland,1,restecg,0.0
+Cleveland,1,thalach,0.0
+Cleveland,1,exang,0.0
+Cleveland,1,oldpeak,0.0
+Cleveland,1,slope,0.0
+Cleveland,1,ca,0.007194244604316547
+Cleveland,1,thal,0.007194244604316547
+Cleveland,1,num,0.0
+Hungary,0,source_row,0.0
+Hungary,0,age,0.0
+Hungary,0,sex,0.0
+Hungary,0,cp,0.0
+Hungary,0,trestbps,0.005319148936170213
+Hungary,0,chol,0.09574468085106383
+Hungary,0,fbs,0.031914893617021274
+Hungary,0,restecg,0.0
+Hungary,0,thalach,0.005319148936170213
+Hungary,0,exang,0.005319148936170213
+Hungary,0,oldpeak,0.0
+Hungary,0,slope,0.8351063829787234
+Hungary,0,ca,0.9893617021276596
+Hungary,0,thal,0.9202127659574468
+Hungary,0,num,0.0
+Hungary,1,source_row,0.0
+Hungary,1,age,0.0
+Hungary,1,sex,0.0
+Hungary,1,cp,0.0
+Hungary,1,trestbps,0.0
+Hungary,1,chol,0.04716981132075472
+Hungary,1,fbs,0.018867924528301886
+Hungary,1,restecg,0.009433962264150943
+Hungary,1,thalach,0.0
+Hungary,1,exang,0.0
+Hungary,1,oldpeak,0.0
+Hungary,1,slope,0.3113207547169811
+Hungary,1,ca,0.9905660377358491
+Hungary,1,thal,0.8773584905660378
+Hungary,1,num,0.0
+Switzerland,0,source_row,0.0
+Switzerland,0,age,0.0
+Switzerland,0,sex,0.0
+Switzerland,0,cp,0.0
+Switzerland,0,trestbps,0.0
+Switzerland,0,chol,0.0
+Switzerland,0,fbs,0.875
+Switzerland,0,restecg,0.0
+Switzerland,0,thalach,0.0
+Switzerland,0,exang,0.0
+Switzerland,0,oldpeak,0.0
+Switzerland,0,slope,0.0
+Switzerland,0,ca,0.875
+Switzerland,0,thal,0.875
+Switzerland,0,num,0.0
+Switzerland,1,source_row,0.0
+Switzerland,1,age,0.0
+Switzerland,1,sex,0.0
+Switzerland,1,cp,0.0
+Switzerland,1,trestbps,0.017391304347826087
+Switzerland,1,chol,0.0
+Switzerland,1,fbs,0.591304347826087
+Switzerland,1,restecg,0.008695652173913044
+Switzerland,1,thalach,0.008695652173913044
+Switzerland,1,exang,0.008695652173913044
+Switzerland,1,oldpeak,0.05217391304347826
+Switzerland,1,slope,0.14782608695652175
+Switzerland,1,ca,0.9652173913043478
+Switzerland,1,thal,0.391304347826087
+Switzerland,1,num,0.0
+VA Long Beach,0,source_row,0.0
+VA Long Beach,0,age,0.0
+VA Long Beach,0,sex,0.0
+VA Long Beach,0,cp,0.0
+VA Long Beach,0,trestbps,0.37254901960784315
+VA Long Beach,0,chol,0.0196078431372549
+VA Long Beach,0,fbs,0.0196078431372549
+VA Long Beach,0,restecg,0.0
+VA Long Beach,0,thalach,0.37254901960784315
+VA Long Beach,0,exang,0.37254901960784315
+VA Long Beach,0,oldpeak,0.4117647058823529
+VA Long Beach,0,slope,0.7058823529411765
+VA Long Beach,0,ca,0.9803921568627451
+VA Long Beach,0,thal,0.8431372549019608
+VA Long Beach,0,num,0.0
+VA Long Beach,1,source_row,0.0
+VA Long Beach,1,age,0.0
+VA Long Beach,1,sex,0.0
+VA Long Beach,1,cp,0.0
+VA Long Beach,1,trestbps,0.2483221476510067
+VA Long Beach,1,chol,0.040268456375838924
+VA Long Beach,1,fbs,0.040268456375838924
+VA Long Beach,1,restecg,0.0
+VA Long Beach,1,thalach,0.22818791946308725
+VA Long Beach,1,exang,0.22818791946308725
+VA Long Beach,1,oldpeak,0.2348993288590604
+VA Long Beach,1,slope,0.4429530201342282
+VA Long Beach,1,ca,0.9932885906040269
+VA Long Beach,1,thal,0.825503355704698
+VA Long Beach,1,num,0.0

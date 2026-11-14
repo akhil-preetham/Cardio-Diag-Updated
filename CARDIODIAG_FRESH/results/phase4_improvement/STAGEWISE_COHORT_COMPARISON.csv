@@ -1,0 +1,5 @@
+stage,features,n_total,complete_cases,events_complete,non_events_complete
+stage1_basic_risk,"age,sex",920,920,509,411
+stage2_symptoms,"age,sex,cp",920,920,509,411
+stage3_resting_measurements,"age,sex,cp,trestbps,chol,fbs,restecg",920,744,385,359
+stage4_exercise_test,"age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope",920,531,324,207

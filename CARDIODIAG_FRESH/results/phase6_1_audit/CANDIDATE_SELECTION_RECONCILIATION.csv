@@ -1,0 +1,16 @@
+repeat,fold,candidate_count,winner_group,winner_family,winner_inner_roc_auc,winner_params,selection_metadata_matches_saved_inner_ranking
+1,1,30,eligible_combined,logistic_l2,0.9243594576980515,"{""model__C"": 0.1}",True
+1,2,30,eligible_combined,logistic_l2,0.9159280009118248,"{""model__C"": 0.1}",True
+1,3,30,eligible_combined,elastic_net,0.9263613807131522,"{""model__C"": 0.1, ""model__l1_ratio"": 0.25}",True
+1,4,30,eligible_combined,logistic_l2,0.9083210587688613,"{""model__C"": 0.1}",True
+1,5,30,eligible_combined,spline_logistic,0.9325446925659978,"{""model__C"": 0.1}",True
+2,1,30,eligible_combined,logistic_l2,0.9452419258207154,"{""model__C"": 0.1}",True
+2,2,30,eligible_combined,logistic_l2,0.9348527490640643,"{""model__C"": 0.1}",True
+2,3,30,eligible_combined,logistic_l2,0.8971259984043066,"{""model__C"": 0.1}",True
+2,4,30,eligible_combined,elastic_net,0.8923834866192634,"{""model__C"": 0.1, ""model__l1_ratio"": 0.75}",True
+2,5,30,eligible_combined,elastic_net,0.9323989321128909,"{""model__C"": 0.1, ""model__l1_ratio"": 0.25}",True
+3,1,30,eligible_combined,logistic_l2,0.9243046605352294,"{""model__C"": 0.1}",True
+3,2,30,eligible_combined,logistic_l2,0.9383290810734984,"{""model__C"": 0.1}",True
+3,3,30,eligible_combined,logistic_l2,0.9093304225080443,"{""model__C"": 0.1}",True
+3,4,30,eligible_combined,spline_logistic,0.9208659559109335,"{""model__C"": 0.1}",True
+3,5,30,eligible_combined,elastic_net,0.9357232933240982,"{""model__C"": 0.1, ""model__l1_ratio"": 0.25}",True

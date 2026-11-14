@@ -1,0 +1,6 @@
+claim,evidence,classification
+Fully nested calibration,V3 calibration design and selection table,Verified correct
+Manifest used exactly,Exact outer/inner row comparison,Verified correct
+Highest calibrated ROC-AUC 0.735 +/- 0.060,V3 MODEL_COMPARISON_RESULTS.csv,Verified correct
+No external validation or clinical utility,V3 manuscript update,Verified correct
+Final output is a single refitted estimator,V3 calibration implementation document and code,Correct with limitations

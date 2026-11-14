@@ -1,0 +1,42 @@
+{
+  "audit_version": "primary_research_v3_independent_audit",
+  "generated_utc": "2026-11-13T10:50:31.696890+00:00",
+  "auditor_script": "runner\\primary_research_v3_independent_audit.py",
+  "auditor_script_sha256": "b7d5c17acb6e0e718b81d5371e8a0c911fbe60896623196fe9169d0ccd346707",
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "pandas": "3.1.1"
+  },
+  "inputs": {
+    "runner\\primary_research_v3\\run.py": "9ecbd87f1edfa7c68a576228e2d72bedbb07d8135b15f8599a09385c72181b02",
+    "results\\primary_research_v3\\REPRODUCIBILITY_MANIFEST.json": "6e3e72abc4e49de747d3eca24d464ae7a77918b0bef92147cd9d4220813f9e18",
+    "results\\primary_research_v3\\CALIBRATION_SELECTION_RESULTS.csv": "393ba793f25a1c69e01c7b95e45eff1534d442982e274b9354761ec1356dd0e5",
+    "results\\primary_research_v3\\OUTER_FOLD_PREDICTIONS.csv": "8ff0cffec6949d3a2f4a4f521f65b7d524c22adfbf9f688048c74a023c17b46b",
+    "results\\methodology_corrections_v2\\reproducibility\\split_manifest_v2.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "paper\\research_v3\\RESULTS_UPDATE.md": "c79d219b3cc9a0736bfb57873e7cfaa8d29858c8371601ce977b2823e95a4d7d"
+  },
+  "outputs": {
+    "results\\primary_research_v3_independent_audit\\AUDIT_CHECKS.json": "89224731021a812da803b197149226edc089c52a828cdeb81eadd68212b4afcc",
+    "results\\primary_research_v3_independent_audit\\CALIBRATION_RECOMPUTATION.csv": "87ecf6776e5559f394dae659d84b428d3e9162173e321fcfbd5988943726f9ea",
+    "results\\primary_research_v3_independent_audit\\INDEPENDENT_V3_AUDIT_REPORT.md": "bbfb4f06396d415bc902587fc90a58c7699e8a6193a586647c5689607cac6f5e",
+    "results\\primary_research_v3_independent_audit\\MANUSCRIPT_CLAIM_AUDIT.csv": "4f95a6bc088b531e850215af0477f6ccf17ad398fe9bc9bddf393749771266ba",
+    "results\\primary_research_v3_independent_audit\\METRIC_RECOMPUTATION.csv": "aff339aa59a6ca137620e59527166a1d70d9c4be0ed37c1fa4d9af2596f6977a"
+  },
+  "checks": {
+    "outer_manifest_equal": true,
+    "inner_manifest_equal": true,
+    "calibration_records": 900,
+    "calibration_selection_checks_pass": true,
+    "metric_rows_checked": 3150,
+    "metric_failures": 0,
+    "calibration_rows_checked": 1125,
+    "calibration_failures": 0,
+    "prediction_rows": 13635,
+    "prediction_completeness": true,
+    "duplicate_prediction_keys": 1,
+    "actual_pipeline_fits_recorded": true,
+    "model_training_rerun_by_audit": false
+  },
+  "overall_classification": "verified_correct_with_limitations"
+}

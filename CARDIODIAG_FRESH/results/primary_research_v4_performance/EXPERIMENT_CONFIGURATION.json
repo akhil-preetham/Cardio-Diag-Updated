@@ -1,0 +1,179 @@
+{
+  "study_version": "primary_research_v4_performance",
+  "dataset": "data\\interim\\validated\\z_alizadeh_sani.csv",
+  "target": "Cath",
+  "features": [
+    "Age",
+    "Sex",
+    "Current Smoker",
+    "EX-Smoker",
+    "FH"
+  ],
+  "outer_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "calibration": "V3 fully nested fold-specific hyperparameter selection",
+  "model_configurations": {
+    "logistic_regression_none": {
+      "name": "Logistic Regression",
+      "strategy": "none",
+      "grid": {
+        "model__C": [
+          0.01,
+          0.1,
+          1.0,
+          10.0,
+          100.0
+        ]
+      },
+      "complexity": "linear; five regularization values"
+    },
+    "logistic_regression_balanced": {
+      "name": "Logistic Regression",
+      "strategy": "balanced",
+      "grid": {
+        "model__C": [
+          0.01,
+          0.1,
+          1.0,
+          10.0,
+          100.0
+        ]
+      },
+      "complexity": "linear; five regularization values"
+    },
+    "svm_none": {
+      "name": "Support Vector Classifier",
+      "strategy": "none",
+      "grid": {
+        "model__C": [
+          0.1,
+          1.0,
+          10.0,
+          100.0
+        ],
+        "model__gamma": [
+          "scale",
+          "auto"
+        ]
+      },
+      "complexity": "kernel; compact C/gamma grid"
+    },
+    "svm_balanced": {
+      "name": "Support Vector Classifier",
+      "strategy": "balanced",
+      "grid": {
+        "model__C": [
+          0.1,
+          1.0,
+          10.0,
+          100.0
+        ],
+        "model__gamma": [
+          "scale",
+          "auto"
+        ]
+      },
+      "complexity": "kernel; compact C/gamma grid"
+    },
+    "random_forest_none": {
+      "name": "Random Forest",
+      "strategy": "none",
+      "grid": {
+        "model__max_depth": [
+          null,
+          4,
+          8
+        ],
+        "model__min_samples_leaf": [
+          1,
+          3,
+          5
+        ]
+      },
+      "complexity": "200 trees; depth/leaf grid"
+    },
+    "random_forest_balanced": {
+      "name": "Random Forest",
+      "strategy": "balanced",
+      "grid": {
+        "model__max_depth": [
+          null,
+          4,
+          8
+        ],
+        "model__min_samples_leaf": [
+          1,
+          3,
+          5
+        ]
+      },
+      "complexity": "200 trees; depth/leaf grid"
+    },
+    "hist_gradient_boosting_none": {
+      "name": "HistGradientBoosting",
+      "strategy": "none",
+      "grid": {
+        "model__learning_rate": [
+          0.03,
+          0.05,
+          0.1
+        ],
+        "model__max_leaf_nodes": [
+          7,
+          15
+        ],
+        "model__l2_regularization": [
+          0.0,
+          1.0
+        ]
+      },
+      "complexity": "boosting; learning-rate/tree/l2 grid"
+    },
+    "extra_trees_none": {
+      "name": "Extra Trees",
+      "strategy": "none",
+      "grid": {
+        "model__max_depth": [
+          null,
+          4,
+          8
+        ],
+        "model__min_samples_leaf": [
+          1,
+          3,
+          5
+        ]
+      },
+      "complexity": "200 randomized trees; depth/leaf grid"
+    },
+    "extra_trees_balanced": {
+      "name": "Extra Trees",
+      "strategy": "balanced",
+      "grid": {
+        "model__max_depth": [
+          null,
+          4,
+          8
+        ],
+        "model__min_samples_leaf": [
+          1,
+          3,
+          5
+        ]
+      },
+      "complexity": "200 randomized trees; depth/leaf grid"
+    }
+  },
+  "additional_features_evaluated": false,
+  "reason_additional_features_not_evaluated": "timing/definition evidence insufficient",
+  "fit_count_estimate": 30725,
+  "n_jobs": 1,
+  "split_manifest_sha256": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458"
+}

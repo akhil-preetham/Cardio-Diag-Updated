@@ -1,0 +1,39 @@
+{
+  "audit_version": "duplicate_audit_v1",
+  "generated_utc": "2026-11-13T06:53:12.324989+00:00",
+  "script": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH\\runner\\duplicate_audit.py",
+  "source_files": {
+    "heart5": "e4068802a044e8a1e3ae9fa81deae7025711bf4f13e3057f96e4f1cf3b0180c2",
+    "mendeley": "9376367dde41e79e432d6402ea5d9e44223fc318ff54ed09966d721923947d1e"
+  },
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "pandas": "3.1.1",
+    "numpy": "2.4.6"
+  },
+  "configuration": {
+    "seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "test_size": 0.25,
+    "stratified": true
+  },
+  "outputs": {
+    "dataset_inventory.csv": "59d1927d97e6a2d49fba28000c2180a96e79f5050e8be78537eb34ba3216b1df",
+    "duplicate_audit.json": "cd56f87279c20424060236bef941c630eaa069e6dba40a9b665aa891a8095c5d",
+    "duplicate_audit_report.md": "7dfdf0e129051f4421a630f776776697f472337ba7dfdc45e96946f8d47924dc",
+    "duplicate_groups.csv": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "near_duplicate_candidates.csv": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+    "partition_overlap.csv": "cc8864b3e3969e4237102a22fc5508586514b1867469f4ad0a18073524f1ae03"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "experiment_version": "primary_research_v2",
+  "generated_utc": "2026-11-13T09:43:32.813896+00:00",
+  "script": "runner\\primary_research_v2\\run.py",
+  "script_sha256": "b32c247ac3fa856864edfe758c704a7e050b4293cd92c70040b961ee0c5c2fcb",
+  "environment": {
+    "python": "3.11.16 (main, Sep  1 2026, 14:15:24) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "sklearn": "1.9.1",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1"
+  },
+  "inputs": {
+    "data\\interim\\validated\\z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "results\\clinical_validation_audit_v3\\Z_ALIZADEH_FEATURE_AUDIT.csv": "21d307f6632d7a8130922575919b877d3f55427ddd988f99804d3147499537b0",
+    "results\\methodology_corrections_v2\\reproducibility\\split_manifest_v2.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "results\\methodology_corrections_v2\\reproducibility\\experiment_metadata_v2.json": "c97d40ffabfeebcacdabc2809f38587699c54593e94fe2e85f3f06ce3be453ca"
+  },
+  "outputs": {
+    "results\\primary_research_v2\\CALIBRATION_RESULTS.csv": "5987beb5dec1145fabe7fadf82776bea271c15239bdc1e0263c97feca385501c",
+    "results\\primary_research_v2\\DATA_VALIDATION_REPORT.md": "36d66072aa734f11812d811020e53ec0ff16898be210bdd17a30b3d644aafed9",
+    "results\\primary_research_v2\\EXECUTIVE_RESULTS_REPORT.md": "cb1d35d7adeb650a1f19df7c62af189176bd78c038908546d2d3157b41307d8f",
+    "results\\primary_research_v2\\EXPERIMENT_CONFIGURATION.json": "38636cf9145189934c458431578e45d8860b2deecd2a799bca20bdefa0d22482",
+    "results\\primary_research_v2\\FEATURE_IMPORTANCE_RESULTS.csv": "b51f1523c69bbde28ab62295e9db276e9c0def15321578552a789e12dbe0a26b",
+    "results\\primary_research_v2\\HYPERPARAMETER_SELECTION_RESULTS.csv": "07aa857b45decadcc1a8d2f9872904768bed62f3f4a37295dd5cfd0dcb96bdfe",
+    "results\\primary_research_v2\\INNER_FOLD_ASSIGNMENTS.csv": "457590d1fe261c297b17de8fd35299a67d7bf9d721aca83e35a7b89a94f1bb7a",
+    "results\\primary_research_v2\\LIMITATIONS_AND_VALIDITY_ASSESSMENT.md": "01d25391d14eb8f673990c30a925dff94afecbbb1b933cbaa0621d4410c6089d",
+    "results\\primary_research_v2\\MODEL_COMPARISON_RESULTS.csv": "b02bc9bce1fb8e4a14d1cbd8dca69b0f9c08a02064c473e4c4ce5997eca95d01",
+    "results\\primary_research_v2\\OUTER_FOLD_PREDICTIONS.csv": "89fc50c6e1b2e13c258ffce68312f6e65b0db5316298dd894c7941718e15e03a",
+    "results\\primary_research_v2\\PRIMARY_RESEARCH_PROTOCOL_EXECUTION.md": "f5d220efdf18f163847f73be0aa1bc0a5c279b7293077e4c8416ec54e00a12c1",
+    "results\\primary_research_v2\\ROBUSTNESS_RESULTS.csv": "8aaa3e477e9fa745b541000b0b1d8f13ed819d4247138cd61d0082637fb40c24",
+    "results\\primary_research_v2\\SPLIT_ASSIGNMENTS.csv": "1b44221e592fcdf4501188e134e61d37c252726b0a9de0e81f27293f344e12b1",
+    "results\\primary_research_v2\\SPLIT_MANIFEST_USED.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "results\\primary_research_v2\\STATISTICAL_COMPARISONS.csv": "8c4e64779e6beb1566bdf4adb607d45ac74fc34602659f33b9ffd6be15b1729a",
+    "results\\primary_research_v2\\UNCERTAINTY_RESULTS.csv": "d8722c67483eee6fb2de44f37efdc2dbdc503e5075488582135b64d4586c9a46",
+    "results\\primary_research_v2\\figures\\best_model_reliability.png": "f0f0bee5d751692f65421cc556c1bbcd949c956b5e567ad889f1bb81621e2e6e",
+    "results\\primary_research_v2\\figures\\calibrated_roc_auc_summary.png": "4f92c73d09a95d41db70c4b84cb78a09d127b523d00f6194007b9213efa5b9a7",
+    "paper\\research_v2\\RESULTS_UPDATE.md": "9666d9c15c884ecf77e8b82fbcd292cc9308927276f28713de8d55431f3f8d67"
+  },
+  "split_manifest_used": {
+    "path": "results\\methodology_corrections_v2\\reproducibility\\split_manifest_v2.json",
+    "sha256": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "copied_output": "SPLIT_MANIFEST_USED.json"
+  },
+  "execution_policy": {
+    "raw_data_modified": false,
+    "historical_results_modified": false,
+    "external_validation": false,
+    "new_model_families": false,
+    "patient_identifiers_created": false,
+    "model_training_executed": true
+  },
+  "failed_model_folds": 0,
+  "prediction_rows": 13635,
+  "calibration_policy": "nested cross-fitted sigmoid; outer test labels never used for calibrator fit"
+}

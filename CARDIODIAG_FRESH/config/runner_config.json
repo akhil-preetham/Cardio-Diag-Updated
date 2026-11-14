@@ -1,0 +1,41 @@
+{
+  "project_root": "..",
+  "author_repository": "reference/author_release",
+  "extracted_archives": "reference/extracted_author_archives",
+  "output_root": "reference/reproduction_runner",
+  "datasets": {
+    "five_states": "reference/author_release/heart5.csv",
+    "mendeley": "reference/author_release/MendeleyCardiovascular_Disease_Dataset.csv"
+  },
+  "notebook_execution": {
+    "enabled": false,
+    "approval_required": true,
+    "approval_granted": false,
+    "timeout_seconds": 3600,
+    "kernel_name": "python3",
+    "dataset": {
+      "path": "reference\\author_release\\heart5.csv",
+      "sha256": "e4068802a044e8a1e3ae9fa81deae7025711bf4f13e3057f96e4f1cf3b0180c2"
+    },
+    "allowlist": [
+      "reference\\reproduction_runner\\work\\author_faithful\\base_reproduction\\Daza_Paper_Exact_Accuracy.ipynb"
+    ],
+    "skip_patterns": [
+      "Fairness_",
+      "LIME Report",
+      "Reviewer",
+      "Wilcoxon",
+      "Bootstrap",
+      "Clinical_Utility"
+    ]
+  },
+  "corrected_validation": {
+    "enabled": true,
+    "dataset": "five_states",
+    "repeats": 10,
+    "test_size": 0.25,
+    "cv_folds": 5,
+    "random_seed": 42,
+    "n_jobs": 1
+  }
+}

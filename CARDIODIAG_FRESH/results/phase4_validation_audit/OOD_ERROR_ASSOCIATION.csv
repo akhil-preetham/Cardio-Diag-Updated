@@ -1,0 +1,97 @@
+stage,held_out_centre,method,ood_flag,n,error_rate,brier
+stage1_basic_risk,Cleveland,isolation_forest_anomaly,False,296,0.38175675675675674,0.22618175573065455
+stage1_basic_risk,Cleveland,isolation_forest_anomaly,True,7,0.7142857142857143,0.3356696734041608
+stage1_basic_risk,Cleveland,robust_mahalanobis,False,299,0.3879598662207358,0.22813972315739733
+stage1_basic_risk,Cleveland,robust_mahalanobis,True,4,0.5,0.27142754651026807
+stage1_basic_risk,Cleveland,standardized_euclidean,False,297,0.39057239057239057,0.22919736616236813
+stage1_basic_risk,Cleveland,standardized_euclidean,True,6,0.3333333333333333,0.20464494331325409
+stage1_basic_risk,Hungary,isolation_forest_anomaly,False,268,0.3805970149253731,0.21177150230380065
+stage1_basic_risk,Hungary,isolation_forest_anomaly,True,26,0.23076923076923078,0.17613173786683145
+stage1_basic_risk,Hungary,robust_mahalanobis,False,253,0.383399209486166,0.2129804111079729
+stage1_basic_risk,Hungary,robust_mahalanobis,True,41,0.2682926829268293,0.18171082418631845
+stage1_basic_risk,Hungary,standardized_euclidean,False,253,0.383399209486166,0.2129804111079729
+stage1_basic_risk,Hungary,standardized_euclidean,True,41,0.2682926829268293,0.18171082418631845
+stage1_basic_risk,Switzerland,isolation_forest_anomaly,False,118,0.2796610169491525,0.2079038903643636
+stage1_basic_risk,Switzerland,isolation_forest_anomaly,True,5,0.6,0.4137653990065212
+stage1_basic_risk,Switzerland,robust_mahalanobis,False,118,0.2796610169491525,0.2079038903643636
+stage1_basic_risk,Switzerland,robust_mahalanobis,True,5,0.6,0.4137653990065212
+stage1_basic_risk,Switzerland,standardized_euclidean,False,118,0.2796610169491525,0.2079038903643636
+stage1_basic_risk,Switzerland,standardized_euclidean,True,5,0.6,0.4137653990065212
+stage1_basic_risk,VA Long Beach,isolation_forest_anomaly,False,176,0.24431818181818182,0.1953154634506964
+stage1_basic_risk,VA Long Beach,isolation_forest_anomaly,True,24,0.125,0.11242396288265034
+stage1_basic_risk,VA Long Beach,robust_mahalanobis,False,184,0.2391304347826087,0.1917355160564161
+stage1_basic_risk,VA Long Beach,robust_mahalanobis,True,16,0.125,0.11214760763285068
+stage1_basic_risk,VA Long Beach,standardized_euclidean,False,184,0.2391304347826087,0.1917355160564161
+stage1_basic_risk,VA Long Beach,standardized_euclidean,True,16,0.125,0.11214760763285068
+stage2_symptoms,Cleveland,isolation_forest_anomaly,False,296,0.2702702702702703,0.18260402842449414
+stage2_symptoms,Cleveland,isolation_forest_anomaly,True,7,0.42857142857142855,0.22853416516233027
+stage2_symptoms,Cleveland,robust_mahalanobis,False,299,0.27424749163879597,0.1843692253549541
+stage2_symptoms,Cleveland,robust_mahalanobis,True,4,0.25,0.1310332971638259
+stage2_symptoms,Cleveland,standardized_euclidean,False,297,0.2760942760942761,0.18525022663402943
+stage2_symptoms,Cleveland,standardized_euclidean,True,6,0.16666666666666666,0.10520237657997311
+stage2_symptoms,Hungary,isolation_forest_anomaly,False,268,0.22014925373134328,0.16256181485376606
+stage2_symptoms,Hungary,isolation_forest_anomaly,True,26,0.15384615384615385,0.12803978268196545
+stage2_symptoms,Hungary,robust_mahalanobis,False,253,0.22529644268774704,0.16538979972805956
+stage2_symptoms,Hungary,robust_mahalanobis,True,41,0.14634146341463414,0.12321905852052034
+stage2_symptoms,Hungary,standardized_euclidean,False,253,0.22529644268774704,0.16538979972805956
+stage2_symptoms,Hungary,standardized_euclidean,True,41,0.14634146341463414,0.12321905852052034
+stage2_symptoms,Switzerland,isolation_forest_anomaly,False,118,0.15254237288135594,0.12203656498176552
+stage2_symptoms,Switzerland,isolation_forest_anomaly,True,5,0.8,0.41660396591545334
+stage2_symptoms,Switzerland,robust_mahalanobis,False,118,0.15254237288135594,0.12203656498176552
+stage2_symptoms,Switzerland,robust_mahalanobis,True,5,0.8,0.41660396591545334
+stage2_symptoms,Switzerland,standardized_euclidean,False,118,0.15254237288135594,0.12203656498176552
+stage2_symptoms,Switzerland,standardized_euclidean,True,5,0.8,0.41660396591545334
+stage2_symptoms,VA Long Beach,isolation_forest_anomaly,False,176,0.3352272727272727,0.18770625761896034
+stage2_symptoms,VA Long Beach,isolation_forest_anomaly,True,24,0.125,0.10660956036632174
+stage2_symptoms,VA Long Beach,robust_mahalanobis,False,184,0.32608695652173914,0.1827112191357732
+stage2_symptoms,VA Long Beach,robust_mahalanobis,True,16,0.125,0.12350415429665466
+stage2_symptoms,VA Long Beach,standardized_euclidean,False,184,0.32608695652173914,0.1827112191357732
+stage2_symptoms,VA Long Beach,standardized_euclidean,True,16,0.125,0.12350415429665466
+stage3_resting_measurements,Cleveland,isolation_forest_anomaly,False,295,0.2440677966101695,0.17784380749731055
+stage3_resting_measurements,Cleveland,isolation_forest_anomaly,True,8,0.375,0.22662358808453656
+stage3_resting_measurements,Cleveland,robust_mahalanobis,False,292,0.2465753424657534,0.17849927841634372
+stage3_resting_measurements,Cleveland,robust_mahalanobis,True,11,0.2727272727272727,0.19592023807368555
+stage3_resting_measurements,Cleveland,standardized_euclidean,False,295,0.24745762711864408,0.17838546925492793
+stage3_resting_measurements,Cleveland,standardized_euclidean,True,8,0.25,0.20664981077239478
+stage3_resting_measurements,Hungary,isolation_forest_anomaly,False,261,0.19923371647509577,0.15408357664368963
+stage3_resting_measurements,Hungary,isolation_forest_anomaly,True,33,0.30303030303030304,0.21140162923916922
+stage3_resting_measurements,Hungary,robust_mahalanobis,False,266,0.19924812030075187,0.15370083142618654
+stage3_resting_measurements,Hungary,robust_mahalanobis,True,28,0.32142857142857145,0.22527307534035573
+stage3_resting_measurements,Hungary,standardized_euclidean,False,265,0.19245283018867926,0.15151056900321672
+stage3_resting_measurements,Hungary,standardized_euclidean,True,29,0.3793103448275862,0.24281953389803967
+stage3_resting_measurements,Switzerland,isolation_forest_anomaly,False,60,0.1,0.09486680518862348
+stage3_resting_measurements,Switzerland,isolation_forest_anomaly,True,63,0.23809523809523808,0.18414677277238
+stage3_resting_measurements,Switzerland,robust_mahalanobis,False,34,0.08823529411764706,0.11173283324390235
+stage3_resting_measurements,Switzerland,robust_mahalanobis,True,89,0.20224719101123595,0.15162178276050192
+stage3_resting_measurements,Switzerland,standardized_euclidean,False,47,0.10638297872340426,0.10610284715951443
+stage3_resting_measurements,Switzerland,standardized_euclidean,True,76,0.21052631578947367,0.16192659446684435
+stage3_resting_measurements,VA Long Beach,isolation_forest_anomaly,False,188,0.26063829787234044,0.1755850375073478
+stage3_resting_measurements,VA Long Beach,isolation_forest_anomaly,True,12,0.4166666666666667,0.2615390292241557
+stage3_resting_measurements,VA Long Beach,robust_mahalanobis,False,190,0.2631578947368421,0.17810703431119593
+stage3_resting_measurements,VA Long Beach,robust_mahalanobis,True,10,0.4,0.2308118882944032
+stage3_resting_measurements,VA Long Beach,standardized_euclidean,False,189,0.25925925925925924,0.17422532878515845
+stage3_resting_measurements,VA Long Beach,standardized_euclidean,True,11,0.45454545454545453,0.2927152965160285
+stage4_exercise_test,Cleveland,isolation_forest_anomaly,False,290,0.24482758620689654,0.16041107247638026
+stage4_exercise_test,Cleveland,isolation_forest_anomaly,True,13,0.23076923076923078,0.1524994007982769
+stage4_exercise_test,Cleveland,robust_mahalanobis,False,284,0.24647887323943662,0.16117074706594145
+stage4_exercise_test,Cleveland,robust_mahalanobis,True,19,0.21052631578947367,0.14364268746318407
+stage4_exercise_test,Cleveland,standardized_euclidean,False,288,0.2465277777777778,0.16148202855270832
+stage4_exercise_test,Cleveland,standardized_euclidean,True,15,0.2,0.13299193368985826
+stage4_exercise_test,Hungary,isolation_forest_anomaly,False,272,0.17279411764705882,0.12784590315774438
+stage4_exercise_test,Hungary,isolation_forest_anomaly,True,22,0.2727272727272727,0.17262142046483048
+stage4_exercise_test,Hungary,robust_mahalanobis,False,273,0.17216117216117216,0.12732638210878275
+stage4_exercise_test,Hungary,robust_mahalanobis,True,21,0.2857142857142857,0.18150736159214492
+stage4_exercise_test,Hungary,standardized_euclidean,False,277,0.18772563176895307,0.13564431902563362
+stage4_exercise_test,Hungary,standardized_euclidean,True,17,0.058823529411764705,0.05872238464895446
+stage4_exercise_test,Switzerland,isolation_forest_anomaly,False,77,0.2597402597402597,0.19128569711217414
+stage4_exercise_test,Switzerland,isolation_forest_anomaly,True,46,0.32608695652173914,0.2103138080879106
+stage4_exercise_test,Switzerland,robust_mahalanobis,False,33,0.2727272727272727,0.1612546977665684
+stage4_exercise_test,Switzerland,robust_mahalanobis,True,90,0.28888888888888886,0.2120225424820504
+stage4_exercise_test,Switzerland,standardized_euclidean,False,70,0.2571428571428571,0.17660619370489558
+stage4_exercise_test,Switzerland,standardized_euclidean,True,53,0.32075471698113206,0.2271886847233699
+stage4_exercise_test,VA Long Beach,isolation_forest_anomaly,False,190,0.25263157894736843,0.16919450108039125
+stage4_exercise_test,VA Long Beach,isolation_forest_anomaly,True,10,0.2,0.21434162315047817
+stage4_exercise_test,VA Long Beach,robust_mahalanobis,False,189,0.24338624338624337,0.16775782396646335
+stage4_exercise_test,VA Long Beach,robust_mahalanobis,True,11,0.36363636363636365,0.23492206428341322
+stage4_exercise_test,VA Long Beach,standardized_euclidean,False,190,0.25263157894736843,0.1733742944472198
+stage4_exercise_test,VA Long Beach,standardized_euclidean,True,10,0.2,0.13492554918073574

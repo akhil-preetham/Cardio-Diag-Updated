@@ -1,0 +1,57 @@
+{
+  "phase": "Phase 7.4 \u2014 Independent Reproducibility and Manuscript Quality Audit",
+  "created_local": "2026-11-14",
+  "repository": "CARDIODIAG_FRESH",
+  "decision": "READY AFTER SPECIFIED TECHNICAL CORRECTIONS",
+  "scope": "Read-only quality audit; no model fits, searches, benchmark reruns, package installations or historical output modifications.",
+  "verification": {
+    "phase7_3_manifest_entries_checked": 74,
+    "phase7_3_hash_mismatches": 0,
+    "phase7_1_manifest_entries_checked": 25,
+    "phase7_1_hash_mismatches": 0,
+    "phase7_2_manifest_entries_checked": 41,
+    "phase7_2_hash_mismatches": 0,
+    "numerical_discrepancies_requiring_manuscript_correction": 0,
+    "citation_records": 9,
+    "figure_pairs": 4,
+    "model_fits": 0,
+    "hyperparameter_searches": 0,
+    "benchmark_reruns": 0,
+    "clean_environment_install": "not performed",
+    "unit_tests": "not run; existing Phase 6.1 fixture writes to preserved audit namespace",
+    "end_to_end_reproduction": "not performed"
+  },
+  "python_environment": {
+    "executable": ".venv/Scripts/python.exe",
+    "python": "3.11.16",
+    "platform": "Windows AMD64",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "scipy": "1.17.1",
+    "scikit_learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "pytest": "9.2.0",
+    "ruff": "0.17.4",
+    "dependency_snapshot": "requirements-pinned-working-env.txt"
+  },
+  "inputs_sha256": {
+    "paper/phase7_3_manuscript/PHASE7_3_MANIFEST.json": "a13b5468b65473d9ad388346eb23dbca050b227204463c27838d77f7144e6ed5",
+    "results/phase7_1_evidence/PHASE7_1_MANIFEST.json": "d3b5f429dc80864cca839a867a6fcc315bca55ba8b78df15b936995f366931c3",
+    "results/phase7_2_methodology/PHASE7_2_MANIFEST.json": "8d6328b1b386643794e745d85d50ef190938b57452d62b46ca88c85cf9727eea",
+    "results/phase6_1_audit/PHASE6_1_FINAL_DECISION.md": "392d79fcfefc7153eae52e834fe298f0793b35c6ba0556f96c9ef338deb47325",
+    "results/phase4_validation_audit/PHASE4_3_FINAL_REPORT.md": "556b968087af9e44d974328a92ed85bfdf8464c7341954dbbfd4e9155fb5eb8e",
+    "results/phase6_zas_selection/REPEAT_LEVEL_PERFORMANCE.csv": "a99bb8ee87678544b24c368b188444e01be15b2f1783a5c3bfe34d714e81d881",
+    "results/phase5/zas_track/ZAS_MODEL_BENCHMARK.csv": "ca4dc6f2dcc6aadff45503b70861145a44a286adf392a4c98cb6b5ade6a08824"
+  },
+  "outputs_sha256": {
+    "CORRECTION_LOG.md": "a93edb306121f98964828de29d34e5874351f1ab9eed0be46685a6ddc09d8740",
+    "DEPENDENCY_PINNING_REPORT.md": "5fa3fc7d3d06d897d883b1678c490f6bfba47fdef8a312fa55ec38a3224dec8d",
+    "HUMAN_ACTION_CHECKLIST.md": "bf30419d73def2e159f487cc7e154b50490d6c1916948d09c8a150ff00c2a9a1",
+    "MANUSCRIPT_NUMERICAL_AUDIT.md": "f7349a8ed90ca3314d99c057eaef5da5c889f61992e61f1f447168644c594e3e",
+    "PHASE7_4_FINAL_DECISION.md": "c1a13c7e4c8a2acccb408eefafcc96c8bf04785bb35290bc26cb51f31475a1f5",
+    "REFERENCE_AND_FIGURE_AUDIT.md": "b36adaea7a34ef29283d46772d32ca42f61447d61f70a0e55d458bdb63ab2f88",
+    "REPRODUCIBILITY_AUDIT.md": "2a534eb1ab6459662169b6c5a9edd5275213866835a86a34a5cdcb1e7f89d326",
+    "requirements-pinned-working-env.txt": "8ff7cea91ab5184e0e7ff75cbf094c5243ccc382c3a60816b5ca3e945a908650",
+    "TRIPOD_PROBAST_COMPLIANCE_AUDIT.md": "55584ba70ed96d6b9a4871431ff472527f5cd11706fbfb491f74aedee6556d0e"
+  }
+}

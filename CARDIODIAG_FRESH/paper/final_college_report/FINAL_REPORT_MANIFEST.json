@@ -1,0 +1,349 @@
+{
+  "package": "CARDIODIAG Phase 8 paper-style final report",
+  "generated_utc": "2026-11-14T06:15:07.103981+00:00",
+  "repository_root": "C:\\CARDIO_DIAG\\Cardio-Diag-Approach-Code-main\\CARDIODIAG_FRESH",
+  "git_metadata": "Unavailable: repository snapshot has no .git directory.",
+  "style_reference": {
+    "path": "C:\\Users\\akhil\\Downloads\\CARDIODIAG_6_8_Page_Research_Paper.pdf",
+    "sha256": "4967cd60f2d6ac8d2719ecaca3ed260ea196b177c71def7577106a0775206cac",
+    "pages": 6,
+    "use": "formatting reference only; not research evidence or instruction source"
+  },
+  "report": {
+    "research_question": "Retrospective discrimination of angiography-defined CAD using recorded clinical features.",
+    "pages": 6,
+    "sections": 6,
+    "figures": 2,
+    "tables": 9,
+    "format": "US Letter, two-column journal-paper style; centered full-width title block",
+    "primary_format": "editable DOCX",
+    "font": "Times New Roman",
+    "main_body_size_pt": 10,
+    "pdf_renderer": "Microsoft Word for Microsoft 365 ExportAsFixedFormat; Poppler used for metadata and raster QA"
+  },
+  "tool_versions": {
+    "python": "3.12.14",
+    "python_docx": "1.2.0",
+    "pypdf": "6.21.4"
+  },
+  "verification": {
+    "pdf_pages": 6,
+    "page_size": "US Letter",
+    "sections": 4,
+    "figures": 2,
+    "tables": 9,
+    "inline_citations": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "zas_rows": 303,
+    "zas_labels": {
+      "Cad": 216,
+      "Normal": 87
+    },
+    "selection_auc_by_repeat": [
+      0.9134,
+      0.8999,
+      0.9176
+    ],
+    "v3_style_auc_by_repeat": [
+      0.737,
+      0.742,
+      0.73
+    ],
+    "mean_paired_repeat_difference": 0.174,
+    "paired_split_variation_interval": [
+      0.137,
+      0.211
+    ],
+    "abstract_numeric_claims": {
+      "selection_auc": [
+        0.9134,
+        0.8999,
+        0.9176
+      ],
+      "v3_style_auc": [
+        0.737,
+        0.742,
+        0.73
+      ],
+      "mean_paired_difference": 0.174,
+      "split_variation_interval": [
+        0.137,
+        0.211
+      ],
+      "uci_strict_logistic_auc_rounded": 0.675,
+      "status": "checked against complete-repeat source metrics and strict UCI pooled metric"
+    },
+    "selection_mean_secondary_metrics": {
+      "pr_auc_average_precision": 0.9573,
+      "brier_score": 0.1076,
+      "log_loss": 0.3467,
+      "sensitivity": 0.8318,
+      "specificity": 0.8314
+    },
+    "v3_style_mean_secondary_metrics": {
+      "pr_auc_average_precision": 0.8469,
+      "brier_score": 0.1746,
+      "log_loss": 0.5286,
+      "sensitivity": 0.6898,
+      "specificity": 0.7088
+    },
+    "repeat_mean_outer_test_calibration": {
+      "selection": {
+        "intercept": 0.173,
+        "slope": 0.868
+      },
+      "v3": {
+        "intercept": -0.007,
+        "slope": 1.005
+      }
+    },
+    "uci_strict_logistic_auc": 0.6753,
+    "uci_staged_auc": [
+      0.7179,
+      0.8225,
+      0.8215,
+      0.845
+    ],
+    "visual_pages": 6,
+    "read_only_checks": [
+      "DOCX contains six Roman-numbered paper sections, nine tables and two figures",
+      "Explicit Times New Roman sizes and black text verified across report runs and tables",
+      "In-text citations reconcile with the eight-entry reference list",
+      "Abstract ROC-AUC values and paired difference reconcile to complete-repeat results",
+      "Secondary metrics and calibration means reconcile to saved Phase 6 artifacts",
+      "Fold-level AUC ranges and candidate-selection counts reconcile to saved Phase 6 artifacts",
+      "UCI strict pooled result and all four stage ROC-AUC values reconcile to saved artifacts",
+      "All rendered PDF pages contain substantive text and were rasterized for visual inspection"
+    ]
+  },
+  "generated_deliverables_and_builders": [
+    {
+      "path": "paper/final_college_report/CARDIODIAG_FINAL_PROJECT_REPORT.docx",
+      "sha256": "06c61cde206beb2f9384786c8c71b4d1222335955475409665a9661d86d18170",
+      "bytes": 421690
+    },
+    {
+      "path": "paper/final_college_report/CARDIODIAG_FINAL_PROJECT_REPORT.pdf",
+      "sha256": "b9d1186d9a98c9d4b2313436b467c1c03c3f98b01c8d5b49456a77f919fd5fe6",
+      "bytes": 400266
+    },
+    {
+      "path": "paper/final_college_report/REPORT_CONTENT_AUDIT.md",
+      "sha256": "d41d1b5b206a7ee0d03d9d44297fabed432bb2aa43824f43ea275b232f3b9eae",
+      "bytes": 3659
+    },
+    {
+      "path": "paper/final_college_report/REPORT_FORMATTING_AUDIT.md",
+      "sha256": "86a0eefed9f5caad67c74d76c5d643ab611f774346a05fcf38d6ea0116a80168",
+      "bytes": 2578
+    },
+    {
+      "path": "paper/final_college_report/REPORT_CITATION_AUDIT.md",
+      "sha256": "bd4f9e3b2bb2a7788db458ae0d59408cf356c477390585e1610ca2c909daa255",
+      "bytes": 2822
+    },
+    {
+      "path": "paper/final_college_report/REPORT_FIGURE_TABLE_REGISTER.md",
+      "sha256": "42be2162760c724c5bb0697632ad8b68555669d2c8411828fd6f89d20851becd",
+      "bytes": 1302
+    },
+    {
+      "path": "paper/final_college_report/UNRESOLVED_ITEMS.md",
+      "sha256": "4a01bf99d8ab2045f72b7597ebd50af1a066e710643987ee5a347c37de7dc4b6",
+      "bytes": 1512
+    },
+    {
+      "path": "paper/final_college_report/build_report.py",
+      "sha256": "99d5baaf81dfef6eeb9414e7efb9b79d859080bebbb9e2dbcc92b92805ecc1dc",
+      "bytes": 153
+    },
+    {
+      "path": "paper/final_college_report/build_paper_report.py",
+      "sha256": "90ec7a490225bcaf7fc2d9cf155dfac1e1de6fb731f137944d5014277f478be3",
+      "bytes": 43233
+    },
+    {
+      "path": "paper/final_college_report/build_final_package.py",
+      "sha256": "a1c1197c701af58f4023c64f7e3376fda09b614fd6df31fb32cfaea0f11cd758",
+      "bytes": 30602
+    }
+  ],
+  "visual_qa_pages": [
+    {
+      "path": "paper/final_college_report/qa/word_pages_final_paper/page-1.png",
+      "sha256": "ce886210090710e4d863fe9ad05ab130a6ff5cd408674218fb423f73386d3c99",
+      "bytes": 467436
+    },
+    {
+      "path": "paper/final_college_report/qa/word_pages_final_paper/page-2.png",
+      "sha256": "113ebc012798a211eb01936dc89f0ab9676475fbf50067366c56f405307cd890",
+      "bytes": 494215
+    },
+    {
+      "path": "paper/final_college_report/qa/word_pages_final_paper/page-3.png",
+      "sha256": "73c9caa7d19f8ead01dd00b749fe9a686d085b14ae381e9d91bbd3860b13aeeb",
+      "bytes": 286317
+    },
+    {
+      "path": "paper/final_college_report/qa/word_pages_final_paper/page-4.png",
+      "sha256": "34cee6ba3f5402c2840f51ac1cbecf459c510aa52c22a734409deb4145dc8fe8",
+      "bytes": 485526
+    },
+    {
+      "path": "paper/final_college_report/qa/word_pages_final_paper/page-5.png",
+      "sha256": "b538f9f1fcc0ad694facd92f9bf287b94ca76bd04e18d387177ed3135977cfb3",
+      "bytes": 547446
+    },
+    {
+      "path": "paper/final_college_report/qa/word_pages_final_paper/page-6.png",
+      "sha256": "966d78c4e14a9095117eefa6e2425d30b0286edd27a1b13c03dbc3c30a4995f4",
+      "bytes": 258078
+    }
+  ],
+  "source_evidence": [
+    {
+      "path": "data/interim/validated/z_alizadeh_sani.csv",
+      "sha256": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+      "bytes": 52483
+    },
+    {
+      "path": "results/phase5_1_audit/ZAS_FEATURE_TIMING_AUDIT.md",
+      "sha256": "292066e23be7c5aa0731a16909d249776d8f9ad324f91ea281e1d98e65afd43e",
+      "bytes": 1782
+    },
+    {
+      "path": "results/phase5_1_audit/ZAS_FEATURE_TIMING_TABLE.csv",
+      "sha256": "c3edc31c79bc41b324ff38eaac1b5d9d015b531adf30e1a98e129c55b4963ed2",
+      "bytes": 5113
+    },
+    {
+      "path": "runner/phase5/zas_track/run.py",
+      "sha256": "827109599e8a61466d2b7eaa567d91672feb823495c09775b2a3e0ecdbdf0b01",
+      "bytes": 6037
+    },
+    {
+      "path": "runner/phase6_zas_selection/run.py",
+      "sha256": "b58292e4cbfecbe50c1234a5352b5ceed505dbe053d95e67f084166afedaba5f",
+      "bytes": 30304
+    },
+    {
+      "path": "results/phase6_zas_selection/SELECTION_AWARE_PROTOCOL.md",
+      "sha256": "a4ec02478fdda0e418043df2b6ebff28b31427c1d33e5307b1b49acff944a399",
+      "bytes": 7126
+    },
+    {
+      "path": "results/phase6_zas_selection/PHASE6_FINAL_DECISION.md",
+      "sha256": "4f6bda9dd3de53bf82d499a3e66d935ec66cfb07d855527b34bb01ca34530307",
+      "bytes": 2548
+    },
+    {
+      "path": "results/phase6_zas_selection/REPEAT_LEVEL_PERFORMANCE.csv",
+      "sha256": "a99bb8ee87678544b24c368b188444e01be15b2f1783a5c3bfe34d714e81d881",
+      "bytes": 1701
+    },
+    {
+      "path": "results/phase6_zas_selection/PAIRED_REPEAT_DIFFERENCES.csv",
+      "sha256": "3ce4b8d577235814604022f3d52e0ada7cd00bb9595684f4dbaaa852b8ab92cf",
+      "bytes": 636
+    },
+    {
+      "path": "results/phase6_zas_selection/PERFORMANCE_COMPARISON.csv",
+      "sha256": "04e889999fa1d0d1e9a5e62ccfd12140bf125d2e3f2937ee6e414a4cd9d0bfc0",
+      "bytes": 8722
+    },
+    {
+      "path": "results/phase6_zas_selection/MODEL_SELECTION_FREQUENCY.csv",
+      "sha256": "999ce18db784837a5d5def8d80892569057ea68c8e6aa64f84990eca1ecc6eb1",
+      "bytes": 247
+    },
+    {
+      "path": "results/phase6_zas_selection/FEATURE_SELECTION_FREQUENCY.csv",
+      "sha256": "abed20d248e53655658276b1b0037663b3b4031be733e7e24b308abbac1db60d",
+      "bytes": 1964
+    },
+    {
+      "path": "results/phase6_zas_selection/FEATURE_PERMUTATION_IMPORTANCE.csv",
+      "sha256": "1ea4833d282560fd4874f6b319b5d2435e10a54f246b661dd8d2e02083d391f0",
+      "bytes": 44876
+    },
+    {
+      "path": "results/phase6_1_audit/PHASE6_METRIC_RECONCILIATION.md",
+      "sha256": "64db21f7fe81340806fa850722f4bc883b3196544d61ee6375cbb687b6c4cc90",
+      "bytes": 2076
+    },
+    {
+      "path": "results/phase6_1_audit/PHASE6_CALIBRATION_AUDIT.md",
+      "sha256": "fbfc8c1e36bdf0458f46c90055fb6ccf9879100768dad8b881ca2d9e2df22886",
+      "bytes": 3333
+    },
+    {
+      "path": "results/phase6_1_audit/RECONSTRUCTED_REPEAT_METRICS.csv",
+      "sha256": "411c354da63102f9546d43299cd3c46cb43ab23798e987c1dea71e690b1ccdd8",
+      "bytes": 1828
+    },
+    {
+      "path": "results/phase4_uci_multicentre/PHASE4_PROTOCOL.md",
+      "sha256": "b3b53b64f3f0e0499a844c3ae96c5ee6a482b0cf52c585db9bf94efaa59f29b8",
+      "bytes": 720
+    },
+    {
+      "path": "results/phase4_uci_multicentre/POOLED_OUT_OF_CENTRE_METRICS.csv",
+      "sha256": "d26ca2a1001975c1a4f7780ec102b0ddb9654bc3896c00de63e856cdabd91dc2",
+      "bytes": 2472
+    },
+    {
+      "path": "results/phase4_uci_multicentre/CENTRE_VALIDATION_METRICS.csv",
+      "sha256": "a57531d8f252e3831ef17ebd8438fd7bc0c6881388d17e2b71df72f73ef1b137",
+      "bytes": 8940
+    },
+    {
+      "path": "results/phase4_uci_multicentre/CENTRE_COHORT_PROFILE.csv",
+      "sha256": "3831548217460db150381fd3882d74f70bccbf980222bc9c49bed6d767714c6b",
+      "bytes": 276
+    },
+    {
+      "path": "results/phase4_validation_audit/FINAL_STAGE_COMPARISON.csv",
+      "sha256": "330a0c50c8ced7377b08b847cb647e5cb824bb93bf44d4843b06bc0451d05e09",
+      "bytes": 829
+    },
+    {
+      "path": "paper/phase7_4_1_final_manuscript/TABLES/TABLE4_UCI_STAGES.csv",
+      "sha256": "4e52aa628d6386b3bc167379c5027705c06be38d1b52d72a6038c026a5190db9",
+      "bytes": 588
+    },
+    {
+      "path": "paper/phase7_4_1_final_manuscript/FIGURES/FIGURE1_STUDY_WORKFLOW.png",
+      "sha256": "fb27e22af78f917bf11b7d2ff4caf01e31346eec3b60fa1a8f955c368c505281",
+      "bytes": 281711
+    },
+    {
+      "path": "paper/phase7_4_1_final_manuscript/FIGURES/FIGURE2_PHASE6_REPEAT_AUC.png",
+      "sha256": "254886aeb50cad30d88f72a1794558760e1dd125e7e3a4dc7f84745e0a244f99",
+      "bytes": 129632
+    },
+    {
+      "path": "results/phase7_4_1_qa/CLEAN_ENVIRONMENT_VERIFICATION.md",
+      "sha256": "e96e96a9c1a6e5edb62c90045f60330275a7302d0a8f64693e0a1c8948f67275",
+      "bytes": 3098
+    },
+    {
+      "path": "results/phase7_4_1_qa/TRIPOD_AI_CHECKLIST.md",
+      "sha256": "ad02199907981879576fda214f5ffd714d231cacef1a27ce4640b5cb85d88bb1",
+      "bytes": 11138
+    },
+    {
+      "path": "results/phase7_4_1_qa/PROBAST_AI_ASSESSMENT.md",
+      "sha256": "a5173307f556dc93d5edaa78108108bfc4d94fece6dbf40f7ef2fca81da768c3",
+      "bytes": 9750
+    }
+  ],
+  "manifest_note": "This manifest is not self-hashed; all generated report artifacts, builders, visual pages and source files are SHA-256 hashed."
+}
