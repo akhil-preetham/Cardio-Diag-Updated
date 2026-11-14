@@ -1,0 +1,51 @@
+{
+  "frozen_utc": "2026-11-14T15:23:06.387281+00:00",
+  "seed": 941117,
+  "scope": "Retrospective exploratory follow-up on previously examined cohorts; no clinical threshold recommendation",
+  "source_fractions": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "target_adaptation_fractions": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "sensitivity_target": 0.9,
+  "decision_thresholds": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9,
+    0.95
+  ],
+  "coefficient_bootstrap_refits": 50,
+  "default_model_changed": false,
+  "inputs": {
+    "tools/finalize_analyses.py": "cfdf43f6ac2c75e96ab36903398fef10f6ed9fd3368f3f2dec61d9708fbf2d6a",
+    "CARDIODIAG_FRESH/data/interim/validated/z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "CARDIODIAG_FRESH/results/methodology_corrections_v2/reproducibility/split_manifest_v2.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "CARDIODIAG_FRESH/results/research_extension_v1/transport/TARGET_PREDICTIONS.csv": "543738d988235896ebbb907b0e5e61a6d59f4fd5fef5ee412ae638ebba291d39",
+    "CARDIODIAG_FRESH/results/research_extension_v2/MANIFEST.json": "81fee95b2615a72c872b5254f1f1109902dafaec2164c4ead086670e0dffc600",
+    "CARDIODIAG_FRESH/results/research_extension_v2/CALIBRATION_PREDICTIONS.csv": "155a7d3e2e740ef5df3f72f74c69e48615ded034df5613d92f1303ae0adf2a78",
+    "CARDIODIAG_FRESH/results/research_extension_v2/ADAPTATION_PREDICTIONS.csv": "e5149381d4536c66f93d14096bfb887e7af61ad506a7f94a10eca2cee0c2a09d"
+  }
+}

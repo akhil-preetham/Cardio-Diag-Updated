@@ -1,0 +1,33 @@
+{
+  "inputs": {
+    "tools/finalize_analyses.py": "cfdf43f6ac2c75e96ab36903398fef10f6ed9fd3368f3f2dec61d9708fbf2d6a",
+    "CARDIODIAG_FRESH/data/interim/validated/z_alizadeh_sani.csv": "88a89ea916f6e2f62617d033a46fbd782e2e710f26569e53185679edcdcaca2b",
+    "CARDIODIAG_FRESH/results/methodology_corrections_v2/reproducibility/split_manifest_v2.json": "eb8dee9301fd47b96ca92952bcf7c9c2bdb84319f5cf3fc4f66b63cbae40b458",
+    "CARDIODIAG_FRESH/results/research_extension_v1/transport/TARGET_PREDICTIONS.csv": "543738d988235896ebbb907b0e5e61a6d59f4fd5fef5ee412ae638ebba291d39",
+    "CARDIODIAG_FRESH/results/research_extension_v2/MANIFEST.json": "81fee95b2615a72c872b5254f1f1109902dafaec2164c4ead086670e0dffc600",
+    "CARDIODIAG_FRESH/results/research_extension_v2/CALIBRATION_PREDICTIONS.csv": "155a7d3e2e740ef5df3f72f74c69e48615ded034df5613d92f1303ae0adf2a78",
+    "CARDIODIAG_FRESH/results/research_extension_v2/ADAPTATION_PREDICTIONS.csv": "e5149381d4536c66f93d14096bfb887e7af61ad506a7f94a10eca2cee0c2a09d"
+  },
+  "outputs": {
+    "CARDIODIAG_FRESH/results/final_analyses_v3/ADAPTATION_LEARNING_PREDICTIONS.csv": "7d892f3e39c09476db9a901d01a4c78bf3617fb23e27e197df3c069e72e5f120",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/ADAPTATION_LEARNING_REPEAT_METRICS.csv": "acca14bfc31fdfa756fc6a711f3e6b3f23f691c97b331652fb6cce89bc19dcb5",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/ADAPTATION_LEARNING_SUMMARY.csv": "b7cfbb6b6f84c01491551b19fcd6caa744b32d8d62cf16b9ba55fa6f3fe9d46e",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/ADAPTATION_LEARNING_TRACE.json": "b16a7f6f7458eb01bbf81ad63f684cf4dc2c77a6cfd595847c2cab72bf8d608f",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/COEFFICIENT_BOOTSTRAPS.csv": "ff615461e2991d9969cb898b9066187871b9575e26c9af67443608a683550847",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/COEFFICIENT_STABILITY.csv": "6decb216337152ab795e72b0d8f95dd709bb3023a9b7da6c056fc3c4e0c2f751",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/DECISION_CURVES.csv": "5c39704a5719122105da8628b7f64bd44b66724ac70aba0f795501ba46cd3c7f",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/FROZEN_PROTOCOL.json": "7f11f7d26d355bf6737ee8d1e491afa039b165ab48a9b23ed1ab06da0c5b066c",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/PERTURBATION_PREDICTIONS.csv": "56366b6f5d6c60ad1e1e652e7122caddb34231151acf525a0a686f02910d1926",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/PERTURBATION_REPEAT_METRICS.csv": "2d8a7a345ded2e879ddee133c0fcf47ca8f0f5f186445e9882998c4e11e63675",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/PERTURBATION_SUMMARY.csv": "772c5c6ddfa682393eeffcf1c0dec6c66b53287efb209289839478cfe90f2606",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/SENSITIVITY_PREDICTIONS.csv": "7e4e7099ab1bce390d5ff008ffcdd9feb1a32b4e5319c7bc73374983778cd249",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/SENSITIVITY_REPEAT_METRICS.csv": "87f842298c2c3e30b68557e7ef130046b3e28b28f2acb1a1df5b71c5f75c575a",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/SOURCE_LEARNING_PREDICTIONS.csv": "740bf31ace8e0996ed23d2d0901556c04ae2702ca0083e716fc7aca4db5053d9",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/SOURCE_LEARNING_REPEAT_METRICS.csv": "3f95c250001b7d2454cd149a73b82ad9aa99cdf0ec31fe931bb348fa7ddb3665",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/SOURCE_LEARNING_SUMMARY.csv": "8f28b3f39b96a106774efb83cab3509e4b5c1850b80844866e6154025ffebfa4",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/THRESHOLD_SPLIT_TRACE.json": "e51d685fa282250624b1a68c7fb0bbe228e696d756585c9b0ba7657f1421e100",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/WARNINGS.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "completed_utc": "2026-11-14T15:25:10.695997+00:00",
+  "default_model_changed": false
+}

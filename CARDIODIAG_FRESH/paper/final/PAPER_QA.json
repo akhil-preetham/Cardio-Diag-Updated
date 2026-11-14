@@ -1,0 +1,35 @@
+{
+  "pages": 8,
+  "requested_page_range_met": true,
+  "blank_pages": [],
+  "missing_markers": [],
+  "replacement_glyphs": 0,
+  "body_font": "Times New Roman (regular, bold, italic, bold italic embedded)",
+  "body_size_tex_points": 10,
+  "body_size_pdf_points": 9.96264,
+  "main_font_runs": [
+    {
+      "font": "IHAIZV+TimesNewRomanPS-BoldMT",
+      "pdf_points": 9.96,
+      "characters": 1829
+    },
+    {
+      "font": "BZIVMZ+TimesNewRomanPSMT",
+      "pdf_points": 9.96,
+      "characters": 29927
+    },
+    {
+      "font": "IXFAWU+TimesNewRomanPS-BoldItalicMT",
+      "pdf_points": 9.96,
+      "characters": 18
+    },
+    {
+      "font": "TQTHRL+TimesNewRomanPS-ItalicMT",
+      "pdf_points": 9.96,
+      "characters": 811
+    }
+  ],
+  "font_exceptions": "Mathematical symbols and superscripts use TeX math fonts; figure labels are Times New Roman at nominal 10 points.",
+  "sha256": "b55e82f09e5bb4f836e8ffb38dff759373eb537a5cfc09ecceead8e91ebbb4fd",
+  "visual_review": "All eight final rendered pages reviewed, including numeric tables and figure page; no clipping, overlap or missing glyphs."
+}

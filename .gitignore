@@ -22,3 +22,5 @@ CARDIODIAG_FRESH/data/raw/ptb_diagnostic/
 CARDIODIAG_FRESH/data/raw/auricle/
 CARDIODIAG_FRESH/data/raw/nhanes/
 CARDIODIAG_FRESH/paper/**/rendered_pages*/
+# Local licensed fonts used to compile the final paper; never redistribute.
+CARDIODIAG_FRESH/paper/final/fonts/
