@@ -1136,15 +1136,15 @@
     "CARDIODIAG_FRESH/tests/test_primary_research_v4_performance.py": "66c60067974960b24fa665171f9dab137f022a630b684d44994db38a7d6bf70d",
     "CARDIODIAG_FRESH/tests/test_public_dataset_acquisition_v1.py": "1118f5b4883d4d0d50cf26caafa042584eca5fa4c904b3475c0855d8f62d8fdb",
     "CARDIODIAG_FRESH/tests/test_research_extension_independent.py": "a97725fe1620b0e97bef7c1cd4dc965bc53467bca8e730522c5cba4d959657a6",
-    "CARDIODIAG_FRESH/tests/test_research_extension_v1.py": "9bf00511ad46d16be555959dd5f32fca21fb52ff63fc8b9d0f8583064fb50291",
+    "CARDIODIAG_FRESH/tests/test_research_extension_v1.py": "9ec561b0d61cc63ac3c4f0f0bd55cfc100f866f2c7348786e684db8026d23c0d",
     "CARDIODIAG_FRESH/tests/test_research_predict_v1.py": "98718c4653967c9eecb0627856c01d9fdb13b4afa6dcdfae1791eea1dce62c5d",
     "CARDIODIAG_FRESH/tests/test_research_transport_v1.py": "fdfbea11ce17d724b1b707a219086ddc2ce68c26636976d6b94ba7707db2a8b3",
     "CARDIODIAG_FRESH/tests/test_runner.py": "c3870677f43a411a92652bf5e0e5621c1e002f49fd238519568441e853a31d91",
     "DATA_SOURCES.md": "526385f410d35c425162a784a3f10038460320ae9b69459b2a285f0e1f7b8836",
-    "README.md": "b3c42c9795f38b715d529273c71828da7e64b46c33409d493e89e57db940fb2f",
-    "RELEASE_CHECKS.md": "82a453159e1424ac154a6cadc78d93b316b036f5acf40a24d25a97cb797eaa17",
+    "README.md": "e4efb22ffb087c85e8063390bcd532f40066b2bf8fec723ce75a66433c90723a",
+    "RELEASE_CHECKS.md": "e8f5e4351dc31e26910d2103a8c2625db0fce5f2ba1384d80cc2fd9ad41aa315",
     "REPRODUCIBILITY.md": "dfb3a3909464a39bddba9d24af7988a46c76692c8efe532e8f50b8b461996a2e",
-    "SOURCE_PUBLICATION_MAP.csv": "e155374a7d55f8ce08dc6069807fa7c969087fa001cab46692ef9ad4cc4f1aa9",
+    "SOURCE_PUBLICATION_MAP.csv": "3c0f0fa4360089b4ceb169bf174e0a97d392e5c876509d0ab391aef50e890caf",
     "THIRD_PARTY_NOTICE.md": "e25f6a3b63a52a4d896f617e209026520adf0396d43c23818bb3359e8487c5eb",
     "project_handover_audit/COMPLETE_PROJECT_HISTORY.md": "e9541bebb5a2d0a4ebce92b8fce825298c6e48d693e6228a027416df9628c708",
     "project_handover_audit/DATASET_AND_PROVENANCE_AUDIT.md": "01aefe37ec0b7973ec38fc2bd57dbe2201e87b96070944433dccad5aaa3547e5",
@@ -1188,7 +1188,7 @@
     "research_publication_plan/updated_methodology_review.md": "2c7bd87be637bc7d7a0b410269fe8a22cd5dc3c0c57d57c0e2127334e90921b9",
     "tools/portable_predict.py": "1849c17b5ac1f598d3f1c3f84e6a79374a16e5b9b477e958f850a8376d51850d",
     "tools/portable_release.py": "98a556dc08340774df3cd1bc19264c016ed2d5e795a43e906ea6e78c3283da4b",
-    "tools/test_portable_release.py": "12d94a7c108091034b02b0e982097199d50824a8b7b977867a630c6f4d94eff9",
+    "tools/test_portable_release.py": "3cec0dace2cef3e533fe53ddcefdf2651dd79cbb8d4ad5feb35ce09ace3468aa",
     "tools/verify_publication.py": "755d4335a362dc8cb0e5d23f6595780c0b600556800b3dead85bd57228eab934"
   }
 }

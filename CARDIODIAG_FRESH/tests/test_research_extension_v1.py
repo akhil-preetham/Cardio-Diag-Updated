@@ -91,8 +91,11 @@ def test_completed_predictions_hashes_selection_and_component_averages():
     manifest = json.loads((zas.OUT / "MANIFEST.json").read_text(encoding="utf-8"))
     assert manifest["input_hashes"] == zas.input_hashes()
     assert manifest["corrected_component_searches"] == 45
+    from portable_release import rebase_path
+
     for relative, digest in manifest["outputs"].items():
-        assert zas.sha256(zas.ROOT / relative) == digest
+        current = rebase_path(relative, zas.ROOT.parent, zas.OUT / "MANIFEST.json")
+        assert zas.sha256(current) == digest
     pred = pd.read_csv(zas.OUT / "PREDICTIONS.csv")
     y = pd.read_csv(zas.legacy.DATA_PATH).Cath.map({"Cad": 1, "Normal": 0}).to_numpy(dtype=int)
     assert len(pred) == 303 * 3 * 8

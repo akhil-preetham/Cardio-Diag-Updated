@@ -37,7 +37,7 @@ python -m pytest -q
 
 The default tests cover the published primary study and portable release. They read saved results, test data/partition integrity and use small synthetic checks; **they do not rerun the full nested benchmark**. The original workstation suite passed 116 tests with one optional historical LoRAS dependency skipped. Historical code/tests are retained, but some older tracks need separately acquired datasets or optional packages and are outside the default release suite.
 
-The isolated publication environment passed **38 tests with one optional historical LoRAS test skipped**, and verified all **163 primary hash entries** with no missing-file allowances. All 153 published Python modules passed syntax parsing. See [release checks](RELEASE_CHECKS.md).
+The isolated publication environment passed **39 tests with one optional historical LoRAS test skipped**, and verified all **163 primary hash entries** with no missing-file allowances. All 153 published Python modules passed syntax parsing. See [release checks](RELEASE_CHECKS.md).
 
 The frozen runtime matters: the saved model and historical elastic-net configuration were produced with scikit-learn 1.9.1. The portable tools check core package versions before model loading. The release requirements use an exact transitive constraint file. The older unpinned requirements are retained as historical files, not the recommended release environment.
 

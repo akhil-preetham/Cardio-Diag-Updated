@@ -39,6 +39,15 @@ def test_path_traversal_and_unrecognized_absolute_paths_are_rejected(tmp_path):
             release.rebase_path(recorded, tmp_path, manifest)
 
 
+def test_windows_relative_manifest_paths_are_platform_neutral(tmp_path):
+    expected = tmp_path / "CARDIODIAG_FRESH/results/research_extension_v1/zas/scores.csv"
+    expected.parent.mkdir(parents=True)
+    expected.write_bytes(b"frozen data")
+    manifest = expected.parent / "MANIFEST.json"
+    recorded = r"results\research_extension_v1\zas\scores.csv"
+    assert release.rebase_path(recorded, tmp_path, manifest) == expected.resolve()
+
+
 def test_manifest_relocation_preserves_hashes_and_has_explicit_missing_allowlist(tmp_path):
     directory = tmp_path / "CARDIODIAG_FRESH/results"
     artifact = directory / "saved.csv"

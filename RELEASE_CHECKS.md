@@ -13,7 +13,7 @@ The scientific experiment and eight-page report were completed before repository
 - Saved model loading fails before unpickling if core runtime versions or the trusted local model bytes differ.
 - `.gitattributes` preserves exact frozen file bytes across operating systems.
 
-The original workstation suite result is **116 passed, one optional historical LoRAS test skipped**. The default publication profile intentionally targets the included primary datasets/evidence. A separately created Python 3.11 environment installed the release requirements successfully, passed dependency consistency, verified all **163 hash entries** without missing allowances, and passed **38 tests with one optional historical LoRAS test skipped**. All **153 published Python modules** passed syntax parsing. The exact transitive package versions are retained in `requirements-release.lock.txt`. Full legacy tracks remain optional because their data/environments are not all distributed in this repository.
+The original workstation suite result is **116 passed, one optional historical LoRAS test skipped**. The default publication profile intentionally targets the included primary datasets/evidence. A separately created Python 3.11 environment installed the release requirements successfully, passed dependency consistency, verified all **163 hash entries** without missing allowances, and passed **39 tests with one optional historical LoRAS test skipped**. All **153 published Python modules** passed syntax parsing. The exact transitive package versions are retained in `requirements-release.lock.txt`. Full legacy tracks remain optional because their data/environments are not all distributed in this repository.
 
 ## Scientific boundaries
 
