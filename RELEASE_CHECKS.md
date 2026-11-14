@@ -17,4 +17,6 @@ The original workstation suite result is **116 passed, one optional historical L
 
 ## Scientific boundaries
 
+The additive v2 follow-up completed all prespecified analyses with no captured warnings. Independent verification recomputed **84 complete-repeat metric groups**, checked 45-component development/calibration/test separation, target adaptation/evaluation separation and 50 bootstrap out-of-bag memberships. The clean ordinary-core rerun reproduced all 909 established predictions to 1e-12. The updated release suite passed **45 tests with one optional LoRAS test skipped**, and dependency consistency passed. The original 163 primary hash entries remain valid. Follow-up results and rejected variants are documented in [RELIABILITY_V2.md](RELIABILITY_V2.md).
+
 The results do not establish a new universally superior algorithm. Equal-feature logistic outperformed historical selection; calibration was mixed across repeats; cohort transport and input loss degraded performance. Predictor timing, unique patients, target binary ascertainment and endpoint equivalence remain unresolved. Ethics/funding/author declarations and journal submission requirements remain human responsibilities. This is a tested research release, not a claim that no future improvement is possible.

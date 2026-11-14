@@ -1,0 +1,11 @@
+model_id,contrast,metric,record_bootstrap_025,record_bootstrap_975,scope
+raw,minus identical raw ensemble,auc,0.0,0.0,"conditional saved source fits, shared record draws across repeats; not patient/refitting confidence"
+raw,minus identical raw ensemble,brier,0.0,0.0,"conditional saved source fits, shared record draws across repeats; not patient/refitting confidence"
+weak_v1,minus identical raw ensemble,auc,-0.013717460232135294,-0.0008741088732651791,"conditional saved source fits, shared record draws across repeats; not patient/refitting confidence"
+weak_v1,minus identical raw ensemble,brier,-0.00650856308566148,0.004021059842976522,"conditional saved source fits, shared record draws across repeats; not patient/refitting confidence"
+offset,minus identical raw ensemble,auc,-0.0020657549218872804,0.0007605143996937065,"conditional saved source fits, shared record draws across repeats; not patient/refitting confidence"
+offset,minus identical raw ensemble,brier,-0.0004281969003282114,0.00045534356435511573,"conditional saved source fits, shared record draws across repeats; not patient/refitting confidence"
+logit_c1,minus identical raw ensemble,auc,-0.006145104397792473,0.0019878954124877934,"conditional saved source fits, shared record draws across repeats; not patient/refitting confidence"
+logit_c1,minus identical raw ensemble,brier,-0.00532851048045546,0.0006850499031532823,"conditional saved source fits, shared record draws across repeats; not patient/refitting confidence"
+logit_cv,minus identical raw ensemble,auc,-0.007810183966264583,0.0016343488765792722,"conditional saved source fits, shared record draws across repeats; not patient/refitting confidence"
+logit_cv,minus identical raw ensemble,brier,-0.004917502664175744,0.001128428499983247,"conditional saved source fits, shared record draws across repeats; not patient/refitting confidence"

@@ -7,5 +7,6 @@ testpaths = [
   "CARDIODIAG_FRESH/tests/test_research_extension_independent.py",
   "CARDIODIAG_FRESH/tests/test_research_predict_v1.py",
   "tools/test_portable_release.py",
+  "tools/test_reliability_v2.py",
 ]
 addopts = "-ra"

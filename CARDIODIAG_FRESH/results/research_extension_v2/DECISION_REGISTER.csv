@@ -1,0 +1,9 @@
+track,candidate,reference,auc_delta,brier_delta,descriptive_nonregression_gate,default_changed,disposition
+typing,typed38_historical_calibration,l2_full38_historical_calibration,-0.01819923371647514,0.011796098522941653,False,False,not promoted; retain established default and report trade-off
+calibration,offset,weak_v1,0.006243791684404809,0.0017185467000306598,False,False,not promoted; retain established default and report trade-off
+calibration,logit_c1,weak_v1,0.004842486164325255,-0.0008089574851510989,True,False,additive research result; no automatic promotion
+calibration,logit_cv,weak_v1,0.003991060025542836,-0.00033045715358093197,True,False,additive research result; no automatic promotion
+missingness_clean,augmented_core,ordinary_core,-0.0014190435646374011,0.000990033575783672,False,False,not promoted; retain established default and report trade-off
+target_adaptation,target_offset,frozen_raw,0.00030442046838274894,-0.04752671984518955,True,False,additive research result; no automatic promotion
+target_adaptation,target_logit_c1,frozen_raw,-0.0039291479058704,-0.04945695859279681,False,False,not promoted; retain established default and report trade-off
+target_adaptation,target_logit_cv,frozen_raw,-0.0032919887859995667,-0.04933808754286306,False,False,not promoted; retain established default and report trade-off

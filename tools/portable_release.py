@@ -11,6 +11,7 @@ import importlib.metadata
 import json
 from pathlib import Path
 import re
+import sys
 
 
 PROJECT = "CARDIODIAG_FRESH"
@@ -92,6 +93,8 @@ def verify_manifest(path: Path, workspace: Path, allow_missing: tuple[str, ...] 
 
 def assert_frozen_runtime(workspace: Path) -> dict:
     """Do this before loading the trusted bundle or resuming any checkpoints."""
+    if sys.version_info[:2] != (3, 11):
+        raise RuntimeError('Frozen runtime requires Python 3.11')
     frozen = read_json(workspace / PROJECT / "results/research_extension_v1/zas/FROZEN_INPUTS.json")
     expected = frozen["versions"]
     actual, mismatches = {}, {}

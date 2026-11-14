@@ -121,3 +121,29 @@ def test_actual_saved_release_verifies_after_relocation_and_never_falls_back(tmp
     current_source.write_bytes(current_source.read_bytes() + b"\n")
     with pytest.raises(ValueError, match="Hash mismatch in this checkout"):
         release.verify_release(relocated)
+
+
+def test_scoring_reference_uses_requested_checkout_and_checks_before_models(tmp_path, monkeypatch):
+    import portable_predict
+    import pandas as pd
+    original = release.discover_workspace(Path(__file__))
+    relative = Path('CARDIODIAG_FRESH/data/interim/validated/z_alizadeh_sani.csv')
+    source = tmp_path / relative
+    source.parent.mkdir(parents=True)
+    source.write_bytes((original / relative).read_bytes())
+    manifest = tmp_path / 'CARDIODIAG_FRESH/results/research_extension_v1/transport/TRANSPORT_MANIFEST.json'
+    write_json(manifest, {'input_hashes': {relative.as_posix(): release.sha256(source)}})
+    source.write_bytes(source.read_bytes() + b'\n')
+    monkeypatch.setattr(portable_predict, 'assert_frozen_runtime', lambda _: {})
+    loaded = []
+    monkeypatch.setattr(portable_predict, 'load_trusted_source_models', lambda _: loaded.append(True))
+    values = pd.DataFrame([{'Age': 60, 'Sex': 'Male', 'DM': 0, 'HTN': 1, 'Current Smoker': 0}])
+    with pytest.raises(ValueError, match='Source reference hash mismatch'):
+        portable_predict.score(values, tmp_path)
+    assert not loaded
+
+
+def test_wrong_python_is_rejected_before_reading_files(tmp_path, monkeypatch):
+    monkeypatch.setattr(release.sys, 'version_info', (3, 12, 0))
+    with pytest.raises(RuntimeError, match='Python 3.11'):
+        release.assert_frozen_runtime(tmp_path)

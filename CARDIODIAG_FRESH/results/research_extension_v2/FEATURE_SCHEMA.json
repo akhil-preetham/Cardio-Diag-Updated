@@ -1,0 +1,115 @@
+{
+  "continuous": [
+    "Age",
+    "BP",
+    "PR",
+    "FBS",
+    "CR",
+    "TG",
+    "LDL",
+    "HDL",
+    "BUN",
+    "ESR",
+    "HB",
+    "K",
+    "Na",
+    "WBC",
+    "Lymph",
+    "Neut",
+    "PLT"
+  ],
+  "ordinal": {
+    "Function Class": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "binary": {
+    "DM": [
+      0,
+      1
+    ],
+    "HTN": [
+      0,
+      1
+    ],
+    "Current Smoker": [
+      0,
+      1
+    ],
+    "EX-Smoker": [
+      0,
+      1
+    ],
+    "FH": [
+      0,
+      1
+    ],
+    "Edema": [
+      0,
+      1
+    ],
+    "Typical Chest Pain": [
+      0,
+      1
+    ],
+    "Q Wave": [
+      0,
+      1
+    ],
+    "St Elevation": [
+      0,
+      1
+    ],
+    "St Depression": [
+      0,
+      1
+    ],
+    "Tinversion": [
+      0,
+      1
+    ]
+  },
+  "nominal": {
+    "Sex": [
+      "Fmale",
+      "Male"
+    ],
+    "Dyspnea": [
+      "N",
+      "Y"
+    ],
+    "Atypical": [
+      "N",
+      "Y"
+    ],
+    "Nonanginal": [
+      "N",
+      "Y"
+    ],
+    "Exertional CP": [
+      "N",
+      "Y"
+    ],
+    "LowTH Ang": [
+      "N",
+      "Y"
+    ],
+    "LVH": [
+      "N",
+      "Y"
+    ],
+    "Poor R Progression": [
+      "N",
+      "Y"
+    ],
+    "BBB": [
+      "N",
+      "LBBB",
+      "RBBB"
+    ]
+  },
+  "scope": "Recorded types/codes, not confirmed acquisition timing or clinical unit harmonization"
+}

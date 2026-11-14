@@ -38,5 +38,7 @@ jobs:
         run: python tools/portable_release.py --root . --check-runtime
       - name: Verify publication inventory
         run: python tools/verify_publication.py --root .
+      - name: Verify additive reliability studies
+        run: python tools/verify_reliability_v2.py
       - name: Run primary and portable release tests
         run: python -m pytest -q -p no:cacheprovider
