@@ -64,4 +64,4 @@ python -m pytest -q
 python tools/plot_reliability_v2.py
 ```
 
-The experiment runner refuses to overwrite a completed namespace. Reproduction of new fits requires a separately frozen output version. The existing eight-page IEEE report remains the v1 report; this document is its explicitly versioned follow-up, and new figures and threshold diagnostics are in `CARDIODIAG_FRESH/paper/research_extension_v2/`.
+The experiment runner refuses to overwrite a completed namespace. Reproduction of new fits requires a separately frozen output version. The original eight-page IEEE report remains unchanged. The integrated eight-page version-two report, editable LaTeX, new figures and threshold diagnostics are in `CARDIODIAG_FRESH/paper/research_extension_v2/`. `tools/build_report_v2.py` produces the new LaTeX from the preserved original source; compile it with Tectonic and visually review the rendered PDF with `tools/qa_report_v2.py` using a document runtime with pypdf, pypdfium2 and Pillow.

@@ -24,7 +24,7 @@ These results **do not establish an automated-selection advantage, universally r
 
 ## Quick start
 
-The additive [reliability follow-up](RELIABILITY_V2.md) includes calibration alternatives, training-only missingness augmentation, typed-feature comparisons, target adaptation, subgroup diagnostics and uncertainty analyses. Mixed results are retained; the established default and v1 report remain unchanged. Verify it with `python tools/verify_reliability_v2.py` after installing the runtime below.
+The additive [reliability follow-up](RELIABILITY_V2.md) includes calibration alternatives, training-only missingness augmentation, typed-feature comparisons, target adaptation, subgroup diagnostics and uncertainty analyses. Read the [integrated eight-page IEEE report](CARDIODIAG_FRESH/paper/research_extension_v2/CARDIODIAG_RESEARCH_REPORT_V2.pdf). Mixed results are retained; the established default and v1 report remain unchanged. Verify it with `python tools/verify_reliability_v2.py` after installing the runtime below.
 
 Use **Python 3.11**. From the repository root:
 

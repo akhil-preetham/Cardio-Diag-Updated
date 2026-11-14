@@ -1,0 +1,10 @@
+{
+  "pages": 8,
+  "requested_page_range_met": true,
+  "blank_pages": [],
+  "replacement_glyphs": 0,
+  "missing_markers": [],
+  "sha256": "62d3ec50a9cd8fce55422c192d2638526ae7d2c6c1747f24b579e44f0e8c8b6d",
+  "compiler": "Tectonic 0.17.0, IEEEtran conference",
+  "visual_review": "All eight final rendered pages reviewed; no clipping or overlap; tables V/VI follow historical I-IV; final figure page legible."
+}
