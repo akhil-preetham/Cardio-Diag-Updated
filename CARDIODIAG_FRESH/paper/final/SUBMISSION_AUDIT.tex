@@ -1,0 +1,63 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{fontspec,graphicx,xurl,booktabs,array,needspace}
+\setmainfont[Path={fonts/},BoldFont=timesbd.ttf,ItalicFont=timesi.ttf,BoldItalicFont=timesbi.ttf]{times.ttf}
+\urlstyle{same}
+\makeatletter\renewcommand\normalsize{\@setfontsize\normalsize{10}{12}}\makeatother
+\let\small\normalsize\let\footnotesize\normalsize\let\scriptsize\normalsize
+\let\large\normalsize\let\Large\normalsize\let\LARGE\normalsize
+\let\huge\normalsize\let\Huge\normalsize
+\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{2em}
+\let\originalsection\section
+\renewcommand\section{\Needspace{6\baselineskip}\originalsection}
+\begin{document}\normalsize
+
+\begin{center}\textbf{CARDIODIAG: Submission and Evidence Audit}\end{center}
+Reconciled 15 November 2026. Experimental evidence baseline: \path{97ee42c4d79453ef346bc0cfcb62e87fdfb7223b}. This is a computational/editorial author-review record, not a third-party clinical validation or confirmation that a journal will accept the work.
+
+\section*{1. Decision and integration record}
+The reviewed upgrade ZIP was based on commit d113234 and omitted the finalized threshold, learning, coefficient and perturbation analyses. Its main scores agreed with saved predictions and its listed hashes matched, but its manuscript used Latin Modern instead of requested Times New Roman; audit tables had overlapping paths. Its extra 1,500-draw bootstrap lacked delivered reproduction code/seed/draw files. That calculation and its claimed independent-review status are not imported.
+
+This revision selectively integrates the stronger research questions, literature framing, uncertainty boundaries and supplementary organization. The latest frozen experiments, negative outcomes and authors remain intact. No classifier, data mapping, fitted model, default or experimental prediction is altered. Main manuscript text remains Times New Roman, 10 point, two columns. Mathematical symbols/superscripts retain TeX math fonts. This is an IEEE-style report, not certification of any venue's exact template.
+
+\section*{2. Evidence checks and what they establish}
+\textbf{Saved metrics: computationally reconstructible.} The executable paper-evidence verifier recomputes per-repeat AUC, AP, Brier and log loss directly from frozen prediction rows. Sensitivity/specificity/PPV/NPV are recomputed from the saved threshold classifications. The generated trace retains cohort/procedure, condition, counts, input path and SHA-256. It is stronger provenance than copying README values, but is not independent investigator replication.
+
+\textbf{Selection/calibration separation: checked for the recorded design.} Development, calibration and outer-test IDs are disjoint in the corrected components. Target updating uses other target folds only. These checks do not erase earlier dataset exposure, establish predictor timing or prove zero bias across all researcher choices.
+
+\textbf{Cross-platform reproducibility: scoped.} Windows and Linux CI check runtime consistency, preserved hashes, metric reconstruction and tests. They do not retrain the entire nested search or validate a clinical workflow. The finalized baseline suite passed 48 tests with one optional historical LoRAS dependency skipped. The current revision's CI is the authoritative status for the revised artifact package.
+
+\textbf{Original evidence preserved.} All original and version-two namespaces and the final-analysis namespace remain untouched. Artifact integrity and correct mathematics do not establish unique patients, endpoint equivalence, representative sampling or clinical validity.
+
+\section*{3. Scientific claim boundary}
+The defensible contribution is a narrowly scoped empirical methodology/reliability study. Equal-information logistic regression exceeded historical selection in this workflow. Calibration shows ranking/loss trade-offs; target updating requires target labels; typed encoding and clean-input augmentation regress and remain unpromoted. Exploratory decision curves do not establish clinical benefit. No new ensemble, algorithmic priority, original-architecture superiority, prospective screening performance, fairness certification or deployment readiness is claimed.
+
+A matched corrected OVEC/OSEC experiment on identical eligible predictors and outer folds would be relevant if the question becomes architectural superiority. A genuinely independent compatible cohort with timing and patient linkage would address clinical transport more strongly. Neither result exists in this revision, and neither is described as completed.
+
+\section*{4. Literature checks}
+The new ZAS references and AngioCAD provider article have matching primary/indexed bibliographic records; URLs are given in the supplement and DOI citations in the paper. This targeted literature check is not a systematic novelty review. Published scores from different data/protocols are not a leaderboard. A coherent reliability study may still face editorial questions about contribution; no acceptance or venue-fit guarantee is given.
+
+\section*{5. Author-dependent items before submission}
+\begin{itemize}
+\item Confirm every author's inclusion/order, contributions and corresponding author/email. Current names and institution are user-supplied; contribution roles are not invented.
+\item Obtain the institution's applicable ethics determination and report it accurately. No approval/exemption number has been provided.
+\item Confirm funding, conflicts, consent/data-use statements and other venue-required declarations. Do not copy the base paper's declarations.
+\item Verify the AI-use disclosure against actual assistance, sections and tools. Do not assert an unverified model version. Authors remain responsible for all content.
+\item Review upstream code permissions and provider-specific dataset terms. The existing third-party notice records the unresolved upstream repository-wide license question; this package is not a license grant.
+\item Choose a venue and use its current required template. Confirm references, author metadata, reporting checklist and coauthor approval. No submission has been made.
+\end{itemize}
+
+\section*{6. Venue and formatting distinction}
+IEEE Access requires its own Word/LaTeX template and matching PDF; generic IEEEtran journal or conference formatting is not sufficient evidence of compliance. Current official preparation guidance also addresses accurate references, originality and disclosure of AI-generated content. Primary source, checked 15 November 2026:
+\par\url{https://ieeeaccess.ieee.org/authors/preparing-your-article/}
+
+The user-requested 10-point Times New Roman report is maintained as a project artifact. An eventual venue-specific submission may require a separate layout and additional declarations. No particular journal is selected on the authors' behalf.
+
+\section*{7. Package provenance and reproduction}
+Current source and saved data: \url{https://github.com/akhil-preetham/Cardio-Diag-Updated}.
+\par Exact experiment and figure paths are listed individually in Supplement S6, avoiding narrow multi-column path tables. The paper evidence manifest hashes both input code/data and delivered PDFs, editable sources, figures, numerical trace and QA reports. The publication inventory independently covers distributed repository bytes. Licensed font files remain local and are not redistributed.
+
+The editorial revision changes reporting artifacts only. It does not replace frozen experiments, manufacture missing clinical evidence or claim a new independent validation. The author-review gate remains open for the factual declarations above.
+
+\end{document}

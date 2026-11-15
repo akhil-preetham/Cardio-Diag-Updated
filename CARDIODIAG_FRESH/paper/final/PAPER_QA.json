@@ -11,12 +11,12 @@
     {
       "font": "IHAIZV+TimesNewRomanPS-BoldMT",
       "pdf_points": 9.96,
-      "characters": 1829
+      "characters": 1820
     },
     {
       "font": "BZIVMZ+TimesNewRomanPSMT",
       "pdf_points": 9.96,
-      "characters": 29927
+      "characters": 30467
     },
     {
       "font": "IXFAWU+TimesNewRomanPS-BoldItalicMT",
@@ -30,6 +30,6 @@
     }
   ],
   "font_exceptions": "Mathematical symbols and superscripts use TeX math fonts; figure labels are Times New Roman at nominal 10 points.",
-  "sha256": "b55e82f09e5bb4f836e8ffb38dff759373eb537a5cfc09ecceead8e91ebbb4fd",
-  "visual_review": "All eight final rendered pages reviewed, including numeric tables and figure page; no clipping, overlap or missing glyphs."
+  "sha256": "073382ae98ec621d5ee5937254ccf5d4c652e77b904346fc15adb71591424877",
+  "visual_review": "All eight final manuscript pages reviewed after editorial integration; no clipping, overlap or missing glyphs; 10-point Times New Roman retained."
 }

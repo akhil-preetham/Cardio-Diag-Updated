@@ -1,0 +1,22 @@
+{
+  "SUPPLEMENTARY_METHODS": {
+    "pages": 5,
+    "blank_pages": [],
+    "missing_markers": [],
+    "replacement_glyphs": 0,
+    "text_outside_page": [],
+    "sha256": "b2075d66f44d6e2ff2b73a72d7f041a6bdcd1424fc15a634505236f2af7d4793",
+    "font": "Times New Roman, 10 TeX points",
+    "visual_review": "All final rendered pages reviewed; paths wrap legibly, figures/captions are separate, no overlapping tables or clipped text."
+  },
+  "SUBMISSION_AUDIT": {
+    "pages": 2,
+    "blank_pages": [],
+    "missing_markers": [],
+    "replacement_glyphs": 0,
+    "text_outside_page": [],
+    "sha256": "2241b4c03772ee2e2e5e08ed354d58468d47013424817f05328d87b72e8c3b1d",
+    "font": "Times New Roman, 10 TeX points",
+    "visual_review": "All final rendered pages reviewed; paths wrap legibly, figures/captions are separate, no overlapping tables or clipped text."
+  }
+}

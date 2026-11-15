@@ -5,6 +5,7 @@ import re
 import shutil
 import pandas as pd
 from portable_release import discover_workspace, PROJECT
+from paper_editorial import enhance
 
 
 def main():
@@ -124,6 +125,7 @@ Information-matched logistic regression outperformed the historical selection pr
     text=text.replace(r'\begin{thebibliography}{9}',addition+'\n'+r'\begin{thebibliography}{10}')
     text=text.replace(r'\end{thebibliography}',r'''\bibitem{r10} A. J. Vickers and E. B. Elkin, "Decision curve analysis: a novel method for evaluating prediction models," Medical Decision Making, vol. 26, no. 6, pp. 565--574, 2006, doi: 10.1177/0272989X06295361.
 \end{thebibliography}''')
+    text=enhance(text)
     (out/'CARDIODIAG_FINAL_PAPER.tex').write_text(text,encoding='utf-8')
     print(out/'CARDIODIAG_FINAL_PAPER.tex')
 

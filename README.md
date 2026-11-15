@@ -26,6 +26,8 @@ These results **do not establish an automated-selection advantage, universally r
 
 **Finalized release:** [current eight-page paper](CARDIODIAG_FRESH/paper/final/CARDIODIAG_FINAL_PAPER.pdf), formatted in Times New Roman, 10 point. See [finalization and reproducibility notes](FINALIZATION.md) for all completed analyses, test results and remaining evidence limitations. The final additions include sensitivity-focused thresholds, decision curves, learning curves, coefficient stability and input perturbations. Verify them with `python tools/verify_final_analyses.py`.
 
+The reviewed submission package is now reconciled with the latest results: [supplementary methods](CARDIODIAG_FRESH/paper/final/SUPPLEMENTARY_METHODS.pdf), [submission/evidence audit](CARDIODIAG_FRESH/paper/final/SUBMISSION_AUDIT.pdf), and [artifact/rebuild notes](CARDIODIAG_FRESH/paper/final/README.md). Verify 732 reconstructed metric values and the paper artifacts with `python tools/paper_evidence.py`; no new classifier fits are required.
+
 The additive [reliability follow-up](RELIABILITY_V2.md) includes calibration alternatives, training-only missingness augmentation, typed-feature comparisons, target adaptation, subgroup diagnostics and uncertainty analyses. Read the [integrated eight-page IEEE report](CARDIODIAG_FRESH/paper/research_extension_v2/CARDIODIAG_RESEARCH_REPORT_V2.pdf). Mixed results are retained; the established default and v1 report remain unchanged. Verify it with `python tools/verify_reliability_v2.py` after installing the runtime below.
 
 Use **Python 3.11**. From the repository root:

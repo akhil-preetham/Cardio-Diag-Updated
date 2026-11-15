@@ -1,0 +1,12 @@
+{
+  "scope": "Plots of frozen evidence; no new model fits",
+  "inputs": {
+    "CARDIODIAG_FRESH/results/research_extension_v2/CALIBRATION_PREDICTIONS.csv": "155a7d3e2e740ef5df3f72f74c69e48615ded034df5613d92f1303ae0adf2a78",
+    "CARDIODIAG_FRESH/results/research_extension_v2/ADAPTATION_PREDICTIONS.csv": "e5149381d4536c66f93d14096bfb887e7af61ad506a7f94a10eca2cee0c2a09d",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/SOURCE_LEARNING_SUMMARY.csv": "8f28b3f39b96a106774efb83cab3509e4b5c1850b80844866e6154025ffebfa4",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/ADAPTATION_LEARNING_SUMMARY.csv": "b7cfbb6b6f84c01491551b19fcd6caa744b32d8d62cf16b9ba55fa6f3fe9d46e",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/DECISION_CURVES.csv": "5c39704a5719122105da8628b7f64bd44b66724ac70aba0f795501ba46cd3c7f",
+    "CARDIODIAG_FRESH/paper/final/NUMERIC_TRACEABILITY.csv": "1e6bfda603c1784707b6ec60e800748f7c5999ddc6959aa0fc82963df88385ab",
+    "tools/plot_final_analyses.py": "f748e7c4991027c6492dc844e5ca40513e71e213db07e97f9b3040d03defe5de"
+  }
+}

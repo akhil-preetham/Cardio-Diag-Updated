@@ -4,6 +4,8 @@ The current paper is `CARDIODIAG_FRESH/paper/final/CARDIODIAG_FINAL_PAPER.pdf`: 
 
 ## Completed scope
 
+The reviewed submission-upgrade draft has been selectively integrated into the current paper with its latest evidence retained. New supplementary methods and an author-review audit use readable wrapped paths and the requested typography. Figure values are loaded from frozen CSV evidence; `tools/paper_evidence.py` reconstructs 732 metric values across 180 prediction groups and verifies input/artifact hashes. Its scope is computational/editorial verification, not independent investigator or clinical replication. The unsupported additional bootstrap from the reviewed ZIP is excluded.
+
 - Original information-matched controls, selection-independent calibration and shared-core public-cohort transport.
 - Version-two calibration alternatives, explicit feature typing, training-only missingness augmentation, retrospective target adaptation, subgroup diagnostics and paired/refitting uncertainty. Worse candidates remain unpromoted.
 - Final sensitivity-focused threshold evaluation, decision curves, source learning curves, target-adaptation learning curves, coefficient stability and numeric input perturbations. Protocol/code/input hashes were frozen before experiments, with all variants retained.
