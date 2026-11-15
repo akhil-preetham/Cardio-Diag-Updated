@@ -1,0 +1,223 @@
+{
+  "sha256": "a15fd5c3c51a476e2addf94e9387e07a879cece46f8507ec55d1c4425beb1734",
+  "rendered_pages": 6,
+  "section_count": 6,
+  "sections": [
+    {
+      "index": 0,
+      "page_width_twips": 12240,
+      "page_height_twips": 15840,
+      "margins_twips": [
+        850,
+        850,
+        850,
+        850
+      ],
+      "header_twips": 708,
+      "footer_twips": 708,
+      "start_type": "NEW_PAGE (2)",
+      "columns": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}space": "720"
+      }
+    },
+    {
+      "index": 1,
+      "page_width_twips": 11906,
+      "page_height_twips": 16838,
+      "margins_twips": [
+        850,
+        850,
+        850,
+        850
+      ],
+      "header_twips": 708,
+      "footer_twips": 708,
+      "start_type": "CONTINUOUS (0)",
+      "columns": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}num": "2",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}space": "360"
+      }
+    },
+    {
+      "index": 2,
+      "page_width_twips": 11906,
+      "page_height_twips": 16838,
+      "margins_twips": [
+        850,
+        850,
+        850,
+        850
+      ],
+      "header_twips": 708,
+      "footer_twips": 708,
+      "start_type": "CONTINUOUS (0)",
+      "columns": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}space": "720"
+      }
+    },
+    {
+      "index": 3,
+      "page_width_twips": 11906,
+      "page_height_twips": 16838,
+      "margins_twips": [
+        850,
+        850,
+        850,
+        850
+      ],
+      "header_twips": 708,
+      "footer_twips": 708,
+      "start_type": "CONTINUOUS (0)",
+      "columns": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}num": "2",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}space": "360"
+      }
+    },
+    {
+      "index": 4,
+      "page_width_twips": 11906,
+      "page_height_twips": 16838,
+      "margins_twips": [
+        850,
+        850,
+        850,
+        850
+      ],
+      "header_twips": 708,
+      "footer_twips": 708,
+      "start_type": "CONTINUOUS (0)",
+      "columns": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}space": "720"
+      }
+    },
+    {
+      "index": 5,
+      "page_width_twips": 11906,
+      "page_height_twips": 16838,
+      "margins_twips": [
+        850,
+        850,
+        850,
+        850
+      ],
+      "header_twips": 708,
+      "footer_twips": 708,
+      "start_type": "CONTINUOUS (0)",
+      "columns": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}num": "2",
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}space": "360"
+      }
+    }
+  ],
+  "roles": {
+    "title": {
+      "source_paragraph": 0,
+      "style": "Normal",
+      "alignment": "CENTER (1)",
+      "before_pt": 0,
+      "after_pt": 2.0,
+      "line_spacing": "None",
+      "first_indent_pt": 0
+    },
+    "abstract": {
+      "source_paragraph": 4,
+      "style": "Normal",
+      "alignment": "JUSTIFY (3)",
+      "before_pt": 0,
+      "after_pt": 0,
+      "line_spacing": "None",
+      "first_indent_pt": 0
+    },
+    "keywords": {
+      "source_paragraph": 5,
+      "style": "Normal",
+      "alignment": "JUSTIFY (3)",
+      "before_pt": 0,
+      "after_pt": 0,
+      "line_spacing": "None",
+      "first_indent_pt": 0
+    },
+    "section": {
+      "source_paragraph": 6,
+      "style": "Normal",
+      "alignment": "None",
+      "before_pt": 10.0,
+      "after_pt": 4.5,
+      "line_spacing": "None",
+      "first_indent_pt": 0
+    },
+    "subsection": {
+      "source_paragraph": 7,
+      "style": "Normal",
+      "alignment": "None",
+      "before_pt": 4.5,
+      "after_pt": 3.0,
+      "line_spacing": "None",
+      "first_indent_pt": 0
+    },
+    "body": {
+      "source_paragraph": 8,
+      "style": "Normal",
+      "alignment": "JUSTIFY (3)",
+      "before_pt": 4.5,
+      "after_pt": 3.0,
+      "line_spacing": "None",
+      "first_indent_pt": 0
+    },
+    "algorithm_title": {
+      "source_paragraph": 60,
+      "style": "Normal",
+      "alignment": "None",
+      "before_pt": 0,
+      "after_pt": 1.0,
+      "line_spacing": "None",
+      "first_indent_pt": 0
+    },
+    "algorithm_step": {
+      "source_paragraph": 62,
+      "style": "Normal",
+      "alignment": "None",
+      "before_pt": 0,
+      "after_pt": 1.0,
+      "line_spacing": "None",
+      "first_indent_pt": 0
+    },
+    "table_caption": {
+      "source_paragraph": 84,
+      "style": "Normal",
+      "alignment": "CENTER (1)",
+      "before_pt": 2.0,
+      "after_pt": 2.0,
+      "line_spacing": "None",
+      "first_indent_pt": 0
+    },
+    "figure_caption": {
+      "source_paragraph": 87,
+      "style": "Normal",
+      "alignment": "CENTER (1)",
+      "before_pt": 3.0,
+      "after_pt": 8.0,
+      "line_spacing": "None",
+      "first_indent_pt": 0
+    },
+    "references_heading": {
+      "source_paragraph": 99,
+      "style": "Normal",
+      "alignment": "JUSTIFY (3)",
+      "before_pt": 0,
+      "after_pt": 5.5,
+      "line_spacing": "1.0625",
+      "first_indent_pt": 0
+    },
+    "reference": {
+      "source_paragraph": 100,
+      "style": "Normal",
+      "alignment": "JUSTIFY (3)",
+      "before_pt": 0,
+      "after_pt": 3.5,
+      "line_spacing": "None",
+      "first_indent_pt": -13.0
+    }
+  },
+  "reference_file_name": "NR_IQA_Conference_Paper (2).docx"
+}

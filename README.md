@@ -1,4 +1,4 @@
-# CARDIODIAG — updated research implementation
+# CARDIODIAG â€” updated research implementation
 
 A reproducible retrospective coronary artery disease study extending the original [CardioDiag work by Khan, Raza and Nadeem](https://doi.org/10.7717/peerj-cs.4059). This repository contains the project source, frozen research evidence, release verification tools and the final eight-page IEEE-style report.
 
@@ -17,7 +17,7 @@ Read the [eight-page report](CARDIODIAG_FRESH/paper/research_extension_v1/CARDIO
 | Equal-information comparison | Mean ZAS AUC 0.917447 for 38-feature L2 logistic versus 0.910316 for historical automated selection |
 | Information ablation | Removing ten symptom/examination fields reduced mean AUC to 0.846566; risk plus symptoms alone gave 0.903558 |
 | Selection-independent calibration | Matched calibrated/raw ensemble Brier 0.103731/0.105460; improvement in two repeats and deterioration in one |
-| New shared-core cohort evaluation | Source mean AUC 0.805884; AngioCAD AUC 0.712471 with a conditional record-bootstrap interval of 0.647437–0.773000 |
+| New shared-core cohort evaluation | Source mean AUC 0.805884; AngioCAD AUC 0.712471 with a conditional record-bootstrap interval of 0.647437â€“0.773000 |
 | Missing-input stress | Mean source AUC declined to 0.687544 under 50% random cell deletion |
 
 These results **do not establish an automated-selection advantage, universally reliable probabilities, clinical deployment readiness or prospective prediction**. The new AngioCAD model uses a different five-field core, not the historical V3 or 38-field model. Endpoint, coding, timing, population and patient-independence limitations are reported explicitly. Mixed and negative findings are preserved.
@@ -26,7 +26,9 @@ These results **do not establish an automated-selection advantage, universally r
 
 Current author names, contact emails and GitHub accounts are recorded in [AUTHORS.md](AUTHORS.md). The final paper uses the corrected full name **Golla Vennela**.
 
-**Finalized release:** [current eight-page paper](CARDIODIAG_FRESH/paper/final/CARDIODIAG_FINAL_PAPER.pdf), formatted in Times New Roman, 10 point. See [finalization and reproducibility notes](FINALIZATION.md) for all completed analyses, test results and remaining evidence limitations. The final additions include sensitivity-focused thresholds, decision curves, learning curves, coefficient stability and input perturbations. Verify them with `python tools/verify_final_analyses.py`.
+**Reference-style paper:** [editable six-page Word paper](CARDIODIAG_FRESH/paper/reference_format/CARDIODIAG_CONFERENCE_PAPER.docx) and [matching PDF](CARDIODIAG_FRESH/paper/reference_format/CARDIODIAG_CONFERENCE_PAPER.pdf), using Times New Roman 10 point and the supplied reference’s section/column layout. See [format and rebuild notes](CARDIODIAG_FRESH/paper/reference_format/CONFERENCE_FORMAT_README.md). Verify with `python tools/verify_conference_paper.py`. The reference mixes Letter and A4 section sizes; confirm the actual venue requirements before submission.
+
+**Detailed research report:** [eight-page paper](CARDIODIAG_FRESH/paper/final/CARDIODIAG_FINAL_PAPER.pdf), formatted in Times New Roman, 10 point. See [finalization and reproducibility notes](FINALIZATION.md) for all completed analyses, test results and remaining evidence limitations. The final additions include sensitivity-focused thresholds, decision curves, learning curves, coefficient stability and input perturbations. Verify them with `python tools/verify_final_analyses.py`.
 
 The reviewed submission package is now reconciled with the latest results: [supplementary methods](CARDIODIAG_FRESH/paper/final/SUPPLEMENTARY_METHODS.pdf), [submission/evidence audit](CARDIODIAG_FRESH/paper/final/SUBMISSION_AUDIT.pdf), and [artifact/rebuild notes](CARDIODIAG_FRESH/paper/final/README.md). Verify 732 reconstructed metric values and the paper artifacts with `python tools/paper_evidence.py`; no new classifier fits are required.
 

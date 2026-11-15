@@ -1,0 +1,54 @@
+{
+  "pdf_pages": 6,
+  "requested_page_range_met": true,
+  "blank_pages": [],
+  "missing_markers": [],
+  "replacement_glyphs": 0,
+  "text_outside_page": [],
+  "all_main_text_10pt": true,
+  "main_font": "Times New Roman",
+  "font_runs": [
+    {
+      "font": "BCDEEE+TimesNewRomanPS-BoldMT",
+      "points": 9.96,
+      "characters": 471
+    },
+    {
+      "font": "BCDFEE+TimesNewRomanPSMT",
+      "points": 9.96,
+      "characters": 19560
+    },
+    {
+      "font": "BCDGEE+TimesNewRomanPS-BoldItalicMT",
+      "points": 9.96,
+      "characters": 374
+    },
+    {
+      "font": "BCDHEE+TimesNewRomanPS-BoldItalicMT",
+      "points": 9.96,
+      "characters": 2
+    },
+    {
+      "font": "BCDIEE+TimesNewRomanPS-ItalicMT",
+      "points": 9.96,
+      "characters": 112
+    },
+    {
+      "font": "BCDJEE+TimesNewRomanPSMT",
+      "points": 9.96,
+      "characters": 135
+    }
+  ],
+  "math_representation": "Three native editable Word equations; mathematical glyphs use Word math fonts",
+  "render_backend": "Packaged render_docx.py with native Microsoft Word read-only PDF export and PDFium rasterization",
+  "reference_unchanged": true,
+  "docx_sha256": "c0cc8f5761c2358b7a3bf05381e0a83d816aadf13d5e6caafcc2890a141950ce",
+  "pdf_sha256": "86e114816c9dbacb11fb5ed10eef392fd1716f3ff9f0f751f3f04175926cd8eb",
+  "structure": {
+    "sections": 6,
+    "editable_equations": 3,
+    "metric_table_cells_verified": 65,
+    "reference_research_copied": false
+  },
+  "visual_review": "passed: all six final rendered pages inspected; tables intact, figures legible, no clipping or overlap"
+}

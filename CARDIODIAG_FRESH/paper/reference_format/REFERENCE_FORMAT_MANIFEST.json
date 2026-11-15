@@ -1,0 +1,34 @@
+{
+  "scope": "Reference-derived presentation; frozen experimental results unchanged",
+  "inputs": {
+    "tools/build_conference_word.py": "dee949b3d7cb57b7be8c9e5471e845589fa90b8f3f1cee853f220629d2a5af8e",
+    "tools/plot_conference_paper.py": "ccb389be9f5718fa7b5a18bc5811bda0349746706761e083938c4b2dd9aeba58",
+    "AUTHORS.json": "40b733107810980e7cdfadbc084dab6859636ba142079d530571cb3d73530f7f",
+    "CARDIODIAG_FRESH/paper/final/CARDIODIAG_FINAL_PAPER.tex": "ade3a1447dc420a2fa613f925a3809a400a74ad8896ff8c0805cb9957dcaa8b8",
+    "CARDIODIAG_FRESH/paper/final/NUMERIC_TRACEABILITY.csv": "1e6bfda603c1784707b6ec60e800748f7c5999ddc6959aa0fc82963df88385ab",
+    "CARDIODIAG_FRESH/results/research_extension_v2/CALIBRATION_PREDICTIONS.csv": "155a7d3e2e740ef5df3f72f74c69e48615ded034df5613d92f1303ae0adf2a78",
+    "CARDIODIAG_FRESH/results/research_extension_v2/ADAPTATION_PREDICTIONS.csv": "e5149381d4536c66f93d14096bfb887e7af61ad506a7f94a10eca2cee0c2a09d",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/SOURCE_LEARNING_SUMMARY.csv": "8f28b3f39b96a106774efb83cab3509e4b5c1850b80844866e6154025ffebfa4",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/ADAPTATION_LEARNING_SUMMARY.csv": "b7cfbb6b6f84c01491551b19fcd6caa744b32d8d62cf16b9ba55fa6f3fe9d46e",
+    "CARDIODIAG_FRESH/results/final_analyses_v3/DECISION_CURVES.csv": "5c39704a5719122105da8628b7f64bd44b66724ac70aba0f795501ba46cd3c7f",
+    "CARDIODIAG_FRESH/paper/reference_format/workflow.png": "f18679e9929eaae7b0dfd03990513aaca8b366058341faa7f269e683ae0aa92c",
+    "CARDIODIAG_FRESH/paper/reference_format/roc.png": "a94a785bb850dfc6314b3a8b9eedcfbde5ffe88b73355a8ffb166aeb68f772d9",
+    "CARDIODIAG_FRESH/paper/reference_format/learning.png": "42c239ff279acdb0d784edd2d163cd65ac7bbae7e619b33ba788a7b1ab5f9810",
+    "CARDIODIAG_FRESH/paper/reference_format/decision.png": "4d05924871b294351266fd42b36b9f66b6a0f502302b8ab521040c2ad6e9b575",
+    "tools/verify_conference_paper.py": "1147779c20d3c2645f0b3a900786dc965c83fd456f74cf0e20f58cdfae87dd2c",
+    "tools/render_conference_word.py": "6379e46d9410987c1b2aa93983d848dc59414ac116ad1cef109edac3e86f9047",
+    "tools/qa_conference_paper.py": "f15295d1371dcbb0f7db9dfa11b06f3fa1ee3be96b8bd167440e2c80c588f1ac"
+  },
+  "artifacts": {
+    "CARDIODIAG_FRESH/paper/reference_format/BUILD_PROVENANCE.json": "9f36373ff9c35f9ff7a1314ce5f3dd07e386d83931b069409beb720753709fec",
+    "CARDIODIAG_FRESH/paper/reference_format/CARDIODIAG_CONFERENCE_PAPER.docx": "c0cc8f5761c2358b7a3bf05381e0a83d816aadf13d5e6caafcc2890a141950ce",
+    "CARDIODIAG_FRESH/paper/reference_format/CARDIODIAG_CONFERENCE_PAPER.pdf": "86e114816c9dbacb11fb5ed10eef392fd1716f3ff9f0f751f3f04175926cd8eb",
+    "CARDIODIAG_FRESH/paper/reference_format/CONFERENCE_FORMAT_README.md": "da7dcfd39a940ce67a19cae3fdac2ad459d633c26477be1337bc1d07e84d3b8f",
+    "CARDIODIAG_FRESH/paper/reference_format/CONFERENCE_QA.json": "cc0778dd5e844739ffeb90aab091443f4f2ed2185cc14407067d61cc836c58d9",
+    "CARDIODIAG_FRESH/paper/reference_format/decision.png": "4d05924871b294351266fd42b36b9f66b6a0f502302b8ab521040c2ad6e9b575",
+    "CARDIODIAG_FRESH/paper/reference_format/learning.png": "42c239ff279acdb0d784edd2d163cd65ac7bbae7e619b33ba788a7b1ab5f9810",
+    "CARDIODIAG_FRESH/paper/reference_format/REFERENCE_LAYOUT.json": "b88ceca6bcf8bfec2f63d013e39ddae9368f182a2f9f72c5d5155b70e6547665",
+    "CARDIODIAG_FRESH/paper/reference_format/roc.png": "a94a785bb850dfc6314b3a8b9eedcfbde5ffe88b73355a8ffb166aeb68f772d9",
+    "CARDIODIAG_FRESH/paper/reference_format/workflow.png": "f18679e9929eaae7b0dfd03990513aaca8b366058341faa7f269e683ae0aa92c"
+  }
+}

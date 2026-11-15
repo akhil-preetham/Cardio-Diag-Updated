@@ -1,6 +1,8 @@
 # Finalized retrospective research release
 
-The current paper is `CARDIODIAG_FRESH/paper/final/CARDIODIAG_FINAL_PAPER.pdf`: eight pages, two columns, actual embedded Times New Roman at 10 TeX points (9.96264 PDF points). Title, body, tables and references use the requested 10-point text. Mathematical notation retains TeX symbol/superscript fonts. Plot labels use Times New Roman at nominal 10 points. The previous papers and all historical research outputs remain unchanged.
+The reference-style six-page editable Word paper and matching PDF are in `CARDIODIAG_FRESH/paper/reference_format/`. They follow the supplied reference layout with Times New Roman 10-point text, three editable equations and 65 independently verified table values. All six rendered pages were inspected. This changes presentation only; frozen experiments and results remain unchanged. See the folderâ€™s `CONFERENCE_FORMAT_README.md` for layout deviations and rebuilding.
+
+The detailed research report is `CARDIODIAG_FRESH/paper/final/CARDIODIAG_FINAL_PAPER.pdf`: eight pages, two columns, actual embedded Times New Roman at 10 TeX points (9.96264 PDF points). Title, body, tables and references use the requested 10-point text. Mathematical notation retains TeX symbol/superscript fonts. Plot labels use Times New Roman at nominal 10 points. The previous papers and all historical research outputs remain unchanged.
 
 ## Completed scope
 

@@ -44,5 +44,7 @@ jobs:
         run: python tools/verify_final_analyses.py
       - name: Reconstruct paper metrics and verify editorial artifacts
         run: python tools/paper_evidence.py
+      - name: Verify reference-style Word paper and metric tables
+        run: python tools/verify_conference_paper.py
       - name: Run primary and portable release tests
         run: python -m pytest -q -p no:cacheprovider
