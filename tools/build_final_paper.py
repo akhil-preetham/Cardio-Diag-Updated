@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import re
 import shutil
+import json
 import pandas as pd
 from portable_release import discover_workspace, PROJECT
 from paper_editorial import enhance
@@ -10,7 +11,9 @@ from paper_editorial import enhance
 
 def main():
     root=discover_workspace();out=root/PROJECT/'paper/final';out.mkdir(exist_ok=True)
+    authors=json.loads((root/'AUTHORS.json').read_text(encoding='utf-8'))['authors']
     text=(root/PROJECT/'paper/research_extension_v2/CARDIODIAG_RESEARCH_REPORT_V2.tex').read_text(encoding='utf-8')
+    text=text.replace('G Vennela',authors[2]['name'])
     fonts=Path(os.environ.get('CARDIODIAG_TIMES_DIR','C:/Windows/Fonts')).resolve()
     for name in ['times.ttf','timesbd.ttf','timesi.ttf','timesbi.ttf']:
         if not (fonts/name).is_file(): raise FileNotFoundError('Set CARDIODIAG_TIMES_DIR to licensed Times New Roman fonts')
@@ -33,10 +36,15 @@ def main():
 \normalsize'''.replace('FONTDIR',fonts.as_posix()))
     title=re.search(r'\\title\{([^}]+)\}',text).group(1)
     titleblock=r'''\twocolumn[\begin{center}\normalsize\textbf{TITLE}\par\vspace{6pt}
-Erukudinnela Akhil Preetham, Chunduri Hari Krishna, G Vennela\\
+\begin{tabular}{ccc}
+AUTHOR_NAMES\\
+AUTHOR_EMAILS
+\end{tabular}\\
 Department of Computer Science and Engineering\\
 Prasad V. Potluri Siddhartha Institute of Technology (PVPSIT), Vijayawada, Andhra Pradesh, India\\
 Project guide: K. Naga Gopi\end{center}\vspace{8pt}]'''.replace('TITLE',title)
+    titleblock=titleblock.replace('AUTHOR_NAMES',' & '.join(a['name'] for a in authors))
+    titleblock=titleblock.replace('AUTHOR_EMAILS',' & '.join(r'\textnormal{'+a['email']+'}' for a in authors))
     text=text.replace(r'\maketitle',titleblock)
     text=re.sub(r'\\begin\{abstract\}.*?\\end\{abstract\}',lambda _:r'''\begin{abstract}
 High cardiovascular classification scores do not establish fair model comparisons, calibrated probabilities or cross-cohort reliability. We extend a CardioDiag-derived project through information-matched controls, selection-independent calibration and compatibility-constrained public-cohort evaluation. Z-Alizadeh Sani contains 303 source rows, including 216 CAD labels. Fifteen paired outer partitions compare historical selection with a 38-feature logistic control and independently calibrated ensembles. Mean source ROC-AUC was 0.9103 for selection and 0.9174 for equal-feature logistic regression. Fixed-C1 logit calibration improved the existing independent-calibration ensemble from AUC/Brier 0.9096/0.1037 to 0.9144/0.1029, while retaining lower AUC than identical uncalibrated components. A separate five-core model achieved source AUC 0.8059 and frozen-target AUC 0.7125 on 377 matched AngioCAD cases. Retrospective target-offset adaptation reduced held-out Brier from 0.1982 to 0.1507. Missingness augmentation improved performance under heavy random deletion but slightly degraded complete-input performance; typed encoding also regressed and was not promoted. A training-only 90\%-sensitivity threshold yielded held-out sensitivity 0.8889 and specificity 0.4904. Learning curves, coefficient bootstraps, input perturbations and exploratory decision curves quantify remaining sensitivities. Predictions, partitions, maps, hashes and tests preserve both positive and negative results. Previously examined cohorts, unresolved predictor timing, unverified patient independence and endpoint/coding differences preclude prospective or clinical-deployment claims. The contribution is an auditable retrospective reliability study rather than a universally superior diagnostic algorithm.

@@ -24,6 +24,8 @@ These results **do not establish an automated-selection advantage, universally r
 
 ## Quick start
 
+Current author names, contact emails and GitHub accounts are recorded in [AUTHORS.md](AUTHORS.md). The final paper uses the corrected full name **Golla Vennela**.
+
 **Finalized release:** [current eight-page paper](CARDIODIAG_FRESH/paper/final/CARDIODIAG_FINAL_PAPER.pdf), formatted in Times New Roman, 10 point. See [finalization and reproducibility notes](FINALIZATION.md) for all completed analyses, test results and remaining evidence limitations. The final additions include sensitivity-focused thresholds, decision curves, learning curves, coefficient stability and input perturbations. Verify them with `python tools/verify_final_analyses.py`.
 
 The reviewed submission package is now reconciled with the latest results: [supplementary methods](CARDIODIAG_FRESH/paper/final/SUPPLEMENTARY_METHODS.pdf), [submission/evidence audit](CARDIODIAG_FRESH/paper/final/SUBMISSION_AUDIT.pdf), and [artifact/rebuild notes](CARDIODIAG_FRESH/paper/final/README.md). Verify 732 reconstructed metric values and the paper artifacts with `python tools/paper_evidence.py`; no new classifier fits are required.

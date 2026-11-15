@@ -15,7 +15,8 @@ pdf=out/'CARDIODIAG_FINAL_PAPER.pdf';reader=PdfReader(pdf)
 texts=[p.extract_text() for p in reader.pages]
 joined=re.sub(r'\s+','','\n'.join(texts)).casefold()
 required=['Abstract','Experimental Design','Final Decision and Stability Analyses',
-          'Conclusion','References','0.888889','0.490421','0.152489','0.914449','0.150723']
+          'Conclusion','References','0.888889','0.490421','0.152489','0.914449','0.150723',
+          'Golla Vennela','akhilofficial1505@gmail.com','harikrishnachunduri123@gmail.com','gollavennela2006@gmail.com']
 with pdfplumber.open(pdf) as doc:
     # Font sizes in PDF points: 10 TeX points = 9.96264 PDF points.
     fonts=Counter((c['fontname'],round(c['size'],2)) for page in doc.pages for c in page.chars if c['text'].strip())

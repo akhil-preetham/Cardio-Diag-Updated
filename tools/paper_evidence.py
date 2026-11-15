@@ -48,6 +48,7 @@ def collect():
 
 def write_manifest():
     paths=[p for _,p,_ in SPECS]
+    paths += [ROOT/'AUTHORS.json']
     paths += [ROOT/'tools'/name for name in ['paper_evidence.py','paper_editorial.py',
         'build_final_paper.py','plot_final_analyses.py','build_submission_documents.py',
         'qa_final_paper.py','qa_submission_documents.py']]

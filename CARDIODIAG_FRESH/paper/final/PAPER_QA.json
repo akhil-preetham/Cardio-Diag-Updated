@@ -16,7 +16,7 @@
     {
       "font": "BZIVMZ+TimesNewRomanPSMT",
       "pdf_points": 9.96,
-      "characters": 30467
+      "characters": 30554
     },
     {
       "font": "IXFAWU+TimesNewRomanPS-BoldItalicMT",
@@ -30,6 +30,6 @@
     }
   ],
   "font_exceptions": "Mathematical symbols and superscripts use TeX math fonts; figure labels are Times New Roman at nominal 10 points.",
-  "sha256": "073382ae98ec621d5ee5937254ccf5d4c652e77b904346fc15adb71591424877",
-  "visual_review": "All eight final manuscript pages reviewed after editorial integration; no clipping, overlap or missing glyphs; 10-point Times New Roman retained."
+  "sha256": "814a7c043958d6927e58925b6924f3cc24facab65c764e1e650d9295023c392e",
+  "visual_review": "All eight rendered pages checked; corrected Golla Vennela name and three email addresses verified on page one, Times New Roman 10 point, no clipping or overlap."
 }

@@ -1,0 +1,24 @@
+{
+  "authors": [
+    {
+      "name": "Erukudinnela Akhil Preetham",
+      "email": "akhilofficial1505@gmail.com",
+      "github_username": "akhil-preetham"
+    },
+    {
+      "name": "Chunduri Hari Krishna",
+      "email": "harikrishnachunduri123@gmail.com",
+      "github_username": "HARICH529"
+    },
+    {
+      "name": "Golla Vennela",
+      "email": "gollavennela2006@gmail.com",
+      "github_username": "Vennela-8116"
+    }
+  ],
+  "institution": "Prasad V. Potluri Siddhartha Institute of Technology (PVPSIT), Vijayawada, Andhra Pradesh, India",
+  "department": "Department of Computer Science and Engineering",
+  "project_guide": "K. Naga Gopi",
+  "corresponding_author": null,
+  "source": "Names, order, affiliation and contacts supplied by the project author. Vennela's supplied email resolved to Vennela-8116 in GitHub's invitation UI; Vennela_08 did not match an account."
+}
